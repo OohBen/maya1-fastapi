@@ -6,6 +6,22 @@ import numpy as np
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from snac import SNAC
 
+
+def get_optimal_device() -> str:
+    """
+    Detect the best available device for PyTorch operations.
+    Priority order: CUDA (NVIDIA) > MPS (Apple Silicon) > CPU
+
+    Returns:
+        str: Device string ("cuda", "mps", or "cpu")
+    """
+    if torch.cuda.is_available():
+        return "cuda"
+    elif torch.backends.mps.is_available():
+        return "mps"
+    else:
+        return "cpu"
+
 # Mock spaces module for local testing
 try:
     import spaces
@@ -103,24 +119,23 @@ def unpack_snac_from_7(snac_tokens: list) -> list:
 def load_models():
     """Load Maya1 Transformers model (runs once)."""
     global model, tokenizer, snac_model, models_loaded
-    
+
     if models_loaded:
         return
-    
-    print("Loading Maya1 model with Transformers...")
+
+    device = get_optimal_device()
+    print(f"Loading Maya1 model with Transformers on {device}...")
     model = AutoModelForCausalLM.from_pretrained(
-        "maya-research/maya1", 
-        torch_dtype=torch.bfloat16, 
+        "maya-research/maya1",
+        torch_dtype=torch.bfloat16,
         device_map="auto",
         trust_remote_code=True
     )
     tokenizer = AutoTokenizer.from_pretrained("maya-research/maya1", trust_remote_code=True)
-    
-    print("Loading SNAC decoder...")
-    snac_model = SNAC.from_pretrained("hubertsiuzdak/snac_24khz").eval()
-    if torch.cuda.is_available():
-        snac_model = snac_model.to("cuda")
-    
+
+    print(f"Loading SNAC decoder on {device}...")
+    snac_model = SNAC.from_pretrained("hubertsiuzdak/snac_24khz").eval().to(device)
+
     models_loaded = True
     print("Models loaded successfully!")
 
@@ -151,9 +166,10 @@ def generate_speech(preset_name, description, text, temperature, max_tokens):
         # Build prompt
         prompt = build_prompt(tokenizer, description, text)
         inputs = tokenizer(prompt, return_tensors="pt")
-        
-        if torch.cuda.is_available():
-            inputs = {k: v.to("cuda") for k, v in inputs.items()}
+
+        device = get_optimal_device()
+        if device != "cpu":
+            inputs = {k: v.to(device) for k, v in inputs.items()}
         
         # Generate tokens
         with torch.inference_mode():
@@ -182,8 +198,8 @@ def generate_speech(preset_name, description, text, temperature, max_tokens):
         # Unpack and decode
         levels = unpack_snac_from_7(snac_tokens)
         frames = len(levels[0])
-        
-        device = "cuda" if torch.cuda.is_available() else "cpu"
+
+        # Use the same device as snac_model
         codes_tensor = [torch.tensor(level, dtype=torch.long, device=device).unsqueeze(0) for level in levels]
         
         with torch.inference_mode():

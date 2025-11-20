@@ -6,6 +6,22 @@ from snac import SNAC
 import soundfile as sf
 import numpy as np
 
+
+def get_optimal_device() -> str:
+    """
+    Detect the best available device for PyTorch operations.
+    Priority order: CUDA (NVIDIA) > MPS (Apple Silicon) > CPU
+
+    Returns:
+        str: Device string ("cuda", "mps", or "cpu")
+    """
+    if torch.cuda.is_available():
+        return "cuda"
+    elif torch.backends.mps.is_available():
+        return "mps"
+    else:
+        return "cpu"
+
 CODE_START_TOKEN_ID = 128257
 CODE_END_TOKEN_ID = 128258
 CODE_TOKEN_OFFSET = 128266
@@ -102,10 +118,9 @@ def main():
     
     # Load SNAC audio decoder (24kHz)
     print("\n[2/3] Loading SNAC audio decoder...")
-    snac_model = SNAC.from_pretrained("hubertsiuzdak/snac_24khz").eval()
-    if torch.cuda.is_available():
-        snac_model = snac_model.to("cuda")
-    print("SNAC decoder loaded")
+    device = get_optimal_device()
+    snac_model = SNAC.from_pretrained("hubertsiuzdak/snac_24khz").eval().to(device)
+    print(f"SNAC decoder loaded on {device}")
     
     # Design your voice with natural language
     description = "Realistic male voice in the 30s age with american accent. Normal pitch, warm timbre, conversational pacing."
@@ -126,8 +141,10 @@ def main():
     # Generate emotional speech
     inputs = tokenizer(prompt, return_tensors="pt")
     print(f"   Input token count: {inputs['input_ids'].shape[1]} tokens")
-    if torch.cuda.is_available():
-        inputs = {k: v.to("cuda") for k, v in inputs.items()}
+
+    # Move inputs to the same device as the model (device_map="auto" handles model placement)
+    if device != "cpu":
+        inputs = {k: v.to(device) for k, v in inputs.items()}
     
     with torch.inference_mode():
         outputs = model.generate(
@@ -186,9 +203,8 @@ def main():
     print(f"   L1: {len(levels[0])} codes")
     print(f"   L2: {len(levels[1])} codes")
     print(f"   L3: {len(levels[2])} codes")
-    
-    # Convert to tensors
-    device = "cuda" if torch.cuda.is_available() else "cpu"
+
+    # Convert to tensors (use the same device as snac_model)
     codes_tensor = [
         torch.tensor(level, dtype=torch.long, device=device).unsqueeze(0)
         for level in levels

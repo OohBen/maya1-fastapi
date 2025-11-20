@@ -38,6 +38,31 @@ curl -X POST "http://localhost:8000/v1/tts/generate" \
   --output output.wav
 ```
 
+## Device Support
+
+Maya1 supports multiple compute devices:
+
+- **CUDA (NVIDIA GPUs)**: Full support for all features including vLLM-based server
+- **MPS (Apple Silicon Macs)**: Supported via transformers-based inference
+- **CPU**: Fallback option (slower performance)
+
+### Mac/Apple Silicon Users
+
+The vLLM-based FastAPI server (`server.sh`) does **not** support MPS. For Mac users, use one of these alternatives:
+
+**Option 1: Transformers Inference Script (Recommended)**
+```bash
+python transformers_inference.py
+```
+
+**Option 2: Gradio UI**
+```bash
+cd hf_space
+python app.py
+```
+
+Both options automatically detect and use MPS when available, providing good performance on Apple Silicon.
+
 ## API
 
 **Endpoint:** `POST /v1/tts/generate`

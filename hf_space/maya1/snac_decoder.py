@@ -11,6 +11,7 @@ from .constants import (
     SNAC_SAMPLE_RATE,
     SNAC_TOKENS_PER_FRAME,
 )
+from .device_utils import get_optimal_device
 
 
 class SNACDecoder:
@@ -24,7 +25,7 @@ class SNACDecoder:
     
     def __init__(
         self,
-        device: str = "cuda",
+        device: Optional[str] = None,
         compile_decoder: bool = False,
         enable_batching: bool = False,
         max_batch_size: int = 64,
@@ -32,14 +33,16 @@ class SNACDecoder:
     ):
         """
         Initialize SNAC decoder.
-        
+
         Args:
-            device: Device for SNAC model (cuda/cpu)
+            device: Device for SNAC model (cuda/mps/cpu). If None, auto-detects best available device.
             compile_decoder: Use torch.compile for speedup
             enable_batching: Enable async batching
             max_batch_size: Max sequences to batch together
             batch_timeout_ms: Max wait time before processing batch
         """
+        if device is None:
+            device = get_optimal_device()
         self.device = device
         self.enable_batching = enable_batching
         self.max_batch_size = max_batch_size
