@@ -2,3 +2,6 @@
 manga/.env
 __pycache__/
 *.pyc
+
+# Derived, regenerable from the full-res PDF — don't duplicate 27MB in the repo
+manga/volume_01/Volume01_web.pdf
