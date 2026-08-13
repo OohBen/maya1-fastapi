@@ -1,0 +1,68 @@
+[
+ {
+  "page": "p02",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p055.png"
+ },
+ {
+  "page": "p01",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p106.png"
+ },
+ {
+  "page": "p09",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v06_p060.png"
+ },
+ {
+  "page": "p03",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p103.png"
+ },
+ {
+  "page": "p04",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v06_p043.png"
+ },
+ {
+  "page": "p11",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v03_p071.png"
+ },
+ {
+  "page": "p08",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v03_p077.png"
+ },
+ {
+  "page": "p10",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v02_p169.png"
+ },
+ {
+  "page": "p05",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p103.png"
+ },
+ {
+  "page": "p06",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v03_p176.png"
+ },
+ {
+  "page": "p07",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v03_p036.png"
+ }
+]
