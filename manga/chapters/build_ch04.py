@@ -101,8 +101,11 @@ PAGES = [
   "forehead, knees drawn up, tiny against the vast pale stone, looking out over the village away "
   "from us. Further along the cliff to the right, smaller in the frame, the FOURTH carved head is "
   "clearly visible — a young man's face with a broad spiked stone fringe and a plain band across "
-  "the brow — and nobody is on it. Keep the entire upper third of the image as calm uncluttered "
-  "dusk sky for a title to be placed later. " + BIND_N7 + BIND_MON.format(i=2) + LIGHT_MON,
+  "the brow — and nobody is on it. Compose so that the horizon sits low, a little below the "
+  "half-way line of the image, and keep the entire upper third of the image as one calm uncluttered "
+  "expanse of deep blue-black dusk sky for a title to be placed later — hold every warm orange "
+  "sunset colour down in a narrow band at the horizon, well below that upper third, so the top of "
+  "the image stays dark and even. " + BIND_N7 + BIND_MON.format(i=2) + LIGHT_MON,
   R("naruto_07", "env_monument"), "high"),
 
  # ---- beat 1: three months of dinners --------------------------------

@@ -123,8 +123,10 @@ PAGES = [
   "space, very few objects. " + BIND_N7 + BIND_HIRUZEN.format(i=2) + BIND_ENV.format(i=3) +
   "PANEL 1 (large, top half): the old man leans forward across the desk, one hand lifted slightly, "
   "speaking gently and directly to the boy. Behind him only plain wall and window light — clear the "
-  "paper stacks out of this frame. Place TWO speech balloons in this panel, one above the other in "
-  "the open space beside his head. PANEL 2 (small, middle): tight insert of the boy's small hands "
+  "paper stacks out of this frame. Place TWO speech balloons in this panel, well apart from one "
+  "another with a clear band of background visible between them, so they never touch, overlap or "
+  "join up — one high in the upper left corner of the panel, the other low on the right side of the "
+  "panel. PANEL 2 (small, middle): tight insert of the boy's small hands "
   "gone still on the edge of the desk. PANEL 3 (wide, bottom): the boy's face looking up, quiet for "
   "once — not understanding it yet, but listening. One speech balloon in this panel. "
   + LIGHT_OFFICE + BALLOONS.format(k="three"),
@@ -202,14 +204,18 @@ PAGES = [
   R("naruto_07", "iruka", "env_classroom"), "low"),
 
  ("p13", 3,
-  PAGE + BIND_N7 + BIND_ENV.format(i=2) + BIND_MOB.format(i=3) +
+  PAGE + BIND_N7 + BIND_ENV.format(i=2) +
+  "Every single person on this page is a schoolchild of about seven years old, in plain simple "
+  "village clothes. There are no grown-ups anywhere on this page — no adults, no teachers, no "
+  "villagers, only small children. "
   "Lunch break, no speech balloons on this page. PANEL 1 (wide, top): the academy playground yard — "
-  "groups of children playing and eating together across the open dirt, the big tree at one side. "
+  "groups of small children playing tag and sitting in circles eating their lunches across the open "
+  "dirt, the big tree at one side. "
   "PANEL 2 (middle): the small blond boy sitting by himself on the rope swing under the tree, well "
   "away from everyone, a cloth-wrapped lunch open on his knees. PANEL 3 (bottom): close on the lunch "
   "itself — one plain rice ball and a few pickled vegetables, arranged neatly in a battered tin box. "
   "Clearly packed by a child for himself. " + LIGHT_ACADEMY,
-  R("naruto_07", "env_playground", "mob_archetypes"), "low"),
+  R("naruto_07", "env_playground"), "low"),
 
  ("p14", 3,
   PAGE + BIND_N7 + BIND_ENV.format(i=2) +
@@ -283,13 +289,16 @@ PAGES = [
   "the old man gone. PANEL 2 (very large, filling the rest of the page): the small blond boy alone "
   "in the middle of the room, one brown paper grocery bag still hugged against his chest, looking "
   "back at the shut door — and smiling. This smile is small, closed-mouthed and slightly crooked, "
-  "nothing whatsoever like the huge open-mouthed grin he performs in public. The eyes are the whole "
-  "point of the page: draw them narrowed and softly creased at the outer corners, bright and warm "
-  "and shining, with the feeling reaching all the way up into them. Frame him close enough that his "
-  "face is large and clearly readable. " + LIGHT_APT +
-  "Break the lighting only for his face: the bare bulb throws a warm amber pool of light straight "
-  "down onto his face and the paper bag, the single patch of warm colour on the page, while the "
-  "corners of the room stay cold blue-grey.",
+  "nothing whatsoever like the huge open-mouthed grin he performs in public. The eyes carry the "
+  "whole page: draw them as soft narrowed curves, creased and lifted at the outer corners, with a "
+  "bright round highlight in each one and the lower lids pushed up by the smile, so that the "
+  "feeling clearly reaches all the way up into them; a faint flush across his nose and cheeks. "
+  "This is the warmest, happiest face in the whole book — draw it that way. Frame him close, a "
+  "chest-up three-quarter view, his face large and filling much of the panel. "
+  "Lighting: the bare bulb hanging just above him burns bright and warm, throwing a strong golden "
+  "amber pool of light down over his hair, face and the paper bag — his skin is warmly lit and his "
+  "eyes catch the light. Only the far corners of the cracked room stay cold blue-grey, so the warm "
+  "light around him reads as the single bright thing on the page.",
   R("naruto_07", "env_apartment_int"), "medium"),
 ]
 

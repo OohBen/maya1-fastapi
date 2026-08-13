@@ -1,0 +1,179 @@
+[
+ {
+  "page": "p05",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_10",
+   "madara",
+   "env_hideout_tablets"
+  ]
+ },
+ {
+  "page": "p07",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_10",
+   "madara",
+   "env_hideout_tablets"
+  ]
+ },
+ {
+  "page": "p10",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_10",
+   "env_bandit_camp"
+  ]
+ },
+ {
+  "page": "p09",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_10",
+   "env_hideout_training"
+  ]
+ },
+ {
+  "page": "p13",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_10",
+   "env_bandit_camp"
+  ]
+ },
+ {
+  "page": "p15",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_10",
+   "env_bandit_camp"
+  ]
+ },
+ {
+  "page": "p12",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_10",
+   "env_bandit_camp"
+  ]
+ },
+ {
+  "page": "p03",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": []
+ },
+ {
+  "page": "p11",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_10",
+   "env_bandit_camp"
+  ]
+ },
+ {
+  "page": "p01",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_10",
+   "madara",
+   "env_hideout_tablets"
+  ]
+ },
+ {
+  "page": "p18",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_10",
+   "madara",
+   "env_hideout_training"
+  ]
+ },
+ {
+  "page": "p19",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_10",
+   "madara",
+   "env_hideout_training"
+  ]
+ },
+ {
+  "page": "p04",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": []
+ },
+ {
+  "page": "p08",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_10",
+   "env_hideout_training"
+  ]
+ },
+ {
+  "page": "p20",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_10",
+   "env_hideout_training"
+  ]
+ },
+ {
+  "page": "p17",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_10",
+   "env_bandit_camp"
+  ]
+ },
+ {
+  "page": "p16",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "env_bandit_camp",
+   "zetsu"
+  ]
+ },
+ {
+  "page": "p06",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "madara",
+   "env_hideout_tablets",
+   "naruto_10"
+  ]
+ },
+ {
+  "page": "p14",
+  "quality": "high",
+  "cost": 0.128,
+  "refs": [
+   "naruto_10",
+   "sharingan_progression"
+  ]
+ },
+ {
+  "page": "p02",
+  "quality": "high",
+  "cost": 0.128,
+  "refs": []
+ }
+]

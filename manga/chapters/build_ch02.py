@@ -212,16 +212,18 @@ PAGES = [
  ("p13", 1,
   "A single full-page splash illustration filling the whole page, with no panel divisions and no "
   "gutters. " + BIND_N7 + BIND_ENV.format(i=2) +
-  "The camera sits low, just above the wet stone ground, looking back down the length of the "
-  "narrow alley toward its mouth. THE ALLEY IS COMPLETELY EMPTY OF ADULTS. Warm orange light from "
-  "the street beyond now falls unobstructed all the way down the stone toward the camera, because "
-  "there is nobody left standing in it. Every adult is simply gone. The ground is clean and "
-  "undisturbed — plain wet stone, an unmoved wooden crate, a closed fence at the far end. There "
-  "is nothing at all in the frame to explain where the adults went: no smoke, no dust cloud, no "
-  "scattered clothing, no marks on the ground, no light effect, no motion streaks, no debris. "
-  "Small in the near foreground at the bottom of the frame, one seven-year-old boy in a bright "
-  "orange jumpsuit kneels on the stone, his eyes just opening. The emptiness is the subject of "
-  "the picture. " + LIGHT_ALLEY, R("naruto_07", "env_alley"), "medium"),
+  "The camera sits low, close to the wet stone ground, looking down the length of the narrow "
+  "alley toward its open mouth in the distance. THE ALLEY IS COMPLETELY EMPTY OF ADULTS — every "
+  "one of the four villagers who was standing over him a second ago is simply gone, and the warm "
+  "orange light from the street at the alley mouth now falls unobstructed all the way down the "
+  "stone toward the camera because there is nobody left standing in it. Kneeling on the stone in "
+  "the near foreground, drawn small, is the seven-year-old boy in the bright orange jumpsuit. He "
+  "has just opened his eyes: both eyes are WIDE OPEN, staring straight down the empty alley, his "
+  "mouth slightly parted in astonishment. The ground in front of him is clean and undisturbed — "
+  "plain wet stone, an unmoved wooden crate. There is nothing at all in the frame to explain "
+  "where the adults went: no smoke, no dust cloud, no scattered clothing, no marks on the stone, "
+  "no glow, no motion streaks, no debris, no bodies. The emptiness is the subject of the picture. "
+  + LIGHT_ALLEY, R("naruto_07", "env_alley"), "medium"),
 
  ("p14", 3,
   PAGE + BIND_N7 + BIND_MAD.format(i=2) + BIND_ENV.format(i=3) + HALF_SHADOW +
@@ -241,8 +243,12 @@ PAGES = [
   "takes one step into the alley, cane first. He is lit from one side only; the upper half of his "
   "face stays in hard black shadow, and set into that shadow is one visible red eye with three "
   "small black comma-shaped marks around its pupil. PANEL 3 (bottom): close on the boy's face "
-  "looking up — wary, guarded, not grateful. " + LIGHT_ALLEY + BALLOONS.format(k="two"),
-  R("naruto_07", "madara", "env_alley"), "low"),
+  "looking up — wary, guarded, not grateful. " + LIGHT_ALLEY +
+  "Leave exactly two empty white speech balloons with clean black outlines, placed like this: one "
+  "in the upper left corner of PANEL 1 close above the kneeling boy, and one in the upper right "
+  "of PANEL 2 beside the old man's head, its tail pointing to his mouth. Both balloons are left "
+  "completely blank inside — plain white, empty, unlettered. Panel 3 contains no speech balloon "
+  "at all. ", R("naruto_07", "madara", "env_alley"), "low"),
 
  ("p16", 3,
   PAGE + BIND_N7 + BIND_MAD.format(i=2) + BIND_ENV.format(i=3) + HALF_SHADOW +
@@ -285,8 +291,12 @@ PAGES = [
   "in the ground, is the split white-and-black plant creature with the huge green flytrap collar "
   "of pointed leaves around its head. PANEL 2 (bottom third, wide): close on the creature's face "
   "— one half white, one half black, round yellow eyes, wide fixed grin, looking up out of "
-  "frame at the old man. " + LIGHT_NOWHERE + BALLOONS.format(k="two"),
-  R("madara", "zetsu"), "low"),
+  "frame at the old man. " + LIGHT_NOWHERE +
+  "Leave exactly two empty white speech balloons, both of them inside PANEL 1 and none anywhere "
+  "else: the first high in the upper right of panel 1 just above the plant creature's head, and "
+  "the second lower down at the left of panel 1 beside the old man's shoulder, its tail pointing "
+  "toward him. Both balloons are left completely blank inside — plain white, empty, unlettered. "
+  "Panel 2 contains no speech balloon at all. ", R("madara", "zetsu"), "low"),
 ]
 
 

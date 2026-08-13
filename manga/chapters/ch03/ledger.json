@@ -194,5 +194,33 @@
    "naruto_07",
    "env_academy_ext"
   ]
+ },
+ {
+  "page": "p13",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_playground"
+  ]
+ },
+ {
+  "page": "p20",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_07",
+   "env_apartment_int"
+  ]
+ },
+ {
+  "page": "p05",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_07",
+   "hiruzen",
+   "env_hokage_office"
+  ]
  }
 ]
