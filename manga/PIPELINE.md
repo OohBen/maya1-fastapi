@@ -250,3 +250,30 @@ The bind check must be *"who is physically present in this panel"*, not *"whose 
 type"*. A character referred to by role — "the old man", "the vendor", "his sensei" — is just
 as unbound as one referred to by name. Before running any chapter, walk each page description
 and list every human body that will be drawn, then confirm each has a reference.
+
+## Open problem: art style reads as digital painting, not printed manga
+User feedback on Volume 1: the pages look like soft-shaded digital anime illustration
+(Ghibli-ish) rather than ink-on-paper manga. The reference look is flat colour fills, heavy
+black outlines, hard-edged shadow shapes, panels on white paper.
+
+**Prompt-only fixes were tested and FAILED.** Three escalating style strings — see
+`bench/results/t14_style/` — produced output essentially identical to the baseline:
+- `v2_printed`: "PRINTED MANGA PAGE… all colour is FLAT… no gradients, no airbrushing, no glow"
+- `v3_inkonpaper`: v2 plus "must read as INK ON PAPER, not a digital painting… avoid soft
+  shading, painted rendering, cinematic lighting, depth of field, glowing light sources"
+- `v4_retro`: "1990s shonen manga official COLOUR EDITION… halftone screentone dots"
+
+None of them moved the render. This is a prompt ceiling, and the established fix for a prompt
+ceiling in this pipeline is a **reference image** — the same thing that solved character
+consistency. Next step is a STYLE reference slot in the binding set, with the usual ignore
+clause: *"Image N is a STYLE reference only. Copy its inking, flat colour fills and shading
+technique. Ignore its characters, panel layout, story content and lettering entirely."*
+
+Risk to watch: content bleed from the style reference, worst on pages featuring the
+protagonist, since canon designs can drag our age-13 design back toward the orange jumpsuit.
+Test on a page without him first.
+
+## Free resolution upgrade
+`aspect_ratio="1152x2048"` costs the **same $0.012** at `low` as `1024x1536` — a 33% linear
+resolution increase for nothing. Use it on any re-render. Larger sizes up to `2160x3840` are
+available but were not price-tested.
