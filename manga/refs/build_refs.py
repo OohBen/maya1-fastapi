@@ -139,6 +139,127 @@ def build(batch_name, items, quality="high"):
         print("   ->", p.name)
 
 
+# ---------------------------------------------------------------- Volume 1, ch2-9
+CHARACTERS_V2 = {
+    "naruto_10": SHEET + (
+        "A TEN-year-old boy, wiry and physically hardened from years of training. Blond hair grown "
+        "to just below the ears, starting to fall in two bangs. Whisker marks faint. His eyes are "
+        "RED with three small black comma-shaped marks around each pupil. Completely blank "
+        "expression. He wears a plain dark grey long-sleeved training top, black trousers and dark "
+        "open-toe sandals."),
+    "iruka": SHEET + (
+        "A man in his mid-twenties with dark brown hair pulled into a short spiky ponytail and a "
+        "horizontal scar across the bridge of his nose. Standard dark navy long-sleeved uniform "
+        "under a dark green flak vest, dark trousers, open-toe sandals. Expression: stern and "
+        "closed off."),
+    "ayame": SHEET + (
+        "A friendly young woman of about twenty with shoulder-length brown hair tied back under a "
+        "white bandana, dark eyes. She wears a simple white cook's tunic with sleeves rolled up and "
+        "a white apron. Expression: bright, open, genuinely kind."),
+    "teuchi": SHEET + (
+        "A stocky cheerful man in his fifties with a lined weathered face, thin moustache, and a "
+        "white cook's bandana tied over his head. White cook's tunic and apron. Expression: warm "
+        "and unbothered."),
+    "shikamaru": SHEET + (
+        "A twelve-year-old boy with black hair pulled up into a short spiky pineapple-shaped "
+        "ponytail, narrow bored eyes. He wears a grey short-sleeved jacket with green trim over a "
+        "dark mesh shirt, brown trousers. Expression: half-asleep and unimpressed."),
+    "choji": SHEET + (
+        "A heavyset twelve-year-old boy with spiky reddish-brown hair, small friendly eyes, and two "
+        "red swirl markings on his cheeks. He wears a green short-sleeved jacket over a white shirt "
+        "with a stylised symbol, and dark shorts. Expression: cheerful and eating."),
+    "hinata": SHEET + (
+        "A shy twelve-year-old girl with short dark blue-black hair cut in a straight fringe, and "
+        "very pale lavender-white eyes with no visible pupils. She wears a cream hooded jacket with "
+        "fur trim at the cuffs and dark navy trousers. Expression: timid, looking down and away."),
+    "sasuke": SHEET + (
+        "A twelve-year-old boy with black hair that spikes upward at the back and two long bangs "
+        "framing his face, dark eyes. He wears a high-collared dark navy blue shirt with a wide "
+        "collar and white shorts, with white arm warmers. Expression: cold, closed, arrogant."),
+    "sakura": SHEET + (
+        "A twelve-year-old girl with chin-length pink hair, a wide forehead and green eyes, wearing "
+        "a red sleeveless qipao-style dress with white trim over dark shorts. Expression: eager "
+        "and a little sharp."),
+    "ino": SHEET + (
+        "A twelve-year-old girl with long pale blonde hair in a high ponytail with a long fringe "
+        "over one eye, and light blue eyes. She wears a purple crop top and matching purple skirt "
+        "with bandaged legs. Expression: confident and teasing."),
+    "minato_kushina": (
+        "A character reference sheet on a plain flat white background showing TWO adults standing "
+        "side by side, full body, front view, at the same scale. LEFT: a tall man in his late "
+        "twenties with bright spiky blond hair and blue eyes, wearing a white long coat with red "
+        "flame patterns along the hem over a dark blue uniform. RIGHT: a woman in her late twenties "
+        "with very long straight deep-red hair falling past her waist and violet eyes, wearing a "
+        "simple pale green dress. Both have warm, gentle expressions. They must look completely "
+        "different from one another."),
+}
+
+ENVIRONMENTS_V2 = {
+    "env_jonin_lounge": ENV + (
+        "An empty military lounge room: low couches, a long table with scattered scrolls and cups, "
+        "a notice board, wooden floor, tall windows. Warm dim afternoon light."),
+    "env_apartment_ext": ENV + (
+        "The exterior walkway of a shabby low-rise apartment block at night. A concrete balcony "
+        "corridor with peeling paint, a row of identical worn doors, a single flickering light. "
+        "Cold blue night with one weak warm bulb."),
+    "env_hokage_office": ENV + (
+        "An empty circular office at the top of a tower. A large wooden desk buried under stacks of "
+        "paper, a tall leather chair, wide arched windows looking out over a village, framed "
+        "portraits on the wall, bookshelves. Warm late-afternoon light."),
+    "env_academy_ext": ENV + (
+        "The empty front courtyard of a ninja academy building in daylight — a broad wooden "
+        "building with a tiled roof and a large arched entrance, a swing hanging from a tree in the "
+        "yard, low boundary wall. Flat unromantic daylight."),
+    "env_playground": ENV + (
+        "An empty school playground with packed dirt ground, a single large tree with a rope swing, "
+        "a low fence, wooden benches, the academy building behind. Flat daylight."),
+    "env_monument": ENV + (
+        "An enormous cliff face carved with four colossal stone faces, seen from the narrow flat "
+        "ledge running along the top of their stone hair. A vast village of tiled roofs spreads out "
+        "far below and behind. Night, cold blue moonlight."),
+    "env_ichiraku": ENV + (
+        "A tiny empty ramen stand at night: a short wooden counter with five stools, hanging cloth "
+        "noren curtains across the front, steam-stained wooden walls, shelves of bowls, a warm "
+        "paper lantern. Warm amber light, the only warm place in the village."),
+    "env_village_street": ENV + (
+        "An ordinary empty village street in daylight — wooden two-storey buildings with sliding "
+        "screen doors, shop awnings, stone paving, distant rooftops. Flat plain daylight."),
+    "env_hideout_corridor": ENV + (
+        "A vast empty underground stone corridor, almost entirely black. Rough carved rock walls "
+        "vanishing into darkness, a floor of flat stone slabs, no light source visible. Near-black "
+        "with hard cold rim light on the edges only. No warm tones anywhere."),
+    "env_hideout_kitchen": ENV + (
+        "A bare underground stone room with a rough wooden table and two chairs, a cold hearth, "
+        "stone walls. Almost entirely dark, lit by one small cold light. No warm tones."),
+    "env_hideout_training": ENV + (
+        "An enormous empty underground cavern used as a training ground: a wide flat floor of packed "
+        "earth and stone, jagged rock walls rising into blackness, scattered wooden training posts "
+        "and heavy stone weights. Cold hard light from above. No warm tones."),
+    "env_hideout_tablets": ENV + (
+        "A small underground stone chamber, empty. One wall is a single enormous ancient stone "
+        "tablet covered edge to edge in dense carved spiral glyphs. Cold pale light rakes across "
+        "the carving. No warm tones."),
+    "env_bandit_camp": ENV + (
+        "An empty bandit camp in a forest clearing at dusk: crude patched tents, a smouldering "
+        "cookfire, stacked crates and stolen goods, weapons leaning against a log, trampled mud. "
+        "Grey-orange failing light."),
+    "env_burial": ENV + (
+        "A bare windswept hillside at dawn, empty. A single fresh mound of dark earth with one plain "
+        "unmarked stone set at its head, long dry grass bent by wind, a pale colourless sky."),
+}
+
+PROPS_V2 = {
+    "sharingan_progression": (
+        "A study sheet on a plain flat white background showing FOUR versions of the same eye in a "
+        "row, left to right, drawn large and identical in size and framing. EYE 1: an ordinary blue "
+        "human eye. EYE 2: a deep red iris with ONE small black comma-shaped mark beside the pupil. "
+        "EYE 3: a deep red iris with THREE black comma-shaped marks evenly spaced around the pupil. "
+        "EYE 4: a deep red iris with a small solid black ring at the centre and exactly SIX straight "
+        "black blades radiating out from that ring to the rim. Flat colour, heavy black ink outline, "
+        "perfectly consistent shape and size across all four."),
+}
+
+
 if __name__ == "__main__":
     which = sys.argv[1] if len(sys.argv) > 1 else "all"
     if which in ("all", "cast1"):
@@ -151,4 +272,23 @@ if __name__ == "__main__":
         build("env", ENVIRONMENTS)
     if which in ("all", "props"):
         build("props", PROPS)
+    if which in ("all", "cast3"):
+        build("cast3", {k: CHARACTERS_V2[k] for k in
+                        ["naruto_10", "iruka", "ayame", "teuchi", "minato_kushina"]})
+    if which in ("all", "cast4"):
+        build("cast4", {k: CHARACTERS_V2[k] for k in
+                        ["shikamaru", "choji", "hinata", "sasuke", "sakura", "ino"]})
+    if which in ("all", "env2"):
+        build("env2", {k: ENVIRONMENTS_V2[k] for k in
+                       ["env_jonin_lounge", "env_apartment_ext", "env_hokage_office",
+                        "env_academy_ext", "env_playground"]})
+    if which in ("all", "env3"):
+        build("env3", {k: ENVIRONMENTS_V2[k] for k in
+                       ["env_monument", "env_ichiraku", "env_village_street", "env_burial"]})
+    if which in ("all", "env4"):
+        build("env4", {k: ENVIRONMENTS_V2[k] for k in
+                       ["env_hideout_corridor", "env_hideout_kitchen", "env_hideout_training",
+                        "env_hideout_tablets", "env_bandit_camp"]})
+    if which in ("all", "props2"):
+        build("props2", PROPS_V2)
     print(f"\nledger total: ${LED.spent:.4f}")

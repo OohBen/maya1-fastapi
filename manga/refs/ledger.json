@@ -68,5 +68,117 @@
    "/home/user/maya1-fastapi/manga/refs/images/env_apartment_int.png",
    "/home/user/maya1-fastapi/manga/refs/images/env_classroom.png"
   ]
+ },
+ {
+  "batch": "cast3",
+  "ids": [
+   "naruto_10",
+   "iruka",
+   "ayame",
+   "teuchi",
+   "minato_kushina"
+  ],
+  "returned": 5,
+  "cost": 0.12547625,
+  "quality": "high",
+  "files": [
+   "/home/user/maya1-fastapi/manga/refs/images/naruto_10.png",
+   "/home/user/maya1-fastapi/manga/refs/images/iruka.png",
+   "/home/user/maya1-fastapi/manga/refs/images/ayame.png",
+   "/home/user/maya1-fastapi/manga/refs/images/teuchi.png",
+   "/home/user/maya1-fastapi/manga/refs/images/minato_kushina.png"
+  ]
+ },
+ {
+  "batch": "cast4",
+  "ids": [
+   "shikamaru",
+   "choji",
+   "hinata",
+   "sasuke",
+   "sakura",
+   "ino"
+  ],
+  "returned": 6,
+  "cost": 0.1296475,
+  "quality": "high",
+  "files": [
+   "/home/user/maya1-fastapi/manga/refs/images/shikamaru.png",
+   "/home/user/maya1-fastapi/manga/refs/images/choji.png",
+   "/home/user/maya1-fastapi/manga/refs/images/hinata.png",
+   "/home/user/maya1-fastapi/manga/refs/images/sasuke.png",
+   "/home/user/maya1-fastapi/manga/refs/images/sakura.png",
+   "/home/user/maya1-fastapi/manga/refs/images/ino.png"
+  ]
+ },
+ {
+  "batch": "env2",
+  "ids": [
+   "env_jonin_lounge",
+   "env_apartment_ext",
+   "env_hokage_office",
+   "env_academy_ext",
+   "env_playground"
+  ],
+  "returned": 5,
+  "cost": 0.1144975,
+  "quality": "high",
+  "files": [
+   "/home/user/maya1-fastapi/manga/refs/images/env_jonin_lounge.png",
+   "/home/user/maya1-fastapi/manga/refs/images/env_apartment_ext.png",
+   "/home/user/maya1-fastapi/manga/refs/images/env_hokage_office.png",
+   "/home/user/maya1-fastapi/manga/refs/images/env_academy_ext.png",
+   "/home/user/maya1-fastapi/manga/refs/images/env_playground.png"
+  ]
+ },
+ {
+  "batch": "env3",
+  "ids": [
+   "env_monument",
+   "env_ichiraku",
+   "env_village_street",
+   "env_burial"
+  ],
+  "returned": 4,
+  "cost": 0.0896525,
+  "quality": "high",
+  "files": [
+   "/home/user/maya1-fastapi/manga/refs/images/env_monument.png",
+   "/home/user/maya1-fastapi/manga/refs/images/env_ichiraku.png",
+   "/home/user/maya1-fastapi/manga/refs/images/env_village_street.png",
+   "/home/user/maya1-fastapi/manga/refs/images/env_burial.png"
+  ]
+ },
+ {
+  "batch": "env4",
+  "ids": [
+   "env_hideout_corridor",
+   "env_hideout_kitchen",
+   "env_hideout_training",
+   "env_hideout_tablets",
+   "env_bandit_camp"
+  ],
+  "returned": 5,
+  "cost": 0.10744000000000001,
+  "quality": "high",
+  "files": [
+   "/home/user/maya1-fastapi/manga/refs/images/env_hideout_corridor.png",
+   "/home/user/maya1-fastapi/manga/refs/images/env_hideout_kitchen.png",
+   "/home/user/maya1-fastapi/manga/refs/images/env_hideout_training.png",
+   "/home/user/maya1-fastapi/manga/refs/images/env_hideout_tablets.png",
+   "/home/user/maya1-fastapi/manga/refs/images/env_bandit_camp.png"
+  ]
+ },
+ {
+  "batch": "props2",
+  "ids": [
+   "sharingan_progression"
+  ],
+  "returned": 1,
+  "cost": 0.02606,
+  "quality": "high",
+  "files": [
+   "/home/user/maya1-fastapi/manga/refs/images/sharingan_progression.png"
+  ]
  }
 ]
