@@ -196,3 +196,23 @@ def rep_generate(prompt, refs=(), quality="low", aspect="2:3", timeout=900, retr
             last = repr(e)[:300]
         time.sleep(5 * (attempt + 1))
     raise RuntimeError(f"rep_generate failed — {last}")
+
+
+# ---------------------------------------------------------------- style reference
+# Prompt-only style control hit a ceiling (see PIPELINE.md and bench/results/t14_style).
+# The fix is the same one that solved character consistency: a reference image. This clause
+# binds a real colored-manga page as a STYLE-ONLY reference, with a hard ignore list so its
+# content does not bleed into ours.
+STYLE_REF = (
+    "Image {i} is a STYLE REFERENCE ONLY — it is a page from a printed colour manga, included "
+    "solely to show you how to RENDER. Copy its rendering technique exactly: thin black panel "
+    "borders sitting on a white paper background, flat solid colour fills with no gradients, "
+    "halftone screentone dot texture in the shadow areas, parallel-line hatching instead of soft "
+    "shading, heavy black brush inking with clear line-weight variation, and simplified faces "
+    "with small simple eyes and minimal nose detail. Match its slightly desaturated print-like "
+    "palette rather than a glowing digital one. "
+    "Ignore absolutely everything else about Image {i}: ignore its characters and their designs, "
+    "ignore their costumes and hair, ignore its panel layout, ignore its story content, and "
+    "ignore all of its lettering and sound effects. Take only the drawing and colouring "
+    "technique from it. "
+)

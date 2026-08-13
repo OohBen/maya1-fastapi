@@ -5,3 +5,7 @@ __pycache__/
 
 # Derived, regenerable from the full-res PDF — don't duplicate 27MB in the repo
 manga/volume_01/Volume01_web.pdf
+
+# Style-reference source pages: 276MB, re-downloadable via refs/fetch_style.py
+manga/refs/style/
+manga/refs/style_png/
