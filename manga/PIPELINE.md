@@ -168,3 +168,58 @@ Produced for $0.673. Three pages regenerated for unbound-character errors. Lette
 Chapters 2–9 per `story/volume_01/`. The reference pack needs extending for them — see
 `refs/build_refs.py` (`CHARACTERS_V2`, `ENVIRONMENTS_V2`). Then Volume 2 begins at the bell
 test (fic ch3 end → ch4), and **there is no Wave arc** — it goes straight to the Chūnin Exams.
+
+---
+
+# ADDENDUM — techniques proven in production
+
+## Model-drawn SFX (adopted)
+Sound effects render **correctly spelled, correctly angled, and integrated into the artwork**
+in a way compositing cannot match. Tested on an impact page: "DOSU" as a huge jagged white
+effect, "KAH" smaller — both clean, both distorted with the motion. **Adopted.** Dialogue
+still composites deterministically; only SFX go through the model.
+
+Prompt form:
+> "Draw large hand-drawn manga SOUND EFFECT lettering integrated into the artwork: a huge
+> jagged impact effect reading "DOSU" across panel 1, and a smaller rough "kah" in panel 2.
+> Drawn as part of the art, angled and distorted with the motion. Do not place any other text
+> on the page and leave any speech balloons completely blank."
+
+## The register shift — how to draw exposition
+The source's worst adaptation problem is long lectures at a table (the Sage of Six Paths in
+Ch7, Madara's Akatsuki confession in Ch8). Drawing two men talking for four pages kills them.
+
+**Solution: render the myth in a deliberately different visual idiom** and intercut small
+normal-manga panels of the listener. In Ch7 the Sage plates are prompted as:
+
+> "RENDER THIS PAGE IN A DELIBERATELY DIFFERENT, OLDER VISUAL IDIOM from a normal manga page:
+> flat flaking mineral pigments, muted ochre, indigo and dull gold on an aged parchment ground,
+> thick uneven brush outlines, no cel shading, no modern anime rendering — it should look like
+> an ancient painted scroll or woodblock print rather than a comic page."
+
+Critically, **omit the STYLE constant on those pages** — it fights the register shift. The
+build script does this automatically by checking for the marker string in the description.
+
+Result: the myth pages read as genuine antique scroll paintings and the contrast makes the
+exposition land. This is reusable for any flashback, legend or vision sequence.
+
+## Overriding a reference
+When a character reference carries an attribute that is wrong for a given page (e.g. the
+age-10 sheet has red Sharingan eyes, but the scene is *before* the awakening), bind the sheet
+for build and clothing and override the attribute explicitly:
+
+> "Reproduce his build, hair and outfit exactly, but his eyes must be ORDINARY BLUE — he does
+> not have red eyes yet, so ignore the eye colour in Image 1."
+
+This works reliably and avoids generating a second near-duplicate reference sheet.
+
+## Measured costs, whole volume
+| | |
+|---|---|
+| Reference pack, 41 images | $0.94 logged |
+| Chapters, ~190 pages | ~$5 |
+| Whole volume | **under $10** |
+
+Note the reference-pack figure is the *logged* Replicate number. The earliest packs were built
+through the OpenRouter Responses path before that was abandoned; those were billed at ~$0.251
+an image and only visible on the dashboard.

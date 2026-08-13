@@ -331,7 +331,7 @@ PAGES = [
   R("naruto_07", "zetsu", "env_hideout_training"), "low"),
 
  ("p18", 4,
-  PAGE + BIND_N7 + BIND_TRAIN.format(i=3 - 1) +
+  PAGE + BIND_N7 + BIND_TRAIN.format(i=2) +
   "Four panels of the same task repeating until it stops being a task. Use an identical wide camera "
   "for panels 1, 2 and 3 — the same view across the sand floor of the cavern with the same wooden "
   "posts in the same places — so that only the boy changes between them. PANEL 1: the small boy "
@@ -346,7 +346,11 @@ PAGES = [
   R("naruto_07", "env_hideout_training"), "low"),
 
  ("p19", 3,
-  PAGE + BIND_N7 + BIND_ZETSU.format(i=2) + BIND_MADARA.format(i=3) + BIND_ENV.format(i=4) +
+  PAGE + BIND_N7 + BIND_ZETSU.format(i=2) + BIND_MADARA.format(i=3) +
+  "Image 4 is the LOCATION REFERENCE for the sleeping quarters — reuse its rough dark stone "
+  "blockwork walls, its cracked flagstone floor, its heavy timber ceiling beam and its near-black "
+  "palette exactly. Do not copy its camera angle, ignore the fact that it is empty of people, and "
+  "leave out its table, its chairs and its fireplace. "
   "PANEL 1 (wide, top): the boy face down in the pale sand of the cavern floor, arms flung out, "
   "completely still, the weight-bands still buckled on him. Not dead — finished. PANEL 2 (middle): "
   "the black-and-white plant creature has picked him up and carries him slung over one shoulder "

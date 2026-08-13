@@ -1,0 +1,187 @@
+[
+ {
+  "page": "p07",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "minato_kushina"
+  ]
+ },
+ {
+  "page": "p09",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_monument"
+  ]
+ },
+ {
+  "page": "p01",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "env_apartment_int"
+  ]
+ },
+ {
+  "page": "p08",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_monument"
+  ]
+ },
+ {
+  "page": "p14",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "env_hideout_corridor"
+  ]
+ },
+ {
+  "page": "p15",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "env_hideout_corridor"
+  ]
+ },
+ {
+  "page": "p05",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "env_apartment_int"
+  ]
+ },
+ {
+  "page": "p03",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "env_apartment_int"
+  ]
+ },
+ {
+  "page": "p02",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "minato_kushina",
+   "env_apartment_int"
+  ]
+ },
+ {
+  "page": "p18",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_hideout_training"
+  ]
+ },
+ {
+  "page": "p11",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "env_monument"
+  ]
+ },
+ {
+  "page": "p13",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "env_monument"
+  ]
+ },
+ {
+  "page": "p06",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "minato_kushina",
+   "env_apartment_int"
+  ]
+ },
+ {
+  "page": "p17",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "zetsu",
+   "env_hideout_training"
+  ]
+ },
+ {
+  "page": "p12",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_07",
+   "env_monument"
+  ]
+ },
+ {
+  "page": "p16",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "env_hideout_training"
+  ]
+ },
+ {
+  "page": "p19",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "zetsu",
+   "madara",
+   "env_hideout_kitchen"
+  ]
+ },
+ {
+  "page": "p04",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_07",
+   "env_apartment_int"
+  ]
+ },
+ {
+  "page": "p10",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "env_monument"
+  ]
+ }
+]

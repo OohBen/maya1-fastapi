@@ -1,0 +1,29 @@
+[
+ {
+  "page": "p14",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "madara",
+   "env_hideout_kitchen"
+  ]
+ },
+ {
+  "page": "p15",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_hideout_kitchen"
+  ]
+ },
+ {
+  "page": "p01",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_academy_ext"
+  ]
+ }
+]
