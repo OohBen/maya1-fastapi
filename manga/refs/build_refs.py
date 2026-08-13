@@ -44,10 +44,18 @@ CHARACTERS = {
         "Black tapered trousers. Black CLOSED-TOE boots that fully cover the toes — not open sandals. "
         "Black fingerless gloves with a small red spiral on the back of each hand."),
     "madara": SHEET + (
-        "A very old, tall, gaunt man. Long wild black hair falling past his shoulders in heavy "
-        "spikes. Deeply lined face, hollow cheeks. Red eyes with three black comma-shaped marks "
-        "around each pupil. He wears floor-length plain black robes and leans on a plain wooden "
-        "walking cane held in his right hand. Expression: unreadable, patient, faintly amused."),
+        # The SILHOUETTE is the character. "Long black hair" produced a generic old wizard;
+        # the mane has to be described as the dominant shape or he is not recognisable.
+        "An ancient, tall, gaunt man. His defining feature is an ENORMOUS wild mane of jet-black "
+        "hair that falls well past his waist and flares outward in huge jagged wind-blown spikes, "
+        "with two especially heavy spiked masses sweeping forward down either side of his face and "
+        "a great spiked bulk behind — the silhouette is dramatic and unmistakable, far larger than "
+        "his head. Very pale skin. A severe angular face with a heavy prominent brow ridge, "
+        "deep-set eyes and hollow cheeks. Red eyes, each with three black comma-shaped marks around "
+        "the pupil. Floor-length plain black robes with a high collar, leaning on a plain wooden "
+        "walking cane. He is extremely old and close to death — the black hair is shot through with "
+        "streaks of iron grey, the face deeply lined and sunken. Expression: unreadable, patient, "
+        "faintly amused."),
     "hiruzen": SHEET + (
         "An old man in his late sixties, kindly and tired, with a short grey beard and lined face. "
         "He wears white and red ceremonial robes with a wide-brimmed conical hat resting on his back, "

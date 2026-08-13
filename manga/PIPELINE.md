@@ -277,3 +277,21 @@ Test on a page without him first.
 `aspect_ratio="1152x2048"` costs the **same $0.012** at `low` as `1024x1536` — a 33% linear
 resolution increase for nothing. Use it on any re-render. Larger sizes up to `2160x3840` are
 available but were not price-tested.
+
+## Characters the source never describes need CANON-accurate specs
+Madara's first reference was a generic gaunt old wizard and did not read as Madara at all. The
+cause: the fic never describes him, because it assumes the reader already knows the character,
+so the spec was written from prose alone.
+
+Two lessons:
+1. **When the source assumes canon knowledge, the reference spec must supply it.** Check every
+   character against how they actually look, not against what the prose says about them.
+2. **Describe the SILHOUETTE, not the features.** "Long black hair falling past his shoulders"
+   produced a wizard. What made him recognisable was: *"an ENORMOUS wild mane of jet-black hair
+   that falls well past his waist and flares outward in huge jagged wind-blown spikes… the
+   silhouette is dramatic and unmistakable, far larger than his head."* For strongly-designed
+   characters the overall shape carries the identity; itemised features do not.
+
+The previous generic sheet is kept at `refs/images/_madara_OLD_generic.png` for comparison.
+**Known inconsistency:** Volume 1 chapters 2, 4, 5, 6, 7, 8 and 9 were generated against the old
+sheet, so their Madara is off-model. Not retroactively fixed — Volume 2 onward uses the new one.
