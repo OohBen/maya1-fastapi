@@ -4,18 +4,20 @@
 Adapts fic chapters 1–3: the Madara origin arc, from the beating on Naruto's sixth
 birthday to the Mangekyo and the academy reveal.
 
-**7 chapters · 145 pages · full colour · lettered**
+**9 chapters · 191 pages · full colour · lettered**
 
 | Ch | Title | Pages | Cost | Ends on |
 |---|---|---|---|---|
 | 01 | The Tenth of October | 25 | $0.67 | He stops asking adults for the truth |
 | 02 | The Old Man in Black | 20 | $0.50 | "My name is... Madara." |
 | 03 | Academy | 20 | $0.57 | The first genuine smile |
-| 04 | Kushina | 20 | $0.43 | "Her name was Kushina Uzumaki." |
-| 05 | Grandfather | 14 | $0.17 | Madara's grin - the one that promises pain |
+| 04 | Kushina | 20 | $0.55 | "Her name was Kushina Uzumaki." |
+| 05 | Grandfather | 20 | $0.40 | Madara's grin - the one that promises pain |
+| 06 | Traitors | 20 | $0.33 | "For the next year you will not go back to Konoha." |
 | 07 | The Price | 20 | $0.75 | "Is this the price of power?" |
+| 08 | Inheritance | 20 | $0.43 | "Never forget what I taught you." |
 | 09 | The Greatest Sin | 26 | $0.76 | "You were just too blind to see it." |
-| | **Total** | **145** | **$3.84** | |
+| | **Total** | **191** | **$4.96** | |
 
 ## The arc
 

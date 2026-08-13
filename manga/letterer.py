@@ -96,7 +96,10 @@ def fit_text(draw, box, text, font_path=BODY, pad=0.16, max_pt=44, min_pt=11):
         f = ImageFont.truetype(str(font_path), pt)
         lines = _wrap(draw, text, f, inner_w)
         lh = int(pt * 1.22)
-        if len(lines) * lh <= inner_h:
+        # Must satisfy BOTH axes. _wrap cannot break a single long token, so a line
+        # can still exceed inner_w — check width explicitly or it overruns the balloon.
+        widest = max((draw.textlength(ln, font=f) for ln in lines), default=0)
+        if len(lines) * lh <= inner_h and widest <= inner_w:
             return lines, f, lh
     f = ImageFont.truetype(str(font_path), min_pt)
     return _wrap(draw, text, f, inner_w), f, int(min_pt * 1.22)
@@ -107,9 +110,15 @@ def letter_page(src, dialogue, dest):
     img = Image.open(src).convert("RGB")
     d = ImageDraw.Draw(img)
     boxes = find_balloons(img)
-    # reading order: top-to-bottom, then left-to-right within a band
-    band = img.height * 0.08
-    boxes.sort(key=lambda b: (round(b[1] / band), b[0]))
+    # Reading order: top-to-bottom, then left-to-right within a band. The band must be
+    # derived from the BALLOONS, not the page — a fixed page fraction puts two balloons
+    # that read side-by-side into different bands and silently swaps the speakers.
+    if boxes:
+        heights = sorted((b[3] - b[1]) for b in boxes)
+        band = max(heights[len(heights) // 2] * 0.6, img.height * 0.03)
+    else:
+        band = img.height * 0.08
+    boxes.sort(key=lambda b: (int(((b[1] + b[3]) / 2) // band), b[0]))
     used = 0
     for box, text in zip(boxes, dialogue):
         lines, font, lh = fit_text(d, box, text)

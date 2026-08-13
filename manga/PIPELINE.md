@@ -240,3 +240,13 @@ to the character standing there.
 ## Avoid single unbreakable long tokens in dialogue
 The letterer wraps on spaces and shrinks to fit. A line that is one long token (`"...Madara."`)
 cannot wrap, so it overruns the balloon outline. Rewrite the line to give it a break point.
+
+## Bind by panel CONTENT, not by named nouns
+The unbound-character error recurred in Ch5 from a new direction: the description said *"the
+old man's hand lifting toward the boy's face"* without `madara` in the refs, and the model
+invented an entirely different man — producing a warm father/son scene that destroyed the page.
+
+The bind check must be *"who is physically present in this panel"*, not *"whose name did I
+type"*. A character referred to by role — "the old man", "the vendor", "his sensei" — is just
+as unbound as one referred to by name. Before running any chapter, walk each page description
+and list every human body that will be drawn, then confirm each has a reference.
