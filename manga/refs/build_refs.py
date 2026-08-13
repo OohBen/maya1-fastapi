@@ -57,9 +57,15 @@ CHARACTERS = {
         "streaks of iron grey, the face deeply lined and sunken. Expression: unreadable, patient, "
         "faintly amused."),
     "hiruzen": SHEET + (
-        "An old man in his late sixties, kindly and tired, with a short grey beard and lined face. "
-        "He wears white and red ceremonial robes with a wide-brimmed conical hat resting on his back, "
-        "and simple sandals. Expression: warm but weighed down."),
+        # The HAT is the silhouette. "Hat resting on his back" produced a generic old man.
+        "An old man in his late sixties, the leader of a ninja village. He WEARS ON HIS HEAD a tall "
+        "wide ceremonial kage hat: a white conical cap with a broad flat brim, a large rounded RED "
+        "front panel bearing one bold black brush-painted kanji character, and long white cloth "
+        "drapes hanging from the brim down over his ears, shoulders and back — the hat is large and "
+        "dominates his silhouette. Under it, full-length white ceremonial robes with wide sleeves "
+        "over a red under-robe, and a white sash. Short neat grey goatee beard and moustache. Deeply "
+        "lined weathered face, heavy creases under kind tired eyes. He holds a long slim wooden "
+        "smoking pipe. Expression: warm, patient, weighed down."),
     "kakashi": SHEET + (
         "A tall lean man in his late twenties. Spiky silver-grey hair swept to one side. A dark cloth "
         "mask covers his face from the nose down, and a slanted forehead protector covers his left "

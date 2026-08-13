@@ -342,3 +342,20 @@ Added to the page prompt and visibly effective:
 - **Figure proportions stated numerically**: "about six and a half heads tall, long limbs, narrow
   shoulders, thin necks — never short or thick-set."
 - **Demand white**: "keep LARGE AREAS OF FLAT WHITE OR UNDRAWN BACKGROUND."
+
+## Audit EVERY character for its silhouette-defining feature
+This failed twice — Madara (the mane) and Hiruzen (the hat). Both were written from the fic's
+prose, which never describes them because it assumes canon knowledge, and both came back as
+interchangeable old men.
+
+Before generating any reference sheet, ask: **what is the one shape that makes this character
+recognisable at thumbnail size, in silhouette, with no colour?** Then make that shape the
+dominant clause of the spec.
+
+- Madara → the enormous spiked mane, larger than his head
+- Hiruzen → the kage hat WORN ON THE HEAD with its drapes, not carried
+- Kakashi → mask plus the slanted headband covering one eye (already correct)
+- Zetsu → the split body plus the venus-flytrap shell (already correct)
+
+A character described only by hair colour, age and clothing has no silhouette and will come back
+generic. Old sheets are kept as `_<name>_OLD_generic.png` for comparison.
