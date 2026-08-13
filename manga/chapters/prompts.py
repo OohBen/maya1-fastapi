@@ -17,6 +17,17 @@ def R(*n):
     return [str(REFS / f"{x}.png") for x in n]
 
 
+# The familiar version of this character is one of the most-drawn figures in the training data,
+# so the prior reasserts itself on pages where his description is short. This clause is attached to
+# every Naruto binding and states the difference as a hard negative.
+ALT = ("IMPORTANT — THIS IS AN ALTERNATE DESIGN, NOT THE FAMILIAR ONE. This boy is NEVER cheerful, "
+       "NEVER grinning or shouting, and NEVER open-mouthed. He does NOT wear orange at any time and "
+       "wears no jacket, no tracksuit and no goggles. His hair is NEVER short and NEVER spiky — it "
+       "is long, heavy and straight, past his jaw to his shoulders, with the right eye covered. His "
+       "expression is closed and level in every panel unless the panel says otherwise. If the "
+       "familiar cheerful orange-clad spiky-haired version comes to mind, that version is WRONG "
+       "here and must not be drawn. ")
+
 FILL = ("A single complete manga PAGE, portrait. The block of panels FILLS THE WHOLE PAGE out to a "
         "narrow even margin, separated only by thin white gutters — no broad empty white areas. ")
 
@@ -27,14 +38,14 @@ N13 = ("Image {i} is the CHARACTER REFERENCE for the blond boy: a lean thirteen-
        "and never spiky. Blue eyes, whisker marks nearly faded, blank expression, black long-sleeved "
        "shirt with a large red spiral on the chest, black trousers, dark sandals, black fingerless "
        "gloves with small red spirals. Reproduce exactly; ignore its white background and layout. "
-       + UNIQUE + " ")
+       + ALT + UNIQUE + " ")
 N13S = ("Image {i} is the CHARACTER REFERENCE for the blond boy: a lean thirteen-year-old with LONG "
         "blond hair hanging well past his jaw to his shoulders, two thick bangs framing his face, "
         "the right bang covering his right eye — never short, never spiky. Blue eyes, faded whisker "
         "marks, blank expression, black long-sleeved shirt with a large red spiral on the chest, "
         "black trousers, dark sandals, black fingerless gloves. A plain straight sword in a black "
         "scabbard is slung diagonally across his back, its wrapped hilt showing above his left "
-        "shoulder. Reproduce exactly; ignore its white background and layout. " + UNIQUE + " ")
+        "shoulder. Reproduce exactly; ignore its white background and layout. " + ALT + UNIQUE + " ")
 KAK = ("Image {i} is the CHARACTER REFERENCE for the masked man: tall, lean, spiky silver-grey hair "
        "swept to one side, dark cloth mask covering his face below the nose, slanted forehead "
        "protector covering his left eye so only his right eye shows, dark navy uniform under a green "
@@ -44,10 +55,13 @@ HIR = ("Image {i} is the CHARACTER REFERENCE for the old leader: he WEARS ON HIS
        "long white cloth drapes over his ears and shoulders. White ceremonial robes over a red "
        "under-robe, white sash, short grey goatee, deeply lined face, long wooden smoking pipe. "
        "Reproduce exactly; ignore its white background and layout. ")
-SAS = ("Image {i} is the CHARACTER REFERENCE for the dark-haired boy: thirteen, pale, black hair "
-       "spiked upward at the back with two long bangs at the front, dark eyes, high-collared navy "
-       "shirt with a white round-and-triangle fan crest on the back, white arm warmers, scowling. "
-       "Reproduce exactly; ignore its white background and layout. ")
+SAS = ("Image {i} is the CHARACTER REFERENCE for the dark-haired boy: a THIRTEEN-YEAR-OLD "
+       "ADOLESCENT, lean and long-limbed, EXACTLY THE SAME HEIGHT AND BUILD AS THE BLOND BOY and "
+       "standing about chin height to an adult — he is never a small child, never short, never "
+       "stocky, never big-headed. Pale, black hair spiked upward at the back with two long bangs "
+       "framing the face, dark eyes, high-collared navy shirt with a white round-and-triangle fan "
+       "crest on the back, white arm warmers, scowling. Reproduce his design exactly; ignore its "
+       "white background and layout, and ignore the proportions of the sheet if they read young. ")
 SAK = ("Image {i} is the CHARACTER REFERENCE for the pink-haired girl: thirteen, chin-length bright "
        "pink hair with a red cloth headband holding it back, green eyes, an unusually broad "
        "forehead, sleeveless red qipao dress with a white circle crest, dark cycling shorts. "
