@@ -193,5 +193,15 @@
    "gunbai",
    "env_hideout_tablets"
   ]
+ },
+ {
+  "page": "p03",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_10",
+   "zetsu",
+   "env_hideout_training"
+  ]
  }
 ]

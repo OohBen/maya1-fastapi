@@ -123,7 +123,11 @@ PAGES = [
   "ghost images of things that did not happen to him — a school desk, a blackboard, a corridor of "
   "lockers, a ring of laughing children's faces — drawn pale and half-dissolved. "
   "PANEL 3 (wide, bottom): the plant creature has risen halfway out of the solid rock wall behind "
-  "him, only its upper body clear of the stone, watching him without moving. " + L_HIDE
+  "him, only its upper body clear of the stone, watching him without moving. Draw the creature "
+  "LARGE and close in this panel, filling most of its height, its two round yellow eyes level with "
+  "the camera. Its expression is flat and unreadable, mouth closed — it is unsettling rather than "
+  "comical, and it is not smiling or grinning. The boy is a small dark shape in the lower "
+  "foreground with his back to us. " + L_HIDE
   + BALLOONS.format(k="two"), R("naruto_10", "zetsu", "env_hideout_training"), "low"),
 
  # ---- beat 3: the tablet room, Madara's confession (4pp) ------------------
