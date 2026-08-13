@@ -114,3 +114,64 @@ Volume 1 at 190 pages, with references now free:
 
 Against the earlier $35–45 estimate. The reference-cost inversion is most of the difference. A
 Chapter 1 pilot (24 pages + pack) lands around **$5–6**.
+
+---
+
+# ADDENDUM — sequential multi-image generation (Responses API)
+
+Supersedes the earlier claim that "you cannot get N sequential pages from one call."
+That was true of the **images** endpoint. It is **not** true of the **Responses API**.
+
+## What works
+
+A single `POST https://openrouter.ai/api/v1/responses` with the `image_generation` tool and a
+prompt asking for three pages returned **three separate `image_generation` calls in one response**,
+all downstream of a single shared `reasoning` block:
+
+```
+output items: ['reasoning',
+               'openrouter:image_generation',
+               'openrouter:image_generation',
+               'openrouter:image_generation',
+               'message']
+```
+
+This is the "same train of thought" mechanism — the model plans the sequence once, then renders
+each page with the others in mind.
+
+## What does not work
+
+- **`number_of_images` / `n` on the images endpoint** = N independent samples of one prompt. Every
+  sample receives the identical prompt, so there is no per-image instruction channel and no way to
+  map image N to page N. Verified on Replicate *and* OpenRouter, including with explicit
+  "IMAGE 1 = PAGE ONE … never draw a grid" instructions — outputs were still 4-beat grids.
+- **`previous_response_id` on OpenRouter** — rejected outright (`expected null, received string`).
+  OpenRouter is stateless; conversation state must be replayed by passing prior output items back
+  in `input`. That works, but see cost below.
+
+## Measured
+
+| Approach | Pages | Cost | Per page | Continuity |
+|---|---|---|---|---|
+| Responses API, 3 images in ONE request | 3 | $0.0793 | **$0.0264** | setting excellent, character good |
+| Responses API, 3 turns replaying history | 3 | $0.1008 | $0.0336 rising | setting strong, character good |
+| Replicate images endpoint, independent | 1 | $0.012 | $0.012 | no cross-page continuity |
+
+Multi-turn cost climbs steeply ($0.0229 → $0.0371 → $0.0408) because every prior image is re-sent
+as input tokens. A 24-page chapter would put 23 images in context by the last page — impractical.
+**Single-request multi-image is both cheaper and simpler than replaying history.**
+
+## Failure mode: the last image drifts
+
+In both approaches the final image in a run broke the style lock — soft shading, background
+depth-of-field, glow — despite "flat cel, no depth-of-field" in the prompt. Character details drift
+too (jacket shoulder yoke → back patch → black collar). Mitigations to test: restate the style lock
+per page inside the prompt, and keep runs short.
+
+## Routing implication
+
+- **Coupled runs (3–5 pages sharing one location)** → Responses API, multi-image, one request.
+  Worth the ~2.2× premium over Replicate low for the continuity.
+- **Isolated pages** → Replicate `gpt-image-2-low`, $0.012, references free.
+- Unknown: the ceiling on images per request (3 requested, 3 delivered). Test 5 and 10 before
+  planning a whole chapter around it.

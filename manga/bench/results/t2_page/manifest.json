@@ -7,18 +7,18 @@
   "nano-banana-2-lite": {
    "model": "nano-banana-2-lite",
    "status": "ok",
-   "seconds": 6.4,
+   "seconds": 4.9,
    "urls": [
-    "https://replicate.delivery/xezq/ZH55ZboQtTZvCpJxtePleYaBKRukBHZwuJR2BysldWm7QvCXA/tmpt9fomvqb.png"
+    "https://replicate.delivery/xezq/otFqtbI3sXoeA69Mb6obSqWen8d0FI8UxIPpMsoeUrG7seKcB/tmpbpdv3acn.png"
    ],
    "price": 0.034,
    "metrics": {
     "image_output_count": 1,
-    "predict_time": 5.533068893,
-    "total_time": 5.557070869
+    "predict_time": 3.966775882,
+    "total_time": 3.99722777
    },
-   "logs": "No sid\nGenerating image with Gemini Flash...\nTokens: 1481\nGenerated image in 5.38 seconds\n",
-   "pred_id": "ktjsyen1msrmw0czz559a45b24",
+   "logs": "No sid\nGenerating image with Gemini Flash...\nTokens: 1481\nGenerated image in 3.85 seconds\n",
+   "pred_id": "1kmqxhgfdnrmr0czz58bktp1kr",
    "files": [
     "/home/user/maya1-fastapi/manga/bench/results/t2_page/nano-banana-2-lite.png"
    ]
@@ -26,20 +26,20 @@
   "grok-quality": {
    "model": "grok-quality",
    "status": "ok",
-   "seconds": 7.1,
+   "seconds": 7.0,
    "urls": [
-    "https://replicate.delivery/xezq/yi7TvQzcA85FOlWYsO0L0TbNstkS0rd8FIC6A3YOJjfdoXhLA/tmpvty2o51d.jpg"
+    "https://replicate.delivery/xezq/0klbtRO3qIofTydnYe1p2CMJZ4W7aMmfnyZ2vvld6FWeZ9KcB/tmpwgt89shh.jpg"
    ],
    "price": 0.05,
    "metrics": {
     "image_input_megapixel_count": 0,
     "image_output_count": 1,
-    "predict_time": 6.240832928,
+    "predict_time": 6.046299853,
     "resolution_target": "1k",
-    "total_time": 6.277040961
+    "total_time": 6.075566277
    },
-   "logs": "Generated image in 6.0sec\n",
-   "pred_id": "cmm9yc51q1rmt0czz558qzq4ec",
+   "logs": "Generated image in 5.7sec\n",
+   "pred_id": "2ftttm0f9xrmy0czz58ah65gp4",
    "files": [
     "/home/user/maya1-fastapi/manga/bench/results/t2_page/grok-quality.png"
    ]
@@ -47,9 +47,9 @@
   "p-image-ideogram": {
    "model": "p-image-ideogram",
    "status": "ok",
-   "seconds": 8.4,
+   "seconds": 7.2,
    "urls": [
-    "https://replicate.delivery/xezq/533ubmAFfO1iVqDcoDVSvQf4mIgusa3Z71xoiWVDSNB9QvCXA/high_seed_1977970100.png"
+    "https://replicate.delivery/xezq/2qoA5oLSTB4lE9yJXD6EuW10R8IchbSX4cOs7DUZcA8n1rwF/high_seed_39148352.png"
    ],
    "price": 0.015,
    "metrics": {
@@ -59,12 +59,12 @@
     },
     "image_output_count": 1,
     "model_variant": "high",
-    "predict_time": 7.57782718,
+    "predict_time": 6.298580849,
     "resolution_target": "1K",
-    "total_time": 7.616005229
+    "total_time": 6.318944781
    },
-   "logs": "Calling Ideogram API quality=HIGH resolution=1K aspect_ratio=2x3 prompt_upsampling=ON seed=4125453747\nGeneration took 7.45 seconds\n",
-   "pred_id": "sk6nwyd1pnrmt0czz55abqzzwg",
+   "logs": "Calling Ideogram API quality=HIGH resolution=1K aspect_ratio=2x3 prompt_upsampling=ON seed=39148352\nGeneration took 6.18 seconds\n",
+   "pred_id": "va4ca48f8xrmr0czz58a5wz4hm",
    "files": [
     "/home/user/maya1-fastapi/manga/bench/results/t2_page/p-image-ideogram.png"
    ]
@@ -72,19 +72,19 @@
   "nano-banana-2": {
    "model": "nano-banana-2",
    "status": "ok",
-   "seconds": 13.3,
+   "seconds": 13.5,
    "urls": [
-    "https://replicate.delivery/xezq/vFl2xDYMLuJkExdBHiyBLkz7GvXIu476JYfgQoSZjfdBRvCXA/tmpsveubelv.png"
+    "https://replicate.delivery/xezq/ij1Dn9D4IFIiONM7YdM73enuRDoH8IlJYfFchVeWHcSLteKcB/tmpvtq6wvgg.png"
    ],
    "price": 0.067,
    "metrics": {
     "image_output_count": 1,
-    "predict_time": 11.501760984,
+    "predict_time": 12.540549188,
     "resolution_target": "1K",
-    "total_time": 11.751466718
+    "total_time": 12.570818822
    },
-   "logs": "No sid\nGenerating image with Gemini Flash...\nTokens: 1481\nGenerated image in 11.35 seconds\n",
-   "pred_id": "8pe63k5291rmw0czz558qzh0p8",
+   "logs": "No sid\nGenerating image with Gemini Flash...\nTokens: 1481\nGenerated image in 12.40 seconds\n",
+   "pred_id": "w3cjbxgfd5rmy0czz5881s29t4",
    "files": [
     "/home/user/maya1-fastapi/manga/bench/results/t2_page/nano-banana-2.png"
    ]
@@ -92,20 +92,20 @@
   "gpt-image-2-low": {
    "model": "gpt-image-2-low",
    "status": "ok",
-   "seconds": 32.4,
+   "seconds": 32.7,
    "urls": [
-    "https://replicate.delivery/xezq/fHIksyZvPU32US4aLw3LQGa5C1vCNRBhL16UqUyLFL4qoXhLA/tmps4awzekz.png"
+    "https://replicate.delivery/xezq/XvwItsTkf5UsaSyuWYolObbKgqyVSMmtCQPeexkID47zteKcB/tmplgzofuhy.png"
    ],
    "price": 0.012,
    "metrics": {
     "image_output_count": 1,
     "model_variant": "low",
-    "predict_time": 31.699123226,
+    "predict_time": 31.922777984,
     "resolution_target": "2:3",
-    "total_time": 31.719924213
+    "total_time": 31.955855262
    },
-   "logs": "Model: gpt-image-2\nGenerating image...\nNo sid included.\nGenerated image in 31.5sec\nGenerated 1 images\nInput text token count: 367\nInput image token count: 0\nOutput token count: 158\n",
-   "pred_id": "be2wp8x105rmw0czz55b0sknwr",
+   "logs": "Model: gpt-image-2\nGenerating image...\nNo sid included.\nGenerated image in 31.8sec\nGenerated 1 images\nInput text token count: 367\nInput image token count: 0\nOutput token count: 158\n",
+   "pred_id": "s2mkn5gew9rmw0czz589zqd3sg",
    "files": [
     "/home/user/maya1-fastapi/manga/bench/results/t2_page/gpt-image-2-low.png"
    ]
@@ -113,63 +113,47 @@
   "gpt-image-2-med": {
    "model": "gpt-image-2-med",
    "status": "ok",
-   "seconds": 51.1,
+   "seconds": 51.7,
    "urls": [
-    "https://replicate.delivery/xezq/nALIY2F8wwr9EhRKH0RtyLjVFOLRllTYKKjqfAnrMzkzoXhLA/tmpz_8t6vgw.png"
+    "https://replicate.delivery/xezq/PHFiAoFvsWJSEd0spf0TxoW4ImyzxfK8eTQx9W0OvtEXueKcB/tmpiay45qcy.png"
    ],
    "price": 0.047,
    "metrics": {
     "image_output_count": 1,
     "model_variant": "medium",
-    "predict_time": 50.307812094,
+    "predict_time": 50.696432628,
     "resolution_target": "2:3",
-    "total_time": 50.407481682
+    "total_time": 50.720212017
    },
-   "logs": "Model: gpt-image-2\nGenerating image...\nNo sid included.\nGenerated image in 50.1sec\nGenerated 1 images\nInput text token count: 367\nInput image token count: 0\nOutput token count: 1372\n",
-   "pred_id": "1j915px18srmt0czz558peygtm",
+   "logs": "Model: gpt-image-2\nGenerating image...\nNo sid included.\nGenerated image in 50.5sec\nGenerated 1 images\nInput text token count: 367\nInput image token count: 0\nOutput token count: 1372\n",
+   "pred_id": "8m2cf60f9nrmy0czz58bewxjhw",
    "files": [
     "/home/user/maya1-fastapi/manga/bench/results/t2_page/gpt-image-2-med.png"
    ]
   },
-  "seedream-5-lite": {
-   "model": "seedream-5-lite",
+  "seedream-5-pro": {
+   "model": "seedream-5-pro",
    "status": "ok",
-   "seconds": 53.5,
+   "seconds": 477.6,
    "urls": [
-    "https://replicate.delivery/xezq/eUueMToi5dnQ3EH8p8XNvvj1obZGBLmeY5fhYA43NlzpG9KcB/tmpti_kdcou.png"
+    "https://replicate.delivery/xezq/jeeB4H1MGzhf1pI6tWWEeftrxJvwezXhzEnR5sN4eEob6uXhLA/tmpg5gzxyu4.png"
    ],
-   "price": 0.035,
+   "price": 0.045,
    "metrics": {
     "image_output_count": 1,
-    "predict_time": 52.581739041,
-    "total_time": 52.617432156
+    "predict_time": 475.151878177,
+    "resolution_target": "1K",
+    "total_time": 475.22335727
    },
-   "logs": "Generating 1664x2496 image with aspect ratio 2:3 at 2K resolution\nGenerating...\nGenerated in 52.2sec\n",
-   "pred_id": "nf9a16n1q5rmw0czz55an365rc",
+   "logs": "Generating 1152x1728 image with aspect ratio 2:3 at 1K resolution\nGenerating...\nGenerated in 474.9sec\n",
+   "pred_id": "qws2bd0e41rmt0czz588qvbkv8",
    "files": [
-    "/home/user/maya1-fastapi/manga/bench/results/t2_page/seedream-5-lite.png"
+    "/home/user/maya1-fastapi/manga/bench/results/t2_page/seedream-5-pro.png"
    ]
   },
-  "gpt-image-2-high": {
-   "model": "gpt-image-2-high",
-   "status": "ok",
-   "seconds": 111.1,
-   "urls": [
-    "https://replicate.delivery/xezq/TvFFfPs5WxWVLCIqStqbynn40EVXvfu3qh6jG1FejsgGleKcB/tmpki9ua59k.png"
-   ],
-   "price": 0.128,
-   "metrics": {
-    "image_output_count": 1,
-    "model_variant": "high",
-    "predict_time": 109.785280653,
-    "resolution_target": "2:3",
-    "total_time": 109.813343548
-   },
-   "logs": "Model: gpt-image-2\nGenerating image...\nNo sid included.\nGenerated image in 109.5sec\nGenerated 1 images\nInput text token count: 367\nInput image token count: 0\nOutput token count: 5488\n",
-   "pred_id": "hp6cj2x1r9rmw0czz558cxtvc8",
-   "files": [
-    "/home/user/maya1-fastapi/manga/bench/results/t2_page/gpt-image-2-high.png"
-   ]
+  "seedream-5-lite": {
+   "model": "seedream-5-lite",
+   "status": "timeout"
   }
  }
 }
