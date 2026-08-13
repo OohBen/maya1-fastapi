@@ -252,3 +252,17 @@ STAGING = (
     "SFX ARE COMPOSITIONAL MASS: sound effects overlap figures, are cropped by panel edges, and may "
     "cross a gutter from one panel into the next. Never a small effect floating in an empty gap. "
 )
+
+# STAGING always wins an argument with "draw one illustration" — it says "panels" nine times, so
+# splash pages came back as six-panel grids of the same subject (v2ch01 p01, v2ch02 p01). Splash
+# pages get THIS instead of STAGING, never both.
+SPLASH = (
+    "THIS PAGE IS A SINGLE SPLASH ILLUSTRATION. It has NO panels, NO panel borders, NO gutters and "
+    "NO divisions of any kind. One continuous drawing bleeds off all four edges of the paper. Do "
+    "not repeat the subject at several angles — this is one view, once. "
+    "COMPOSE IT LIKE A CHAPTER OPENER: a strong diagonal or a steep low angle, a large foreground "
+    "mass cropped by the edge of the paper, deep space behind it, and one clear focal figure or "
+    "shape placed well off centre. Leave one broad quiet area of sky, wall or ground for the title. "
+    "RENDER: heavy black brush inking, flat colour fills, halftone dot texture in the shadows, "
+    "parallel-line hatching. No gradients, no glow, no blur. "
+)

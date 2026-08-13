@@ -51,15 +51,23 @@ L_DAWN = "Lighting: cold pale dawn, long low shadows, mist between the trees. "
 L_DAY = "Lighting: flat clear morning daylight. "
 
 def SAY(*lines):
-    """Model-drawn lettering. lines = (panel_no, [balloon strings])."""
+    """Model-drawn lettering with EXPLICIT speaker attribution.
+
+    Each entry is (panel_no, speaker_description, where_in_panel, text). Naming the
+    speaker and pinning the balloon's position is the only reliable way to stop the
+    tail pointing at the wrong character — the recurring defect in review.
+    """
     out = ("LETTERING: draw the speech balloons WITH their dialogue written inside, in clean bold "
-           "upright English comic lettering, all capitals, correctly spelled, centred in each "
-           "balloon, placed clear of the faces. Use exactly these lines, each in its own balloon:\n")
-    for panel, texts in lines:
-        for t in texts:
-            out += f'  PANEL {panel}: "{t}"\n'
+           "upright English comic lettering, all capitals, correctly spelled. Each balloon must sit "
+           "in the position given and its TAIL MUST POINT DIRECTLY AT THE NAMED SPEAKER, clear of "
+           "every face. A balloon must never sit nearer to, or point at, anyone other than its "
+           "speaker. Use exactly these, and nothing else:\n")
+    for panel, speaker, where, text in lines:
+        out += (f'  PANEL {panel} — balloon in the {where}, tail pointing at {speaker}, '
+                f'reading: "{text}"\n')
     out += "Do not write any other text anywhere on the page. "
     return out
+
 
 STYLE_Q = dict(scene="dialogue", light="day", cast="two", mood="calm", panels=6)
 
