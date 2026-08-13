@@ -295,3 +295,50 @@ Two lessons:
 The previous generic sheet is kept at `refs/images/_madara_OLD_generic.png` for comparison.
 **Known inconsistency:** Volume 1 chapters 2, 4, 5, 6, 7, 8 and 9 were generated against the old
 sheet, so their Madara is off-model. Not retroactively fixed — Volume 2 onward uses the new one.
+
+---
+
+# REVERSAL — the model should write the dialogue after all
+
+The founding rule "never let the model letter" is **withdrawn**. Tested on a seven-balloon page
+(`bench/results/t18_text/A_model_text.png`): every line rendered correctly spelled, in clean
+uppercase comic lettering, correctly placed clear of the faces, with no gibberish anywhere.
+
+Give the lines explicitly, panel by panel:
+
+> "LETTERING: draw the speech balloons WITH their dialogue written inside, in clean bold upright
+> English comic lettering, all capitals, correctly spelled, centred in each balloon. Use exactly
+> these lines, each in its own balloon, in this order:
+>   PANEL 1: "RIGHT. WELL DONE."  and  "NEXT UP, UZUMAKI."
+>   PANEL 3: "CHANGE!!!"  … etc.
+> Place each balloon clear of the faces. Do not write any other text anywhere on the page."
+
+Why this is better than compositing:
+- Balloon shape, size and tail all fit the art, because they are drawn with it.
+- Speaker attribution is correct by construction — no more band-sorting bugs.
+- Balloons can overlap panel borders and figures the way real manga does.
+- One pass instead of two.
+
+`letterer.py` is kept as a **fallback** for pages where text comes back wrong, and for any late
+dialogue change that isn't worth a re-render.
+
+# CONFIRMED — style references teach style, not content
+
+The first mimic test used a style reference from the same volume and arc as the target page,
+which was leakage. Re-run with `v06_p031` — a different volume, different arc, no shared
+characters or setting — and the manga rendering still transferred. The reference is teaching
+technique, not being copied.
+
+# Staging fixes that measurably worked
+
+Added to the page prompt and visibly effective:
+- **Cluster, don't line up.** "arranged as an OVERLAPPING CLUSTER at different depths — one partly
+  cropped by the panel edge, one turned away, one leaning in — never a straight row facing camera."
+- **Effects are transparent.** "a SWIRLING PALE BLUE TORNADO … but it is TRANSPARENT: the wooden
+  floorboards and splintering planks stay clearly VISIBLE THROUGH it."
+- **Explicit irregular panel geometry**, given as bands with percentage heights and unequal widths,
+  rather than describing panel content and letting the model choose the layout. Left to itself it
+  always produces equal horizontal bands.
+- **Figure proportions stated numerically**: "about six and a half heads tall, long limbs, narrow
+  shoulders, thin necks — never short or thick-set."
+- **Demand white**: "keep LARGE AREAS OF FLAT WHITE OR UNDRAWN BACKGROUND."
