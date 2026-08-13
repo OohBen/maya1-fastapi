@@ -1,0 +1,193 @@
+[
+ {
+  "page": "p04",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07"
+  ]
+ },
+ {
+  "page": "p07",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_village_street"
+  ]
+ },
+ {
+  "page": "p03",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_jonin_lounge"
+  ]
+ },
+ {
+  "page": "p01",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_jonin_lounge"
+  ]
+ },
+ {
+  "page": "p14",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "env_alley"
+  ]
+ },
+ {
+  "page": "p19",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "madara",
+   "zetsu"
+  ]
+ },
+ {
+  "page": "p06",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_village_street",
+   "mob_archetypes"
+  ]
+ },
+ {
+  "page": "p11",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_alley",
+   "mob_archetypes"
+  ]
+ },
+ {
+  "page": "p02",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_jonin_lounge"
+  ]
+ },
+ {
+  "page": "p15",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "env_alley"
+  ]
+ },
+ {
+  "page": "p09",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_apartment_ext",
+   "mob_archetypes"
+  ]
+ },
+ {
+  "page": "p17",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "env_apartment_ext"
+  ]
+ },
+ {
+  "page": "p12",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_alley",
+   "mob_archetypes"
+  ]
+ },
+ {
+  "page": "p05",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_jonin_lounge"
+  ]
+ },
+ {
+  "page": "p10",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_alley",
+   "mob_archetypes"
+  ]
+ },
+ {
+  "page": "p08",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_apartment_int",
+   "mob_archetypes"
+  ]
+ },
+ {
+  "page": "p16",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "env_village_street"
+  ]
+ },
+ {
+  "page": "p18",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "env_apartment_ext"
+  ]
+ },
+ {
+  "page": "p13",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_07",
+   "env_alley"
+  ]
+ },
+ {
+  "page": "00_title",
+  "quality": "high",
+  "cost": 0.128,
+  "refs": [
+   "naruto_07",
+   "env_village_street",
+   "mob_archetypes"
+  ]
+ }
+]

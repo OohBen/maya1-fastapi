@@ -1,0 +1,198 @@
+[
+ {
+  "page": "p07",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_academy_ext",
+   "mob_archetypes"
+  ]
+ },
+ {
+  "page": "p06",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "hiruzen",
+   "env_hokage_office"
+  ]
+ },
+ {
+  "page": "p03",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "hiruzen",
+   "env_hokage_office"
+  ]
+ },
+ {
+  "page": "p09",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_academy_ext",
+   "mob_archetypes"
+  ]
+ },
+ {
+  "page": "p16",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_apartment_int"
+  ]
+ },
+ {
+  "page": "p15",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_playground"
+  ]
+ },
+ {
+  "page": "p14",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_playground"
+  ]
+ },
+ {
+  "page": "p12",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "iruka",
+   "env_classroom"
+  ]
+ },
+ {
+  "page": "p02",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "hiruzen",
+   "env_hokage_office"
+  ]
+ },
+ {
+  "page": "p19",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "env_apartment_int"
+  ]
+ },
+ {
+  "page": "p10",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "iruka",
+   "env_classroom",
+   "mob_archetypes"
+  ]
+ },
+ {
+  "page": "p18",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "env_apartment_int"
+  ]
+ },
+ {
+  "page": "p17",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "env_apartment_int"
+  ]
+ },
+ {
+  "page": "p08",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "env_academy_ext",
+   "mob_archetypes"
+  ]
+ },
+ {
+  "page": "p20",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_07",
+   "env_apartment_int"
+  ]
+ },
+ {
+  "page": "p05",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_07",
+   "hiruzen",
+   "env_hokage_office"
+  ]
+ },
+ {
+  "page": "p04",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_07",
+   "hiruzen",
+   "env_hokage_office"
+  ]
+ },
+ {
+  "page": "p13",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_playground",
+   "mob_archetypes"
+  ]
+ },
+ {
+  "page": "p11",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "iruka",
+   "env_classroom",
+   "mob_archetypes"
+  ]
+ },
+ {
+  "page": "p01",
+  "quality": "high",
+  "cost": 0.128,
+  "refs": [
+   "naruto_07",
+   "env_academy_ext"
+  ]
+ }
+]

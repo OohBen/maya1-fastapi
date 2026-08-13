@@ -1,0 +1,249 @@
+[
+ {
+  "page": "p02",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "env_apartment_int"
+  ]
+ },
+ {
+  "page": "p05",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_13",
+   "env_apartment_int"
+  ]
+ },
+ {
+  "page": "p03",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_13",
+   "env_apartment_int"
+  ]
+ },
+ {
+  "page": "p12",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_13",
+   "env_hideout_corridor"
+  ]
+ },
+ {
+  "page": "p17",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "env_academy_ext"
+  ]
+ },
+ {
+  "page": "p06",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_13",
+   "env_apartment_int"
+  ]
+ },
+ {
+  "page": "p18",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "env_classroom"
+  ]
+ },
+ {
+  "page": "p04",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_13",
+   "env_apartment_int"
+  ]
+ },
+ {
+  "page": "p13",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_13",
+   "zetsu",
+   "env_hideout_corridor"
+  ]
+ },
+ {
+  "page": "p14",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_13",
+   "zetsu",
+   "env_hideout_corridor"
+  ]
+ },
+ {
+  "page": "p08",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_13",
+   "madara",
+   "env_apartment_int"
+  ]
+ },
+ {
+  "page": "p09",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_13",
+   "env_apartment_int"
+  ]
+ },
+ {
+  "page": "p16",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_13",
+   "env_burial"
+  ]
+ },
+ {
+  "page": "p21",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_13",
+   "env_classroom"
+  ]
+ },
+ {
+  "page": "p20",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "env_classroom",
+   "sasuke",
+   "sakura",
+   "shikamaru"
+  ]
+ },
+ {
+  "page": "p24",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "env_classroom",
+   "sasuke"
+  ]
+ },
+ {
+  "page": "p11",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "zetsu",
+   "env_hideout_corridor"
+  ]
+ },
+ {
+  "page": "p22",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_13",
+   "sasuke",
+   "env_classroom"
+  ]
+ },
+ {
+  "page": "p23",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_13",
+   "env_classroom"
+  ]
+ },
+ {
+  "page": "p15",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_13",
+   "env_burial"
+  ]
+ },
+ {
+  "page": "p19",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_13",
+   "env_classroom"
+  ]
+ },
+ {
+  "page": "p26",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_13",
+   "env_classroom"
+  ]
+ },
+ {
+  "page": "p25",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "kakashi",
+   "env_classroom"
+  ]
+ },
+ {
+  "page": "p07",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_13",
+   "madara",
+   "env_apartment_int"
+  ]
+ },
+ {
+  "page": "p01",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_13",
+   "env_apartment_int"
+  ]
+ },
+ {
+  "page": "p10",
+  "quality": "high",
+  "cost": 0.128,
+  "refs": [
+   "naruto_13",
+   "mangekyo_design"
+  ]
+ },
+ {
+  "page": "p19",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_13",
+   "env_classroom"
+  ]
+ }
+]
