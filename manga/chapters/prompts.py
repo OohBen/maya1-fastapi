@@ -83,6 +83,31 @@ KAN = ("Image {i} is the CHARACTER REFERENCE for the face-painted boy: fourteen,
        "hooded suit whose hood has two pointed cat-like ear shapes, with a LARGE BANDAGE-WRAPPED "
        "BUNDLE almost his own size strapped upright on his back. His whole face is painted with bold "
        "purple angular stripes. Reproduce exactly; ignore its white background and layout. ")
+DAN = ("Image {i} is the CHARACTER REFERENCE for the bandaged old man: elderly, whose silhouette is "
+       "defined by a WOODEN WALKING CANE in his left hand and his ENTIRE RIGHT ARM wrapped in white "
+       "bandages from shoulder to fingertips and held in a sling across his chest. His RIGHT EYE is "
+       "covered by bandages wound round his head; only his left eye shows, cold and narrow. A large "
+       "X-shaped scar on his chin. Short dark hair, a plain white robe over dark clothing. "
+       "Expression: patient, calculating, entirely without warmth. Reproduce exactly; ignore its "
+       "white background and layout. ")
+IBI = ("Image {i} is the CHARACTER REFERENCE for the scarred interrogator: a huge broad-shouldered "
+       "man whose head is covered by a black bandana-style forehead protector tied down over his "
+       "skull, with two long deep diagonal scars across his face and a heavy black trench coat over "
+       "a flak vest. Expression: grim and amused. Reproduce exactly; ignore its white background. ")
+ANK = ("Image {i} is the CHARACTER REFERENCE for the woman in the tan coat: late twenties, spiky "
+       "violet hair pulled up into a short fanned ponytail, brown eyes, a long open tan overcoat "
+       "worn over a fitted dark orange skirt and a full-body FISHNET MESH bodysuit, dark shin "
+       "guards. Expression: manic, grinning. Reproduce exactly; ignore its white background. ")
+KAB = ("Image {i} is the CHARACTER REFERENCE for the grey-haired boy in glasses: about nineteen, "
+       "shoulder-length silvery-grey hair tied back, LARGE ROUND BLACK-RIMMED GLASSES, small dark "
+       "eyes, a dark purple long-sleeved shirt and dark purple trousers, a shuriken holster on the "
+       "right hip. Expression: helpful, pleasant, and not to be trusted. Reproduce exactly; ignore "
+       "its white background and layout. ")
+LEE = ("Image {i} is the CHARACTER REFERENCE for the boy in green: thirteen, with a SHINY BLACK "
+       "BOWL-CUT haircut, ENORMOUS thick black eyebrows, huge round dark eyes, and a skin-tight "
+       "bright green full-body jumpsuit with orange leg warmers and bandages wrapped round both "
+       "forearms. His forehead protector is worn as a belt at his waist. Expression: earnest and "
+       "intense. Reproduce exactly; ignore its white background and layout. ")
 KUY = ("Image {i} is the CHARACTER REFERENCE for the black-haired princess: early twenties, long "
        "straight black hair, sharp dark eyes, heavy dark eye makeup. Reproduce exactly; ignore its "
        "white background and layout. ")
@@ -98,6 +123,11 @@ GIRL = "the pink-haired girl"
 SWORD = "the bandage-faced swordsman"
 MASK = "the figure in the white mask"
 RED = "the red-haired boy with the gourd"
+HAWK = "the bandaged old man with the cane"
+SCAR = "the scarred man in the black bandana"
+COAT = "the violet-haired woman in the tan coat"
+SPEC = "the grey-haired boy in round glasses"
+GREEN = "the boy in the green jumpsuit"
 FAN = "the blonde girl with four pigtails"
 PAINT = "the boy with purple face paint"
 
