@@ -316,6 +316,56 @@ ENVIRONMENTS_V4 = {
 }
 
 
+
+# --- V6: Volume 3 — the Orochimaru arc, the preliminaries and the finals ---
+CHARACTERS_V6 = {
+    "orochimaru": SHEET + (
+        "A tall slender adult of ambiguous appearance whose defining features are CHALK-WHITE, "
+        "almost paper-coloured skin and GOLDEN-YELLOW EYES WITH VERTICAL BLACK SLIT PUPILS ringed "
+        "by purple markings. Very long straight black hair falling past the waist, parted in the "
+        "middle. A plain cream-grey high-collared robe with a wide dark purple rope belt tied in a "
+        "large bow at the back. Long thin tongue. Expression: a wide serpentine smile that never "
+        "reaches the eyes."),
+    "jiraiya": SHEET + (
+        "A large powerfully-built man in his fifties whose silhouette is dominated by an ENORMOUS "
+        "mane of spiky WHITE hair falling to his waist, tied back, with two long shoulder-length "
+        "bangs framing his face. Two bold red lines run down his face from under each eye. A "
+        "forehead protector with two small HORNS and one bold kanji on the plate. A green "
+        "short-sleeved kimono top and matching trousers over mesh armour, a red sleeveless haori "
+        "with two yellow circles, wooden sandals, and a large scroll strapped across his back. "
+        "Expression: broad, loud, and much sharper than it looks."),
+    "neji": SHEET + (
+        "A thirteen-year-old boy whose defining feature is PALE LAVENDER-WHITE EYES WITH NO VISIBLE "
+        "PUPILS, worn in a permanently cold stare. Long straight dark brown hair to the middle of "
+        "his back, loosely tied near the end, with two thin strands framing his face. A beige "
+        "high-collared wrap top, dark shorts, and bandages wound tightly round his right arm and "
+        "right leg. Expression: contemptuous and certain."),
+    "hayate": SHEET + (
+        "A thin, unwell-looking man in his twenties with untidy dark brown hair, deep shadows under "
+        "tired eyes, a blue bandana-style forehead protector tied over his head, a dark navy "
+        "uniform under a green flak vest, and a sword across his back. He has one hand near his "
+        "mouth as though about to cough. Expression: exhausted, patient."),
+    "genma": SHEET + (
+        "A lean man in his late twenties with shoulder-length light brown hair, a bandana-style "
+        "forehead protector worn over his head with the cloth hanging down at the back, a dark navy "
+        "uniform under a green flak vest — and a thin metal SENBON NEEDLE held permanently in the "
+        "corner of his mouth like a toothpick. Expression: relaxed, unbothered."),
+}
+
+ENVIRONMENTS_V6 = {
+    "env_prelim_arena": ENV + (
+        "The interior of a large bare stone hall, empty of people: a wide flat rectangular fighting "
+        "floor at the bottom, two long spectator balconies with metal railings running down either "
+        "side above it, a huge dark electronic display board mounted high on the far wall, and two "
+        "colossal stone statues of hands locked in a seal rising at the far end. Cold flat overhead "
+        "lighting, grey stone, long shadows."),
+    "env_stadium": ENV + (
+        "A vast open-air circular arena, empty of people: a flat sandy floor with a few scattered "
+        "trees, ringed by steep tiered stone spectator stands rising all around, a covered box for "
+        "dignitaries on one side, banners on poles round the rim, and a wide blue sky above. Bright "
+        "flat daylight."),
+}
+
 if __name__ == "__main__":
     which = sys.argv[1] if len(sys.argv) > 1 else "all"
     if which in ("all", "cast1"):
@@ -361,4 +411,8 @@ if __name__ == "__main__":
         build("v2env2", ENVIRONMENTS_V4)
     if which in ("all", "v2cast4"):
         build("v2cast4", CHARACTERS_V5)
+    if which in ("all", "v3cast1"):
+        build("v3cast1", CHARACTERS_V6)
+    if which in ("all", "v3env"):
+        build("v3env", ENVIRONMENTS_V6)
     print(f"\nledger total: ${LED.spent:.4f}")

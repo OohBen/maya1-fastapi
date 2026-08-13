@@ -1,0 +1,134 @@
+[
+ {
+  "page": "p15",
+  "quality": "medium",
+  "cost": 0.047,
+  "style_ref": "v01_p181.png"
+ },
+ {
+  "page": "p01",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v03_p086.png"
+ },
+ {
+  "page": "p02",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v03_p017.png"
+ },
+ {
+  "page": "p03",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p094.png"
+ },
+ {
+  "page": "p14",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v03_p017.png"
+ },
+ {
+  "page": "p04",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v02_p106.png"
+ },
+ {
+  "page": "p07",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p034.png"
+ },
+ {
+  "page": "p10",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v03_p173.png"
+ },
+ {
+  "page": "p19",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p094.png"
+ },
+ {
+  "page": "p16",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v03_p017.png"
+ },
+ {
+  "page": "p09",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v02_p106.png"
+ },
+ {
+  "page": "p11",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p094.png"
+ },
+ {
+  "page": "p17",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p094.png"
+ },
+ {
+  "page": "p12",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v02_p106.png"
+ },
+ {
+  "page": "p21",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p094.png"
+ },
+ {
+  "page": "p20",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v02_p106.png"
+ },
+ {
+  "page": "p06",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p034.png"
+ },
+ {
+  "page": "p18",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v02_p106.png"
+ },
+ {
+  "page": "p13",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p034.png"
+ },
+ {
+  "page": "p08",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p094.png"
+ },
+ {
+  "page": "p05",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p094.png"
+ },
+ {
+  "page": "p22",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p097.png"
+ }
+]

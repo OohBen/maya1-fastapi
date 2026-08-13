@@ -131,6 +131,32 @@ SHN = ("Image {i} is the CHARACTER REFERENCE for the hidden boy: thirteen, whose
        "entirely concealed — round BLACK SUNGLASSES and a high collar drawn up over his nose and "
        "mouth so only a strip of face and spiky dark brown hair show. A pale grey-green hooded coat. "
        "Reproduce exactly; ignore its white background and layout. ")
+ORO = ("Image {i} is the CHARACTER REFERENCE for the pale one: tall and slender, with CHALK-WHITE "
+       "paper-coloured skin and GOLDEN-YELLOW EYES WITH VERTICAL BLACK SLIT PUPILS ringed by purple "
+       "markings. Very long straight black hair past the waist, parted in the middle. A cream-grey "
+       "high-collared robe with a wide dark purple rope belt. A long thin tongue. Expression: a wide "
+       "serpentine smile that never reaches the eyes. Reproduce exactly; ignore its white "
+       "background and layout. ")
+JIR = ("Image {i} is the CHARACTER REFERENCE for the white-haired man: large and powerfully built, "
+       "in his fifties, whose silhouette is dominated by an ENORMOUS spiky WHITE mane falling to his "
+       "waist and tied back. Two bold red lines run down his face from under each eye. A forehead "
+       "protector with two small HORNS. Green kimono top and trousers over mesh armour, a red "
+       "sleeveless haori with two yellow circles, a large scroll across his back. Reproduce exactly; "
+       "ignore its white background and layout. ")
+NEJ = ("Image {i} is the CHARACTER REFERENCE for the long-haired boy: thirteen, whose defining "
+       "feature is PALE LAVENDER-WHITE EYES WITH NO VISIBLE PUPILS in a permanently cold stare. Long "
+       "straight dark brown hair to the middle of his back, loosely tied near the end, two thin "
+       "strands framing his face. A beige high-collared wrap top, dark shorts, bandages wound tightly "
+       "round his right arm and right leg. Reproduce exactly; ignore its white background and layout. ")
+HAY = ("Image {i} is the CHARACTER REFERENCE for the sickly proctor: a thin unwell man in his "
+       "twenties, untidy dark brown hair, deep shadows under tired eyes, a blue bandana-style "
+       "forehead protector over his head, dark navy uniform under a green flak vest, a sword across "
+       "his back. Reproduce exactly; ignore its white background and layout. ")
+GEN = ("Image {i} is the CHARACTER REFERENCE for the proctor with the needle: a lean man in his late "
+       "twenties, shoulder-length light brown hair, a bandana-style forehead protector with the "
+       "cloth hanging down at the back, dark navy uniform under a green flak vest, and a thin metal "
+       "SENBON NEEDLE held in the corner of his mouth like a toothpick. Reproduce exactly; ignore "
+       "its white background and layout. ")
 ENV = ("Image {i} is the LOCATION REFERENCE — reuse its architecture, colour palette and lighting. "
        "Do not copy its camera angle; ignore that it is empty of people. ")
 
@@ -153,6 +179,11 @@ BLONDE = "the platinum-blonde girl with the long ponytail"
 DOG = "the boy with the red fang markings and the puppy"
 PALE = "the shy girl with the pale eyes"
 SHADES = "the boy in the black sunglasses and high collar"
+PALEONE = "the pale one with the golden slit eyes"
+SAGE = "the big white-haired man"
+FATE = "the long-haired boy with the pale eyes"
+SICK = "the thin proctor with the bandana"
+NEEDLE = "the proctor with the needle in his mouth"
 FAN = "the blonde girl with four pigtails"
 PAINT = "the boy with purple face paint"
 

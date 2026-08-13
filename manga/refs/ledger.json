@@ -292,5 +292,17 @@
   "id": "giant_snake",
   "cost": 0.128,
   "quality": "high"
+ },
+ {
+  "batch": "v3env",
+  "id": "env_stadium",
+  "cost": 0.128,
+  "quality": "high"
+ },
+ {
+  "batch": "v3env",
+  "id": "env_prelim_arena",
+  "cost": 0.128,
+  "quality": "high"
  }
 ]

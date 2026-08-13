@@ -160,5 +160,11 @@
   "quality": "high",
   "cost": 0.128,
   "style_ref": "v02_p094.png"
+ },
+ {
+  "page": "p16",
+  "quality": "medium",
+  "cost": 0.047,
+  "style_ref": "v01_p145.png"
  }
 ]

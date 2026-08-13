@@ -308,7 +308,8 @@ PAGES = [
   "PANEL 5 (wide, bottom): the boy passing a shaded wall, the plant creature's white-and-black face "
   "half-emerged from the brickwork beside him at waist height. He does not look at it. " + L_DAY
   + SAY((5, "the plant creature", "upper left", "STILL TWO OF THEM."),
-        (5, BOY, "upper right", "LET HIM WATCH. HE WILL SEE A GENIN WALK TO AN EXAM.")),
+        (5, "the plant creature", "lower left", "THE CHUNIN EXAMS BEGIN THIS WEEK. YOUR SENSEI PUTS YOUR NAMES IN TOMORROW."),
+        (5, BOY, "upper right", "LET HIM WATCH, THEN. HE WILL SEE A GENIN WALK TO AN EXAM.")),
   R("naruto_13_sword", "env_village_street", "zetsu", "kakashi"), "medium"),
 
  ("p17", dict(scene="establishing", light="day", cast="crowd", mood="tense", panels=5),
