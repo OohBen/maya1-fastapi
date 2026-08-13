@@ -193,5 +193,14 @@
    "naruto_07",
    "env_monument"
   ]
+ },
+ {
+  "page": "00_title",
+  "quality": "high",
+  "cost": 0.128,
+  "refs": [
+   "naruto_07",
+   "env_monument"
+  ]
  }
 ]

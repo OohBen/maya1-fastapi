@@ -25,5 +25,182 @@
    "naruto_07",
    "env_academy_ext"
   ]
+ },
+ {
+  "page": "p02",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "shikamaru",
+   "env_classroom"
+  ]
+ },
+ {
+  "page": "p20",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "env_hideout_corridor"
+  ]
+ },
+ {
+  "page": "p03",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "choji",
+   "env_classroom"
+  ]
+ },
+ {
+  "page": "p05",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "hinata",
+   "shikamaru",
+   "env_classroom"
+  ]
+ },
+ {
+  "page": "p08",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "env_village_street",
+   "iruka",
+   "mob_archetypes"
+  ]
+ },
+ {
+  "page": "p18",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "zetsu",
+   "env_hideout_kitchen"
+  ]
+ },
+ {
+  "page": "p12",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "sasuke",
+   "choji",
+   "env_classroom"
+  ]
+ },
+ {
+  "page": "p13",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "env_hideout_kitchen"
+  ]
+ },
+ {
+  "page": "p17",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "env_hideout_kitchen"
+  ]
+ },
+ {
+  "page": "p19",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "zetsu",
+   "env_hideout_kitchen"
+  ]
+ },
+ {
+  "page": "p10",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "hinata",
+   "env_village_street",
+   "mob_archetypes"
+  ]
+ },
+ {
+  "page": "p04",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "shikamaru",
+   "choji",
+   "env_classroom"
+  ]
+ },
+ {
+  "page": "p11",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "sasuke",
+   "sakura",
+   "ino",
+   "env_classroom"
+  ]
+ },
+ {
+  "page": "p06",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "sasuke",
+   "sakura",
+   "ino",
+   "env_classroom"
+  ]
+ },
+ {
+  "page": "p07",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "sasuke",
+   "shikamaru",
+   "env_classroom"
+  ]
+ },
+ {
+  "page": "p16",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "env_hideout_kitchen"
+  ]
+ },
+ {
+  "page": "p09",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_07",
+   "env_village_street",
+   "mob_archetypes"
+  ]
  }
 ]

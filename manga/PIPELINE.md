@@ -223,3 +223,20 @@ This works reliably and avoids generating a second near-duplicate reference shee
 Note the reference-pack figure is the *logged* Replicate number. The earliest packs were built
 through the OpenRouter Responses path before that was abandoned; those were billed at ~$0.251
 an image and only visible on the dashboard.
+
+## Balloon placement decides who is speaking
+Discovered producing Ch2. The letterer fills balloons in reading order, so **where the model
+puts a balloon determines which character the line is attributed to.** If two characters are
+talking and both balloons land on one character's side of the panel, the reply reads as
+though the wrong person said it.
+
+Fix at the prompt, not the letterer: state balloon positions per panel, e.g.
+> "Leave one empty balloon in the upper left of panel 1 beside the old man, and one in the
+> lower right of panel 1 beside the boy. Panel 2 has no balloon."
+
+Check this while reviewing: for every dialogue page, confirm the balloon on each side belongs
+to the character standing there.
+
+## Avoid single unbreakable long tokens in dialogue
+The letterer wraps on spaces and shrinks to fit. A line that is one long token (`"...Madara."`)
+cannot wrap, so it overruns the balloon outline. Rewrite the line to give it a break point.
