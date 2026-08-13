@@ -202,5 +202,26 @@
    "env_village_street",
    "mob_archetypes"
   ]
+ },
+ {
+  "page": "p15",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "madara",
+   "env_hideout_kitchen"
+  ]
+ },
+ {
+  "page": "p05",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "hinata",
+   "shikamaru",
+   "env_classroom"
+  ]
  }
 ]

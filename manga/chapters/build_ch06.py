@@ -192,7 +192,12 @@ PAGES = [
   "tucked, face hidden behind her fringe, shoulders drawn up around her ears. PANEL 4 (bottom, "
   "wide): the blond boy has already turned away and is leaning over to the ponytailed boy beside "
   "him, thumb jerked back over his shoulder, his face flat and mildly contemptuous — no curiosity "
-  "in it and no warmth either. " + L_CLASS + BALLOONS.format(k="three"),
+  "in it and no warmth either. " + L_CLASS +
+  "The girl does not speak at any point on this page. Leave exactly two empty white speech "
+  "balloons with clean black outlines, and place both of them inside PANEL 4 only, side by side in "
+  "the open space above the two boys, each with its tail pointing down toward the blond boy. Both "
+  "balloons are left completely blank inside — plain white, empty, unlettered. Panels 1, 2 and 3 "
+  "contain no balloons at all and no lettering of any kind. ",
   R("naruto_07", "hinata", "shikamaru", "env_classroom"), "low"),
 
  ("p06", 3,
@@ -311,15 +316,20 @@ PAGES = [
   R("madara", "env_hideout_kitchen"), "low"),
 
  ("p15", 3,
-  PAGE + BIND_N7 + UNIQUE + " " + BIND_ENV.format(i=2) +
-  "The chapter's moral turn, played completely flat — there is nothing triumphant anywhere on this "
-  "page and no shock either, and that is the point. PANEL 1 (top, wide): the small blond boy across "
-  "the rough wooden table in the dark stone room, taking in what he has just been told with no "
-  "reaction at all — no widened eyes, no recoil, nothing. PANEL 2 (middle): close on his face as he "
-  "nods, once, small, agreeing. His expression is calm and mildly approving, the face of a child "
-  "agreeing that the weather is fine. PANEL 3 (bottom, wide): his hands, unhurried, picking his "
+  PAGE + BIND_N7 + UNIQUE + " " + BIND_MADARA.format(i=2) + BIND_ENV.format(i=3) +
+  "There are exactly two people in this whole page — the small blond boy and the tall gaunt old "
+  "man in the black robe — and nobody else appears anywhere on it. "
+  "The chapter's moral turn, played completely flat: there is nothing triumphant anywhere on this "
+  "page and no shock either, and that is the point. PANEL 1 (top, wide): shot across the rough "
+  "wooden table in the dark stone room from behind the old man's shoulder, so that only the back "
+  "of his long spiked black hair and one black-robed shoulder are in frame at the left edge. "
+  "Facing us across the table is the small blond boy, taking in what he has just been told with no "
+  "reaction at all — no widened eyes, no recoil, nothing. PANEL 2 (middle): close on the blond "
+  "boy's face alone as he nods, once, small, in agreement. His mouth stays a flat straight line and "
+  "his eyes stay calm and uninterested — this is a child agreeing that the weather is fine, not a "
+  "child pleased about anything. PANEL 3 (bottom, wide): his hands only, unhurried, picking his "
   "chopsticks back up and going on with his food. " + L_HIDE + BALLOONS.format(k="two"),
-  R("naruto_07", "env_hideout_kitchen"), "low"),
+  R("naruto_07", "madara", "env_hideout_kitchen"), "low"),
 
  ("p16", 3,
   PAGE + BIND_N7 + UNIQUE + " " + BIND_MADARA.format(i=2) + BIND_ENV.format(i=3) +
