@@ -192,5 +192,26 @@
    "madara",
    "env_hideout_corridor"
   ]
+ },
+ {
+  "page": "p09",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "env_monument",
+   "minato_kushina"
+  ]
+ },
+ {
+  "page": "p06",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_07",
+   "minato_kushina",
+   "madara",
+   "env_apartment_int"
+  ]
  }
 ]

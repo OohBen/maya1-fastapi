@@ -188,16 +188,21 @@ PAGES = [
 
  # ---- beat 3: the resemblance -----------------------------------------
  ("p06", 3,
-  PAGE + BIND_N7_KIN + BIND_PARENTS.format(i=2) + BIND_ENV.format(i=3) +
+  PAGE + BIND_N7_KIN + BIND_PARENTS.format(i=2) + BIND_MADARA.format(i=3) + BIND_ENV.format(i=4) +
+  "The blond man is dead and is never physically present in this apartment. He appears on this page "
+  "only as a reflection inside the window glass in panel 2, and nowhere else. The only two people "
+  "actually standing in the room on this page are the small boy and the old man in black robes. "
   "PANEL 1 (top): a close shot of the boy standing, half turned away, and the dark window of the "
   "apartment beside him with his own reflection in the black glass — small, blond, spiky-haired. "
   "PANEL 2 (middle, the same framing repeated exactly): the identical shot of the same window, but "
-  "the reflection in the glass is now the young blond man in the white flame-hemmed coat, the same "
-  "hair, the same face grown up, looking back out. The boy himself is unchanged in the foreground. "
-  "The two panels must line up so the swap is the only difference between them. PANEL 3 (wide, "
-  "bottom): the old man's hand, off to one side, lifting slightly toward the boy's face — the "
-  "gesture of a man comparing two things. " + L_APT + BALLOONS.format(k="two"),
-  R("naruto_07", "minato_kushina", "env_apartment_int"), "low"),
+  "the reflection inside the glass is now the grown blond man in the white flame-hemmed coat, the "
+  "same hair, the same face aged up, looking back out of the glass. The boy himself is unchanged in "
+  "the foreground and there is still nobody beside him. The two panels must line up so the swapped "
+  "reflection is the only difference between them. PANEL 3 (wide, bottom): a two-shot of the boy "
+  "and the OLD MAN IN BLACK ROBES only — the old man has reached out with one long bony lined hand "
+  "and tilted the boy's chin up to look at his face, studying it, the way a man compares two "
+  "things. Nobody else is in this panel. " + L_APT + BALLOONS.format(k="two"),
+  R("naruto_07", "minato_kushina", "madara", "env_apartment_int"), "low"),
 
  ("p07", 2,
   PAGE + BIND_N7_KIN + BIND_PARENTS.format(i=2) +
@@ -224,13 +229,21 @@ PAGES = [
 
  ("p09", 2,
   PAGE + BIND_N7 + BIND_MON.format(i=2) +
-  "PANEL 1 (large, top): a steep low angle from the walkway looking up at the FOURTH carved stone "
+  "Image 3 is a two-person reference sheet; use ONLY the man on its left — a young man with bright "
+  "spiky blond hair swept back in a broad fringe with two long jaw-length bangs framing his face, a "
+  "straight nose and calm narrow eyes, and a plain band across his brow. He is the man the FOURTH "
+  "carved head on this cliff is a portrait of. Carve that exact face and that exact spiked fringe "
+  "into the rock: the stone hair must read as a broad upswept spiked mane with two long points "
+  "hanging down either side of the face, not as long straight flowing hair. Ignore Image 3's "
+  "colours, its clothing, its white background and the woman standing beside him — he appears on "
+  "this page only as grey carved stone. "
+  "PANEL 1 (large, top): a steep low angle from the walkway looking up at that FOURTH carved stone "
   "head — the young man's serene face in pale moonlit stone, the broad spiked stone fringe either "
   "side of it, the plain band across the brow. It is enormous, calm and completely indifferent, and "
   "it fills the panel. He used to sit up there. PANEL 2 (bottom): the boy from behind and below, "
-  "tiny at the base of it, head tipped back to stare up, both fists closed at his sides. He is not "
-  "crying yet. " + L_MON + BALLOONS.format(k="one"),
-  R("naruto_07", "env_monument"), "low"),
+  "tiny at the base of that same head, head tipped back to stare up at it, both fists closed at his "
+  "sides. He is not crying yet. " + L_MON + BALLOONS.format(k="one"),
+  R("naruto_07", "env_monument", "minato_kushina"), "low"),
 
  # ---- beat 5: your grandfather -----------------------------------------
  ("p10", 3,
