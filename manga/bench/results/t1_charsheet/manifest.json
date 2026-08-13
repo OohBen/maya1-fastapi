@@ -1,0 +1,158 @@
+{
+ "test": "t1_charsheet",
+ "prompt": "Character reference sheet for a 13-year-old male ninja, three full-body views side by side on a plain white background: front view, three-quarter view, back view. Consistent height and proportions across all three. DESIGN: shoulder-length blond hair with two heavy bangs framing the face, the right bang hanging low enough to cover his right eye. Blue eyes. Three faint whisker marks on each cheek, barely visible. Completely blank, emotionless expression. He wears a black long-sleeved shirt with a LARGE red spiral emblem covering the whole chest, and a small matching red spiral between the shoulder blades on the back view. Black tapered trousers, black shinobi boots, and black fingerless gloves with a small red spiral on the back of each hand. No text, no labels, no lettering anywhere in the image. Premium 2D shonen manga illustration, full color. Clean confident black ink linework with varied line weight. Flat digital cel coloring: two to three tonal values per material, hard-edged shadows, no gradients. Hair drawn as distinct clusters and wedges, never individual strands. NEGATIVE: no depth-of-field blur, no photorealistic skin texture, no 3D render or CGI look, no painterly or oil-paint rendering, no lens flare, no watermark, no signature.",
+ "refs": [],
+ "aspect": "3:2",
+ "results": {
+  "nano-banana-2-lite": {
+   "model": "nano-banana-2-lite",
+   "status": "ok",
+   "seconds": 4.3,
+   "urls": [
+    "https://replicate.delivery/xezq/BeQ6lI62eIq17UIh56JDhb7zeC2wJKloNVwZcNwSPqxHaeKcB/tmpw39_iu_i.png"
+   ],
+   "price": 0.034,
+   "metrics": {
+    "image_output_count": 1,
+    "predict_time": 3.421804473,
+    "total_time": 3.457586238
+   },
+   "logs": "No sid\nGenerating image with Gemini Flash...\nTokens: 1391\nGenerated image in 3.30 seconds\n",
+   "pred_id": "y07cajf1c9rmt0czz539w90bjr",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t1_charsheet/nano-banana-2-lite.png"
+   ]
+  },
+  "grok-quality": {
+   "model": "grok-quality",
+   "status": "ok",
+   "seconds": 6.7,
+   "urls": [
+    "https://replicate.delivery/xezq/6D5nId9y3Er6GNFW1YBxkXCTwvUf55OYf7iKozvvuYmFNvCXA/tmpcgav95ke.jpg"
+   ],
+   "price": 0.05,
+   "metrics": {
+    "image_input_megapixel_count": 0,
+    "image_output_count": 1,
+    "predict_time": 5.753366967,
+    "resolution_target": "1k",
+    "total_time": 5.770565009
+   },
+   "logs": "Generated image in 5.5sec\n",
+   "pred_id": "05kj6y71sdrmy0czz53bwkyj7m",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t1_charsheet/grok-quality.png"
+   ]
+  },
+  "p-image-ideogram": {
+   "model": "p-image-ideogram",
+   "status": "ok",
+   "seconds": 6.7,
+   "urls": [
+    "https://replicate.delivery/xezq/fmEUm8iBFmQmAqNvXM5mBy2sChGIXeozJv0JSzHZWDOFNvCXA/high_seed_2117543037.png"
+   ],
+   "price": 0.015,
+   "metrics": {
+    "billing": {
+     "model_variant": "high",
+     "resolution_target": "1K"
+    },
+    "image_output_count": 1,
+    "model_variant": "high",
+    "predict_time": 5.68831675,
+    "resolution_target": "1K",
+    "total_time": 5.706469789
+   },
+   "logs": "Calling Ideogram API quality=HIGH resolution=1K aspect_ratio=3x2 prompt_upsampling=ON seed=2117543037\nGeneration took 5.57 seconds\n",
+   "pred_id": "nvp2xqf21drmr0czz53an4q8rg",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t1_charsheet/p-image-ideogram.png"
+   ]
+  },
+  "nano-banana-2": {
+   "model": "nano-banana-2",
+   "status": "ok",
+   "seconds": 11.0,
+   "urls": [
+    "https://replicate.delivery/xezq/ZfvcoMfXrIm6UEWEC0PLS9SKdQYRJ6HgfaSK66f98fcKp5V4C/tmp__zffhaz.png"
+   ],
+   "price": 0.067,
+   "metrics": {
+    "image_output_count": 1,
+    "predict_time": 9.976496914,
+    "resolution_target": "1K",
+    "total_time": 9.994639301
+   },
+   "logs": "No sid\nGenerating image with Gemini Flash...\nTokens: 1391\nGenerated image in 9.82 seconds\n",
+   "pred_id": "6mfgnfq1v5rmr0czz538yw022g",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t1_charsheet/nano-banana-2.png"
+   ]
+  },
+  "gpt-image-2-low": {
+   "model": "gpt-image-2-low",
+   "status": "ok",
+   "seconds": 17.5,
+   "urls": [
+    "https://replicate.delivery/xezq/3jmSGWnmJJ60J9ayQIrdIL1zpWJuoEfcK57OyDURGdJomXhLA/tmpzxr2t14a.png"
+   ],
+   "price": 0.012,
+   "metrics": {
+    "image_output_count": 1,
+    "model_variant": "low",
+    "predict_time": 16.645862834,
+    "resolution_target": "3:2",
+    "total_time": 16.686656271
+   },
+   "logs": "Model: gpt-image-2\nGenerating image...\nNo sid included.\nGenerated image in 16.5sec\nGenerated 1 images\nInput text token count: 273\nInput image token count: 0\nOutput token count: 158\n",
+   "pred_id": "t0f3btf1bnrmy0czz53bmybd58",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t1_charsheet/gpt-image-2-low.png"
+   ]
+  },
+  "gpt-image-2-med": {
+   "model": "gpt-image-2-med",
+   "status": "ok",
+   "seconds": 38.0,
+   "urls": [
+    "https://replicate.delivery/xezq/0vSJ5XwOSFLZGxaKwQXHm3YaWDezi4xHq6ZhwzqMPqRymXhLA/tmpxm__0k_3.png"
+   ],
+   "price": 0.047,
+   "metrics": {
+    "image_output_count": 1,
+    "model_variant": "medium",
+    "predict_time": 36.618837544,
+    "resolution_target": "3:2",
+    "total_time": 36.643027961
+   },
+   "logs": "Model: gpt-image-2\nGenerating image...\nNo sid included.\nGenerated image in 36.5sec\nGenerated 1 images\nInput text token count: 273\nInput image token count: 0\nOutput token count: 1372\n",
+   "pred_id": "dpdjjbz1e5rmw0czz53bvfr7yw",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t1_charsheet/gpt-image-2-med.png"
+   ]
+  },
+  "seedream-5-lite": {
+   "model": "seedream-5-lite",
+   "status": "ok",
+   "seconds": 45.2,
+   "urls": [
+    "https://replicate.delivery/xezq/k1Q4eCX9ssSjLqXgKwlXFD5exbifksMA06KfKTTQzj2x28KcB/tmp6rk95xhp.png"
+   ],
+   "price": 0.035,
+   "metrics": {
+    "image_output_count": 1,
+    "predict_time": 44.310948253,
+    "total_time": 44.329392241
+   },
+   "logs": "Generating 2496x1664 image with aspect ratio 3:2 at 2K resolution\nGenerating...\nGenerated in 44.0sec\n",
+   "pred_id": "fwj5d0z1q1rmy0czz538f9ey0c",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t1_charsheet/seedream-5-lite.png"
+   ]
+  },
+  "seedream-5-pro": {
+   "model": "seedream-5-pro",
+   "status": "timeout"
+  }
+ }
+}

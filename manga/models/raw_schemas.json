@@ -1,0 +1,670 @@
+{
+ "openai/gpt-image-2": {
+  "props": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt",
+    "x-order": 0,
+    "description": "A text description of the desired image"
+   },
+   "quality": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/quality"
+     }
+    ],
+    "default": "auto",
+    "x-order": 5,
+    "description": "The quality of the generated image"
+   },
+   "user_id": {
+    "type": "string",
+    "title": "User Id",
+    "default": null,
+    "x-order": 10,
+    "nullable": true,
+    "description": "An optional unique identifier representing your end-user. This helps OpenAI monitor and detect abuse."
+   },
+   "background": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/background"
+     }
+    ],
+    "default": "auto",
+    "x-order": 6,
+    "description": "Set whether the background is transparent or opaque or choose automatically"
+   },
+   "moderation": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/moderation"
+     }
+    ],
+    "default": "auto",
+    "x-order": 9,
+    "description": "Content moderation level"
+   },
+   "aspect_ratio": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/aspect_ratio"
+     }
+    ],
+    "default": "1:1",
+    "x-order": 2,
+    "description": "The size of the generated image. Use 'auto' to let the model pick. Sizes above 2560x1440 are experimental and may give more variable results."
+   },
+   "input_images": {
+    "type": "array",
+    "items": {
+     "type": "string",
+     "format": "uri"
+    },
+    "title": "Input Images",
+    "default": null,
+    "x-order": 3,
+    "nullable": true,
+    "description": "A list of images to use as input for the generation"
+   },
+   "output_format": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/output_format"
+     }
+    ],
+    "default": "webp",
+    "x-order": 8,
+    "description": "Output format"
+   },
+   "openai_api_key": {
+    "type": "string",
+    "title": "Openai Api Key",
+    "format": "password",
+    "default": null,
+    "x-order": 1,
+    "nullable": true,
+    "writeOnly": true,
+    "description": "Your OpenAI API key (optional - uses proxy if not provided)",
+    "x-cog-secret": true
+   },
+   "number_of_images": {
+    "type": "integer",
+    "title": "Number Of Images",
+    "default": 1,
+    "maximum": 10,
+    "minimum": 1,
+    "x-order": 4,
+    "description": "Number of images to generate (1-10)"
+   },
+   "output_compression": {
+    "type": "integer",
+    "title": "Output Compression",
+    "default": 90,
+    "maximum": 100,
+    "minimum": 0,
+    "x-order": 7,
+    "description": "Compression level (0-100%)"
+   }
+  },
+  "enums": {
+   "quality": [
+    "low",
+    "medium",
+    "high",
+    "auto"
+   ],
+   "background": [
+    "auto",
+    "transparent",
+    "opaque"
+   ],
+   "moderation": [
+    "auto",
+    "low"
+   ],
+   "aspect_ratio": [
+    "1:1",
+    "3:2",
+    "2:3",
+    "4:3",
+    "3:4",
+    "16:9",
+    "9:16",
+    "auto",
+    "1024x1024",
+    "1536x1024",
+    "1024x1536",
+    "1536x1152",
+    "1152x1536",
+    "2048x2048",
+    "2048x1152",
+    "1152x2048",
+    "3840x2160",
+    "2160x3840"
+   ],
+   "output_format": [
+    "png",
+    "jpeg",
+    "webp"
+   ]
+  },
+  "run_count": 20174925
+ },
+ "google/nano-banana-2": {
+  "props": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt",
+    "x-order": 0,
+    "description": "A text description of the image you want to generate"
+   },
+   "resolution": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/resolution"
+     }
+    ],
+    "default": "1K",
+    "x-order": 3,
+    "description": "Resolution of the generated image. Higher resolutions take longer to generate."
+   },
+   "image_input": {
+    "type": "array",
+    "items": {
+     "type": "string",
+     "format": "uri"
+    },
+    "title": "Image Input",
+    "default": [],
+    "x-order": 1,
+    "description": "Input images to transform or use as reference (supports up to 14 images)"
+   },
+   "aspect_ratio": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/aspect_ratio"
+     }
+    ],
+    "default": "match_input_image",
+    "x-order": 2,
+    "description": "Aspect ratio of the generated image"
+   },
+   "image_search": {
+    "type": "boolean",
+    "title": "Image Search",
+    "default": false,
+    "x-order": 5,
+    "description": "Use Google Image Search grounding to find web images as visual context for generation. When enabled, web search is also used automatically."
+   },
+   "google_search": {
+    "type": "boolean",
+    "title": "Google Search",
+    "default": false,
+    "x-order": 4,
+    "description": "Use Google Web Search grounding to generate images based on real-time information (e.g. weather, sports scores, recent events)."
+   },
+   "output_format": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/output_format"
+     }
+    ],
+    "default": "jpg",
+    "x-order": 6,
+    "description": "Format of the output image"
+   }
+  },
+  "enums": {
+   "resolution": [
+    "1K",
+    "2K",
+    "4K"
+   ],
+   "aspect_ratio": [
+    "match_input_image",
+    "1:1",
+    "1:4",
+    "1:8",
+    "2:3",
+    "3:2",
+    "3:4",
+    "4:1",
+    "4:3",
+    "4:5",
+    "5:4",
+    "8:1",
+    "9:16",
+    "16:9",
+    "21:9"
+   ],
+   "output_format": [
+    "jpg",
+    "png"
+   ]
+  },
+  "run_count": 16630815
+ },
+ "google/nano-banana-2-lite": {
+  "props": {
+   "prompt": {
+    "type": "string",
+    "title": "Prompt",
+    "x-order": 0,
+    "description": "A text description of the image you want to generate"
+   },
+   "image_input": {
+    "type": "array",
+    "items": {
+     "type": "string",
+     "format": "uri"
+    },
+    "title": "Image Input",
+    "default": [],
+    "x-order": 1,
+    "description": "Input images to transform or use as reference (supports up to 14 images)"
+   },
+   "aspect_ratio": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/aspect_ratio"
+     }
+    ],
+    "default": "match_input_image",
+    "x-order": 2,
+    "description": "Aspect ratio of the generated image"
+   },
+   "output_format": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/output_format"
+     }
+    ],
+    "default": "jpg",
+    "x-order": 3,
+    "description": "Format of the output image"
+   }
+  },
+  "enums": {
+   "aspect_ratio": [
+    "match_input_image",
+    "1:1",
+    "1:4",
+    "1:8",
+    "2:3",
+    "3:2",
+    "3:4",
+    "4:1",
+    "4:3",
+    "4:5",
+    "5:4",
+    "8:1",
+    "9:16",
+    "16:9",
+    "21:9"
+   ],
+   "output_format": [
+    "jpg",
+    "png"
+   ]
+  },
+  "run_count": 352415
+ },
+ "bytedance/seedream-5-pro": {
+  "props": {
+   "size": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/size"
+     }
+    ],
+    "default": "2K",
+    "x-order": 2,
+    "description": "Image resolution: 1K (~2 megapixels) or 2K (~4 megapixels)."
+   },
+   "prompt": {
+    "type": "string",
+    "title": "Prompt",
+    "x-order": 0,
+    "maxLength": 4000,
+    "description": "Text prompt for image generation. Maximum 4000 characters. BytePlus recommends keeping prompts under 600 English words for best results."
+   },
+   "image_input": {
+    "type": "array",
+    "items": {
+     "type": "string",
+     "format": "uri"
+    },
+    "title": "Image Input",
+    "default": [],
+    "x-order": 1,
+    "description": "Input image(s) for image-to-image generation. List of 1-10 reference images for single or multi-reference generation."
+   },
+   "aspect_ratio": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/aspect_ratio"
+     }
+    ],
+    "default": "match_input_image",
+    "x-order": 3,
+    "description": "Image aspect ratio. Use 'match_input_image' to automatically match the input image's aspect ratio."
+   },
+   "output_format": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/output_format"
+     }
+    ],
+    "default": "png",
+    "x-order": 4,
+    "description": "Output image format."
+   }
+  },
+  "enums": {
+   "size": [
+    "1K",
+    "2K"
+   ],
+   "aspect_ratio": [
+    "match_input_image",
+    "1:1",
+    "4:3",
+    "3:4",
+    "16:9",
+    "9:16",
+    "3:2",
+    "2:3",
+    "21:9"
+   ],
+   "output_format": [
+    "png",
+    "jpeg"
+   ]
+  },
+  "run_count": 110833
+ },
+ "bytedance/seedream-5-lite": {
+  "props": {
+   "size": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/size"
+     }
+    ],
+    "default": "2K",
+    "x-order": 2,
+    "description": "Image resolution: 2K (2048px) or 3K (3072px)."
+   },
+   "prompt": {
+    "type": "string",
+    "title": "Prompt",
+    "x-order": 0,
+    "description": "Text prompt for image generation"
+   },
+   "max_images": {
+    "type": "integer",
+    "title": "Max Images",
+    "default": 1,
+    "maximum": 15,
+    "minimum": 1,
+    "x-order": 5,
+    "description": "Maximum number of images to generate when sequential_image_generation='auto'. Range: 1-15. Total images (input + generated) cannot exceed 15."
+   },
+   "image_input": {
+    "type": "array",
+    "items": {
+     "type": "string",
+     "format": "uri"
+    },
+    "title": "Image Input",
+    "default": [],
+    "x-order": 1,
+    "description": "Input image(s) for image-to-image generation. List of 1-14 images for single or multi-reference generation."
+   },
+   "aspect_ratio": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/aspect_ratio"
+     }
+    ],
+    "default": "match_input_image",
+    "x-order": 3,
+    "description": "Image aspect ratio. Use 'match_input_image' to automatically match the input image's aspect ratio."
+   },
+   "output_format": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/output_format"
+     }
+    ],
+    "default": "png",
+    "x-order": 6,
+    "description": "Output image format."
+   },
+   "sequential_image_generation": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/sequential_image_generation"
+     }
+    ],
+    "default": "disabled",
+    "x-order": 4,
+    "description": "Group image generation mode. 'disabled' generates a single image. 'auto' lets the model decide whether to generate multiple related images (e.g., story scenes, character variations)."
+   }
+  },
+  "enums": {
+   "size": [
+    "2K",
+    "3K"
+   ],
+   "WebhookEvent": [
+    "start",
+    "output",
+    "logs",
+    "completed"
+   ],
+   "aspect_ratio": [
+    "match_input_image",
+    "1:1",
+    "4:3",
+    "3:4",
+    "16:9",
+    "9:16",
+    "3:2",
+    "2:3",
+    "21:9"
+   ],
+   "output_format": [
+    "png",
+    "jpeg"
+   ],
+   "sequential_image_generation": [
+    "disabled",
+    "auto"
+   ]
+  },
+  "run_count": 3223234
+ },
+ "prunaai/p-image-ideogram": {
+  "props": {
+   "seed": {
+    "type": "integer",
+    "title": "Seed",
+    "x-order": 7,
+    "nullable": true,
+    "description": "Random seed."
+   },
+   "width": {
+    "type": "integer",
+    "title": "Width",
+    "default": 1024,
+    "maximum": 2560,
+    "minimum": 0,
+    "x-order": 5,
+    "description": "Width when aspect_ratio=custom (rounded to nearest multiple of 16)."
+   },
+   "height": {
+    "type": "integer",
+    "title": "Height",
+    "default": 1024,
+    "maximum": 2560,
+    "minimum": 0,
+    "x-order": 6,
+    "description": "Height when aspect_ratio=custom (rounded to nearest multiple of 16)."
+   },
+   "prompt": {
+    "type": "string",
+    "title": "Prompt",
+    "x-order": 0,
+    "description": "Short text prompt for image generation."
+   },
+   "thinking": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/thinking"
+     }
+    ],
+    "default": "high",
+    "x-order": 1,
+    "description": "the higher the thinking, the higher the quality of the image"
+   },
+   "image_size": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/image_size"
+     }
+    ],
+    "default": "1K",
+    "x-order": 4,
+    "description": "Output resolution budget (ignored when aspect_ratio=custom)."
+   },
+   "aspect_ratio": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/aspect_ratio"
+     }
+    ],
+    "default": "1:1",
+    "x-order": 3,
+    "description": "Aspect ratio for generation. Use 'custom' to set width/height directly."
+   },
+   "output_format": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/output_format"
+     }
+    ],
+    "default": "jpg",
+    "x-order": 8,
+    "description": "Output image format."
+   },
+   "output_quality": {
+    "type": "integer",
+    "title": "Output Quality",
+    "default": 80,
+    "maximum": 100,
+    "minimum": 0,
+    "x-order": 9,
+    "description": "Output quality (0-100; ignored for png)."
+   },
+   "prompt_upsampling": {
+    "type": "boolean",
+    "title": "Prompt Upsampling",
+    "default": true,
+    "x-order": 2,
+    "description": "Enable prompt enhancement before image generation. Set to false to pass the raw prompt directly to the image model."
+   }
+  },
+  "enums": {
+   "thinking": [
+    "very low",
+    "low",
+    "medium",
+    "high"
+   ],
+   "image_size": [
+    "1K",
+    "2K"
+   ],
+   "aspect_ratio": [
+    "1:1",
+    "16:9",
+    "9:16",
+    "4:3",
+    "3:4",
+    "3:2",
+    "2:3",
+    "custom"
+   ],
+   "output_format": [
+    "png",
+    "jpg",
+    "webp"
+   ]
+  },
+  "run_count": 173228
+ },
+ "xai/grok-imagine-image-quality": {
+  "props": {
+   "image": {
+    "type": "string",
+    "title": "Image",
+    "format": "uri",
+    "default": null,
+    "x-order": 1,
+    "nullable": true,
+    "description": "Input image for editing. When provided, the model edits this image based on the prompt. Supports jpg, jpeg, png, webp."
+   },
+   "prompt": {
+    "type": "string",
+    "title": "Prompt",
+    "x-order": 0,
+    "description": "Text prompt for image generation or editing"
+   },
+   "resolution": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/resolution"
+     }
+    ],
+    "default": "2k",
+    "x-order": 3,
+    "description": "Resolution of the generated image."
+   },
+   "aspect_ratio": {
+    "allOf": [
+     {
+      "$ref": "#/components/schemas/aspect_ratio"
+     }
+    ],
+    "default": "1:1",
+    "x-order": 2,
+    "description": "Aspect ratio of the generated image. Ignored when editing an image."
+   }
+  },
+  "enums": {
+   "resolution": [
+    "1k",
+    "2k"
+   ],
+   "aspect_ratio": [
+    "1:1",
+    "16:9",
+    "9:16",
+    "4:3",
+    "3:4",
+    "3:2",
+    "2:3",
+    "2:1",
+    "1:2",
+    "19.5:9",
+    "9:19.5",
+    "20:9",
+    "9:20",
+    "auto"
+   ]
+  },
+  "run_count": 694550
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "test": "t3a_classroom",
+ "prompt": "REFERENCE IMAGE 1 defines this character exactly: his face, his shoulder-length blond hair with the right bang covering his right eye, his faint whisker marks, and his full outfit (black long-sleeved shirt with the large red spiral on the chest, black trousers, black boots, black fingerless gloves with red spirals). Reproduce that character design precisely. IGNORE the reference's plain white background, IGNORE its three-view side-by-side layout, and IGNORE its neutral standing pose \u2014 draw him in the new scene described below. SCENE: interior of a ninja academy classroom in daylight, tiered wooden desks full of twelve-year-old students who have all turned to stare at him in stunned silence. He stands alone in the doorway at the left, backlit from the corridor, expression completely blank, not looking at any of them. Wide shot from inside the room. Single illustration, not a multi-panel page. Leave one empty white speech balloon with a clean black outline. No text, no letters anywhere. Premium 2D shonen manga illustration, full color. Clean confident black ink linework with varied line weight. Flat digital cel coloring: two to three tonal values per material, hard-edged shadows, no gradients. Hair drawn as distinct clusters and wedges, never individual strands. NEGATIVE: no depth-of-field blur, no photorealistic skin texture, no 3D render or CGI look, no painterly or oil-paint rendering, no lens flare, no watermark, no signature.",
+ "refs": [
+  "results/t1_charsheet/gpt-image-2-med.png"
+ ],
+ "aspect": "2:3",
+ "results": {
+  "nano-banana-2-lite": {
+   "model": "nano-banana-2-lite",
+   "status": "ok",
+   "seconds": 10.7,
+   "urls": [
+    "https://replicate.delivery/xezq/tNh06XDZ4v4sKhMu1D9csXFeEaxu8aTZRE4LNG32Z5eHUvCXA/tmp0aoofjv6.png"
+   ],
+   "price": 0.034,
+   "metrics": {
+    "image_output_count": 1,
+    "predict_time": 8.632680868,
+    "total_time": 9.115891496
+   },
+   "logs": "No sid\nGenerating image with Gemini Flash...\nTokens: 2552\nGenerated image in 8.47 seconds\n",
+   "pred_id": "3845k45jfxrmr0czz56rtv6hj0",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t3a_classroom/nano-banana-2-lite.png"
+   ]
+  },
+  "grok-quality": {
+   "model": "grok-quality",
+   "status": "ok",
+   "seconds": 12.4,
+   "urls": [
+    "https://replicate.delivery/xezq/wAheMKA9EfjynUhl1UOnbx8xGNwTTehGRxcz7QJepglnQ9KcB/tmp026zs22_.jpg"
+   ],
+   "price": 0.05,
+   "metrics": {
+    "image_input_megapixel_count": 1,
+    "image_output_count": 1,
+    "predict_time": 10.280742008,
+    "resolution_target": "1k",
+    "total_time": 10.751063374
+   },
+   "logs": "Warning: aspect_ratio parameter is ignored for image editing.\nEdited image in 9.7sec\n",
+   "pred_id": "h62sczxjhnrmr0czz56sda59r4",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t3a_classroom/grok-quality.png"
+   ]
+  },
+  "nano-banana-2": {
+   "model": "nano-banana-2",
+   "status": "ok",
+   "seconds": 15.8,
+   "urls": [
+    "https://replicate.delivery/xezq/TKgq6nXetqTEWy4puW2EfSCZ1UfHD00j63y2fiYTytfkh6V4C/tmpd6rd2tgg.png"
+   ],
+   "price": 0.067,
+   "metrics": {
+    "image_output_count": 1,
+    "predict_time": 13.67550247,
+    "resolution_target": "1K",
+    "total_time": 14.153604871
+   },
+   "logs": "No sid\nGenerating image with Gemini Flash...\nTokens: 2552\nGenerated image in 13.50 seconds\n",
+   "pred_id": "ngm1venjcxrmw0czz56re20fec",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t3a_classroom/nano-banana-2.png"
+   ]
+  },
+  "gpt-image-2-low": {
+   "model": "gpt-image-2-low",
+   "status": "ok",
+   "seconds": 28.5,
+   "urls": [
+    "https://replicate.delivery/xezq/DfxbweCZilstwkFqrpo6rLlfjOLnkYLdaFiVU5OldvOyoeKcB/tmpqzoq485i.png"
+   ],
+   "price": 0.012,
+   "metrics": {
+    "image_output_count": 1,
+    "model_variant": "low",
+    "predict_time": 26.61575062,
+    "resolution_target": "2:3",
+    "total_time": 27.095946858
+   },
+   "logs": "Model check completed.\nModel: gpt-image-2\nGenerating image...\nNo sid included.\nGenerated image in 24.2sec\nGenerated 1 images\nInput text token count: 1018\nInput image token count: 704\nOutput token count: 158\n",
+   "pred_id": "6vweffnhhnrmy0czz56tjpvw50",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t3a_classroom/gpt-image-2-low.png"
+   ]
+  },
+  "gpt-image-2-med": {
+   "model": "gpt-image-2-med",
+   "status": "ok",
+   "seconds": 53.2,
+   "urls": [
+    "https://replicate.delivery/xezq/0a2pmm4P5iI5Al8LWHgGSrVpkkOmNlyHGA1fLYiWL2DZqXhLA/tmpgi4eexb3.png"
+   ],
+   "price": 0.047,
+   "metrics": {
+    "image_output_count": 1,
+    "model_variant": "medium",
+    "predict_time": 50.933624595,
+    "resolution_target": "2:3",
+    "total_time": 51.522207916
+   },
+   "logs": "Model check completed.\nModel: gpt-image-2\nGenerating image...\nNo sid included.\nGenerated image in 48.9sec\nGenerated 1 images\nInput text token count: 1018\nInput image token count: 704\nOutput token count: 1372\n",
+   "pred_id": "7qh2fxnjrnrmy0czz56sy8b7s0",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t3a_classroom/gpt-image-2-med.png"
+   ]
+  },
+  "seedream-5-lite": {
+   "model": "seedream-5-lite",
+   "status": "ok",
+   "seconds": 56.9,
+   "urls": [
+    "https://replicate.delivery/xezq/KbX4tpp4UwLBBRX3KPuCFkBlUR56yyN2rRCQHrbmYNWN1rwF/tmpf99to5z7.png"
+   ],
+   "price": 0.035,
+   "metrics": {
+    "image_output_count": 1,
+    "predict_time": 54.470023738,
+    "total_time": 55.072865694
+   },
+   "logs": "Generating 1664x2496 image with aspect ratio 2:3 at 2K resolution\nGenerating...\nGenerated in 53.8sec\n",
+   "pred_id": "mck3sf5k0drmt0czz56sfdxe84",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t3a_classroom/seedream-5-lite.png"
+   ]
+  }
+ }
+}

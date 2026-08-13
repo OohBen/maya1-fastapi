@@ -1,0 +1,52 @@
+{
+ "test": "t4_gpt",
+ "prompt": "Image 1 is the CHARACTER REFERENCE for the boy: a 13-year-old boy with shoulder-length blond hair, two heavy bangs, the right bang covering his right eye, blue eyes, faint whisker marks, and a completely blank expression, wearing a black long-sleeved shirt with a large red spiral covering the chest, black trousers, black boots, and black fingerless gloves with a small red spiral on the back of each hand. Use Image 1 only to fix his face, hair and outfit \u2014 reproduce them exactly. Ignore Image 1's white background, its three-view layout and its standing pose. He is the ONLY character on this page who looks like this; every other person must look completely different, with different hair colour, clothes and face. A single complete manga PAGE laid out as four panels with clean white gutters and a white page margin, portrait orientation, read left to right. PANEL 1 (wide, top): interior of a ninja academy classroom, tiered wooden desks packed with twelve-year-old students, all of them turned and staring in stunned silence toward the doorway. PANEL 2 (tall, middle left): the boy standing alone in the open doorway, backlit from the corridor, full figure, expression blank, not looking at anyone. PANEL 3 (small, middle right): close-up of a black-haired boy at a desk, scowling, unsettled. PANEL 4 (wide, bottom): extreme close-up of the blond boy's face in three-quarter view, the visible eye cold and empty, the right bang hanging over the other eye. Leave two EMPTY white speech balloons with clean black outlines in uncluttered areas \u2014 they must contain NO text, NO letters, NO words, NO symbols. Do not write any text anywhere on the page. Premium 2D shonen manga illustration, full color. Clean confident black ink linework with varied line weight. Flat digital cel coloring: two to three tonal values per material, hard-edged shadows, no gradients. Hair drawn as distinct clusters and wedges, never individual strands. NEGATIVE: no depth-of-field blur, no photorealistic skin texture, no 3D render or CGI look, no painterly or oil-paint rendering, no lens flare, no watermark, no signature.",
+ "refs": [
+  "results/t1_charsheet/gpt-image-2-med.png"
+ ],
+ "aspect": "2:3",
+ "results": {
+  "gpt-image-2-low": {
+   "model": "gpt-image-2-low",
+   "status": "ok",
+   "seconds": 35.0,
+   "urls": [
+    "https://replicate.delivery/xezq/A0xfu8neblhz6UdpkG73qeacd9i8kfoL184JQUZAja6mk9KcB/tmpy46i_woe.png"
+   ],
+   "price": 0.012,
+   "metrics": {
+    "image_output_count": 1,
+    "model_variant": "low",
+    "predict_time": 33.296092109,
+    "resolution_target": "2:3",
+    "total_time": 33.668206844
+   },
+   "logs": "Model check completed.\nModel: gpt-image-2\nGenerating image...\nNo sid included.\nGenerated image in 26.0sec\nGenerated 1 images\nInput text token count: 1176\nInput image token count: 704\nOutput token count: 158\n",
+   "pred_id": "98h6vk9w8drmy0czz598dssaa8",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t4_gpt/gpt-image-2-low.png"
+   ]
+  },
+  "gpt-image-2-med": {
+   "model": "gpt-image-2-med",
+   "status": "ok",
+   "seconds": 60.1,
+   "urls": [
+    "https://replicate.delivery/xezq/gW6alAduPfX5WiNLWgsqeTN26f969adzD2d4yboZ2jyFzeKcB/tmpifyebqv5.png"
+   ],
+   "price": 0.047,
+   "metrics": {
+    "image_output_count": 1,
+    "model_variant": "medium",
+    "predict_time": 58.389432833,
+    "resolution_target": "2:3",
+    "total_time": 58.750381052
+   },
+   "logs": "Model check completed.\nModel: gpt-image-2\nGenerating image...\nNo sid included.\nGenerated image in 50.1sec\nGenerated 1 images\nInput text token count: 1176\nInput image token count: 704\nOutput token count: 1372\n",
+   "pred_id": "c92bf09w6srmr0czz59bfcax70",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t4_gpt/gpt-image-2-med.png"
+   ]
+  }
+ }
+}

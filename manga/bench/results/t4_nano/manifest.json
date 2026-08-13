@@ -1,0 +1,49 @@
+{
+ "test": "t4_nano",
+ "prompt": "The first image is a character sheet for the boy in this scene: a 13-year-old boy with shoulder-length blond hair, two heavy bangs, the right bang covering his right eye, blue eyes, faint whisker marks, and a completely blank expression, wearing a black long-sleeved shirt with a large red spiral covering the chest, black trousers, black boots, and black fingerless gloves with a small red spiral on the back of each hand. Reproduce that exact face, hair and outfit in the new scene. Do not copy the first image's white background, its three-view layout or its pose. He is the ONLY character on this page who looks like this; every other person must look completely different, with different hair colour, clothes and face. A single complete manga PAGE laid out as four panels with clean white gutters and a white page margin, portrait orientation, read left to right. PANEL 1 (wide, top): interior of a ninja academy classroom, tiered wooden desks packed with twelve-year-old students, all of them turned and staring in stunned silence toward the doorway. PANEL 2 (tall, middle left): the boy standing alone in the open doorway, backlit from the corridor, full figure, expression blank, not looking at anyone. PANEL 3 (small, middle right): close-up of a black-haired boy at a desk, scowling, unsettled. PANEL 4 (wide, bottom): extreme close-up of the blond boy's face in three-quarter view, the visible eye cold and empty, the right bang hanging over the other eye. Leave two EMPTY white speech balloons with clean black outlines in uncluttered areas \u2014 they must contain NO text, NO letters, NO words, NO symbols. Do not write any text anywhere on the page. Premium 2D shonen manga illustration, full color. Clean confident black ink linework with varied line weight. Flat digital cel coloring: two to three tonal values per material, hard-edged shadows, no gradients. Hair drawn as distinct clusters and wedges, never individual strands. NEGATIVE: no depth-of-field blur, no photorealistic skin texture, no 3D render or CGI look, no painterly or oil-paint rendering, no lens flare, no watermark, no signature.",
+ "refs": [
+  "results/t1_charsheet/gpt-image-2-med.png"
+ ],
+ "aspect": "2:3",
+ "results": {
+  "nano-banana-2-lite": {
+   "model": "nano-banana-2-lite",
+   "status": "ok",
+   "seconds": 7.3,
+   "urls": [
+    "https://replicate.delivery/xezq/TiaYMT4MQv4SCNLZjjQ0brePowlQuzUPD89ykBhYGMa1sXhLA/tmpgn7mt8dq.png"
+   ],
+   "price": 0.034,
+   "metrics": {
+    "image_output_count": 1,
+    "predict_time": 5.5551012140000005,
+    "total_time": 5.913061968
+   },
+   "logs": "No sid\nGenerating image with Gemini Flash...\nTokens: 2712\nGenerated image in 5.05 seconds\n",
+   "pred_id": "frnfdk1a9hrmt0czz59vekmtn0",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t4_nano/nano-banana-2-lite.png"
+   ]
+  },
+  "nano-banana-2": {
+   "model": "nano-banana-2",
+   "status": "ok",
+   "seconds": 17.2,
+   "urls": [
+    "https://replicate.delivery/xezq/kzyBcCSmQextQatz83wZ5e20CCLzvTTOMJmEnff0NcmTn9KcB/tmpcw05t0gs.png"
+   ],
+   "price": 0.067,
+   "metrics": {
+    "image_output_count": 1,
+    "predict_time": 15.720063563,
+    "resolution_target": "1K",
+    "total_time": 15.936352348
+   },
+   "logs": "No sid\nGenerating image with Gemini Flash...\nTokens: 2712\nGenerated image in 15.54 seconds\n",
+   "pred_id": "9c759z99yhrmy0czz59rnkfmq0",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t4_nano/nano-banana-2.png"
+   ]
+  }
+ }
+}

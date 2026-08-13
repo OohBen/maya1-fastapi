@@ -1,0 +1,175 @@
+{
+ "test": "t2_page",
+ "prompt": "A single complete manga PAGE laid out as five panels with clean white gutters between them and a white page margin, portrait orientation, read left to right. PANEL 1 (wide, top third): night alley between two wooden buildings, a small blond boy in an orange jacket backed against the end wall, five adult villagers advancing on him as dark silhouettes from the left, lit from behind by distant festival lanterns. PANEL 2 (small, middle left): extreme close-up of the boy's face, eyes squeezed shut, braced for impact. PANEL 3 (small, middle right): the same alley from the boy's eye level \u2014 the villagers are GONE. Empty ground, a dropped lantern still rolling. PANEL 4 (small, lower left): the boy's eyes snapping open wide in confusion. PANEL 5 (wide, bottom third): low upward angle on an old man standing at the mouth of the alley, long black robes, long spiked black hair, a wooden walking cane, glowing red eyes, face half in shadow, absolutely still. Leave two or three EMPTY white speech balloons with clean black outlines in uncluttered areas \u2014 the balloons must contain NO text, NO letters, NO words, NO symbols of any kind. Do not write any text anywhere on the page. Premium 2D shonen manga illustration, full color. Clean confident black ink linework with varied line weight. Flat digital cel coloring: two to three tonal values per material, hard-edged shadows, no gradients. Hair drawn as distinct clusters and wedges, never individual strands. NEGATIVE: no depth-of-field blur, no photorealistic skin texture, no 3D render or CGI look, no painterly or oil-paint rendering, no lens flare, no watermark, no signature.",
+ "refs": [],
+ "aspect": "2:3",
+ "results": {
+  "nano-banana-2-lite": {
+   "model": "nano-banana-2-lite",
+   "status": "ok",
+   "seconds": 6.4,
+   "urls": [
+    "https://replicate.delivery/xezq/ZH55ZboQtTZvCpJxtePleYaBKRukBHZwuJR2BysldWm7QvCXA/tmpt9fomvqb.png"
+   ],
+   "price": 0.034,
+   "metrics": {
+    "image_output_count": 1,
+    "predict_time": 5.533068893,
+    "total_time": 5.557070869
+   },
+   "logs": "No sid\nGenerating image with Gemini Flash...\nTokens: 1481\nGenerated image in 5.38 seconds\n",
+   "pred_id": "ktjsyen1msrmw0czz559a45b24",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t2_page/nano-banana-2-lite.png"
+   ]
+  },
+  "grok-quality": {
+   "model": "grok-quality",
+   "status": "ok",
+   "seconds": 7.1,
+   "urls": [
+    "https://replicate.delivery/xezq/yi7TvQzcA85FOlWYsO0L0TbNstkS0rd8FIC6A3YOJjfdoXhLA/tmpvty2o51d.jpg"
+   ],
+   "price": 0.05,
+   "metrics": {
+    "image_input_megapixel_count": 0,
+    "image_output_count": 1,
+    "predict_time": 6.240832928,
+    "resolution_target": "1k",
+    "total_time": 6.277040961
+   },
+   "logs": "Generated image in 6.0sec\n",
+   "pred_id": "cmm9yc51q1rmt0czz558qzq4ec",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t2_page/grok-quality.png"
+   ]
+  },
+  "p-image-ideogram": {
+   "model": "p-image-ideogram",
+   "status": "ok",
+   "seconds": 8.4,
+   "urls": [
+    "https://replicate.delivery/xezq/533ubmAFfO1iVqDcoDVSvQf4mIgusa3Z71xoiWVDSNB9QvCXA/high_seed_1977970100.png"
+   ],
+   "price": 0.015,
+   "metrics": {
+    "billing": {
+     "model_variant": "high",
+     "resolution_target": "1K"
+    },
+    "image_output_count": 1,
+    "model_variant": "high",
+    "predict_time": 7.57782718,
+    "resolution_target": "1K",
+    "total_time": 7.616005229
+   },
+   "logs": "Calling Ideogram API quality=HIGH resolution=1K aspect_ratio=2x3 prompt_upsampling=ON seed=4125453747\nGeneration took 7.45 seconds\n",
+   "pred_id": "sk6nwyd1pnrmt0czz55abqzzwg",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t2_page/p-image-ideogram.png"
+   ]
+  },
+  "nano-banana-2": {
+   "model": "nano-banana-2",
+   "status": "ok",
+   "seconds": 13.3,
+   "urls": [
+    "https://replicate.delivery/xezq/vFl2xDYMLuJkExdBHiyBLkz7GvXIu476JYfgQoSZjfdBRvCXA/tmpsveubelv.png"
+   ],
+   "price": 0.067,
+   "metrics": {
+    "image_output_count": 1,
+    "predict_time": 11.501760984,
+    "resolution_target": "1K",
+    "total_time": 11.751466718
+   },
+   "logs": "No sid\nGenerating image with Gemini Flash...\nTokens: 1481\nGenerated image in 11.35 seconds\n",
+   "pred_id": "8pe63k5291rmw0czz558qzh0p8",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t2_page/nano-banana-2.png"
+   ]
+  },
+  "gpt-image-2-low": {
+   "model": "gpt-image-2-low",
+   "status": "ok",
+   "seconds": 32.4,
+   "urls": [
+    "https://replicate.delivery/xezq/fHIksyZvPU32US4aLw3LQGa5C1vCNRBhL16UqUyLFL4qoXhLA/tmps4awzekz.png"
+   ],
+   "price": 0.012,
+   "metrics": {
+    "image_output_count": 1,
+    "model_variant": "low",
+    "predict_time": 31.699123226,
+    "resolution_target": "2:3",
+    "total_time": 31.719924213
+   },
+   "logs": "Model: gpt-image-2\nGenerating image...\nNo sid included.\nGenerated image in 31.5sec\nGenerated 1 images\nInput text token count: 367\nInput image token count: 0\nOutput token count: 158\n",
+   "pred_id": "be2wp8x105rmw0czz55b0sknwr",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t2_page/gpt-image-2-low.png"
+   ]
+  },
+  "gpt-image-2-med": {
+   "model": "gpt-image-2-med",
+   "status": "ok",
+   "seconds": 51.1,
+   "urls": [
+    "https://replicate.delivery/xezq/nALIY2F8wwr9EhRKH0RtyLjVFOLRllTYKKjqfAnrMzkzoXhLA/tmpz_8t6vgw.png"
+   ],
+   "price": 0.047,
+   "metrics": {
+    "image_output_count": 1,
+    "model_variant": "medium",
+    "predict_time": 50.307812094,
+    "resolution_target": "2:3",
+    "total_time": 50.407481682
+   },
+   "logs": "Model: gpt-image-2\nGenerating image...\nNo sid included.\nGenerated image in 50.1sec\nGenerated 1 images\nInput text token count: 367\nInput image token count: 0\nOutput token count: 1372\n",
+   "pred_id": "1j915px18srmt0czz558peygtm",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t2_page/gpt-image-2-med.png"
+   ]
+  },
+  "seedream-5-lite": {
+   "model": "seedream-5-lite",
+   "status": "ok",
+   "seconds": 53.5,
+   "urls": [
+    "https://replicate.delivery/xezq/eUueMToi5dnQ3EH8p8XNvvj1obZGBLmeY5fhYA43NlzpG9KcB/tmpti_kdcou.png"
+   ],
+   "price": 0.035,
+   "metrics": {
+    "image_output_count": 1,
+    "predict_time": 52.581739041,
+    "total_time": 52.617432156
+   },
+   "logs": "Generating 1664x2496 image with aspect ratio 2:3 at 2K resolution\nGenerating...\nGenerated in 52.2sec\n",
+   "pred_id": "nf9a16n1q5rmw0czz55an365rc",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t2_page/seedream-5-lite.png"
+   ]
+  },
+  "gpt-image-2-high": {
+   "model": "gpt-image-2-high",
+   "status": "ok",
+   "seconds": 111.1,
+   "urls": [
+    "https://replicate.delivery/xezq/TvFFfPs5WxWVLCIqStqbynn40EVXvfu3qh6jG1FejsgGleKcB/tmpki9ua59k.png"
+   ],
+   "price": 0.128,
+   "metrics": {
+    "image_output_count": 1,
+    "model_variant": "high",
+    "predict_time": 109.785280653,
+    "resolution_target": "2:3",
+    "total_time": 109.813343548
+   },
+   "logs": "Model: gpt-image-2\nGenerating image...\nNo sid included.\nGenerated image in 109.5sec\nGenerated 1 images\nInput text token count: 367\nInput image token count: 0\nOutput token count: 5488\n",
+   "pred_id": "hp6cj2x1r9rmw0czz558cxtvc8",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t2_page/gpt-image-2-high.png"
+   ]
+  }
+ }
+}

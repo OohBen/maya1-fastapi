@@ -1,0 +1,131 @@
+{
+ "test": "t3b_monument",
+ "prompt": "REFERENCE IMAGE 1 defines this character exactly: his face, his shoulder-length blond hair with the right bang covering his right eye, his faint whisker marks, and his full outfit (black long-sleeved shirt with the large red spiral on the chest, black trousers, black boots, black fingerless gloves with red spirals). Reproduce that character design precisely. IGNORE the reference's plain white background, IGNORE its three-view side-by-side layout, and IGNORE its neutral standing pose \u2014 draw him in the new scene described below. SCENE: night, on top of a cliff carved with enormous stone faces, overlooking a lantern-lit village far below. He sits on the edge of the stone hair of one carved head, one knee up, seen from behind and slightly to the side, head turned in profile so his face is visible. Cold blue moonlight, wind moving his hair. Single illustration, not a multi-panel page. No speech balloons. No text, no letters anywhere. Premium 2D shonen manga illustration, full color. Clean confident black ink linework with varied line weight. Flat digital cel coloring: two to three tonal values per material, hard-edged shadows, no gradients. Hair drawn as distinct clusters and wedges, never individual strands. NEGATIVE: no depth-of-field blur, no photorealistic skin texture, no 3D render or CGI look, no painterly or oil-paint rendering, no lens flare, no watermark, no signature.",
+ "refs": [
+  "results/t1_charsheet/gpt-image-2-med.png"
+ ],
+ "aspect": "2:3",
+ "results": {
+  "nano-banana-2-lite": {
+   "model": "nano-banana-2-lite",
+   "status": "ok",
+   "seconds": 8.5,
+   "urls": [
+    "https://replicate.delivery/xezq/XZm5IDElCzLBA9D3J5fuSWkrlqAv9Jkz6wX283eV1c6fpeKcB/tmpmeacy_gy.png"
+   ],
+   "price": 0.034,
+   "metrics": {
+    "image_output_count": 1,
+    "predict_time": 6.209615719,
+    "total_time": 6.921608463
+   },
+   "logs": "No sid\nGenerating image with Gemini Flash...\nTokens: 2547\nGenerated image in 6.05 seconds\n",
+   "pred_id": "m6avgxwkwsrmr0czz578zkm928",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t3b_monument/nano-banana-2-lite.png"
+   ]
+  },
+  "grok-quality": {
+   "model": "grok-quality",
+   "status": "ok",
+   "seconds": 13.4,
+   "urls": [
+    "https://replicate.delivery/xezq/KaGmzPesYkS0dqbtvD0lRrvaJN2qtwlfJPRzbVDPCldEVvCXA/tmpp_kzfy0n.jpg"
+   ],
+   "price": 0.05,
+   "metrics": {
+    "image_input_megapixel_count": 1,
+    "image_output_count": 1,
+    "predict_time": 11.251322778,
+    "resolution_target": "1k",
+    "total_time": 11.939596926
+   },
+   "logs": "Warning: aspect_ratio parameter is ignored for image editing.\nEdited image in 10.8sec\n",
+   "pred_id": "eyrn0amkhxrmw0czz57affxqqm",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t3b_monument/grok-quality.png"
+   ]
+  },
+  "nano-banana-2": {
+   "model": "nano-banana-2",
+   "status": "ok",
+   "seconds": 18.3,
+   "urls": [
+    "https://replicate.delivery/xezq/5mQ3CDFl6tLiPRrmbPxe3am82Lup0wUqZJroWriTfXfRqeKcB/tmpl604y585.png"
+   ],
+   "price": 0.067,
+   "metrics": {
+    "image_output_count": 1,
+    "predict_time": 15.942546376,
+    "resolution_target": "1K",
+    "total_time": 16.656855866
+   },
+   "logs": "No sid\nGenerating image with Gemini Flash...\nTokens: 2547\nGenerated image in 15.58 seconds\n",
+   "pred_id": "hwertt4m01rmw0czz578f47fsw",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t3b_monument/nano-banana-2.png"
+   ]
+  },
+  "gpt-image-2-low": {
+   "model": "gpt-image-2-low",
+   "status": "ok",
+   "seconds": 27.0,
+   "urls": [
+    "https://replicate.delivery/xezq/PrYwBSfoBZUGNacwlTXVrlVPfKs3ibrKUGvzzNNIfMpiqeKcB/tmp_cq1eo4r.png"
+   ],
+   "price": 0.012,
+   "metrics": {
+    "image_output_count": 1,
+    "model_variant": "low",
+    "predict_time": 24.648788422,
+    "resolution_target": "2:3",
+    "total_time": 25.358185746
+   },
+   "logs": "Model check completed.\nModel: gpt-image-2\nGenerating image...\nNo sid included.\nGenerated image in 22.7sec\nGenerated 1 images\nInput text token count: 1013\nInput image token count: 704\nOutput token count: 158\n",
+   "pred_id": "ht8h80wkxdrmt0czz579cnqsdg",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t3b_monument/gpt-image-2-low.png"
+   ]
+  },
+  "seedream-5-lite": {
+   "model": "seedream-5-lite",
+   "status": "ok",
+   "seconds": 51.9,
+   "urls": [
+    "https://replicate.delivery/xezq/mn3G2fjn26W0WKBVDt6UYT8SgU41VneFTUtBVtLVvB2qVvCXA/tmp0ibpml6_.png"
+   ],
+   "price": 0.035,
+   "metrics": {
+    "image_output_count": 1,
+    "predict_time": 49.557064115,
+    "total_time": 50.271317463
+   },
+   "logs": "Generating 1664x2496 image with aspect ratio 2:3 at 2K resolution\nGenerating...\nGenerated in 49.0sec\n",
+   "pred_id": "jg6q424kwsrmw0czz57azqg898",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t3b_monument/seedream-5-lite.png"
+   ]
+  },
+  "gpt-image-2-med": {
+   "model": "gpt-image-2-med",
+   "status": "ok",
+   "seconds": 56.5,
+   "urls": [
+    "https://replicate.delivery/xezq/ZFwhm6Fwl5KsCx4WhDIg9RLr3Ou7wOW2NnqYdVtfLlw3qXhLA/tmpd5cwk7m2.png"
+   ],
+   "price": 0.047,
+   "metrics": {
+    "image_output_count": 1,
+    "model_variant": "medium",
+    "predict_time": 54.253690822,
+    "resolution_target": "2:3",
+    "total_time": 54.958438397
+   },
+   "logs": "Model check completed.\nModel: gpt-image-2\nGenerating image...\nNo sid included.\nGenerated image in 52.4sec\nGenerated 1 images\nInput text token count: 1013\nInput image token count: 704\nOutput token count: 1372\n",
+   "pred_id": "mb688e4kpxrmw0czz57awdcz8m",
+   "files": [
+    "/home/user/maya1-fastapi/manga/bench/results/t3b_monument/gpt-image-2-med.png"
+   ]
+  }
+ }
+}
