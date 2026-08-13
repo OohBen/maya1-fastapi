@@ -21,7 +21,7 @@ def library():
     global _LIB
     if _LIB is None:
         rows = []
-        for f in sorted(LABELS.glob("batch*.json")):
+        for f in sorted(LABELS.glob("*.json")):
             try:
                 data = json.loads(f.read_text())
             except Exception:

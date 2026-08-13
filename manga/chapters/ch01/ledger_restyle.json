@@ -1,0 +1,34 @@
+[
+ {
+  "page": "p07",
+  "quality": "low",
+  "cost": 0.012,
+  "style_refs": [
+   "v06_p031.png"
+  ]
+ },
+ {
+  "page": "p12",
+  "quality": "medium",
+  "cost": 0.047,
+  "style_refs": [
+   "v06_p031.png"
+  ]
+ },
+ {
+  "page": "p07",
+  "quality": "medium",
+  "cost": 0.047,
+  "style_refs": [
+   "v06_p031.png"
+  ]
+ },
+ {
+  "page": "p07",
+  "quality": "low",
+  "cost": 0.012,
+  "style_refs": [
+   "v06_p031.png"
+  ]
+ }
+]
