@@ -31,13 +31,19 @@ privacy*. Volume 3's is **every chapter costs him the story he tells about himse
 | Ch | Title | Pages | Ends on |
 |---|---|---|---|
 | 1 | Amaterasu | 22 | *"Stay down, Naruto-kun."* |
-| 2 | A Gift | 20 | Naruto looking at his own hands |
-| 3 | The Tower | 18 | Both scrolls opened |
-| 4 | The Preliminaries | 20 | His own match, over in one movement |
-| 5 | Fate | 20 | Hinata: *"What I want to change is you."* |
-| 6 | The Toad Sage | 18 | He turns Jiraiya down and disappears |
-| 7 | The Silent Crowd | 22 | Naruto vs Neji — he sends a clone |
-| 8 | Invasion | 22 | The Sandaime dead; *"I am done waiting."* |
+| 2 | A Gift | 12 | Naruto looking at his own hands |
+| 3 | The Tower | 14 | Both scrolls opened |
+| 4 | The Preliminaries | 16 | His own match, over in one movement |
+| 5 | Fate | 16 | Hinata: *"What I want to change is you."* |
+| 6 | The Toad Sage | 14 | He turns Jiraiya down and disappears |
+| 7 | The Silent Crowd | 18 | Naruto vs Neji — he sends a clone |
+| 8 | Susano'o | 20 | The purple barrier on the academy roof |
+
+Revised from the first draft after reading fic ch6 and ch7 properly: the finals run across
+two fic chapters, not one. Neji is ch6; Gaara, the Susano'o and the opening of the invasion are
+ch7. The volume ends the moment Naruto sees the barrier go up over the academy with Orochimaru
+inside it — the invasion's outcome and the Sandaime's death open Volume 4, which is where the
+fic itself puts them (ch8 opens after the fact).
 
 ## Source fidelity
 
