@@ -250,5 +250,35 @@
   "id": "env_training_ground_7",
   "cost": 0.128,
   "quality": "high"
+ },
+ {
+  "batch": "v2cast3",
+  "id": "haku",
+  "cost": 0.128,
+  "quality": "high"
+ },
+ {
+  "batch": "v2cast3",
+  "id": "kuyoki",
+  "cost": 0.128,
+  "quality": "high"
+ },
+ {
+  "batch": "v2cast3",
+  "id": "naruto_13_sword",
+  "cost": 0.128,
+  "quality": "high"
+ },
+ {
+  "batch": "v2cast3",
+  "id": "gato",
+  "cost": 0.128,
+  "quality": "high"
+ },
+ {
+  "batch": "v2cast3",
+  "id": "zabuza",
+  "cost": 0.128,
+  "quality": "high"
  }
 ]

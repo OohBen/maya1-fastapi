@@ -1,0 +1,160 @@
+"""Shared prompt vocabulary for Volume 2 chapters.
+
+Character bindings lead with the SILHOUETTE-DEFINING feature — the one shape that identifies
+the character at thumbnail size — because that is what survives being drawn small.
+"""
+import pathlib
+import sys
+
+HERE = pathlib.Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE.parent))
+from genlib import UNIQUE  # noqa: E402
+
+REFS = HERE.parent / "refs" / "images"
+
+
+def R(*n):
+    return [str(REFS / f"{x}.png") for x in n]
+
+
+FILL = ("A single complete manga PAGE, portrait. The block of panels FILLS THE WHOLE PAGE out to a "
+        "narrow even margin, separated only by thin white gutters — no broad empty white areas. ")
+
+# ---------------------------------------------------------------- cast
+N13 = ("Image {i} is the CHARACTER REFERENCE for the blond boy: a lean thirteen-year-old whose hair "
+       "is LONG — hanging well past his jaw to his shoulders in heavy strands, two thick bangs "
+       "framing his face, the right bang low enough to cover his right eye. His hair is never short "
+       "and never spiky. Blue eyes, whisker marks nearly faded, blank expression, black long-sleeved "
+       "shirt with a large red spiral on the chest, black trousers, dark sandals, black fingerless "
+       "gloves with small red spirals. Reproduce exactly; ignore its white background and layout. "
+       + UNIQUE + " ")
+N13S = ("Image {i} is the CHARACTER REFERENCE for the blond boy: a lean thirteen-year-old with LONG "
+        "blond hair hanging well past his jaw to his shoulders, two thick bangs framing his face, "
+        "the right bang covering his right eye — never short, never spiky. Blue eyes, faded whisker "
+        "marks, blank expression, black long-sleeved shirt with a large red spiral on the chest, "
+        "black trousers, dark sandals, black fingerless gloves. A plain straight sword in a black "
+        "scabbard is slung diagonally across his back, its wrapped hilt showing above his left "
+        "shoulder. Reproduce exactly; ignore its white background and layout. " + UNIQUE + " ")
+KAK = ("Image {i} is the CHARACTER REFERENCE for the masked man: tall, lean, spiky silver-grey hair "
+       "swept to one side, dark cloth mask covering his face below the nose, slanted forehead "
+       "protector covering his left eye so only his right eye shows, dark navy uniform under a green "
+       "flak vest. Reproduce exactly; ignore its white background and layout. ")
+HIR = ("Image {i} is the CHARACTER REFERENCE for the old leader: he WEARS ON HIS HEAD a tall white "
+       "ceremonial hat with a broad brim, a large red front panel bearing one black brush kanji, and "
+       "long white cloth drapes over his ears and shoulders. White ceremonial robes over a red "
+       "under-robe, white sash, short grey goatee, deeply lined face, long wooden smoking pipe. "
+       "Reproduce exactly; ignore its white background and layout. ")
+SAS = ("Image {i} is the CHARACTER REFERENCE for the dark-haired boy: thirteen, pale, black hair "
+       "spiked upward at the back with two long bangs at the front, dark eyes, high-collared navy "
+       "shirt with a white round-and-triangle fan crest on the back, white arm warmers, scowling. "
+       "Reproduce exactly; ignore its white background and layout. ")
+SAK = ("Image {i} is the CHARACTER REFERENCE for the pink-haired girl: thirteen, chin-length bright "
+       "pink hair with a red cloth headband holding it back, green eyes, an unusually broad "
+       "forehead, sleeveless red qipao dress with a white circle crest, dark cycling shorts. "
+       "Reproduce exactly; ignore its white background and layout. ")
+ZET = ("Image {i} is the CREATURE REFERENCE: a humanoid plant creature split vertically, right half "
+       "chalk white and left half pure black, round yellow pupil-less eyes, black cloak, green "
+       "venus-flytrap shell around its head. Reproduce exactly; ignore its white background. ")
+ZAB = ("Image {i} is the CHARACTER REFERENCE for the swordsman: a very tall heavily-built man whose "
+       "silhouette is dominated by an ENORMOUS flat rectangular butcher-blade sword taller than a "
+       "man, with a rounded notch and a circular hole through it. The lower half of his face is "
+       "wrapped in white bandages. Short spiky black hair, no eyebrows, bare muscular arms, striped "
+       "arm and leg warmers, a forehead protector worn slanted sideways on his head. Reproduce "
+       "exactly; ignore its white background and layout. ")
+HAK = ("Image {i} is the CHARACTER REFERENCE for the masked figure: slender and delicate, wearing a "
+       "smooth plain WHITE PORCELAIN MASK over the whole face with two narrow eye slits and a small "
+       "red swirl on the forehead. Long black hair tied back with two strands framing the mask, a "
+       "pale green-grey full-length haori over dark clothing, brown sash. Reproduce exactly; ignore "
+       "its white background and layout. ")
+GAT = ("Image {i} is the CHARACTER REFERENCE for the businessman: a short fat smug middle-aged man "
+       "barely taller than a child, round black sunglasses, pointed grey beard, black pinstripe "
+       "suit, walking cane, one arm in a sling. Reproduce exactly; ignore its white background. ")
+GAA = ("Image {i} is the CHARACTER REFERENCE for the red-haired boy: short and slight, twelve, whose "
+       "silhouette is dominated by an ENORMOUS sand-coloured clay gourd strapped upright on his back, "
+       "nearly as large as he is. Short messy dark red hair, NO EYEBROWS, heavy black rings of "
+       "sleeplessness around pale blue-green eyes, a single blood-red kanji tattooed on the upper "
+       "left of his forehead, dark maroon full-body outfit with a white sash. Reproduce exactly; "
+       "ignore its white background and layout. ")
+TEM = ("Image {i} is the CHARACTER REFERENCE for the blonde girl: fifteen, with FOUR separate blonde "
+       "pigtails standing out from her head in a fan shape and a HUGE closed iron battle fan strapped "
+       "diagonally across her back, taller than her torso. Teal eyes, pale lavender-grey short "
+       "kimono dress with a dark sash. Reproduce exactly; ignore its white background and layout. ")
+KAN = ("Image {i} is the CHARACTER REFERENCE for the face-painted boy: fourteen, in a black full-body "
+       "hooded suit whose hood has two pointed cat-like ear shapes, with a LARGE BANDAGE-WRAPPED "
+       "BUNDLE almost his own size strapped upright on his back. His whole face is painted with bold "
+       "purple angular stripes. Reproduce exactly; ignore its white background and layout. ")
+KUY = ("Image {i} is the CHARACTER REFERENCE for the black-haired princess: early twenties, long "
+       "straight black hair, sharp dark eyes, heavy dark eye makeup. Reproduce exactly; ignore its "
+       "white background and layout. ")
+ENV = ("Image {i} is the LOCATION REFERENCE — reuse its architecture, colour palette and lighting. "
+       "Do not copy its camera angle; ignore that it is empty of people. ")
+
+# ---------------------------------------------------------------- names used in balloon tails
+BOY = "the blond boy"
+MAN = "the masked silver-haired man"
+OLD = "the old man in the tall hat"
+UCH = "the dark-haired boy"
+GIRL = "the pink-haired girl"
+SWORD = "the bandage-faced swordsman"
+MASK = "the figure in the white mask"
+RED = "the red-haired boy with the gourd"
+FAN = "the blonde girl with four pigtails"
+PAINT = "the boy with purple face paint"
+
+# ---------------------------------------------------------------- light
+L_DAY = "Lighting: clean flat daylight. "
+L_OFF = "Lighting: warm late-afternoon light slanting through tall arched windows. "
+L_DUSK = "Lighting: cool blue dusk. "
+L_MIST = "Lighting: cold flat overcast light, thick white sea mist swallowing everything distant. "
+L_SNOW = "Lighting: cold blue-white winter light off snow, long hard shadows. "
+
+
+def ONLY(*names):
+    """State the complete cast so no stray characters are invented."""
+    return (f"The only people anywhere on this page are {', '.join(names)}. No other character "
+            f"appears in any panel, in the foreground or the background. ")
+
+
+def OFF(speaker):
+    """Mark a speaker who is NOT DRAWN in that panel, so the tail runs off-panel."""
+    return ("\x00", speaker)
+
+
+def SAY(*lines):
+    """Every balloon names its speaker AND its position. Entries: (panel, who, where, text)."""
+    out = ("LETTERING: draw the speech balloons WITH their dialogue written inside, in clean bold "
+           "upright English comic lettering, all capitals, correctly spelled. Each balloon must sit "
+           "where stated and its TAIL MUST POINT DIRECTLY AT ITS NAMED SPEAKER, clear of every "
+           "face. A balloon must never sit nearer to, or point at, any character other than its own "
+           "speaker. Use exactly these balloons and no others:\n")
+    for panel, speaker, where, text in lines:
+        if isinstance(speaker, tuple) and speaker and speaker[0] == "\x00":
+            out += (f'  PANEL {panel} — balloon in the {where}, spoken by {speaker[1]}, who is NOT '
+                    f'DRAWN ANYWHERE IN THIS PANEL. Draw it as an OFF-PANEL balloon: its tail is a '
+                    f'short straight spur running to the nearest panel border and stopping there, '
+                    f'pointing out of the panel. The tail must NOT touch, overlap or aim at any '
+                    f'face or figure that IS drawn in this panel. Reading: "{text}"\n')
+        else:
+            out += (f'  PANEL {panel} — balloon in the {where}, tail pointing at {speaker}, '
+                    f'reading: "{text}"\n')
+    out += "Do not write any other text anywhere on the page. "
+    return out
+
+
+def CAP(panel, where, text):
+    """A square narration box — used sparingly, for time and place jumps only."""
+    return (f'CAPTION: in PANEL {panel}, in the {where}, draw a plain rectangular narration box '
+            f'with a thin black border, no tail, containing only the words: "{text}". It is not a '
+            f'speech balloon and must not point at anyone. ')
+
+
+def TITLE(text, where="upper right sky"):
+    return (f'LETTERING: write the chapter title in the quiet {where}, in large bold upright English '
+            f'capitals, correctly spelled, reading: "{text}". Draw no other text anywhere on the '
+            f'page — no balloons, no sound effects, no numbers, no signature. ')
+
+
+def SFX(panel, word, note=""):
+    return (f'SOUND EFFECT: in PANEL {panel}, draw the hand-lettered manga sound effect "{word}" as '
+            f'a large bold graphic shape with a heavy black outline, overlapping the figures and '
+            f'cropped by the panel edge. {note}')

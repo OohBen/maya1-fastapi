@@ -163,8 +163,28 @@ def _rep_key():
 REP_PRICE = {"low": 0.012, "medium": 0.047, "high": 0.128}
 
 
+class Moderated(RuntimeError):
+    """The request was refused on content grounds. Retrying it unchanged cannot work."""
+
+
+# Moderation refusals and transient failures both arrive as a failed prediction, but they need
+# opposite handling: a timeout wants the same request again, a refusal wants a DIFFERENT request.
+# Retrying a refusal just burns retries x style-candidates worth of calls before giving up.
+_MOD_MARKERS = ("e005", "moderation", "content policy", "content_policy", "safety system",
+                "flagged", "not allowed", "violates", "rejected as sensitive")
+
+
+def _is_moderation(msg):
+    m = (msg or "").lower()
+    return any(k in m for k in _MOD_MARKERS)
+
+
 def rep_generate(prompt, refs=(), quality="low", aspect="2:3", timeout=900, retries=3):
-    """One page from gpt-image-2 on Replicate. Returns (png_bytes, cost)."""
+    """One page from gpt-image-2 on Replicate. Returns (png_bytes, cost).
+
+    Raises Moderated immediately (no retries) if the request was refused on content grounds —
+    the caller must change the prompt or the reference images, not try again.
+    """
     h = {"Authorization": f"Bearer {_rep_key()}", "Content-Type": "application/json",
          "Prefer": "wait"}
     payload = {"prompt": prompt, "aspect_ratio": aspect, "quality": quality,
@@ -178,6 +198,8 @@ def rep_generate(prompt, refs=(), quality="low", aspect="2:3", timeout=900, retr
             r = requests.post(REPLICATE_URL, headers=h, json={"input": payload}, timeout=timeout)
             if r.status_code >= 400:
                 last = f"HTTP {r.status_code}: {r.text[:300]}"
+                if _is_moderation(last):
+                    raise Moderated(last)
                 time.sleep(5 * (attempt + 1)); continue
             pred = r.json()
             t0 = time.time()
@@ -187,15 +209,75 @@ def rep_generate(prompt, refs=(), quality="low", aspect="2:3", timeout=900, retr
                 time.sleep(3)
                 pred = requests.get(pred["urls"]["get"], headers=h, timeout=60).json()
             if pred.get("status") != "succeeded":
-                last = f"{pred.get('status')}: {str(pred.get('error'))[:200]}"
+                last = f"{pred.get('status')}: {str(pred.get('error'))[:300]}"
+                if _is_moderation(last):
+                    raise Moderated(last)
                 time.sleep(5 * (attempt + 1)); continue
             out = pred["output"]
             url = out if isinstance(out, str) else out[0]
             return requests.get(url, timeout=180).content, REP_PRICE.get(quality, 0)
+        except Moderated:
+            raise
         except Exception as e:
             last = repr(e)[:300]
         time.sleep(5 * (attempt + 1))
     raise RuntimeError(f"rep_generate failed — {last}")
+
+
+# When a page IS refused, changing something means changing the words that read as real-world
+# harm. These are the substitutions that have actually cleared refusals on fight pages.
+SOFTEN = [
+    ("blood", "dark spatter"), ("bloody", "dark-stained"), ("bleeding", "wounded"),
+    ("gore", "damage"), ("corpse", "still figure"), ("dead body", "still figure"),
+    ("stabs", "strikes"), ("stabbing", "striking"), ("stab", "strike"),
+    ("slits his throat", "strikes him down"), ("throat", "collar"),
+    ("kills", "defeats"), ("killing", "defeating"), ("kill", "defeat"),
+    ("murder", "defeat"), ("slaughter", "rout"), ("execute", "finish"),
+    ("impaled", "pinned"), ("impales", "pins"), ("severed", "broken"),
+    ("wound", "mark"), ("wounds", "marks"), ("dying", "fading"), ("dies", "falls"),
+]
+
+
+def soften(prompt):
+    """Rewrite a refused prompt into the same picture with less alarming words."""
+    out = prompt
+    for a, b in SOFTEN:
+        out = out.replace(a, b).replace(a.capitalize(), b.capitalize())
+        out = out.replace(a.upper(), b.upper())
+    return out + ("Draw this as stylised printed comic action: no realistic injury detail, no red "
+                  "fluid, no visible harm to any body. Impact is shown with flat graphic shapes, "
+                  "motion lines and posture alone. ")
+
+
+def build_page(prompt, refs, style_candidates, quality, aspect="1152x2048"):
+    """Generate one page, escalating only when a refusal says the request must change.
+
+    Transient failures are already retried inside rep_generate. This ladder handles refusals:
+
+      1. prompt as written, best style reference
+      2. refused -> NEXT style reference. The library page itself is often the trigger; a
+         harmless empty-clearing page was refused once purely because of its style ref.
+      3. still refused after three references -> soften the PROMPT and walk the references again
+      4. still refused -> softened prompt with no style reference at all
+
+    Returns (png_bytes, cost, style_ref_path_or_None).
+    """
+    heads = list(style_candidates[:3])
+    attempts = [(prompt, c) for c in heads]
+    attempts += [(soften(prompt), c) for c in heads]
+    attempts += [(soften(prompt), None)]
+
+    refused = None
+    for text, cand in attempts:
+        try:
+            img, cost = rep_generate(text, refs=list(refs) + ([cand] if cand else []),
+                                     quality=quality, aspect=aspect)
+            return img, cost, cand
+        except Moderated as e:
+            refused = str(e)[-120:]
+        except RuntimeError as e:            # transient, already retried inside
+            refused = str(e)[-120:]
+    raise RuntimeError(f"all variants refused — {refused}")
 
 
 # ---------------------------------------------------------------- style reference

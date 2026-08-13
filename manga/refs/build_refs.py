@@ -247,6 +247,58 @@ ENVIRONMENTS_V3 = {
 }
 
 
+# --- V4: the Wave / Snow montage in Volume 2 Chapter 3, plus Naruto's ninjato ---
+CHARACTERS_V4 = {
+    "zabuza": SHEET + (
+        "A very tall, heavily-built adult man whose defining feature is an ENORMOUS flat "
+        "rectangular butcher-blade sword, taller and broader than a man, carried on his back — it "
+        "has a rounded notch cut out near the hilt and a circular hole through the blade. The lower "
+        "half of his face is wrapped in white bandages like a mask. Short spiky black hair, no "
+        "eyebrows, narrow brown eyes with tiny pupils. Bare muscular arms, striped grey-and-white "
+        "arm and leg warmers, a slanted forehead protector worn sideways on his head. Expression: "
+        "murderous, amused."),
+    "haku": SHEET + (
+        "A slender, delicate-featured teenager of ambiguous appearance whose defining feature is a "
+        "smooth WHITE PORCELAIN MASK covering the whole face — plain, with two narrow eye slits and "
+        "a single small red swirl marking on the forehead. Long black hair pulled back with two "
+        "strands framing the mask. A pale green-grey full-length kimono-style haori over dark "
+        "clothing, brown sash. Show the same figure a second time with the mask pushed up onto the "
+        "forehead, revealing a soft pale face with large dark brown eyes."),
+    "gato": SHEET + (
+        "A short, fat, smug middle-aged businessman: barely taller than a child, round black "
+        "sunglasses, a neat pointed grey beard, thinning slicked hair, an expensive black pinstripe "
+        "business suit, a walking cane, one arm in a sling. Expression: greedy and contemptuous."),
+    "kuyoki": SHEET + (
+        "A young woman in her early twenties, a princess in hiding: long straight black hair, sharp "
+        "dark eyes, heavy dark eye makeup. Show her twice — once in a plain travelling coat with a "
+        "sullen bitter expression, and once in ornate white-and-red snow-country royal robes with a "
+        "tall formal headdress, standing straight."),
+    "naruto_13_sword": SHEET + (
+        "A lean THIRTEEN-year-old boy with LONG blond hair hanging well past his jaw to his "
+        "shoulders in heavy strands, two thick bangs framing his face, the right bang low enough to "
+        "cover his right eye. His hair is never short and never spiky. Blue eyes, faded whisker "
+        "marks, blank expression. Black long-sleeved shirt with a large red spiral on the chest, "
+        "black trousers, dark sandals, black fingerless gloves with small red spirals. NEW: a plain "
+        "straight single-edged NINJATO in a black lacquered scabbard slung diagonally across his "
+        "back, its square guard and wrapped hilt showing above his left shoulder. Show him from the "
+        "front, from behind so the sword is clearly visible, and drawing the blade."),
+}
+
+ENVIRONMENTS_V4 = {
+    "env_wave_bridge": ENV + (
+        "An enormous unfinished suspension bridge over grey sea water, empty of people: bare steel "
+        "girders and wooden decking, scaffolding, cranes, the far end vanishing into thick white "
+        "sea mist. Cold flat overcast light."),
+    "env_wave_village": ENV + (
+        "A poor coastal fishing village on stilts over shallow water, empty of people: weathered "
+        "wooden shacks, sagging walkways, moored rowing boats, grey water, low mist. Bleak."),
+    "env_snow_country": ENV + (
+        "A frozen northern landscape, empty of people: a snowfield under a pale sky, black pines "
+        "heavy with snow, a jagged ice ridge, and a dark stone castle with steep roofs in the far "
+        "distance. Cold blue-white light, long shadows."),
+}
+
+
 if __name__ == "__main__":
     which = sys.argv[1] if len(sys.argv) > 1 else "all"
     if which in ("all", "cast1"):
@@ -286,4 +338,8 @@ if __name__ == "__main__":
                           ["anko", "kabuto", "rock_lee", "kiba", "shino"]})
     if which in ("all", "v2env"):
         build("v2env", ENVIRONMENTS_V3)
+    if which in ("all", "v2cast3"):
+        build("v2cast3", CHARACTERS_V4)
+    if which in ("all", "v2env2"):
+        build("v2env2", ENVIRONMENTS_V4)
     print(f"\nledger total: ${LED.spent:.4f}")

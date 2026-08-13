@@ -1,0 +1,164 @@
+[
+ {
+  "page": "p03",
+  "quality": "medium",
+  "cost": 0.047,
+  "style_ref": "v02_p058.png"
+ },
+ {
+  "page": "p17",
+  "quality": "medium",
+  "cost": 0.047,
+  "style_ref": "v01_p106.png"
+ },
+ {
+  "page": "p16",
+  "quality": "medium",
+  "cost": 0.047,
+  "style_ref": "v01_p145.png"
+ },
+ {
+  "page": "p05",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v05_p151.png"
+ },
+ {
+  "page": "p02",
+  "quality": "medium",
+  "cost": 0.047,
+  "style_ref": "v01_p055.png"
+ },
+ {
+  "page": "p09",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v03_p061.png"
+ },
+ {
+  "page": "p04",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p148.png"
+ },
+ {
+  "page": "p10",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p031.png"
+ },
+ {
+  "page": "p15",
+  "quality": "medium",
+  "cost": 0.047,
+  "style_ref": "v01_p067.png"
+ },
+ {
+  "page": "p13",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v03_p061.png"
+ },
+ {
+  "page": "p21",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v02_p058.png"
+ },
+ {
+  "page": "p01",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v02_p022.png"
+ },
+ {
+  "page": "p22",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p181.png"
+ },
+ {
+  "page": "p19",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v02_p088.png"
+ },
+ {
+  "page": "p18",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v02_p088.png"
+ },
+ {
+  "page": "p14",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p181.png"
+ },
+ {
+  "page": "p08",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p031.png"
+ },
+ {
+  "page": "p11",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p094.png"
+ },
+ {
+  "page": "p20",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p181.png"
+ },
+ {
+  "page": "p06",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p094.png"
+ },
+ {
+  "page": "p07",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v02_p094.png"
+ },
+ {
+  "page": "p12",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v03_p156.png"
+ },
+ {
+  "page": "p16",
+  "quality": "medium",
+  "cost": 0.047,
+  "style_ref": "v01_p145.png"
+ },
+ {
+  "page": "p05",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v05_p151.png"
+ },
+ {
+  "page": "p10",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v01_p031.png"
+ },
+ {
+  "page": "p12",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v03_p156.png"
+ },
+ {
+  "page": "p07",
+  "quality": "high",
+  "cost": 0.128,
+  "style_ref": "v02_p094.png"
+ }
+]
