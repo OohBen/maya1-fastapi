@@ -280,5 +280,17 @@
   "id": "zabuza",
   "cost": 0.128,
   "quality": "high"
+ },
+ {
+  "batch": "v2cast4",
+  "id": "kusa_nin",
+  "cost": 0.128,
+  "quality": "high"
+ },
+ {
+  "batch": "v2cast4",
+  "id": "giant_snake",
+  "cost": 0.128,
+  "quality": "high"
  }
 ]

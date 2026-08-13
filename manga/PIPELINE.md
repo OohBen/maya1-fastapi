@@ -396,3 +396,69 @@ than failing the page. Two other lessons from the same incident:
 - **Never let one page abort a chapter.** `build_one` catches and returns `[FAIL] <page>` so the
   other 19 pages still generate.
 - When a page fails moderation, check the style ref before rewriting the prompt.
+
+---
+
+## ADDENDUM — what Volume 2 changed (140 pages, $14.73)
+
+Volume 2 is finished. Six things in here are now load-bearing; a subagent producing Volume 3
+should start from `chapters/build_v2ch07.py` as the template, not from any Volume 1 file.
+
+### The chapter file is now just page specs
+
+`runner.py` owns the build loop and `chapters/prompts.py` owns the shared vocabulary — cast
+bindings, `SAY` / `OFF` / `ONLY` / `CAP` / `TITLE` / `SFX`. A chapter file declares `PAGES` and
+calls `run(PAGES, outdir, ledger)`. Adding a character means adding one binding to `prompts.py`,
+not pasting it into six chapters.
+
+### Splash pages must not get STAGING
+
+`STAGING` uses the word "panels" nine times and wins every argument with "draw one illustration",
+so `v2ch01 p01` and the first cut of `v2ch02 p01` both came back as six-panel grids of the same
+building. `genlib.SPLASH` replaces it — never both — and `runner.run` picks it automatically when
+a page's style query says `panels=1`.
+
+### Balloons need a speaker AND a position AND an off-panel case
+
+`SAY((panel, who, where, text), ...)` writes out, per balloon, where it sits and that its tail
+points at its named speaker. That fixed most of it. What it did NOT fix was dialogue on a panel
+where the speaker isn't drawn: on `v2ch02 p04` Naruto's line sat on a Hiruzen-only close-up and
+the model grew a tail out of Hiruzen's mouth. Wrap those speakers in `OFF(...)` and the tail
+becomes a short spur running to the panel border instead.
+
+### Every name in ONLY() must be bound to a reference
+
+`ONLY()` stops the model inventing extra characters. It does not stop it *substituting* one: on
+`v2ch03 p10`, Kakashi and Sasuke were named but not bound, so Zabuza — who was bound — was drawn
+in Sasuke's place. Audit before generating: if a name appears in `ONLY()` or in a panel
+description, it needs a reference image in that page's `R(...)`. If the character is only a
+distant extra, describe them generically instead ("two other young genin seen only as small
+distant figures") and drop the name.
+
+### Refusals must change something; timeouts must not
+
+These are opposite failures and used to be handled identically, which meant a content refusal
+burned `retries x style-candidates` calls before giving up. Now `rep_generate` raises `Moderated`
+immediately when the error text looks like a content block, and `build_page` escalates by
+changing the request: next style reference (the library page is often the actual trigger), then
+`soften()`ed prompt, then softened with no style reference at all. Transient errors still retry
+with backoff inside `rep_generate`.
+
+### Pacing is a decision, not an inheritance
+
+The fic disposes of the Wave mission in two paragraphs because it was unremarkable *to Naruto*.
+That is characterisation and worth keeping — but it is not a reason to draw two panels. Wave got
+ten staged pages and still ends on his blank face, which preserves the joke and spends the
+volume's best visual material. Snow stayed a genuine one-page montage, and the contrast between
+the two is what the prose was doing.
+
+### Small things worth knowing
+
+- **The model renders figures of speech literally.** "Every watching genin turned to stone" on
+  `v2ch05 p08` produced actual grey statues. It happened to look good; it usually won't.
+- **Illegible-by-design text works.** Asking for "lines of writing that are ILLEGIBLE SCRIBBLE,
+  not readable words" on blackboards, exam papers and info cards reliably avoids the model
+  inventing misspelled English, while still reading as a page of writing.
+- Volume 2 spent $14.73 for 140 pages — about $0.105/page at a mix of `high` for beats and
+  `medium`/`low` for connective tissue. `high` is worth it on splashes, fights and any page whose
+  whole job is one face.

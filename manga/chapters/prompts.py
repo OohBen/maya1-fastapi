@@ -111,6 +111,26 @@ LEE = ("Image {i} is the CHARACTER REFERENCE for the boy in green: thirteen, wit
 KUY = ("Image {i} is the CHARACTER REFERENCE for the black-haired princess: early twenties, long "
        "straight black hair, sharp dark eyes, heavy dark eye makeup. Reproduce exactly; ignore its "
        "white background and layout. ")
+SHI = ("Image {i} is the CHARACTER REFERENCE for the bored boy: thirteen, black hair pulled up into "
+       "a short spiky pineapple-shaped ponytail, narrow half-lidded eyes, small stud earrings, a "
+       "short-sleeved grey-green mesh shirt under an open dark jacket with a green edge. Expression: "
+       "permanently unbothered. Reproduce exactly; ignore its white background and layout. ")
+INO = ("Image {i} is the CHARACTER REFERENCE for the platinum-blonde girl: thirteen, very long "
+       "platinum-blonde hair in a high ponytail with one long bang covering the right side of her "
+       "face, pale blue eyes, a purple crop top and matching purple skirt over bandaged legs. "
+       "Reproduce exactly; ignore its white background and layout. ")
+KIB = ("Image {i} is the CHARACTER REFERENCE for the boy with the dog: thirteen, wild brown hair, "
+       "slit-pupil eyes, two bold red fang markings painted on his cheeks, sharp canine teeth, a "
+       "grey fur-lined hooded coat — and a SMALL WHITE PUPPY riding on his head or in his hood. "
+       "Reproduce exactly; ignore its white background and layout. ")
+HIN = ("Image {i} is the CHARACTER REFERENCE for the shy girl: thirteen, short dark blue-black hair "
+       "cut level with her jaw, and PALE LAVENDER-WHITE EYES WITH NO VISIBLE PUPILS, a cream hooded "
+       "coat with fur trim. Expression: timid, always about to look away. Reproduce exactly; ignore "
+       "its white background and layout. ")
+SHN = ("Image {i} is the CHARACTER REFERENCE for the hidden boy: thirteen, whose face is almost "
+       "entirely concealed — round BLACK SUNGLASSES and a high collar drawn up over his nose and "
+       "mouth so only a strip of face and spiky dark brown hair show. A pale grey-green hooded coat. "
+       "Reproduce exactly; ignore its white background and layout. ")
 ENV = ("Image {i} is the LOCATION REFERENCE — reuse its architecture, colour palette and lighting. "
        "Do not copy its camera angle; ignore that it is empty of people. ")
 
@@ -128,6 +148,11 @@ SCAR = "the scarred man in the black bandana"
 COAT = "the violet-haired woman in the tan coat"
 SPEC = "the grey-haired boy in round glasses"
 GREEN = "the boy in the green jumpsuit"
+LAZY = "the boy with the pineapple ponytail"
+BLONDE = "the platinum-blonde girl with the long ponytail"
+DOG = "the boy with the red fang markings and the puppy"
+PALE = "the shy girl with the pale eyes"
+SHADES = "the boy in the black sunglasses and high collar"
 FAN = "the blonde girl with four pigtails"
 PAINT = "the boy with purple face paint"
 

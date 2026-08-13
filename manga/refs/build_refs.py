@@ -284,6 +284,23 @@ CHARACTERS_V4 = {
         "front, from behind so the sword is clearly visible, and drawing the blade."),
 }
 
+CHARACTERS_V5 = {
+    "kusa_nin": SHEET + (
+        "A tall slender ninja of ambiguous appearance in a wide conical STRAW HAT worn low over the "
+        "face, and a plain long earth-brown poncho-like robe over a dark bodysuit, with a forehead "
+        "protector bearing a single grass-blade symbol. Very long straight black hair falling from "
+        "under the hat past the waist. Unnaturally pale, almost white skin. Show the same figure a "
+        "second time with the hat tipped back, revealing GOLDEN-YELLOW EYES WITH VERTICAL SLIT "
+        "PUPILS, purple markings around them, and a long thin tongue extended far further than any "
+        "human tongue should reach. Expression: delighted, predatory."),
+    "giant_snake": SHEET + (
+        "A COLOSSAL brown-and-tan serpent, thick as a tree trunk and many times the length of a "
+        "house — not a person, an animal. Blunt wedge-shaped head, heavy overlapping scales, a pale "
+        "banded underbelly, huge golden eyes with vertical black slit pupils, and long curved fangs "
+        "in an open mouth. Show the head in close-up, the mouth open wide from the front, and the "
+        "whole coiled body at a distance for scale with a small human figure beside it."),
+}
+
 ENVIRONMENTS_V4 = {
     "env_wave_bridge": ENV + (
         "An enormous unfinished suspension bridge over grey sea water, empty of people: bare steel "
@@ -342,4 +359,6 @@ if __name__ == "__main__":
         build("v2cast3", CHARACTERS_V4)
     if which in ("all", "v2env2"):
         build("v2env2", ENVIRONMENTS_V4)
+    if which in ("all", "v2cast4"):
+        build("v2cast4", CHARACTERS_V5)
     print(f"\nledger total: ${LED.spent:.4f}")
