@@ -208,5 +208,14 @@
    "naruto_07",
    "env_alley"
   ]
+ },
+ {
+  "page": "p19",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "madara",
+   "zetsu"
+  ]
  }
 ]
