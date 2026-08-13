@@ -1,0 +1,257 @@
+[
+ {
+  "page": "p02",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "env_festival_street"
+  ]
+ },
+ {
+  "page": "p03",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "env_festival_street",
+   "mob_archetypes"
+  ]
+ },
+ {
+  "page": "p04",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_06",
+   "env_festival_street"
+  ]
+ },
+ {
+  "page": "p05",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_06",
+   "env_alley"
+  ]
+ },
+ {
+  "page": "p06",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_06",
+   "env_alley"
+  ]
+ },
+ {
+  "page": "p07",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_06",
+   "env_alley",
+   "mob_archetypes"
+  ]
+ },
+ {
+  "page": "p08",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "mob_archetypes",
+   "env_alley"
+  ]
+ },
+ {
+  "page": "p09",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_06",
+   "mob_archetypes"
+  ]
+ },
+ {
+  "page": "p01",
+  "quality": "high",
+  "cost": 0.128,
+  "refs": [
+   "env_festival_street"
+  ]
+ },
+ {
+  "page": "p10",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_06",
+   "mob_archetypes",
+   "env_alley"
+  ]
+ },
+ {
+  "page": "p11",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_06",
+   "env_alley"
+  ]
+ },
+ {
+  "page": "p13",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "mob_archetypes",
+   "env_alley"
+  ]
+ },
+ {
+  "page": "p14",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_06",
+   "mob_archetypes"
+  ]
+ },
+ {
+  "page": "00_title",
+  "quality": "high",
+  "cost": 0.128,
+  "refs": [
+   "naruto_06",
+   "env_festival_street"
+  ]
+ },
+ {
+  "page": "p15",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "mob_archetypes",
+   "env_alley"
+  ]
+ },
+ {
+  "page": "p12",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_06",
+   "env_alley"
+  ]
+ },
+ {
+  "page": "p18",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "env_hospital"
+  ]
+ },
+ {
+  "page": "p17",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_06",
+   "env_alley"
+  ]
+ },
+ {
+  "page": "p16",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "env_alley"
+  ]
+ },
+ {
+  "page": "p19",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_06",
+   "env_hospital"
+  ]
+ },
+ {
+  "page": "p20",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "hiruzen",
+   "kakashi",
+   "env_hospital"
+  ]
+ },
+ {
+  "page": "p21",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "hiruzen",
+   "kakashi"
+  ]
+ },
+ {
+  "page": "p22",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_06",
+   "env_hospital"
+  ]
+ },
+ {
+  "page": "p23",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_06",
+   "hiruzen",
+   "env_hospital"
+  ]
+ },
+ {
+  "page": "p24",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_06",
+   "hiruzen"
+  ]
+ },
+ {
+  "page": "p24",
+  "quality": "medium",
+  "cost": 0.047,
+  "refs": [
+   "naruto_06",
+   "hiruzen",
+   "env_hospital"
+  ]
+ },
+ {
+  "page": "p15",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_06",
+   "mob_archetypes",
+   "env_alley"
+  ]
+ },
+ {
+  "page": "p08",
+  "quality": "low",
+  "cost": 0.012,
+  "refs": [
+   "naruto_06",
+   "mob_archetypes",
+   "env_alley"
+  ]
+ }
+]

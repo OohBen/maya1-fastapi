@@ -1,0 +1,72 @@
+[
+ {
+  "batch": "cast1",
+  "ids": [
+   "naruto_06",
+   "naruto_07",
+   "naruto_13",
+   "madara"
+  ],
+  "returned": 4,
+  "cost": 0.09437999999999999,
+  "quality": "high",
+  "files": [
+   "/home/user/maya1-fastapi/manga/refs/images/naruto_06.png",
+   "/home/user/maya1-fastapi/manga/refs/images/naruto_07.png",
+   "/home/user/maya1-fastapi/manga/refs/images/naruto_13.png",
+   "/home/user/maya1-fastapi/manga/refs/images/madara.png"
+  ]
+ },
+ {
+  "batch": "cast2",
+  "ids": [
+   "hiruzen",
+   "kakashi",
+   "zetsu",
+   "mob_archetypes"
+  ],
+  "returned": 4,
+  "cost": 0.0931025,
+  "quality": "high",
+  "files": [
+   "/home/user/maya1-fastapi/manga/refs/images/hiruzen.png",
+   "/home/user/maya1-fastapi/manga/refs/images/kakashi.png",
+   "/home/user/maya1-fastapi/manga/refs/images/zetsu.png",
+   "/home/user/maya1-fastapi/manga/refs/images/mob_archetypes.png"
+  ]
+ },
+ {
+  "batch": "props",
+  "ids": [
+   "mangekyo_design",
+   "gunbai"
+  ],
+  "returned": 2,
+  "cost": 0.045741500000000004,
+  "quality": "high",
+  "files": [
+   "/home/user/maya1-fastapi/manga/refs/images/mangekyo_design.png",
+   "/home/user/maya1-fastapi/manga/refs/images/gunbai.png"
+  ]
+ },
+ {
+  "batch": "env",
+  "ids": [
+   "env_festival_street",
+   "env_alley",
+   "env_hospital",
+   "env_apartment_int",
+   "env_classroom"
+  ],
+  "returned": 5,
+  "cost": 0.11574625,
+  "quality": "high",
+  "files": [
+   "/home/user/maya1-fastapi/manga/refs/images/env_festival_street.png",
+   "/home/user/maya1-fastapi/manga/refs/images/env_alley.png",
+   "/home/user/maya1-fastapi/manga/refs/images/env_hospital.png",
+   "/home/user/maya1-fastapi/manga/refs/images/env_apartment_int.png",
+   "/home/user/maya1-fastapi/manga/refs/images/env_classroom.png"
+  ]
+ }
+]
