@@ -384,3 +384,15 @@ The research agent reported that its first ~20 image reads silently came back em
 caught this because it checked. Any agent asked to "look at every page" can therefore believe it
 has reviewed work it never saw. Instruct reviewing agents to verify that each image actually
 returned content, and to report the count they genuinely viewed.
+
+## Style reference images can trip content moderation
+A completely harmless page (an empty clearing, no characters, no violence) was rejected three
+times with `E005 flagged as sensitive`. The prompt was not the problem — the **style reference
+image** was. A violent library page attached to a benign prompt gets the whole call rejected.
+
+`build_v2ch01.py::build_one` now walks down the ranked style candidates until one passes rather
+than failing the page. Two other lessons from the same incident:
+
+- **Never let one page abort a chapter.** `build_one` catches and returns `[FAIL] <page>` so the
+  other 19 pages still generate.
+- When a page fails moderation, check the style ref before rewriting the prompt.

@@ -10,7 +10,8 @@ import sys
 import pathlib
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
-from genlib import STYLE, NO_TEXT, generate, save, Ledger  # noqa: E402
+import concurrent.futures as cf  # noqa: E402
+from genlib import STYLE, NO_TEXT, rep_generate, Ledger  # noqa: E402
 
 OUT = pathlib.Path(__file__).resolve().parent / "images"
 LED = Ledger(pathlib.Path(__file__).resolve().parent / "ledger.json")
@@ -130,147 +131,119 @@ PROPS = {
 
 
 def build(batch_name, items, quality="high"):
-    """items: {ref_id: prompt}. Generates the whole batch in ONE request."""
+    """items: {ref_id: prompt}. One Replicate call per sheet, run in parallel.
+
+    Previously one batched OpenRouter call for cross-sheet style consistency, but that
+    path costs ~$0.251/image, ignores the quality parameter, and exhausted the key's
+    credit (see PIPELINE.md). Replicate is $0.128 at high and honours the tier. Style
+    consistency now comes from binding a finished sheet as an anchor reference instead.
+    """
     todo = {k: v for k, v in items.items() if not (OUT / f"{k}.png").exists()}
     if not todo:
         print(f"[{batch_name}] all present, skipping")
         return
-    ids = list(todo)
-    header = (f"Generate {len(ids)} SEPARATE reference images, one per subject listed below, in "
-              f"this exact order. Each image is a standalone reference sheet showing only its own "
-              f"subject. Render all of them in one single consistent art style.\n\n")
-    body = "".join(f"IMAGE {i+1} — {k}:\n{todo[k]}\n\n" for i, k in enumerate(ids))
-    prompt = header + body + STYLE + " " + NO_TEXT
+    anchor = OUT / "naruto_13.png"
+    refs = [str(anchor)] if anchor.exists() else []
+    anchor_clause = (
+        "Image 1 is a STYLE ANCHOR from the same character-sheet set: match its line weight, "
+        "colouring, level of detail and sheet layout so this sheet belongs to the same set. "
+        "Ignore its character entirely — do not copy that person's face, hair, age or clothing. "
+        if refs else "")
 
-    print(f"[{batch_name}] requesting {len(ids)}: {', '.join(ids)}")
-    imgs, cost = generate(prompt, n=len(ids), quality=quality)
-    print(f"[{batch_name}] got {len(imgs)} images, cost ${cost:.4f}")
-    names = ids if len(imgs) == len(ids) else [f"{batch_name}_{i+1}" for i in range(len(imgs))]
-    paths = save(imgs, OUT, names)
-    LED.add(batch=batch_name, ids=ids, returned=len(imgs), cost=cost, quality=quality,
-            files=[str(p) for p in paths])
-    for p in paths:
-        print("   ->", p.name)
+    def one(kv):
+        rid, desc = kv
+        img, cost = rep_generate(anchor_clause + desc + STYLE + " " + NO_TEXT,
+                                 refs=refs, quality=quality, aspect="1024x1024")
+        OUT.mkdir(parents=True, exist_ok=True)
+        (OUT / f"{rid}.png").write_bytes(img)
+        LED.add(batch=batch_name, id=rid, cost=cost, quality=quality)
+        return f"   -> {rid}.png  ${cost:.3f}"
+
+    print(f"[{batch_name}] requesting {len(todo)}: {', '.join(todo)}")
+    with cf.ThreadPoolExecutor(max_workers=min(10, len(todo))) as ex:
+        for line in ex.map(one, todo.items()):
+            print(line)
 
 
-# ---------------------------------------------------------------- Volume 1, ch2-9
-CHARACTERS_V2 = {
-    "naruto_10": SHEET + (
-        "A TEN-year-old boy, wiry and physically hardened from years of training. Blond hair grown "
-        "to just below the ears, starting to fall in two bangs. Whisker marks faint. His eyes are "
-        "RED with three small black comma-shaped marks around each pupil. Completely blank "
-        "expression. He wears a plain dark grey long-sleeved training top, black trousers and dark "
-        "open-toe sandals."),
-    "iruka": SHEET + (
-        "A man in his mid-twenties with dark brown hair pulled into a short spiky ponytail and a "
-        "horizontal scar across the bridge of his nose. Standard dark navy long-sleeved uniform "
-        "under a dark green flak vest, dark trousers, open-toe sandals. Expression: stern and "
-        "closed off."),
-    "ayame": SHEET + (
-        "A friendly young woman of about twenty with shoulder-length brown hair tied back under a "
-        "white bandana, dark eyes. She wears a simple white cook's tunic with sleeves rolled up and "
-        "a white apron. Expression: bright, open, genuinely kind."),
-    "teuchi": SHEET + (
-        "A stocky cheerful man in his fifties with a lined weathered face, thin moustache, and a "
-        "white cook's bandana tied over his head. White cook's tunic and apron. Expression: warm "
-        "and unbothered."),
-    "shikamaru": SHEET + (
-        "A twelve-year-old boy with black hair pulled up into a short spiky pineapple-shaped "
-        "ponytail, narrow bored eyes. He wears a grey short-sleeved jacket with green trim over a "
-        "dark mesh shirt, brown trousers. Expression: half-asleep and unimpressed."),
-    "choji": SHEET + (
-        "A heavyset twelve-year-old boy with spiky reddish-brown hair, small friendly eyes, and two "
-        "red swirl markings on his cheeks. He wears a green short-sleeved jacket over a white shirt "
-        "with a stylised symbol, and dark shorts. Expression: cheerful and eating."),
-    "hinata": SHEET + (
-        "A shy twelve-year-old girl with short dark blue-black hair cut in a straight fringe, and "
-        "very pale lavender-white eyes with no visible pupils. She wears a cream hooded jacket with "
-        "fur trim at the cuffs and dark navy trousers. Expression: timid, looking down and away."),
-    "sasuke": SHEET + (
-        "A twelve-year-old boy with black hair that spikes upward at the back and two long bangs "
-        "framing his face, dark eyes. He wears a high-collared dark navy blue shirt with a wide "
-        "collar and white shorts, with white arm warmers. Expression: cold, closed, arrogant."),
-    "sakura": SHEET + (
-        "A twelve-year-old girl with chin-length pink hair, a wide forehead and green eyes, wearing "
-        "a red sleeveless qipao-style dress with white trim over dark shorts. Expression: eager "
-        "and a little sharp."),
-    "ino": SHEET + (
-        "A twelve-year-old girl with long pale blonde hair in a high ponytail with a long fringe "
-        "over one eye, and light blue eyes. She wears a purple crop top and matching purple skirt "
-        "with bandaged legs. Expression: confident and teasing."),
-    "minato_kushina": (
-        "A character reference sheet on a plain flat white background showing TWO adults standing "
-        "side by side, full body, front view, at the same scale. LEFT: a tall man in his late "
-        "twenties with bright spiky blond hair and blue eyes, wearing a white long coat with red "
-        "flame patterns along the hem over a dark blue uniform. RIGHT: a woman in her late twenties "
-        "with very long straight deep-red hair falling past her waist and violet eyes, wearing a "
-        "simple pale green dress. Both have warm, gentle expressions. They must look completely "
-        "different from one another."),
+
+# ---------------------------------------------------------------- Volume 2
+# Silhouette-first: lead every spec with the one shape that identifies the character at
+# thumbnail size. See PIPELINE.md — this failed twice (Madara, Hiruzen) before the rule.
+CHARACTERS_V3 = {
+    "gaara": SHEET + (
+        "A short, slight TWELVE-year-old boy whose defining feature is an ENORMOUS sand-coloured "
+        "clay gourd strapped upright on his back — nearly as large as he is, dominating his "
+        "silhouette from every angle. Short messy dark red hair. NO EYEBROWS AT ALL. Heavy black "
+        "rings of sleeplessness around pale blue-green eyes with no visible pupils. A single "
+        "blood-red kanji character tattooed on the upper left of his forehead. Long-sleeved dark "
+        "maroon-brown full-body outfit, white sash across the chest holding the gourd. Expression: "
+        "utterly blank and unblinking."),
+    "temari": SHEET + (
+        "A confident FIFTEEN-year-old girl whose defining features are FOUR separate blonde "
+        "pigtails standing out from her head in a fan shape, and a HUGE closed iron battle fan "
+        "strapped diagonally across her back, taller than her torso. Teal-green eyes. Single-piece "
+        "pale lavender-grey short kimono dress with a dark sash, dark fingerless gloves. "
+        "Expression: sharp, amused, superior."),
+    "kankuro": SHEET + (
+        "A FOURTEEN-year-old boy whose defining features are a black full-body hooded suit whose "
+        "hood has two pointed cat-like ear shapes, and a LARGE BANDAGE-WRAPPED BUNDLE almost his "
+        "own size strapped upright on his back. His whole face is painted with bold purple face "
+        "paint in angular stripes. Expression: cocky, sneering."),
+    "danzo": SHEET + (
+        "An old man whose defining features are BANDAGES: his entire right eye and the right side "
+        "of his forehead wrapped in white bandages, and his whole right arm bandaged and carried in "
+        "a sling under his robe. A prominent X-shaped scar on his chin. Short dark grey hair. One "
+        "visible dark eye, cold and calculating. Plain white robe over a dark grey high-collared "
+        "under-robe, leaning on a plain wooden cane. Expression: expressionless, patient, predatory."),
+    "ibiki": SHEET + (
+        "A tall heavily built man whose defining features are a LONG BLACK LEATHER TRENCH COAT over "
+        "dark clothing, and a black cloth bandana headband with a metal plate covering all of his "
+        "hair. Deep diagonal scars across his face. Expression: intimidating, hard, faintly amused."),
+    "anko": SHEET + (
+        "A woman in her twenties whose defining features are a light tan ankle-length overcoat worn "
+        "open over a FULL-BODY DARK MESH FISHNET BODYSUIT, with a short dark orange skirt. Violet "
+        "hair in a short spiky ponytail. Expression: manic, grinning, dangerous."),
+    "kabuto": SHEET + (
+        "A calm young man of about twenty whose defining features are LARGE ROUND BLACK-RIMMED "
+        "GLASSES and silver-grey hair in a short low ponytail. Dark purple long-sleeved shirt and "
+        "trousers, shuriken holster on the right hip. Expression: mild, helpful, slightly wrong."),
+    "rock_lee": SHEET + (
+        "A THIRTEEN-year-old boy whose defining features are a shiny black BOWL-CUT haircut, "
+        "ENORMOUS thick black eyebrows, and a skin-tight BRIGHT GREEN full-body jumpsuit. Orange "
+        "leg warmers over the shins, bandages around the forearms and hands, forehead protector "
+        "worn as a belt at the waist. Expression: earnest, intense, sincere."),
+    "kiba": SHEET + (
+        "A THIRTEEN-year-old boy whose defining features are two bold RED FANG-SHAPED MARKINGS "
+        "painted down his cheeks, spiky brown hair, sharp canine teeth, and a grey hooded jacket "
+        "with thick fur trim. A SMALL WHITE PUPPY sits on top of his head. Expression: brash, "
+        "grinning, competitive."),
+    "shino": SHEET + (
+        "A THIRTEEN-year-old boy whose defining features are opaque ROUND DARK SUNGLASSES and a "
+        "grey-green hooded coat with an EXTREMELY HIGH COLLAR covering his face from the nose down "
+        "— only the glasses and a strip of forehead ever visible. Spiky dark brown hair. "
+        "Expression: unreadable, completely still."),
 }
 
-ENVIRONMENTS_V2 = {
-    "env_jonin_lounge": ENV + (
-        "An empty military lounge room: low couches, a long table with scattered scrolls and cups, "
-        "a notice board, wooden floor, tall windows. Warm dim afternoon light."),
-    "env_apartment_ext": ENV + (
-        "The exterior walkway of a shabby low-rise apartment block at night. A concrete balcony "
-        "corridor with peeling paint, a row of identical worn doors, a single flickering light. "
-        "Cold blue night with one weak warm bulb."),
-    "env_hokage_office": ENV + (
-        "An empty circular office at the top of a tower. A large wooden desk buried under stacks of "
-        "paper, a tall leather chair, wide arched windows looking out over a village, framed "
-        "portraits on the wall, bookshelves. Warm late-afternoon light."),
-    "env_academy_ext": ENV + (
-        "The empty front courtyard of a ninja academy building in daylight — a broad wooden "
-        "building with a tiled roof and a large arched entrance, a swing hanging from a tree in the "
-        "yard, low boundary wall. Flat unromantic daylight."),
-    "env_playground": ENV + (
-        "An empty school playground with packed dirt ground, a single large tree with a rope swing, "
-        "a low fence, wooden benches, the academy building behind. Flat daylight."),
-    "env_monument": ENV + (
-        "An enormous cliff face carved with four colossal stone faces, seen from the narrow flat "
-        "ledge running along the top of their stone hair. A vast village of tiled roofs spreads out "
-        "far below and behind. Night, cold blue moonlight."),
-    "env_ichiraku": ENV + (
-        "A tiny empty ramen stand at night: a short wooden counter with five stools, hanging cloth "
-        "noren curtains across the front, steam-stained wooden walls, shelves of bowls, a warm "
-        "paper lantern. Warm amber light, the only warm place in the village."),
-    "env_village_street": ENV + (
-        "An ordinary empty village street in daylight — wooden two-storey buildings with sliding "
-        "screen doors, shop awnings, stone paving, distant rooftops. Flat plain daylight."),
-    "env_hideout_corridor": ENV + (
-        "A vast empty underground stone corridor, almost entirely black. Rough carved rock walls "
-        "vanishing into darkness, a floor of flat stone slabs, no light source visible. Near-black "
-        "with hard cold rim light on the edges only. No warm tones anywhere."),
-    "env_hideout_kitchen": ENV + (
-        "A bare underground stone room with a rough wooden table and two chairs, a cold hearth, "
-        "stone walls. Almost entirely dark, lit by one small cold light. No warm tones."),
-    "env_hideout_training": ENV + (
-        "An enormous empty underground cavern used as a training ground: a wide flat floor of packed "
-        "earth and stone, jagged rock walls rising into blackness, scattered wooden training posts "
-        "and heavy stone weights. Cold hard light from above. No warm tones."),
-    "env_hideout_tablets": ENV + (
-        "A small underground stone chamber, empty. One wall is a single enormous ancient stone "
-        "tablet covered edge to edge in dense carved spiral glyphs. Cold pale light rakes across "
-        "the carving. No warm tones."),
-    "env_bandit_camp": ENV + (
-        "An empty bandit camp in a forest clearing at dusk: crude patched tents, a smouldering "
-        "cookfire, stacked crates and stolen goods, weapons leaning against a log, trampled mud. "
-        "Grey-orange failing light."),
-    "env_burial": ENV + (
-        "A bare windswept hillside at dawn, empty. A single fresh mound of dark earth with one plain "
-        "unmarked stone set at its head, long dry grass bent by wind, a pale colourless sky."),
-}
-
-PROPS_V2 = {
-    "sharingan_progression": (
-        "A study sheet on a plain flat white background showing FOUR versions of the same eye in a "
-        "row, left to right, drawn large and identical in size and framing. EYE 1: an ordinary blue "
-        "human eye. EYE 2: a deep red iris with ONE small black comma-shaped mark beside the pupil. "
-        "EYE 3: a deep red iris with THREE black comma-shaped marks evenly spaced around the pupil. "
-        "EYE 4: a deep red iris with a small solid black ring at the centre and exactly SIX straight "
-        "black blades radiating out from that ring to the rim. Flat colour, heavy black ink outline, "
-        "perfectly consistent shape and size across all four."),
+ENVIRONMENTS_V3 = {
+    "env_training_ground_7": ENV + (
+        "An empty forest training clearing with THREE upright weathered wooden posts standing in a "
+        "row in open ground, a treeline behind, a river and a stone memorial nearby. Flat morning "
+        "daylight."),
+    "env_exam_room_301": ENV + (
+        "A large empty examination hall: many long rows of individual wooden desks and chairs "
+        "facing a blackboard and a raised instructor's platform, tall windows down one side. Flat "
+        "institutional daylight."),
+    "env_forest_of_death": ENV + (
+        "An empty forest of colossally oversized dark trees with trunks many metres thick, roots "
+        "like walls, a dense black canopy blotting out the sky, mist between the trunks, and a "
+        "tall chain-link perimeter fence in the foreground. Sunless green-black gloom, ominous."),
+    "env_academy_corridor": ENV + (
+        "An empty wooden school corridor with sliding doors down one side, tall windows down the "
+        "other, a staircase at the far end. Flat daylight."),
+    "env_shinobi_apartment": ENV + (
+        "The interior of a clean modern apartment, empty of people: a low couch, a small dining "
+        "table, plain walls, a window with village roofs beyond. Sparse and impersonal, almost no "
+        "possessions. Cool even daylight."),
 }
 
 
@@ -305,4 +278,12 @@ if __name__ == "__main__":
                         "env_hideout_tablets", "env_bandit_camp"]})
     if which in ("all", "props2"):
         build("props2", PROPS_V2)
+    if which in ("all", "v2cast1"):
+        build("v2cast1", {k: CHARACTERS_V3[k] for k in
+                          ["gaara", "temari", "kankuro", "danzo", "ibiki"]})
+    if which in ("all", "v2cast2"):
+        build("v2cast2", {k: CHARACTERS_V3[k] for k in
+                          ["anko", "kabuto", "rock_lee", "kiba", "shino"]})
+    if which in ("all", "v2env"):
+        build("v2env", ENVIRONMENTS_V3)
     print(f"\nledger total: ${LED.spent:.4f}")

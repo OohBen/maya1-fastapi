@@ -180,5 +180,75 @@
   "files": [
    "/home/user/maya1-fastapi/manga/refs/images/sharingan_progression.png"
   ]
+ },
+ {
+  "batch": "v2cast1",
+  "ids": [
+   "gaara",
+   "temari",
+   "kankuro",
+   "danzo",
+   "ibiki"
+  ],
+  "returned": 5,
+  "cost": 0.1331,
+  "quality": "high",
+  "files": [
+   "/home/user/maya1-fastapi/manga/refs/images/gaara.png",
+   "/home/user/maya1-fastapi/manga/refs/images/temari.png",
+   "/home/user/maya1-fastapi/manga/refs/images/kankuro.png",
+   "/home/user/maya1-fastapi/manga/refs/images/danzo.png",
+   "/home/user/maya1-fastapi/manga/refs/images/ibiki.png"
+  ]
+ },
+ {
+  "batch": "v2cast2",
+  "ids": [
+   "anko",
+   "kabuto",
+   "rock_lee",
+   "kiba",
+   "shino"
+  ],
+  "returned": 5,
+  "cost": 0.12946375,
+  "quality": "high",
+  "files": [
+   "/home/user/maya1-fastapi/manga/refs/images/anko.png",
+   "/home/user/maya1-fastapi/manga/refs/images/kabuto.png",
+   "/home/user/maya1-fastapi/manga/refs/images/rock_lee.png",
+   "/home/user/maya1-fastapi/manga/refs/images/kiba.png",
+   "/home/user/maya1-fastapi/manga/refs/images/shino.png"
+  ]
+ },
+ {
+  "batch": "v2env",
+  "id": "env_shinobi_apartment",
+  "cost": 0.128,
+  "quality": "high"
+ },
+ {
+  "batch": "v2env",
+  "id": "env_exam_room_301",
+  "cost": 0.128,
+  "quality": "high"
+ },
+ {
+  "batch": "v2env",
+  "id": "env_academy_corridor",
+  "cost": 0.128,
+  "quality": "high"
+ },
+ {
+  "batch": "v2env",
+  "id": "env_forest_of_death",
+  "cost": 0.128,
+  "quality": "high"
+ },
+ {
+  "batch": "v2env",
+  "id": "env_training_ground_7",
+  "cost": 0.128,
+  "quality": "high"
  }
 ]
