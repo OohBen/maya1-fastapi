@@ -359,3 +359,28 @@ dominant clause of the spec.
 
 A character described only by hair colour, age and clothing has no silhouette and will come back
 generic. Old sheets are kept as `_<name>_OLD_generic.png` for comparison.
+
+## Staging is now a first-class prompt component
+`refs/MANGA_STAGING_GUIDE.md` (573 lines) was produced by reading 42 library pages directly and
+running an automated panel detector over all 1119. `genlib.STAGING` encodes its universal rules;
+§12 of the guide has ~35 paste-able fragments for per-page specifics.
+
+The measurements that most contradict what we were doing:
+
+| Measured in real manga | What we were generating |
+|---|---|
+| **6–9 panels per page** (48% of pages; mean 4.94) | 2–4 panels |
+| **~2 panels in 3 have no drawn environment** | every panel fully rendered |
+| One dominant panel, median 32% of page area | near-equal bands |
+| Groups at 4:1–10:1 depth scale ratio, someone cropped, someone turned away | evenly spaced row facing camera |
+| Effects are opaque ink; ground stays visible through them | glow that washes out the scene |
+| Emotion escalates by cropping tighter | emotion escalates by adding rendering |
+
+**Zero panels in 42 pages had three or more characters at one depth, evenly spaced, facing
+camera.** That arrangement does not occur in the source material at all.
+
+## Subagent process warning: image reads can silently return nothing
+The research agent reported that its first ~20 image reads silently came back empty, and it only
+caught this because it checked. Any agent asked to "look at every page" can therefore believe it
+has reviewed work it never saw. Instruct reviewing agents to verify that each image actually
+returned content, and to report the count they genuinely viewed.

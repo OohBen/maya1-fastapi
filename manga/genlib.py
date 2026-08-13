@@ -216,3 +216,34 @@ STYLE_REF = (
     "ignore all of its lettering and sound effects. Take only the drawing and colouring "
     "technique from it. "
 )
+
+
+# ---------------------------------------------------------------- staging
+# Derived from refs/MANGA_STAGING_GUIDE.md: 42 pages read directly plus automated
+# panel measurement over all 1119 library pages. These are the UNIVERSAL rules that
+# belong on every page; per-page specifics come from the guide's §12 fragments.
+STAGING = (
+    "PAGE ARCHITECTURE: use SIX to NINE panels in uneven rows whose column positions do not line "
+    "up. Panel sizes are wildly unequal — one dominant panel takes roughly a third of the page and "
+    "the rest are small. Thin black borders on white paper. "
+    "GROUPS ARE NEVER A ROW: stage characters at clearly different depths with a large scale "
+    "difference between nearest and farthest, overlapping each other, at least one figure cropped "
+    "by the panel edge showing only a shoulder or the back of a head, and at least one turned away "
+    "from camera. Nobody stands evenly spaced facing the viewer. "
+    "BACKGROUNDS: about two panels in three have NO drawn environment at all — blank white paper, "
+    "one flat tone with halftone dots, a flat black void, or nothing but speed lines. Close-ups "
+    "almost never have scenery. Do not render a background in every panel. "
+    "ENERGY AND IMPACT: draw effects as flat opaque shapes with hard black outlines, layered in "
+    "front of and behind the figure. Effects must NOT glow and must not wash the scene out — the "
+    "ground, the characters and the sky stay fully drawn and legible through and around them. "
+    "FIGURES: children about six heads tall, adults about seven, with large simply-drawn hands and "
+    "feet. Weight off-centre, body twisted along a diagonal, at least one limb cropped by the panel "
+    "edge. No symmetrical standing poses. "
+    "FACES: huge white sclera with a small iris and a dot pupil; shadow as parallel hatch lines on "
+    "the cheeks and under the eyes; no gradients, no highlights, no rim light. Escalate emotion by "
+    "CROPPING TIGHTER and turning the head away, never by adding rendering. "
+    "BALLOONS ARE STAGING: let balloons occupy the upper half of a panel and push the figure low "
+    "and to one side. "
+    "SFX ARE COMPOSITIONAL MASS: sound effects overlap figures, are cropped by panel edges, and may "
+    "cross a gutter from one panel into the next. Never a small effect floating in an empty gap. "
+)
