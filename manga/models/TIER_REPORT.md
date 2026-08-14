@@ -15,46 +15,52 @@ Every tier returns **1152x2048**. `quality` buys rendering effort, not pixels.
 | medium | 1152x2048 | 4.8-5.1 MB |
 | high | 1152x2048 | 4.1-5.2 MB |
 
-## Finding 2 — the real jump is low -> medium, not medium -> high
+## Finding 2 — CORRECTED: `low` is much better than I first claimed
 
-- **low** fails in a specific, recognisable way: **backgrounds go flat and empty, hatching
-  disappears, halftone texture vanishes.** A close-up gets a plain colour field behind it
-  instead of screentone; bark goes smooth instead of cross-hatched. This is exactly the
-  "not good enough / stumpy" complaint from Volume 1, and it is why Volume 1 read as cheap.
-- **medium** restores all of it — halftone screens, cross-hatching, background texture. On a
-  six-panel dialogue page it is very hard to tell from `high`.
-- **high** adds a little more depth in backgrounds and slightly finer line detail. It is worth
-  it where one image carries the whole page and nowhere else.
+My first read of this test said `low` "goes flat and empty, hatching disappears". **That was
+wrong**, and it was wrong in a way that would have cost real money. It came from the bark
+close-up crop — `low`'s worst case — and from memory of Volume 1, rather than from the full
+pages this test actually produced.
 
-## Finding 3 — resolution is a separate lever, and a big one
+Looking at the full `low` dialogue page at reading size: the forest has depth and light shafts,
+the trunks carry halftone, the faces are clean, the lettering is sharp. It is a usable page. I
+would not have flagged it in a read-through.
 
-The API rejects arbitrary sizes but accepts a fixed list, which includes **2160x3840** — the
-same 9:16 portrait shape we already use, at **3.5x the pixels** (8.3 MP vs 2.36 MP).
+Volume 1 was `low` **and** an immature pipeline — no style-reference library, no STAGING rules,
+weaker character bindings, no per-page style selection. Attributing "not good enough" to the
+tier alone conflated the two. With today's pipeline, `low` is a different proposition.
 
-At `medium`/2160x3840 the halftone reads as a fine print screen rather than chunky dots, and the
-linework is thin and crisp instead of soft. Side by side at native scale, `medium` at 2160 looks
-markedly more like printed manga than `high` at 1152 does.
+Where `low` does lose to `medium`, at 1152: fine texture. Bark hatching is smoother, background
+screentone is coarser. On a dialogue page it is hard to see; on a texture-heavy splash it shows.
 
-**This is the lever that was actually wanted.** Pushing the tier was buying the wrong thing.
+## Finding 4 — tier and resolution INTERACT, and low+big is the worst config
 
-> Caveat not yet resolved: `REP_PRICE` in `genlib.py` is a hardcoded per-tier table, so the
-> ledger reports $0.047 for the 2160 image because it was `medium`. Whether Replicate bills more
-> for a larger output has NOT been verified against the dashboard. Do that before committing a
-> whole volume to 2160.
+`low` at 2160x3840 is **worse than `low` at 1152x2048**, not better. Backgrounds go soft and
+smeary, trunk linework turns mushy, and the halftone becomes a visibly coarse grid. The model
+does not spend enough rendering effort to fill the larger canvas.
 
-## Recommended policy
+So resolution cannot simply be cranked. More pixels need more effort behind them.
 
-| Page type | Tier | Size |
-|---|---|---|
-| Chapter splash, single-dominant-panel page | `high` | 2160x3840 |
-| Fight beat, emotional close-up page | `medium` | 2160x3840 |
-| Standard dialogue page | `medium` | 2160x3840 |
-| Montage / object / establishing fragments | `medium` | 1152x2048 |
-| anything | ~~`low`~~ | never — it is what made Volume 1 look cheap |
+| config | verdict |
+|---|---|
+| `low` @ 1152 | good — genuinely usable, cheapest |
+| `medium` @ 1152 | good, marginally finer texture |
+| `high` @ 1152 | marginally better again; not worth 10x low |
+| `medium` @ 2160 | **best looking** — fine print-screen halftone, crisp thin linework |
+| `low` @ 2160 | **worst** — soft, smeary, coarse. Do not use |
 
-Est. for a ~110-page volume: **~$6**, versus $12.37 for Volume 3 at 90% `high`/1152 — and it
-should look better, because the pixels are where the gain is.
+## Recommended policy (revised)
+
+| Page type | Tier | Size | ~cost |
+|---|---|---|---|
+| Chapter splash, single-dominant-panel page | `medium` | 2160x3840 | $0.047 |
+| Fight beats, emotional close-ups | `medium` | 2160x3840 | $0.047 |
+| Standard dialogue / montage / establishing | `low` | 1152x2048 | $0.012 |
+| never | `low` | 2160x3840 | — |
+
+A ~110-page volume at roughly 25 big pages + 85 standard: **~$2.20**, versus $12.37 for
+Volume 3. The saving comes from admitting `low` was fine all along, not from cutting quality.
 
 ## Cost of this test
 
-10 images, $0.60.
+11 images, $0.61.
