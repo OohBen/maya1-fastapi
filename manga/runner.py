@@ -13,11 +13,16 @@ sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(HERE / "refs"))
 
 from genlib import SPLASH, STAGING, STYLE, STYLE_REF, build_page, Ledger  # noqa: E402
+import backend                                                            # noqa: E402
 import style_select as ss                                                # noqa: E402
 
 
-def run(pages, outdir, ledger_path, workers=50):
-    """pages: list of (pid, style_query, prompt_body, refs, quality)."""
+def run(pages, outdir, ledger_path, workers=50, size=None):
+    """pages: list of (pid, style_query, prompt_body, refs, quality).
+
+    size: output resolution "WIDTHxHEIGHT"; defaults per page from the quality tier.
+    Set MANGA_BACKEND to swap the image generator — see backend.py and AGENTS.md.
+    """
     out = pathlib.Path(outdir)
     led = Ledger(ledger_path)
 
@@ -30,13 +35,17 @@ def run(pages, outdir, ledger_path, workers=50):
         prompt = desc + " " + stage + STYLE_REF.format(i=len(refs) + 1) + STYLE
         cands = [str(ss.as_png(r["file"]))
                  for r in sorted(ss.library(), key=lambda r: -ss.score(r, want))[:3]]
+        # Resolution is chosen PER PAGE, not per volume: pages carrying one big image earn the
+        # larger canvas, ordinary pages do not. NEVER pair "low" with 2160x3840 — it comes back
+        # soft and smeary. See models/TIER_REPORT.md, finding 4.
+        px = size or ("2160x3840" if quality in ("medium", "high") else "1152x2048")
         try:
-            img, cost, sref = build_page(prompt, refs, cands, quality)
+            img, cost, sref = build_page(prompt, refs, cands, quality, aspect=px)
         except Exception as e:
             return f"[FAIL] {pid}  {str(e)[-100:]}"
         out.mkdir(parents=True, exist_ok=True)
         dest.write_bytes(img)
-        led.add(page=pid, quality=quality, cost=cost,
+        led.add(page=pid, quality=quality, size=px, cost=cost,
                 style_ref=pathlib.Path(sref).name if sref else None)
         return f"[ok]   {pid}  {quality:6} ${cost:.3f}"
 

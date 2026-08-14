@@ -1,10 +1,14 @@
 """Generation library for the manga pipeline.
 
-Uses the OpenRouter Responses API with the image_generation tool, because it is the
-only path that emits MULTIPLE images from a single request under one shared reasoning
-pass — which is what holds continuity across a run of sequential pages.
+Holds the prompt constants every page is built from — STYLE, STAGING, SPLASH, STYLE_REF —
+and the refusal-escalation logic in build_page().
 
-See models/BENCH_REPORT.md addendum for why the plain images endpoint can't do this.
+NOTE ON STRUCTURE: this module still contains the Replicate transport (rep_generate) and a
+dead OpenRouter path (generate), for historical reasons. New code should NOT call either
+directly — go through backend.generate(), which is the swappable seam. See AGENTS.md.
+
+The OpenRouter `generate()` below is retained only because models/BENCH_REPORT.md refers to
+it; it is unused and its API key may be exhausted.
 """
 import base64
 import json
@@ -28,7 +32,10 @@ def _key():
     raise RuntimeError("OPENROUTER_API_KEY missing from manga/.env")
 
 
-H = {"Authorization": f"Bearer {_key()}", "Content-Type": "application/json"}
+try:                                    # dead OpenRouter path; must not break imports
+    H = {"Authorization": f"Bearer {_key()}", "Content-Type": "application/json"}
+except Exception:                       # no .env / no key — fine, nothing uses it
+    H = {}
 
 # ---------------------------------------------------------------- house style
 STYLE = (
@@ -267,11 +274,14 @@ def build_page(prompt, refs, style_candidates, quality, aspect="1152x2048"):
     attempts += [(soften(prompt), c) for c in heads]
     attempts += [(soften(prompt), None)]
 
+    # Lazy import: backend imports genlib, so a module-level import would be circular.
+    from backend import generate as _gen
+
     refused = None
     for text, cand in attempts:
         try:
-            img, cost = rep_generate(text, refs=list(refs) + ([cand] if cand else []),
-                                     quality=quality, aspect=aspect)
+            img, cost = _gen(text, refs=list(refs) + ([cand] if cand else []),
+                             quality=quality, size=aspect)
             return img, cost, cand
         except Moderated as e:
             refused = str(e)[-120:]

@@ -9,3 +9,6 @@ manga/volume_01/Volume01_web.pdf
 # Style-reference source pages: 276MB, re-downloadable via refs/fetch_style.py
 manga/refs/style/
 manga/refs/style_png/
+
+# Derived PNG cache of the style library — rebuilt on demand by refs/style_select.py
+manga/refs/style_png/

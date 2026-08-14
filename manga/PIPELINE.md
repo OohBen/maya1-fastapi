@@ -462,3 +462,28 @@ the two is what the prose was doing.
 - Volume 2 spent $14.73 for 140 pages — about $0.105/page at a mix of `high` for beats and
   `medium`/`low` for connective tissue. `high` is worth it on splashes, fights and any page whose
   whole job is one face.
+
+---
+
+## ADDENDUM — handoff to a host with a native image tool
+
+The project is moving to an agent that generates images with a built-in tool rather than a paid
+API. Three things were done to make that a one-file change:
+
+- **`backend.py`** is now the only module that knows how a prompt becomes a PNG. `build_page()`
+  calls it lazily; `runner.py` imports it. Implement the `codex` branch and set
+  `MANGA_BACKEND=codex`. Nothing in `chapters/` changes.
+- **Resolution is chosen per page** in `runner.py`, not per volume: `medium`/`high` pages get
+  2160x3840, `low` pages get 1152x2048. That pairing is deliberate — see TIER_REPORT finding 4,
+  `low` at 2160 is worse than `low` at 1152.
+- **The dead OpenRouter path no longer breaks imports.** `genlib.H` is built in a try/except so
+  a checkout with no `.env` can still `import genlib`.
+
+`AGENTS.md` at the repo root is the entry point for the next agent; `manga/AGENTS_QUICKSTART.md`
+is the shortest path to a generated chapter; `manga/story/ROADMAP.md` maps the remaining ~46 fic
+chapters onto volumes.
+
+**The important thing to preserve across the port:** reference images and their ORDER. The
+prompts address them positionally ("Image 1 is the CHARACTER REFERENCE for…"). Character
+consistency across 351 finished pages rests on nothing else. A backend that drops or reorders
+them will silently produce a book that does not match the first three volumes.
