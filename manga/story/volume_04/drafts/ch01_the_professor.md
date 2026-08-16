@@ -18,7 +18,7 @@ The chapter must not imply that Naruto accepts Jiraiya's trip. Jiraiya only obta
 
 | State | Requirement |
 |---|---|
-| In | Volume 3 ends with Naruto returning to Konoha after the invasion; Hiruzen dies in that invasion. Naruto's Mangekyō was publicly seen, and he has no ninjato. Use `naruto_13`, never `naruto_13_sword`. |
+| In | The Volume 4 prologue now shows Naruto returning to Konoha after the invasion; Hiruzen dies in that invasion, but Naruto does not yet know it. Naruto's Mangekyō was publicly seen, and he has no ninjato. Use `naruto_13`, never `naruto_13_sword`. |
 | Through | Naruto's concern is freedom of movement if Danzō becomes Hokage, not grief. Jiraiya does not become Hokage; he sets out to recruit Tsunade within two weeks. Orochimaru does not yet possess Sasuke and urgently needs another vessel. |
 | Out | Naruto is in his orderly, guarded apartment deciding his next move. The next chapter opens with Sasuke at his door (`ch08.txt:95-101`). Do not show Sasuke before that opening beat. |
 

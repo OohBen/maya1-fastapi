@@ -1,13 +1,14 @@
 # Volume 4 — *What Are You?*
 
-**207 pages across 11 chapters. $0.00 of generation.**
+**215 pages across one prologue and 11 chapters. $0.00 of generation.**
 
-`Volume_04.pdf` is the existing full-quality master. `Volume_04_compressed.pdf` keeps the same 1152x2048 page rasters with light JPEG compression for smoother reading. Both PDFs include a nested chapter outline/bookmarks panel.
+`Volume_04.pdf` is the full-quality master. `Volume_04_compressed.pdf` keeps the same 1152x2048 page rasters with light JPEG compression for smoother reading. Both PDFs include a nested chapter outline/bookmarks panel.
 
-Covers fic ch8-11, from the invasion aftermath through the unresolved blue chakra column in Kiri. Hiruzen's death removes Naruto's political buffer; each chapter then shows what he takes, reveals, or spends once that restraint is gone.
+Bridges the omitted end of fic ch7, then covers ch8-11 from the invasion aftermath through the unresolved blue chakra column in Kiri. Hiruzen's death removes Naruto's political buffer; each chapter then shows what he takes, reveals, or spends once that restraint is gone.
 
 | Ch | Title | Pages | Cost | Ends on |
 |---|---|---|---|---|
+| P | After the Barrier | 8 | $0.00 | Naruto returns to the wounded village without knowing Hiruzen died |
 | 01 | The Professor | 16 | $0.00 | Kabuto leaves with Naruto's preserved blood sample |
 | 02 | Not Cut Out for It | 16 | $0.00 | Kurama remains distrustful behind the seal |
 | 03 | Brothers | 16 | $0.00 | Naruto chooses solitary training |
@@ -20,10 +21,11 @@ Covers fic ch8-11, from the invasion aftermath through the unresolved blue chakr
 | 10 | The Mizukage | 17 | $0.00 | Human Yagura disappears inside Naruto's fireball |
 | 11 | The Three Tails | 18 | $0.00 | An unexplained blue chakra column rises |
 
-| | **Total** | **207** | **$0.00** | |
+| | **Total** | **215** | **$0.00** | |
 
 ## Notes
 
+- The prologue restores the omitted Sound pursuit, Sasuke/Gaara outcome, Gaara's apology, and Naruto's return without replaying the invasion opening.
 - Naruto refuses Jiraiya and leaves alone; the permission meeting is with his clone.
 - Mei is the rebel leader while Yagura remains the Fourth Mizukage.
 - The post-skip sash sword is new, not the ninjato lost in Volume 3.

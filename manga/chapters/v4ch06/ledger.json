@@ -3,7 +3,7 @@
     "page": "p01",
     "backend": "codex_builtin_imagegen_tool",
     "quality_requested": "high",
-    "prompt_sha256": "ab0bb4c35e44b71d7200e6d6f56af36c1a8e2aab2944c2fee72a4b8fa619101f",
+    "prompt_sha256": "752eb1c179c865e0f1207c1b0afe8c300d1980e23f52e7f8d6c4bea926bfa23c",
     "references": [
       {
         "index": 1,
@@ -31,7 +31,7 @@
       },
       {
         "index": 5,
-        "file": "v01_p094_style.png",
+        "file": "style_v01_p094.png",
         "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
         "role": "style"
       }
@@ -39,8 +39,8 @@
     "source_dimensions": "1023x1537",
     "normalized_dimensions": "1152x2048",
     "normalization": "direct_resize_lanczos",
-    "source_sha256": "78cb7b2909fdd7e28097e6952410d7384e55a122f337f063d3a44d0e81982839",
-    "output_sha256": "05f76488528b04b0b797612940cba5dcd29922af50990fc132a8fdff97e7864c",
+    "source_sha256": "200fec09a0e918f07a6c00a88c479e8de6d644f2d0baea5c1f0c14fe98fe7923",
+    "output_sha256": "f7f41a6eb5cfc799d551cbe73aba30df58a8c4cf14686ec4cec5e72d0c3dca26",
     "review_status": "approved_manual",
     "cost_usd": null
   },
@@ -48,7 +48,7 @@
     "page": "p02",
     "backend": "codex_builtin_imagegen_tool",
     "quality_requested": "high",
-    "prompt_sha256": "0d60b1472dc0a101b9add1445bd6b81ffcd45f9e988457544aad1d434cae6954",
+    "prompt_sha256": "d55a14e1ac0cfd73733355b7fef50e6e61765f86a243b6d5a138ab44e2b4ce4d",
     "references": [
       {
         "index": 1,
@@ -76,16 +76,16 @@
       },
       {
         "index": 5,
-        "file": "v01_p094_style.png",
+        "file": "style_v01_p094.png",
         "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
         "role": "style"
       }
     ],
-    "source_dimensions": "1013x1552",
+    "source_dimensions": "1024x1536",
     "normalized_dimensions": "1152x2048",
     "normalization": "direct_resize_lanczos",
-    "source_sha256": "8f48f21ef2a43a51d0aa92724034223a5a6e66598cf2e9ef7cd39be7f9c089c0",
-    "output_sha256": "e0617f06f2ce63698af9d66482a7e3922429595fe1c09a3e437e388bb3ebb9cd",
+    "source_sha256": "836160a576eb11864a7d64d976f72f26fbe4f282105bb42a7a96ae40e0707c56",
+    "output_sha256": "3997b2b976d7883b05baa541152a86859e8375973bac321a241932c0a57acd0c",
     "review_status": "approved_manual",
     "cost_usd": null
   },
@@ -216,7 +216,7 @@
     "page": "p06",
     "backend": "codex_builtin_imagegen_tool",
     "quality_requested": "high",
-    "prompt_sha256": "baca119580367dd5ec4c0786d713583eb5e01cfe80c7fcfe92e47f4f57588cc1",
+    "prompt_sha256": "0d306e4188e0f00512a5bf5bf26fd13248b95a1d7274e040efac1994326e36cd",
     "references": [
       {
         "index": 1,
@@ -244,16 +244,16 @@
       },
       {
         "index": 5,
-        "file": "v01_p094_style.png",
+        "file": "style_v01_p094.png",
         "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
         "role": "style"
       }
     ],
-    "source_dimensions": "1016x1548",
+    "source_dimensions": "1024x1536",
     "normalized_dimensions": "1152x2048",
     "normalization": "direct_resize_lanczos",
-    "source_sha256": "e474754cc6bdd9466261c54af4f5dc4ae1f94f0e7b805239fe41d4f0e069ad97",
-    "output_sha256": "7e9c4d420da26774dd6da7e27812a024a8b7d0719aaa70eeab77fa939f27b096",
+    "source_sha256": "8a6eb5733453d8f6f044ff68b90a9f697703a33a8d35597f67aac86cb41d8111",
+    "output_sha256": "4f7b514472cfc887e546d56135598ac687dc93b5b07772c361ea4eb76efdf395",
     "review_status": "approved_manual",
     "cost_usd": null
   },

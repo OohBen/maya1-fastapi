@@ -31,6 +31,7 @@ PAGES = [
   "SIX UNEQUAL PANELS. Top strip: burned grass and splintered trees. Dominant middle panel staggers Kakashi's cropped masked shoulder huge in foreground, Jiraiya a smaller full figure across scarred ground, and Sasuke in a distant inset wiping blood from a spar. No line-up. Bottom panels leave Sasuke apart. "
   + SAY((2, SAGE, "upper left", "YOU HAVE BOTH OUTGROWN DRILLS."),
         (3, MAN, "upper right", "THEN HE NEEDS MISSIONS."),
+        (5, SASUKE16_SPEAKER, "middle right", "ITACHI IS STILL MINE."),
         (6, SASUKE16_SPEAKER, "lower left", "AND NARUTO?")) + SFX(1, "SHHH"),
   R("kakashi", "jiraiya", "sasuke_16", "env_training_scarred_field"), "high"),
 

@@ -10,7 +10,7 @@ An **AI-generated, full-colour manga adaptation** of the Naruto fan fiction
 *"Uchiha Naruto: The Sage"* by The Omnipresent Sage (50 chapters). It is a personal-enjoyment
 project for the repository owner. Not for publication, not for sale.
 
-**Three volumes are finished — 351 pages.** The work is real and the quality bar is set; your
+**Four volumes are finished — 664 pages.** The work is real and the quality bar is set; your
 job is to continue it, not to redesign it.
 
 | | Pages | Chapters | Covers | State |
@@ -18,12 +18,11 @@ job is to continue it, not to redesign it.
 | Volume 1 — *The Greatest Sin* | 207 | 9 | fic ch1–3 | Done |
 | Volume 2 — *Entitled to My Secrets* | 140 | 7 | fic ch3–4 | Done |
 | Volume 3 — *The Difference Between Us* | 102 | 8 | fic ch5–7 | Done |
-| Volume 4 — *What Are You?* | ~110 | 8 | fic ch8–11 | **Planned, not generated** |
+| Volume 4 — *What Are You?* | 215 | prologue + 11 | omitted ch7 seam, then ch8–11 | Done |
 
-Source text: the fic is not in the repo (it is someone else's writing). Fetch it with the FicHub
-API — `https://fichub.net/api/v0/epub?q=<fanfiction.net url>` returns a zip containing the full
-HTML. FanFiction.net itself returns 403 behind Cloudflare; don't bother scraping it directly.
-Split the HTML into per-chapter text files and work from those.
+Source text is intentionally not tracked. Run `python3 manga/story/source/fetch_source.py`; it
+retrieves and validates all 50 chapters into the ignored local source workspace. Use `--epub`
+for an already-downloaded copy. Do not plan from headings or summaries.
 
 ### Why you are being asked to do this
 
@@ -32,42 +31,41 @@ did not.** The prior pipeline called `openai/gpt-image-2` on Replicate at $0.012
 and consumed roughly $35 of the owner's budget across three volumes. That budget is exhausted.
 Your native tool makes generation free, which is the entire reason for the move.
 
-Two consequences you must internalise:
+Three consequences you must internalise:
 
 1. **The prompts are the asset, not the API calls.** Everything in `manga/` builds prompt
-   strings; only `manga/backend.py` knows how a prompt becomes a PNG. Port that one file.
+   strings. Preserve them verbatim and preserve reference order.
 2. **Cost stops being the constraint, so quality discipline must not slip.** The old pipeline
    made tier tradeoffs to save money. You don't have to — but read
    `manga/models/TIER_REPORT.md` anyway, because one of its findings is that **more pixels at
    low effort looks WORSE, not better.** Free does not mean "crank everything".
+3. **The native tool is agent-mediated.** It is not callable from ordinary Python and exposes no
+   size or quality parameter. Generate through a manifest, then inspect and normalize approved
+   rasters to 1152x2048.
 
 ---
 
-## 2. Porting the image backend — do this first
+## 2. Native ImageGen workflow
 
-`manga/backend.py` is the only seam. Implement the `codex` branch:
+`manga/backend.py` still serves the ordinary HTTP runner. Its `codex` branch is intentionally
+unavailable because the built-in ImageGen tool has no Python bridge. Do not claim that setting an
+environment variable makes the Python runner use the native tool.
 
-```python
-generate(prompt, refs, quality, size) -> (png_bytes, cost_usd)
-```
+For native generation:
 
-- `prompt` — the fully assembled page prompt. Pass it through verbatim. Do not summarise,
-  truncate, or "improve" it; every clause in it was added to fix an observed failure.
-- `refs` — **list of local image paths, and ORDER IS LOAD-BEARING.** The prompt says
-  "Image 1 is the CHARACTER REFERENCE for the blond boy…", "Image 2 is…". If your tool
-  reorders or drops reference images, the book falls apart — character consistency across 351
-  pages rests entirely on these.
-- `quality` — `"low" | "medium" | "high"`. If your tool has no tier control (it is reportedly
-  always medium), ignore this parameter.
-- `size` — `"WIDTHxHEIGHT"`, 9:16 portrait. Request it explicitly; do not accept a host default
-  aspect ratio, or pages will not assemble into a book.
-- Return raw PNG bytes and `0.0`.
+1. Validate the chapter with `manga/validate_chapter_specs.py`.
+2. Export exact prompts and ordered refs with `manga/export_codex_manifest.py`.
+3. The native tool accepts at most five local reference paths. The exporter reserves the last
+   path for the shared style page and packs overflow content refs into an ordered composite.
+4. Send a bounded first batch to separate generation workers. Each worker makes one call, writes
+   only its own staged raster, and may make one targeted retry for a material visual defect.
+5. The coordinator—not the workers—reads every page at full size and in sequence, approves it,
+   then runs `manga/finalize_codex_chapter.py` to normalize it to 1152x2048 and serialize provenance.
+6. Package the chapter with `manga/pack_chapter.py`; assemble the volume only after the chapter
+   passes the reader-flow protocol.
 
-**If your tool cannot accept reference images, stop and tell the owner.** Do not generate a
-volume without them — it will not match the first three and the work will be wasted.
-
-Then verify before committing to a volume: generate 3–5 pages, look at them, and confirm the
-characters match `manga/refs/images/*.png`. `manga/chapters/build_v3ch01.py` is a good probe.
+Reference order is load-bearing. If the manifest says Image 1 is Naruto and Image 2 is a location,
+pass exactly that sequence. Never summarize or rewrite a manifest prompt during the first call.
 
 ---
 
@@ -81,13 +79,12 @@ chapters/build_v<N>ch<NN>.py   page specs: prompt body, references, tier
                 │
                 ├── genlib.py      STYLE / STAGING / SPLASH / STYLE_REF, escalation on refusal
                 ├── refs/style_select.py   picks a real manga page as a style reference
-                └── backend.py     ← the seam you port
+                └── backend.py     HTTP backend only; native generation uses exported manifests
 ```
 
-Run a chapter: `python3 chapters/build_v3ch01.py` (all pages) or `... p01 p02` (named pages).
-Finished pages land in `chapters/<id>/raw/`. Re-running **skips pages that already exist**, so
-delete a page to regenerate it. Then `python3 pack_chapter.py v3ch01 "Amaterasu"` and
-`python3 assemble_v3.py`.
+The ordinary HTTP path runs a builder directly and skips existing pages. The native path exports
+the builder to a manifest and never asks a worker to write the production `raw/` directory. Read
+`manga/AGENTS_QUICKSTART.md` for exact commands.
 
 ### A page prompt is assembled from
 
@@ -141,6 +138,12 @@ Every one of these came from an observed failure. `manga/PIPELINE.md` has the fu
 - **Audit every volume boundary against the source.** Read the source covered by the previous
   volume's final page through the new volume's opening before planning pages. Never assume that a
   chapter break means the intervening action happened off-page.
+- **Read context before every chapter.** Read the entire source chapter being adapted plus at
+  least two complete source chapters before it and two after it. Record current relationships,
+  designs, injuries, weapons, knowledge, and unresolved promises before writing page specs.
+- **Read for causality after every render.** A visually strong page still fails if its result
+  precedes its cause, a character knows something too early, or the next page silently resets an
+  injury, outfit, weapon, relationship, or location.
 - **Pacing is yours.** Prose compresses; comics don't have to. The Wave mission is two
   paragraphs in the fic and ten staged pages in Volume 2 ch3 — but it still ends on Naruto's
   blank face, because "it was unremarkable *to him*" is the characterisation and must survive.
@@ -148,7 +151,7 @@ Every one of these came from an observed failure. `manga/PIPELINE.md` has the fu
 - **This Naruto is not canon Naruto.** He is cold, long-haired, deliberate, and raised by Madara.
   He does not shout, grin, or wear orange. When in doubt, make him quieter.
 - **Give each volume an engine.** V1: power bought with loss. V2: every chapter costs him
-  privacy. V3: every chapter costs him a story he told about himself. V4 (planned): every
+  privacy. V3: every chapter costs him a story he told about himself. V4: every
   chapter he takes something previously withheld.
 
 ---
@@ -161,7 +164,10 @@ Every one of these came from an observed failure. `manga/PIPELINE.md` has the fu
 | `manga/AGENTS_QUICKSTART.md` | Shortest path to generating your first chapter |
 | `manga/models/TIER_REPORT.md` | Tier/resolution experiment — **read before choosing settings** |
 | `manga/story/00_SERIES_BIBLE.md` | Characters, designs, continuity |
+| `manga/story/ROADMAP.md` | Completed scope and source-verified next-volume boundary |
 | `manga/story/volume_0N/` | Per-volume plans and chapter breakdowns |
+| `manga/story/volume_04/drafts/REVIEW_PROTOCOL.md` | Page, sequence, chapter, and PDF reader-flow checks |
+| `manga/story/source/fetch_source.py` | Fetches and validates the ignored 50-chapter local source copy |
 | `manga/chapters/prompts.py` | Shared prompt vocabulary — add new characters here |
 | `manga/refs/images/` | 70+ character/environment reference sheets |
 | `manga/refs/build_refs.py` | Builds new reference sheets |
@@ -175,25 +181,52 @@ Not in git: `manga/refs/style/` (276 MB of source pages, re-downloadable),
 
 ---
 
-## 7. Continuity you must carry into Volume 4
+## 7. Continuity you must carry beyond Volume 4
 
-- **No ninjato.** Lost to Orochimaru in V3 ch2 and never recovered. Bind `N13`, not `N13S`.
+- **The V3 ninjato is gone.** It was lost to Orochimaru and never recovered. Post-skip Naruto
+  later carries a different plain sash sword of unspecified origin.
 - **The Mangekyō is public.** Revealed in V3 ch8 in front of a full stadium and two kage. He
   cannot un-reveal it; the village's posture toward him should show that.
 - **Susano'o is orange** — the fic changed its colour explicitly because his chakra is orange.
 - **Zetsu has a spore on Danzō** since V2 ch4, and fic ch8 puts Danzō in play for Hokage.
 - **The Sandaime is dead** and Naruto does not attend the funeral.
+- **Gaara's first moral turn happened.** Naruto defeated and released him; Gaara apologized to
+  Temari and Kankuro.
+- **Karin is under Naruto's protection.** She knows his mother was an Uzumaki and that he intends
+  to take her to Konoha when it is safe.
+- **Kiri ends unresolved here.** Yagura is down, Naruto is depleted, and the blue chakra column is
+  deliberately unnamed until the later source explains it.
 
 ---
 
 ## 8. Working agreements
 
-- **Commit and push to `claude/new-manga-folder-d64x17`** unless told otherwise.
+- **Commit locally to `claude/new-manga-folder-d64x17`. Push only after the owner explicitly
+  approves that push and GitHub authentication is working.**
 - **Review your own pages.** Look at every page you generate. The owner reads for enjoyment and
   should not be your QA. Check: right characters, right proportions, balloons pointing at the
   right speakers, no misspellings.
 - **Generate ~5 pages, review, refine, then do the rest.** This loop caught most known bugs.
-- **Don't redo finished volumes.** The owner has read them; re-reading has no value to them.
+- **Do not broadly redo finished volumes.** Correct a finished page or boundary only when a source
+  audit finds a material story/continuity failure or the owner requests it.
 - **Report honestly.** If a page failed, say so. If you're unsure, say that too.
 - **Ship navigable volume PDFs.** Every assembled volume needs nested chapter outline bookmarks.
   Keep the full-quality master and add a lightly compressed, full-resolution reading copy.
+
+---
+
+## 9. Current state and next work
+
+Volume 4 is complete at 215 pages: an eight-page prologue repairs the omitted end of fic chapter
+7, followed by eleven chapters covering fic chapters 8–11. Its master and compressed reading PDF
+live in `manga/volume_04/`; both carry nested prologue/chapter bookmarks.
+
+The next planned work is Volume 5, expected to cover the conclusion of the Kiri arc beginning in
+fic chapter 12. The exact end boundary and chapter count are **not verified**. Before planning it:
+
+1. Fetch/verify the local source.
+2. Read fic chapters 10–16 in full, which provides two chapters of lead-in and at least two after
+   the likely ch12–14 scope.
+3. Reconcile the unexplained blue-column handoff and every surviving Kiri relationship/state.
+4. Write the Volume 5 engine, source map, chapter endings, and new-reference audit.
+5. Only then write the first builder and run a 3–5-page visual/reader-flow probe.

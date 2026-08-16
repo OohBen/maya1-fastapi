@@ -1,4 +1,5 @@
 """Assemble Volume 4: combined PDF, contact sheet, and a README with the real numbers."""
+import argparse
 import json
 import pathlib
 
@@ -15,6 +16,7 @@ COMPRESSED_PDF = "Volume_04_compressed.pdf"
 COMPRESSED_JPEG_QUALITY = 50
 
 CHAPTERS = [
+    ("v4ch00", "After the Barrier", "Naruto returns to the wounded village without knowing Hiruzen died"),
     ("v4ch01", "The Professor", "Kabuto leaves with Naruto's preserved blood sample"),
     ("v4ch02", "Not Cut Out for It", "Kurama remains distrustful behind the seal"),
     ("v4ch03", "Brothers", "Naruto chooses solitary training"),
@@ -52,8 +54,9 @@ def add_navigation(pdf, rows):
     start = 0
     for cid, title, count, _chapter_cost, _ends in rows:
         number = int(cid[-2:])
+        label = f"Prologue: {title}" if number == 0 else f"Chapter {number}: {title}"
         writer.add_outline_item(
-            f"Chapter {number}: {title}", start, parent=volume
+            label, start, parent=volume
         )
         start += count
     writer.root_object[NameObject("/PageMode")] = NameObject("/UseOutlines")
@@ -77,7 +80,26 @@ def save_compressed_pdf(images, pdf, rows):
     add_navigation(pdf, rows)
 
 
+def save_master_pdf(images, pdf, rows):
+    temporary = pdf.with_name(f".{pdf.stem}.rebuild.pdf")
+    images[0].save(
+        temporary,
+        save_all=True,
+        append_images=images[1:],
+        resolution=150.0,
+    )
+    add_navigation(temporary, rows)
+    temporary.replace(pdf)
+
+
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--rebuild-master",
+        action="store_true",
+        help="rebuild the full-quality master from chapter PNGs before adding navigation",
+    )
+    args = parser.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     all_pages, rows, total = [], [], 0.0
     for cid, title, ends in CHAPTERS:
@@ -91,9 +113,10 @@ def main():
 
     ims = [Image.open(p).convert("RGB") for p in all_pages]
     pdf = OUT / MASTER_PDF
-    if not pdf.exists():
-        ims[0].save(pdf, save_all=True, append_images=ims[1:], resolution=150.0)
-    add_navigation(pdf, rows)
+    if args.rebuild_master or not pdf.exists():
+        save_master_pdf(ims, pdf, rows)
+    else:
+        add_navigation(pdf, rows)
 
     compressed_pdf = OUT / COMPRESSED_PDF
     save_compressed_pdf(ims, compressed_pdf, rows)
@@ -107,18 +130,20 @@ def main():
     sheet.save(OUT / "volume_04_contact_sheet.jpg", quality=85)
 
     md = ["# Volume 4 — *What Are You?*", "",
-          f"**{len(all_pages)} pages across {len(rows)} chapters. ${total:.2f} of generation.**", "",
-          "`Volume_04.pdf` is the existing full-quality master. `Volume_04_compressed.pdf` keeps "
+          f"**{len(all_pages)} pages across one prologue and {len(rows) - 1} chapters. ${total:.2f} of generation.**", "",
+          "`Volume_04.pdf` is the full-quality master. `Volume_04_compressed.pdf` keeps "
           "the same 1152x2048 page rasters with light JPEG compression for smoother reading. "
           "Both PDFs include a nested chapter outline/bookmarks panel.", "",
-          "Covers fic ch8-11, from the invasion aftermath through the unresolved blue chakra "
+          "Bridges the omitted end of fic ch7, then covers ch8-11 from the invasion aftermath through the unresolved blue chakra "
           "column in Kiri. Hiruzen's death removes Naruto's political buffer; each chapter then "
           "shows what he takes, reveals, or spends once that restraint is gone.", "",
           "| Ch | Title | Pages | Cost | Ends on |", "|---|---|---|---|---|"]
     for cid, title, n, c, ends in rows:
-        md.append(f"| {cid[-2:]} | {title} | {n} | ${c:.2f} | {ends} |")
+        label = "P" if cid.endswith("00") else cid[-2:]
+        md.append(f"| {label} | {title} | {n} | ${c:.2f} | {ends} |")
     md += ["", f"| | **Total** | **{len(all_pages)}** | **${total:.2f}** | |", "",
            "## Notes", "",
+           "- The prologue restores the omitted Sound pursuit, Sasuke/Gaara outcome, Gaara's apology, and Naruto's return without replaying the invasion opening.",
            "- Naruto refuses Jiraiya and leaves alone; the permission meeting is with his clone.",
            "- Mei is the rebel leader while Yagura remains the Fourth Mizukage.",
            "- The post-skip sash sword is new, not the ninjato lost in Volume 3.",

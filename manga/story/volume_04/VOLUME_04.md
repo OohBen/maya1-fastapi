@@ -1,8 +1,8 @@
 # Volume 4 - *What Are You?*
 
-**Covers:** fic chapters 8-11, from the invasion aftermath through the unresolved blue-chakra column in Kiri.
+**Covers:** the omitted end of fic chapter 7, then chapters 8-11 through the unresolved blue-chakra column in Kiri.
 
-**Production scope:** 11 manga chapters, approximately 207 pages. This replaces the earlier eight-chapter / ~110-page sketch after a complete source read showed that the Oto raid, Kiri setup, army battle, and Yagura/Sanbi climax could not remain chronological and readable at that compression.
+**Production scope:** one eight-page prologue plus 11 manga chapters, 215 pages. This replaces the earlier eight-chapter / ~110-page sketch after complete source and boundary reads showed that the omitted invasion resolution, Oto raid, Kiri setup, army battle, and Yagura/Sanbi climax could not remain chronological and readable at that compression.
 
 ## Volume engine
 
@@ -14,6 +14,7 @@ The reader-facing progression is: Naruto's power becomes less reassuring as more
 
 | Ch | Title | Source | Planned pages | End beat |
 |---:|---|---|---:|---|
+| P | After the Barrier | ch07:291-565 | 8 | Naruto returns to the wounded village without knowing Hiruzen died. |
 | 01 | The Professor | ch08:5-93 | 16 | Kabuto leaves with Naruto's preserved blood sample. |
 | 02 | Not Cut Out for It | ch08:95-201 | 16 | Kurama hears Naruto promise restoration and eventual freedom, but does not trust him. |
 | 03 | Brothers | ch08:203-265 | 16 | Naruto and Itachi agree that their next meeting will be a battle; Naruto chooses solo training. |
@@ -35,6 +36,7 @@ The reader-facing progression is: Naruto's power becomes less reassuring as more
 - Kurama's future restoration/freedom promise is shown in Chapter 2. His later cooperation is shown but not explained; that explanation belongs to later source material.
 - Karin is recovered; the Shinigami mask is not. Orochimaru and Kabuto escape.
 - The final blue chakra column is not named or explained in this volume.
+- The prologue begins after Volume 3's final barrier image. It does not replay the public eye/Susano'o reveal or invasion opening.
 
 ## Production order
 

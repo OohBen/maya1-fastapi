@@ -87,7 +87,7 @@
     "page": "p03",
     "backend": "codex_builtin_imagegen_tool",
     "quality_requested": "high",
-    "prompt_sha256": "8da73c3c99bc4c1f95cf6df0bb8a6ae001be6f9b64fe461793231b9e0af8ecd5",
+    "prompt_sha256": "b01d15bc504a83da1cc84ad08a2e4c5df07012d179c465cba469e8b4a3c82390",
     "references": [
       {
         "index": 1,
@@ -115,16 +115,16 @@
       },
       {
         "index": 5,
-        "file": "v01_p094_style.png",
+        "file": "style_v01_p094.png",
         "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
         "role": "style"
       }
     ],
-    "source_dimensions": "1013x1553",
+    "source_dimensions": "1023x1537",
     "normalized_dimensions": "1152x2048",
     "normalization": "direct_resize_lanczos",
-    "source_sha256": "ac455b0c69747e4213cfb772b27427db6ab28c9b07006aaf9bf56482467e3f84",
-    "output_sha256": "4c481c70111eae5656c14563d4bb8b77fa37fbdbef7d383d873afc03a6d5ba21",
+    "source_sha256": "ce934d026816cc9b0bf1f283f053f44345f55d658a6a81012fe1c8954c957e20",
+    "output_sha256": "d2d4d2c33672b3b30fb8564ee7ea6f8e7b565a9e1fb8d503d0ea28ebe1b35ba6",
     "review_status": "approved_manual",
     "cost_usd": null
   },

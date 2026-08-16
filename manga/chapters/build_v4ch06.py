@@ -108,7 +108,8 @@ PAGES = [
      B("p01") + ONLY(N16_SPEAKER, ZETSU_SPEAKER) +
      "CHAPTER OPENING SPLASH. Wide low horizon across the collapsed Oto exterior. The older blond "
      "teen is small at the lower right, kneeling into the broad purple war fan for support; his red "
-     "armour is scuffed, but there is no injury detail. Broken earth, black smoke columns, and the "
+     "armour is scuffed and the same shoulder plate broken in the preceding chapter is visibly gone, but there is no injury "
+     "detail. Broken earth, black smoke columns, and the "
      "collapsed base fill the rest of the page. The split-faced plant creature rises far behind him, "
      "partly cropped by the page edge. The upper third is a quiet smoke shelf for the title. Cost, "
      "not victory. " + L_OTO + TITLE("THE DEBT", "quiet upper-third smoke shelf"),
@@ -118,7 +119,8 @@ PAGES = [
      FILL + B("p02") + ONLY(N16_SPEAKER, ZETSU_SPEAKER) +
      "FOUR uneven panels, with the third panel dominant and no aligned grid. PANEL 1 (small): a crack "
      "in broken stone, the split face and yellow eyes of the plant creature emerging from it. PANEL 2 "
-     "(narrow): the older blond teen straightening, breath measured, his red armour scarred but intact. "
+     "(narrow): the older blond teen straightening, breath measured, his red armour scarred with the "
+     "same shoulder plate still visibly broken away. "
      "PANEL 3 (dominant): he re-straps the purple war fan across his back against the ruined exterior, "
      "while the plant creature remains low at a different depth. PANEL 4 (narrow close-up): his visible "
      "eye, cold and decisive. " + L_OTO +
@@ -161,16 +163,22 @@ PAGES = [
          (4, TSUNADE_SPEAKER, "upper right", "NARUTO.")),
      RR("p05"), "high"),
 
-    ("p06", dict(scene="valley_departure", light="overcast", cast="three", mood="guarded", panels=4),
+    ("p06", dict(scene="valley_departure", light="overcast", cast="three", mood="guarded", panels=6),
      FILL + B("p06") + ONLY(N16_SPEAKER, ZETSU_SPEAKER, KARIN_SPEAKER) +
-     "FOUR uneven panels. PANEL 1 (wide establishing): the Valley of the End statues under hard overcast "
+     "SIX uneven panels. PANEL 1 (wide establishing): the Valley of the End statues under hard overcast "
      "light; the older blond teen stands high on Madara's statue, while the red-haired girl with glasses "
      "and the plant creature stand at a lower depth. PANEL 2 (small): the girl's fully clothed wary face, "
-     "not objectified. PANEL 3 (dominant): the teen turns from the valley, gunbai on his back, directing "
-     "the plant creature toward the forest while the girl listens anxiously. PANEL 4 (narrow): the girl and "
-     "plant creature depart into the trees; the teen remains alone above the river. " + L_VALLEY +
+     "not objectified, as she senses his chakra. PANEL 3 (narrow symbolic insert): hard-edged black chakra "
+     "shapes hold one small clear white core; no creature or romance imagery. PANEL 4 (dominant): the teen "
+     "faces her directly but keeps a respectful distance while naming his mother. PANEL 5: he promises "
+     "protection and eventual safety in Konoha; she remains cautious rather than instantly affectionate. "
+     "PANEL 6 (wide): he directs the plant creature toward the forest; the girl and plant creature depart "
+     "together while the teen remains alone above the river. " + L_VALLEY +
      SAY((1, N16_SPEAKER, "upper left", "THE MASK WAS NOT THERE."),
-         (3, N16_SPEAKER, "upper right", "KARIN IS AN UZUMAKI. TAKE HER TO THE HIDEOUT, ZETSU.")),
+         (2, KARIN_SPEAKER, "upper right", "YOUR CHAKRA... SO DARK. BUT THERE IS LIGHT INSIDE IT."),
+         (4, N16_SPEAKER, "middle left", "MY MOTHER WAS AN UZUMAKI."),
+         (5, N16_SPEAKER, "middle right", "YOU ARE UNDER MY PROTECTION. WHEN IT IS SAFE, I WILL TAKE YOU TO KONOHA."),
+         (6, N16_SPEAKER, "lower right", "ZETSU. TAKE KARIN TO THE HIDEOUT.")),
      RR("p06"), "high"),
 
     ("p07", dict(scene="forest_escape", light="rain", cast="solo_with_extras", mood="exhausted", panels=5),
