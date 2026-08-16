@@ -12,7 +12,7 @@ OUT = HERE / "volume_04"
 TITLE = "Volume 4 - What Are You?"
 MASTER_PDF = "Volume_04.pdf"
 COMPRESSED_PDF = "Volume_04_compressed.pdf"
-COMPRESSED_JPEG_QUALITY = 65
+COMPRESSED_JPEG_QUALITY = 50
 
 CHAPTERS = [
     ("v4ch01", "The Professor", "Kabuto leaves with Naruto's preserved blood sample"),
