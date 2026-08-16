@@ -1,5 +1,6 @@
 .env
 manga/.env
+manga/.source/
 __pycache__/
 *.pyc
 

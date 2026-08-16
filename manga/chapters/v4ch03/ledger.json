@@ -1,0 +1,692 @@
+[
+  {
+    "page": "p01",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "c3d300758b006dd6fc6c4e2a27db4a3d073570233c8b21b41ba45a368f19b635",
+    "references": [
+      {
+        "index": 1,
+        "file": "itachi.png",
+        "sha256": "fcb9600eca68f4a89a2d7b9a2df5beea9d84028af95484b88057c2ebfc91015b",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "kisame.png",
+        "sha256": "3843bfe9233b1aeca08a287be4a4dce626ca8f2b9c816351b7b509da245676e8",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_konoha_outskirts.png",
+        "sha256": "77be36d33c86305604a31b113058b60e995790fa4a3c845d233109326f97f2f4",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1013x1552",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "ffbf202d45ba025452b983bf86ed207bcda29074663e43e9b733e8b55ae1a99e",
+    "output_sha256": "cba27cdff36527ee3fd13c2b3cc13eb8f72c656e8454991be150cff1e84f256c",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p02",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "dccc1ade3dcec6c91faa55896d07a263f899c593e14373c6b12e00034a3525bd",
+    "references": [
+      {
+        "index": 1,
+        "file": "itachi.png",
+        "sha256": "fcb9600eca68f4a89a2d7b9a2df5beea9d84028af95484b88057c2ebfc91015b",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "kisame.png",
+        "sha256": "3843bfe9233b1aeca08a287be4a4dce626ca8f2b9c816351b7b509da245676e8",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_konoha_outskirts.png",
+        "sha256": "77be36d33c86305604a31b113058b60e995790fa4a3c845d233109326f97f2f4",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1013x1553",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "cfb4f0493bb8d0688de9f6afce3fd02be885c466e96841bb1aac15fc986a0199",
+    "output_sha256": "090104b01f091ca0c56350563c84b5fdf40daaf9c9f8f3db3bd20821f9ce49c4",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p03",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "d5659c1c65e67cfaa81d126a149f65fc3e6fd0999799fb7025e1fd87f7c91597",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_uchiha_compound.png",
+        "sha256": "9c9e5d5589a5b0dc4bffea169320f3d90b3a6ef6d81c8bb413fd9c847ee60288",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1009x1558",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "fdae59a95690ec010dcb177ebdd8e80968253a20cded2760662d5a5deca88383",
+    "output_sha256": "411be9909519543922cf0990839a0810901c369eaab89c4df838bc1098171cfc",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p04",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "de8e6808fbf2ad03b4e46f631f44b05cd58a36bef5280ba866665affea01abed",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_uchiha_compound.png",
+        "sha256": "9c9e5d5589a5b0dc4bffea169320f3d90b3a6ef6d81c8bb413fd9c847ee60288",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "f738b0dc1ef145397545393d3a2bc9ee2697d2ca44e9dbf95ffef6fc0b323a90",
+    "output_sha256": "d3875aa1ec287bd9c80a7ae4353fdd387cbb61453443da9f6b00f53547faf803",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p05",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "017b763475a04ff858b047fa1ed3e222f5bfa9ef93777006d4140fcfeb6a24f3",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_uchiha_compound.png",
+        "sha256": "9c9e5d5589a5b0dc4bffea169320f3d90b3a6ef6d81c8bb413fd9c847ee60288",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_naka_shrine.png",
+        "sha256": "970ca889eabae4b5fb2dfa61724eaac6553e9840b51223dd0ca59674024059cb",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "43138b56200b66f0b633c8126032cd6f4679e8ab32841fd4f71455d30d6be7ce",
+    "output_sha256": "e484e247eec80a64b3f6dee54b93e19485cf66a2f81e40a30d40c15db193753f",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p06",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "132d58a72e10ae29158d4ee09ae2384b724679166214a1e7ff0e6d1b5b3f8417",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_naka_shrine.png",
+        "sha256": "970ca889eabae4b5fb2dfa61724eaac6553e9840b51223dd0ca59674024059cb",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_madara_eye_vault.png",
+        "sha256": "6c0f1840fe7daee801f35513e871df9b7ac441dd3e2e7852ff17c4eeec99ab1d",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "67a7ecd6024816303cafd6aa2484655a7c93303ee2d06844aada7934ef0540d8",
+    "output_sha256": "30c0998ffc80caa5a0a08634e183d485a167e01383775c36c3314b2aaf49d508",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p07",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "b34dfb854013acb2e7bf9f2108b5d6450925a54af01268acafcde1c18133cef8",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "itachi.png",
+        "sha256": "fcb9600eca68f4a89a2d7b9a2df5beea9d84028af95484b88057c2ebfc91015b",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_naka_shrine.png",
+        "sha256": "970ca889eabae4b5fb2dfa61724eaac6553e9840b51223dd0ca59674024059cb",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1010x1557",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "9fa2c6aec8ed65b75bb8aabc9585ac2c7341d7956055eedfe7a421c87bea0d98",
+    "output_sha256": "16f6cb84f5f8c769cca82a305d0a896d1400b9b336e75588380a40ee917818b4",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p08",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "f11636c6ecd2f65425cc5bba826add14db2c2dc6e7eeddf3005f71efcb9950f5",
+    "references": [
+      {
+        "index": 1,
+        "file": "itachi.png",
+        "sha256": "fcb9600eca68f4a89a2d7b9a2df5beea9d84028af95484b88057c2ebfc91015b",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_naka_shrine.png",
+        "sha256": "970ca889eabae4b5fb2dfa61724eaac6553e9840b51223dd0ca59674024059cb",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1006x1564",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "acfcc6e655eec32e5ae13481a4bcff77c75b5db5c706fbd112dfed5191981398",
+    "output_sha256": "c655227a83be438f40ccc87e9bdd18b9c0c238023a701f8f1e3eacd8eaddf930",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p09",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "3bf22a8bd4acd226b130a48d220b38b09a7f9bc3d4bf605d2c7bb9b7201d47d1",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "itachi.png",
+        "sha256": "fcb9600eca68f4a89a2d7b9a2df5beea9d84028af95484b88057c2ebfc91015b",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_naka_shrine.png",
+        "sha256": "970ca889eabae4b5fb2dfa61724eaac6553e9840b51223dd0ca59674024059cb",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "e1769674c3ae8703ace7175b18040e9c89fd0c77a894669240fcf20cf9e25a6b",
+    "output_sha256": "71c569ddef1e03c1baea725b51d9bfb7fe30e9f567d096948a266359c0e67f88",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p10",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "9309f53c0af6088c1887c8968f7e16d0d9ab9aeaced8f2c39d0b253512d0f96a",
+    "references": [
+      {
+        "index": 1,
+        "file": "itachi.png",
+        "sha256": "fcb9600eca68f4a89a2d7b9a2df5beea9d84028af95484b88057c2ebfc91015b",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_naka_shrine.png",
+        "sha256": "970ca889eabae4b5fb2dfa61724eaac6553e9840b51223dd0ca59674024059cb",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1024x1536",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "40cc2a873e41c4e2158070fc9977fb5a71ce967c28c1a7a0d2a78ffd9f1e148b",
+    "output_sha256": "3a861288fcab2a6cfeb9188f7d4d5bdc6887dac3eab8b5d58d91fd38bf31922c",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p11",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "2f568b041c85be399a400aa62ec6227ae4b8508bc70727ce3025a4c8bb4cc042",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "itachi.png",
+        "sha256": "fcb9600eca68f4a89a2d7b9a2df5beea9d84028af95484b88057c2ebfc91015b",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_naka_shrine.png",
+        "sha256": "970ca889eabae4b5fb2dfa61724eaac6553e9840b51223dd0ca59674024059cb",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1015x1549",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "60599449c319029b4865d5965c03d53a5dfccf5f02b5cab99437180f9d4db4f3",
+    "output_sha256": "00ced6b4065de0c429cc4197289d8005894bb9cabad589b344af158b5bbce788",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p12",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "50b2ac3fcff74def21e24d18ff11947476ccd890c962df52adc6f53317307675",
+    "references": [
+      {
+        "index": 1,
+        "file": "itachi.png",
+        "sha256": "fcb9600eca68f4a89a2d7b9a2df5beea9d84028af95484b88057c2ebfc91015b",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_naka_shrine.png",
+        "sha256": "970ca889eabae4b5fb2dfa61724eaac6553e9840b51223dd0ca59674024059cb",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1012x1555",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "51e1858050f45dee33da88077364b8f598784cc2340d2034397f3f160743a264",
+    "output_sha256": "5fb09d5f2063bb4c1af970311fde6af977fb38137993c0b157dd2e11542f25d4",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p13",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "b745079e4c799b42df4ad5c008d30b65f4c360327a4304566e493661bd9cd53b",
+    "references": [
+      {
+        "index": 1,
+        "file": "itachi.png",
+        "sha256": "fcb9600eca68f4a89a2d7b9a2df5beea9d84028af95484b88057c2ebfc91015b",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_naka_shrine.png",
+        "sha256": "970ca889eabae4b5fb2dfa61724eaac6553e9840b51223dd0ca59674024059cb",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "167927eae797bf047afe7d22b20c5b404379c52984e8425b72d5fa5f35b8722e",
+    "output_sha256": "1100d12568f84d52cf8ef3eeae13a42809d57429573da9d3139667432b9840d2",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p14",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "ac1adcbf9fc8559b0af23651e412d799bf90d1679fd3056fa0ea81c40773b6f0",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_naka_shrine.png",
+        "sha256": "970ca889eabae4b5fb2dfa61724eaac6553e9840b51223dd0ca59674024059cb",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "p14_content_bundle.png",
+        "sha256": "e05136bc36eeca46e774fbe28cc1c5657385f9f81d85b9ab2182631c188aee05",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1024x1536",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "377146244f781ce744021e121e08f0622451a912da6d949a745ab4aa6acdad5d",
+    "output_sha256": "16d3ea779d799108aae275f5b8007a75735305abaac3c73a95eace10bb3bc5f1",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p15",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "f21b762e44ad7f2209aa4b96940f3013c570d82083bde49ed294ddc7a98b3df9",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "zetsu.png",
+        "sha256": "c62488bde433ea578291a9c4fa172b089c507c2f447bdcf6949f04069bf315b7",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "p15_content_bundle.png",
+        "sha256": "64419c9188de0c8a9fec5db0b987abd7d3a100b63ff2d0429e443cb0bb2b9179",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "3634ea7eec4a9e8d2513cd12bd953b59ed5d84b70b5ec0433ed4d75a92ad7835",
+    "output_sha256": "a71710d4236c5d1c5c7698f803249b20f5bb342395f1bb1631a04d71273abe78",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p16",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "25371e036b65fe4284abfedadafa5f7a7e9fa674c74e7d10c871c68d218d58b6",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_konoha_after_invasion.png",
+        "sha256": "cc331332b411a7ea36de2178b86c396261514ec5acec502c44dc58950cbc6cd5",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1024x1536",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "3735122d9bb07993063cb8af748e9cc78e30441e727236e47a59a7a80df4fba6",
+    "output_sha256": "c5284d60425b15995ecc04d7e8dfeeb48be5345a8ecbe9c2fdd479b7a1df828b",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  }
+]

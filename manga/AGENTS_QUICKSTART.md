@@ -2,48 +2,44 @@
 
 Read `/AGENTS.md` first. This is the shortest path from a clean checkout to finished pages.
 
-## 0. Port the backend (once)
+## 0. Choose the generation transport
 
-Implement the `codex` branch of `backend.py`, then:
-
-```bash
-export MANGA_BACKEND=codex
-```
-
-Smoke-test it before anything else — 2 pages, then LOOK at them:
+The ordinary Python runner uses the configured HTTP backend. The native Codex ImageGen tool is
+not callable from `backend.py`; its `codex` branch remains intentionally unavailable. For native
+tool generation, validate the builder and export a tool manifest instead:
 
 ```bash
 cd manga
-rm -f chapters/v3ch01/raw/p02.png chapters/v3ch01/raw/p03.png
-python3 chapters/build_v3ch01.py p02 p03
+python3 validate_chapter_specs.py chapters/build_v4ch01.py --expected-pages 16 \
+  --extra-ref-root refs/images
+python3 export_codex_manifest.py chapters/build_v4ch01.py /tmp/v4ch01_manifest.json \
+  --style-ref refs/images/style_v01_p094.png --ref-root refs/images
 ```
 
-Compare the faces against `refs/images/naruto_13.png` and `refs/images/orochimaru.png`. If they
-don't match, your reference images aren't reaching the model — fix that before continuing.
-Restore the originals with `git checkout -- chapters/v3ch01/raw/` when done.
+The native tool accepts at most five image paths. The exporter reserves the last for the shared
+style page and automatically packs logical content refs beyond four into an ordered composite
+plate, rewriting their prompt bindings to tile bindings. Preserve manifest order exactly.
 
 ## 1. Get the source text
 
 ```bash
-curl -sL "https://fichub.net/api/v0/epub?q=<fanfiction.net-url>" -o fic.zip
+python3 story/source/fetch_source.py
 ```
 
-Unzip, split the HTML on chapter headings, write `chNN.txt` per chapter into a scratch dir.
-Volume 4 needs fic chapters 8–11.
+This retrieves the FicHub EPUB, validates all 50 sequential chapter files, and writes the local
+working copy under ignored `manga/.source/`. Volume 4 uses fic chapters 8–11. To work offline,
+pass an existing EPUB with `--epub /path/to/story.epub`.
 
 ## 2. Add any new characters
 
-New cast goes in `chapters/prompts.py` as a binding, and in `refs/build_refs.py` as a sheet.
+New cast goes in `chapters/prompts.py` or the volume prompt module as a binding, and in
+`refs/images/` as a generated sheet.
 **Lead with the silhouette-defining feature** — the one shape that identifies them at thumbnail
 size. "Long black hair" produced a generic old wizard for Madara; "an ENORMOUS wild mane that
 flares outward in huge jagged spikes" produced Madara.
 
-```bash
-python3 refs/build_refs.py v4cast1     # builds a named batch
-```
-
-Volume 4 needs: `tsunade`, `shizune`, `homura`, `koharu`, `mei`, `env_funeral`,
-`env_kiri_village`, `env_tsunade_bar`.
+Volume 4's additions and exact page bindings are in `chapters/prompts_v4.py`; validate that every
+named reference resolves before generation.
 
 ## 3. Write the chapter
 
@@ -70,14 +66,19 @@ either bind it or make it generic.
 
 ## 4. Generate, review, finish
 
+For native generation, send the first five manifest rows to separate bounded workers. Each worker
+uses the row's exact prompt and ordered refs, returns one raster, and writes no shared ledger state.
+The coordinator inspects the five pages individually and as a sequence before dispatching the rest.
+
+After review, normalize approved pages to the manifest's `1152x2048` target, place them in
+`chapters/v4ch01/raw/`, write provenance serially, then package:
+
 ```bash
-python3 chapters/build_v4ch01.py p01 p02 p03 p04 p05   # first five
-# LOOK AT THEM. Fix prompts. Then:
-python3 chapters/build_v4ch01.py                        # the rest (skips existing)
 python3 pack_chapter.py v4ch01 "The Professor"
 ```
 
-Failures print `[FAIL] pNN` and do not abort the chapter. Re-run to retry just those.
+For the HTTP backend, the existing `python3 chapters/build_v4ch01.py p01 ...` runner remains the
+resumable path and skips existing outputs.
 
 ## 5. Assemble the volume
 

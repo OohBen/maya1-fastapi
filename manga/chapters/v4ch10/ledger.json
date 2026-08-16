@@ -1,0 +1,719 @@
+[
+  {
+    "page": "p01",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "ab7c5d5802db6f56f606b073f9fa462b841eb4629ee73dd903cad44372d45f1e",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor_sword.png",
+        "sha256": "bfff6f5ffe48ca9f7912cc2b8474111192f172f851b0d1d1d31102f9de3dff70",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "8f4f1e8b717c54d9c9d818850884eef2c300772b06400f297c0ebffbf0bb6d71",
+    "output_sha256": "fc70a342f6040d0f814a51beae22f40ac4890c46a5f0616973ec3e309c9ec080",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p02",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "a1f98793d7710deccc599423a6e75272f4c6f754c0b64f0f00cd8a993d00bcc9",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor_sword.png",
+        "sha256": "bfff6f5ffe48ca9f7912cc2b8474111192f172f851b0d1d1d31102f9de3dff70",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "yagura_human.png",
+        "sha256": "259a10f2f09a2ff816b07a1c7c0d046e71b6f8f8d958bdab363334230e92e3e8",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "mei_v4.png",
+        "sha256": "b8cec10c5c2d9f6f12848ce5d4f400f986f8d4179b43d485f76f1a3973024b31",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1006x1563",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "d80c8969bcfd03a9b38b30ae7a1ffdc805094c3301eb084e9f86abe7b443024c",
+    "output_sha256": "3ca4332d8c0d793c6359a4c5ac5ede3b4d302d1380b6e4a254667a7937f5e36c",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p03",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "298507d94771250566cac08e09063ed8bd0b29e2e707e5cf3b95acc9b9f3a688",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor_sword.png",
+        "sha256": "bfff6f5ffe48ca9f7912cc2b8474111192f172f851b0d1d1d31102f9de3dff70",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "yagura_human.png",
+        "sha256": "259a10f2f09a2ff816b07a1c7c0d046e71b6f8f8d958bdab363334230e92e3e8",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "mei_v4.png",
+        "sha256": "b8cec10c5c2d9f6f12848ce5d4f400f986f8d4179b43d485f76f1a3973024b31",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1011x1555",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "66096190465bd95ca821ac86ace6925ecc2c822bda688ab717d1002362aaf92b",
+    "output_sha256": "cac7e726d4eb7539ffacc135121b84d96ed2d3f2f3183c0915b7e380a23b325c",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p04",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "10fd6a5ae2abde9554f6e33c07a10ac9dd67a2abf46b7e1e2b69b4c8b4e33018",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor_sword.png",
+        "sha256": "bfff6f5ffe48ca9f7912cc2b8474111192f172f851b0d1d1d31102f9de3dff70",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "yagura_human.png",
+        "sha256": "259a10f2f09a2ff816b07a1c7c0d046e71b6f8f8d958bdab363334230e92e3e8",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "mei_v4.png",
+        "sha256": "b8cec10c5c2d9f6f12848ce5d4f400f986f8d4179b43d485f76f1a3973024b31",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1010x1557",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "3d59a96d943bd2ab96b7a2fe64155c622d90848fee2c3f4892a6716555b9432c",
+    "output_sha256": "52cf820501deea6cb9502f32ecd903bd593d4bbec2610a1555ed203d9e190219",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p05",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "15c5d9b7f12a93aec14f4ac3f54e584439b2228c6b1b38b0eb1efdae1cf91f93",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor_sword.png",
+        "sha256": "bfff6f5ffe48ca9f7912cc2b8474111192f172f851b0d1d1d31102f9de3dff70",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "yagura_human.png",
+        "sha256": "259a10f2f09a2ff816b07a1c7c0d046e71b6f8f8d958bdab363334230e92e3e8",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1011x1555",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "30b4d3b2adc3e4ff8c2b310380d6855492b6a24dfbcf23566e277710a76d43d3",
+    "output_sha256": "db5632e652f22bdcc94d0d6abcf1c0b179c4b08da6ba9795794c60da6e67cc5d",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p06",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "093c491e2cc0b7eaa45b8b9020e194e0a594327579fd4f31d5c35400fbad342d",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor_sword.png",
+        "sha256": "bfff6f5ffe48ca9f7912cc2b8474111192f172f851b0d1d1d31102f9de3dff70",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "yagura_human.png",
+        "sha256": "259a10f2f09a2ff816b07a1c7c0d046e71b6f8f8d958bdab363334230e92e3e8",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "water_clone_dragon.png",
+        "sha256": "72cd54da3c97b09357333a5e8cfc865ab8a88cd4a39f72aad25ac0a4add120d0",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "e96f3c5703dbf0edaf2654808a71511bde61e3215a6f34c403c776bd2a40539f",
+    "output_sha256": "5a553fb7ca79d3a26a21c6b776ce4729694b158fcdd43fbffab8bd9a746fe44f",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p07",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "bffee0fca0c9b7826d020e082992e74067663d362370d34733cecd5a8959a99d",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor_sword.png",
+        "sha256": "bfff6f5ffe48ca9f7912cc2b8474111192f172f851b0d1d1d31102f9de3dff70",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "yagura_human.png",
+        "sha256": "259a10f2f09a2ff816b07a1c7c0d046e71b6f8f8d958bdab363334230e92e3e8",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "gunbai_v4.png",
+        "sha256": "4a100e46d041d5d023d3fdd8422730f2c559dfe7c150fb79dc0d8b7326b43202",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "a92ca2fdd21bbdea1d416df701e1d39231ec0304367aabb434851e31f49b29aa",
+    "output_sha256": "cdf90fc6bf5b76fe10cde731f035dfa99649c432ad4eca90b384e6d1e4a44d69",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p08",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "36db42d3c5bc491ab8fd7e5c2fa410c4ac15faad684ac2c26f902a0c50d70571",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor_sword.png",
+        "sha256": "bfff6f5ffe48ca9f7912cc2b8474111192f172f851b0d1d1d31102f9de3dff70",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "yagura_human.png",
+        "sha256": "259a10f2f09a2ff816b07a1c7c0d046e71b6f8f8d958bdab363334230e92e3e8",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "water_clone_dragon.png",
+        "sha256": "72cd54da3c97b09357333a5e8cfc865ab8a88cd4a39f72aad25ac0a4add120d0",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "0bbbf4f74d8eb74a863f1840b586582329af26c7273b03491ea142ecb046ed4b",
+    "output_sha256": "13f2fffb979be7f8baa60938320fcf994147da9b8d23a11f0a5626c96d3b276a",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p09",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "2e5fd9f52d75f0e41f11ec7dc053159a4b63e54c08396b8572ed4e8d2adcf7e0",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor_sword.png",
+        "sha256": "bfff6f5ffe48ca9f7912cc2b8474111192f172f851b0d1d1d31102f9de3dff70",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "yagura_human.png",
+        "sha256": "259a10f2f09a2ff816b07a1c7c0d046e71b6f8f8d958bdab363334230e92e3e8",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "water_clone_dragon.png",
+        "sha256": "72cd54da3c97b09357333a5e8cfc865ab8a88cd4a39f72aad25ac0a4add120d0",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1010x1558",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "24d7ea142300ea428371c01ce87549f37d0d453420fbc198ed0cb6f481b47022",
+    "output_sha256": "3af08dcf388bbca456be1d9c48e096733d3458baefb6c84fcedd9226e3a74cd1",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p10",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "5de2f6c1a22f00134971eae10aa6526cedb65c1f40b963110720a7a276ec40e5",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor_sword.png",
+        "sha256": "bfff6f5ffe48ca9f7912cc2b8474111192f172f851b0d1d1d31102f9de3dff70",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "yagura_human.png",
+        "sha256": "259a10f2f09a2ff816b07a1c7c0d046e71b6f8f8d958bdab363334230e92e3e8",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "08788b2660c412b40492c18cd272661791bab8c13b318b49c3dc1010f914a218",
+    "output_sha256": "b9e5ec0d95d134735fe52d320ccb47bba4d47dcc02cd87936a8d650651ee6355",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p11",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "1c664714b9e00f9216d8a23f1de6cf65f2cdc2382cd0a60424e117c35435c7f5",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor_sword.png",
+        "sha256": "bfff6f5ffe48ca9f7912cc2b8474111192f172f851b0d1d1d31102f9de3dff70",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "yagura_human.png",
+        "sha256": "259a10f2f09a2ff816b07a1c7c0d046e71b6f8f8d958bdab363334230e92e3e8",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "3fcf42a98e4deeeb6928ea18e128228d3b0367dd3e05bb8a4549deca1e753840",
+    "output_sha256": "81eeeb3b8d696d021a105a5c752864784fc5eb7ea06d241b50230c02664d094c",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p12",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "df4c30ebedbbf03ff307424f7fe019a8f6181248e0446bbc86d7c5e26b297fca",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor_sword.png",
+        "sha256": "bfff6f5ffe48ca9f7912cc2b8474111192f172f851b0d1d1d31102f9de3dff70",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "yagura_human.png",
+        "sha256": "259a10f2f09a2ff816b07a1c7c0d046e71b6f8f8d958bdab363334230e92e3e8",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "water_clone_dragon.png",
+        "sha256": "72cd54da3c97b09357333a5e8cfc865ab8a88cd4a39f72aad25ac0a4add120d0",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1009x1558",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "41a7626f5ed5e019cc1c31c77bf3357f962e23b88d07cac2e0592d07b533e103",
+    "output_sha256": "24fe676d9f2a01c2ca19a7dc31417fc55a44c0be4d78d7a504e2cd05e78bf892",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p13",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "1ae7c88abd2a215d22022930e7bb09b9bfc6bb0d7ed0f71b377c46c2aa43d6ec",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor_sword.png",
+        "sha256": "bfff6f5ffe48ca9f7912cc2b8474111192f172f851b0d1d1d31102f9de3dff70",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "yagura_human.png",
+        "sha256": "259a10f2f09a2ff816b07a1c7c0d046e71b6f8f8d958bdab363334230e92e3e8",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1012x1554",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "e4bed49dc0a56a70a9a6a37d53a5fca38819deccb87f0a1c489f826c40fb4621",
+    "output_sha256": "8c9404c3d91e9318a402713b48a688c1c12d9a3b7b0a3cc770795a635fa40a50",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p14",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "12c2fa927e5e16268eef9f0b432dcfba25aef518b8f0804e2390dc3558f8ba77",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor_sword.png",
+        "sha256": "bfff6f5ffe48ca9f7912cc2b8474111192f172f851b0d1d1d31102f9de3dff70",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "yagura_human.png",
+        "sha256": "259a10f2f09a2ff816b07a1c7c0d046e71b6f8f8d958bdab363334230e92e3e8",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "water_clone_dragon.png",
+        "sha256": "72cd54da3c97b09357333a5e8cfc865ab8a88cd4a39f72aad25ac0a4add120d0",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "ddddee5a44b5ed136049ba362abe0bbe51eb52c54075482ba7ce790489ce6ebb",
+    "output_sha256": "e6c36cb0bd9e692e70a366f735ad3c6d5a418dd2e80801cb3d59d7d0aa77aebc",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p15",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "b8238152c0751da5a3bf9ab4d6005aa7bf5b930616b24139210efe2981494486",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor_sword.png",
+        "sha256": "bfff6f5ffe48ca9f7912cc2b8474111192f172f851b0d1d1d31102f9de3dff70",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "yagura_human.png",
+        "sha256": "259a10f2f09a2ff816b07a1c7c0d046e71b6f8f8d958bdab363334230e92e3e8",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "gunbai_v4.png",
+        "sha256": "4a100e46d041d5d023d3fdd8422730f2c559dfe7c150fb79dc0d8b7326b43202",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "p15_content_bundle.png",
+        "sha256": "a1859ed7ae1f68a60a46f024a6bc5bd0cd26ed0479c958ea658d3b764c794caa",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "c7a630fda603e7b805905d401f74b8045b415c1b7c4b33fd981ac3df01d822c2",
+    "output_sha256": "072f742c5f4d213042b2463273cd38cc5f0cf728ac09b7e23d294d857569d195",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p16",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "e8d27efeeed1626d3679431c0d911a4a591adace3c7d68c4f1c2259c22d12a94",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor_sword.png",
+        "sha256": "bfff6f5ffe48ca9f7912cc2b8474111192f172f851b0d1d1d31102f9de3dff70",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "yagura_human.png",
+        "sha256": "259a10f2f09a2ff816b07a1c7c0d046e71b6f8f8d958bdab363334230e92e3e8",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1011x1555",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "133d526ba324ba37369cf2fc7a221b45df0c2631cb71a8fb6dd70155cfca636c",
+    "output_sha256": "0263067d3125e2cf3e4d05c572b251a18ab6eef9ea2baa2cfe284564b3b003a0",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p17",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "870a30a5c775213f28cd778d8b61f8971a9f9ebfb0f9c7f8193c118eaf14805e",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor_sword.png",
+        "sha256": "bfff6f5ffe48ca9f7912cc2b8474111192f172f851b0d1d1d31102f9de3dff70",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "yagura_human.png",
+        "sha256": "259a10f2f09a2ff816b07a1c7c0d046e71b6f8f8d958bdab363334230e92e3e8",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1012x1554",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "46bea847698ae09cc67b86b9643d78c64898b8000cd1b8643425b9bc6cf93972",
+    "output_sha256": "ed22bd93d944b1c677698ccbea6845dc6009a872f731f93c97f2fddf810008fe",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  }
+]

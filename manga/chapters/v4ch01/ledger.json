@@ -1,0 +1,632 @@
+[
+  {
+    "page": "p01",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "f9e9cb9d652a4b2202623876b984843d3be914e2fccc42e54f46a83f32c22f25",
+    "references": [
+      {
+        "index": 1,
+        "file": "env_konoha_after_invasion.png",
+        "sha256": "cc331332b411a7ea36de2178b86c396261514ec5acec502c44dc58950cbc6cd5",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "2c2bf600d0bbd6c4513201e3004df1eaf7df0b3bc8f86f1c75b29eb16495d099",
+    "output_sha256": "f8d6463b636b44c10fcf1a4299a760185cb66af3e830bd9af7942e3076b0dd55",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p02",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "5d1943b92e6fd44ca751200473ac0f522ea80218fb62dbbde56e51ec77837d50",
+    "references": [
+      {
+        "index": 1,
+        "file": "hiruzen.png",
+        "sha256": "c19bcad9a2577e8cce6231c3fdb3b675d6a373efcc7e7f1850cdb68ee4e1a3b0",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "env_konoha_after_invasion.png",
+        "sha256": "cc331332b411a7ea36de2178b86c396261514ec5acec502c44dc58950cbc6cd5",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "7f9904577f86a422aa6281e43bedb014ad014f6eb484eb7944eeeecd23ee3ba1",
+    "output_sha256": "555e5dbbf181028ddadeb141e03f4a70bbdb908b67c2ac2c0bcad80ecbf16b4a",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p03",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "48428cb1ea1929906d5cd46253cad4b105c45f4f26f722629e9761b1a34a1bca",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "env_apartment_ext.png",
+        "sha256": "e8746d5d4a1a2e8205b9a74d06d29d3a76781f5a7c22bb579663d137163f6f01",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1024x1536",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "11ed5669b6a12ebf61e57417e626e48301c0a7ddd6892cfb43280620d9bee260",
+    "output_sha256": "f78ebedddadee86434c590cde2bcb822538d529b054c0ddfc4d69400b75766d8",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p04",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "f336bbcd9d4a585e47f122bbe112dd9d0a3c1e3d02fd0ee55c0c587d9abf264d",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "hiruzen.png",
+        "sha256": "c19bcad9a2577e8cce6231c3fdb3b675d6a373efcc7e7f1850cdb68ee4e1a3b0",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "danzo.png",
+        "sha256": "6cf92c631d40364ecc47bc47643c7310e381b8ba3a872404b4d72c8716a5f0b4",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "p04_content_bundle.png",
+        "sha256": "cb653e9deb5382c4bf470b644a621902996b5860951589921da71fd7c3b9c95c",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1011x1555",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "5d43dc5609c6aaec3ecd47d4902da41afe4b82023c7a61c9a0166fd2bc4e4b1c",
+    "output_sha256": "37e0d16fcf1c9a56a9b89ef048f17b8a8502cdb91ab2d647a825fd93885f06dd",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p05",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "881a8ae8f89d891c7727a1aa626102db888db35cd4063015a10a99975f2fb373",
+    "references": [
+      {
+        "index": 1,
+        "file": "jiraiya.png",
+        "sha256": "dc822b9f2edd6e1855bc7d46d093c645cd33a8bcc4fcdfa7edcbee68d74c28cf",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "homura.png",
+        "sha256": "43e91f82428b06163b0057265d5e43cbdeb0963bfc56a486e0293a545d5e82c7",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "koharu.png",
+        "sha256": "56f01b23060b25938f091ff2f7f78fcf8204a32ddf3f367cdd6a692743b70417",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_hokage_office.png",
+        "sha256": "42930579c94a1ac8cd2b427a7376200ecd5520b618c168cb0be0ed4686e0d30a",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1016x1548",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "a9ebddfaba007dff64945f6b37483e63517f0905105ec108d11d685f046183b9",
+    "output_sha256": "fd707012c75bda735cb9b9b70c68413592e8902fd841a4fe6e01f143a84adaae",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p06",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "18398ac734aed513648e8eb1195a32ad6415309602f9c8242bf124eda80c342e",
+    "references": [
+      {
+        "index": 1,
+        "file": "jiraiya.png",
+        "sha256": "dc822b9f2edd6e1855bc7d46d093c645cd33a8bcc4fcdfa7edcbee68d74c28cf",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "homura.png",
+        "sha256": "43e91f82428b06163b0057265d5e43cbdeb0963bfc56a486e0293a545d5e82c7",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "koharu.png",
+        "sha256": "56f01b23060b25938f091ff2f7f78fcf8204a32ddf3f367cdd6a692743b70417",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_hokage_office.png",
+        "sha256": "42930579c94a1ac8cd2b427a7376200ecd5520b618c168cb0be0ed4686e0d30a",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1011x1556",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "4200d2ec9a4f32b39f7a8840db29199985a7021a8af970de529db74fc5dbd339",
+    "output_sha256": "c2c5ca34963e95dc8b44571016bad414ed02382a3c5abf7216397ff59c29a0b2",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p07",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "3dae49b7afcfdd15a95d318a5eb33c4222b2c4e6a6a9d50bd825968ac90aa841",
+    "references": [
+      {
+        "index": 1,
+        "file": "jiraiya.png",
+        "sha256": "dc822b9f2edd6e1855bc7d46d093c645cd33a8bcc4fcdfa7edcbee68d74c28cf",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "homura.png",
+        "sha256": "43e91f82428b06163b0057265d5e43cbdeb0963bfc56a486e0293a545d5e82c7",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "koharu.png",
+        "sha256": "56f01b23060b25938f091ff2f7f78fcf8204a32ddf3f367cdd6a692743b70417",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_hokage_office.png",
+        "sha256": "42930579c94a1ac8cd2b427a7376200ecd5520b618c168cb0be0ed4686e0d30a",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1013x1552",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "ab3fe3edcf65565ab562ff3da4945af4e52593b4d350b04dd56606671c3ef06c",
+    "output_sha256": "6e37b0960ddef3d31e33ec64271a3ad411fd490a1ebf5837911f465369b77b3f",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p08",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "e0ca322f229c1c03abb5731f95fe53060b75dfaf505865d8915d4875d4c26b1e",
+    "references": [
+      {
+        "index": 1,
+        "file": "jiraiya.png",
+        "sha256": "dc822b9f2edd6e1855bc7d46d093c645cd33a8bcc4fcdfa7edcbee68d74c28cf",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "homura.png",
+        "sha256": "43e91f82428b06163b0057265d5e43cbdeb0963bfc56a486e0293a545d5e82c7",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "koharu.png",
+        "sha256": "56f01b23060b25938f091ff2f7f78fcf8204a32ddf3f367cdd6a692743b70417",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_hokage_office.png",
+        "sha256": "42930579c94a1ac8cd2b427a7376200ecd5520b618c168cb0be0ed4686e0d30a",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1009x1559",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "b7b55d94580bf597c44c4d8587a4c83235c416d3f917fe054e654917651b2d02",
+    "output_sha256": "22eb44ffbadcad972ba610ce9da88d0e64215c9c56068e552cafffd0f7ee5f83",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p09",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "0c1c933e0dd5d3321a95941b929d0864958f74bdac0a93ad18ae39c69172feca",
+    "references": [
+      {
+        "index": 1,
+        "file": "homura.png",
+        "sha256": "43e91f82428b06163b0057265d5e43cbdeb0963bfc56a486e0293a545d5e82c7",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "koharu.png",
+        "sha256": "56f01b23060b25938f091ff2f7f78fcf8204a32ddf3f367cdd6a692743b70417",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_hokage_office.png",
+        "sha256": "42930579c94a1ac8cd2b427a7376200ecd5520b618c168cb0be0ed4686e0d30a",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1013x1553",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "b6f895f384d01ecbf1afe9ad98bc9d0e756d50548d96489a817b73a02df8ef86",
+    "output_sha256": "6b84195b9a06464bf089d5f31b9fc10a53d7398feae638bb29ebe8a061508967",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p10",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "be8ec087650fd16d5a3a7a0ab19c4b84bb45fb9e2712cbe5aea3715f70f8556b",
+    "references": [
+      {
+        "index": 1,
+        "file": "orochimaru.png",
+        "sha256": "1101cff7dce19aefc0947faa3fe839f9d74b8aad05e49c5d179c79db3b8eb079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "env_orochimaru_lab.png",
+        "sha256": "65b6064dd563e0a1657169479a2f19dc9bfcae9f9f5a49a8a64ca120e3184b86",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1011x1555",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "522509205edd4c5a1272d268691ad255d07523c60779582203699064b1bc8004",
+    "output_sha256": "34b1471d1c570798bc70394b609627c86886a328c2e99b79ea12e8480727eff2",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p11",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "f554414f252ddf521a7557ef6c3688f07e9b159991f8a530ea4c9b15dcb2ca2a",
+    "references": [
+      {
+        "index": 1,
+        "file": "orochimaru.png",
+        "sha256": "1101cff7dce19aefc0947faa3fe839f9d74b8aad05e49c5d179c79db3b8eb079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "kabuto.png",
+        "sha256": "2e5e3f10b8ca00fb1c296f1ae42710d3028af6dc1168a3125d5dd7ab4f96f426",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_orochimaru_lab.png",
+        "sha256": "65b6064dd563e0a1657169479a2f19dc9bfcae9f9f5a49a8a64ca120e3184b86",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1010x1557",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "b225db81ec832891d790d1ab4b907fa760824d03ae236032b89f78ede999fe2d",
+    "output_sha256": "5b2af99566fcf87320a81f58a77f82cfcc85245ef63a4437434416810ac5035c",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p12",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "11ad1f548dd917faf7a0d56cea323cd9414bfb06cbd9f57e1cf539f37d5722f4",
+    "references": [
+      {
+        "index": 1,
+        "file": "orochimaru.png",
+        "sha256": "1101cff7dce19aefc0947faa3fe839f9d74b8aad05e49c5d179c79db3b8eb079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "hiruzen.png",
+        "sha256": "c19bcad9a2577e8cce6231c3fdb3b675d6a373efcc7e7f1850cdb68ee4e1a3b0",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "itachi.png",
+        "sha256": "fcb9600eca68f4a89a2d7b9a2df5beea9d84028af95484b88057c2ebfc91015b",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_orochimaru_lab.png",
+        "sha256": "65b6064dd563e0a1657169479a2f19dc9bfcae9f9f5a49a8a64ca120e3184b86",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1012x1554",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "40c2c7e706ee4f8de77ff276510c00834d913061897bb929c0b6cad75db21abc",
+    "output_sha256": "a02495ee760d3c3529405d9088311d4b3881be8a7b984eced6abd8777d1dbe84",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p13",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "f636f12f644d910feef665af0c00e463bb54ec70d4084e1c0a7373563a471b78",
+    "references": [
+      {
+        "index": 1,
+        "file": "orochimaru.png",
+        "sha256": "1101cff7dce19aefc0947faa3fe839f9d74b8aad05e49c5d179c79db3b8eb079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "kabuto.png",
+        "sha256": "2e5e3f10b8ca00fb1c296f1ae42710d3028af6dc1168a3125d5dd7ab4f96f426",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_orochimaru_lab.png",
+        "sha256": "65b6064dd563e0a1657169479a2f19dc9bfcae9f9f5a49a8a64ca120e3184b86",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1010x1558",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "8b79ed2a98d4e9e80401e466717e60941c2bbd8b611c547b9f589d413d429318",
+    "output_sha256": "ac26e01220600867a324ed45c41010fb3d5687616eacaa4766c66a708aab3b40",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p14",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "f0d5f554eafe84bcaa3150796651af674f6235e14fc723b83fff9bd967ae0d5a",
+    "references": [
+      {
+        "index": 1,
+        "file": "orochimaru.png",
+        "sha256": "1101cff7dce19aefc0947faa3fe839f9d74b8aad05e49c5d179c79db3b8eb079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "kabuto.png",
+        "sha256": "2e5e3f10b8ca00fb1c296f1ae42710d3028af6dc1168a3125d5dd7ab4f96f426",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_orochimaru_lab.png",
+        "sha256": "65b6064dd563e0a1657169479a2f19dc9bfcae9f9f5a49a8a64ca120e3184b86",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1012x1554",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "5fc014c5231086ed67b8bc336c42385cb91ea948cbbd181727984f88c1e58eab",
+    "output_sha256": "4ea721ed90ef824987adf8c4558c1ccede7f4821c7c74467879a201f2ba65fc2",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p15",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "d83780e8884d720d1128be33dad164c1bee42513f957735ebcd2b6a337a495aa",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "env_apartment_ext.png",
+        "sha256": "e8746d5d4a1a2e8205b9a74d06d29d3a76781f5a7c22bb579663d137163f6f01",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_apartment_int.png",
+        "sha256": "20660486cb5cf9e09ddb87a44ab671fcb57a7c43bbc7e683e7b014f95866a45d",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "2de7c77d272ff79b48846fdd93311aad3711357c2953955292db1aba2c2f9060",
+    "output_sha256": "5a20bc7ad7c222ec4b54ddbd18be8b26837758b3f2134aaed5db77c60f42a65b",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p16",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "af520457f78378a7fb6e5dc0f2d2e3626c8399a2a8885180a35286f79949444d",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "env_apartment_int.png",
+        "sha256": "20660486cb5cf9e09ddb87a44ab671fcb57a7c43bbc7e683e7b014f95866a45d",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "92af082642ee08edff19c315bc270c6a893ee1af06488c1b5f347bd540a6720f",
+    "output_sha256": "0670943e59f123d55d3e982eefef20cb418a918faa974b9f412f5d4d7ee444ee",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  }
+]

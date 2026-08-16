@@ -1,0 +1,626 @@
+[
+  {
+    "page": "p01",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "ed2e7d655946712caaa5ba51124d5bcd392daaf563edf9775e237ab9c878d5d3",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "sasuke.png",
+        "sha256": "484c5a55d62145244addf76516a8cc3222e78b9058fee371d516068236354312",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_apartment_int.png",
+        "sha256": "20660486cb5cf9e09ddb87a44ab671fcb57a7c43bbc7e683e7b014f95866a45d",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1013x1552",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "dd857d77da5548bc32dd87dd041c3c7778fe3ab9fe66116984e9bc31d8025007",
+    "output_sha256": "7cafe5232aa009deb48ba3eab8011774d0e87c01bae07d05d775d8c8943008a8",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p02",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "4a945cd0f367e676a24d5c116afec2497f7b23960ce0e3b697c87ffffedae4f4",
+    "references": [
+      {
+        "index": 1,
+        "file": "sasuke.png",
+        "sha256": "484c5a55d62145244addf76516a8cc3222e78b9058fee371d516068236354312",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_apartment_int.png",
+        "sha256": "20660486cb5cf9e09ddb87a44ab671fcb57a7c43bbc7e683e7b014f95866a45d",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1024x1536",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "a536666a7ff184d6726cb54f22d9ffe790321923f7913c4c9606d9030904e5c6",
+    "output_sha256": "72aadc9f27be1edacbd002aed40e94054f7bb5bedb3f2675e3ae32a1ba8e7f81",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p03",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "bbff4c218de7b01a9f0394e156e20809f9b5b1656e172dbb7bd56761e2a2d6d9",
+    "references": [
+      {
+        "index": 1,
+        "file": "sasuke.png",
+        "sha256": "484c5a55d62145244addf76516a8cc3222e78b9058fee371d516068236354312",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_apartment_int.png",
+        "sha256": "20660486cb5cf9e09ddb87a44ab671fcb57a7c43bbc7e683e7b014f95866a45d",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1024x1536",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "fd041f5f99c5d1732992459bb1ca0446107d64f4908fc71d8a747c50074e1321",
+    "output_sha256": "65381b7fc4db55728ab9e390db73611deee93d8a5ac91a57da1bdf4b52eb4979",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p04",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "28ff394a0ad505e8b800bef88865d029681dccef734de1192c4ea2df1b91534e",
+    "references": [
+      {
+        "index": 1,
+        "file": "sasuke.png",
+        "sha256": "484c5a55d62145244addf76516a8cc3222e78b9058fee371d516068236354312",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_apartment_int.png",
+        "sha256": "20660486cb5cf9e09ddb87a44ab671fcb57a7c43bbc7e683e7b014f95866a45d",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "333450a2a9c3a450ca5c15452ceeeb88ca4835f2be321a139c2746b5a1d72052",
+    "output_sha256": "af92471f1f705edbe7b6c343dd5788c75d58a03ec5f1a8cf0925998c5e57ae4a",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p05",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "25c544f8c92552bf927aca675501e6b2e43f79ee4ade0098944fda7c16508894",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "jiraiya.png",
+        "sha256": "dc822b9f2edd6e1855bc7d46d093c645cd33a8bcc4fcdfa7edcbee68d74c28cf",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "sasuke.png",
+        "sha256": "484c5a55d62145244addf76516a8cc3222e78b9058fee371d516068236354312",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_apartment_int.png",
+        "sha256": "20660486cb5cf9e09ddb87a44ab671fcb57a7c43bbc7e683e7b014f95866a45d",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "87de81d714d607be901ff7a250a2fb21da7616afbd46d5a3c1e5d83b252d6366",
+    "output_sha256": "77e95b7c2318ff16643172d1aff4ca64aa65c5e9807fbfadf846217bc5d178bb",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p06",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "f311c2ddc971471e4cede81bc134073250e4a2f34695b56b6a5f06b95de707cb",
+    "references": [
+      {
+        "index": 1,
+        "file": "jiraiya.png",
+        "sha256": "dc822b9f2edd6e1855bc7d46d093c645cd33a8bcc4fcdfa7edcbee68d74c28cf",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_apartment_int.png",
+        "sha256": "20660486cb5cf9e09ddb87a44ab671fcb57a7c43bbc7e683e7b014f95866a45d",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1016x1548",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "1ff56ae2b2bd00eda60957b2d01e8c8152ca4361f574cba9fcc07bf5c3056271",
+    "output_sha256": "190b71e10c8debe71e9c4c3f3d712c84fd7631e7cfd69226c7b50ba1b030475e",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p07",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "6dcd8cb5ae1a7654943454a259a9cf48241442554f35397474ec60726d2e888c",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "jiraiya.png",
+        "sha256": "dc822b9f2edd6e1855bc7d46d093c645cd33a8bcc4fcdfa7edcbee68d74c28cf",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_apartment_int.png",
+        "sha256": "20660486cb5cf9e09ddb87a44ab671fcb57a7c43bbc7e683e7b014f95866a45d",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "0ea0e9986650e70ca864785ce41677a355956a52349082dc4d403d22561d29d5",
+    "output_sha256": "bb5eaedae11d3e29dbc392b19f36dddb483a7f8a737632caa8861539275814fa",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p08",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "c0788fa026e36f83124e0541252b326b04838865553033ac399aaa03b9000209",
+    "references": [
+      {
+        "index": 1,
+        "file": "jiraiya.png",
+        "sha256": "dc822b9f2edd6e1855bc7d46d093c645cd33a8bcc4fcdfa7edcbee68d74c28cf",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_apartment_int.png",
+        "sha256": "20660486cb5cf9e09ddb87a44ab671fcb57a7c43bbc7e683e7b014f95866a45d",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1003x1568",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "31aae0b2223743bf57b174b7e5bf487b0efbf0c9cd442512c23f7cbe61456672",
+    "output_sha256": "3fb7b3ec4b6d809ea3e38296a2949a602c87de5a54f6d0ff19516c4518c3a07a",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p09",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "465fe99b55f6c63a69c1b66593932f01a31a3e8431ac22aa661765893c7b3939",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "jiraiya.png",
+        "sha256": "dc822b9f2edd6e1855bc7d46d093c645cd33a8bcc4fcdfa7edcbee68d74c28cf",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_apartment_int.png",
+        "sha256": "20660486cb5cf9e09ddb87a44ab671fcb57a7c43bbc7e683e7b014f95866a45d",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "25f0ad4ddf5be23d45af7744ff8aa6be5ff98669ac5f842bd56227e5d2c5e0ce",
+    "output_sha256": "ee85b463b2363237372df76ad4a34ed0f3f62a684da4c69efa47e0faf6b06412",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p10",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "b3c1d391489653c7c9f29883d15c473b30a50cf264123dfe472e907cbb35e8f8",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "jiraiya.png",
+        "sha256": "dc822b9f2edd6e1855bc7d46d093c645cd33a8bcc4fcdfa7edcbee68d74c28cf",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_apartment_int.png",
+        "sha256": "20660486cb5cf9e09ddb87a44ab671fcb57a7c43bbc7e683e7b014f95866a45d",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1010x1557",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "e0d6e0af46f6ea7e550b44fac7a0aed3bba4b32f4e121b21555de9341cbb9c05",
+    "output_sha256": "e23858954e81ba23e2dfae718bf504d0e33e04f712b8ebdcf85119596723035e",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p11",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "cd0da6215d86590e7d52f758a3b8c9bf07e55c21ac779eca3683f602ad413a87",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "kurama_inner.png",
+        "sha256": "f475a6ea72daaa8640ffc29bef15330772a7a9f932a2d4595f90e7b7b12df834",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_inner_sewer.png",
+        "sha256": "5b0aea875414a6640e96e08c4e4b222e6e434198df3f9503a49bbb6046faf7f3",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1012x1554",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "3aaee29147ee58438e5ef41d1b30079c021825116c4ecb9c7ffe751011d814bd",
+    "output_sha256": "006daa271e5beca4f1b87cc2e6a12709e5bd885fa65a37e415bc6d7fea512ec8",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p12",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "9164b921bb58a2223edade6acfdb201d1491a2ddd20c36b4640619fddda4cc65",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "kurama_inner.png",
+        "sha256": "f475a6ea72daaa8640ffc29bef15330772a7a9f932a2d4595f90e7b7b12df834",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_inner_sewer.png",
+        "sha256": "5b0aea875414a6640e96e08c4e4b222e6e434198df3f9503a49bbb6046faf7f3",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1010x1557",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "2c665bd9bb8209dd93eecd3e105f09e5c1a247bdea91f64ae39bd7b747bb019e",
+    "output_sha256": "76b39b14f383213590091654c7e856aced8b19a13c48d74065b735f794895a01",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p13",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "3a51f4f6c60688756701e471bf077390bc5ff2574775184de4d0ddebad9cd00b",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "kurama_inner.png",
+        "sha256": "f475a6ea72daaa8640ffc29bef15330772a7a9f932a2d4595f90e7b7b12df834",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_inner_sewer.png",
+        "sha256": "5b0aea875414a6640e96e08c4e4b222e6e434198df3f9503a49bbb6046faf7f3",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1011x1556",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "42659cdded0b4aa4a98153d4fb170aa363a98bd1a8138bfcd852026160e946d4",
+    "output_sha256": "d590dadf3d95280d95b646c81439637680e621722e9e3fcc53a4e67c2fab8533",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p14",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "86b136ed54d57979431c6836a68154a76307f26042d7cf9e2cef38d99d776848",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_13.png",
+        "sha256": "cf453598ddd7c7a46800fbd34725d38cbf0ac88d96b1b7e10b93531894b15079",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "kurama_inner.png",
+        "sha256": "f475a6ea72daaa8640ffc29bef15330772a7a9f932a2d4595f90e7b7b12df834",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_inner_sewer.png",
+        "sha256": "5b0aea875414a6640e96e08c4e4b222e6e434198df3f9503a49bbb6046faf7f3",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1008x1560",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "6002ab3a3919d92b8ba3f274444f142d1277da09761976a68e03658c09ededb0",
+    "output_sha256": "6416990384ff86af62f9601737a5ba4bf20a0de48ed0394ff5f9489f246ff35e",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p15",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "4a0997f979a6007d66b793696a9bb92d9abdc16635af454d61c0f540fed9e178",
+    "references": [
+      {
+        "index": 1,
+        "file": "kurama_inner.png",
+        "sha256": "f475a6ea72daaa8640ffc29bef15330772a7a9f932a2d4595f90e7b7b12df834",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "env_inner_sewer.png",
+        "sha256": "5b0aea875414a6640e96e08c4e4b222e6e434198df3f9503a49bbb6046faf7f3",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1014x1551",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "0f12b55756cd00c898a77a41369912da349e11ef7bb5a4cde52a5cf6b774c1ce",
+    "output_sha256": "b22a9d805dfb0b964c1c3448d9f2b079108cef0b412e0f6dc09c296a1fb20229",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p16",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "9c7d5976a99815e177986c4449754ec8048288da4d74e82b98b20c4587074342",
+    "references": [
+      {
+        "index": 1,
+        "file": "kurama_inner.png",
+        "sha256": "f475a6ea72daaa8640ffc29bef15330772a7a9f932a2d4595f90e7b7b12df834",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "env_inner_sewer.png",
+        "sha256": "5b0aea875414a6640e96e08c4e4b222e6e434198df3f9503a49bbb6046faf7f3",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "9bfad919645e3054c902e2fca0decb951230de7321d57734abe7a599acdfcee4",
+    "output_sha256": "1f1f246f9eb46a9a7c4a4a8ece2d756229a59b90e4e10b781a862aa3199bac63",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  }
+]

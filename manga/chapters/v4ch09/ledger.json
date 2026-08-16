@@ -1,0 +1,938 @@
+[
+  {
+    "page": "p01",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "85cd94cc495194f15ec4f78216cbe955fc8f7ab01080a5edfbdd4cbb4c9a7761",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor.png",
+        "sha256": "34b4c369f7a7a9bbdd2cf616242b812cde73c2f2ac0958f173cd9f311c5138f3",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "zetsu.png",
+        "sha256": "c62488bde433ea578291a9c4fa172b089c507c2f447bdcf6949f04069bf315b7",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "gunbai_v4.png",
+        "sha256": "4a100e46d041d5d023d3fdd8422730f2c559dfe7c150fb79dc0d8b7326b43202",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_kiri_battlefield_open.png",
+        "sha256": "7ac3f659bf13cfa06dfdd509dd9ec7f13564be8ad6c7d1c4bce3f15805df5e31",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1024x1536",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "4826f3256aee3e6a70f3450a643c5e554c9fda6fab002a294955a0c26505b421",
+    "output_sha256": "c15ddb2a5a2b587e0ace56d154e73efd8563f071c29f32ef18ecf2c8ac72c9e7",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p02",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "eb2703c8bfe43a7716543bd39d993335dd2a66065bc2665220ab7d24114dca91",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor.png",
+        "sha256": "34b4c369f7a7a9bbdd2cf616242b812cde73c2f2ac0958f173cd9f311c5138f3",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mei_v4.png",
+        "sha256": "b8cec10c5c2d9f6f12848ce5d4f400f986f8d4179b43d485f76f1a3973024b31",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_kiri_battlefield_open.png",
+        "sha256": "7ac3f659bf13cfa06dfdd509dd9ec7f13564be8ad6c7d1c4bce3f15805df5e31",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "8a54791212b6c989ef8eef7f8f8f49140ef027b1d80ff91f0914345556a59623",
+    "output_sha256": "408e492c9b5078268642320969435e798ad615818faeba6ca526fae0917c9834",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p03",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "3154f51ed5a6c77c386a1a4388e23b1e2f4601b017f04eae9d39b7e269284d3e",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor.png",
+        "sha256": "34b4c369f7a7a9bbdd2cf616242b812cde73c2f2ac0958f173cd9f311c5138f3",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mei_v4.png",
+        "sha256": "b8cec10c5c2d9f6f12848ce5d4f400f986f8d4179b43d485f76f1a3973024b31",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "yugao_v4.png",
+        "sha256": "2f2033eaffbec2825f97141b71f10c2e041537e49278784788056463d8ba7364",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_kiri_battlefield_open.png",
+        "sha256": "7ac3f659bf13cfa06dfdd509dd9ec7f13564be8ad6c7d1c4bce3f15805df5e31",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1011x1556",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "be5b883a6daf371367185041b47f975425c05346da1dc7e6cc131311832610df",
+    "output_sha256": "02f00d1578a7422b1ec2e78969aa4994036ccb6ca4cdf8740d565b086398e80a",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p04",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "21c45fbf3bf577ede05bad7a899be5d7813c25ac1f6823e871b4a059edb95d1c",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor.png",
+        "sha256": "34b4c369f7a7a9bbdd2cf616242b812cde73c2f2ac0958f173cd9f311c5138f3",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "env_kiri_battlefield_open.png",
+        "sha256": "7ac3f659bf13cfa06dfdd509dd9ec7f13564be8ad6c7d1c4bce3f15805df5e31",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "6b8905ff68c4021877f2637573b805dd12c230f8d45ee78c5ceb34354b28a2fb",
+    "output_sha256": "39296f2fd3cf916401ab9c976b48a684eab24c6365948d09a905c6aaa615a6c8",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p05",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "6634d76ae6ab36290ee64b11e2248bf8a1466d77153d06b2d90ce218582e2972",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor.png",
+        "sha256": "34b4c369f7a7a9bbdd2cf616242b812cde73c2f2ac0958f173cd9f311c5138f3",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "env_kiri_battlefield_open.png",
+        "sha256": "7ac3f659bf13cfa06dfdd509dd9ec7f13564be8ad6c7d1c4bce3f15805df5e31",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "4aa03e43548e2fb79211902d3ed8e03c059e2d20393dbdb89c9ff8ad459ca8ac",
+    "output_sha256": "b308a912e6fe2569fafb6772682a3d30bac6a2dcee281f8e0a17f82b5c77cffc",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p06",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "bb457aeccb96a00449fb937ab3e911509f785d063621085fc6a00c3733afd380",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor.png",
+        "sha256": "34b4c369f7a7a9bbdd2cf616242b812cde73c2f2ac0958f173cd9f311c5138f3",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "env_kiri_battlefield_open.png",
+        "sha256": "7ac3f659bf13cfa06dfdd509dd9ec7f13564be8ad6c7d1c4bce3f15805df5e31",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1024x1536",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "eff498a7f7b2bdd10aca350d329caa68b5e5310cbf8210efd2557570d801c004",
+    "output_sha256": "29c58fb9cba159e66e7cd9e7de332dc965781077ca86b044d8d030caaec924ee",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p07",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "8b179aef8e359d70b79bda7ed125fdcd37877dfe3cc74bcbdf17dc59c79e882b",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor.png",
+        "sha256": "34b4c369f7a7a9bbdd2cf616242b812cde73c2f2ac0958f173cd9f311c5138f3",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mei_v4.png",
+        "sha256": "b8cec10c5c2d9f6f12848ce5d4f400f986f8d4179b43d485f76f1a3973024b31",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "yugao_v4.png",
+        "sha256": "2f2033eaffbec2825f97141b71f10c2e041537e49278784788056463d8ba7364",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "p07_content_bundle.png",
+        "sha256": "80616758a00d2759e8c6d2e7fd54ecf220a588306d8390476e4580eae7960b60",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "448884c50b1a8dd12634c9c197e5ffd5c032d084c77d90243c6b28f316243dd1",
+    "output_sha256": "737e06b8588cce2a4fe7bee7cdf6884145bc94ac14aca213a9cda68bf3961c85",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p08",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "701b91f077923d475f14904c1ae9e191e948531a71a5bda0bfc98f27809364d8",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor.png",
+        "sha256": "34b4c369f7a7a9bbdd2cf616242b812cde73c2f2ac0958f173cd9f311c5138f3",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "env_kiri_battlefield_open.png",
+        "sha256": "7ac3f659bf13cfa06dfdd509dd9ec7f13564be8ad6c7d1c4bce3f15805df5e31",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1016x1548",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "050707ca48827a13ef4e3f499e5a03184e9ef031a0f95f5a075c07c550fe2b2a",
+    "output_sha256": "a807400942c74e452f8f44a755821b3f32ad1bd59f27f099554b45942ba5000c",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p09",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "b2dab86029fa3dded3f9d98fbcfc15bdbae66aa46ec09c7809162d2742490bea",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor.png",
+        "sha256": "34b4c369f7a7a9bbdd2cf616242b812cde73c2f2ac0958f173cd9f311c5138f3",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mei_v4.png",
+        "sha256": "b8cec10c5c2d9f6f12848ce5d4f400f986f8d4179b43d485f76f1a3973024b31",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "yugao_v4.png",
+        "sha256": "2f2033eaffbec2825f97141b71f10c2e041537e49278784788056463d8ba7364",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_kiri_battlefield_open.png",
+        "sha256": "7ac3f659bf13cfa06dfdd509dd9ec7f13564be8ad6c7d1c4bce3f15805df5e31",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1011x1555",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "d6d3aaf96d0c1c3cca3c39de38f2ea8c51332926496edc938ad216fb383d4d96",
+    "output_sha256": "1ec766d31c3e8d54582104771d94428f09eb487551f259b9bf7b1c9781de484e",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p10",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "a6d2d0c1751b63895577954a8c5907104d23ef6c466d6c37de9c4ed6f4e42c5e",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor.png",
+        "sha256": "34b4c369f7a7a9bbdd2cf616242b812cde73c2f2ac0958f173cd9f311c5138f3",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "env_kiri_battlefield_open.png",
+        "sha256": "7ac3f659bf13cfa06dfdd509dd9ec7f13564be8ad6c7d1c4bce3f15805df5e31",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1024x1536",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "1ab634aab26fb53c6d38f78af5b1130c898a0d92afa8d636dba0497db29fda9f",
+    "output_sha256": "b14f71e931b31fe7c86e9fd256f581669e8237cb5648e97ae95bbde05459fcae",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p11",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "b318b4227209a8367d2f9f937f61c95cdadf25a834f38f98f62995347d65fc4b",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor.png",
+        "sha256": "34b4c369f7a7a9bbdd2cf616242b812cde73c2f2ac0958f173cd9f311c5138f3",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "941x1672",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "502a0461f420d10aaa22321a580c6e4623c109b4433528b82e3c82ed8d769a51",
+    "output_sha256": "7af3c64387144cfc7add9f7103e6a7525d31a77baefc83377be842ef7e86dcf9",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p12",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "5cc460d7747c60785a10b3ce8474796c4f1f8081c8a881e66d10c7ec353d8667",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor.png",
+        "sha256": "34b4c369f7a7a9bbdd2cf616242b812cde73c2f2ac0958f173cd9f311c5138f3",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mei_v4.png",
+        "sha256": "b8cec10c5c2d9f6f12848ce5d4f400f986f8d4179b43d485f76f1a3973024b31",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "ao_v4.png",
+        "sha256": "825ee453cd74223ac782cdeb5286fd0c2e254c8aba950c5e3fd600ad34d4831e",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1013x1553",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "5ff0e55d9e87d2bc030be6430cf5c78f689489fe1a558baf6f9e20ae5b6c5d2d",
+    "output_sha256": "c380e94380bda656b7b2533d24492125559ea169ecd3aa10d9c5004ad3ff1596",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p13",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "2b7bf26ee3638efea3f5f104760e740ad3adbc2de9170d2351956f66fb10d313",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor.png",
+        "sha256": "34b4c369f7a7a9bbdd2cf616242b812cde73c2f2ac0958f173cd9f311c5138f3",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1010x1558",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "382b24abff52df728273d6d7853bd68f19e31bad8d07b574cd1d6d65e4e6b7b2",
+    "output_sha256": "8c6a72db60cfb4c31e63e6cbc7de0f380f739d8e37d5be658f72e3b1bc82e1a6",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p14",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "f9b2a52442402f42d4df99f93d31c04cd0ca9aa6d7eb958d7323ecef6b327784",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor.png",
+        "sha256": "34b4c369f7a7a9bbdd2cf616242b812cde73c2f2ac0958f173cd9f311c5138f3",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1009x1559",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "e6e1fd6269573b8dda925a77a98aaef4e2627db41f0b16f8a7fabf426acaba82",
+    "output_sha256": "a6bcc11e35289b36845a7ceac94f4d1fddaf71771e54fb94e3497d10eda98219",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p15",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "b968c059a1989c6a253c943d2bab05f8a6c74e666e01f345dd388bf5f797ad0e",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor.png",
+        "sha256": "34b4c369f7a7a9bbdd2cf616242b812cde73c2f2ac0958f173cd9f311c5138f3",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "gunbai_v4.png",
+        "sha256": "4a100e46d041d5d023d3fdd8422730f2c559dfe7c150fb79dc0d8b7326b43202",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "08af35028eee8f60d72f5bf769f9de2178627d02d3773ffe2fa114f0f1796d2a",
+    "output_sha256": "06c1b0ad1ab135d446a8734ef6dec3bb99132c456ccc2c6c4ab31e2310b27aff",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p16",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "9580ed1ea319d08a3a87f9f2dc9854726c98183bfa13f338cf85a0208d1241d2",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor.png",
+        "sha256": "34b4c369f7a7a9bbdd2cf616242b812cde73c2f2ac0958f173cd9f311c5138f3",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "7c96c518924d7ba08a104b6a1e09ae73d061467a94d90405ca1fb1cd6ad36642",
+    "output_sha256": "f636cc55c996a394cd2fd7309fb596ee943b5104e73718c96a5363d47b63ae7b",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p17",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "dec1c3abb23e899b7e094ac166b45c96b9a753dcc56ede653df9aea887760d4a",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor.png",
+        "sha256": "34b4c369f7a7a9bbdd2cf616242b812cde73c2f2ac0958f173cd9f311c5138f3",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "6b8905ff68c4021877f2637573b805dd12c230f8d45ee78c5ceb34354b28a2fb",
+    "output_sha256": "39296f2fd3cf916401ab9c976b48a684eab24c6365948d09a905c6aaa615a6c8",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p18",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "ed7591a938cd0f58561e320c93abc22a0dbc68194c332e8d6b817916cd54e119",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor.png",
+        "sha256": "34b4c369f7a7a9bbdd2cf616242b812cde73c2f2ac0958f173cd9f311c5138f3",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1012x1554",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "b3892154f98a8b85deff5fbd3075b2158ab652b43ab94ef40a95e22043e84ec5",
+    "output_sha256": "6faad7698c074cadc5a3cec991b6dd7d5bd4adf7643e2be51bbdb34f232ac98d",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p19",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "8177f69dd93fd6bd766a8a3ed1d646db59eafa8cce77bffaddea58dc420fc561",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor_sword.png",
+        "sha256": "bfff6f5ffe48ca9f7912cc2b8474111192f172f851b0d1d1d31102f9de3dff70",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1024x1536",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "3de663a82932899dcdc24511d3dc60f94afece001473cd979f2df96126418769",
+    "output_sha256": "d09a8f5532aa57ed33d47cf3fc7c0c9c0985e28ea9470b9f692e0e3d8777330c",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p20",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "c3573f97d974190c6bc7b8a8d9210c13b5512bd3ba27df0d5558613bf816e3be",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor_sword.png",
+        "sha256": "bfff6f5ffe48ca9f7912cc2b8474111192f172f851b0d1d1d31102f9de3dff70",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1023x1537",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "a056b815651508578d33c753fe02069a5489a67633f36ca17250c1a8efda2c6b",
+    "output_sha256": "a57692860c288b4d5cda102caf905a1acb783d0a24aca340cf8cd42e6e970166",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p21",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "9329630fedc8517ba14efc65ac17e8bf555a579f6c7aa4fee66cd6fd6161106d",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor_sword.png",
+        "sha256": "bfff6f5ffe48ca9f7912cc2b8474111192f172f851b0d1d1d31102f9de3dff70",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1024x1536",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "cde6ccbae1a1365a25e8e877b9b556c0d8ba800dd17b2d4f3739ec3888a2b2ac",
+    "output_sha256": "06e2aac69cddbe42edf68ae301928117cfdec3d21b901202ffd196136cdbe347",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p22",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "9193174e6f49573aeff0980e53b775bca1ad0d89c90e06c2f469116d1db00967",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor.png",
+        "sha256": "34b4c369f7a7a9bbdd2cf616242b812cde73c2f2ac0958f173cd9f311c5138f3",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "susanoo_orange_final.png",
+        "sha256": "aad087b1c6ebdcdb8f4dbca138f476f7d45b12ffb1ab035a5728430daafa9709",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1012x1554",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "47a3a3206f35013836625f55922f7443dc8b2f383905c84c17c0a27fead1fbbb",
+    "output_sha256": "ba497bc2acc82379c23e66d7b8888adf2c7269e04231e62d676b877d39adbe82",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p23",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "12dcf739761fbe0c17b3f2b220802caa2e0bff4902e9be4513162fdc8adcd1ae",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor.png",
+        "sha256": "34b4c369f7a7a9bbdd2cf616242b812cde73c2f2ac0958f173cd9f311c5138f3",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mangekyo_design.png",
+        "sha256": "8b6dfc35c11a83423d9e66255ba95bcb9df4fb77acb63bf313732521976bb442",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "susanoo_orange_final.png",
+        "sha256": "aad087b1c6ebdcdb8f4dbca138f476f7d45b12ffb1ab035a5728430daafa9709",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "env_kiri_battlefield_crater.png",
+        "sha256": "c5fc6218dae00acde0926669ed008ab72491ec5c070e73269810a322d10673cb",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1024x1536",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "63cef34577de6661680053e37371bb0be2eab91f1f72006b7459fbfee498f9ad",
+    "output_sha256": "1c8533e88cb7a8fb1b449633cb394a2ac43a3b8eb1b4fbb19ff6e51eeae99c84",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  },
+  {
+    "page": "p24",
+    "backend": "codex_builtin_imagegen_tool",
+    "quality_requested": "high",
+    "prompt_sha256": "df3eae5e5fbebd864d53da6ff9c75d7c989ed18c9dfcb5039273689b86be417b",
+    "references": [
+      {
+        "index": 1,
+        "file": "naruto_v4_armor.png",
+        "sha256": "34b4c369f7a7a9bbdd2cf616242b812cde73c2f2ac0958f173cd9f311c5138f3",
+        "role": "content"
+      },
+      {
+        "index": 2,
+        "file": "mei_v4.png",
+        "sha256": "b8cec10c5c2d9f6f12848ce5d4f400f986f8d4179b43d485f76f1a3973024b31",
+        "role": "content"
+      },
+      {
+        "index": 3,
+        "file": "yugao_v4.png",
+        "sha256": "2f2033eaffbec2825f97141b71f10c2e041537e49278784788056463d8ba7364",
+        "role": "content"
+      },
+      {
+        "index": 4,
+        "file": "p24_content_bundle.png",
+        "sha256": "02a7277e4e88950316d8e91371527f354faa7eba020015ccda6c75c8c9a056c7",
+        "role": "content"
+      },
+      {
+        "index": 5,
+        "file": "v01_p094_style.png",
+        "sha256": "a12321900f59a8a96c51d95162cb325a0d6f97e24b83a83c111f134510a8e0a9",
+        "role": "style"
+      }
+    ],
+    "source_dimensions": "1013x1553",
+    "normalized_dimensions": "1152x2048",
+    "normalization": "direct_resize_lanczos",
+    "source_sha256": "d41d611657b36b61c22be5dc6760dfc870b5e5b2d5813c2e95a76f3724ee8b0e",
+    "output_sha256": "17b8780e62c95c6b948185eaf115aaf27855888af95aad2dc31cd8949339cb54",
+    "review_status": "approved_manual",
+    "cost_usd": null
+  }
+]
