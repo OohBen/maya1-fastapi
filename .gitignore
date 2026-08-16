@@ -12,3 +12,4 @@ manga/refs/style_png/
 
 # Derived PNG cache of the style library — rebuilt on demand by refs/style_select.py
 manga/refs/style_png/
+lora/
