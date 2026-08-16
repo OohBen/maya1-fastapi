@@ -144,6 +144,15 @@ Every one of these came from an observed failure. `manga/PIPELINE.md` has the fu
 - **Read for causality after every render.** A visually strong page still fails if its result
   precedes its cause, a character knows something too early, or the next page silently resets an
   injury, outfit, weapon, relationship, or location.
+- **Run an independent cold-reader gate after assembly.** Give a context-clean reviewer the full
+  adapted source range, at least two source chapters before and after it, every builder/dialogue
+  spec, every generated page, and the assembled PDF. The reviewer must inspect every page image,
+  not infer quality from filenames or the producing agent's notes. Contact sheets are navigation;
+  any ambiguity requires the original full-size page.
+- **Judge the same end effect, not identical pacing.** The manga may compress attacks, expand a
+  relationship beat, or stage prose differently, but each source setup, result, decision,
+  relationship/knowledge change, injury/weapon state, and future consequence must survive. Review
+  every chapter handoff and the full-volume read without relying on the planning notes.
 - **Pacing is yours.** Prose compresses; comics don't have to. The Wave mission is two
   paragraphs in the fic and ten staged pages in Volume 2 ch3 — but it still ends on Naruto's
   blank face, because "it was unremarkable *to him*" is the characterisation and must survive.
@@ -166,7 +175,7 @@ Every one of these came from an observed failure. `manga/PIPELINE.md` has the fu
 | `manga/story/00_SERIES_BIBLE.md` | Characters, designs, continuity |
 | `manga/story/ROADMAP.md` | Completed scope and source-verified next-volume boundary |
 | `manga/story/volume_0N/` | Per-volume plans and chapter breakdowns |
-| `manga/story/volume_04/drafts/REVIEW_PROTOCOL.md` | Page, sequence, chapter, and PDF reader-flow checks |
+| `manga/story/volume_04/REVIEW_PROTOCOL.md` | Page, sequence, chapter, PDF, and independent cold-reader checks |
 | `manga/story/source/fetch_source.py` | Fetches and validates the ignored 50-chapter local source copy |
 | `manga/chapters/prompts.py` | Shared prompt vocabulary — add new characters here |
 | `manga/refs/images/` | 70+ character/environment reference sheets |

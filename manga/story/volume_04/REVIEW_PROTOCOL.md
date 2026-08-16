@@ -73,3 +73,32 @@ Before packaging the full volume:
 - Confirm the title `What Are You?` appears only on Chapter 9 and belongs to the observers' shared question.
 - Confirm Chapter 10 ends before the Sanbi form and Chapter 11 starts with that escalation.
 - Confirm the blue column remains unresolved on the final page.
+
+## 7. Independent cold-reader / same-end-effect gate
+
+After the volume PDF is assembled, assign a context-clean reviewer who did not produce the pages.
+The producing agent's summaries, ledgers, and pass labels are not evidence for this gate.
+
+The reviewer must:
+
+- read the full adapted source range plus at least two complete source chapters before and after it;
+- read every builder, caption, balloon, and chapter boundary in the volume;
+- inspect every generated page image, using contact sheets only to navigate and opening the
+  original full-size page whenever text, identity, chronology, action, or causality is ambiguous;
+- read every chapter-ending/chapter-opening pair and the assembled PDF in order;
+- compare source and manga by end effect rather than sentence count or identical pacing.
+
+Record a chapter-by-chapter pass/revise result against this table:
+
+| Evidence | Required same-end-effect check |
+|---|---|
+| Setup | The reader receives the source facts and motivation needed for the event. |
+| Result | The event leaves the same physical, political, and emotional outcome. |
+| Decision | The same character makes the consequential choice for the same understood reason. |
+| Relationships and knowledge | Trust, hostility, promises, discoveries, and withheld information move to the same state. |
+| Physical continuity | Injuries, eyes, chakra, outfits, weapons, techniques, locations, and elapsed time carry forward. |
+| Future consequence | Any payoff needed by a later source chapter remains established, even if the intermediate action was compressed. |
+
+A volume fails this gate when it is visually readable but changes or omits a material outcome. Fix
+the first page or transition where the effect diverges, rebuild the affected chapter and both
+volume PDFs, then repeat the independent read.

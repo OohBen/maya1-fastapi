@@ -744,11 +744,11 @@
         "role": "style"
       }
     ],
-    "source_dimensions": "1023x1537",
+    "source_dimensions": "941x1672",
     "normalized_dimensions": "1152x2048",
     "normalization": "direct_resize_lanczos",
-    "source_sha256": "d91b3e6e86ed1c8743dbe1ac1b2dfad1d86d13882a91bbc12177fbb13fa49fda",
-    "output_sha256": "b21e9fd1ce93dd3ca1795d0037a5839224c99f18203792c66def2f0fa43d852e",
+    "source_sha256": "2d8cfeb9ea8c9b9cfbd51c1326a8822cbaf61f1489eb085a8f7533e4ab23bcc5",
+    "output_sha256": "0bf5494c4478f171f3e5da13142bb45d5fd838aa173704330e17ef2ea9edfa5d",
     "review_status": "approved_manual",
     "cost_usd": null
   },
