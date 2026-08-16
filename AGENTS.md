@@ -135,6 +135,12 @@ Every one of these came from an observed failure. `manga/PIPELINE.md` has the fu
 ## 5. Adaptation principles
 
 - **Follow the fic's plot.** It is the spine. Do not invent arcs.
+- **Do not cut story outcomes.** Physical exchanges may be compressed, but their setup, result,
+  character decision, and continuity consequence must survive. A fight's resolution can matter
+  even when the individual attacks do not.
+- **Audit every volume boundary against the source.** Read the source covered by the previous
+  volume's final page through the new volume's opening before planning pages. Never assume that a
+  chapter break means the intervening action happened off-page.
 - **Pacing is yours.** Prose compresses; comics don't have to. The Wave mission is two
   paragraphs in the fic and ten staged pages in Volume 2 ch3 — but it still ends on Naruto's
   blank face, because "it was unremarkable *to him*" is the characterisation and must survive.
@@ -189,3 +195,5 @@ Not in git: `manga/refs/style/` (276 MB of source pages, re-downloadable),
 - **Generate ~5 pages, review, refine, then do the rest.** This loop caught most known bugs.
 - **Don't redo finished volumes.** The owner has read them; re-reading has no value to them.
 - **Report honestly.** If a page failed, say so. If you're unsure, say that too.
+- **Ship navigable volume PDFs.** Every assembled volume needs nested chapter outline bookmarks.
+  Keep the full-quality master and add a lightly compressed, full-resolution reading copy.

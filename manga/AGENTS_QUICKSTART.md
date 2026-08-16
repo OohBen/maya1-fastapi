@@ -82,13 +82,16 @@ resumable path and skips existing outputs.
 
 ## 5. Assemble the volume
 
-Copy `assemble_v3.py` to `assemble_v4.py`, update `CHAPTERS`, then:
+Use `assemble_v4.py` as the template for later volume assemblers, update `CHAPTERS` and output
+names, then:
 
 ```bash
 python3 assemble_v4.py
 ```
 
-Produces `volume_04/Volume_04.pdf`, a contact sheet, and a README with real page counts.
+Produces `volume_04/Volume_04.pdf`, `volume_04/Volume_04_compressed.pdf`, a contact sheet, and a
+README with real page counts. Both PDFs must include nested chapter outline bookmarks; the
+compressed reading copy keeps the same page dimensions as the master.
 If the PDF exceeds a delivery size limit, copy `volume_03/make_parts.py` to split it.
 
 ## Common failures and their causes

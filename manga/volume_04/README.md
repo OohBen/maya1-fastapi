@@ -2,6 +2,8 @@
 
 **207 pages across 11 chapters. $0.00 of generation.**
 
+`Volume_04.pdf` is the existing full-quality master. `Volume_04_compressed.pdf` keeps the same 1152x2048 page rasters with light JPEG compression for smoother reading. Both PDFs include a nested chapter outline/bookmarks panel.
+
 Covers fic ch8-11, from the invasion aftermath through the unresolved blue chakra column in Kiri. Hiruzen's death removes Naruto's political buffer; each chapter then shows what he takes, reveals, or spends once that restraint is gone.
 
 | Ch | Title | Pages | Cost | Ends on |

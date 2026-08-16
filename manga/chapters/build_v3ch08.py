@@ -1,9 +1,11 @@
-"""Volume 3, Chapter 8 — "Susano'o". 14 pages. Ends Volume 3.
+"""Volume 3, Chapter 8 — "Susano'o". 12 pages. Ends Volume 3.
 
 Source: fic ch7. Lee against Gaara, then Naruto against Gaara, then the invasion opens
 underneath it. The volume stops the instant Naruto sees the purple barrier go up over the
-academy with Orochimaru inside it — the fic itself only reports the outcome afterwards, in ch8,
-so that is where Volume 4 starts.
+academy with Orochimaru inside it. The source continues after that point with Naruto's Sound
+encounter, Baki's attack, the forest rematch with Gaara, Gaara's defeat and apology, and Naruto's
+return to Konoha; those beats are absent from the produced Volume 3 and Volume 4 begins after
+them.
 """
 import pathlib
 import sys

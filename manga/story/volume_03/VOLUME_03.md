@@ -41,16 +41,19 @@ privacy*. Volume 3's is **every chapter costs him the story he tells about himse
 
 Revised from the first draft after reading fic ch6 and ch7 properly: the finals run across
 two fic chapters, not one. Neji is ch6; Gaara, the Susano'o and the opening of the invasion are
-ch7. The volume ends the moment Naruto sees the barrier go up over the academy with Orochimaru
-inside it — the invasion's outcome and the Sandaime's death open Volume 4, which is where the
-fic itself puts them (ch8 opens after the fact).
+ch7. The produced volume ends the moment Naruto sees the barrier go up over the academy with
+Orochimaru inside it. That is not the source boundary: fic ch7 continues with Naruto's Sound
+encounter, Baki's attack, the forest rematch with Gaara, Gaara's defeat and apology, and Naruto's
+return to Konoha. Those beats are absent from the produced Volume 3; Volume 4 begins with fic ch8's
+aftermath.
 
 ## Source fidelity
 
-The fic is followed beat for beat. Where it compresses, we expand; where it dwells, we cut.
+The produced volume follows the source through the purple-barrier reveal, then omits the remainder
+of fic ch7 described above. Where covered material compresses, we expand; where it dwells, we cut.
 
 - **Expanded:** the Orochimaru fight (fic gives it ~15 exchanges of prose, we give it two
-  chapters), and the invasion (the fic summarises the aftermath retroactively in ch8).
+  chapters), and the invasion opening inside the stadium.
 - **Compressed:** the preliminary matches. The fic runs them one by one; only Neji/Hinata and
   Naruto's own match get staged, the rest are a montage page. Same trick as Volume 2's Snow
   Country, and for the same reason — the ones that matter are the ones he reacts to.
