@@ -1,9 +1,9 @@
 # Roadmap — the whole adaptation
 
 The fic is **50 chapters**. Four volumes cover the first eleven, plus Volume 4 restores the
-omitted ending of chapter 7. At the pace established
-(roughly 3–4 fic chapters per volume, 100–140 pages), the complete adaptation is on the order
-of **13–15 volumes**. This file exists so nobody has to re-derive the shape of it.
+omitted ending of chapter 7. The earlier rate suggests an adaptation on the order of 13–15 volumes,
+but that estimate is not a page target. Source events and manga-native scene construction determine
+future volume length. This file exists so nobody has to re-derive the shape of it.
 
 ## Established pace
 
@@ -14,8 +14,8 @@ of **13–15 volumes**. This file exists so nobody has to re-derive the shape of
 | 3 | 5–7 | 102 | Tighter chapters, no padding |
 | 4 | ch7 seam, 8–11 | 215 | Complete; expanded after a full source read |
 
-Roughly **3.5 fic chapters and ~120 pages per volume.** Volumes 1–3 average ~13 pages of manga
-per fic chapter.
+The historical average is roughly **3.5 fic chapters and ~120 pages per volume.** It is descriptive,
+not a pacing rule; do not compress a scene to preserve it.
 
 ## Mapped so far
 
@@ -45,14 +45,25 @@ a full read.
 
 1. Read the fic chapter being adapted plus at least two complete chapters before and two after it.
    Do not plan from headings or summaries.
-2. Find the volume's **engine** — the one sentence describing what each chapter costs him or
+2. Build the source-truth sheets required by `MANGA_WRITING_GUIDE.md`. The fanfiction supplies plot,
+   character state, and consequences; it does not supply manga scene length, dialogue rhythm,
+   paneling, camera, or page turns.
+3. Find the volume's **engine** — the one sentence describing what each chapter costs him or
    wins him. Every volume so far has one and it is what keeps the pacing decisions honest.
-3. Decide expand/compress per sequence. The rule from V2/V3: dramatise what the prose dwells on
+4. Decide expand/compress per sequence. The rule from V2/V3: dramatise what the prose dwells on
    *and* what has the strongest visual material; montage what the prose summarises *and* what
-   the character finds unremarkable. When those conflict, follow the character.
-4. Pick the chapter-ending beat first, then build backwards to it. Every chapter in V2 and V3
-   was written to land a specific final line or image.
-5. List new characters and environments, and build the reference sheets before writing pages.
+   the character finds unremarkable. When those conflict, preserve the source's end effect and
+   follow the character rather than a historical page count.
+5. Write the dramatic scene scripts with final dialogue. Every scene needs an objective, obstacle,
+   tactic, turn, decision, consequence, and exact handoff unless the source intentionally omits one.
+6. Pick each chapter-ending beat and build backwards into a rough manga `name` for every spread:
+   panel geometry, balloon order, focal panel, and page-turn pressure.
+7. Run a source comparison and a context-clean cold read on the scripts and `name`. The reader must
+   understand the story without prose notes.
+8. Produce the 8–12-page writing/storyboard pilot required by `MANGA_WRITING_GUIDE.md`; it must test
+   conversation, tactical action, reaction, and a page turn before any builder or final art.
+9. List new characters and environments, build reference sheets, and then run the separate visual
+   probe before full production.
 
 ## Continuity ledger
 

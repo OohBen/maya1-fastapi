@@ -131,6 +131,10 @@ Every one of these came from an observed failure. `manga/PIPELINE.md` has the fu
 
 ## 5. Adaptation principles
 
+- **The fanfiction is story truth, not a manga script.** Preserve its plot, character state,
+  decisions, reveals, relationships, and consequences. Rebuild scene duration, dialogue rhythm,
+  page turns, paneling, camera, and fight construction for manga. Never inherit prose pacing by
+  converting summary sentences directly into captions.
 - **Follow the fic's plot.** It is the spine. Do not invent arcs.
 - **Do not cut story outcomes.** Physical exchanges may be compressed, but their setup, result,
   character decision, and continuity consequence must survive. A fight's resolution can matter
@@ -157,6 +161,12 @@ Every one of these came from an observed failure. `manga/PIPELINE.md` has the fu
   paragraphs in the fic and ten staged pages in Volume 2 ch3 — but it still ends on Naruto's
   blank face, because "it was unremarkable *to him*" is the characterisation and must survive.
   Conversely, Snow Country stayed a one-page montage. Expand what earns it, compress what doesn't.
+- **Write before prompting.** Complete the source-truth sheet, dramatic scene script with final
+  dialogue, and rough manga `name`/spread map in `manga/story/MANGA_WRITING_GUIDE.md` before any
+  chapter builder. Image generation renders a solved scene; it does not discover the writing.
+- **Silence must be deliberate, not uniform.** Conversation and strategy need questions,
+  disagreement, inference, reaction, and decision. Action can be sparse, but a fight must remain a
+  causal chain of reads, counters, costs, adaptations, and consequences rather than an attack list.
 - **This Naruto is not canon Naruto.** He is cold, long-haired, deliberate, and raised by Madara.
   He does not shout, grin, or wear orange. When in doubt, make him quieter.
 - **Give each volume an engine.** V1: power bought with loss. V2: every chapter costs him
@@ -174,6 +184,7 @@ Every one of these came from an observed failure. `manga/PIPELINE.md` has the fu
 | `manga/models/TIER_REPORT.md` | Tier/resolution experiment — **read before choosing settings** |
 | `manga/story/00_SERIES_BIBLE.md` | Characters, designs, continuity |
 | `manga/story/ROADMAP.md` | Completed scope and source-verified next-volume boundary |
+| `manga/story/MANGA_WRITING_GUIDE.md` | Required prose-to-manga writing, dialogue, fight, and `name` gate |
 | `manga/story/volume_0N/` | Per-volume plans and chapter breakdowns |
 | `manga/story/volume_04/REVIEW_PROTOCOL.md` | Page, sequence, chapter, PDF, and independent cold-reader checks |
 | `manga/story/source/fetch_source.py` | Fetches and validates the ignored 50-chapter local source copy |
@@ -237,5 +248,9 @@ fic chapter 12. The exact end boundary and chapter count are **not verified**. B
 2. Read fic chapters 10–16 in full, which provides two chapters of lead-in and at least two after
    the likely ch12–14 scope.
 3. Reconcile the unexplained blue-column handoff and every surviving Kiri relationship/state.
-4. Write the Volume 5 engine, source map, chapter endings, and new-reference audit.
-5. Only then write the first builder and run a 3–5-page visual/reader-flow probe.
+4. Write the Volume 5 engine, source-truth sheets, source map, and chapter endings.
+5. Complete every chapter's dramatic scene script, final dialogue, and manga `name`/spread map.
+6. Pass a source comparison and context-clean script/`name` cold read.
+7. Produce and review the 8–12-page writing/storyboard pilot required by
+   `manga/story/MANGA_WRITING_GUIDE.md`.
+8. Only then write the first builder and run the separate 3–5-page visual-quality probe.
