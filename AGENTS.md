@@ -59,9 +59,13 @@ For native generation:
    path for the shared style page and packs overflow content refs into an ordered composite.
 4. Send a bounded first batch to separate generation workers. Each worker makes one call, writes
    only its own staged raster, and may make one targeted retry for a material visual defect.
-5. The coordinator—not the workers—reads every page at full size and in sequence, approves it,
-   then runs `manga/finalize_codex_chapter.py` to normalize it to 1152x2048 and serialize provenance.
-6. Package the chapter with `manga/pack_chapter.py`; assemble the volume only after the chapter
+5. The coordinator—not the workers—reads every page at full size against its exact storyboard and
+   records a pass or concrete defect. Integrated model lettering and effects are expected; verify
+   every line, tail, SFX, effect origin, trajectory, contact, and carryover instead of assuming them.
+6. Regenerate failed pages, then return them to review. After individual pages pass, a separate
+   chapter reviewer reads the sequence and source end effect. Only then run
+   `manga/finalize_codex_chapter.py` to normalize to 1152x2048 and serialize provenance.
+7. Package the chapter with `manga/pack_chapter.py`; assemble the volume only after the chapter
    passes the reader-flow protocol.
 
 Reference order is load-bearing. If the manifest says Image 1 is Naruto and Image 2 is a location,
@@ -185,6 +189,9 @@ Every one of these came from an observed failure. `manga/PIPELINE.md` has the fu
 | `manga/story/00_SERIES_BIBLE.md` | Characters, designs, continuity |
 | `manga/story/ROADMAP.md` | Completed scope and source-verified next-volume boundary |
 | `manga/story/MANGA_WRITING_GUIDE.md` | Required prose-to-manga writing, dialogue, fight, and `name` gate |
+| `manga/story/volume_05/PRODUCTION_GATES.md` | Volume 5 writer, generator, page-QA, chapter-QA, and closure roles |
+| `manga/story/volume_05/REVIEW_STATUS.md` | Volume 5 chapter, full-volume, mechanical, and pilot review record |
+| `manga/story/volume_05/STORYBOARD_PILOT.md` | Approved ten-page writing/storyboard pilot and production handoff |
 | `manga/story/volume_0N/` | Per-volume plans and chapter breakdowns |
 | `manga/story/volume_04/REVIEW_PROTOCOL.md` | Page, sequence, chapter, PDF, and independent cold-reader checks |
 | `manga/story/source/fetch_source.py` | Fetches and validates the ignored 50-chapter local source copy |
@@ -226,6 +233,11 @@ Not in git: `manga/refs/style/` (276 MB of source pages, re-downloadable),
 - **Review your own pages.** Look at every page you generate. The owner reads for enjoyment and
   should not be your QA. Check: right characters, right proportions, balloons pointing at the
   right speakers, no misspellings.
+- **A worker cannot approve its own output.** Worker QA is the first filter. The coordinator checks
+  every original-size page, and a separate reviewer checks the completed chapter in sequence.
+- **Generated lettering and effects are allowed.** They fail when the required words, attribution,
+  physical origin, trajectory, or consequence are wrong. Targeted editing or regeneration is the
+  fix; do not replace review with trust in the model.
 - **Generate ~5 pages, review, refine, then do the rest.** This loop caught most known bugs.
 - **Do not broadly redo finished volumes.** Correct a finished page or boundary only when a source
   audit finds a material story/continuity failure or the owner requests it.
@@ -241,16 +253,14 @@ Volume 4 is complete at 215 pages: an eight-page prologue repairs the omitted en
 7, followed by eleven chapters covering fic chapters 8–11. Its master and compressed reading PDF
 live in `manga/volume_04/`; both carry nested prologue/chapter bookmarks.
 
-The next planned work is Volume 5, expected to cover the conclusion of the Kiri arc beginning in
-fic chapter 12. The exact end boundary and chapter count are **not verified**. Before planning it:
+Volume 5 writing preproduction is complete. Its verified source scope is fic chapters 12–16 and
+its title is *What We Build*. All 13 chapters have final dialogue and page/panel `name`s: 232 pages
+and 1,327 planned panels. Individual reviews, the context-clean full-volume cold read, the
+mechanical audit, and the ten-page Chapter 4 storyboard pilot all pass. Read
+`manga/story/volume_05/REVIEW_STATUS.md` and `manga/story/volume_05/STORYBOARD_PILOT.md` before
+production.
 
-1. Fetch/verify the local source.
-2. Read fic chapters 10–16 in full, which provides two chapters of lead-in and at least two after
-   the likely ch12–14 scope.
-3. Reconcile the unexplained blue-column handoff and every surviving Kiri relationship/state.
-4. Write the Volume 5 engine, source-truth sheets, source map, and chapter endings.
-5. Complete every chapter's dramatic scene script, final dialogue, and manga `name`/spread map.
-6. Pass a source comparison and context-clean script/`name` cold read.
-7. Produce and review the 8–12-page writing/storyboard pilot required by
-   `manga/story/MANGA_WRITING_GUIDE.md`.
-8. Only then write the first builder and run the separate 3–5-page visual-quality probe.
+Production is deliberately stopped. Do not create builders, reference sheets, manifests, generated
+pages, or PDFs until the owner explicitly says to start producing. When authorized, begin with the
+reference-gap audit and first builder, then run the separate 3–5-page visual-quality probe. Do not
+fan out a chapter or volume until that probe passes full-size page QA and sequence review.

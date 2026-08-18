@@ -36,6 +36,11 @@ of attacks, and a conversation reads as a receipt confirming that the plot advan
 The required correction is contrast. A chapter should move deliberately among dialogue-rich
 strategy or relationship scenes, terse action, silent impact, reaction, and consequence.
 
+The rendering model is allowed to draw dialogue, balloons, and effects. The observed failure was
+not that those jobs were delegated to the model; it was that a plausible-looking result was treated
+as approved without a sufficiently strict page and sequence review. Model output is a draft until a
+reviewer has checked every required fact at full size.
+
 ## The three writing passes
 
 ### 1. Source-truth sheet
@@ -133,6 +138,55 @@ Required fight checks:
 - Use large panels for genuine turns or costs, not every named attack.
 - Make the final result express character: the winning choice should follow from temperament,
   knowledge, sacrifice, or relationship.
+
+For every technique, the `name` and later builder must also lock a visible physical chain:
+
+| Field | Required answer |
+|---|---|
+| Origin | Mouth, eye, palm, weapon, ground, seal, or another explicit source |
+| Preparation | What pose, breath, seal, draw, or stance makes the attack possible |
+| Emission | The panel where the effect visibly begins at that origin |
+| Path | Direction of travel and the landmarks or bodies it crosses |
+| Contact | What blocks, evades, redirects, or receives it |
+| Carryover | New position, injury, damage, resource cost, or tactical knowledge |
+
+Do not approve an effect because it is attractive. Fire Release fails if the flame appears from a
+hand, chest, or empty space when the technique is supposed to be exhaled; eye techniques fail if the
+active eye is hidden or the wrong pattern is visible; weapon attacks fail if grip, draw direction,
+or blade continuity silently changes. If the origin or consequence is ambiguous, the page fails.
+
+## Model lettering and effects
+
+Integrated model lettering and generated effects remain the default because they can fit the art,
+balloon shape, tails, and panel composition better than a generic overlay. Their use creates a QA
+obligation, not an assumption of correctness.
+
+Before generation, every text unit must have exact wording, page, panel, speaker, balloon position,
+and tail target. After generation, compare the full-size page directly with that record and check:
+
+- every required line exists on the assigned page and panel, exactly once;
+- spelling and punctuation are correct;
+- the tail points to the correct visible speaker, or the line is explicitly off-panel;
+- narration and SFX use the required form and do not become speech;
+- no invented text appears; and
+- no balloon obscures the action, face, eye-line, or emission point needed to read the panel.
+
+A text or effect defect triggers a targeted edit or regeneration. The legacy deterministic letterer
+is an available fallback, not the default and not a substitute for inspecting the finished page.
+
+## Page and chapter QA is production work
+
+Generation workers perform a first check, but they never grant final approval to their own pages.
+The coordinator must inspect every page at full size and record a pass or a concrete defect. After
+all pages pass individually, a separate chapter reviewer reads them in order and checks dialogue,
+action geography, causal continuity, and the source end effect. Corrections return to that reviewer
+until the chapter passes. A contact sheet is only a navigation tool; it cannot replace original-size
+inspection.
+
+The volume may contain more than two hundred pages; that changes staffing, not the requirement.
+Delegate generation and review by chapter, but do not sample pages or infer quality from worker
+reports. A page with a known material failure does not enter the chapter PDF. If retries cannot fix
+it, mark the chapter blocked and report the exact page and defect.
 
 ## Page and spread construction
 

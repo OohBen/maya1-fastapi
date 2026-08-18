@@ -26,14 +26,22 @@ not a pacing rule; do not compress a scene to preserve it.
 - **V4 — What Are You?** (ch7 seam, ch8–11) — aftermath, Tsunade, Oto, and Kiri. *Every chapter he
   takes something previously withheld.* Complete: `story/volume_04/VOLUME_04.md`.
 
+## Planned next
+
+- **V5 — What We Build (ch12–16)** — Kiri's aftermath, Kurama's release, Kushina, Orochimaru's end,
+  Oto's reconstruction, Naruto's return, and restoration of Uchiha institutional power. Writing
+  preproduction is complete at `story/volume_05/VOLUME_05.md`: 13 chapters, 232 scripted pages,
+  and 1,327 planned panels passed chapter review, full-volume cold reading, mechanical audit, and
+  the ten-page storyboard pilot. Builders remain blocked until the owner starts production.
+
 ## Sketched, not planned
 
 Verify against the source before committing — these come from chapter headings and samples, not
 a full read.
 
-- **V5 (likely ch12–14; unverified)** — the Kiri arc concludes. Read ch10–16 in full before fixing
-  the boundary, engine, or chapter count.
-- **V6 (ch15–18)** — Iwagakure. A second foreign-village arc; ch15 is headed "Iwagakure".
+- **V6 (begins ch17; end unverified)** — Yugao's relationship, Danzō's retaliation, Root's end,
+  Kurama restored, Minato confronted, Akatsuki's first capture moves, and Mei's alliance proposal.
+  Chapters 17–20 were read for the V5 boundary, but the V6 ending requires a wider source read.
 - **V7–V9 (ch19–30)** — chapter headings go generic here ("Chapter 20", "Chapter 25"), so the
   structure has to be read out of the prose rather than the titles. Around ch30 he is dispersing
   clones and calling the result "a little disappointing", which suggests his power level has
