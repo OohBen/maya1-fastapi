@@ -243,3 +243,17 @@ L_KIRI_MIST = "Lighting: cold blue-grey sea mist, wet stone reflections, distant
 L_KIRI_TENT = "Lighting: muted amber command-lamp light against damp blue-grey night. "
 L_KIRI_MOON = "Lighting: hard pale moonlight over a dark grassy hill and low drifting mist. "
 L_KIRI_BATTLE = "Lighting: flat storm-grey daylight, wet ground, steam and smoke kept separate from figures. "
+
+GUREN = ("Image {i} is the CHARACTER REFERENCE for the blue-haired Oto commander: an adult woman "
+         "whose defining feature is CHIN-LENGTH BLUE-VIOLET HAIR in a sharp bob with a long "
+         "straight fringe swept across her forehead and two longer strands at the jaw. Narrow dark "
+         "eyes. A sleeveless pale lavender wrap top with a wide dark sash, dark close-fitting "
+         "trousers, dark arm wraps. Expression: guarded and proud. Reproduce exactly; ignore its "
+         "white background and layout. ")
+GUREN_SPEAKER = "the blue-haired woman in the lavender wrap top"
+KUSHINA = ("Image {i} is the CHARACTER REFERENCE for the red-haired woman: an adult whose defining "
+           "feature is VERY LONG STRAIGHT DARK-RED HAIR falling loose past her waist, with two "
+           "shoulder-length strands framing her face. Warm violet-grey eyes, a pale cream "
+           "high-collared blouse and a long sea-green skirt. Expression: warm and direct. "
+           "Reproduce exactly; ignore its white background and layout. ")
+KUSHINA_SPEAKER = "the long red-haired woman in the green skirt"

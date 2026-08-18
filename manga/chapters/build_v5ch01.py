@@ -201,8 +201,9 @@ PAGES = [
   "only his eyes back; she pivots to keep pace.\n"
   "PANEL 3 (middle band, full width): close profile two-shot — she at left faces right into his "
   "profile at right; their eye-lines meet across the centre. THE BALLOON IN THIS PANEL IS SPOKEN "
-  "BY THE AUBURN-HAIRED WOMAN — its tail must touch HER mouth and must not approach the teen; his "
-  "mouth is closed.\n"
+  "BY THE AUBURN-HAIRED WOMAN ON THE LEFT — the balloon sits on HER side of the panel and its "
+  "tail touches HER mouth. It must NOT sit over the blond teen and must not point at him; his "
+  "mouth is closed and he is silent in this panel.\n"
   "PANEL 4 (dominant bottom right): close-up — the teen fills the right half facing left, "
   "controlled; a blurred worker and a red-and-white fan crest motif sit far behind at left.\n"
   "PANEL 5 (bottom left): medium close-up — she stands at right facing left, watching his back "
@@ -307,7 +308,10 @@ PAGES = [
   "this panel.\n"
   "PANEL 6 (bottom left, the focal panel): tight two-shot, creature foreground — the creature "
   "fills the left facing right toward the teen's back at far right; the teen continues without "
-  "looking back. " + L_RIDGE
+  "looking back. EVEN SEEN FROM BEHIND, the creature's WHITE half stays on the viewer's LEFT and "
+  "its BLACK half on the viewer's RIGHT — it must match panel 6 of the previous page exactly and "
+  "must never mirror. " + L_RIDGE
+  + "Spell every word of the lettering correctly; the word is TRAINING. "
   + SAY((1, ZETSU, "upper right", "JIRAIYA FOUND YOU."),
         (2, BOY16, "upper centre", "ALONE?"),
         (3, ZETSU, "upper left", "KAKASHI. SASUKE."),
@@ -370,6 +374,9 @@ PAGES = [
   "PANEL 5 (bottom band, full width): medium-long two-shot — the creature stops at left and "
   "begins sinking straight down into the rock while facing right; the teen stops at right but "
   "does not turn. " + L_RIDGE
+  + "In PANEL 1 the balloon belongs to the PLANT CREATURE, which walks BEHIND the blond teen: "
+    "draw a long clear tail that reaches all the way back to the creature's mouth, passing above "
+    "or beside the teen without touching him. The teen's mouth is closed in this panel. "
   + SAY((1, ZETSU, "upper right", "JIRAIYA WILL REACH KIRI IN A FEW DAYS."),
         (2, BOY16, "upper right", "THEN OROCHIMARU WAITS."),
         (3, ZETSU, "upper centre", "FOR JIRAIYA?"),
@@ -433,7 +440,10 @@ PAGES = [
   "bottom, static and evenly spaced: a single blood-red eye with three black comma marks; a "
   "small purple-grey snake emblem; the fox's divided silhouette.\n"
   "PANEL 4 (bottom left, the focal panel): tight low-angle close-up — the teen fills the panel "
-  "facing right into darkness, long hair moving left, visible eye level, mouth barely moving. "
+  "FACING RIGHT into darkness, long hair moving left, visible eye level, mouth barely moving. "
+  "The background is only dark sky and the bare coastal ridge above Kiri. THIS IS NOT KONOHA: no "
+  "carved stone faces, no cliff monument, no lit village below, no Leaf landmark of any kind may "
+  "appear anywhere in this panel. "
   + L_DUSKR
   + SAY((1, OFF(BOY16), "upper right", "KURAMA IS STILL MISSING HALF OF HIMSELF."),
         (2, OFF(BOY16), "upper left", "I PROMISED TO RETURN IT."),
