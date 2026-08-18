@@ -304,5 +304,17 @@
   "id": "env_prelim_arena",
   "cost": 0.128,
   "quality": "high"
+ },
+ {
+  "batch": "v5cast",
+  "id": "kushina",
+  "cost": 0.128,
+  "quality": "high"
+ },
+ {
+  "batch": "v5cast",
+  "id": "guren",
+  "cost": 0.128,
+  "quality": "high"
  }
 ]

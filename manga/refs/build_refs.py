@@ -366,6 +366,26 @@ ENVIRONMENTS_V6 = {
         "flat daylight."),
 }
 
+
+# --- V7: Volume 5 additions. Guren (233 draft mentions) and Kushina (183) are major and were
+# missing entirely; every other V5 name already had a sheet.
+CHARACTERS_V7 = {
+    "kushina": SHEET + (
+        "An adult woman in her twenties whose defining feature is VERY LONG STRAIGHT DARK-RED "
+        "HAIR falling loose past her waist to below the hips, parted so two shoulder-length "
+        "strands frame her face. Oval face, warm violet-grey eyes, a small clip in her hair. She "
+        "wears a simple pale cream high-collared long-sleeved blouse and a long plain sea-green "
+        "skirt, with dark sandals. Expression: warm, direct and a little fierce — never timid. "
+        "She is a memory of a mother, drawn softly."),
+    "guren": SHEET + (
+        "An adult woman in her twenties whose defining feature is CHIN-LENGTH BLUE-VIOLET HAIR in "
+        "a sharp bob with a long straight fringe swept across her forehead and two longer strands "
+        "at the jaw. Narrow dark eyes with heavy lashes. She wears a sleeveless pale lavender "
+        "wrap top with a wide dark sash at the waist, dark close-fitting trousers, and dark arm "
+        "wraps. Expression: guarded, proud and hostile. She is a defeated commander, not a "
+        "servant."),
+}
+
 if __name__ == "__main__":
     which = sys.argv[1] if len(sys.argv) > 1 else "all"
     if which in ("all", "cast1"):
@@ -415,4 +435,6 @@ if __name__ == "__main__":
         build("v3cast1", CHARACTERS_V6)
     if which in ("all", "v3env"):
         build("v3env", ENVIRONMENTS_V6)
+    if which in ("all", "v5cast"):
+        build("v5cast", CHARACTERS_V7)
     print(f"\nledger total: ${LED.spent:.4f}")
