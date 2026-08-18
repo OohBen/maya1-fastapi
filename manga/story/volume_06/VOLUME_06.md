@@ -187,6 +187,12 @@ Full list with citations in `SOURCE_TRUTH.md`, "Exclusions."
   Danzō lives to be executed. He has seen Zetsu.
 - **Naruto leaves his armour behind on purpose** before the Root attack, to keep himself from becoming
   excited and releasing too much power. He puts it back on the next morning and it restores his focus.
+- **Armour and forehead protector travel together.** Two source lines constrain this: ch18:571 has
+  Yugao remark that he is back in his armour, and ch19:373 has him return to the kitchen "without
+  his armour and forehead protector." The only reading consistent with both is that the armour is
+  worn *with* the protector and the plain black attire is worn without it. Chapters 6 and 7 were
+  drafted independently and both arrived at this state, so it is settled: armoured means protector
+  on; plain black means protector off. Chapter 9 page 4 panel 5 is the on-page changeover.
 - **Danzō's injuries occur in this order:** right eye removed by hand, right arm severed and burned
   with Amaterasu (destroying Hashirama cells and ten Sharingan), left leg crushed bone by bone. He does
   not scream for the eye. He screams for the arm and the leg.
