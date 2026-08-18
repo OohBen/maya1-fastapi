@@ -22,8 +22,10 @@ Reference gaps recorded for the owner (never invented here):
     same way v5ch07 handled the cast without sheets.
   * There is NO single-figure minato.png. Pages 8-10 bind him from the LEFT-HAND figure of the
     two-person minato_kushina.png, with the red-haired woman excluded by name.
-  * There is NO approved younger-training-period Naruto sheet, so naruto_13.png carries the
-    flashback boy, exactly as in v5ch05 and v5ch06.
+  * The younger training-period boy now has his own sheet, naruto_14_training.png, added to
+    refs/build_refs.py as CHARACTERS_V8 after the first review gate found naruto_13.png drew
+    him indistinguishable from the present-day sixteen-year-old and its blue eye overrode the
+    chapter's Sharingan lock.
 """
 import pathlib
 import sys
@@ -32,7 +34,7 @@ HERE = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent))
 sys.path.insert(0, str(HERE))
 from runner import run  # noqa: E402
-from prompts import (CAP, FILL, JIR, KAK, MAN, N13, OFF, ONLY, R, SAGE, SAY,  # noqa: E402
+from prompts import (ALT, CAP, FILL, JIR, KAK, MAN, OFF, ONLY, R, SAGE, SAY,  # noqa: E402
                      SFX, ZET)
 from prompts_v4 import (KURAMA_FULL, KURAMA_INNER, KURAMA_SPEAKER, N16_SWORD,  # noqa: E402
                         N16_SPEAKER, SASUKE16, SASUKE16_SPEAKER, THOUGHT,
@@ -43,6 +45,19 @@ RTL = ("READING ORDER IS RIGHT TO LEFT, top to bottom: PANEL 1 is the TOP RIGHT 
 
 # ---------------------------------------------------------------- names used in balloon tails
 BOY16 = N16_SPEAKER
+N14T = ("Image {i} is the CHARACTER REFERENCE for the younger blond boy: a FOURTEEN-year-old who "
+        "must read CLEARLY YOUNGER AND SMALLER than a sixteen-year-old — noticeably shorter, "
+        "slighter and narrower in the shoulders, with softer rounder adolescent face proportions. "
+        "He is a boy, not a young man. Shoulder-length heavy straight blond hair, two thick bangs "
+        "framing his face, the right bang low enough to cover his right eye — never short, never "
+        "spiky. HIS VISIBLE LEFT EYE IS THE ORDINARY THREE-TOMOE SHARINGAN, a RED iris with three "
+        "small black comma marks, and it is NEVER blue. Whisker marks nearly faded, blank "
+        "expression, black high-neck long-sleeved shirt with a large red spiral on the chest, "
+        "black trousers, black fingerless gloves, dark shinobi footwear. He wears NO forehead "
+        "protector, NO armour, NO war fan and NO sword. Reproduce exactly; ignore its white "
+        "background and layout. " + ALT + " ")
+
+
 BOY13 = "the younger long-haired blond boy in the black shirt with the red spiral"
 KURAMA = KURAMA_SPEAKER
 MIN = "the tall blond man in the white flame-hemmed coat"
@@ -101,9 +116,12 @@ FB = ("The blond boy on this page is the YOUNGER, PRE-KIRI TRAINING-PERIOD versi
       "younger, shorter and slighter than the sixteen-year-old of the present day, wearing ONLY "
       "his dark training layers — the black high-neck long-sleeved shirt with the large red spiral "
       "and black trousers. He carries NO red armour, NO gunbai, NO sword and NO forehead protector "
-      "anywhere on this page. Wherever his visible left eye is drawn open it carries the ORDINARY "
-      "THREE-TOMOE SHARINGAN — a red iris with three small black comma marks — instead of the "
-      "reference sheet's blue eye, and NEVER a six-bladed pattern. His right eye stays hidden "
+      "anywhere on this page. "
+      "HIS EYE COLOUR IS OVERRIDDEN AND THIS OVERRIDE BEATS THE REFERENCE SHEET: the character "
+      "sheet shows a BLUE left eye and that blue eye is WRONG for this chapter. In EVERY panel "
+      "where his visible left eye is open it is a RED IRIS WITH THREE SMALL BLACK COMMA MARKS "
+      "— the ordinary three-tomoe Sharingan — and it is NEVER drawn blue, grey, brown or plain, "
+      "and never a six-bladed pattern. If the eye is open it is red. His right eye stays hidden "
       "behind his long right bang. ")
 GEAR = ("Present-day equipment, fixed: clean fully repaired red plate armour, the dark purple "
         "gunbai with its chain carried on his back, and a PLAIN straight sword in a dark sash "
@@ -112,6 +130,9 @@ GEAR = ("Present-day equipment, fixed: clean fully repaired red plate armour, th
         "with it and it is never removed. His visible left eye carries the ORDINARY three-tomoe "
         "Sharingan, three small black comma marks on a red iris, with NO six-bladed pattern "
         "anywhere. ")
+TETHER = ("THE TETHER IS ONE FIXED OBJECT ON EVERY PAGE THAT SHOWS IT: a single FLAT OPAQUE ORANGE CHAKRA CORD with a hard black outline, of even thickness. It is NEVER a rope, NEVER braided, NEVER green or gold or black, NEVER a chain or linked, and NEVER a thin thread. It runs in ONE STRAIGHT UNBROKEN LINE from the seal formula on the boy's BARE ABDOMEN to the plant creature's pulling hand — it never leaves his mouth, face, chest or head, and it is never coiled, looped, wrapped or tied around his body. ")
+ZGRIM = ("The plant creature's expression on this page is FLAT, WATCHFUL AND GRIM — mouth closed or barely open, no wide grin, no bared teeth, no glee. It is performing a difficult procedure, not enjoying one. ")
+ZARMS = ("The plant creature has EXACTLY TWO ARMS and TWO HANDS in every panel — one white, one black — and no third arm, hand, shoulder or limb appears anywhere. ")
 AXIS_IN = ("INNER-SEAL AXIS, LOCKED: the boy stays on the reader's RIGHT, looking and moving LEFT "
            "toward the gate; the fox stays on the reader's LEFT behind the bars, looking RIGHT. Do "
            "not flip, mirror or swap this axis in any panel. ")
@@ -173,7 +194,7 @@ PAGES = [
  # ---- Spread 1: the answer Jiraiya does not receive ---------------------------------
  ("p01", dict(scene="dialogue", light="day", cast="small_group", mood="tense", panels=4),
   FILL + RTL + N16_SWORD.format(i=1) + JIR.format(i=2) + KAK.format(i=3) + SASUKE16.format(i=4)
-  + YUGAO_V4.format(i=5) + ENV_KIRI.format(i=6) + N13.format(i=7) + KURAMA_INNER.format(i=8)
+  + YUGAO_V4.format(i=5) + ENV_KIRI.format(i=6) + N14T.format(i=7) + KURAMA_INNER.format(i=8)
   + ENV_SEAL.format(i=9)
   + ONLY(BOY16, SAGE, MAN, SAS16, YUG,
          BOY13 + ", who is a SEPARATE, YOUNGER figure appearing ONLY in panels 3 and 4 and never "
@@ -214,13 +235,14 @@ PAGES = [
   + SFX(3, "STEP.", "Keep this one SMALL, low and quiet in the water directly behind his heel; it "
                     "must not be large, must not be cropped by the panel edge and must not enter "
                     "the protected upper-left area. ")
-  + ONLYTEXT,
+  + ONLYTEXT
+  + "In PANEL 1 the armoured teen's visible left eye is the ORDINARY THREE-TOMOE SHARINGAN — a red iris with three small black comma marks — matching the PANEL 2 close-up exactly, and never blue, grey or plain. The \"STEP\" effect is SMALL, no taller than his ankle, set low in the water directly behind his heel. ",
   R("naruto_v4_armor_sword", "jiraiya", "kakashi", "sasuke_16", "yugao_v4", "env_mizukage_tower",
-    "naruto_13", "kurama_inner", "env_inner_sewer"),
+    "naruto_14_training", "kurama_inner", "env_inner_sewer"),
   "high"),
 
  ("p02", dict(scene="dialogue", light="dark", cast="two", mood="tense", panels=5),
-  FILL + RTL + N13.format(i=1) + KURAMA_INNER.format(i=2) + ENV_SEAL.format(i=3)
+  FILL + RTL + N14T.format(i=1) + KURAMA_INNER.format(i=2) + ENV_SEAL.format(i=3)
   + ONLY(BOY13, KURAMA) + FB + CAGE + AXIS_IN + FOXTALK + HALF + NOCONTROL +
   "FIVE panels. The exchange is stated, and the history that makes it unacceptable answers it.\n"
   "PANEL 1 (top right, close-up): the fox's near eye opens behind the bars and aims DOWN-RIGHT "
@@ -242,12 +264,13 @@ PAGES = [
   + CONNECT(2, '"I WANT TO OFFER YOU SOMETHING." and "IN RETURN, I WANT SOMETHING FROM YOU."', BOY13)
   + CONNECT(5, '"MY FREEDOM—FOR ANOTHER SHARINGAN TO CONTROL ME?" and "I WOULD RATHER STAY HERE."',
             KURAMA)
-  + "Every fox balloon's tail threads cleanly BETWEEN the bars to his mouth. " + ONLYTEXT,
-  R("naruto_13", "kurama_inner", "env_inner_sewer"), "low"),
+  + "Every fox balloon's tail threads cleanly BETWEEN the bars to his mouth. " + ONLYTEXT
+  + "Both balloons in PANEL 2 form ONE connected stack whose outlines physically touch, and both balloons in PANEL 5 form ONE connected stack whose outlines physically touch; each stack has EXACTLY ONE visible tail leaving its first balloon. In PANEL 5 that single tail threads between the bars to the fox's MOUTH and never ends on the paper seal tag. ",
+  R("naruto_14_training", "kurama_inner", "env_inner_sewer"), "low"),
 
  # ---- Spread 2: freedom without agreement -------------------------------------------
  ("p03", dict(scene="dialogue", light="dark", cast="two", mood="tense", panels=6),
-  FILL + RTL + N13.format(i=1) + KURAMA_INNER.format(i=2) + ENV_SEAL.format(i=3)
+  FILL + RTL + N14T.format(i=1) + KURAMA_INNER.format(i=2) + ENV_SEAL.format(i=3)
   + ONLY(BOY13, KURAMA) + FB + CAGE + AXIS_IN + FOXTALK + HALF + NOCONTROL +
   "SIX panels. Distrust presses the claim instead of letting him explain uncontested.\n"
   "PANEL 1 (top right, close-up): the boy, still at reader-RIGHT and facing LEFT, level and "
@@ -273,10 +296,10 @@ PAGES = [
   + CONNECT(2, '"HUMANS SAY ONE THING." and "THEN THEY DO ANOTHER."', KURAMA)
   + CONNECT(6, '"I HAVE NOT." and "CONTROL IS BENEATH ME."', BOY13)
   + "Every fox balloon's tail threads cleanly BETWEEN the bars to his mouth. " + ONLYTEXT,
-  R("naruto_13", "kurama_inner", "env_inner_sewer"), "low"),
+  R("naruto_14_training", "kurama_inner", "env_inner_sewer"), "low"),
 
  ("p04", dict(scene="dialogue", light="dark", cast="two", mood="tense", panels=6),
-  FILL + RTL + N13.format(i=1) + KURAMA_INNER.format(i=2) + ENV_SEAL.format(i=3)
+  FILL + RTL + N14T.format(i=1) + KURAMA_INNER.format(i=2) + ENV_SEAL.format(i=3)
   + ONLY(BOY13, KURAMA) + FB + CAGE + AXIS_IN + FOXTALK + HALF + NOCONTROL + FLAT +
   "SIX panels. A failed negotiation becomes an irreversible gift.\n"
   "PANEL 1 (top right, medium): the boy looks up and LEFT toward the fox, chin raised.\n"
@@ -304,11 +327,11 @@ PAGES = [
   + CONNECT(6, '"IT DOES NOT MATTER.", "YOU WILL STILL HAVE YOUR FREEDOM." and "I WILL RETURN IN '
                'TWO DAYS."', BOY13)
   + "The PANEL 3 balloon's tail threads cleanly BETWEEN the bars to the fox's mouth. " + ONLYTEXT,
-  R("naruto_13", "kurama_inner", "env_inner_sewer"), "low"),
+  R("naruto_14_training", "kurama_inner", "env_inner_sewer"), "low"),
 
  # ---- Spread 3: three forces against one seal ---------------------------------------
  ("p05", dict(scene="establishing", light="day", cast="two", mood="tense", panels=5),
-  FILL + RTL + N13.format(i=1) + ZET.format(i=2) + ZOR
+  ZGRIM + ZARMS + FILL + RTL + N14T.format(i=1) + ZET.format(i=2) + ZOR
   + ONLY(BOY13, ZETSU) + FB + DRAGON + AXIS_OUT + NOCONTROL +
   "FIVE panels. The extraction plan is made legible before inner and outer space begin "
   "intercutting. Every panel is the PHYSICAL world.\n"
@@ -331,11 +354,12 @@ PAGES = [
         (5, ZETSU, "upper right", "AND IF THE SEAL HOLDS?"),
         (5, BOY13, "upper left", "WE BREAK IT."))
   + "In PANEL 3 the creature's tail points at the single JOINED mouth of its two-toned face. "
-  + ONLYTEXT,
-  R("naruto_13", "zetsu"), "medium"),
+  + ONLYTEXT
+  + "PANEL 5 IS NOT MIRRORED: the boy kneels at centre-RIGHT and the plant creature braces one knee at his LEFT, exactly as in panels 1, 2 and 4, and the creature's WHITE half is on the viewer's LEFT with its BLACK half on the viewer's RIGHT, split by one clean vertical line down both its face and its body. ",
+  R("naruto_14_training", "zetsu"), "medium"),
 
  ("p06", dict(scene="action", light="dark", cast="two", mood="tense", panels=6),
-  FILL + RTL + N13.format(i=1) + KURAMA_INNER.format(i=2) + ZET.format(i=3) + ENV_SEAL.format(i=4)
+  ZGRIM + ZARMS + FILL + RTL + N14T.format(i=1) + KURAMA_INNER.format(i=2) + ZET.format(i=3) + ENV_SEAL.format(i=4)
   + ZOR + ONLY(BOY13, KURAMA, ZETSU) + FB + CAGE + AXIS_IN + AXIS_OUT + FOXTALK + HALF
   + FLAT + NOHARM + NOCONTROL +
   "SIX panels. The three-part action begins in the order he specified. PANELS 1, 3, 4, 5 and 6 are "
@@ -364,11 +388,11 @@ PAGES = [
   + SFX(6, "HSSSS.", "Keep this one LOW AND THIN beside the right-moving chakra; it must not be "
                      "large and must not cover the fox's eye. ")
   + ONLYTEXT,
-  R("naruto_13", "kurama_inner", "zetsu", "env_inner_sewer"), "medium"),
+  R("naruto_14_training", "kurama_inner", "zetsu", "env_inner_sewer"), "medium"),
 
  # ---- Spread 4: the seal calls its maker --------------------------------------------
  ("p07", dict(scene="action", light="day", cast="two", mood="tense", panels=5),
-  FILL + RTL + N13.format(i=1) + ZET.format(i=2) + KURAMA_INNER.format(i=3) + ENV_SEAL.format(i=4)
+  TETHER + FILL + RTL + N14T.format(i=1) + ZET.format(i=2) + KURAMA_INNER.format(i=3) + ENV_SEAL.format(i=4)
   + ZOR + ONLY(BOY13, ZETSU, KURAMA) + FB + CAGE + AXIS_IN + AXIS_OUT + FOXTALK + HALF
   + FLAT + NOHARM + NOCONTROL +
   "FIVE panels. Leaked chakra is connected to the creature's pull and the simultaneous strain is "
@@ -392,11 +416,12 @@ PAGES = [
   + SAY((3, ZETSU, "upper left", "I HAVE IT."))
   + SFX(2, "HSSSS.", "Small and thin, directly beside the orange thread. ")
   + SFX(5, "THRUM.", "Write it ALONG the length of the tether. ")
-  + ONLYTEXT,
-  R("naruto_13", "zetsu", "kurama_inner", "env_inner_sewer"), "medium"),
+  + ONLYTEXT
+  + "In PANEL 3 the creature's white right arm grips the orange tether and draws it left while its black left hand holds the one-handed seal — it has exactly two arms and NO third arm, hand or shoulder appears anywhere in the panel. In PANEL 5 the orange tether leaves the SEAL FORMULA ON THE BOY'S BARE ABDOMEN and never touches, enters or ends at his face, mouth, chest or head. ",
+  R("naruto_14_training", "zetsu", "kurama_inner", "env_inner_sewer"), "medium"),
 
  ("p08", dict(scene="action", light="dark", cast="small_group", mood="tense", panels=5),
-  FILL + RTL + N13.format(i=1) + KURAMA_INNER.format(i=2) + ZET.format(i=3)
+  TETHER + FILL + RTL + N14T.format(i=1) + KURAMA_INNER.format(i=2) + ZET.format(i=3)
   + MINATO_HAND.format(i=4) + ENV_SEAL.format(i=5) + ZOR
   + ONLY(BOY13, KURAMA, ZETSU,
          "one UNIDENTIFIED man, who is present ONLY in panel 5 as a single bare adult hand and a "
@@ -424,12 +449,13 @@ PAGES = [
   + SFX(4, "RRRIP—", "Place it beside the lifting corner of the paper. The long dash must run "
                      "downward and TERMINATE exactly at the gripping hand in panel 5's direction, "
                      "and no part of it may suggest a face or figure. ")
-  + ONLYTEXT,
-  R("naruto_13", "kurama_inner", "zetsu", "minato_kushina", "env_inner_sewer"), "medium"),
+  + ONLYTEXT
+  + "The long dash of the \"RRRIP—\" effect runs DOWN AND TO THE LEFT so it points into the bottom-left panel where the hand grips his wrist. ",
+  R("naruto_14_training", "kurama_inner", "zetsu", "minato_kushina", "env_inner_sewer"), "medium"),
 
  # ---- Spread 5: the dead keeper of the cage -----------------------------------------
  ("p09", dict(scene="dialogue", light="dark", cast="small_group", mood="tense", panels=4),
-  FILL + RTL + N13.format(i=1) + MINATO.format(i=2) + KURAMA_INNER.format(i=3)
+  ZGRIM + ZARMS + FILL + RTL + N14T.format(i=1) + MINATO.format(i=2) + KURAMA_INNER.format(i=3)
   + ENV_SEAL.format(i=4)
   + ONLY(BOY13, MIN, KURAMA) + FB + CAGE + AXIS_IN + FOXTALK + HALF + FLAT + NOCONTROL +
   "FOUR panels. The hand is identified and all three read the relationship differently. The blond "
@@ -455,11 +481,12 @@ PAGES = [
   + "In PANEL 1 both balloons are LOCAL and short-tailed: the fox's balloon sits beside him and its "
     "one short tail passes through the nearest bar to his mouth, and the man's balloon sits beside "
     "him with one short tail to his mouth. The fox's balloon is placed HIGHER so it reads first. "
-    "Neither tail crosses the panel and neither crosses or touches the other balloon. " + ONLYTEXT,
-  R("naruto_13", "minato_kushina", "kurama_inner", "env_inner_sewer"), "low"),
+    "Neither tail crosses the panel and neither crosses or touches the other balloon. " + ONLYTEXT
+  + "PANEL 1 OCCUPIES NO MORE THAN 45% OF THE PAGE HEIGHT so that page 14's top panel is unmistakably larger, with the three bottom close-ups taking the remaining 55%. The seated boy has EXACTLY TWO legs and TWO sandalled feet — one bent under him, one extended — and no third leg, foot or sandal appears anywhere in the frame. The blond man wears his Leaf forehead protector in every panel of this page. ",
+  R("naruto_14_training", "minato_kushina", "kurama_inner", "env_inner_sewer"), "low"),
 
  ("p10", dict(scene="dialogue", light="dark", cast="small_group", mood="tense", panels=6),
-  FILL + RTL + N13.format(i=1) + MINATO.format(i=2) + KURAMA_INNER.format(i=3)
+  ZGRIM + ZARMS + FILL + RTL + N14T.format(i=1) + MINATO.format(i=2) + KURAMA_INNER.format(i=3)
   + ENV_SEAL.format(i=4)
   + ONLY(BOY13, MIN, KURAMA) + FB + CAGE + AXIS_IN + FOXTALK + HALF + FLAT + NOCONTROL +
   "SIX panels. The interruption ends without becoming a father-and-son conversation: no embrace, "
@@ -490,12 +517,13 @@ PAGES = [
   + CONNECT(5, '"YOU ARE DEAD." and "YOUR ROLE IS FINISHED."', BOY13)
   + SFX(6, "FSHH.", "Place it among the pale fragments; keep it small enough that the fox behind "
                     "them stays visible. ")
-  + ONLYTEXT,
-  R("naruto_13", "minato_kushina", "kurama_inner", "env_inner_sewer"), "low"),
+  + ONLYTEXT
+  + "In PANEL 3 the connected stack reads RIGHT TO LEFT: \"I CAN'T LET YOU FREE THE NINE-TAILS.\" is the RIGHT-HAND balloon and reads first, and \"IT'S DANGEROUS—\" is the LEFT-HAND balloon touching it and reads second. PANEL 4 ends at the bottom of the middle row and must NOT extend into the bottom row, so the bottom panel where the blond man breaks into pale fragments spans the full page width as the dominant panel. The \"FSHH\" effect is no more than a fifth of that panel's width and the fox stays visible behind it. ",
+  R("naruto_14_training", "minato_kushina", "kurama_inner", "env_inner_sewer"), "low"),
 
  # ---- Spread 6: the cage opens, the body fails --------------------------------------
  ("p11", dict(scene="action", light="dark", cast="two", mood="tense", panels=6),
-  FILL + RTL + N13.format(i=1) + KURAMA_INNER.format(i=2) + ENV_SEAL.format(i=3)
+  FILL + RTL + N14T.format(i=1) + KURAMA_INNER.format(i=2) + ENV_SEAL.format(i=3)
   + ONLY(BOY13, KURAMA) + FB + CAGE + AXIS_IN + FOXTALK + HALF + FLAT + NOCONTROL +
   "SIX panels. The seal opens and the fox alone decides whether he helps the boy survive. The boy "
   "makes NO hand seal, activates NO eye and issues NO command anywhere on this page.\n"
@@ -524,10 +552,10 @@ PAGES = [
   + SFX(6, "HNF.", "Keep this one small and LOW beside the fox's muzzle. It is a bare sound effect "
                    "with NO balloon and NO tail. ")
   + ONLYTEXT,
-  R("naruto_13", "kurama_inner", "env_inner_sewer"), "medium"),
+  R("naruto_14_training", "kurama_inner", "env_inner_sewer"), "medium"),
 
  ("p12", dict(scene="action", light="day", cast="two", mood="violent", panels=5),
-  FILL + RTL + N13.format(i=1) + ZET.format(i=2) + KURAMA_INNER.format(i=3)
+  TETHER + FILL + RTL + N14T.format(i=1) + ZET.format(i=2) + KURAMA_INNER.format(i=3)
   + KURAMA_FULL.format(i=4) + ENV_SEAL.format(i=5) + ZOR
   + ONLY(BOY13, ZETSU, KURAMA) + FB + AXIS_OUT + AXIS_IN + HALF + FLAT + NOHARM + NOCONTROL +
   "FIVE panels. The physical cost lands immediately, and cause always precedes result. PANELS 1, "
@@ -554,12 +582,13 @@ PAGES = [
   + SAY((2, BOY13, "upper centre, centred high in the panel", "AAAGH—!"),
         (4, ZETSU, "upper left", "IT IS MOVING."))
   + SFX(1, "VRRRM.", "Wrap it around the seal formula. ")
-  + ONLYTEXT,
-  R("naruto_13", "zetsu", "kurama_inner", "kurama_full", "env_inner_sewer"), "medium"),
+  + ONLYTEXT
+  + "In PANEL 5 the orange mass on the left is an UNFINISHED FOX and not a flame — partial shoulder bulk, one forming foreleg and two or three half-formed tail arcs, cut off and unfinished — and the chakra runs visibly and continuously from the boy's abdomen through the creature's pulling hand INTO that mass, with no break in the line. ",
+  R("naruto_14_training", "zetsu", "kurama_inner", "kurama_full", "env_inner_sewer"), "medium"),
 
  # ---- Spread 7: the Nine-Tails' first free choice -----------------------------------
  ("p13", dict(scene="action", light="day", cast="two", mood="violent", panels=6),
-  FILL + RTL + N13.format(i=1) + ZET.format(i=2) + KURAMA_FULL.format(i=3) + ZOR
+  TETHER + FILL + RTL + N14T.format(i=1) + ZET.format(i=2) + KURAMA_FULL.format(i=3) + ZOR
   + ONLY(BOY13, ZETSU, KURAMA) + FB + DRAGON + AXIS_OUT + HALF + FLAT + NOHARM + NOCONTROL +
   "SIX panels, all in the PHYSICAL caldera. The extraction's duration and danger are given visible "
   "weight. THE FOX IS NEVER SHOWN WHOLE ON THIS PAGE — he is incomplete, cropped or occluded in "
@@ -581,11 +610,12 @@ PAGES = [
   "few tail arcs are visible, NEVER an unobstructed body. No text in this panel. " + L_DRAGON
   + CAP(2, "upper right", "ONE HOUR LATER...")
   + SFX(5, "SNAP.", "Write it ALONG the separating thread. ")
-  + ONLYTEXT,
-  R("naruto_13", "zetsu", "kurama_full"), "medium"),
+  + ONLYTEXT
+  + "SWAP THE BOTTOM ROW SO CAUSE READS BEFORE EFFECT: the tall panel where the last chakra thread tears free with the \"SNAP\" effect is the BOTTOM-RIGHT panel and reads first, and the panel where the creature drops the tether and lunges right to catch the falling boy is the BOTTOM-LEFT panel and reads second. THE FOX IS NEVER SHOWN WHOLE ON THIS PAGE: in PANEL 1 he is an UNFINISHED ORANGE MASS with only bulk and two or three half-formed tail arcs — no face, no legs, no complete tails — and in PANEL 2 only his head and shoulders have become solid fur while everything behind them is still a featureless mass. ",
+  R("naruto_14_training", "zetsu", "kurama_full"), "medium"),
 
  ("p14", dict(scene="establishing", light="day", cast="two", mood="somber", panels=5),
-  FILL + RTL + KURAMA_FULL.format(i=1) + N13.format(i=2) + ZET.format(i=3) + ENV_SEAL.format(i=4)
+  ZGRIM + ZARMS + FILL + RTL + KURAMA_FULL.format(i=1) + N14T.format(i=2) + ZET.format(i=3) + ENV_SEAL.format(i=4)
   + ZOR
   + ONLY(KURAMA, BOY13, ZETSU,
          "the same boy also appearing ONLY inside the small panel-4 memory image, walking away "
@@ -614,12 +644,13 @@ PAGES = [
   + SFX(1, "WHUMM.", "Keep it SMALL and low in the settling chakra at the fox's feet; it must not "
                      "overlap his body or his tails and must not crop his silhouette. ")
   + ECHO(4, "upper area of the inset", "YOU WILL STILL HAVE YOUR FREEDOM.")
-  + ONLYTEXT,
-  R("kurama_full", "naruto_13", "zetsu", "env_inner_sewer"), "high"),
+  + ONLYTEXT
+  + "PANEL 1 OCCUPIES AT LEAST 65% OF THE PAGE HEIGHT — it is the tallest panel in the entire chapter and is visibly taller than page 9's top panel, with the other four panels sharing only the bottom third. The \"WHUMM\" effect is TINY, no more than one eighth of the panel width, tucked into the settling chakra at the fox's feet, and no part of any letter may touch, overlap or crop his legs, paws, body or tails. ",
+  R("kurama_full", "naruto_14_training", "zetsu", "env_inner_sewer"), "high"),
 
  # ---- Spread 8: what the Nine-Tails left behind -------------------------------------
  ("p15", dict(scene="emotional_closeup", light="dark", cast="two", mood="somber", panels=6),
-  FILL + RTL + N13.format(i=1) + ZET.format(i=2) + ZOR
+  ZGRIM + ZARMS + FILL + RTL + N14T.format(i=1) + ZET.format(i=2) + ZOR
   + ONLY(BOY13, ZETSU + ", joined in panel 1 only", ZWHITE, ZBLACK) + FB + FISSURE + FLAT + NOHARM + NOCONTROL +
   "SIX panels inside the sheltering basalt fissure. Two separate reasons the boy has a chance to "
   "live are kept visually distinct. THE PLANT CREATURE SEPARATES ON THIS PAGE: from panel 2 onward "
@@ -648,11 +679,12 @@ PAGES = [
   + THOUGHT((5, ZBLACK, "lower right", "THE KYŪBI LEFT CHAKRA IN HIS PATHWAYS."))
   + SFX(4, "THUM.", "Small, directly beside his chest. ")
   + SFX(6, "THUM.", "Small, directly beside his chest, matching panel 4's placement. ")
-  + ONLYTEXT,
-  R("naruto_13", "zetsu"), "low"),
+  + ONLYTEXT
+  + "In PANEL 5 the cutaway is FLAT CEL COLOUR: the boy's own pathways are DIM GREY-BLUE flat channels and the fox's chakra is a THIN flat opaque orange line running inside them, with no gloss, no highlight, no shading and no anatomical muscle or vein rendering. The boy has the SAME long straight blond hair with two thick face-framing bangs as every other panel, never short and never spiky. Once the creature separates in PANEL 2 the white half is a WHOLLY WHITE body with a WHOLLY WHITE face and the black half a WHOLLY BLACK body with a WHOLLY BLACK face, neither keeping any two-tone split on its head. ",
+  R("naruto_14_training", "zetsu"), "low"),
 
  ("p16", dict(scene="dialogue", light="dark", cast="two", mood="calm", panels=6),
-  FILL + RTL + N13.format(i=1) + ZET.format(i=2) + ZOR
+  ZGRIM + ZARMS + FILL + RTL + N14T.format(i=1) + ZET.format(i=2) + ZOR
   + ONLY(BOY13, ZETSU, ZWHITE, ZBLACK) + FB + FISSURE + FLAT + NOHARM + NOCONTROL +
   "SIX panels inside the same fissure across several days. The recovery is partial and never "
   "instant: he stays pale, thin and unsteady in every panel. PANEL 1 still shows the creature's two "
@@ -679,12 +711,13 @@ PAGES = [
         (4, ZETSU, "upper left", "YOU HAVE NOT RECOVERED."),
         (5, BOY13, "upper right", "I DO NOT NEED TO."))
   + SFX(6, "FWOOM.", "Embed it inside the summoning smoke. ")
-  + ONLYTEXT,
-  R("naruto_13", "zetsu"), "low"),
+  + ONLYTEXT
+  + "In PANEL 1 BOTH halves are present — the pure black half is peeling out of the boy's chest and rejoining the chalk-white half beside it at the LEFT, so white and black are both visible. In PANEL 6 the creature at the right edge is the JOINED form with its WHITE half on the viewer's LEFT and its BLACK half on the viewer's RIGHT, never all black. The boy pulled into the smoke has the SAME long straight blond hair with two thick face-framing bangs as every other panel, never short and never spiky. ",
+  R("naruto_14_training", "zetsu"), "low"),
 
  # ---- Spread 9: terms between equals ------------------------------------------------
  ("p17", dict(scene="establishing", light="day", cast="two", mood="calm", panels=6),
-  FILL + RTL + N13.format(i=1) + KURAMA_FULL.format(i=2)
+  FILL + RTL + N14T.format(i=1) + KURAMA_FULL.format(i=2)
   + ONLY(BOY13, KURAMA) + FB + DRAGON + FOXTALK + HALF + FLAT + NOCONTROL +
   "SIX panels in the open caldera. The absence of the cage does the work before anything is asked: "
   "THERE ARE NO BARS, NO GATE, NO CHAIN, NO SEAL PAPER and NO enclosure of any kind anywhere in any "
@@ -704,10 +737,10 @@ PAGES = [
         (5, BOY13, "upper right", "DO YOU TRUST ME?"),
         (6, KURAMA, "upper left", "NO."))
   + ONLYTEXT,
-  R("naruto_13", "kurama_full"), "medium"),
+  R("naruto_14_training", "kurama_full"), "medium"),
 
  ("p18", dict(scene="dialogue", light="day", cast="small_group", mood="tense", panels=5),
-  FILL + RTL + N13.format(i=1) + KURAMA_FULL.format(i=2) + N16_SWORD.format(i=3) + JIR.format(i=4)
+  FILL + RTL + N14T.format(i=1) + KURAMA_FULL.format(i=2) + N16_SWORD.format(i=3) + JIR.format(i=4)
   + KAK.format(i=5) + SASUKE16.format(i=6) + YUGAO_V4.format(i=7) + ENV_KIRI.format(i=8)
   + ONLY(BOY13 + " and the enormous nine-tailed fox, both appearing ONLY in the flashback of "
          "panels 1-3", BOY16, SAGE, MAN, SAS16, YUG,
@@ -743,8 +776,9 @@ PAGES = [
   + "In PANEL 4 the balloon is LOCAL to the armoured teen on the left, with ONE short visible tail "
     "to his mouth; it must not drift toward or point at anyone in the group on the right. "
   + SFX(5, "FSHH.", "Keep it SMALL at the left vanishing edge, beside the afterimage. ")
-  + ONLYTEXT,
-  R("naruto_13", "kurama_full", "naruto_v4_armor_sword", "jiraiya", "kakashi", "sasuke_16",
+  + ONLYTEXT
+  + "In PANEL 1 the younger boy wears NO forehead protector, NO metal plate and NO headband of any kind — his bare forehead shows under his blond bangs. PANELS 2 and 3 use the SAME volcanic caldera as page 17 — stepped black basalt terraces, steaming vents, lava cracks, flat ash-red sky — and the fox stays visible on the LEFT of panel 3 holding the boy's eye-line across the open ground. PANEL 4 is a HIGH BIRD'S-EYE view looking steeply DOWN on the Kiri street so the figures are seen from above. ",
+  R("naruto_14_training", "kurama_full", "naruto_v4_armor_sword", "jiraiya", "kakashi", "sasuke_16",
     "yugao_v4", "env_mizukage_tower"),
   "medium"),
 ]

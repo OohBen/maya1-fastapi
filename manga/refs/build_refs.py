@@ -386,6 +386,26 @@ CHARACTERS_V7 = {
         "servant."),
 }
 
+# Volume 5 chapter 4's flashback needs a boy who reads UNMISTAKABLY younger than the sixteen-year-old
+# who appears two panels later. naruto_13 was reused for it and failed the review gate: same height,
+# same build, same face, distinguished only by clothing — and its blue eye kept overriding the
+# chapter's Sharingan lock. This sheet bakes both differences into the reference itself.
+CHARACTERS_V8 = {
+    "naruto_14_training": SHEET + (
+        "A FOURTEEN-year-old boy who must read CLEARLY YOUNGER AND SMALLER than a sixteen-year-old: "
+        "noticeably shorter, slighter and narrower in the shoulders, with softer rounder adolescent "
+        "face proportions — a fuller cheek line, a shorter jaw and a larger eye relative to the "
+        "face. He is a boy, not a young man. Blond hair grown to shoulder length with two heavy "
+        "bangs framing his face, the right bang hanging low enough to completely cover his right "
+        "eye. HIS VISIBLE LEFT EYE IS THE ORDINARY THREE-TOMOE SHARINGAN: a RED iris with three "
+        "small black comma marks around the pupil. It is never blue. Whisker marks almost faded "
+        "away. Completely blank, emotionless expression. He wears ONLY dark training layers: a "
+        "black high-neck long-sleeved shirt with a LARGE red spiral emblem covering the whole "
+        "chest, black tapered trousers, black fingerless gloves and dark shinobi footwear. He "
+        "carries NO forehead protector, NO headband, NO armour, NO war fan and NO sword of any "
+        "kind, and his bare forehead is visible under his bangs."),
+}
+
 if __name__ == "__main__":
     which = sys.argv[1] if len(sys.argv) > 1 else "all"
     if which in ("all", "cast1"):
@@ -437,4 +457,6 @@ if __name__ == "__main__":
         build("v3env", ENVIRONMENTS_V6)
     if which in ("all", "v5cast"):
         build("v5cast", CHARACTERS_V7)
+    if which in ("all", "v5cast2"):
+        build("v5cast2", CHARACTERS_V8)
     print(f"\nledger total: ${LED.spent:.4f}")

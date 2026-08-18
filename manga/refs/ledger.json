@@ -316,5 +316,11 @@
   "id": "guren",
   "cost": 0.128,
   "quality": "high"
+ },
+ {
+  "batch": "v5cast2",
+  "id": "naruto_14_training",
+  "cost": 0.128,
+  "quality": "high"
  }
 ]
