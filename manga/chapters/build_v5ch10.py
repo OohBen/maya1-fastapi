@@ -49,6 +49,15 @@ CALM = ("His expression changes only through narrowed attention and eye directio
 L_HOK = ("Lighting: clean flat late-morning daylight through the office's tall round window, the "
          "room evenly lit, paperwork bright, no dramatic shadow. ")
 
+# Page-QA gate on ch10 p17 / ch09 p17: the macron in HANZŌ and DANZŌ came back as a tilde on one
+# page and an umlaut on another, so one name was spelled two ways inside a single chapter. The
+# macron is kept — p13's caption already letters it correctly — and is now described explicitly.
+MACRON = ("MACRON RULE FOR THIS PAGE: wherever a capital O carries a macron — HANZŌ, DANZŌ — that "
+          "mark is ONE SINGLE STRAIGHT HORIZONTAL BAR sitting directly above the letter, the full "
+          "width of the O and no thicker than the lettering stroke. It is NEVER two dots, NEVER a "
+          "wavy tilde, NEVER an accent slanting up or down, and never an umlaut. Every occurrence "
+          "of the same name in this chapter is lettered identically. ")
+
 PAGES = [
  # ---- Spread 1: the report he did not volunteer ------------------------------------
  ("p01", dict(scene="establishing", light="day", cast="small_group", mood="tense", panels=5),
@@ -105,7 +114,10 @@ PAGES = [
         (3, TSU, "upper right", "I'M ASKING WHY SHE ENTERED WITHOUT CLEARANCE."),
         (3, BOY16, "lower left", "ASK HER."),
         (4, TSU, "upper right", "THIS ISN'T ABOUT KARIN."),
-        (4, TSU, "lower left", "IT'S ABOUT WHETHER MY ORDERS APPLY TO YOU.")),
+        (4, TSU, "lower left", "IT'S ABOUT WHETHER MY ORDERS APPLY TO YOU."))
+  + "The PANEL 1 balloon reads exactly \"YOU LEFT WITHOUT PERMISSION AND RETURNED WITHOUT "
+    "REPORTING.\" — LEFT is spelled L-E-F-T, four letters with an F as the third letter. Never "
+    "write LEPT, LEFF or any other form of it. ",
   R("tsunade", "jiraiya", "naruto_v4_armor", "env_hokage_office"), "low"),
 
  # ---- Spread 2: authority versus reach ---------------------------------------------
@@ -252,7 +264,13 @@ PAGES = [
         (6, TSU, "upper right", "AND OROCHIMARU?"),
         (6, BOY16, "upper centre", "DEAD."),
         (6, TSU, "lower centre", "PROOF?"),
-        (6, BOY16, "lower left", "I BURNED EVERY PIECE.")),
+        (6, BOY16, "lower left", "I BURNED EVERY PIECE."))
+  + "PANEL 6 CARRIES FOUR BALLOONS IN ONE FIXED RIGHT-TO-LEFT, TOP-TO-BOTTOM ORDER, AND THE FIRST "
+    "TWO ARE THE TEST: \"AND OROCHIMARU?\" sits at the panel's UPPER RIGHT and \"DEAD.\" sits "
+    "BELOW AND TO ITS LEFT, never level with it and never to its right, so the question is read "
+    "before the answer. \"PROOF?\" follows below them at the lower centre and \"I BURNED EVERY "
+    "PIECE.\" last at the lower left. The two questions tail across to the blonde woman at "
+    "reader-left; the two answers tail across to the blond teen at reader-right. ",
   R("tsunade", "jiraiya", "naruto_v4_armor", "env_hokage_office"), "low"),
 
  # ---- Spread 5: consequences belong to the Hokage ----------------------------------
@@ -273,7 +291,13 @@ PAGES = [
         (2, TSU, "upper right", "WHAT YOU DID WAS RECKLESS."),
         (2, TSU, "lower left", "YOU COULD HAVE DIED."),
         (3, BOY16, "upper right", "I DIDN'T."),
-        (4, TSU, "upper right", "THAT DOESN'T MAKE IT A PLAN.")),
+        (4, TSU, "upper right", "THAT DOESN'T MAKE IT A PLAN."))
+  + "BOTH PANEL 1 BALLOONS ARE THE BIG WHITE-HAIRED MAN'S — \"AND KIRI?\" and \"WAS AN ENTIRE "
+    "VILLAGE AN OBSTRUCTION?\" — and they are his only lines on the page. He is crossing the "
+    "panel one step leftward, so the lower-left balloon needs a LONG tail that travels all the "
+    "way back across the panel to HIS mouth, passing clear of everyone else. That tail must NOT "
+    "stop on the blonde woman, her shoulder or her green haori, however much closer to her the "
+    "balloon sits; she says nothing in PANEL 1. ",
   R("tsunade", "jiraiya", "naruto_v4_armor", "env_hokage_office"), "low"),
 
  ("p10", dict(scene="dialogue", light="day", cast="small_group", mood="tense", panels=4),
@@ -384,7 +408,7 @@ PAGES = [
 
  ("p14", dict(scene="dialogue", light="day", cast="small_group", mood="tense", panels=6),
   FILL + RTL + TSUNADE.format(i=1) + JIR.format(i=2) + N16_ARMOR.format(i=3) + ENV.format(i=4)
-  + ONLY(TSU, JIRA, BOY16) + GEO + NOGUNBAI + SHARINGAN + PALE + CALM +
+  + ONLY(TSU, JIRA, BOY16) + GEO + NOGUNBAI + SHARINGAN + PALE + CALM + MACRON +
   "SIX panels. The threat is measured correctly and the mission is taken anyway. No silhouettes, "
   "no history images and no flashback appear on this page.\n"
   "PANEL 1 (top-right close-up on the white-haired man): disbelief without comedy.\n"
@@ -405,7 +429,13 @@ PAGES = [
         (4, TSU, "upper right", "HOW DO YOU KNOW THIS?"),
         (6, JIRA, "upper right", "IF IT'S TRUE, I HAVE MORE REASON TO GO."),
         (6, BOY16, "lower centre", "IF YOU ENTER AME, AKATSUKI'S LEADER WILL KILL YOU."),
-        (6, JIRA, "lower left", "I'M STILL GOING.")),
+        (6, JIRA, "lower left", "I'M STILL GOING."))
+  + "The lower PANEL 3 balloon reads exactly \"LATELY, NO SPY GOES IN AND COMES OUT.\" — nine "
+    "words and no more. AND is spelled A-N-D, and there is no stray \"AD\", no repeated word and "
+    "no extra letter anywhere in the balloon. COMES is spelled C-O-M-E-S with a fully formed "
+    "capital M of two clean diagonal strokes between its two verticals. The PANEL 1 balloon reads "
+    "exactly \"HANZŌ? THE MAN WHO NAMED US SANNIN?\", with a single straight horizontal bar above "
+    "the O of HANZŌ. ",
   R("tsunade", "jiraiya", "naruto_v4_armor", "env_hokage_office"), "low"),
 
  # ---- Spread 8: equal movement, unequal trust --------------------------------------
@@ -430,7 +460,16 @@ PAGES = [
         (5, BOY16, "upper right", "I NEED THE SAME FREEDOM JIRAIYA HAS—TO LEAVE KONOHA AND ENTER OTHER VILLAGES WITHOUT DELAY."),
         (6, TSU, "upper right", "NO."),
         (6, BOY16, "upper centre", "THAT WAS QUICK."),
-        (6, TSU, "lower left", "YOU JUST RETURNED FROM DISAPPEARING FOR THREE YEARS.")),
+        (6, TSU, "lower left", "YOU JUST RETURNED FROM DISAPPEARING FOR THREE YEARS."))
+  + "SIX SEPARATE PANELS IN FOUR HORIZONTAL TIERS, NONE OF THEM TALL. Tier 1 is PANEL 1 RIGHT and "
+    "PANEL 2 LEFT; tier 2 is PANEL 3 RIGHT and PANEL 4 LEFT; tier 3 is PANEL 5 full width; tier 4 "
+    "is PANEL 6 full width. PANEL 2, the two-shot, is an ordinary rectangle confined to tier 1 "
+    "and NEVER a tall panel running down the page beside a stacked right-hand column, so \"THEN I "
+    "HAVE A REQUEST.\" is read BEFORE \"YOU WARN HIM HE'LL DIE, THEN CHANGE THE SUBJECT?\" "
+    "PANEL 6 BALLOON ORDER IS FIXED AND RUNS RIGHT TO LEFT: the refusal \"NO.\" sits at the "
+    "panel's UPPER RIGHT, \"THAT WAS QUICK.\" sits to its LEFT, and \"YOU JUST RETURNED FROM "
+    "DISAPPEARING FOR THREE YEARS.\" sits lower and further left again. Never place \"NO.\" to "
+    "the left of \"THAT WAS QUICK.\" ",
   R("tsunade", "jiraiya", "naruto_v4_armor", "env_hokage_office"), "low"),
 
  ("p16", dict(scene="dialogue", light="day", cast="small_group", mood="tense", panels=5),
@@ -453,13 +492,24 @@ PAGES = [
         (4, BOY16, "upper right", "I RETURN WITH INFORMATION HE CANNOT FIND."),
         (5, TSU, "upper right", "THAT IS USEFUL."),
         (5, TSU, "upper centre-left", "IT ISN'T THE SAME AS ACCOUNTABLE."),
-        (5, BOY16, "lower left", "THEN SET TERMS THAT DO NOT ASK FOR MY SOURCES.")),
+        (5, BOY16, "lower left", "THEN SET TERMS THAT DO NOT ASK FOR MY SOURCES."))
+  + "PANEL 5 CARRIES THREE BALLOONS IN ONE FIXED RIGHT-TO-LEFT ORDER AND GETTING IT BACKWARDS "
+    "INVERTS THE WHOLE EXCHANGE: \"THAT IS USEFUL.\" sits FURTHEST RIGHT and is read first, \"IT "
+    "ISN'T THE SAME AS ACCOUNTABLE.\" sits to its LEFT and is read second, and \"THEN SET TERMS "
+    "THAT DO NOT ASK FOR MY SOURCES.\" sits FURTHEST LEFT and lowest and is read last. The first "
+    "two are the blonde woman's and tail to her at reader-left; the third is the blond teen's and "
+    "tails across to him at reader-right. "
+    "In PANEL 2 the balloon \"EVENTUALLY.\" belongs to the big white-haired man, who is NOT DRAWN "
+    "IN THAT PANEL. Draw it as an off-panel balloon whose tail is a short straight spur running "
+    "to the panel's lower-left border and stopping there, pointing out of the frame. That spur "
+    "must not touch or aim at the blonde woman, and the balloon must not sit directly beneath her "
+    "mouth where it would read as a second line of hers. ",
   R("tsunade", "jiraiya", "naruto_v4_armor", "env_hokage_office"), "low"),
 
  # ---- Spread 9: permission remains withheld ----------------------------------------
  ("p17", dict(scene="emotional_closeup", light="day", cast="small_group", mood="tense", panels=5),
   FILL + RTL + TSUNADE.format(i=1) + JIR.format(i=2) + N16_ARMOR.format(i=3) + ENV.format(i=4)
-  + ONLY(TSU, JIRA, BOY16) + GEO + NOGUNBAI + SHARINGAN + PALE + CALM +
+  + ONLY(TSU, JIRA, BOY16) + GEO + NOGUNBAI + SHARINGAN + PALE + CALM + MACRON +
   "FIVE panels. Demonstrated value is separated from inherited prestige.\n"
   "PANEL 1 (top-right close-up on the blonde woman): she reaches for the institutional name.\n"
   "PANEL 2 (top-left medium on the blond teen): his eye-line stays on the blonde woman and never "
@@ -480,7 +530,11 @@ PAGES = [
         (5, BOY16, "upper right", "I WILL NOT USE ANOTHER MAN'S MERCY AS A MEASURE OF MY WORTH."),
         (5, TSU, "upper centre-left", "YOU WANT THE RIGHTS WITHOUT THE NAME."),
         (5, BOY16, "lower centre", "I WANT MY WORK JUDGED BY ITS RESULTS."),
-        (5, TSU, "lower left", "AND I WANT TO KNOW WHERE MY SHINOBI ARE.")),
+        (5, TSU, "lower left", "AND I WANT TO KNOW WHERE MY SHINOBI ARE."))
+  + "The lower PANEL 3 balloon reads exactly \"IT MEANS HANZŌ LET YOU LIVE.\" — five words. YOU "
+    "is spelled Y-O-U, beginning with a Y and never with a D; never write DOU, DOD or YOD. HANZŌ "
+    "is lettered H-A-N-Z-O with a single straight horizontal bar above the final O — the same "
+    "mark used on the earlier page that names him, never a wavy tilde and never two dots. ",
   R("tsunade", "jiraiya", "naruto_v4_armor", "env_hokage_office"), "medium"),
 
  ("p18", dict(scene="emotional_closeup", light="day", cast="small_group", mood="somber", panels=7),
@@ -505,6 +559,13 @@ PAGES = [
   "watches the white-haired man recover rather than watching the exit. " + L_HOK
   + "In PANEL 7 the blond teen's balloon is border-cut and its tail enters the flame where his "
     "mouth still is, before he vanishes. "
+  + "PANEL 5 CARRIES THE CHAPTER'S CLOSING BEAT AND ITS TWO BALLOONS HAVE DIFFERENT SPEAKERS. The "
+    "upper-right balloon \"IF YOU DIE, KONOHA LOOKS WEAK.\" is the blond teen's: its tail runs "
+    "down-LEFT to his mouth in the foreground. The lower-left balloon \"SO THAT'S ALL I AM TO "
+    "YOU?\" is the BIG WHITE-HAIRED MAN'S, and it needs a LONG tail travelling up-RIGHT across "
+    "the whole panel to HIS mouth in the background, passing clear of the blond teen. That tail "
+    "must NEVER point up into the blond teen's body, his red armour or his hair — if both "
+    "balloons read as the blond teen the page loses the hurt question the chapter ends on. "
   + SFX(7, "WHFF.", "Low left, inside the last curl of flame, with no tail.")
   + SAY((1, TSU, "upper right", "I'LL DISCUSS IT WITH JIRAIYA. YOU HAVE NO PERMISSION YET."),
         (2, BOY16, "upper right", "THEN DISCUSS QUICKLY."),

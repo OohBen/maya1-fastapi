@@ -61,6 +61,16 @@ LEAF_ANBU = ("one kneeling masked Leaf agent in a plain pale porcelain animal ma
              "dark shoulder armour, never unmasked")
 ANBU = "the kneeling masked Leaf agent"
 
+# ---------------------------------------------------------------- lettering
+# Page-QA gate on ch09 p17 / ch10 p17: the macron in DANZŌ and HANZŌ came back as an umlaut on one
+# balloon and a tilde on the next, so the same name was spelled two different ways on one page.
+# The macron is kept (the rest of the volume already letters it correctly); it is now described.
+MACRON = ("MACRON RULE FOR THIS PAGE: wherever a capital O carries a macron — DANZŌ, HANZŌ, "
+          "MANGEKYŌ, DŌJUTSU — that mark is ONE SINGLE STRAIGHT HORIZONTAL BAR sitting directly "
+          "above the letter, the full width of the O and no thicker than the lettering stroke. It "
+          "is NEVER two dots, NEVER a wavy tilde, NEVER an accent slanting up or down, and never "
+          "an umlaut. Every occurrence of the same name on this page is lettered identically. ")
+
 # ---------------------------------------------------------------- Naruto's carried state
 ARMED = ("On this page he carries BOTH the dark purple gunbai on his back AND a plain straight "
          "sword in a dark sash sheath at his left hip. That sash sword is a plain, undecorated new "
@@ -186,7 +196,15 @@ PAGES = [
         (5, OFF(BOY16), "upper right", "I DO NOT EXPECT THAT TO HAPPEN TO YOU."),
         (5, KAR, "upper left", "THAT IS SUPPOSED TO REASSURE ME?"),
         (6, BOY16, "upper right", "IT WAS INFORMATION."),
-        (6, KAR, "upper left", "YOU ARE BAD AT REASSURANCE.")),
+        (6, KAR, "upper left", "YOU ARE BAD AT REASSURANCE."))
+  + "THE TWO PAIRED TIERS ARE THE WHOLE TEST OF THIS PAGE. In tier 2, PANEL 2 (the profile "
+    "two-shot) is the RIGHT-hand rectangle and PANEL 3 (close on the red-haired girl) is the LEFT "
+    "one, so his question \"HAVE YOU BEEN HERE BEFORE?\" is read BEFORE her answer \"NO.\" / "
+    "\"OROCHIMARU KEPT ME MOVING BETWEEN BASES.\" In tier 3, PANEL 4 (close on the blond teen) is "
+    "the RIGHT-hand rectangle and PANEL 5 (the girl alone) is the LEFT one, so \"MY MOTHER WAS "
+    "MOCKED FOR HER RED HAIR WHEN SHE ARRIVED HERE.\" is read BEFORE \"I DO NOT EXPECT THAT TO "
+    "HAPPEN TO YOU.\" / \"THAT IS SUPPOSED TO REASSURE ME?\" Never place PANEL 3 to the right of "
+    "PANEL 2, and never place PANEL 5 to the right of PANEL 4. ",
   R("naruto_v4_armor_sword", "karin", "env_konoha_outskirts"), "low"),
 
  ("p04", dict(scene="dialogue", light="day", cast="two", mood="tense", panels=6),
@@ -217,7 +235,20 @@ PAGES = [
         (4, BOY16, "upper right", "NO ONE HERE LEARNS IT FROM YOU."),
         (5, KAR, "upper right", "YOU KEEP TELLING ME WHAT MY LIFE WILL BE."),
         (6, BOY16, "upper right", "THEN TELL ME."),
-        (6, BOY16, "upper left", "WHAT DO YOU WANT FIRST?")),
+        (6, BOY16, "upper left", "WHAT DO YOU WANT FIRST?"))
+  + "SIX SEPARATE PANELS IN THREE HORIZONTAL TIERS, NONE OF THEM TALL. Tier 1 is PANEL 1 RIGHT "
+    "and PANEL 2 LEFT; tier 2 is PANEL 3 RIGHT and PANEL 4 LEFT; tier 3 is PANEL 5 RIGHT and "
+    "PANEL 6 LEFT. PANEL 4 is an ordinary rectangle confined to tier 2 and NEVER a tall panel "
+    "running down the page beside a stacked right-hand column, so \"NO ONE HERE LEARNS IT FROM "
+    "YOU.\" is read BEFORE \"YOU KEEP TELLING ME WHAT MY LIFE WILL BE.\" "
+    "The balloon \"YOU KNOW HOW IT WORKS.\" belongs INSIDE PANEL 3, the sleeve-and-scar inset, at "
+    "its upper left; it is the red-haired girl's, its tail runs down-right toward her mouth just "
+    "outside the crop, and it must never be lettered inside PANEL 4, which holds the blond teen "
+    "alone and in which she does not speak. "
+    "BOTH balloons in PANEL 6 are the blond teen's: he stands at the reader-LEFT, she has stopped "
+    "at the reader-RIGHT, and each of his tails travels across the gap to HIS mouth. Neither tail "
+    "may stop at, touch or aim at the red-haired girl, however much closer to her the balloon "
+    "sits. She says nothing in PANEL 6. ",
   R("naruto_v4_armor_sword", "karin", "env_konoha_outskirts"), "low"),
 
  # ---- Spread 3: under protection ---------------------------------------------------
@@ -276,7 +307,13 @@ PAGES = [
         (4, GUARD, "upper right", "THEN SHE WAITS HERE."),
         (6, BOY16, "upper right", "SHE IS UNDER MY PROTECTION."),
         (6, BOY16, "upper centre-left", "LOG HER AS MY GUEST."),
-        (6, GUARD, "upper left", "Y-YES.")),
+        (6, GUARD, "upper left", "Y-YES."))
+  + "PANEL 6 TAIL ATTRIBUTION, THE POINT OF THE PAGE: \"SHE IS UNDER MY PROTECTION.\" and \"LOG "
+    "HER AS MY GUEST.\" are BOTH spoken by the blond teen, and BOTH of their tails must travel "
+    "all the way to HIS mouth, however near the red-haired girl standing beside him they happen "
+    "to sit. Neither tail may touch, graze or terminate on her head, her hair or her shoulder — "
+    "she does not speak anywhere on this page, and a tail landing on her would make her claim "
+    "protection over herself. \"Y-YES.\" is the guard's and tails to the guard at the far left. ",
   R("naruto_v4_armor_sword", "karin", "env_konoha_outskirts"), "low"),
 
  # ---- Spread 4: leave their sight --------------------------------------------------
@@ -379,7 +416,13 @@ PAGES = [
         (6, KAR, "upper right", "THEN I ACCEPT. THANK YOU."),
         (7, BOY16, "upper right", "STAY HERE UNTIL I RETURN."),
         (7, KAR, "upper centre", "WHERE ARE YOU GOING?"),
-        (7, BOY16, "upper left", "TO SASUKE.")),
+        (7, BOY16, "upper left", "TO SASUKE."))
+  + "SEVEN SEPARATE PANELS IN FOUR HORIZONTAL TIERS, NONE OF THEM TALL. Tier 1 is PANEL 1 RIGHT "
+    "and PANEL 2 LEFT; tier 2 is PANEL 3 RIGHT and PANEL 4 LEFT; tier 3 is PANEL 5 full width; "
+    "tier 4 is PANEL 6 RIGHT and PANEL 7 LEFT. PANEL 4 is an ordinary rectangle confined to tier "
+    "2 and NEVER a tall panel running down beside a stacked right-hand column of three. The "
+    "resulting order is fixed: \"YOU ARE TRUSTING ME WITH YOUR HOUSE.\" is read BEFORE \"I AM "
+    "GIVING IT TO YOU.\", which is read before \"THEN I ACCEPT. THANK YOU.\" ",
   R("naruto_v4_armor_sword", "karin", "env_apartment_int"), "low"),
 
  ("p10", dict(scene="establishing", light="overcast", cast="solo", mood="somber", panels=5),
@@ -482,7 +525,15 @@ PAGES = [
         (6, SAS16, "upper right", "WHAT IS THAT SUPPOSED TO MEAN?"),
         (6, KAKA, "upper left", "OLD HABITS."),
         (7, KAKA, "upper right", "NARUTO—CAN WE TALK TOMORROW?"),
-        (7, KAKA, "lower left", "SEE YOU TOMORROW, SASUKE.")),
+        (7, KAKA, "lower left", "SEE YOU TOMORROW, SASUKE."))
+  + "The PANEL 1 balloon reads exactly \"NARUTO. GOOD TO SEE YOU BACK IN ONE PIECE.\" — BACK is "
+    "spelled B-A-C-K, four letters with a single A. Never write BAACK or any other doubled-vowel "
+    "form of it. "
+  + "SEVEN SEPARATE PANELS IN FOUR HORIZONTAL TIERS, NONE OF THEM TALL. Tier 1 is PANEL 1 RIGHT "
+    "and PANEL 2 LEFT; tier 2 is PANEL 3 RIGHT, PANEL 4 CENTRE and PANEL 5 LEFT; tier 3 is PANEL "
+    "6 RIGHT; tier 4 is PANEL 7. PANEL 5 is an ordinary rectangle confined to tier 2 and NEVER a "
+    "tall panel running down the page beside a stacked right-hand column, so \"IF YOU COULD "
+    "CHANGE, ANYTHING IS POSSIBLE.\" is read BEFORE \"WHAT IS THAT SUPPOSED TO MEAN?\" ",
   R("sasuke_16", "kakashi", "naruto_v4_armor", "env_uchiha_compound"), "low"),
 
  # ---- Spread 7: what belonged to him -----------------------------------------------
@@ -511,7 +562,12 @@ PAGES = [
         (3, SAS16, "upper right", "WHERE DID YOU GO AFTER KIRI?"),
         (4, BOY16, "upper right", "EARTH COUNTRY."),
         (5, SAS16, "upper right", "IWA WOULD KILL A LEAF SHINOBI THEY FOUND THERE."),
-        (6, BOY16, "upper right", "THEY WOULD HAVE TRIED.")),
+        (6, BOY16, "upper right", "THEY WOULD HAVE TRIED."))
+  + "PANEL 6 HOLDS ONE BALLOON AND IT IS THE BLOND TEEN'S. Its tail must reach HIS mouth as he "
+    "turns his head, and must not touch, cross or terminate on the older dark-haired teen's head, "
+    "hair or the back of his skull, even though he sits nearer the balloon. The dark-haired teen "
+    "does not speak in PANEL 6 — he has just warned that Iwa would kill a Leaf shinobi, and this "
+    "is the answer to him. ",
   R("naruto_v4_armor", "sasuke_16", "env_uchiha_compound"), "low"),
 
  ("p14", dict(scene="dialogue", light="dusk", cast="two", mood="tense", panels=7),
@@ -609,7 +665,7 @@ PAGES = [
  # ---- Spread 9: what was copied ----------------------------------------------------
  ("p17", dict(scene="dialogue", light="day", cast="two", mood="tense", panels=7),
   FILL + RTL + N16_ARMOR.format(i=1) + SASUKE16.format(i=2) + ENV.format(i=3)
-  + ONLY(BOY16, SAS16) + UNARMED + PALE +
+  + ONLY(BOY16, SAS16) + UNARMED + PALE + MACRON +
   "SEVEN panels in four non-overlapping horizontal tiers, still inside the restored library. Tier "
   "1 is PANEL 1 reader-right and PANEL 2 reader-left in equal rectangles. Tier 2 is PANEL 3 on "
   "the reader-right two-thirds and PANEL 4 on the reader-left third. Tier 3 is PANEL 5 full "
@@ -644,7 +700,12 @@ PAGES = [
         (5, OFF(BOY16), "upper left over the third object", "MANGEKYŌ TECHNIQUES."),
         (6, SAS16, "upper right", "I THOUGHT THAT WAS KEPT AT NAKA SHRINE."),
         (7, BOY16, "upper right", "THE SHRINE HOLDS THE WHOLE TRUTH."),
-        (7, BOY16, "upper left", "THESE HOLD ENOUGH TO BE DANGEROUS.")),
+        (7, BOY16, "upper left", "THESE HOLD ENOUGH TO BE DANGEROUS."))
+  + "THE NAME DANZŌ APPEARS TWICE ON THIS PAGE AND MUST BE LETTERED IDENTICALLY BOTH TIMES: "
+    "D-A-N-Z-O with a single straight horizontal bar above the final O. The PANEL 2 balloon reads "
+    "exactly \"AND DANZŌ?\" and the PANEL 3 balloon reads exactly \"DANZŌ HAD ALREADY COPIED "
+    "SOME.\" Neither may carry two dots over the O and neither may carry a wavy tilde. The same "
+    "single straight bar sits over the O of DŌJUTSU and of MANGEKYŌ in PANEL 5. ",
   R("naruto_v4_armor", "sasuke_16", "env_uchiha_compound"), "low"),
 
  ("p18", dict(scene="dialogue", light="day", cast="small_group", mood="tense", panels=6),

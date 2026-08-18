@@ -46,6 +46,22 @@ GUREN_D = ("Guren — she has NO reference sheet and must be drawn from this des
            "wraps. Her expression is hard and unsmiling. She is the only person in this chapter "
            "with light blue hair")
 GUREN = "the light-blue-haired woman"
+# Page-QA gate on ch08 p19 found her drawn with a blunt straight fringe and both eyes clear,
+# breaking the design she carries on p10-p18 and p20. Locked on every page she appears on.
+GUREN_HAIR = ("GUREN'S HAIR IS LOCKED AND IDENTICAL IN EVERY PANEL OF THIS PAGE: straight LIGHT "
+              "BLUE hair cut level with the jaw, and a LONG SWEPT FRINGE that falls diagonally "
+              "across her forehead in one heavy sheet, its points reaching past her eyebrow and "
+              "partly covering one eye. She NEVER has a blunt straight fringe cut level across "
+              "the brow, and she is never drawn with both eyes fully clear of hair. ")
+# Same gate: the room she occupies after Tsukuyomi (p13-p18) came back as a chemistry laboratory
+# instead of the scroll-rack office established on p10. One description, restated on every page.
+OFFICE = ("THE ROOM IS THE SAME OFFICE ESTABLISHED EARLIER AND NEVER CHANGES: a windowless "
+          "underground room with cracked dark stone walls and one bare hanging bulb, ONE BROAD "
+          "WOODEN DESK with an open ledger and rolled scrolls lying on it, tall WOODEN RACKS OF "
+          "SCROLLS AND BOUND RECORD FILES filling the wall behind the desk, a metal record "
+          "cabinet, and one heavy door. IT IS NOT A LABORATORY: there are NO metal counters, NO "
+          "sink or taps, NO chemical bottles, NO glassware, NO tubing and NO specimen jars "
+          "anywhere in it. ")
 MOB = ("Image {i} shows ordinary civilian archetypes. Use these faces, builds and everyday clothes "
        "for the unnamed people on this page. Ignore its white background and lineup layout. ")
 GUARDS_D = ("two anonymous Kusa gate guards in plain dark hideout uniforms, faces ordinary and "
@@ -125,7 +141,11 @@ PAGES = [
         (4, ZETSU, "upper right", "YOU WANT HIS VILLAGE."),
         (4, NAR, "upper left", "I WANT WHAT IT CAN BECOME."),
         (5, ZETSU, "upper right", "WITHOUT OROCHIMARU, OTO WILL BREAK APART."),
-        (5, NAR, "lower left", "THEN IT NEEDS A NEW CENTRE.")),
+        (5, NAR, "lower left", "THEN IT NEEDS A NEW CENTRE."))
+  + "MIDDLE ROW ORDER, THE ONE THING THIS PAGE MUST GET RIGHT: PANEL 3 is the middle row's "
+    "RIGHT-HAND panel and PANEL 4 sits entirely to its LEFT, so the blond teen's setup \"THE LABS "
+    "AND RECORDS HAVE VALUE.\" / \"SO DOES THE NETWORK AROUND THEM.\" is read BEFORE the plant "
+    "creature's inference \"YOU WANT HIS VILLAGE.\" Never place PANEL 4 to the right of PANEL 3. ",
   R("naruto_v4_armor_sword", "zetsu", "env_oto_hidden_base"), "high"),
 
  ("p02", dict(scene="dialogue", light="day", cast="two", mood="calm", panels=5),
@@ -154,7 +174,10 @@ PAGES = [
         (4, OFF(NAR), "upper left", "I NEED A LEADER OTO ALREADY KNOWS."),
         (5, OFF(ZETSU), "upper right", "AND YOU STAY INVISIBLE."),
         (5, OFF(NAR), "upper centre-left", "KONOHA DOES NOT NEED TO SEE EVERY PIECE I MOVE."),
-        (5, OFF(NAR), "lower left", "A VILLAGE CAN BE POWER WITHOUT CARRYING MY NAME.")),
+        (5, OFF(NAR), "lower left", "A VILLAGE CAN BE POWER WITHOUT CARRYING MY NAME."))
+  + "The PANEL 2 balloon reads exactly \"ADMINISTRATION. TRADE. SHINOBI WHO ANSWER TO ONE "
+    "CENTRE.\" — ANSWER is spelled A-N-S-W-E-R, six letters with an N after the A. Never write "
+    "ASWER, ANSER or any other form of it. ",
   R("naruto_v4_armor_sword", "zetsu"), "low"),
 
  # ---- Spread 2: assign the visible leader ------------------------------------------
@@ -212,7 +235,12 @@ PAGES = [
         (5, OFF(ZETSU), "upper right", "I'LL SECURE THE MASK AND KUSANAGI AT OUR HIDEOUT FIRST."),
         (5, OFF(NAR), "mid-left", "THEN RETURN AND STRIP THIS ONE."),
         (5, OFF(NAR), "lower left",
-         "SECURE EVERY RECORD, SAMPLE, AND USEFUL INSTRUMENT BEFORE IWA FINDS IT.")),
+         "SECURE EVERY RECORD, SAMPLE, AND USEFUL INSTRUMENT BEFORE IWA FINDS IT."))
+  + "LOWER ROW ORDER: PANEL 4 (the creature shifting the bundle and the sword higher) is the "
+    "lower row's RIGHT-HAND panel and PANEL 5 (the close-up of the wrapped bundle and the long "
+    "thin sword) sits entirely to its LEFT. The question \"AND UZUSHIO?\" must therefore be read "
+    "BEFORE \"I'LL SECURE THE MASK AND KUSANAGI AT OUR HIDEOUT FIRST.\" Never place PANEL 5 to "
+    "the right of PANEL 4. ",
   R("naruto_v4_armor_sword", "zetsu", "env_oto_hidden_base"), "low"),
 
  # ---- Spread 3: home turns reports into claims -------------------------------------
@@ -308,7 +336,16 @@ PAGES = [
         (5, YUG, "upper left", "ALIVE. CAPABLE."),
         (5, YUG, "lower left", "AND LONELY."),
         (6, OFF(YUG), "upper left", "HE DOESN'T KNOW IT."),
-        (6, OFF(YUG), "lower left", "HE NEVER STOPS LONG ENOUGH.")),
+        (6, OFF(YUG), "lower left", "HE NEVER STOPS LONG ENOUGH."))
+  + "SECOND ROW ORDER: PANEL 2 (the purple-haired kunoichi stopping at the roof edge) is that "
+    "row's RIGHT-HAND panel and PANEL 3 (the masked man straightening) sits immediately to its "
+    "LEFT, so \"YOU COULD HAVE ASKED IN THE OFFICE.\" is read BEFORE \"I WANTED YOUR ANSWER.\" / "
+    "\"NOT YOUR REPORT.\" Never place PANEL 3 to the right of PANEL 2. "
+    "PANEL 6 CONTAINS ONLY THE MASKED SILVER-HAIRED MAN'S FACE, and BOTH of its balloons are the "
+    "purple-haired kunoichi's — she is NOT drawn in it. Each of those two balloons is an "
+    "off-panel balloon whose tail is a short straight spur to the nearest panel border, pointing "
+    "OUT of the panel. Neither tail may touch, cross, overlap or aim at his face, his eye or his "
+    "mask; if a tail would reach him, shorten it. He does not speak in PANEL 6. ",
   R("yugao_v4", "kakashi", "env_village_street"), "low"),
 
  ("p08", dict(scene="dialogue", light="day", cast="two", mood="somber", panels=6),
@@ -374,13 +411,17 @@ PAGES = [
   "His face stays controlled — the pause carries the recognition, not an expression. No text in "
   "this panel. " + L_CELL
   + CAP(1, "upper right", "KUSAGAKURE — ONE DAY LATER")
-  + SAY((2, GUARD_L, "upper left", "WHO ARE—")),
+  + SAY((2, GUARD_L, "upper left", "WHO ARE—"))
+  + "SECOND ROW ORDER: PANEL 2 (the two guards framing the doorway, carrying the challenge \"WHO "
+    "ARE—\") is that row's RIGHT-HAND panel and PANEL 3 (the close-up of the active red "
+    "six-bladed left eye) sits immediately to its LEFT. The challenge must be read BEFORE the eye "
+    "that interrupts it; never place the eye close-up to the right of the guards' panel. ",
   R("naruto_v4_armor_sword", "mangekyo_design", "mob_archetypes", "env_hideout_corridor"),
   "medium"),
 
  ("p10", dict(scene="dialogue", light="interior", cast="two", mood="tense", panels=6),
   FILL + RTL + N16_SWORD.format(i=1) + MANGEKYO_EYE.format(i=2) + ENV.format(i=3)
-  + ONLY(NAR, GUREN_D) + GEAR + ARM + NOTEXT + FLAT +
+  + ONLY(NAR, GUREN_D) + GEAR + ARM + NOTEXT + FLAT + GUREN_HAIR + OFFICE +
   "SIX panels. She owns the room physically right up to the last panel.\n"
   "PANEL 1 (tall doorway panel down the RIGHT edge): the office door at the reader's right. The "
   "light-blue-haired woman sits behind a desk on the LEFT surrounded by scroll racks and record "
@@ -417,7 +458,7 @@ PAGES = [
  # ---- Spread 6: proof does not produce consent -------------------------------------
  ("p11", dict(scene="action", light="white_void", cast="two", mood="tense", panels=6),
   FILL + RTL + N16_SWORD.format(i=1)
-  + ONLY(NAR, GUREN_D) + GEAR + ARM + FLAT +
+  + ONLY(NAR, GUREN_D) + GEAR + ARM + FLAT + GUREN_HAIR +
   "SIX panels. Inside the illusion. There is NO office, NO furniture, NO floor and NO horizon "
   "anywhere on this page — only flat blood-red and black space behind every figure.\n"
   "PANEL 1 (full-width establishing strip across the top): the light-blue-haired woman stands "
@@ -443,7 +484,11 @@ PAGES = [
         (5, NAR, "lower right", "YOUR POSITION. NOT YOUR BODY."),
         (6, NAR, "upper right", "I WANT YOU TO WORK WITH ME."),
         (6, GUREN, "upper left", "I WORK FOR OROCHIMARU-SAMA."),
-        (6, NAR, "lower right", "OROCHIMARU IS DEAD.")),
+        (6, NAR, "lower right", "OROCHIMARU IS DEAD."))
+  + "MIDDLE ROW ORDER: the tall restraint panel PANEL 4 is the middle row's RIGHT-HAND panel and "
+    "PANEL 5 sits entirely to its LEFT. Her question \"WHAT DO YOU WANT?\" must be read BEFORE "
+    "the exchange \"YOU.\" / \"WHAT?\" / \"YOUR POSITION. NOT YOUR BODY.\" Never place PANEL 5 to "
+    "the right of PANEL 4. ",
   R("naruto_v4_armor_sword"), "medium"),
 
  ("p12", dict(scene="emotional_closeup", light="white_void", cast="two", mood="somber", panels=7),
@@ -452,7 +497,7 @@ PAGES = [
          "the grey-haired medic in round glasses, appearing ONLY inside one borderless evidence "
          "image, lying intact and plainly breathing",
          "the pale long-haired man, appearing ONLY inside two borderless evidence images and only "
-         "in his enormous CHALK-WHITE true snake form") + GEAR + ARM + FLAT +
+         "in his enormous CHALK-WHITE true snake form") + GEAR + ARM + FLAT + GUREN_HAIR +
   "SEVEN panels. The proof is accurate, and it does not buy agreement.\n"
   "VIOLENCE RULE FOR THIS PAGE: the evidence images show unmoving bodies and flat black flame "
   "only — no injury detail, no blood, no gore, no wounds and no red fluid anywhere.\n"
@@ -485,13 +530,18 @@ PAGES = [
         (6, NAR, "lower left", "KILLING ME IS BEYOND YOU."))
   + "In PANEL 6 the two balloons cross the panel diagonally: the upper-right balloon's tail runs "
     "down-LEFT to the light-blue-haired woman and the lower-left balloon's tail runs up-RIGHT to "
-    "the blond teen. Neither tail may approach the other speaker. ",
+    "the blond teen. Neither tail may approach the other speaker. "
+  + "LOWER ROW ORDER: the borderless evidence shard PANEL 5 (the teen walking away with his back "
+    "to the reader) is the lower row's RIGHT-HAND element and PANEL 6 (the two of them back in "
+    "the red-and-black space) sits entirely to its LEFT. The evidence line \"HE DIED.\" must be "
+    "read BEFORE \"RELEASE ME. I'LL KILL YOU.\" / \"KILLING ME IS BEYOND YOU.\" Never place PANEL "
+    "6 to the right of PANEL 5. ",
   R("naruto_v4_armor_sword", "kabuto", "orochimaru", "env_oto_throne_hall"), "low"),
 
  # ---- Spread 7: coercion opens the argument ----------------------------------------
  ("p13", dict(scene="action", light="interior", cast="two", mood="tense", panels=6),
   FILL + RTL + N16_SWORD.format(i=1) + ENV.format(i=2)
-  + ONLY(NAR, GUREN_D) + GEAR + ARM + NOTEXT + FLAT +
+  + ONLY(NAR, GUREN_D) + GEAR + ARM + NOTEXT + FLAT + GUREN_HAIR + OFFICE +
   "SIX panels. Force stops a threat and buys nothing else.\n"
   "PANEL 1 (top right): the office is back. She catches herself on the desk at the reader's LEFT, "
   "then drives one step toward him at the reader's RIGHT, her right hand empty but raised to "
@@ -524,12 +574,21 @@ PAGES = [
   + "In PANEL 6 the two lower balloons cross the panel diagonally: the lower-right balloon's tail "
     "runs down-LEFT to the light-blue-haired woman and the lower-left balloon's tail runs "
     "down-RIGHT to the blond teen. Neither tail may approach the other speaker. "
+  + "PANEL 6 BALLOON ORDER IS FIXED: the LOWER-RIGHT balloon reads \"THAT IS NOT AGREEMENT.\" and "
+    "the LOWER-LEFT balloon reads \"GOOD.\", in that right-to-left order, so his one-word answer "
+    "is read AFTER the line it answers. Never put \"GOOD.\" to the right of \"THAT IS NOT "
+    "AGREEMENT.\" "
+  + "PANEL 4 IS ONE SINGLE PANEL, never split into two and never repeated: inside that one frame "
+    "the light-blue-haired woman is already MID-RISE — one boot planted, one hand pushing off the "
+    "floor, her shoulders coming up — with the loosed papers still settling around her. The page "
+    "never shows her going back down onto all fours after standing; her recovery only ever runs "
+    "upward, from PANEL 3's knees, through PANEL 4's push, to PANEL 5's stand. "
   + SFX(4, "FLUTTER", "In the lower centre, beside the falling papers. "),
   R("naruto_v4_armor_sword", "env_orochimaru_lab"), "medium"),
 
  ("p14", dict(scene="dialogue", light="interior", cast="two", mood="somber", panels=7),
   FILL + RTL + N16_SWORD.format(i=1) + ENV.format(i=2)
-  + ONLY(NAR, GUREN_D, MEMORY_D) + GEAR + ARM + NOTEXT +
+  + ONLY(NAR, GUREN_D, MEMORY_D) + GEAR + ARM + NOTEXT + GUREN_HAIR + OFFICE +
   "SEVEN panels. Her old loyalty is taken apart, and she names what that gives him.\n"
   "PANEL 1 (top right): he stands at the reader's RIGHT, she stands behind the desk at the "
   "reader's LEFT, eye-lines holding. Both mouths are visible.\n"
@@ -560,13 +619,22 @@ PAGES = [
         (6, OFF(NAR), "lower right",
          "HE PROMISED YOU WOULD BE HIS NEXT VESSEL. HE ALWAYS CHOSE ANOTHER."),
         (7, GUREN, "upper left", "YOU CRAWLED THROUGH MY HEAD SO YOU CAN USE IT TOO."),
-        (7, NAR, "lower right", "SO YOU KNOW I COULD.")),
+        (7, NAR, "lower right", "SO YOU KNOW I COULD."))
+  + "PANEL LAYOUT IS FIXED AND MUST NOT BE REORDERED. PANELS 3, 4 and 5 form ONE middle tier read "
+    "right to left: PANEL 3 (close on her) at the tier's RIGHT edge, the BORDERLESS memory image "
+    "PANEL 4 in the CENTRE immediately to its left, PANEL 5 (close on him) at the tier's LEFT "
+    "edge. PANELS 6 and 7 sit entirely BELOW that tier, PANEL 6 above PANEL 7. Consequences that "
+    "must hold: \"YOU KNOW NOTHING ABOUT IT.\" is read BEFORE the memory image and its \"YUKIMARU'S "
+    "MOTHER.\" / \"STOP.\"; and \"HE ORDERED YOU TO KILL THE WOMAN WHO SAVED YOU—THEN GAVE YOU HER "
+    "SON.\" is read BEFORE \"HE WOULD HAVE ORDERED YUKIMARU'S DEATH WHEN THE BOY STOPPED BEING "
+    "USEFUL.\" Never place the memory image to the right of PANEL 3, and never place PANEL 6 "
+    "above or to the right of PANEL 5. ",
   R("naruto_v4_armor_sword", "env_orochimaru_lab"), "low"),
 
  # ---- Spread 8: name the hidden ownership ------------------------------------------
  ("p15", dict(scene="dialogue", light="interior", cast="two", mood="tense", panels=6),
   FILL + RTL + N16_SWORD.format(i=1) + ENV.format(i=2)
-  + ONLY(NAR, GUREN_D) + GEAR + ARM + NOTEXT +
+  + ONLY(NAR, GUREN_D) + GEAR + ARM + NOTEXT + GUREN_HAIR + OFFICE +
   "SIX panels. Blackmail is refused and replaced by a bounded choice.\n"
   "PANEL 1 (narrow panel, top right): close on him with both hands still open. His mouth is "
   "visible.\n"
@@ -588,12 +656,20 @@ PAGES = [
         (4, GUREN, "upper left", "THAT IS STILL A THREAT."),
         (4, NAR, "lower right", "YES."),
         (5, GUREN, "upper left", "THEN STATE THE WORK."),
-        (6, NAR, "upper right", "REBUILD OTOGAKURE AS A REAL VILLAGE. LEAD IT.")),
+        (6, NAR, "upper right", "REBUILD OTOGAKURE AS A REAL VILLAGE. LEAD IT."))
+  + "SIX SEPARATE PANELS IN FOUR HORIZONTAL TIERS, NONE OF THEM TALL AND NONE OF THEM MERGED. "
+    "Tier 1 holds PANEL 1 at the RIGHT and PANEL 2 immediately to its LEFT; PANEL 2 is an "
+    "ordinary rectangle confined to that tier and NEVER a tall panel running down the page beside "
+    "a stacked right-hand column. Tier 2 is PANEL 3, tier 3 is PANEL 4, tier 4 holds PANEL 5 at "
+    "the RIGHT and PANEL 6 immediately to its LEFT, separated by a real gutter and NEVER merged "
+    "into one frame. Consequences that must hold: \"WHY SHOULD I BELIEVE YOU?\" is read BEFORE "
+    "\"BECAUSE I DO NOT NEED YOUR SHAME.\", and \"THEN STATE THE WORK.\" is read BEFORE \"REBUILD "
+    "OTOGAKURE AS A REAL VILLAGE. LEAD IT.\" ",
   R("naruto_v4_armor_sword", "env_orochimaru_lab"), "low"),
 
  ("p16", dict(scene="dialogue", light="interior", cast="two", mood="tense", panels=7),
   FILL + RTL + N16_SWORD.format(i=1) + ENV.format(i=2)
-  + ONLY(NAR, GUREN_D) + GEAR + ARM + NOTEXT +
+  + ONLY(NAR, GUREN_D) + GEAR + ARM + NOTEXT + GUREN_HAIR + OFFICE +
   "SEVEN panels. Visible leadership and invisible ownership share one frame without becoming the "
   "same thing.\n"
   "PANEL 1 (top right): she finally sits down in the chair at the reader's LEFT; he stays standing "
@@ -629,7 +705,7 @@ PAGES = [
  # ---- Spread 9: the plan before the answer -----------------------------------------
  ("p17", dict(scene="dialogue", light="interior", cast="two", mood="calm", panels=7),
   FILL + RTL + N16_SWORD.format(i=1) + ENV.format(i=2)
-  + ONLY(NAR, GUREN_D) + GEAR + ARM + NOTEXT +
+  + ONLY(NAR, GUREN_D) + GEAR + ARM + NOTEXT + GUREN_HAIR + OFFICE +
   "SEVEN panels. The complete plan reaches her hands BEFORE she answers. From here on she holds "
   "the reader-RIGHT side of every panel and he holds the reader-LEFT doorway side.\n"
   "PANEL 1 (wide panel across the top): across the desk — she stays at the reader-RIGHT with the "
@@ -660,12 +736,20 @@ PAGES = [
         (5, NAR, "upper left", "EVERYTHING NEEDED WILL BE PROVIDED."),
         (6, GUREN, "upper right", "I HAVEN'T SAID YES."),
         (7, NAR, "upper left", "YOU HAVEN'T SAID NO."))
+  + "SECOND ROW ORDER: PANEL 2 (the close-up of the bandaged left palm and its sealing tattoo) is "
+    "that row's RIGHT-HAND insert and PANEL 3 (the burst of smoke with the scroll forming and the "
+    "POOF effect) sits immediately to its LEFT. The palm that causes the summoning is read BEFORE "
+    "the burst it causes; never place the POOF panel to the right of the palm panel. "
+    "LOWER ROW ORDER: PANEL 5 (she spreads the plan across the desk) is the RIGHT-HAND panel of "
+    "its row, PANEL 6 sits to its LEFT and PANEL 7 is the bottom panel below them both, so "
+    "\"EVERYTHING NEEDED WILL BE PROVIDED.\" is read BEFORE \"I HAVEN'T SAID YES.\", which is "
+    "immediately followed by \"YOU HAVEN'T SAID NO.\" Never place PANEL 6 to the right of PANEL 5. "
   + SFX(3, "POOF", "Beside the smoke at the upper left of the panel. "),
   R("naruto_v4_armor_sword", "env_orochimaru_lab"), "low"),
 
  ("p18", dict(scene="emotional_closeup", light="interior", cast="two", mood="calm", panels=6),
   FILL + RTL + N16_SWORD.format(i=1) + ENV.format(i=2)
-  + ONLY(NAR, GUREN_D) + GEAR + ARM + NOTEXT +
+  + ONLY(NAR, GUREN_D) + GEAR + ARM + NOTEXT + GUREN_HAIR + OFFICE +
   "SIX panels. The hesitation is given room, and then she accepts.\n"
   "PANEL 1 (top right): close on her at the reader-RIGHT gripping the open scroll without rolling "
   "it shut. Her mouth is visible. HE IS NOT IN THIS PANEL AT ALL.\n"
@@ -695,7 +779,7 @@ PAGES = [
  # ---- Spread 10: the first order of the new Sound ----------------------------------
  ("p19", dict(scene="dialogue", light="interior", cast="two", mood="calm", panels=6),
   FILL + RTL + N16_SWORD.format(i=1) + ENV.format(i=2)
-  + ONLY(NAR, GUREN_D, CAPTIVES_D) + GEAR + ARM + NOTEXT +
+  + ONLY(NAR, GUREN_D, CAPTIVES_D) + GEAR + ARM + NOTEXT + GUREN_HAIR + OFFICE +
   "SIX panels. Every operational instruction, given only after her acceptance.\n"
   "PANEL 1 (top right): he turns toward the reader-LEFT doorway; she moves out from the "
   "reader-RIGHT with the scroll. His mouth is visible, his left glove is back on, his bruised "
@@ -721,12 +805,16 @@ PAGES = [
         (5, GUREN, "upper right", "WHO HANDLES CONSTRUCTION?"),
         (5, NAR, "mid-left", "MY TRUSTED FRIEND, ZETSU, WILL FIND YOU IN OTO."),
         (5, NAR, "lower left", "HE'LL GIVE YOU INSTRUCTIONS AND CONNECTIONS."),
-        (6, NAR, "lower left", "KEEP MY NAME OUT OF EVERYTHING.")),
+        (6, NAR, "lower left", "KEEP MY NAME OUT OF EVERYTHING."))
+  + "CHECK HER HAIR IN PANELS 1, 4, 5 AND 6 IN PARTICULAR: the long swept fringe must fall "
+    "diagonally across her forehead in each of them exactly as it does on the pages before and "
+    "after this one. A blunt straight fringe, or both eyes drawn fully clear of hair, is wrong in "
+    "every panel of this page. ",
   R("naruto_v4_armor_sword", "env_orochimaru_lab"), "low"),
 
  ("p20", dict(scene="establishing", light="interior", cast="small_group", mood="calm", panels=6),
   FILL + RTL + N16_SWORD.format(i=1) + MOB.format(i=2) + ENV.format(i=3)
-  + ONLY(NAR, GUREN_D, SOUND2_D, CAPTIVES_D) + GEAR + ARM + NOTEXT +
+  + ONLY(NAR, GUREN_D, SOUND2_D, CAPTIVES_D) + GEAR + ARM + NOTEXT + GUREN_HAIR +
   "SIX panels. LAST PAGE OF THE CHAPTER — the name, then the first order she gives as leader.\n"
   "PANEL 1 (narrow panel, top right): she stays at the reader-RIGHT threshold while he walks away "
   "down the corridor toward the reader-LEFT. Her mouth is visible.\n"
@@ -750,7 +838,13 @@ PAGES = [
         (2, NAR, "upper left", "UCHIHA NARUTO."),
         (4, GUREN, "upper centre", "BRING THE CIVILIAN KEYS. LEAVE THE EXPERIMENT WING SEALED."),
         (6, GUREN, "upper centre", "OPEN THE CIVILIAN CELLS."),
-        (6, GUREN, "lower centre-left", "WE'RE LEAVING FOR OTO.")),
+        (6, GUREN, "lower centre-left", "WE'RE LEAVING FOR OTO."))
+  + "THERE IS EXACTLY ONE LIGHT-BLUE-HAIRED WOMAN IN THE WORLD OF THIS PAGE AND SHE APPEARS ONCE "
+    "PER PANEL. PANEL 2 holds ONLY TWO FIGURES: the blond teen half-turned in the shadow at the "
+    "reader-LEFT, and the one light-blue-haired woman standing in the light at the reader-RIGHT. "
+    "Do NOT flank him with a second blue-haired or bare-shouldered figure, do not add a mirrored "
+    "or out-of-focus copy of her on his other side, and do not put any blurred foreground body in "
+    "the frame. The same rule holds in every other panel: one of her, never two. ",
   R("naruto_v4_armor_sword", "mob_archetypes", "env_hideout_corridor"), "high"),
 ]
 

@@ -127,7 +127,11 @@ PAGES = [
         (3, YUG, "upper left", "I LEFT OUT THE PART WHERE SOMEONE SHOULD GO WITH HIM."),
         (4, SAS16, "upper centre-right, directly above the right-side cluster", "I DON'T THINK HE WOULD HAVE AGREED."),
         (5, YUG, "upper right", "IF I HAD OFFERED, HE MIGHT HAVE."),
-        (6, YUG, "upper centre, directly above her", "HE NEEDS SOMEONE AT HIS SIDE.")),
+        (6, YUG, "upper centre, directly above her", "HE NEEDS SOMEONE AT HIS SIDE."))
+  + "The PANEL 5 balloon reads exactly \"IF I HAD OFFERED, HE MIGHT HAVE.\" with OFFERED spelled "
+    "O-F-F-E-R-E-D — one letter O, then two letter F's, then E-R-E-D. It is never OFEERED, OFERED "
+    "or OFFEERED. Letter every balloon on this page once, with no doubled, ghosted or overprinted "
+    "text and no invented or dropped letters inside any word. ",
   R("jiraiya", "kakashi", "sasuke_16", "yugao_v4", "env_mizukage_tower"),
   "high"),
 
@@ -162,7 +166,17 @@ PAGES = [
         (3, YUG, "upper right", "HE IS RECKLESS WHEN HE CHARGES AN OPPONENT."),
         (4, SAS16, "upper right", "YOU SAID HE WAS STRONGER THAN JIRAIYA-SAMA."),
         (5, SAS16, "upper left", "I DOUBT ANYTHING WILL HAPPEN TO HIM."),
-        (6, SAGE, "upper right", "COME ON. LET'S GO HOME.")),
+        (6, SAGE, "upper right", "COME ON. LET'S GO HOME."))
+  + "EVERY balloon on this page carries a visible tail that reaches its named speaker's mouth; "
+    "not one of them is tail-less. The PANEL 3 balloon \"HE IS RECKLESS WHEN HE CHARGES AN "
+    "OPPONENT.\" is spoken by the purple-haired kunoichi at PANEL-LEFT, so its tail runs down and "
+    "LEFT to HER mouth. It must not touch, overlap or point into the soft desaturated remembered "
+    "battlefield fragment in the upper background — the blond teen inside that memory image is a "
+    "picture, not a speaker, and no balloon on this page may tail to him. The PANEL 6 balloon "
+    "\"COME ON. LET'S GO HOME.\" is spoken by the BIG WHITE-HAIRED MAN WITH THE ENORMOUS SPIKY "
+    "WHITE MANE AND THE TWO RED FACE LINES: draw a tail that travels all the way to HIS mouth, "
+    "however far across the panel he stands, and never a stub ending on the masked silver-haired "
+    "man or on anyone else who happens to be nearer the balloon. ",
   R("kakashi", "yugao_v4", "sasuke_16", "jiraiya", "naruto_v4_armor", "env_mizukage_tower"),
   "low"),
 
@@ -259,7 +273,16 @@ PAGES = [
   "reading direction; he is on the LEFT. Restrained and quiet: no embrace, no body contact, no "
   "sexualized framing. " + L_GATE
   + SAY((1, MEI, "upper right", "WHEN WILL YOU RETURN?"),
-        (2, BOY16, "upper left", "I HAVE NO PLANS TO RETURN HERE.")),
+        (2, BOY16, "upper left", "I HAVE NO PLANS TO RETURN HERE."))
+  + "PANEL 5 IS THE FOCAL PANEL AND ITS DISTANCE IS FIXED: the two heads FILL the panel in tight "
+    "profile and their faces are ALMOST TOUCHING — her lips are one breath, a centimetre or two, "
+    "from his and have NOT made contact. Their noses nearly meet and their profiles overlap at "
+    "the edges of the frame. This is an extreme close-up of two faces, not a shot of two people "
+    "standing apart: there is NO street between them, NO gap wide enough to see through, and the "
+    "village gate, the road, the mist bank and every piece of background architecture are "
+    "completely OUT OF FRAME behind their heads. The distance across the chapter only ever "
+    "closes: page 5 ended one inch apart, this panel is a breath apart, and page 7 is contact. "
+    "Never re-open the gap. ",
   R("naruto_v4_armor_sword", "mei_v4", "env_kiri_mist_gate"),
   "low"),
 
@@ -333,7 +356,13 @@ PAGES = [
   "nearest object to him; BEHIND it, resting separately and both FULLY VISIBLE, are the plain "
   "straight sash sword and the dark purple gunbai. None of the three silhouettes overlaps another "
   "or overlaps him. The plant creature stays partially merged into another trunk at the FAR RIGHT, "
-  "watching the road. There is no campfire, no lamp and no signpost. " + L_NIGHT,
+  "watching the road. There is no campfire, no lamp and no signpost. " + L_NIGHT
+  + "PANEL 2 AND PANEL 3 ARE CAUSE AND EFFECT AND MUST NOT BE SWAPPED. In the upper-middle row "
+    "PANEL 2 — the plant creature rising out of the bare earth ahead of the still-alone armoured "
+    "teen — is the RIGHT-hand panel and is read FIRST. PANEL 3 — the two of them already walking "
+    "together side by side — is the LEFT-hand panel of that same row and is read SECOND. The "
+    "creature is never already walking beside him in a panel that sits to the right of the panel "
+    "where it emerges from the ground. ",
   R("naruto_v4_armor_sword", "naruto_v4_black", "zetsu", "gunbai_v4", "env_wave_forest"),
   "medium"),
 
