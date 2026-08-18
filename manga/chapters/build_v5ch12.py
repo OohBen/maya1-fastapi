@@ -104,8 +104,10 @@ CAST = (
     "red Uzumaki spiral. Only the blond teen and the dark-haired teen carry the Uchiha fan crest; "
     "no other figure in the chamber, foreground or background, wears a fan crest. Every face on "
     "the page is fully drawn with eyes, nose and mouth — none is blank, featureless, smeared, "
-    "garbled or doubled, nobody has two overlapping heads, and no second face hides inside anyone's "
-    "hair. Every panel contains its described drawing; no panel is left blank, beige or unrendered. "
+    "garbled or doubled, nobody has two overlapping heads, and no second face hides inside "
+    "anyone's "
+    "hair. Every panel contains its described drawing; no panel is left blank, beige or "
+    "unrendered. "
 )
 
 DOCS = ("Every agenda sheet, statute copy and strategic map on the table carries ILLEGIBLE "
@@ -179,7 +181,8 @@ PAGES = [
   "the dark-haired teen holds the fixed mark behind his right shoulder.\n"
   "PANEL 3 (middle right): the male adviser leans forward, his glasses catching the red eyes "
   "across the table.\n"
-  "PANEL 4 (middle left): the blond teen places both forearms on the chair arms, completely still.\n"
+  "PANEL 4 (middle left): the blond teen places both forearms on the chair arms, completely "
+  "still.\n"
   "PANEL 5 (bottom band, full width): long diagonal two-shot — the blond teen at the southeast "
   "place and the blonde woman at the north head with the continuous tabletop between them; the "
   "dark-haired teen is a dark vertical behind his right shoulder. " + L_CHAMBER
@@ -219,14 +222,17 @@ PAGES = [
         (3, KOH, "upper right", "WE GAVE NO CONSENT."),
         (4, BOY16, "upper right", "SINCE WHEN DO ADVISERS SELECT CLAN HEADS?"),
         (5, HIA, "upper right", "CLAN SUCCESSION IS A CLAN MATTER."),
-        (6, BOY16, "upper right", "NOTHING HERE REQUIRES YOUR PERMISSION."))
+        (6, BOY16, "lower right of the panel, immediately ABOVE the blond teen's head at "
+            "the near southeast place", "NOTHING HERE REQUIRES YOUR PERMISSION."))
   + "The stern long-haired Hyuga clan head with the pale pupil-less eyes sits on the EAST arc at "
     "reader-RIGHT in PANELS 5 and 6 — never on the west arc, never beside the bandaged old man or "
     "the elderly female adviser, and never among the advisers in any shot. Every seated clan head "
     "has a fully drawn face with eyes, nose and mouth; none is blank, featureless or smoothed "
-    "over. In PANEL 6 the balloon \"NOTHING HERE REQUIRES YOUR PERMISSION.\" belongs to the BLOND "
-    "TEEN at the southeast place: draw a long tail across the panel to HIS mouth and never to any "
-    "clan head on the east arc.",
+    "over. In PANEL 6 the balloon \"NOTHING HERE REQUIRES YOUR PERMISSION.\" belongs to the "
+    "BLOND TEEN at the near southeast place. Place that balloon LOW IN THE PANEL, directly "
+    "above his head, and draw a SHORT tail straight down to his mouth. It must not sit up in "
+    "the top corner of the panel, and its tail must never stop in empty air over the table "
+    "or end on a clan head seated on the east arc.",
   R("naruto_v4_black", "sasuke_16", "danzo", "koharu", "hiashi",
     "env_konoha_council_chamber"), "low"),
 
@@ -235,7 +241,16 @@ PAGES = [
   + SASUKE16.format(i=4) + ENV.format(i=5)
   + ONLY(KOH, TSU, BOY16, SAS16, ATTEND) + SEATING + CAST + DOCS + BLACKFIT + EYES_N
   + EYES_S_OFF +
-  "SIX panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. This page has EXACTLY SIX panels in a two-column, three-tier grid and no seventh panel of any kind. TIER 1 holds PANEL 1 at the RIGHT and PANEL 2 at the LEFT. TIER 2 holds PANEL 3 at the RIGHT and PANEL 4 at the LEFT. TIER 3 holds PANEL 5 at the RIGHT and PANEL 6 at the LEFT. PANEL 4 is the drawn close-up of the blond teen's eyes and its balloon sits INSIDE that same panel — never in a separate strip of its own. The Hokage keeps authority over the meeting and refuses ownership of the clan.\n"
+  "SIX panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is "
+  "divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, "
+  "separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the "
+  "panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, "
+  "straddles or reaches into the tier above or below it. This page has EXACTLY SIX panels in a "
+  "two-column, three-tier grid and no seventh panel of any kind. TIER 1 holds PANEL 1 at the RIGHT "
+  "and PANEL 2 at the LEFT. TIER 2 holds PANEL 3 at the RIGHT and PANEL 4 at the LEFT. TIER 3 "
+  "holds PANEL 5 at the RIGHT and PANEL 6 at the LEFT. PANEL 4 is the drawn close-up of the blond "
+  "teen's eyes and its balloon sits INSIDE that same panel — never in a separate strip of its own. "
+  "The Hokage keeps authority over the meeting and refuses ownership of the clan.\n"
   "PANEL 1 (top right): the elderly female adviser turns north from the west arc toward the north "
   "head, presenting her back to the southeast place.\n"
   "PANEL 2 (top left): the blonde woman front-on, hands folded over an illegibly marked agenda.\n"
@@ -268,13 +283,24 @@ PAGES = [
   + SHIKAKU.format(i=4) + SASUKE16.format(i=5) + ENV.format(i=6)
   + ONLY(HAWK, HOM, BOY16, SHIK, SAS16, ATTEND) + SEATING + CAST + DOCS + BLACKFIT + EYES_N
   + EYES_S_OFF +
-  "SIX panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width. TIER 2 holds PANEL 2 at the RIGHT, PANEL 3 in the CENTRE and PANEL 4 at the LEFT. TIER 3, the bottom tier, holds PANEL 5 at the RIGHT and PANEL 6 at the LEFT, both wholly below tier 2. The demand for his training history is forced into the open as a security claim.\n"
+  "SIX panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is "
+  "divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, "
+  "separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the "
+  "panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, "
+  "straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width. TIER "
+  "2 holds PANEL 2 at the RIGHT, PANEL 3 in the CENTRE and PANEL 4 at the LEFT. TIER 3, the bottom "
+  "tier, holds PANEL 5 at the RIGHT and PANEL 6 at the LEFT, both wholly below tier 2. The demand "
+  "for his training history is forced into the open as a security claim.\n"
   "PANEL 1 (top band, full width): the bandaged old man's HAND taps the first item on the "
   "illegible agenda sheet already lying before him on the west arc; his face and mouth are outside "
   "this frame and nothing moves across the table.\n"
-  "PANEL 2 (tier 2, RIGHT): the male adviser raises ONE finger — the first of three points, a single finger up and no others.\n"
-  "PANEL 3 (tier 2, CENTRE): the same angle a moment later — a SECOND finger joins the first, TWO fingers now raised.\n"
-  "PANEL 4 (tier 2, LEFT): the same angle again — a THIRD finger joins them, THREE fingers now raised and pointing across the table. The count rises one, two, three with the reading order and never counts down.\n"
+  "PANEL 2 (tier 2, RIGHT): the male adviser raises ONE finger — the first of three points, a "
+  "single finger up and no others.\n"
+  "PANEL 3 (tier 2, CENTRE): the same angle a moment later — a SECOND finger joins the first, TWO "
+  "fingers now raised.\n"
+  "PANEL 4 (tier 2, LEFT): the same angle again — a THIRD finger joins them, THREE fingers now "
+  "raised and pointing across the table. The count rises one, two, three with the reading order "
+  "and never counts down.\n"
   "PANEL 5 (bottom right): the blond teen answers from the southeast seat without touching any "
   "document.\n"
   "PANEL 6 (bottom left): the man with the long pineapple ponytail props one elbow on the northern "
@@ -311,20 +337,25 @@ PAGES = [
   "old man a blurred vertical behind them. The blond teen is NOT drawn in this panel.\n"
   "PANEL 6 (bottom band, full width): long south-side master-axis view angled slightly upward "
   "toward the blonde woman at the far north head; the blond teen holds the near southeast place "
-  "with the dark-haired teen behind his right shoulder, advisers west at reader-left and clan heads "
+  "with the dark-haired teen behind his right shoulder, advisers west at reader-left and clan "
+  "heads "
   "east at reader-right, with no mirrored side. His distant mouth stays visible. " + L_CHAMBER
   + SAY((1, HAWK, "upper right", "VILLAGE SECURITY."),
         (2, SHIK, "upper right", "THEN THE HOKAGE'S FINDING MATTERS."),
         (3, KOH, "upper right", "THE VILLAGE MUST CONTROL ITS SHINOBI."),
         (4, BOY16, "upper right", "THE VILLAGE HAS A HOKAGE."),
         (5, OFF(BOY16), "upper right", "YOU SPEAK AS IF HER SHINOBI ARE YOURS."),
-        (6, BOY16, "upper right", "WHICH PART OF THIS IS ADVICE?"))
+        (6, BOY16, "lower right of the panel, immediately ABOVE the blond teen's head at "
+            "the near southeast place", "WHICH PART OF THIS IS ADVICE?"))
   + "In PANEL 5 the blond teen is NOT drawn, so \"YOU SPEAK AS IF HER SHINOBI ARE YOURS.\" is an "
     "off-panel balloon whose short spur runs UP to the TOP panel border and stops on the border "
     "line, pointing out of the panel; it must never touch or aim down at the male or female "
-    "adviser drawn inside it. In PANEL 6 \"WHICH PART OF THIS IS ADVICE?\" belongs to the BLOND "
-    "TEEN at the near southeast place and its tail reaches HIS visible mouth, never the "
-    "dark-haired teen behind his shoulder. The east arc in PANEL 6 holds individually distinct "
+    "adviser drawn inside it. In PANEL 6 \"WHICH PART OF THIS IS ADVICE?\" belongs to the "
+    "BLOND TEEN at the near southeast place. Place that balloon LOW IN THE PANEL, directly "
+    "above his head, with a SHORT tail running straight down to his visible mouth. It must "
+    "not sit up in the top corner of the panel, and its tail must never end on a clan head "
+    "seated on the east arc or on the dark-haired teen behind his shoulder. The east arc in PANEL "
+    "6 holds individually distinct "
     "clan heads in clan robes, including the stern long-haired Hyuga clan head and the man with "
     "the long pineapple ponytail — never four identical ninja in matching green flak vests.",
   R("danzo", "shikaku", "koharu", "homura", "naruto_v4_black", "tsunade", "sasuke_16",
@@ -355,9 +386,13 @@ PAGES = [
   + "Every balloon is lettered in SOLID BLACK at full weight on EVERY line: no line is drawn "
     "faded, grey, hollow or outline-only, and \"UNACCOUNTED POWER IS A THREAT.\" is fully inked "
     "across all of its lines. In PANEL 1 the table is ONE continuous unbroken oval with a single "
-    "smooth rim, never split into separate slabs or disjointed sections. Only the blond teen and "
-    "the dark-haired teen wear the Uchiha fan crest; no extra figure stands in the foreground "
-    "with a fan crest on his back, and nobody else in the chamber carries that crest at all.",
+    "smooth rim, never split into separate slabs or disjointed sections. EXACTLY TWO PEOPLE "
+    "occupy the near southeast place in PANEL 1: ONE blond teen seated in the carved Uchiha "
+    "chair and ONE dark-haired teen standing behind his right shoulder. There is no second "
+    "blond head, no second black shirt with a red Uzumaki spiral, and no third figure of any "
+    "kind in that corner of the room. Only those two wear the Uchiha fan crest; no extra "
+    "figure stands in the foreground with a fan crest on his back, and nobody else in the "
+    "chamber carries that crest at all.",
   R("homura", "sasuke_16", "naruto_v4_black", "danzo", "tsunade",
     "env_konoha_council_chamber"), "low"),
 
@@ -495,7 +530,8 @@ PAGES = [
   FILL + RTL + HIASHI.format(i=1) + N16_BLACK.format(i=2) + DAN.format(i=3)
   + TSUNADE.format(i=4) + SASUKE16.format(i=5) + ENV.format(i=6)
   + ONLY(HIA, BOY16, HAWK, TSU, SAS16, ATTEND) + SEATING + CAST + DOCS + BLACKFIT + EYES_N + EYES_S_ON +
-  "FOUR panels. He accepts that the clan must survive and refuses council ownership of the method.\n"
+  "FOUR panels. He accepts that the clan must survive and refuses council ownership of the "
+  "method.\n"
   "PANEL 1 (top right): the stern long-haired clan head stays formal on the east arc, pale gaze on "
   "the southeast place.\n"
   "PANEL 2 (top left): the blond teen's hand rests on the carved Uchiha chair arm, his face and "
@@ -503,18 +539,22 @@ PAGES = [
   "PANEL 3 (middle right): the bandaged old man closes his hand over his own copy of the statute "
   "without moving it from the west arc.\n"
   "PANEL 4 (bottom band, full width): the blond teen turns his eyes north-north-west toward the "
-  "north head; the east-arc clan heads and west-arc advisers follow that new diagonal a beat later, "
+  "north head; the east-arc clan heads and west-arc advisers follow that new diagonal a beat "
+  "later, "
   "seen mostly from behind. The dark-haired teen holds his mark with red eyes. " + L_CHAMBER
   + SAY((1, HIA, "upper right", "A CLAN HEAD CANNOT IGNORE EXTINCTION."),
         (2, BOY16, "upper right", "I AM NOT IGNORING IT."),
         (2, BOY16, "upper left", "I AM REFUSING YOUR OWNERSHIP OF THE ANSWER."),
         (3, HAWK, "upper right", "THEN OFFER SECURITY THIS COUNCIL CAN ENFORCE."),
-        (4, BOY16, "upper right", "APPLY YOUR PRECEDENT CONSISTENTLY."))
+        (4, BOY16, "lower centre of the panel, immediately ABOVE the blond teen's head at "
+            "the near southeast place", "APPLY YOUR PRECEDENT CONSISTENTLY."))
   + "In EVERY panel where the blond teen's eye is visible, including the PANEL 2 view of his face "
     "above the carved chair arm, his visible left eye is the RED ordinary three-tomoe Sharingan — "
     "never plain blue, never grey, never a dark eye. In PANEL 4 \"APPLY YOUR PRECEDENT "
-    "CONSISTENTLY.\" belongs to the BLOND TEEN and its tail reaches his mouth, never the "
-    "dark-haired teen standing behind his right shoulder.",
+    "CONSISTENTLY.\" belongs to the BLOND TEEN at the near southeast place. Place that "
+    "balloon LOW IN THE PANEL, directly above his head, with a SHORT tail running straight "
+    "down to his mouth. It must not sit up in the top corner, and its tail must never end on "
+    "the dark-haired teen behind his right shoulder or on a clan head on the east arc.",
   R("hiashi", "naruto_v4_black", "danzo", "tsunade", "sasuke_16",
     "env_konoha_council_chamber"), "low"),
 
@@ -525,7 +565,13 @@ PAGES = [
          "the west-arc advisers and east-arc clan heads seen from behind or in lost profile, none "
          "of them individually recognisable", ATTEND)
   + SEATING + CAST + DOCS + BLACKFIT + EYES_N + EYES_S_ON +
-  "FOUR panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width. TIER 2 holds PANEL 2 at the RIGHT and PANEL 3 at the LEFT. TIER 3 is PANEL 4 alone, full width. The Act's own principle is made to touch the last member of the other founding "
+  "FOUR panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page "
+  "is divided into horizontal TIERS that each run the full width of the paper, stacked top to "
+  "bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier "
+  "the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, "
+  "straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width. TIER "
+  "2 holds PANEL 2 at the RIGHT and PANEL 3 at the LEFT. TIER 3 is PANEL 4 alone, full width. The "
+  "Act's own principle is made to touch the last member of the other founding "
   "clan.\n"
   "PANEL 1 (top band, full width): long diagonal from BEHIND the blond teen at the southeast place "
   "to the blonde woman at the north head; his head and shoulders are seen from the back and his "
@@ -600,11 +646,20 @@ PAGES = [
   FILL + RTL + DAN.format(i=1) + N16_BLACK.format(i=2) + HOMURA.format(i=3)
   + SASUKE16.format(i=4) + TSUNADE.format(i=5) + ENV.format(i=6)
   + ONLY(HAWK, BOY16, HOM, SAS16, TSU, ATTEND) + SEATING + CAST + DOCS + BLACKFIT + EYES_N + EYES_S_ON +
-  "FOUR panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. TIER 1 holds PANEL 1 at the RIGHT and PANEL 2 at the LEFT, side by side and the same height. TIER 2 is PANEL 3 alone, spanning the FULL WIDTH of the page beneath both of them. TIER 3 is PANEL 4 alone, full width. The page is never built as two vertical columns, and PANEL 3 never sits in a right-hand column directly under PANEL 1. The limit is named: a delay, not immunity.\n"
+  "FOUR panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page "
+  "is divided into horizontal TIERS that each run the full width of the paper, stacked top to "
+  "bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier "
+  "the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, "
+  "straddles or reaches into the tier above or below it. TIER 1 holds PANEL 1 at the RIGHT and "
+  "PANEL 2 at the LEFT, side by side and the same height. TIER 2 is PANEL 3 alone, spanning the "
+  "FULL WIDTH of the page beneath both of them. TIER 3 is PANEL 4 alone, full width. The page is "
+  "never built as two vertical columns, and PANEL 3 never sits in a right-hand column directly "
+  "under PANEL 1. The limit is named: a delay, not immunity.\n"
   "PANEL 1 (top right): the bandaged old man keeps his own statute copy beneath one hand on the "
   "west arc.\n"
   "PANEL 2 (top left): the blond teen meets his screen-left gaze.\n"
-  "PANEL 3 (tier 2, a FULL-WIDTH band beneath panels 1 and 2): the male adviser touches the edge of the west-arc copy from his seat, the clear tabletop running away to either side of him.\n"
+  "PANEL 3 (tier 2, a FULL-WIDTH band beneath panels 1 and 2): the male adviser touches the edge "
+  "of the west-arc copy from his seat, the clear tabletop running away to either side of him.\n"
   "PANEL 4 (bottom band, full width): the blond teen keeps both the adviser arc and the clan-head "
   "arc in view without turning his chair; the bandaged old man's mouth stays visible on the west "
   "arc and the dark-haired teen holds his mark behind the right shoulder. " + L_CHAMBER
@@ -631,8 +686,10 @@ PAGES = [
   + SEATING + CAST + DOCS + BLACKFIT + EYES_N + EYES_S_ON +
   "FOUR panels. He takes ownership of his own separate answer.\n"
   "PANEL 1 (top band, full width): the blond teen lifts two fingers toward his right without "
-  "looking back; the dark-haired teen steps from behind his right shoulder AROUND THAT SAME SIDE to "
-  "the outer southeast rim beside the chair. He never enters the table's interior and never crosses "
+  "looking back; the dark-haired teen steps from behind his right shoulder AROUND THAT SAME SIDE "
+  "to "
+  "the outer southeast rim beside the chair. He never enters the table's interior and never "
+  "crosses "
   "the blond teen's back.\n"
   "PANEL 2 (middle right): the dark-haired teen faces north-west toward the adviser arc, his "
   "Sharingan hard but controlled.\n"
@@ -644,16 +701,21 @@ PAGES = [
         (2, SAS16, "upper right", "OUR ANSWERS DIFFER."),
         (2, SAS16, "upper left", "I WILL NOT BE COMPELLED INTO THE ACT."),
         (3, OFF(SAS16), "upper right", "I EXPECT TO MARRY BEFORE EIGHTEEN—VOLUNTARILY."),
-        (4, SAS16, "upper right", "YOU WILL NOT CHOOSE HER."),
-        (4, SAS16, "upper left", "AND YOU WILL NOT TREAT MY CHILDREN AS WEAPONS."))
+        (4, SAS16, "upper right beside the dark-haired teen on the outer southeast rim, as "
+            "the HIGHEST balloon in this panel", "YOU WILL NOT CHOOSE HER."),
+        (4, SAS16, "directly BELOW the other balloon and still on the RIGHT of the panel "
+            "beside the dark-haired teen", "AND YOU WILL NOT TREAT MY CHILDREN AS WEAPONS."))
   + "In PANEL 3 the dark-haired teen is NOT drawn, so \"I EXPECT TO MARRY BEFORE "
     "EIGHTEEN—VOLUNTARILY.\" is an off-panel balloon whose short spur runs to the nearest panel "
     "BORDER and stops on the border line; it must never touch, cross or aim at the bandaged old "
     "man's face, which is the only face in that panel. In PANEL 1 \"SASUKE.\" is spoken by the "
     "BLOND TEEN and its tail reaches HIS mouth, never the dark-haired teen he is calling. In "
     "PANEL 4 BOTH balloons belong to the DARK-HAIRED teen standing at the blond teen's right "
-    "side: each tail reaches HIS mouth and neither runs across the oval to the advisers on the "
-    "west arc.",
+    "side, so BOTH sit on the RIGHT of the panel beside him and are stacked by HEIGHT: "
+    "\"YOU WILL NOT CHOOSE HER.\" is the higher and is read first, and \"AND YOU WILL "
+    "NOT TREAT MY CHILDREN AS WEAPONS.\" sits directly below it. Each carries a SHORT tail "
+    "down to his mouth. Neither balloon is placed on the left of the panel and neither tail "
+    "runs across the oval toward the advisers on the west arc.",
   R("naruto_v4_black", "sasuke_16", "danzo", "tsunade",
     "env_konoha_council_chamber"), "medium"),
 
@@ -692,7 +754,13 @@ PAGES = [
          "the west-arc advisers seen from behind or in lost profile, never individually "
          "recognisable", ATTEND)
   + SEATING + CAST + DOCS + BLACKFIT + EYES_N + EYES_S_ON +
-  "FOUR panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width. TIER 2 holds PANEL 2 at the RIGHT and PANEL 3 at the LEFT, side by side and the same height. TIER 3 is PANEL 4 alone, full width. The ruling closes the present proposal only.\n"
+  "FOUR panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page "
+  "is divided into horizontal TIERS that each run the full width of the paper, stacked top to "
+  "bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier "
+  "the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, "
+  "straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width. TIER "
+  "2 holds PANEL 2 at the RIGHT and PANEL 3 at the LEFT, side by side and the same height. TIER 3 "
+  "is PANEL 4 alone, full width. The ruling closes the present proposal only.\n"
   "PANEL 1 (top band, full width): the blonde woman rises at the north head, the tallest figure in "
   "the chamber for the first time.\n"
   "PANEL 2 (middle right): the blond teen stays seated beside his untouched section of the statute "
@@ -724,10 +792,12 @@ PAGES = [
   "PANEL 1 (top right): the bandaged old man closes ONLY his own copy of the statute on the west "
   "arc; his hands touch no other document.\n"
   "PANEL 2 (top left): the dark-haired teen retraces the same short path around the blond teen's "
-  "right side to the mark behind his right shoulder, and his Sharingan DEACTIVATES to ordinary dark "
+  "right side to the mark behind his right shoulder, and his Sharingan DEACTIVATES to ordinary "
+  "dark "
   "eyes in this panel.\n"
   "PANEL 3 (bottom band, full width, dominant): master of the unchanged continuous oval — the "
-  "blonde woman north, the three advisers west at reader-left, the clan heads east at reader-right, "
+  "blonde woman north, the three advisers west at reader-left, the clan heads east at "
+  "reader-right, "
   "the blond teen at the southeast place facing north-west and the dark-haired teen behind his "
   "right shoulder with ordinary dark eyes. Nobody moves a folder or a paper. " + L_CHAMBER
   + SAY((1, HAWK, "upper right", "THE STATUTE REMAINS WHEN NARUTO TURNS EIGHTEEN."),

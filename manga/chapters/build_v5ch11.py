@@ -50,7 +50,8 @@ BLACKFIT = ("He wears the fitted long-sleeved black shirt carrying BOTH the Uchi
             "forehead protector and no gunbai on his body. ")
 ROOM = ("Karin's sitting room keeps ONE unbroken 180-degree axis on every page: the entrance and "
         "its floor seal array at frame RIGHT, the couch at frame LEFT, the low table between them, "
-        "the red-haired girl on the left side, the dark-haired teen on the right side and the blond "
+        "the red-haired girl on the left side, the dark-haired teen on the right side and the "
+        "blond "
         "teen at the far centre beyond the table. The axis is never mirrored. ")
 TABLE = ("The Uchiha kitchen table is one long horizontal axis: the dark-haired teen on frame LEFT "
          "with tea and a closed book, the blond teen on frame RIGHT. The axis is never mirrored. ")
@@ -81,7 +82,15 @@ PAGES = [
  ("p01", dict(scene="dialogue", light="dusk", cast="two", mood="calm", panels=5),
   FILL + RTL + N16_ARMOR.format(i=1) + SASUKE16.format(i=2) + ENV.format(i=3)
   + ONLY(BOY16, SAS16) + ARMOUR +
-  "FIVE panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width, across the top of the page. TIER 2 holds PANEL 2 in its RIGHT half and PANEL 3 in its LEFT half. TIER 3, the bottom tier, holds PANEL 4 in its RIGHT half and PANEL 5 in its LEFT half. PANEL 4 therefore sits BELOW panels 2 and 3, never beside or above them. Image 3 supplies Uchiha architecture, palette and crest motifs only; this page is "
+  "FIVE panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page "
+  "is divided into horizontal TIERS that each run the full width of the paper, stacked top to "
+  "bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier "
+  "the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, "
+  "straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width, "
+  "across the top of the page. TIER 2 holds PANEL 2 in its RIGHT half and PANEL 3 in its LEFT "
+  "half. TIER 3, the bottom tier, holds PANEL 4 in its RIGHT half and PANEL 5 in its LEFT half. "
+  "PANEL 4 therefore sits BELOW panels 2 and 3, never beside or above them. Image 3 supplies "
+  "Uchiha architecture, palette and crest motifs only; this page is "
   "an INTERIOR sitting room in that compound, not a street.\n"
   "PANEL 1 (top band, full width): wide evening interior — the dark-haired teen sits at frame left "
   "with an open book; the blond teen stands at frame right in red armour just inside the garden "
@@ -118,6 +127,14 @@ PAGES = [
   FILL + RTL + N16_ARMOR.format(i=1) + SASUKE16.format(i=2) + KARIN.format(i=3) + ENV.format(i=4)
   + ONLY(BOY16, SAS16, KAR) + ARMOUR + ROOM +
   "FIVE panels. The trust triangle is established and the room is proved secure.\n"
+  "PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. Three horizontal "
+  "tiers, each running the full width of the paper and separated by an unbroken horizontal "
+  "gutter; inside a tier the panels read RIGHT TO LEFT. TIER 1 is PANEL 1 alone, full width. "
+  "TIER 2 holds PANEL 2 — the medium three-shot in which the blond teen names them both — "
+  "TOUCHING THE PAGE'S RIGHT MARGIN, and PANEL 3 — the close on the seated dark-haired teen "
+  "— TOUCHING THE PAGE'S LEFT MARGIN. The three-shot is the right-hand panel of that tier "
+  "and the single close-up is the left-hand one, never the other way round. TIER 3 holds "
+  "PANEL 4 at the RIGHT and PANEL 5 at the LEFT.\n"
   "PANEL 1 (top band, full width): wide reveal — the red-haired girl sits frame left on the couch, "
   "bored, as orange-red flame leaves the blond teen and the dark-haired teen standing on the entry "
   "seal at frame right. He faces left; she faces right; the dark-haired teen stands half a step "
@@ -131,7 +148,8 @@ PAGES = [
   "the back centre; she looks up-right at him from foreground left; the dark-haired teen looks "
   "up-left at him from foreground right. His hands rest on the chair between them, joining the two "
   "without touching either.\n"
-  "PANEL 5 (bottom left, narrow vertical): the dark-haired teen's eye tracks the visible seal lines "
+  "PANEL 5 (bottom left, narrow vertical): the dark-haired teen's eye tracks the visible seal "
+  "lines "
   "around the window; the blond teen is in three-quarter profile at frame right with his mouth "
   "clearly visible, looking the same way. " + L_SEALED
   + SAY((1, KAR, "upper right", "YOU COULD KNOCK."),
@@ -213,11 +231,16 @@ PAGES = [
         (5, SAS16, "upper right", "ARE WE WRONG?"),
         (6, BOY16, "upper right", "I DON'T TAKE WHAT ISN'T MINE."),
         (6, BOY16, "upper left", "WHAT BELONGS TO THE CLAN COMES BACK—LAWFULLY OR OTHERWISE."),
-        (7, KAR, "upper right", "AND AFTER THE SCROLLS?"),
-        (7, SAS16, "upper left", "WE RESTORE THE CLAN."))
-  + TAILS + "In PANEL 7 the balloon \"AND AFTER THE SCROLLS?\" is the RIGHTMOST balloon and \"WE RESTORE "
-    "THE CLAN.\" sits to its LEFT, so the red-haired girl's question is read before the "
-    "dark-haired teen's answer. In PANEL 6 the second balloon reads exactly \"WHAT BELONGS TO THE "
+        (7, KAR, "very top of the panel above the red-haired girl at frame left, as the "
+            "HIGHEST balloon in this panel", "AND AFTER THE SCROLLS?"),
+        (7, SAS16, "lower right, clearly BELOW the other balloon, beside the dark-haired "
+            "teen at frame right", "WE RESTORE THE CLAN."))
+  + TAILS + "PANEL 7's two balloons are stacked by HEIGHT, not placed side by side. \"AND AFTER THE "
+    "SCROLLS?\" is the HIGHEST balloon in the panel, at its very top above the red-haired "
+    "girl, and \"WE RESTORE THE CLAN.\" sits clearly LOWER, below the first "
+    "balloon's bottom edge, beside the dark-haired teen. The higher balloon is read first, "
+    "so the question always precedes the answer; the answer never sits above it or level "
+    "with it. In PANEL 6 the second balloon reads exactly \"WHAT BELONGS TO THE "
     "CLAN COMES BACK — LAWFULLY OR OTHERWISE.\" with ONE single long dash between BACK and "
     "LAWFULLY: never a run of two or three hyphens, never \"BACK---LAWFULLY\", and never a hyphen "
     "breaking a word across lines.",
@@ -261,7 +284,15 @@ PAGES = [
  ("p06", dict(scene="emotional_closeup", light="day", cast="small_group", mood="calm", panels=8),
   FILL + RTL + N16_ARMOR.format(i=1) + SASUKE16.format(i=2) + KARIN.format(i=3) + ENV.format(i=4)
   + ONLY(BOY16, SAS16, KAR) + ARMOUR + ROOM +
-  "EIGHT panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. TIER 1 holds PANEL 1 at the RIGHT and PANEL 2 at the LEFT. TIER 2 is PANEL 3 alone, full width. TIER 3 holds PANEL 4 at the RIGHT and PANEL 5 at the LEFT. TIER 4, the bottom tier, holds PANEL 6 at the RIGHT, PANEL 7 in the CENTRE and PANEL 8 at the LEFT. Panels 6, 7 and 8 all sit BELOW panels 4 and 5. Humour exposes how new their cooperation is; it must never read as childhood "
+  "EIGHT panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page "
+  "is divided into horizontal TIERS that each run the full width of the paper, stacked top to "
+  "bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier "
+  "the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, "
+  "straddles or reaches into the tier above or below it. TIER 1 holds PANEL 1 at the RIGHT and "
+  "PANEL 2 at the LEFT. TIER 2 is PANEL 3 alone, full width. TIER 3 holds PANEL 4 at the RIGHT and "
+  "PANEL 5 at the LEFT. TIER 4, the bottom tier, holds PANEL 6 at the RIGHT, PANEL 7 in the CENTRE "
+  "and PANEL 8 at the LEFT. Panels 6, 7 and 8 all sit BELOW panels 4 and 5. Humour exposes how new "
+  "their cooperation is; it must never read as childhood "
   "friendship.\n"
   "PANEL 1 (top right, square): close on the red-haired girl looking left.\n"
   "PANEL 2 (top left, square): close on the dark-haired teen looking right, flat and immediate.\n"
@@ -329,6 +360,15 @@ PAGES = [
   FILL + RTL + N16_ARMOR.format(i=1) + SASUKE16.format(i=2) + KARIN.format(i=3) + ENV.format(i=4)
   + ONLY(BOY16, SAS16, KAR) + ARMOUR + ROOM +
   "SEVEN panels. The institution belongs to the dark-haired teen; the blond teen supports it.\n"
+  "PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. Three horizontal "
+  "tiers, each full width and separated by an unbroken horizontal gutter; inside a tier the "
+  "panels read RIGHT TO LEFT. TIER 1 is PANEL 1 alone, full width. TIER 2 holds PANEL 2 "
+  "TOUCHING THE PAGE'S RIGHT MARGIN, PANEL 3 in the centre and PANEL 4 TOUCHING THE PAGE'S "
+  "LEFT MARGIN. TIER 3 holds PANEL 5 — the single close on the blond teen — TOUCHING THE "
+  "PAGE'S RIGHT MARGIN, PANEL 6 — the high two-shot over the small table — in the CENTRE, "
+  "and PANEL 7 TOUCHING THE PAGE'S LEFT MARGIN. The panel carrying \"WITH THE COUNCIL. "
+  "INTELLIGENCE. TRAINING.\" is the RIGHT-HAND panel of the bottom tier and the high "
+  "two-shot is to its LEFT, never the reverse.\n"
   "PANEL 1 (top band, full width): low two-shot — the dark-haired teen sits frame left and the "
   "blond teen frame right with the returned clan scroll between them; their eye-lines meet at the "
   "centre.\n"
@@ -390,7 +430,15 @@ PAGES = [
  ("p10", dict(scene="dialogue", light="dark", cast="small_group", mood="calm", panels=7),
   FILL + RTL + N16_ARMOR.format(i=1) + SASUKE16.format(i=2) + YUGAO_V4.format(i=3) + ENV.format(i=4)
   + ONLY(BOY16, SAS16, YUG) + ARMOUR +
-  "SEVEN panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width. TIER 2 holds PANEL 2 at the RIGHT, PANEL 3 in the CENTRE and PANEL 4 at the LEFT. TIER 3, the bottom tier, holds PANEL 5 at the RIGHT, PANEL 6 in the CENTRE and PANEL 7 at the LEFT. Panel 5 sits BELOW panel 4, never beside it. Image 4 supplies Uchiha architecture and palette; the scene plays at the house "
+  "SEVEN panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page "
+  "is divided into horizontal TIERS that each run the full width of the paper, stacked top to "
+  "bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier "
+  "the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, "
+  "straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width. TIER "
+  "2 holds PANEL 2 at the RIGHT, PANEL 3 in the CENTRE and PANEL 4 at the LEFT. TIER 3, the bottom "
+  "tier, holds PANEL 5 at the RIGHT, PANEL 6 in the CENTRE and PANEL 7 at the LEFT. Panel 5 sits "
+  "BELOW panel 4, never beside it. Image 4 supplies Uchiha architecture and palette; the scene "
+  "plays at the house "
   "door of that compound at night.\n"
   "PANEL 1 (top band, full width): night exterior — the purple-haired kunoichi stands frame right "
   "at the Uchiha house door, the empty compound receding left. Keep the upper right quiet for the "
@@ -419,7 +467,11 @@ PAGES = [
         (7, SAS16, "upper right", "A DATE?"),
         (7, BOY16, "upper left", "PERHAPS."))
   + SFX(1, "KNOCK", "Small, at the lower left beside her knuckles; it must not cover her face.")
-  + TAILS + "In PANEL 6 the two balloons must not exchange speakers: \"YES.\" is the BLOND TEEN's and its "
+  + TAILS + "EVERY SCRIPTED BALLOON MUST APPEAR. PANEL 7 carries BOTH \"A DATE?\" and "
+    "\"PERHAPS.\" — \"A DATE?\" at the upper right beside the dark-haired teen and "
+    "\"PERHAPS.\" to its LEFT beside the blond teen — and neither may be omitted. The "
+    "sound effect is spelled exactly K-N-O-C-K, five letters, with no doubled letter. "
+    "In PANEL 6 the two balloons must not exchange speakers: \"YES.\" is the BLOND TEEN's and its "
     "tail ends at his mouth, and \"PLEASE DON'T WEAR THE ARMOUR.\" is the PURPLE-HAIRED "
     "KUNOICHI's and its tail ends at hers. PANEL 4 closes the MIDDLE row at reader-LEFT and PANEL "
     "5 opens the BOTTOM row at reader-RIGHT, wholly below it, so the blond teen's \"IT'S GOOD TO "
@@ -433,7 +485,18 @@ PAGES = [
   + ONLY(HAWK, KOH, HOM,
          "two distant masked Root guards at the rear wall in plain featureless white oval masks, "
          "never unmasked and never individually recognisable") +
-  "SIX panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width. TIER 2 holds PANEL 2 at the RIGHT and PANEL 3 at the LEFT. TIER 3, the bottom tier, holds PANEL 4 at the RIGHT, PANEL 5 in the CENTRE and PANEL 6 at the LEFT. Panel 4 sits BELOW panel 3, never beside it. A deep underground Root chamber holds a rigid triangle: the bandaged old man "
+  "SIX panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is "
+  "divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, "
+  "separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the "
+  "panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, "
+  "straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width. TIER "
+  "2 holds PANEL 2 at the RIGHT and PANEL 3 at the LEFT. TIER 3, the bottom tier, holds PANEL 4 — "
+  "the medium on the male adviser — TOUCHING THE PAGE'S RIGHT MARGIN, PANEL 5 — the profile of the "
+  "bandaged old man between the two low adviser silhouettes — in the CENTRE, and PANEL 6 TOUCHING "
+  "THE PAGE'S LEFT MARGIN. The panel carrying \"WITH A RED-HAIRED WOMAN.\" is the RIGHT-HAND panel "
+  "of the bottom tier and the panel carrying \"SHE WORKED UNDER OROCHIMARU.\" is to its LEFT, "
+  "never the reverse. Panel 4 sits BELOW panel 3, never beside it. A deep underground Root chamber "
+  "holds a rigid triangle: the bandaged old man "
   "elevated at the far centre, the elderly female adviser entering from frame right, the elderly "
   "male adviser from frame left. No Root agent stands close enough to imply a specific operation, "
   "and NO object, gesture or document hints at any method.\n"
@@ -490,16 +553,21 @@ PAGES = [
         (2, OFF(HAWK), "upper right", "HE EXPECTS THAT."),
         (3, HOM, "upper right", "SASUKE COULDN'T HAVE KNOWN ABOUT THE SCROLLS."),
         (4, OFF(HAWK), "upper right", "NARUTO TOLD HIM."),
-        (5, KOH, "upper right", "HE KNOWS TOO MUCH."),
-        (5, HOM, "upper left", "AND HE DOESN'T ANSWER TO US."),
+        (5, KOH, "very top of the panel above the elderly female adviser, as the HIGHEST "
+            "balloon in this panel", "HE KNOWS TOO MUCH."),
+        (5, HOM, "lower right, clearly BELOW the other balloon, beside the elderly male "
+            "adviser", "AND HE DOESN'T ANSWER TO US."),
         (6, HAWK, "upper right", "HE HAS MADE HIMSELF UNMANAGEABLE."),
         (6, OFF(KOH), "lower left", "THEN WHAT DO WE DO?"),
         (7, OFF(HAWK), "upper right", "I'VE ALREADY PREPARED A RESPONSE."))
   + TAILS + "LETTERING IS CRITICAL ON THIS PAGE: each balloon contains its words and NOTHING else. There "
     "is no extra line beneath the text, no stray dash, hyphen, underscore, dot, tick or mark of "
     "any kind inside or below any balloon, and no hyphen splitting a word across two lines. In "
-    "PANEL 5 \"HE KNOWS TOO MUCH.\" is the RIGHTMOST balloon and \"AND HE DOESN'T ANSWER TO US.\" "
-    "sits to its LEFT.",
+    "PANEL 5 the two balloons are stacked by HEIGHT, not placed side by side: \"HE KNOWS TOO "
+    "MUCH.\" is the HIGHEST balloon in the panel, at its very top above the elderly female "
+    "adviser, and \"AND HE DOESN'T ANSWER TO US.\" sits clearly LOWER, below the "
+    "first balloon's bottom edge, beside the elderly male adviser. The higher balloon is "
+    "read first; the second never sits above it or level with it.",
   R("danzo", "koharu", "homura"), "low"),
 
  # ---- Spread 7: what the schedule costs --------------------------------------------
@@ -515,7 +583,8 @@ PAGES = [
   "pale and he looks down, not at the reader. No text in this panel.\n"
   "PANEL 3 (middle band, full width): SILENT three-beat continuous motion laid out RIGHT TO LEFT "
   "across the band. The RIGHTMOST beat, at the right edge of the panel, is his hand reaching up to "
-  "the wall-mounted gunbai. The CENTRE beat is him biting his thumb. The LEFTMOST beat, at the left "
+  "the wall-mounted gunbai. The CENTRE beat is him biting his thumb. The LEFTMOST beat, at the "
+  "left "
   "edge, is the bloodied thumb pressed to the seal. Never lay these three beats out left to right "
   "and never put the pressed thumb on the right. The repeated figure must read as ONE movement in "
   "time, never as clones. No text in this panel.\n"
@@ -560,8 +629,12 @@ PAGES = [
   "bitterness and his skin tone begins to return. The plant creature is NOT drawn in this panel.\n"
   "PANEL 3 (middle right, vertical): close on his eye as the three-tomoe Sharingan resolves into "
   "focus; his eye-line turns left. Eye only — no mouth in frame.\n"
-  "PANEL 4 (middle centre, vertical): the plant creature beside the pot, looking right toward him.\n"
-  "PANEL 5 (middle left): BORDERLESS REPORT IMAGE, visualized information rather than a scene — an "
+  "PANEL 4 (middle centre, vertical): the plant creature beside the pot, looking right toward "
+  "him.\n"
+  "PANEL 5 (middle left): A BORDERLESS REPORT IMAGE. It has NO panel border, NO frame line, "
+  "NO black outline and no gutter of its own on ANY side — its edges dissolve softly into "
+  "the bare paper of the page, so it reads as visualized information and never as a live "
+  "cut to another location. Do not draw a rectangle around it. It shows an "
   "Oto meeting table seen straight on, the overseer at its head with her back three-quarters to "
   "the reader, anonymous contractors on both sides, rolled building plans between them. Nobody "
   "speaks inside the report image and all plan markings are ILLEGIBLE SCRIBBLE.\n"
@@ -591,7 +664,20 @@ PAGES = [
  ("p15", dict(scene="dialogue", light="day", cast="two", mood="calm", panels=7),
   FILL + RTL + N16_BLACK.format(i=1) + SASUKE16.format(i=2) + GUNBAI_V4.format(i=3)
   + ENV.format(i=4) + ONLY(BOY16, SAS16) + BLACKFIT + TABLE +
-  "SEVEN panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width. TIER 2 holds PANEL 2 at the RIGHT, PANEL 3 in the CENTRE and PANEL 4 at the LEFT. TIER 3, the bottom tier, holds PANEL 5 at the RIGHT, PANEL 6 in the CENTRE and PANEL 7 at the LEFT. Panels 5, 6 and 7 are each ONE TIER TALL ONLY — none of them is a tall column reaching up into tier 2 — so panel 5 sits wholly BELOW panel 4. Image 4 supplies Uchiha architecture and palette only; this is the INTERIOR "
+  "SEVEN panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page "
+  "is divided into horizontal TIERS that each run the full width of the paper, stacked top to "
+  "bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier "
+  "the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, "
+  "straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width. TIER "
+  "2 holds PANEL 2 at the RIGHT, PANEL 3 in the CENTRE and PANEL 4 at the LEFT. TIER 3, the bottom "
+  "tier, holds PANEL 5 — the small close on the blond teen asking \"WHERE IN IT?\" — TOUCHING THE "
+  "PAGE'S RIGHT MARGIN, PANEL 6 — the silent close on the dark-haired teen — in the CENTRE, and "
+  "PANEL 7 — the LARGEST panel of the tier, the high angle along the table carrying three balloons "
+  "— TOUCHING THE PAGE'S LEFT MARGIN. The large three-balloon panel is at the LEFT EDGE of the "
+  "page and is read LAST; the small \"WHERE IN IT?\" panel is at the RIGHT EDGE and is read FIRST. "
+  "Panels 5, 6 and 7 are each ONE TIER TALL ONLY — none is a tall column reaching up into tier 2 — "
+  "so panel 5 sits wholly BELOW panel 4. Image 4 supplies Uchiha architecture and palette only; "
+  "this is the INTERIOR "
   "kitchen of that house.\n"
   "PANEL 1 (top band, full width): wide kitchen — the dark-haired teen sits frame left reading "
   "with tea; the blond teen enters frame right, hair still damp; his three-quarter BACK view shows "
@@ -604,7 +690,8 @@ PAGES = [
   "dark-haired teen left, eye-lines meeting.\n"
   "PANEL 4 (middle left, small horizontal): close on the dark-haired teen, eyes drifting up-right "
   "in thought.\n"
-  "PANEL 5 (tier 3, RIGHT — a small panel ONE TIER TALL, never a column reaching up into tier 2): the blond teen looking left without changing expression.\n"
+  "PANEL 5 (tier 3, RIGHT — a small panel ONE TIER TALL, never a column reaching up into tier 2): "
+  "the blond teen looking left without changing expression.\n"
   "PANEL 6 (bottom centre, narrow vertical): SILENT close on the dark-haired teen with no "
   "immediate answer, his book lowering. No text in this panel.\n"
   "PANEL 7 (bottom left, large vertical): high angle along the table — the blond teen's gloved "
@@ -627,7 +714,14 @@ PAGES = [
  ("p16", dict(scene="dialogue", light="day", cast="two", mood="calm", panels=6),
   FILL + RTL + N16_BLACK.format(i=1) + SASUKE16.format(i=2) + ENV.format(i=3)
   + ONLY(BOY16, SAS16) + BLACKFIT + TABLE +
-  "SIX panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. TIER 1 holds PANEL 1 at the RIGHT and PANEL 2 at the LEFT. TIER 2 holds PANEL 3 at the RIGHT and PANEL 4 at the LEFT. TIER 3, the bottom tier, holds PANEL 5 at the RIGHT and PANEL 6 at the LEFT. Panel 5 sits BELOW panel 4, never beside it. The headquarters stays a blank sheet and its resources stay unresolved.\n"
+  "SIX panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is "
+  "divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, "
+  "separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the "
+  "panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, "
+  "straddles or reaches into the tier above or below it. TIER 1 holds PANEL 1 at the RIGHT and "
+  "PANEL 2 at the LEFT. TIER 2 holds PANEL 3 at the RIGHT and PANEL 4 at the LEFT. TIER 3, the "
+  "bottom tier, holds PANEL 5 at the RIGHT and PANEL 6 at the LEFT. Panel 5 sits BELOW panel 4, "
+  "never beside it. The headquarters stays a blank sheet and its resources stay unresolved.\n"
   "PANEL 1 (top right, horizontal): the dark-haired teen looks down at the blank sheet, his tea "
   "and closed book above it; his eye-line follows the page toward the blond teen at frame right.\n"
   "PANEL 2 (top left, horizontal): the blond teen in profile looking right.\n"
@@ -660,7 +754,15 @@ PAGES = [
  ("p17", dict(scene="dialogue", light="day", cast="small_group", mood="tense", panels=7),
   FILL + RTL + N16_BLACK.format(i=1) + SASUKE16.format(i=2) + ENV.format(i=3)
   + ONLY(BOY16, SAS16, ANBU) + BLACKFIT + TABLE +
-  "SEVEN panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width. TIER 2 holds PANEL 2 at the RIGHT and PANEL 3 at the LEFT. TIER 3, the bottom tier, holds PANEL 4 at the RIGHT, PANEL 5 in the CENTRE, and in its LEFT third PANEL 6 stacked directly above PANEL 7. Panel 4 sits BELOW panel 3, and panel 6 sits to the LEFT of panel 5. Public authority interrupts private planning.\n"
+  "SEVEN panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page "
+  "is divided into horizontal TIERS that each run the full width of the paper, stacked top to "
+  "bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier "
+  "the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, "
+  "straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width. TIER "
+  "2 holds PANEL 2 at the RIGHT and PANEL 3 at the LEFT. TIER 3, the bottom tier, holds PANEL 4 at "
+  "the RIGHT, PANEL 5 in the CENTRE, and in its LEFT third PANEL 6 stacked directly above PANEL 7. "
+  "Panel 4 sits BELOW panel 3, and panel 6 sits to the LEFT of panel 5. Public authority "
+  "interrupts private planning.\n"
   "PANEL 1 (top band, full width): wide kitchen — the blond teen eats in silence at frame right, "
   "the dark-haired teen studies the blank headquarters sheet at frame left; both look toward the "
   "unseen front door in the same instant.\n"
@@ -690,8 +792,11 @@ PAGES = [
     "5, 6 and 7 all sit BELOW it: PANEL 4 at bottom-right, PANEL 5 in the bottom centre, PANEL 6 "
     "above PANEL 7 in the bottom-left corner. So the summons is heard before \"I'LL GET HIM.\", "
     "and \"WE'RE SUMMONED.\" is read before \"THEY'RE IMPATIENT.\" In PANEL 7 the balloon "
-    "\"YES.\" is the BLOND TEEN's: it carries a clearly drawn tail reaching HIS mouth at frame "
-    "right, and is never tail-less and never floats above the dark-haired teen at frame left.",
+    "\"YES.\" is the BLOND TEEN's and he stands at frame RIGHT, so its tail is drawn "
+    "LONG: it leaves the balloon on the left of the panel and travels the whole way across "
+    "to his mouth at frame right, passing clear of the dark-haired teen. It is never "
+    "tail-less and its point never stops on the dark-haired teen's head, hair or shoulder "
+    "at frame left.",
   R("naruto_v4_black", "sasuke_16", "env_uchiha_compound"), "low"),
 
  ("p18", dict(scene="establishing", light="day", cast="two", mood="tense", panels=5),

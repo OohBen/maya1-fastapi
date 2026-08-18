@@ -275,7 +275,11 @@ PAGES = [
     "BELOW AND TO ITS LEFT, never level with it and never to its right, so the question is read "
     "before the answer. \"PROOF?\" follows below them at the lower centre and \"I BURNED EVERY "
     "PIECE.\" last at the lower left. The two questions tail across to the blonde woman at "
-    "reader-left; the two answers tail across to the blond teen at reader-right. ",
+    "reader-left; the two answers tail across to the blond teen at reader-right. "
+  + "In PANEL 5 the balloon \"HER ABILITIES ARE HERS.\" belongs to the BLOND TEEN and must "
+    "carry a clearly visible tail running all the way to HIS mouth, even though the big "
+    "white-haired man stands nearer to where the balloon sits; it must never be tail-less "
+    "and must never point at or rest against the white-haired man. ",
   R("tsunade", "jiraiya", "naruto_v4_armor", "env_hokage_office"), "low"),
 
  # ---- Spread 5: consequences belong to the Hokage ----------------------------------

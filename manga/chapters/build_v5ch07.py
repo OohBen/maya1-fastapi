@@ -506,7 +506,13 @@ PAGES = [
         (3, NAR, "upper right", "THEN WATCH HIM BURN."))
   + SFX(4, "TWANG—TWANG—TWANG", "Three separate marks, one at each bow release. ")
   + SFX(6, "POOF", "Inside the smoke cloud. ")
-  + "THIS PAGE HAS EXACTLY SEVEN PANELS — do not add an eighth, and do not draw an empty stone "
+  + "THE PANEL 2 BALLOON READS EXACTLY \"TAKE ONE MORE STEP.\" — four words, and the last one is "
+    "STEP, spelled S-T-E-P. It is never MOTEP, MOTER, STEB or any other invented word. The PANEL "
+    "1 balloon reads exactly \"I CAN END THIS QUICKLY.\" and the PANEL 3 balloon reads exactly "
+    "\"THEN WATCH HIM BURN.\" Letter each of the three balloons ONCE, every word spelled out in "
+    "full in ordinary English capitals, with no doubled, ghosted or overprinted text, no "
+    "reversed or mirrored letters, and no invented words.\n"
+    "THIS PAGE HAS EXACTLY SEVEN PANELS — do not add an eighth, and do not draw an empty stone "
     "corner as a panel of its own. THE CLONE IS HIT BEFORE IT BURSTS. The panel showing the arrow "
     "ENTERING the figure at the south wall must sit to the RIGHT of the panel showing the smoke "
     "cloud, so that reading right to left gives the strike first and the POOF second. The smoke "
