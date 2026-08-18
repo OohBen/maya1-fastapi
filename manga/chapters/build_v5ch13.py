@@ -80,7 +80,14 @@ L_CHAMBER = ("Lighting: cool even daylight from high slit windows onto pale ston
 L_HOUSE = "Lighting: flat clean midday light across a low wooden table in a quiet Uchiha interior. "
 L_CAVE = "Lighting: cold grey daylight down a rocky cut, then black stone lit by hard hand-lamps. "
 L_IWA = "Lighting: hard low west light through a rock-cut window across a stone office. "
-L_SHOP = "Lighting: warm afternoon light through a small eatery's noren and street opening. "
+L_SHOP = ("Lighting: warm afternoon light through a small eatery's noren and street opening. "
+          # The first pass let this closing scene drift soft and pencil-sketchy while the council
+          # act stayed crisp; the volume must not change hands on its last six pages.
+          "RENDERING IS IDENTICAL TO THE REST OF THE CHAPTER: flat cel colour with two to three "
+          "hard-edged tonal values per material and clean confident black brush linework at full "
+          "weight. The street and shop interior behind the figures are INKED, not sketched — no "
+          "pencil texture, no scratchy construction lines, no washed-out or faded mid-tones, no "
+          "soft gradients, and no lighter line weight than the council chamber pages. ")
 
 PAGES = [
  # ---- Spread 1: a watcher in the team ----------------------------------------------
@@ -117,7 +124,8 @@ PAGES = [
         (3, HAWK, "upper right", "A TEAM TO SURPASS THE SANNIN."),
         (4, SHIK, "upper right", "THE TWO UCHIHA ALONE WOULD ALREADY BE FORMIDABLE."),
         (5, TSUM, "upper right", "THEY WERE TEAMMATES ONCE."),
-        (5, TSU, "upper left", "THEY WERE. THEY ARE NOT THE PROBLEM IN HIS PROPOSAL.")),
+        (5, TSU, "upper left", "THEY WERE. THEY ARE NOT THE PROBLEM IN HIS PROPOSAL."))
+  + "The wild-haired clan head with the red fang markings is a FIERCE MIDDLE-AGED WOMAN and must never be drawn as a man: no beard, no moustache, no goatee, no stubble, a female jaw and throat line, and a red fang marking on BOTH cheeks. ",
   R("naruto_v4_black", "sasuke_16", "tsunade", "danzo", "shikaku", "tsume",
     "env_konoha_council_chamber"), "high"),
 
@@ -175,7 +183,8 @@ PAGES = [
         (2, SAS16, "upper left", "I PROPOSE THAT KONOHA RESTORE THE MILITARY POLICE FORCE."),
         (3, KOH, "upper right", "ABSOLUTELY NOT."),
         (4, TSUM, "upper right", "IT KEPT ORDER. EFFECTIVELY."),
-        (5, HIA, "upper right", "AND IT BARRED EVERY CLAN BUT THE UCHIHA.")),
+        (5, HIA, "upper right", "AND IT BARRED EVERY CLAN BUT THE UCHIHA."))
+  + "The wild-haired clan head with the red fang markings is a FIERCE MIDDLE-AGED WOMAN and must never be drawn as a man: no beard, no moustache, no goatee, no stubble, a female jaw and throat line, and a red fang marking on BOTH cheeks. In EVERY panel where the blond teen's face is visible, including the PANEL 2 profile, his visible left eye is the RED ordinary three-tomoe Sharingan, never a dark, brown or blue eye. ",
   R("naruto_v4_black", "sasuke_16", "tsunade", "koharu", "tsume", "hiashi",
     "env_konoha_council_chamber"), "low"),
 
@@ -200,7 +209,8 @@ PAGES = [
         (3, KOH, "upper right", "THE OLD FORCE BECAME AN UCHIHA POWER BASE."),
         (4, BOY16, "upper right", "NAME THE POWER IT TOOK."),
         (4, BOY16, "upper left", "NAME THE PROBLEM IT CAUSED."),
-        (6, SAS16, "upper right", "YOU CANNOT.")),
+        (6, SAS16, "upper right", "YOU CANNOT."))
+  + "In PANEL 4 the blond teen's visible left eye is the RED ordinary three-tomoe Sharingan, clearly readable at this framing and never drawn dark, brown or blue. ",
   R("naruto_v4_black", "sasuke_16", "homura", "koharu", "danzo",
     "env_konoha_council_chamber"), "low"),
 
@@ -236,7 +246,8 @@ PAGES = [
         (2, SAS16, "upper right", "EVERY CLAN CONTRIBUTES WHAT IT DOES BEST."),
         (3, OFF(SAS16), "upper right", "OURS CAN KEEP THE VILLAGE'S PEACE."),
         (5, BOY16, "upper right", "THE POLICE WORK IN THE STREET, UNDER LAW, WHERE THE HOKAGE CAN SEE THEM."),
-        (5, BOY16, "upper left", "ROOT ANSWERS UNDERGROUND TO ONE MAN.")),
+        (5, BOY16, "upper left", "ROOT ANSWERS UNDERGROUND TO ONE MAN."))
+  + "The founder-era figure's own armour carries NO Uchiha fan crest anywhere on it; the fan crest appears only on the police officers ranked in front of him and on the older police crest he stands before. ",
   R("naruto_v4_black", "sasuke_16", "danzo", "env_konoha_council_chamber",
     "env_village_street"), "medium"),
 
@@ -289,7 +300,8 @@ PAGES = [
         (6, SAS16, "upper right", "UNDER POLICE COMMAND."),
         (6, SAS16, "upper left", "CLAN DOES NOT EXEMPT ANYONE FROM THE STANDARD."))
   + "The PANEL 2 balloon is a TAIL-LESS THOUGHT BALLOON with a soft cloud edge belonging to the "
-    "bandaged old man; it is not a speech balloon and has no tail. ",
+    "bandaged old man; it is not a speech balloon and has no tail. "
+  + "The PANEL 2 balloon is a TAIL-LESS thought balloon with a soft scalloped cloud edge and no tail, spike or pointer of any kind touching the eye. ",
   R("naruto_v4_black", "sasuke_16", "danzo", "hiashi", "env_konoha_council_chamber"), "low"),
 
  ("p08", dict(scene="dialogue", light="day", cast="group", mood="calm", panels=6),
@@ -314,7 +326,8 @@ PAGES = [
         (5, SHIK, "upper right", "WHAT TRAINING? HOW LONG?"),
         (6, BOY16, "upper right", "WE DESIGN THE PROGRAM. TSUNADE REVIEWS IT."),
         (6, BOY16, "upper centre", "ACADEMY GRADUATES GET UP TO THREE YEARS."),
-        (6, SAS16, "upper left", "NO ONE ENTERS BY NAME ALONE.")),
+        (6, SAS16, "upper left", "NO ONE ENTERS BY NAME ALONE."))
+  + "This page has EXACTLY SIX panels: the four small left-hand cells form a two-by-two grid whose UPPER-RIGHT cell is a SILENT panel of the blond teen still seated, calm and unpossessive, carrying no balloon at all. ",
   R("naruto_v4_black", "sasuke_16", "tsunade", "shikaku", "env_konoha_council_chamber"), "low"),
 
  # ---- Spread 5: what begins with money ---------------------------------------------
@@ -363,7 +376,8 @@ PAGES = [
         (5, TSU, "upper right", "TWENTY-FIVE PERCENT OF THE UCHIHA FUNDS. HALF OF MINATO'S."),
         (5, TSU, "upper left", "THE REST RETURNS MONTHLY."),
         (6, OFF(TSU), "upper right", "YOU SAID THERE WERE TWO REQUESTS."),
-        (6, OFF(BOY16), "upper left", "YES.")),
+        (6, OFF(BOY16), "upper left", "YES."))
+  + "In PANEL 1's wide master the dark-haired teen stands silently one pace behind the blond teen's right shoulder at his fixed mark, visibly present in the shot but taking no balloon anywhere on this page. ",
   R("naruto_v4_black", "tsunade", "env_konoha_council_chamber"), "medium"),
 
  # ---- Spread 6: copies burn --------------------------------------------------------
@@ -388,7 +402,8 @@ PAGES = [
         (4, BOY16, "upper right", "AFTER A WEEK."),
         (5, HOM, "upper right", "WHAT PROOF DO YOU HAVE?"),
         (6, OFF(BOY16), "upper right", "ENOUGH TO KNOW WHICH SECRETS YOU CHOSE."),
-        (6, TSU, "upper left", "IF THIS IS TRUE, YOU DISOBEYED A DIRECT ORDER.")),
+        (6, TSU, "upper left", "IF THIS IS TRUE, YOU DISOBEYED A DIRECT ORDER."))
+  + "The blond teen's back carries exactly ONE clean, correctly proportioned Uchiha fan crest — never two crests, never a stacked, doubled or duplicated emblem. ",
   R("naruto_v4_black", "sasuke_16", "tsunade", "koharu", "homura",
     "env_konoha_council_chamber"), "low"),
 
@@ -445,7 +460,8 @@ PAGES = [
         (5, BOY16, "upper right", "THEY WERE ALREADY ENEMIES."),
         (6, BOY16, "upper right", "I PUSHED THEM UNTIL THEY FELT POWERLESS."),
         (6, BOY16, "upper left", "I WANTED THEM TO MAKE A DRASTIC MOVE."))
-  + SFX(1, "FSSSH", "Lower left inside the borderless inset; it must not touch either figure."),
+  + SFX(1, "FSSSH", "Lower left inside the borderless inset; it must not touch either figure.")
+  + "The borderless transition inset is the TOP-RIGHT element of the page and is read first. In PANEL 4 the balloon \"TO FIGHT FOR THE FORCE.\" sits at the UPPER RIGHT of the panel and \"NOT TO LEAVE WITH THE FORCE, THE MONEY, AND THREE NEW ENEMIES.\" sits to its LEFT, in that right-to-left order. ",
   R("naruto_v4_black", "sasuke_16", "env_uchiha_compound"), "low"),
 
  ("p14", dict(scene="dialogue", light="day", cast="two", mood="calm", panels=6),
@@ -476,7 +492,8 @@ PAGES = [
         (5, BOY16, "upper right", "COLLECT THE PAPERWORK FROM TSUNADE BEFORE THE END OF THE DAY."),
         (5, BOY16, "upper left", "THEN SEE SHIKAMARU ABOUT THE PLANS."),
         (6, SAS16, "upper right", "WHERE ARE YOU GOING?"),
-        (6, BOY16, "upper left", "TO SEE KARIN.")),
+        (6, BOY16, "upper left", "TO SEE KARIN."))
+  + "The PANEL 4 balloon reads exactly \"YOU COMMAND THE POLICE FORCE. I SUPPLY INTELLIGENCE, TRAINING, AND MONEY.\" with INTELLIGENCE spelled I-N-T-E-L-L-I-G-E-N-C-E and ordinary commas between the three nouns. This page has EXACTLY SIX panels and the packet-handoff close-up is the DOMINANT LOWER-RIGHT panel; do not add any extra silent panel anywhere. ",
   R("naruto_v4_black", "sasuke_16", "env_uchiha_compound"), "low"),
 
  # ---- Spread 8: the survivor in Earth Country --------------------------------------
@@ -504,7 +521,8 @@ PAGES = [
   'one. '
   + SAY((3, OFF(IWA_SCOUT), "upper right", "ONE DEAD."),
         (4, OFF(IWA_MEDIC), "upper right", "THIS ONE IS BREATHING."),
-        (5, OFF(IWA_MEDIC), "upper right", "YAKUSHI KABUTO. ALIVE.")),
+        (5, OFF(IWA_MEDIC), "upper right", "YAKUSHI KABUTO. ALIVE."))
+  + "In PANEL 2 the shelves and laboratory brackets are COMPLETELY BARE — no jars, bottles, scrolls or equipment remain anywhere in the hall, only empty fittings, dust and scorch scars. ",
   R("kabuto", "env_oto_hidden_base", "env_oto_throne_hall"), "medium"),
 
  ("p16", dict(scene="dialogue", light="dusk", cast="two", mood="tense", panels=5),
@@ -539,7 +557,8 @@ PAGES = [
         (5, OLDKAGE, "upper right", "PUT ALPHA AND BETA ON IT."),
         (5, OLDKAGE, "upper left", "KONOHA IS BUILDING STRENGTH AGAIN."))
   + "The second PANEL 5 balloon is a TAIL-LESS THOUGHT BALLOON with a soft cloud edge belonging to "
-    "the old village leader; it is not a speech balloon and has no tail. ",
+    "the old village leader; it is not a speech balloon and has no tail. "
+  + "The second PANEL 5 balloon is a TAIL-LESS thought balloon with a soft scalloped cloud edge and no tail or spike of any kind. The old village leader wears the same round spectacles in EVERY panel of this page. ",
   R("env_hokage_office"), "low"),
 
  # ---- Spread 9: a life beyond ANBU -------------------------------------------------
@@ -570,7 +589,8 @@ PAGES = [
         (4, ANKO, "upper right", "THAT SMILE IS NOT ABOUT ANBU."),
         (5, ANKO, "upper right", "SO WHO IS HE?"))
   + "BOTH PANEL 1 balloons are TAIL-LESS THOUGHT BALLOONS with soft cloud edges belonging to the "
-    "purple-haired kunoichi; they are not speech balloons and have no tails. ",
+    "purple-haired kunoichi; they are not speech balloons and have no tails. "
+  + "In PANEL 5 the balloon \"SO WHO IS HE?\" belongs to the violet-haired woman in the tan coat at reader-LEFT and its tail must run down-LEFT to her visible mouth, never toward the red-eyed woman at reader-right. ",
   R("yugao_v4", "kurenai", "anko", "env_village_street", "env_ichiraku"), "medium"),
 
  ("p18", dict(scene="dialogue", light="day", cast="small_group", mood="calm", panels=6),
@@ -593,7 +613,8 @@ PAGES = [
   "PANEL 6 (bottom left, the focal panel): she chooses a direct answer. " + L_SHOP
   + SAY((3, KUR, "upper right", "WHEN DID YOU LAST LOOK THIS HAPPY?"),
         (4, ANKO, "upper right", "STOP MAKING US GUESS."),
-        (6, YUG, "upper right", "I AM GOING OUT TONIGHT.")),
+        (6, YUG, "upper right", "I AM GOING OUT TONIGHT."))
+  + "The red-eyed woman's single red sleeve is always on her RIGHT arm and her opposite shoulder is bare white wrapping; this asymmetry must not flip in any panel. ",
   R("yugao_v4", "kurenai", "anko", "env_ichiraku"), "low"),
 
  # ---- Spread 10: Naruto ------------------------------------------------------------
@@ -617,7 +638,8 @@ PAGES = [
         (4, ANKO, "upper right", "FORGET THAT. WHO IS HE?"),
         (4, YUG, "upper left", "NARUTO."),
         (5, KUR, "upper right", "YOU MEAN THE NARUTO?"),
-        (6, YUG, "upper right", "YES.")),
+        (6, YUG, "upper right", "YES."))
+  + "In every panel the purple-haired kunoichi is NORTH at the top of the frame, the red-eyed woman SOUTHEAST at reader-right and the violet-haired woman in the tan coat SOUTHWEST at reader-left; this seating triangle does not rotate or mirror in the wide PANEL 4. ",
   R("yugao_v4", "kurenai", "anko", "env_ichiraku"), "low"),
 
  ("p20", dict(scene="dialogue", light="day", cast="small_group", mood="calm", panels=7),
@@ -642,7 +664,8 @@ PAGES = [
         (4, KUR, "upper right", "IS HE NOT YOUNGER THAN YOU?"),
         (5, YUG, "upper right", "AGE DOES NOT CHANGE MY ANSWER."),
         (6, ANKO, "upper right", "AGE IS A NUMBER."),
-        (7, ANKO, "upper right", "I SAW HIM AN HOUR AGO WITH A YOUNG RED-HAIRED WOMAN.")),
+        (7, ANKO, "upper right", "I SAW HIM AN HOUR AGO WITH A YOUNG RED-HAIRED WOMAN."))
+  + "In the middle row the purple-haired kunoichi's panel with \"AGE DOES NOT CHANGE MY ANSWER.\" is the RIGHT panel and the violet-haired woman's panel with \"AGE IS A NUMBER.\" is the LEFT panel, so the exchange reads right to left in that order. ",
   R("yugao_v4", "kurenai", "anko", "env_ichiraku"), "low"),
 
  # ---- Spread 11: the question she will ask -----------------------------------------
@@ -673,7 +696,8 @@ PAGES = [
         (6, YUG, "upper right", "NARUTO IS NOT GAY."),
         (6, YUG, "upper left", "SPEND TIME WITH HIM AND YOU UNDERSTAND."))
   + "The PANEL 1 balloon is a TAIL-LESS THOUGHT BALLOON with a soft cloud edge belonging to the "
-    "purple-haired kunoichi; it is not a speech balloon and has no tail. ",
+    "purple-haired kunoichi; it is not a speech balloon and has no tail. "
+  + "LETTERING IS CRITICAL: render every balloon's text ONCE with no doubled, overlapping, ghosted or overprinted lettering, and spell each line out in full — PANEL 2 reads exactly \"ARE YOU SURE ABOUT THIS, YUGAO?\" and PANEL 3 reads exactly \"I WANT TO TRY.\" The borderless memory element at the top of the page is a SEPARATE borderless inset that must not be merged into the present-day shop panel or share its frame. ",
   R("yugao_v4", "kurenai", "anko", "karin", "env_ichiraku", "env_shinobi_apartment"), "low"),
 
  ("p22", dict(scene="emotional_closeup", light="day", cast="solo", mood="calm", panels=4),
@@ -701,7 +725,8 @@ PAGES = [
         (3, YUG, "upper right", "I WANT TO KNOW."),
         (4, YUG, "upper right", "I WILL ASK HIM—POLITELY—TONIGHT."))
   + "ALL FOUR balloons on this page are TAIL-LESS THOUGHT BALLOONS with soft cloud edges belonging "
-    "to the purple-haired kunoichi; none of them is a speech balloon and none of them has a tail. ",
+    "to the purple-haired kunoichi; none of them is a speech balloon and none of them has a tail. "
+  + "The memory panel shows the red-haired girl in an INTERIOR DOORWAY of the eatery, not out in a street, matching the interior established on the previous page. ",
   R("yugao_v4", "karin", "kurenai", "anko", "env_ichiraku", "env_shinobi_apartment"), "high"),
 ]
 

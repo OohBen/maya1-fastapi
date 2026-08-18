@@ -18,3 +18,6 @@ lora/
 # it ships as Volume_05_part*.pdf (tracked) plus the compressed reader; the master is local
 # only and rebuilt with `python manga/assemble_v5.py --rebuild-master`.
 manga/volume_05/Volume_05.pdf
+
+# Rejected first-pass pages kept locally for comparison; the accepted page is in raw/
+manga/chapters/*/rejected_*/

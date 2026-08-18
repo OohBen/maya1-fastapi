@@ -27,9 +27,11 @@ HIASHI = ("Image {i} is the CHARACTER REFERENCE for the Hyuga clan head: a stern
           "whose silhouette is long straight dark-brown hair over formal cream-grey clan robes. "
           "His eyes are pale lavender and pupil-less. Reproduce exactly; ignore its white "
           "background and layout. ")
-TSUME = ("Image {i} is the CHARACTER REFERENCE for the Inuzuka clan head: a fierce middle-aged woman "
+TSUME = ("Image {i} is the CHARACTER REFERENCE for the Inuzuka clan head: a fierce middle-aged WOMAN "
          "whose silhouette is wild long brown hair above a green jonin vest. Red fang markings cross "
-         "her cheeks. Reproduce exactly; ignore its white background and layout. ")
+         "BOTH of her cheeks, one on each side. She is female and must NEVER be drawn as a man: no "
+         "beard, no moustache, no goatee, no stubble, no heavy male jaw — give her a female jaw and "
+         "throat line. Reproduce exactly; ignore its white background and layout. ")
 ITACHI = ("Image {i} is the CHARACTER REFERENCE for the Uchiha man: an adult whose silhouette is long "
           "black hair framing a narrow face and a high black Akatsuki collar over a cloak patterned "
           "with red clouds. Red Mangekyo eye when active; straw hat only when the panel specifies it. "
