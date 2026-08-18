@@ -1,0 +1,37 @@
+[
+ {
+  "page": "p03",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "v02_p058.png"
+ },
+ {
+  "page": "p05",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "v02_p070.png"
+ },
+ {
+  "page": "p02",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "v03_p188.png"
+ },
+ {
+  "page": "p04",
+  "quality": "high",
+  "size": "2160x3840",
+  "cost": 0.128,
+  "style_ref": "v05_p087.png"
+ },
+ {
+  "page": "p01",
+  "quality": "high",
+  "size": "2160x3840",
+  "cost": 0.128,
+  "style_ref": "v03_p167.png"
+ }
+]
