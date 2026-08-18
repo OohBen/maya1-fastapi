@@ -223,10 +223,20 @@ def OFF(speaker):
 def SAY(*lines):
     """Every balloon names its speaker AND its position. Entries: (panel, who, where, text)."""
     out = ("LETTERING: draw the speech balloons WITH their dialogue written inside, in clean bold "
-           "upright English comic lettering, all capitals, correctly spelled. Each balloon must sit "
-           "where stated and its TAIL MUST POINT DIRECTLY AT ITS NAMED SPEAKER, clear of every "
-           "face. A balloon must never sit nearer to, or point at, any character other than its own "
-           "speaker. Use exactly these balloons and no others:\n")
+           "upright English comic lettering, all capitals, correctly spelled. Spell every word in "
+           "full and letter each balloon ONCE — no doubled, overlapping or ghosted text, no "
+           "dropped or duplicated words, no hyphenation inside a word. "
+           "TAILS DECIDE WHO IS SPEAKING, SO GET THEM RIGHT. Each balloon must sit where stated "
+           "and its TAIL MUST REACH ITS NAMED SPEAKER'S MOUTH, clear of every other face. "
+           "DO NOT TAIL A BALLOON TO WHOEVER HAPPENS TO BE NEAREST IT — that is the most common "
+           "way this page goes wrong. If the named speaker is on the far side of the panel from "
+           "the balloon, draw a LONG tail that travels all the way across to them, passing clear "
+           "of everyone else; never a short stub that stops on a closer character. Every balloon "
+           "has a visible tail unless it is explicitly described as tail-less. "
+           "When one panel holds more than one balloon, they are listed below in READING ORDER: "
+           "the first listed sits further RIGHT (or higher) and the later ones follow leftward and "
+           "downward, so the exchange reads right to left. Never swap two balloons within a panel. "
+           "Use exactly these balloons and no others:\n")
     for panel, speaker, where, text in lines:
         if isinstance(speaker, tuple) and speaker and speaker[0] == "\x00":
             out += (f'  PANEL {panel} — balloon in the {where}, spoken by {speaker[1]}, who is NOT '

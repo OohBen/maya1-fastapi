@@ -334,7 +334,24 @@ STYLE_REF = (
 # Derived from refs/MANGA_STAGING_GUIDE.md: 42 pages read directly plus automated
 # panel measurement over all 1119 library pages. These are the UNIVERSAL rules that
 # belong on every page; per-page specifics come from the guide's §12 fragments.
-STAGING = (
+# Volume 5's review gates found reversed panel order on roughly forty pages across seven
+# chapters — consistently delivering an answer before the question it answers. The per-page
+# RTL note was not enough on its own, so the contract is restated here, where every page
+# gets it, as a rule about panel NUMBERS rather than about reading direction in the abstract.
+RTL_LAW = (
+    "PANEL ORDER IS A HARD RULE, NOT A PREFERENCE. This is a right-to-left manga page. "
+    "Within any row of panels, a LOWER-NUMBERED panel is always further RIGHT than a "
+    "higher-numbered one: PANEL 1 is the TOP-RIGHT panel, and the numbers increase "
+    "leftward across each row before dropping to the next row down. PANEL 2 is never to the "
+    "right of PANEL 1, PANEL 3 is never to the right of PANEL 2, and so on for every pair. "
+    "A tall panel spanning two rows sits to the LEFT of the panels it is read after. "
+    "The same rule governs balloons: within one panel, the balloon that is read first sits "
+    "further RIGHT (or higher) than the one read after it. Getting this backwards makes the "
+    "page deliver answers before their questions and is the single worst error you can make "
+    "on this page. "
+)
+
+STAGING_BODY = (
     "PAGE ARCHITECTURE: the block of panels FILLS THE WHOLE PAGE, running out to a narrow even "
     "margin on all four sides, separated only by THIN white gutters. Never leave broad empty white "
     "fields around or between panels — the page must read as a dense printed comic page, not as "
@@ -368,6 +385,8 @@ STAGING = (
     "SFX ARE COMPOSITIONAL MASS: sound effects overlap figures, are cropped by panel edges, and may "
     "cross a gutter from one panel into the next. Never a small effect floating in an empty gap. "
 )
+
+STAGING = RTL_LAW + STAGING_BODY
 
 # STAGING always wins an argument with "draw one illustration" — it says "panels" nine times, so
 # splash pages came back as six-panel grids of the same subject (v2ch01 p01, v2ch02 p01). Splash
