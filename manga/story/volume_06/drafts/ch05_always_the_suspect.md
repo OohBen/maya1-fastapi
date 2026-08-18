@@ -64,7 +64,9 @@ suspicion. It is a woman who has just realised she has no idea what she signed.
   **Armour and forehead protector travel together** (`VOLUME_06.md`, Hard locks): both stay on through
   Chapters 6, 7, 8 and Chapter 9 pages 1–4, and **both come off together at Chapter 9 page 4 panel 5**
   (ch19:373), after which he is back in plain black without the protector for Chapters 10, 11 and 12
-  (ch20:455). He is **not** protectored for the rest of the volume.
+  (ch20:455). The armour and the protector go back on together off-page before Chapter 13 and are worn
+  through Chapter 14 page 8. **What this chapter must not claim is that he keeps the protector for the
+  rest of the volume** — he does not.
 - He has not spoken to Tsunade since she summoned him to give him the Sannin title; she has avoided
   him since. That summons is this chapter's flashback and its beats are locked by `SOURCE_TRUTH.md`.
 - Sasuke was briefed and given the evidence **last night**, after Naruto punished Danzō. That
@@ -760,11 +762,12 @@ went well.
   left it at and ends at about a third; the two numbers are stated in his own thoughts on p2 B1–B2.
   **This is the volume's second and last on-page dose** and no further dose may be shown or implied
   for the rest of Volume 6.
-- **Dress state is the chapter's clock.** Plain black, bare-headed, unarmoured on pp. 1–3 panel 5;
-  **full armour with the forehead protector** from p3 panel 6 to the end. The armoured state carries
+- **Dress state is the chapter's clock.** Plain black, bare-headed, unarmoured on pp. 1–3 panel 4,
+  with the protector being tied back on in **p3 panel 5**; **full armour with the forehead protector**
+  from p3 panel 6 to the end. The armoured state carries
   forward through Chapters 6, 7, 8 and Chapter 9 pages 1–4 and **ends at Chapter 9 page 4 panel 5**,
-  where both come off together; it is **not** kept for the rest of the volume. In the flashback (p4 panel 7
-  to p6 panel 7) he is plain black **without** the forehead protector, which is how the reader dates
+  where both come off together; it is **not** kept for the rest of the volume. In the flashback (p4
+  panel 7 to p6 panel 7) he is plain black **without** the forehead protector, which is how the reader dates
   it. The **Gunbai stays on the wall rack** in p2 panel 6 and p3 panel 6 and is never carried — do not
   put it on his back.
 - **Chapter 4's damage is gone.** He has bathed off-page overnight; no burns, no blood, no torn shirt

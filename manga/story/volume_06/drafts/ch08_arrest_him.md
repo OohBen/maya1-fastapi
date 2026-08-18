@@ -87,8 +87,8 @@ or misattributed line fails the page and requires editing or regeneration.
 
 **Standing visual locks for this chapter:** the **ordinary three-tomoe Sharingan is active in both of
 Naruto's eyes** in every panel he appears in — no Mangekyō anywhere — and his right eye stays behind
-the bang, so the visible eye is always his left. He wears the armour and the forehead protector on every page. The chamber's seating
-is fixed from page 1 and never rearranges: **Tsunade at the head (frame left in every table shot),
+the bang, so the visible eye is always his left. He wears the armour and the forehead protector on
+every page. The chamber's seating is fixed from page 1 and never rearranges: **Tsunade at the head (frame left in every table shot),
 the two elders on the near-left arc, the clan heads along the far arc, and Naruto and Sasuke together
 on the near-right arc.** No ANBU is ever drawn inside the chamber.
 

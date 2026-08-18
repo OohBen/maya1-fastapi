@@ -15,7 +15,7 @@ context-clean writing review, not for builder, reference work, or final art.
 |---|---|---|
 | `naruto_v6_black` | `naruto_v4_black`, `naruto_v4_armor` | Age ~16, plain black attire, **no gloves**, **no forehead protector**, no armour, Sharingan inactive. |
 | `yugao_civilian` | `yugao.png`, `yugao_v4.png` | Both existing sheets are ANBU/uniform states. The date outfit named in the source — blue jeans and a dark purple T-shirt, hair loose, unarmed, no mask — has no sheet. |
-| `env_uchiha_house_kitchen` | — | No sheet. Pages 1–4 are staged there. |
+| `env_uchiha_house_kitchen` | — | No sheet. Pages 1–4 are staged there. **Decided at reconciliation:** this sheet is the working kitchen only — range, sink, cupboards, a plain table with chairs, corridor doorway — and it serves Chapters 2, 6, 9 and 14. Chapter 12's sitting room is a **separate sheet** (`env_uchiha_house_sitting_room`), because Chapter 9 locks the range and sink as fixed frame-left furniture across twelve pages and Chapter 12 receives a foreign Kage at a low table with no kitchen fixtures in frame. Same house vocabulary, two rooms. |
 | `env_makai_restaurant` | — | No sheet. The third floor — dim, red-themed, quiet, three or four occupied tables — is pages 11–16. |
 | `env_yugao_house_passage` | — | No sheet. `env_shinobi_apartment.png` may cover the passage and door; decide at the reference-gap audit, do not assume it. |
 | `mob_archetypes.png` | `mob_archetypes.png` | Covers the doorman, the ground-floor diners, and the street extras. The doorman is not named on page. |

@@ -1,6 +1,6 @@
 # Volume 5 — *What We Build*
 
-**232 pages across 13 chapters. $10.32 of generation.**
+**232 pages across 13 chapters. $15.97 of generation.**
 
 `Volume_05.pdf` is the full-quality master. `Volume_05_compressed.pdf` keeps the same pages normalised to a single height with light JPEG compression for smoother reading. `Volume_05_part*.pdf` are the master split to fit GitHub's 100MB per-file limit; concatenate them to recover the master. Both PDFs include a nested chapter outline/bookmarks panel.
 
@@ -9,20 +9,20 @@ Covers fic chapters 12-16. Volume 4 ended with Yagura down and an unexplained bl
 | Ch | Title | Pages | Cost | Ends on |
 |---|---|---|---|---|
 | 01 | After the Blue | 16 | $2.88 | Zetsu reveals Jiraiya is bringing Sasuke home |
-| 02 | Peace | 16 | $0.56 | Mei asks why he will not use his power for peace |
-| 03 | The Other Uchiha | 16 | $0.60 | Naruto and Sasuke agree to rebuild the clan |
-| 04 | The Open Cage | 18 | $0.66 | Kurama is freed without being controlled |
-| 05 | Goodbye, Mizukage | 10 | $0.46 | He leaves Kiri and enters the recurring dream |
-| 06 | Mother | 16 | $0.56 | Kushina asks him to live as himself |
-| 07 | The Snake's Last Skin | 24 | $0.83 | Orochimaru dies; Naruto takes the mask |
-| 08 | A New Sound | 20 | $0.65 | Guren accepts a new life rebuilding Oto |
-| 09 | Home | 18 | $0.62 | Karin enters Konoha; Tsunade summons him |
-| 10 | Permission | 18 | $0.62 | He warns Jiraiya away from Ame |
-| 11 | Family | 18 | $0.59 | Clan, Karin and Police plans form |
-| 12 | Head of the Uchiha | 20 | $0.61 | He claims the council seat |
-| 13 | The Police Force | 22 | $0.67 | The Uchiha stand up again |
+| 02 | Peace | 16 | $1.21 | Mei asks why he will not use his power for peace |
+| 03 | The Other Uchiha | 16 | $1.48 | Naruto and Sasuke agree to rebuild the clan |
+| 04 | The Open Cage | 18 | $0.76 | Kurama is freed without being controlled |
+| 05 | Goodbye, Mizukage | 10 | $0.66 | He leaves Kiri and enters the recurring dream |
+| 06 | Mother | 16 | $0.71 | Kushina asks him to live as himself |
+| 07 | The Snake's Last Skin | 24 | $1.24 | Orochimaru dies; Naruto takes the mask |
+| 08 | A New Sound | 20 | $1.27 | Guren accepts a new life rebuilding Oto |
+| 09 | Home | 18 | $0.73 | Karin enters Konoha; Tsunade summons him |
+| 10 | Permission | 18 | $0.84 | He warns Jiraiya away from Ame |
+| 11 | Family | 18 | $1.48 | Clan, Karin and Police plans form |
+| 12 | Head of the Uchiha | 20 | $1.46 | He claims the council seat |
+| 13 | The Police Force | 22 | $1.26 | The Uchiha stand up again |
 
-| | **Total** | **232** | **$10.32** | |
+| | **Total** | **232** | **$15.97** | |
 
 ## Notes
 

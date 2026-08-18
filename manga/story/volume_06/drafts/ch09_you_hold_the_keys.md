@@ -57,8 +57,9 @@ reader knows exactly what it is worth even though Kurotsuchi does not.
 - **The ordinary three-tomoe Sharingan is active in both eyes for the entire Konoha half** and does not
   switch off, including while he casts the genjutsu — the balloon on page 8 names it "SHARINGAN:
   GENJUTSU" and it is the ordinary eye that casts it. The Eternal Mangekyō was switched off at ch17:779
-  in Chapter 4 and is **not** switched on again until Chapter 11 (ch20:437); it appears nowhere here. The right bang covers the right eye, so only the left is
-  ever visible except in the direct eye close-up on page 8.
+  in Chapter 4 and is **not** switched on again until Chapter 11 (ch20:437); it appears nowhere here.
+  The right bang covers the right eye, so only the left is ever visible except in the direct eye
+  close-up on page 8.
 - Naruto arrives in the armour and the forehead protector and removes both on page 4 panel 5.
 - **Yugao believes Naruto rescued her from Danzō.** It was Zetsu wearing his form. She never learns
   otherwise and nothing in this chapter may hint at it.

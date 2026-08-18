@@ -19,6 +19,7 @@ context-clean writing review, not for builder, reference work, or final art.
 | `env_minato_library` | — | No sheet. The one clean room in the house; that contrast is the scene's entire point. Pages 5–7. |
 | `hiraishin_kunai` | — | No sheet. Three-pronged, custom, seal-marked. Focal object on page 6. |
 | `env_iwa_tsuchikage_office` | — | No sheet. Pages 11–12. |
+| `kamui_vortex` | — | **No sheet, and NOT listed in `VOLUME_06.md`'s "New references needed" — added at reconciliation.** The space–time vortex that takes Kabuto: page 11 panel 7 and page 12 panel 1, inside torn-border memory insets. **Chapter 15 stages a functionally identical vortex** (its p13 panel 5, p14 panels 1–2 and p17 panels 5–6) and **the two chapters must share one sheet and describe it identically**: the air and the light drawn in a tightening spiral toward a single point, taking a body in from the extremities inward, leaving nothing behind. The only difference is scale and the fact that this one is seen at second hand. |
 | `onoki` | — | No sheet. Speaks on ten panels. |
 | `kurotsuchi` | — | No sheet. Speaks on four panels. |
 | `konoha_anbu` | — | No sheet. The messenger ANBU on pages 13–14 has three appearances and one line of dialogue. Cannot be treated as a generic extra because he is repeatedly framed alone. |
@@ -438,9 +439,11 @@ before his reasoning starts.
    centre, chunin: "SOMETHING LIKE A VORTEX OPENED IN THE ROOM. IT PULLED HIM IN BEFORE WE COULD
    MOVE." Tail points to visible chunin's mouth.
 7. **Bottom left focal panel, x=0–31 y=62–100; memory inset with a torn ragged border.**
-   Cast/blocking: a bare holding cell; a spiral distortion in the air at frame left is drawing
-   Kabuto's unconscious body feet-first into itself; two Iwa guards are frozen mid-lunge at the right
-   and neither is close enough. No text.
+   Cast/blocking: a bare holding cell; the **Kamui vortex** open in the air at frame left — the air
+   and the light drawn in a tightening spiral toward a single point — taking Kabuto's unconscious
+   body in feet-first, from the extremities inward; two Iwa guards are frozen mid-lunge at the right
+   and neither is close enough. Same construction as Chapter 15 pages 14 and 17; one shared sheet.
+   No text.
 
 #### Page 12 — 7 panels
 
@@ -448,7 +451,7 @@ before his reasoning starts.
 thread and let him pull it.
 
 1. **Top right, x=62–100 y=0–26; memory inset, torn ragged border, continuing panel 7.**
-   Cast/blocking: the spiral is a hand's width from closed; inside it, one red three-tomoe Sharingan
+   Cast/blocking: the vortex is a hand's width from closed; inside it, one red three-tomoe Sharingan
    eye is visible and nothing else. **B1** upper right, chunin: "BEFORE IT CLOSED WE SAW AN EYE. A
    SHARINGAN. THERE IS NO MISTAKE." `OFF`, tail-less — this is the present-tense report narrating
    over the inset and must not appear to be spoken by anyone inside it.

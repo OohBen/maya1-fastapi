@@ -195,14 +195,19 @@ Full list with citations in `SOURCE_TRUTH.md`, "Exclusions."
   on; plain black means protector off. Chapter 9 page 4 panel 5 is the on-page changeover.
   This also resolves the council: ch20:455 has him "wearing black, as always" and states outright
   that he is not wearing the protector, so Chapter 12 is plain black with no protector. Chapter 5's
-  closing QA note claiming he keeps the protector on for the rest of the volume is WRONG and must
-  be amended — the source overrules it.
+  closing QA note claiming he keeps the protector on for the rest of the volume is WRONG and has now
+  been amended — the source overrules it. **The one deliberate exception in the volume is Chapter 14
+  page 13**, where he takes the armour and the Gunbai off the wall rack and leaves the protector on the
+  nightstand, which is why Chapter 15 is armoured and bare-headed. That break is the source's own
+  staging (ch21:319, ch21:529) and is a plot point, not a continuity error.
 - **His habitual eye is the ORDINARY three-tomoe Sharingan, not the Mangekyō.** ch20:457 is
   decisive: at the council "it was a surprise to see him with it activated, he always had the
   Sharingan activated not the Mangekyou," and Tsunade reflects that she has never seen his real
   eyes. So obtaining Shisui's eye in Chapter 4 gives him the Eternal Mangekyō but does NOT put it
-  permanently on his face. Any draft asserting "EMS permanently active" is wrong. The correct
-  state through the volume is: ordinary Sharingan active by default from Chapter 1 onward,
+  permanently on his face. Any draft asserting "EMS permanently active" is wrong — **Chapters 7, 8
+  and 9 asserted it and have been corrected to the ordinary three-tomoe.** The correct
+  state through the volume is: ordinary Sharingan active by default (Chapters 1 and 2 are the
+  source-locked exception, where it will not activate at all),
   Mangekyō only where a page explicitly switches it on, switched on deliberately in Chapter 11
   and worn into the Chapter 12 council, where its appearance is the surprise the scene turns on.
   Chapter 11 therefore carries two eye states and needs both bound.
@@ -225,6 +230,35 @@ Full list with citations in `SOURCE_TRUTH.md`, "Exclusions."
 - **Obito's questions get no answer, no thought balloon, and no caption.** The withholding is the beat.
 - **None of this changes his goals.** The source says so directly. He becomes fractionally warmer and
   slightly more social; he does not become good, and he does not become kind.
+- **The ch20:213–219 counter exchange is CUT, and the cut is confirmed.** Chapter 10's draft made the
+  cut conditional on whether Chapter 9 staged ch19:429 aloud. It does: Chapter 9 page 12 balloons B8
+  ("there is no one more suitable to be my mate…") and B9 ("you hold the keys. you have not answered
+  my question."), both spoken with tails to a visible mouth. The standing game is therefore named on
+  page once, in Chapter 9, and "how long are you going to play this game / you are proving to be quite
+  a woman, Uzuki Yugao" is not restored in Chapter 10.
+
+### The verified eye and dress chain, ch01 → ch15
+
+Read end to end there is no unexplained jump. Every change is either on page at a named panel or is an
+off-page changeover recorded in the two drafts on either side of it.
+
+| Ch | Eye | Where it changes | Dress | Where it changes |
+|---:|---|---|---|---|
+| 01 | **Plain blue — Sharingan will not activate** | opening condition (ch17:127–147) | plain black, bare-headed, no gloves | — |
+| 02 | Plain blue | no medicine taken on page | plain black, bare-headed | — |
+| 03 | **Ordinary three-tomoe** to p16 p3, then **EMS** | medicine off-page before p1; **EMS ignites p16 p4** (Danzō's move) | plain black, bare-headed; armour deliberately **left behind** and discussed on p16, never drawn | ch17:629 |
+| 04 | **EMS** to p24 p1, then **plain blue**; bleeding left eye p2 p5 → p24 p2 | **EMS off at p24 p1** (ch17:779) | plain black, bare-headed, no weapon | — |
+| 05 | Plain blue to p2 p4, then **ordinary three-tomoe** | medicine drunk on page p2 p3–4 | plain black, bare-headed to p3 p4; protector tied on p3 p5; **full armour + forehead protector** from p3 p6 | **p3 p6** (ch18:7–25) |
+| 06 | Ordinary three-tomoe | — | full armour + protector | Yugao remarks on it (ch18:571) |
+| 07 | Ordinary three-tomoe *(corrected)* | — | full armour + protector | — |
+| 08 | Ordinary three-tomoe *(corrected)* | — | full armour + protector | — |
+| 09 | Ordinary three-tomoe *(corrected)*; casts "Sharingan: Genjutsu" with it, p8 p6 | — | armour + protector pp. 1–4 p4; **plain black, no protector** from **p4 p5** | **p4 p5** (ch19:373) |
+| 10 | Ordinary three-tomoe | — | plain black, no protector | — |
+| 11 | Ordinary three-tomoe to p13 p5, then **EMS** | **EMS on at p13 p6, permanently** (ch20:437) | plain black, no protector | — |
+| 12 | **EMS** — the council's surprise | the beat the scene turns on (ch20:457) | plain black, **no protector** (ch20:455) | — |
+| 13 | EMS | — | **full armour + protector** | off-page between ch20:631 and ch21:7; stated in both drafts, drawn in neither |
+| 14 | EMS, awake and asleep | — | armour + protector pp. 1–8; **shirtless, bare-headed** pp. 9–12; **p13: armour and Gunbai gone from the rack, protector left on the nightstand** | **p9 p2** and **p13 p6** (ch21:261–319) |
+| 15 | EMS | — | **full armour, Gunbai on the back, NO protector** | inherited from ch14 p13 — the volume's one deliberate break in the armour/protector pairing |
 
 ---
 
@@ -265,83 +299,137 @@ begins at ch22.**
 
 ## New references needed
 
-Checked against `manga/refs/images/` (127 sheets). Everything below has no existing sheet, or has one
-that does not cover the state this volume requires. **Do not build any of these yet** — reference work
-is blocked until the owner authorises production, and the writing gate in `MANGA_WRITING_GUIDE.md`
-comes first.
+**Consolidated across all fifteen chapter drafts and deduplicated.** Checked against
+`manga/refs/images/` (127 sheets). Ordering is by **how load-bearing** the reference is, because that
+ordering decides what gets built first. "Load-bearing" means it carries a speaking role, or it is a
+focal object or a location across several panels or several chapters — something the page cannot be
+staged around. "Stageable" means the panel survives without the sheet, by silhouette, by tight
+framing, by describing the object in-panel, or by an existing sheet used at a different time of day.
 
-### Characters — no sheet exists
+**Do not build any of these yet** — reference work is blocked until the owner authorises production,
+and the writing gate in `MANGA_WRITING_GUIDE.md` comes first.
 
-| Ref | Why |
-|---|---|
-| `onoki` | Sandaime Tsuchikage. Present in four scenes across ch17, ch20 and ch21. |
-| `kurotsuchi` | Sent to Oto; speaks in Iwa and in Guren's office. |
-| `minato_edo_tensei` | Existing `minato_kushina.png` is the reveal-imagery pair. The Edo Tensei body needs its own sheet: cracked skin, black sclera, Hokage coat, the kunai of orders at the base of the skull. Central to Chapter 7. |
-| `nagato_pain_tendo` | The Akatsuki Leader — Rinnegan, named on page as the one who should collect the Kyuubi. |
-| `konan` | Present at the assembly and stays behind with the Leader. |
-| `tobi_masked` | Obito as Tobi: mask with a single right eyehole showing a Sharingan. Appears in the assembly and delivers the volume's final scene. Must **not** be the unmasked Obito. |
-| `hidan` | Assembly, and named in the Nibi assignment. |
-| `kakuzu` | Assembly. |
-| `sasori` | Assembly. |
-| `deidara` | Assembly. |
-| `inoichi` | Speaks in the ch20 council. |
-| `shibi` | Speaks in the ch20 council. |
-| `choza` | Speaks in the ch19 council. |
-| `root_anbu` | Blank masks, Root uniform. The entire Chapter 4 cast. |
-| `konoha_anbu` | The messenger ANBU, the office guards, and Tsunade's escort. |
+### Tier 1 — load-bearing, build first
 
-### Characters — sheet exists but the required state does not
+| Ref | Chapters | Existing cover | Notes |
+|---|---|---|---|
+| `naruto_v6_black` | 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15 | `naruto_v4_black`, `naruto_v4_armor` — age 13, wrong states | The volume's single most-used sheet. Age ~16, long blond hair, heavy right bang over the right eye. **Nine states, listed in the state table below.** No fallback: he is on nearly every page. |
+| `env_root_hall` | 4 (pp. 7–24), 5 (p7 p6 inset) | — | Eighteen pages of the volume's set piece. The vaulted hall with Danzō's raised throne. |
+| `root_anbu` | 4 (whole chapter), 5 (p7 p6 inset) | — | Blank masks, Root uniform. Nine speaking Root and roughly 150 in the hall; **six are framed alone in close-up**, so they cannot be reduced to distant extras. |
+| `env_dragon_land` | 7 (every panel) | — | Twenty pages, one location. Broken red-lit stone shelves, dry grass, weathered bone, a single dead tree on a rise. |
+| `minato_edo_tensei` | 7 (47 panels) | `minato_kushina.png` — the living reveal-imagery pair, cannot stand in | The chapter's second lead. Cracked ash-grey skin, black sclera with a pale iris, Hokage coat over the flak vest, kunai of orders in the base of the skull. |
+| `tobi_masked` | 6 (5 balloons, 2 close-ups), 7 (flashback plates), 15 (18 panels, the volume's ending) | — | Orange spiral mask, **one right eyehole with a Sharingan**, Akatsuki cloak, no visible skin or mouth. **Must not be the unmasked Obito and must not be a two-eye mask.** If this is wrong the last four pages are unusable. |
+| `env_hideout_throne` | 11 (whole chapter), 13 (pp. 1–6) | `env_hideout_tablets.png` — **does NOT cover it**; `env_oto_throne_hall.png` is a different room | **Settled: build as a separate sheet.** The room's load-bearing feature is the **empty socket where the Gedō Mazō stood, with the chains that held it hanging into nothing** — an absence, on page in seven panels of Chapter 11 and again in Chapter 13. An absence cannot be improvised at render time and no tablets sheet implies it. |
+| `env_uchiha_house_kitchen` | 2 (pp. 1–4), 6 (pp. 1–2), 9 (pp. 1–12), 14 (p14) | — | The working kitchen: range, sink, cupboards, plain table with two chairs, corridor doorway. Chapter 9 **locks** the layout across twelve pages — range and sink frame left, table centre, doorway frame right — so the sheet must carry those fixtures. **Chapter 12's sitting room is a separate sheet; see Tier 3.** |
+| `env_uchiha_training_ground` | 3 (pp. 13–15), 6 (pp. 3–6), 8 (pp. 10–12), 14 (pp. 1–3) | — | The compound's own walled field where the 200 clones work. **Not** `env_training_ground_7` and not `env_uchiha_compound.png`, which is the street-level exterior. |
+| `env_naruto_bedroom` | 5 (pp. 1–3), 6 (pp. 11–16), 14 (pp. 9–13) | — | Unlit and shuttered; the **nightstand** and the **wall rack** are load-bearing furniture — the forehead protector sits on one and the armour and Gunbai leave the other, and Chapter 14's ending is built on that swap. |
+| `env_minato_house` | 3 (pp. 1–10), 12 (p12 p1) | — | Modest exterior, dust-and-cobweb interior, back door, rear training ground. |
+| `env_minato_library` | 3 (pp. 5–7), 12 (p12 p3 – p16) | — | The visual point is that it is **clean where the rest of the house is not**. Ten pages across two chapters. |
+| `env_iwa_tsuchikage_office` | 3 (pp. 11–12), 13 (pp. 13–16) | — | One sheet serves both; the two chapters stage different scenes in the same room and must not diverge. |
+| `env_oto_rebuilt` | 9 (p13), 15 (pp. 1–3, p7 night view) | `env_oto_broken_exterior.png` — the **opposite** state, useful only as the deliberate contrast inset | New gates that did not exist under Orochimaru, Konoha-style buildings, scaffolding, lit streets, awnings, children. |
+| `env_crystal_palace_office` | 9 (pp. 13–16), 15 (pp. 5–8) | — | Top floor, crystal ceiling and floor, the crystallised window over the village. Eight pages across two chapters. |
+| `env_akatsuki_meeting` | 6 (pp. 7–10) | — | The ten figures are **holographic** — semi-transparent, internally lit, casting no shadow, floor visible through their feet, standing in a ring in undefined dark space. That property *is* the scene and cannot be inferred from a room sheet. |
+| `env_makai_restaurant` | 2 (pp. 11–16) | — | Third floor: dim, red-themed, quiet, three or four occupied tables. Six pages, one location. |
+| `env_root_corridor` | 4 (pp. 1–6) | — | Dim passages, concrete ribs, low guttering lights. |
+| `yugao_civilian` | 2, 9 (60 panels), 10, 14 | `yugao.png`, `yugao_v4.png` — both ANBU/uniform | **Four states on one sheet family:** the Chapter 2 date outfit (blue jeans, dark purple T-shirt, hair loose); the Chapter 9 domestic state (sleeves pushed up, barefoot or house sandals); the Chapter 10 daytime off-duty outfit, which must read as **visibly different from the date outfit**; and the Chapter 14 evening clothes plus a slept-in, hair-messy morning. |
+| `mei_mizukage_robes` | 10 (pp. 1–4), 12 (every page), 13 (pp. 7–9), 14 (pp. 3–8) | `mei_v4.png` | Full Mizukage robes and hat. The source calls the choice deliberate and professional and she never changes out of them. |
+| `konoha_anbu` | 3 (pp. 13–14), 5 (p1, pp. 5–6), 7 (roofline, birth-room guards, ANBU-era Kakashi plate), 10 (pp. 3–4) | — | The messenger ANBU of Chapters 3, 5 and 10 is **the same man**, framed alone, kneeling, whispering, with lines. Recurring speaking bit-part across four chapters. |
+| `onoki` | 3 (10 panels), 13 (18 panels, 20 balloons) | — | Sandaime Tsuchikage: very small, very old, hovers rather than walks. The volume's new antagonist. |
+| `medicine_bottle` | 1 (p13 p1), 4 (p11 p4–5, p25 p7), 5 (p2 p3–4, p2 p6) | — | The volume's recurring object and the image its opening and its diagnosis both hang on. Focal insert in three chapters; both on-page doses are drunk from it. |
+| `amaterasu_dome` | 4 (pp. 8–15), 11 (p5 p4 recollection plate) | — | The ring of black flame raised into a **barred dome with a viewing gap**. A specific, repeatable construction across eight pages, not generic fire. |
+| `mokuton_body_spikes` | 4 (pp. 4, 5, 11, 12, 13, 22), 11 (p5 p2) | `mokuton_stakes_serpent.png` — a **ground-summoned** construction, wrong object | Wood erupting **from Naruto's own torso, arms and back**. The first sustained look at it in the series. |
+| `kamui_vortex` | 3 (p11 p7, p12 p1), 15 (p13 p5, p14 p1–2, p17 p5–6) | — | **NEW — was on no list; added at reconciliation.** **Chapters 3 and 15 share this one sheet and now describe it identically:** the air and the light drawn in a tightening spiral toward a single point, taking a body in from the extremities inward, leaving nothing behind. Chapter 3's is seen at second hand inside a torn-border memory inset; Chapter 15's is seen directly and carries Obito's arrival and departure. |
+| `edo_tensei_coffin` | 6 (p11 p2, p12 p6), 7 (p5 p3–5, p6 p1) | — | **NEW — was on no list.** A plain upright wooden coffin with a paper seal across the seam. It carries Chapter 7's spread focal panel — the visual answer to Kurama's "and how will you do that?" — so it cannot be improvised at render time. |
+| `danzo_arm_revealed` | 4 (pp. 19–21) | `danzo.png` | The unwrapped forehead showing **Shisui's Sharingan** and the unsealed right arm — Hashirama-cell flesh with **ten embedded Sharingan**. Both are destroyed on page; the reader must be able to count what is lost. |
 
-| Ref | Existing | What is missing |
+### Tier 2 — speaking or focal, but narrower; build second
+
+| Ref | Chapters | Existing cover | Notes |
+|---|---|---|---|
+| `nagato_pain_tendo` | 6 (9 balloons, close-up on p10 p4) | — | The Akatsuki Leader. Rinnegan. Named on page as the one who should collect the Kyuubi. |
+| `iwa_anbu` | 13 (7 panels, 6 balloons; two of them are the corpses) | — | **NEW — was on no list.** `konoha_anbu` is a different uniform and mask and cannot be substituted. If no sheet is built, the per-chapter identity constant must lead with the separating feature — **Iwa's own mask shape and earth-grey plate**, never the cloak. |
+| `oto_gate_guard` | 15 (4 balloons, holds a scene for a page and a half) | — | **NEW — was on no list.** A speaking role, not an extra. If no sheet is authorised, the identity constant must lead with **a bare-faced adult man in Oto's new plain grey flak vest, no mask, no hitai-ate** — never the costume. |
+| `kurotsuchi` | 3 (4 panels), 9 (p16, speaks twice) | — | Sent to Oto; speaks in Iwa and in Guren's office. |
+| `choza` | 8 (seated on every council page, one line on p9) | — | Named in the source, so he cannot be reduced to a distant extra. |
+| `inoichi` | 12 (one line, p8) | — | Named in the source; speaks once. |
+| `shibi` | 12 (one line, p8) | — | Named in the source; speaks once. |
+| `hidan` | 6 (3 balloons) | — | Assembly, and named in the Nibi assignment. |
+| `kakuzu` | 6 (1 balloon) | — | Assembly. |
+| `sasori` | 6 (1 balloon) | — | Assembly. |
+| `deidara` | 6 (1 balloon) | — | Assembly. |
+| `danzo_crippled` | 4 (pp. 23–24), 5 (p7 p4 memory inset) | `danzo.png` | No right eye, no right arm, ruined left leg. Chapter 5 stages it under a sheet and by implication, so the **Chapter 4 pages are the ones that need the sheet**. |
+| `env_uchiha_garden` | 14 (pp. 3–8) | — | Small stream, stones, quiet, behind the house. Six pages and the whole Mei scene. |
+| `env_crystal_palace_ext` | 9 (p13 p1), 15 (p4 near-splash) | — | Wood and crystal, four floors, roughly double the height of the Hokage tower. Chapter 15's establishing image. |
+| `env_brothel` | 9 (pp. 9–10; the building is on 6 panels) | — | **NEW — was on no list.** One night street front with red paper lanterns, a lamplit counter room, a narrow stair, an upstairs corridor with one door. Everything inside is staged for implication only, but the **building** cannot be improvised. |
+| `uchiha_return_gunbai` | 15 (p11 p5–6) | `gunbai.png`, `gunbai_v4.png` cover the object, not the effect | The fan's concentric rings lighting from the centre outward while an attack stands still against its face. It is the beat that ends Jiraiya. |
+| `odama_rasengan` | 15 (p11, 4 panels) | — | **NEW — was on no list.** A grinding sphere larger than Jiraiya's own torso, held above the head in one palm. It must stay legible as **one object** across contact and reflection. |
+| `hiraishin_kunai` | 3 (focal on p6, pouched on p8) | — | Three-pronged, custom, seal-marked. Recovered and **never used** — its only job is to be looked at, which is exactly why it has to be right. |
+| `env_valley_of_end` — **state note, not a new sheet** | 15 (pp. 13–18) | `env_valley_of_end.png` covers the wide | Two close ranges the existing sheet may not carry: the **crown of Madara's statue as a standable surface** and the **lip of the waterfall at water level**. Add viewpoints to the existing sheet rather than building a new environment. |
+
+### Tier 3 — stageable; build last or decline
+
+| Ref | Chapters | Existing cover | Fallback if never built |
+|---|---|---|---|
+| `env_uchiha_house_sitting_room` | 12 (p11 p2–7) | — | **NEW — split off from `env_uchiha_house_kitchen` at reconciliation (decision recorded below).** Every panel is medium or closer, so it can be staged around with the low table, the two cups and a plain wall. |
+| `konan` | 6 (present at the ring, **no dialogue**) | — | Non-speaking hologram in a ring of ten. Can hold her place in the circle at distance if the sheet is declined. |
+| `kabuto_akatsuki` | 6 (**no dialogue**) | `kabuto.png` — Orochimaru-era | Costume swap only: Akatsuki cloak, conscious, upright, watching. |
+| `karin_oto` | 14 (training clothes), 15 (travel clothes and one small pack) | `karin.png` | Probably an audit-time merge into the existing sheet. Decide at the audit. |
+| `shisui_eye_container` | 4 (p24 p2) | — | One panel. A sealed container held in a hand; describable in-panel. |
+| `gamabunta` | 7 (p15 p5) | — | **NEW — was on no list.** Already staged as a **black silhouette with only the outline and the pipe readable**, so the plate survives if the sheet is never built. |
+| `shinigami` | 7 (p16 p1) | — | **NEW — was on no list.** Already staged as a vast horned darkness with only the reaching arm defined. **Do not render a full creature design** even if a sheet is authorised. |
+| `env_yugao_house_passage` | 2 (closing beat) | `env_shinobi_apartment.png` may cover it | Check at the audit; do not assume. A door and a passage. |
+| `env_dango_stall` | 10 (p5) | `env_village_street.png` probably covers it with the stall described in-panel | **NEW — was on no list.** Open-air stall, bench, low counter. |
+| `env_iwagakure_exterior` | 13 (p13 p1) | — | **NEW — was on no list.** Cut panel 1 to a plain hard sky with the location card and open the scene on the office interior at panel 2. The scene does not depend on it. |
+| `env_uchiha_house_stair` | 14 (p13 p7) | — | **NEW — was on no list.** Stage the panel inside the bedroom doorway looking back at the nightstand and cut the stair. |
+| `env_konoha_kyuubi_night` | 7 (p14 p6) | `env_village_street.png` at night with fire | **NEW — was on no list.** `env_konoha_after_invasion.png` is the **wrong event** and must not be used as-is. |
+| Hokage tower exterior | 10 (p1 p8, p2 p1) | `env_village_street.png` skyline almost certainly covers it | **NEW — was on no list.** Flagged so the audit checks rather than assumes. |
+| Imagined mountain settlement | 12 (p16 p2, p16 p4, inside imagined plates) | — | **NEW — was on no list.** Best served by describing it in-panel. **Must not be built or labelled as Kumogakure** — no Kumo insignia, no identifiable architecture. |
+
+### Explicitly not to be built
+
+| Item | Chapter | Why |
 |---|---|---|
-| `naruto_v6_black` | `naruto_v4_black`, `naruto_v4_armor` | Age ~16, **no forehead protector** (explicitly noted on page), **EMS permanently active**, and a bleeding-left-eye variant for Chapter 4. |
-| `danzo_arm_revealed` | `danzo.png` | The unsealed right arm — Hashirama-cell flesh with ten embedded Sharingan — and the unwrapped forehead showing Shisui's eye. Both are destroyed on page. |
-| `danzo_crippled` | `danzo.png` | Post-punishment: no right eye, no right arm, ruined left leg. Seen in Tsunade's report and implied at the council. |
-| `yugao_civilian` | `yugao.png`, `yugao_v4.png` | The date outfit named in the source, and a domestic/sleepwear state for Chapters 9 and 14. |
-| `mei_mizukage_robes` | `mei_v4.png` | She arrives in Konoha in full Mizukage robes, which the source calls out as a deliberate professional choice. |
-| `kabuto_akatsuki` | `kabuto.png` | Akatsuki cloak, at the assembly. |
-| `karin_oto` | `karin.png` | Minor: training clothes and the Oto arrival. Possibly coverable by the existing sheet — decide at the reference-gap audit. |
+| Chakra-system diagram | 11 (p3 p2–3) | A deliberately abstract diagrammatic human outline made of channels — no face, no hair, no clothing, no identity. **If it reads as a portrait of Naruto the panel fails.** |
+| A full Shinigami design | 7 (p16 p1) | The implication is the effect. See Tier 3. |
 
-### Environments — no sheet exists
+### `naruto_v6_black` — the nine states one sheet family must carry
 
-| Ref | Scene |
-|---|---|
-| `env_makai_restaurant` | Third floor: dim, red-themed, quiet, three or four occupied tables. Chapter 2. |
-| `env_yugao_house_passage` | Her door and the passage outside it. Chapter 2's closing beat. Could reuse `env_shinobi_apartment` — check at audit. |
-| `env_minato_house` | Modest exterior, dust-and-cobweb interior, back door and rear training ground. Chapter 3. |
-| `env_minato_library` | Nearly clean where the rest of the house is not — the visual point of the room. Chapter 3, and again in Chapter 12 when Naruto takes Mei there. |
-| `env_root_corridor` | Dim passages. Chapter 4. |
-| `env_root_hall` | The large hall with Danzō's throne. Chapter 4's climax. |
-| `env_akatsuki_meeting` | Holographic circle; the figures are not physically present. Chapter 6. |
-| `env_dragon_land` | Kurama's home. Chapter 7 — the volume's second-largest sequence. |
-| `env_oto_rebuilt` | The finished village: new gates, Konoha-like buildings, children in the streets. Chapters 9 and 15. Existing `env_oto_broken_exterior` is the opposite state and is useful only as a contrast plate. |
-| `env_crystal_palace_ext` | Wood and crystal, double the Hokage tower. Chapter 15's establishing image. |
-| `env_crystal_palace_office` | Top floor, crystal ceiling and floor, the window over the village. Chapters 9 and 15. |
-| `env_iwa_tsuchikage_office` | Chapters 3 and 13. |
-| `env_uchiha_house_kitchen` | Chapters 2, 9 and 14. |
-| `env_uchiha_garden` | Small stream, peaceful. Chapter 14's Mei scene. |
-| `env_uchiha_training_ground` | The compound's own ground, where the clones work. Not `env_training_ground_7`. |
-| `env_naruto_bedroom` | Unlit; his eyes are the only light source. Chapter 14. |
-| `env_hideout_throne` | Madara's old seat with the Gedō Mazō gone. Chapters 11 and 13. Check whether `env_hideout_tablets` covers it. |
+| State | Where | Description |
+|---|---|---|
+| (a) plain black, bare-headed, **Sharingan inactive** | 1, 2, 5 pp. 1–3 | Plain blue irises, no gloves, no armour, no Gunbai, no sword. The volume's opening condition. |
+| (b) plain black, bare-headed, **ordinary three-tomoe Sharingan** | 3 (to p16 p3), 10, 11 (to p13 p5) | Same dress as (a); eyes on. |
+| (c) plain black, bare-headed, **Eternal Mangekyō** | 3 (p16 p4 →), 4, 11 (p13 p6 →), 12 | Same dress as (a); EMS on. |
+| (d) **bleeding-left-eye variant** | 4 (p2 p5 → p24 p2) | Blood from the lower lid to the jaw, never wiped. Over state (c). |
+| (e) **full armour + forehead protector**, ordinary three-tomoe | 5 (p3 p6 →), 6, 7, 8, 9 (pp. 1–4) | The armour and the protector travel together. No Gunbai carried. |
+| (f) **full armour + forehead protector**, EMS | 13, 14 (pp. 1–8) | Same as (e) with the eyes switched over. |
+| (g) **full armour + Gunbai on the back + NO forehead protector**, EMS | 15 | The volume's one deliberate break in the armour/protector pairing, staged by Chapter 14 p13. |
+| (h) **shirtless, bare-headed, unlit room** | 14 (pp. 9–12), echoed in 15's last panel | His own eyes are the only light source in the frame. The chapter's defining image. |
+| (i) **bang-swept**, whole face uncovered | 13 (p6 p2–6) | A specific on-page action (ch21:61), not a framing choice. |
 
-### Props and effects — no sheet exists
+### Reconciliation decisions recorded here
 
-| Ref | Why |
-|---|---|
-| `hiraishin_kunai` | Three-pronged, custom, seal-marked. Recovered in Chapter 3 and never used. |
-| `amaterasu_dome` | The barred dome of black flame around Danzō's throne — a specific, repeatable construction. |
-| `mokuton_body_spikes` | Spikes erupting from Naruto's own torso and arm, distinct from the existing `mokuton_stakes_serpent`. |
-| `medicine_bottle` | Small, pocketed, drunk on page twice. The volume's recurring object. |
-| `shisui_eye_container` | Removed and stored. |
-| `uchiha_return_gunbai` | The Gunbai mid-reflection. Existing `gunbai.png` / `gunbai_v4.png` cover the object, not the effect. |
+1. **`env_hideout_throne` is a separate sheet.** `env_hideout_tablets.png` does not cover it. The
+   room's load-bearing feature is the **empty Gedō Mazō socket with the chains hanging into nothing**,
+   on page in seven panels of Chapter 11 and again in Chapter 13. Build it with the socket empty.
+2. **Two Uchiha-house interiors, not one.** `env_uchiha_house_kitchen` (Chapters 2, 6, 9, 14) and
+   `env_uchiha_house_sitting_room` (Chapter 12) are separate sheets. Chapter 9 locks the kitchen's
+   range and sink as fixed frame-left furniture across twelve pages; Chapter 12 receives a foreign
+   Kage at a low table with cups already poured and no kitchen fixtures in frame. One sheet would
+   either put a stove behind the Mizukage or strip the kitchen of the fixtures three chapters depend
+   on. They share the house's vocabulary — same wood tone, shoji and lamp — so the second is a cheap
+   build, and it is the one of the two that can be staged around if the audit declines it.
+3. **Chapters 3 and 15 share one `kamui_vortex` sheet** and now describe the vortex in identical
+   terms. See the Tier 1 row.
+4. **Chapter 10's conditional restore is resolved as a confirmed cut.** See "Hard locks".
 
 ### Already covered — no new work
 
-Naruto's Mangekyō design, the orange Susano'o ribcage, the Gunbai, Kurama at full size, Zetsu, Sasuke,
-Kakashi, Jiraiya, Tsunade, Shizune, Koharu, Homura, Hiashi, Shikaku, Tsume, Anko, Kurenai, Teuchi,
-Ayame, Karin, Guren, Itachi, Kisame, Ao, Chōjūrō, Shikamaru, Chōji, Kiba, Hinata, Neji, Lee, Sakura,
-Ino, Shino, the Hokage's office, the council chamber, the Hokage Monument, Ichiraku, the Uchiha
-compound exterior, the Valley of the End, the Konoha hospital, and Konoha's streets.
+Naruto's Mangekyō design, the orange Susano'o ribcage, the Gunbai as an object, Kurama at full size,
+Zetsu, Sasuke, Kakashi, Jiraiya, Tsunade, Shizune, Koharu, Homura, Hiashi, Shikaku, Tsume, Anko,
+Kurenai, Teuchi, Ayame, Karin, Guren, Itachi, Kisame, Ao, Chōjūrō, Shikamaru, Chōji, Kiba, Hinata,
+Neji, Lee, Sakura, Ino, Shino, Kushina, Hiruzen, the mob archetypes, the Hokage's office, the council
+chamber, the Hokage Monument, Ichiraku, the Uchiha compound exterior, the Valley of the End (wide),
+the Konoha hospital, the Konoha outskirts, and Konoha's streets.
 
 ---
 
