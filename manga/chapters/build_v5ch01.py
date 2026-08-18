@@ -26,6 +26,9 @@ BOY16 = N16_SPEAKER
 YUG = YUGAO_V4_SPEAKER
 MEI = MEI_V4_SPEAKER
 ZETSU = "the split black-and-white plant creature"
+ZOR = ("The plant creature's split NEVER mirrors: seen from the front, its WHITE half is on the "
+       "viewer's LEFT and its BLACK half on the viewer's RIGHT in every panel, exactly matching "
+       "its reference image. ")
 ROOT = ("three kneeling Root agents in plain featureless white oval masks with narrow eye and "
         "mouth slits, hooded grey cloaks, none of them ever unmasked")
 ROOT1 = "the rightmost kneeling white-masked Root agent"
@@ -159,7 +162,8 @@ PAGES = [
   FILL + RTL + N16_ARMOR.format(i=1) + YUGAO_V4.format(i=2) + KIRI_REBELS.format(i=3)
   + ENV.format(i=4)
   + ONLY(BOY16, YUG, "Kiri workers, shinobi, civilians and children rebuilding the street, none "
-         "of them named or recurring") + REPAIRED +
+         "of them named or recurring — the civilians and workers wear NO forehead protectors, NO "
+         "headband plates and NO village symbols of any kind") + REPAIRED +
   "SIX panels. Rebuilding shown through labour and crowd behaviour.\n"
   "PANEL 1 (top band, full width): extreme-wide street shot — the blond teen walks right-to-left "
   "along the centre lane in clean repaired red armour; workers on both sides face inward; shinobi "
@@ -172,7 +176,9 @@ PAGES = [
   "PANEL 4 (middle left): medium profile — an older worker bows from the left toward the teen at "
   "right; his stride carries him past the bow, eyes forward.\n"
   "PANEL 5 (bottom right): tracking medium two-shot — the teen in right foreground moving left; "
-  "the kunoichi behind at far right watching his profile.\n"
+  "the kunoichi behind at far right watching his profile. THE BALLOON IN THIS PANEL IS SPOKEN BY "
+  "THE BLOND TEEN — its tail must touch HIS mouth and must not approach the kunoichi. She is "
+  "silent in this panel, mouth closed.\n"
   "PANEL 6 (bottom left): reverse tracking two-shot — the kunoichi now holds the right half, "
   "still moving left; the teen exits at the left edge; the crowd behind her watches them go. "
   + L_KIRI
@@ -194,7 +200,9 @@ PAGES = [
   "PANEL 2 (top left): medium two-shot — the teen passes her on the right-to-left line, turning "
   "only his eyes back; she pivots to keep pace.\n"
   "PANEL 3 (middle band, full width): close profile two-shot — she at left faces right into his "
-  "profile at right; their eye-lines meet across the centre.\n"
+  "profile at right; their eye-lines meet across the centre. THE BALLOON IN THIS PANEL IS SPOKEN "
+  "BY THE AUBURN-HAIRED WOMAN — its tail must touch HER mouth and must not approach the teen; his "
+  "mouth is closed.\n"
   "PANEL 4 (dominant bottom right): close-up — the teen fills the right half facing left, "
   "controlled; a blurred worker and a red-and-white fan crest motif sit far behind at left.\n"
   "PANEL 5 (bottom left): medium close-up — she stands at right facing left, watching his back "
@@ -208,7 +216,7 @@ PAGES = [
 
  # ---- Spread 4: the missing Three-Tails --------------------------------------------
  ("p07", dict(scene="dialogue", light="overcast", cast="two", mood="tense", panels=5),
-  FILL + RTL + N16_ARMOR.format(i=1) + ZET.format(i=2) + ENV.format(i=3)
+  FILL + RTL + N16_ARMOR.format(i=1) + ZET.format(i=2) + ZOR + ENV.format(i=3)
   + ONLY(BOY16, ZETSU) + REPAIRED +
   "FIVE panels. A tactical discovery on a bare ridge above the village.\n"
   "PANEL 1 (top band, full width): extreme-wide ridge shot — the teen stands at right facing "
@@ -227,10 +235,10 @@ PAGES = [
         (3, ZETSU, "upper left", "IT WILL REFORM."),
         (4, BOY16, "upper right", "NOT FOR YEARS."),
         (5, ZETSU, "upper left", "AKATSUKI CANNOT SEAL THE FOURTH BEFORE THE THIRD.")),
-  R("naruto_v4_armor", "zetsu", "env_kiri_fogline"), "medium"),
+  R("naruto_v4_armor", "zetsu", "env_kiri_fogline"), "low"),
 
  ("p08", dict(scene="dialogue", light="overcast", cast="two", mood="tense", panels=7),
-  FILL + RTL + N16_ARMOR.format(i=1) + ZET.format(i=2) + ONLY(BOY16, ZETSU,
+  FILL + RTL + N16_ARMOR.format(i=1) + ZET.format(i=2) + ZOR + ONLY(BOY16, ZETSU,
     "a sand-coloured one-tailed tanuki silhouette and a blue-flamed two-tailed cat silhouette, "
     "each appearing ONLY as a distant symbolic background shape") + REPAIRED +
   "SEVEN panels. His counter-strategy, named target by target.\n"
@@ -256,11 +264,11 @@ PAGES = [
         (5, ZETSU, "upper left", "OR THE TWO-TAILS?"),
         (6, BOY16, "upper right", "I STAND IN THE WAY."),
         (7, BOY16, "upper left", "OBITO WILL HAVE TO STOP THINKING OF ME AS A CHILD.")),
-  R("naruto_v4_armor", "zetsu"), "high"),
+  R("naruto_v4_armor", "zetsu"), "medium"),
 
  # ---- Spread 5: force Obito's hand, then the nearer plan ---------------------------
  ("p09", dict(scene="dialogue", light="overcast", cast="two", mood="tense", panels=6),
-  FILL + RTL + N16_ARMOR.format(i=1) + ZET.format(i=2) + ONLY(BOY16, ZETSU) + REPAIRED +
+  FILL + RTL + N16_ARMOR.format(i=1) + ZET.format(i=2) + ZOR + ONLY(BOY16, ZETSU) + REPAIRED +
   "SIX panels. The creature tests each inference.\n"
   "PANEL 1 (top band, full width): SILENT medium profile two-shot — the teen at right facing "
   "left, the creature at left facing right, studying him across a clear gap; neither moves. No "
@@ -278,10 +286,10 @@ PAGES = [
         (4, ZETSU, "upper left", "THEN HE SENDS NAGATO."),
         (5, BOY16, "upper right", "IF HIS PRIDE IS AS RELIABLE AS YOU SAY."),
         (6, ZETSU, "upper left", "THINGS ARE BECOMING INTERESTING.")),
-  R("naruto_v4_armor", "zetsu"), "medium"),
+  R("naruto_v4_armor", "zetsu"), "low"),
 
  ("p10", dict(scene="dialogue", light="overcast", cast="two", mood="tense", panels=6),
-  FILL + RTL + N16_ARMOR.format(i=1) + ZET.format(i=2) + SAS.format(i=3) + KAK.format(i=4)
+  FILL + RTL + N16_ARMOR.format(i=1) + ZET.format(i=2) + ZOR + SAS.format(i=3) + KAK.format(i=4)
   + ONLY(BOY16, ZETSU,
          "the younger dark-haired boy and the masked silver-haired man appearing ONLY inside one "
          "pale hard-edged memory image, never on the ridge") + REPAIRED +
@@ -309,7 +317,7 @@ PAGES = [
 
  # ---- Spread 6: the clan as a village resource -------------------------------------
  ("p11", dict(scene="dialogue", light="overcast", cast="two", mood="tense", panels=5),
-  FILL + RTL + N16_ARMOR.format(i=1) + ZET.format(i=2) + ONLY(BOY16, ZETSU) + REPAIRED +
+  FILL + RTL + N16_ARMOR.format(i=1) + ZET.format(i=2) + ZOR + ONLY(BOY16, ZETSU) + REPAIRED +
   "FIVE panels. Political ownership, not romance.\n"
   "PANEL 1 (top right): medium side shot — the teen walks right in the foreground looking "
   "forward; the creature follows at left facing right.\n"
@@ -326,10 +334,10 @@ PAGES = [
         (3, BOY16, "upper right", "THEY SEE TWO PAIRS OF EYES."),
         (4, OFF(BOY16), "upper right", "THEY WANT A VILLAGE SUPPLY."),
         (5, ZETSU, "upper left", "YOU STILL NEED HEIRS.")),
-  R("naruto_v4_armor", "zetsu"), "medium"),
+  R("naruto_v4_armor", "zetsu"), "low"),
 
  ("p12", dict(scene="dialogue", light="overcast", cast="two", mood="tense", panels=6),
-  FILL + RTL + N16_ARMOR.format(i=1) + ZET.format(i=2) + ONLY(BOY16, ZETSU) + REPAIRED +
+  FILL + RTL + N16_ARMOR.format(i=1) + ZET.format(i=2) + ZOR + ONLY(BOY16, ZETSU) + REPAIRED +
   "SIX panels. He evades one question and advances the other.\n"
   "PANEL 1 (top right): close-up — the creature faces left toward the teen and tilts its head.\n"
   "PANEL 2 (top centre): SILENT extreme close-up — the teen's flat eye-line points left at the "
@@ -347,11 +355,11 @@ PAGES = [
         (4, BOY16, "upper right", "HAVE YOU FOUND OROCHIMARU?"),
         (5, ZETSU, "upper right", "STONE COUNTRY. THE BODY YOU DAMAGED IS FAILING."),
         (6, BOY16, "upper left", "GOOD.")),
-  R("naruto_v4_armor", "zetsu"), "medium"),
+  R("naruto_v4_armor", "zetsu"), "low"),
 
  # ---- Spread 7: waiting for Sasuke -------------------------------------------------
  ("p13", dict(scene="dialogue", light="overcast", cast="two", mood="calm", panels=5),
-  FILL + RTL + N16_ARMOR.format(i=1) + ZET.format(i=2) + ENV.format(i=3)
+  FILL + RTL + N16_ARMOR.format(i=1) + ZET.format(i=2) + ZOR + ENV.format(i=3)
   + ONLY(BOY16, ZETSU) + REPAIRED +
   "FIVE panels. He waits for one person, and it is not the one expected.\n"
   "PANEL 1 (top band, full width): wide side shot — the teen and the creature walk right along "
@@ -367,10 +375,10 @@ PAGES = [
         (3, ZETSU, "upper centre", "FOR JIRAIYA?"),
         (4, BOY16, "upper left", "FOR SASUKE."),
         (5, ZETSU, "upper left", "I'LL RETURN WITHIN A WEEK—MAYBE BEFORE THEY ARRIVE.")),
-  R("naruto_v4_armor", "zetsu", "env_kiri_fogline"), "medium"),
+  R("naruto_v4_armor", "zetsu", "env_kiri_fogline"), "low"),
 
  ("p14", dict(scene="establishing", light="dusk", cast="solo", mood="somber", panels=4),
-  FILL + RTL + N16_ARMOR.format(i=1) + ZET.format(i=2) + ENV.format(i=3)
+  FILL + RTL + N16_ARMOR.format(i=1) + ZET.format(i=2) + ZOR + ENV.format(i=3)
   + ONLY(BOY16, "the plant creature's upper face, sinking away in panel 1 only") + REPAIRED +
   "FOUR panels. ENTIRELY SILENT — no balloons, no captions, no sound effects, no text of any "
   "kind anywhere on this page.\n"
@@ -384,7 +392,7 @@ PAGES = [
   "PANEL 4 (bottom left, the focal panel): medium rear shot — the teen fills the right half with "
   "his back to the reader, head angled left toward the village lights below; the empty space "
   "where the creature stood holds the left half. " + L_DUSKR,
-  R("naruto_v4_armor", "zetsu", "env_kiri_moonlit_hill"), "high"),
+  R("naruto_v4_armor", "zetsu", "env_kiri_moonlit_hill"), "medium"),
 
  # ---- Spread 8: Sasuke, the snake, the missing half --------------------------------
  ("p15", dict(scene="establishing", light="dusk", cast="solo", mood="somber", panels=4),
@@ -436,4 +444,6 @@ PAGES = [
 ]
 
 if __name__ == "__main__":
-    run(PAGES, HERE / "v5ch01" / "raw", HERE / "v5ch01" / "ledger.json")
+    # Same fixed style anchor Codex used for all of Volume 4, so the volumes read as one book.
+    run(PAGES, HERE / "v5ch01" / "raw", HERE / "v5ch01" / "ledger.json",
+        style_ref=HERE.parent / "refs" / "images" / "style_v01_p094.png")

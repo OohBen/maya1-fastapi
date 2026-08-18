@@ -77,3 +77,39 @@ The one real win available: **if you were going to spend `high` ($0.128), nano-b
 
 Adding a model is a two-line change in `backend.py` — the payload shape differs per model
 (`image_input` vs `images` vs `reference_images`) but nothing above that layer changes.
+
+---
+
+## ADDENDUM — APIMaster.ai reseller test (5 generations, one page)
+
+Tested the discounted gpt-image-2 reseller with the owner's key, same p03 page, same refs,
+same style anchor. Cells: default routing @2k and @4k, `official_fallback:true` @2k and @4k,
+and an explicit `size:"2160x3840"` pixel string.
+
+| Cell | Output pixels | Time |
+|---|---|---|
+| default @2k | 941x1672 | 101s |
+| default @4k | 941x1672 | 56s |
+| official @2k | 941x1672 | 56s |
+| official @4k | 941x1672 | 103s |
+| pixel string 2160x3840 | 941x1672 | 79s |
+| (Replicate medium, same page) | **2160x3840** | ~45s |
+
+Findings:
+
+1. **There is no per-request provider selection.** Unknown fields are silently ignored;
+   `official_fallback` produced no observable difference. Provider choice happens on their side.
+2. **Resolution tiers are billing labels, not pixels.** Every configuration returns 941x1672
+   (~1.6 MP) — below their own published table (9:16@2k = 1152x2048), and 5.6x fewer pixels than
+   our Replicate output. You can pay the 4k tier and receive the same 1.6 MP file.
+3. **Every cell renders the same style, and it is not ours** — much darker, heavier gritty
+   crosshatching, muddy palette. Correct balloons and staging, but visibly a different book.
+   Whatever fingerprints these providers carry, the output does not match Replicate's
+   gpt-image-2 rendering of the identical request, so at least the cheap channel is likely not
+   the official model.
+4. Content correctness was fine in all cells (6/6 balloons, correct attribution, RTL).
+
+**Verdict: not usable for production of this book at any price** — resolution is capped below
+our standard and the style mismatch is exactly the drift the owner flagged between volumes.
+Could serve as a free thumbnailer/proofer if Provider 73 really bills $0.0001, but proofs in
+the wrong style have limited value. Staying on Replicate.

@@ -17,7 +17,7 @@ import backend                                                            # noqa
 import style_select as ss                                                # noqa: E402
 
 
-def run(pages, outdir, ledger_path, workers=50, size=None):
+def run(pages, outdir, ledger_path, workers=50, size=None, style_ref=None):
     """pages: list of (pid, style_query, prompt_body, refs, quality).
 
     size: output resolution "WIDTHxHEIGHT"; defaults per page from the quality tier.
@@ -33,8 +33,13 @@ def run(pages, outdir, ledger_path, workers=50, size=None):
             return f"[skip] {pid}"
         stage = SPLASH if want.get("panels") == 1 else STAGING
         prompt = desc + " " + stage + STYLE_REF.format(i=len(refs) + 1) + STYLE
+        # V4 anchored its whole volume to ONE style page and the reader noticed when V5
+        # drifted off it. A fixed style_ref now leads the candidate list; the per-page
+        # library picks remain only as moderation fallbacks.
         cands = [str(ss.as_png(r["file"]))
-                 for r in sorted(ss.library(), key=lambda r: -ss.score(r, want))[:3]]
+                 for r in sorted(ss.library(), key=lambda r: -ss.score(r, want))[:2]]
+        if style_ref:
+            cands = [str(style_ref)] + cands
         # Resolution is chosen PER PAGE, not per volume: pages carrying one big image earn the
         # larger canvas, ordinary pages do not. NEVER pair "low" with 2160x3840 — it comes back
         # soft and smeary. See models/TIER_REPORT.md, finding 4.
