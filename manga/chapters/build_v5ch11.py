@@ -196,13 +196,17 @@ PAGES = [
         (4, BOY16, "upper right", "ENOUGH TIME TO COPY WHAT THEY WANTED."),
         (5, SAS16, "upper right", "WHAT WAS WORTH COPYING?"),
         (6, BOY16, "upper right", "CLAN HISTORY. SHARINGAN RESEARCH. A FEW FORBIDDEN TECHNIQUES."),
-        (6, SAS16, "centre left", "THE NAKA SHRINE HOLDS THE DANGEROUS SECRETS."),
-        (6, BOY16, "lower left", "THAT DOESN'T MAKE THESE THEIRS."))
-  + TAILS + "In PANEL 6 the three balloons run in strict right-to-left, top-to-bottom order: \"CLAN "
-    "HISTORY. SHARINGAN RESEARCH. A FEW FORBIDDEN TECHNIQUES.\" is the RIGHTMOST and highest, "
-    "\"THE NAKA SHRINE HOLDS THE DANGEROUS SECRETS.\" sits BELOW AND LEFT of it, and \"THAT "
-    "DOESN'T MAKE THESE THEIRS.\" sits below and left again. The shrine line must never sit to "
-    "the right of, or level with, the list it answers.",
+        (6, SAS16, "on the RIGHT of the panel directly above the dark-haired teen's head "
+            "at frame right, clearly BELOW the highest balloon's bottom edge", "THE NAKA SHRINE HOLDS THE DANGEROUS SECRETS."),
+        (6, BOY16, "lower left, the LOWEST balloon in the panel", "THAT DOESN'T MAKE THESE THEIRS."))
+  + TAILS + "PANEL 6's three balloons are ordered by HEIGHT, not by side, so each can sit over its own "
+    "speaker: \"CLAN HISTORY. SHARINGAN RESEARCH. A FEW FORBIDDEN TECHNIQUES.\" is the "
+    "HIGHEST balloon in the panel, \"THE NAKA SHRINE HOLDS THE DANGEROUS SECRETS.\" sits "
+    "clearly BELOW its bottom edge, and \"THAT DOESN'T MAKE THESE THEIRS.\" is lower still. "
+    "The shrine line is the DARK-HAIRED teen's: place it on the RIGHT of the panel directly "
+    "above HIS head and run a SHORT tail straight down to HIS mouth. Its tail must never "
+    "point left, never cross the panel, and never end on the red-haired girl at frame left "
+    "or on the blond teen at the centre.",
   R("naruto_v4_armor", "sasuke_16", "karin", "env_shinobi_apartment"), "low"),
 
  ("p04", dict(scene="dialogue", light="day", cast="small_group", mood="tense", panels=7),
@@ -315,15 +319,21 @@ PAGES = [
         (4, SAS16, "upper right", "YOU CALLED EVERY GIRL AN ANNOYANCE."),
         (5, KAR, "upper right", "HOW LONG HAVE YOU TWO BEEN FRIENDS?"),
         (6, SAS16, "upper right", "WE AREN'T."),
-        (7, BOY16, "upper right", "WE WERE CIVIL IN KIRI."),
-        (7, SAS16, "upper left", "A FEW WEEKS AGO. BEFORE THAT, WE HATED EACH OTHER."),
+        (7, BOY16, "very top of the panel, as the HIGHEST balloon in this panel", "WE WERE CIVIL IN KIRI."),
+        (7, SAS16, "clearly BELOW the other balloon, under its bottom edge, beside the "
+            "dark-haired teen at frame right", "A FEW WEEKS AGO. BEFORE THAT, WE HATED EACH OTHER."),
         (8, KAR, "upper right", "YOU DON'T ACT LIKE IT."))
   + TAILS + "PANELS 1 and 2 form the TOP row, PANEL 3 is a full-width band beneath them, PANELS 4 and 5 "
     "form the MIDDLE row with 4 at reader-RIGHT and 5 at reader-LEFT, and PANELS 6, 7 and 8 form "
     "the BOTTOM row with 6 at reader-RIGHT, 7 in the centre and 8 at reader-LEFT. PANEL 6 sits "
     "wholly BELOW panel 5, never beside it, so \"WE AREN'T.\" is read after \"HOW LONG HAVE YOU "
-    "TWO BEEN FRIENDS?\" In PANEL 7 \"WE WERE CIVIL IN KIRI.\" is the RIGHTMOST balloon and \"A "
-    "FEW WEEKS AGO. BEFORE THAT, WE HATED EACH OTHER.\" sits to its LEFT.",
+    "TWO BEEN FRIENDS?\" PANEL 7's two balloons are stacked by HEIGHT, not placed side by side. \"WE WERE CIVIL "
+    "IN KIRI.\" is the HIGHEST balloon in the panel, at its very top, and carries a long "
+    "tail running down-LEFT across the panel to the blond teen's mouth at frame left. \"A "
+    "FEW WEEKS AGO. BEFORE THAT, WE HATED EACH OTHER.\" sits clearly LOWER, below that "
+    "balloon's bottom edge, beside the dark-haired teen at frame right, with a short tail to "
+    "HIS mouth. The higher balloon is read first; the second never sits above it or level "
+    "with it.",
   R("naruto_v4_armor", "sasuke_16", "karin", "env_shinobi_apartment"), "medium"),
 
  # ---- Spread 4: seat and shield ----------------------------------------------------
@@ -821,15 +831,18 @@ PAGES = [
   "teen frame left, shoulder to shoulder with a deliberate hand-width of space between them, both "
   "facing the still-closed doors. The owl-masked ANBU lands small in the deep background between "
   "the orange-red flame trail and the leaf trail. No text in this panel. " + L_DOORS
-  + SAY((1, SAS16, "upper right", "HE'S STILL WAITING."),
+  + SAY((1, SAS16, "upper LEFT of the panel, immediately ABOVE the dark-haired teen's head "
+            "at frame left", "HE'S STILL WAITING."),
         (2, BOY16, "upper right", "HE'LL FOLLOW."))
   + TAILS + "PANEL 5 shows the COUNCIL CHAMBER exterior from Image 4 and takes nothing from Image 3: tall "
     "formal stone administrative doors in a civic facade. There is NO Uchiha fan crest anywhere "
     "on those doors, walls, banners, lanterns or ground, no wooden clan gate, no compound gateway "
     "and no residential wall — the shunshin must plainly end somewhere else than where it "
     "started. In PANEL 1 \"HE'S STILL WAITING.\" belongs to the DARK-HAIRED teen standing at "
-    "frame LEFT by the closed door; its tail reaches HIS mouth, never the blond teen approaching "
-    "from the hall at frame right.",
+    "frame LEFT by the closed door. It is the only balloon in the panel, so place it on the "
+    "LEFT of the panel directly above HIS head and draw a SHORT tail straight down to HIS "
+    "mouth. It must not sit in the panel's upper-right corner, and its tail must never "
+    "reach, point at or end on the blond teen approaching from the hall at frame right.",
   R("naruto_v4_black", "sasuke_16", "env_uchiha_compound", "env_konoha_council_chamber"), "high"),
 ]
 

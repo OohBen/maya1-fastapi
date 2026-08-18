@@ -171,8 +171,8 @@ PAGES = [
 
  ("p02", dict(scene="dialogue", light="day", cast="group", mood="tense", panels=5),
   FILL + RTL + N16_BLACK.format(i=1) + SASUKE16.format(i=2) + KOHARU.format(i=3)
-  + HOMURA.format(i=4) + TSUNADE.format(i=5) + HIASHI.format(i=6) + SHIKAKU.format(i=7)
-  + ENV.format(i=8)
+  + HOMURA.format(i=4) + DAN.format(i=5) + TSUNADE.format(i=6) + HIASHI.format(i=7)
+  + SHIKAKU.format(i=8) + ENV.format(i=9)
   + ONLY(BOY16, SAS16, KOH, HOM, TSU, HIA, SHIK, ATTEND) + SEATING + CAST + DOCS + BLACKFIT + EYES_N + EYES_S_OFF +
   "FIVE panels. He makes the claim explicit before anyone can define his status for him.\n"
   "PANEL 1 (top right): side view along the southeast rim — he pulls the chair out and turns it "
@@ -190,15 +190,20 @@ PAGES = [
         (2, BOY16, "upper right", "I KNOW WHICH SEAT IS MINE."),
         (3, HOM, "upper right", "YOU WERE CALLED TO ANSWER. YOU ARE NOT A COUNCIL MEMBER."),
         (4, BOY16, "upper right", "THEN YOU CALLED THE WRONG MAN."),
-        (5, BOY16, "upper right", "YOU SUMMONED THE HEAD OF THE UCHIHA."))
-  + "In PANEL 5 the balloon \"YOU SUMMONED THE HEAD OF THE UCHIHA.\" belongs to the BLOND TEEN "
-    "seated at the southeast place: its tail must reach HIS mouth and must never run down-right "
-    "onto the dark-haired teen, who speaks nothing on this page. The east-arc clan heads are the "
+        (5, BOY16, "lower right of the panel, immediately ABOVE the blond teen's head at "
+            "the near southeast place", "YOU SUMMONED THE HEAD OF THE UCHIHA."))
+  + "In PANEL 5 the balloon \"YOU SUMMONED THE HEAD OF THE UCHIHA.\" belongs to the BLOND "
+    "TEEN seated at the southeast place. Place that balloon LOW IN THE PANEL, directly above "
+    "his head, with a SHORT tail running straight down to his mouth. It must not sit up in "
+    "the top corner of the panel, and its tail must never end on the dark-haired teen, who "
+    "speaks nothing on this page, nor on any clan head seated on the east arc. The west arc "
+    "carries the bandaged old man with the cane and the slung bandaged right arm in his fixed "
+    "seat — he is never redrawn as a plain bald elder in dark robes and never omitted. The east-arc clan heads are the "
     "SAME individuals at the same ages and in the same clan robes as on the previous page — the "
     "stern long-haired Hyuga clan head and the man with the long pineapple ponytail among them — "
     "never a fresh set of younger figures.",
-  R("naruto_v4_black", "sasuke_16", "koharu", "homura", "tsunade", "hiashi", "shikaku",
-    "env_konoha_council_chamber"), "low"),
+  R("naruto_v4_black", "sasuke_16", "koharu", "homura", "danzo", "tsunade", "hiashi",
+    "shikaku", "env_konoha_council_chamber"), "low"),
 
  # ---- Spread 2: who grants a clan --------------------------------------------------
  ("p03", dict(scene="dialogue", light="day", cast="group", mood="tense", panels=6),
@@ -251,12 +256,15 @@ PAGES = [
   "holds PANEL 5 at the RIGHT and PANEL 6 at the LEFT. PANEL 4 is the drawn close-up of the blond "
   "teen's eyes and its balloon sits INSIDE that same panel — never in a separate strip of its own. "
   "The Hokage keeps authority over the meeting and refuses ownership of the clan.\n"
-  "PANEL 1 (top right): the elderly female adviser turns north from the west arc toward the north "
-  "head, presenting her back to the southeast place.\n"
-  "PANEL 2 (top left): the blonde woman front-on, hands folded over an illegibly marked agenda.\n"
-  "PANEL 3 (middle right): the female adviser looks back screen-right and south-east, jaw tight.\n"
-  "PANEL 4 (middle left): close on the blond teen's EYES only, calm tomoe centred on her; his "
-  "mouth is outside this frame.\n"
+  "PANEL 1 (TIER 1, TOUCHING THE PAGE'S RIGHT MARGIN — the first panel read on this page): "
+  "the elderly female adviser seen from BEHIND, turning north from the west arc toward the "
+  "north head, presenting her back to the southeast place; her face is not visible.\n"
+  "PANEL 2 (TIER 1, TOUCHING THE PAGE'S LEFT MARGIN — read second): the blonde woman "
+  "front-on at the north head, hands folded over an illegibly marked agenda.\n"
+  "PANEL 3 (TIER 2, TOUCHING THE PAGE'S RIGHT MARGIN — read third): the female adviser's "
+  "FACE, looking back screen-right and south-east, jaw tight.\n"
+  "PANEL 4 (TIER 2, TOUCHING THE PAGE'S LEFT MARGIN — read fourth): close on the blond "
+  "teen's EYES only, calm tomoe centred on her; his mouth is outside this frame.\n"
   "PANEL 5 (bottom right): low three-quarter view of the blond teen in the chair, the fan crest "
   "filling the chair back behind his head.\n"
   "PANEL 6 (bottom left): the blonde woman raises two fingers and the room's eye-lines snap north "
@@ -267,7 +275,14 @@ PAGES = [
         (4, OFF(BOY16), "upper right", "THE CLAN DOES."),
         (5, BOY16, "upper right", "AND ITS HEAD IS NOT 'BOY' TO AN ADVISER."),
         (6, TSU, "upper right", "THE UCHIHA SEAT STANDS. THE MEETING BEGINS."))
-  + "PANEL 2's balloon reads exactly \"THE HOKAGE DOES NOT APPOINT CLAN HEADS.\" — the word CLAN "
+  + "THE BACK VIEW of the elderly female adviser is the RIGHT-HAND panel of tier 1 and the "
+    "front-on shot of the blonde woman is the LEFT-HAND panel of that tier, never the other "
+    "way round; the female adviser's FACE is the RIGHT-HAND panel of tier 2 and the blond "
+    "teen's eye close-up is the LEFT-HAND panel of that tier, never the other way round. So "
+    "\"HOKAGE-SAMA, WILL YOU ALLOW THIS?\" is always read BEFORE \"THE HOKAGE DOES "
+    "NOT APPOINT CLAN HEADS.\", and \"A CHAIR DOES NOT MAKE THIS BOY OUR EQUAL.\" "
+    "before \"THE CLAN DOES.\" — a reply never precedes the line it answers. "
+    "PANEL 2's balloon reads exactly \"THE HOKAGE DOES NOT APPOINT CLAN HEADS.\" — the word CLAN "
     "is present, spelled C-L-A-N, and the whole line is lettered complete. It must never read "
     "\"THE HOKAGE DOES NOT APPOINT HEADS.\" PANEL 4 is a fully drawn close-up of the blond teen's "
     "eyes and brow with its off-panel balloon \"THE CLAN DOES.\" inside it; no panel on this page "
@@ -458,9 +473,12 @@ PAGES = [
   + "The west arc in PANEL 5 carries the bandaged old man, the elderly female adviser with the "
     "pale hair bun and the elderly male adviser in the small round glasses, all three clearly "
     "recognisable in their fixed seats — never two unnamed grey-haired men in their places. In "
-    "PANEL 5 the bandaged old man's mouth is not in frame, so \"THE PREMISE IS ACCEPTED.\" is an "
-    "off-panel balloon whose spur runs LEFT to the WEST edge of the panel and stops on the border "
-    "line; it must never reach down onto a clan head on the east arc at reader-right.",
+    "PANEL 5 the bandaged old man's mouth is not in frame, so \"THE PREMISE IS ACCEPTED.\" "
+    "is an off-panel balloon. Place the balloon itself in the panel's UPPER LEFT corner "
+    "against the WEST edge and draw a SHORT spur from it that runs left and STOPS ON THE "
+    "PANEL'S LEFT BORDER LINE, touching that border. The spur never trails off to a stop in "
+    "mid-air over the table, never crosses the room, and never reaches down onto a clan head "
+    "on the east arc at reader-right.",
   R("danzo", "hiashi", "naruto_v4_black", "sasuke_16", "tsunade", "koharu", "homura",
     "env_konoha_council_chamber"), "medium"),
 
@@ -775,7 +793,10 @@ PAGES = [
         (3, OFF(TSU), "upper right", "SASUKE REFUSES COMPULSION AND HAS STATED HIS VOLUNTARY INTENT."),
         (4, TSU, "upper right", "NO SPOUSE IS ASSIGNED. THE PRESENT PROPOSAL ENDS HERE."))
   + "In PANELS 2 and 3 the blond teen's visible left eye is the RED ordinary three-tomoe "
-    "Sharingan, never plain grey, blue or dark. PANEL 2 — the blond teen, carrying the ruling "
+    "Sharingan drawn LARGE ENOUGH TO READ: a bright red iris with a black pupil and THREE "
+    "distinct black comma-shaped tomoe spaced evenly around that pupil, all three clearly "
+    "inked. It is never a plain red, brown, amber, grey, blue or dark eye and the tomoe are "
+    "never left out. PANEL 2 — the blond teen, carrying the ruling "
     "about him — sits at reader-RIGHT of the middle row and PANEL 3 — the dark-haired teen, "
     "carrying the ruling about him — sits to its LEFT, so the ruling on the blond teen is read "
     "first. The blonde woman is NOT drawn in either panel, so each of those balloons is an "

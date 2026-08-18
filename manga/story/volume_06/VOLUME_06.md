@@ -193,6 +193,19 @@ Full list with citations in `SOURCE_TRUTH.md`, "Exclusions."
   worn *with* the protector and the plain black attire is worn without it. Chapters 6 and 7 were
   drafted independently and both arrived at this state, so it is settled: armoured means protector
   on; plain black means protector off. Chapter 9 page 4 panel 5 is the on-page changeover.
+  This also resolves the council: ch20:455 has him "wearing black, as always" and states outright
+  that he is not wearing the protector, so Chapter 12 is plain black with no protector. Chapter 5's
+  closing QA note claiming he keeps the protector on for the rest of the volume is WRONG and must
+  be amended — the source overrules it.
+- **His habitual eye is the ORDINARY three-tomoe Sharingan, not the Mangekyō.** ch20:457 is
+  decisive: at the council "it was a surprise to see him with it activated, he always had the
+  Sharingan activated not the Mangekyou," and Tsunade reflects that she has never seen his real
+  eyes. So obtaining Shisui's eye in Chapter 4 gives him the Eternal Mangekyō but does NOT put it
+  permanently on his face. Any draft asserting "EMS permanently active" is wrong. The correct
+  state through the volume is: ordinary Sharingan active by default from Chapter 1 onward,
+  Mangekyō only where a page explicitly switches it on, switched on deliberately in Chapter 11
+  and worn into the Chapter 12 council, where its appearance is the surprise the scene turns on.
+  Chapter 11 therefore carries two eye states and needs both bound.
 - **Danzō's injuries occur in this order:** right eye removed by hand, right arm severed and burned
   with Amaterasu (destroying Hashirama cells and ten Sharingan), left leg crushed bone by bone. He does
   not scream for the eye. He screams for the arm and the leg.
