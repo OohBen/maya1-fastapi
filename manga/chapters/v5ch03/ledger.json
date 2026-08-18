@@ -243,5 +243,12 @@
   "size": "2160x3840",
   "cost": 0.128,
   "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p13",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "style_v01_p094.png"
  }
 ]

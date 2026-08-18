@@ -6,13 +6,21 @@ every page. Source: fic ch16:113-307.
 
 The council map is fixed for all 20 pages and continues unchanged into Chapter 13; no shot may
 mirror it. Every document, agenda, statute copy and strategic map carries ILLEGIBLE SCRIBBLE
-only, and no paper ever crosses the table.
+only, and no paper ever crosses the table. SEATING below is the single seating law and is
+carried by every page; CAST is the single cast-integrity law and is carried by every page.
 
-MISSING REFERENCE SHEETS (report, never invent):
-  * inoichi.png and shibi.png — the two east-arc clan heads who carry the source's inter-clan
-    marriage and attachment argument on page 11. They are drawn as ordinary unnamed seated clan
-    heads until sheets exist; add the sheets and bind them before generating page 11.
+REFERENCE GAP — this is why the chamber was not a stable room on the first pass:
+  * inoichi.png and shibi.png DO NOT EXIST. Inoichi and Shibi are named in the draft's seating
+    table and carry the inter-clan marriage and attachment argument, but no sheet exists for
+    either, so page 11's two east-arc speakers stay deliberately unnamed. Hiashi and Shikaku,
+    who DO have sheets, are now bound on the pages whose east arc is in frame (p01, p02, p06,
+    p11 alongside p03, p05, p08, p09, p12, p18) so the arc has recognisable anchors instead of
+    interchangeable extras. Add the two sheets and bind them to promote the p11 speakers.
   * choza.png — named only in the draft's seating table, never in a panel; no page needs it.
+  * The blonde woman at the north head and the dark-haired teen at the southeast place are named
+    by SEATING on EVERY page, so tsunade and sasuke_16 must stay bound on every page where their
+    place can be in frame. Leaving either unbound is what replaced Tsunade with a stranger on
+    p18, deleted Sasuke on p14 and grew a duplicate blond Naruto on p04.
 """
 import pathlib
 import sys
@@ -145,7 +153,8 @@ PAGES = [
   'title, not a balloon. '
   + SAY((1, HOM, "upper right", "YOU KEPT THE COUNCIL WAITING."),
         (4, KOH, "upper left", "STAND WHERE YOU WERE SUMMONED."),
-        (5, BOY16, "upper right", "I AM.")),
+        (5, BOY16, "upper right", "I AM."))
+  + "In PANEL 1 the balloon \"YOU KEPT THE COUNCIL WAITING.\" belongs to the elderly male adviser in the small round glasses, seated on the WEST arc at reader-LEFT; draw a long tail travelling all the way across to HIS mouth and never to any figure on the east arc. The west arc carries only the bandaged old man, the elderly female adviser and the elderly male adviser \u2014 there is no second woman with a pale hair bun anywhere in the chamber. The east arc carries the stern long-haired Hyuga clan head with the pale pupil-less eyes and the man with the long pineapple ponytail among clan heads of visibly different ages and robes, never five interchangeable elderly men. In PANEL 5 the blond teen has ONE head and ONE cleanly drawn face \u2014 no second, ghosted or overlapping head \u2014 and his balloon \"I AM.\" tails to HIS mouth, never to the dark-haired teen behind his right shoulder. ",
   R("naruto_v4_black", "sasuke_16", "tsunade", "danzo", "koharu", "homura", "hiashi",
     "shikaku", "env_konoha_council_chamber"), "high"),
 
@@ -169,7 +178,8 @@ PAGES = [
         (2, BOY16, "upper right", "I KNOW WHICH SEAT IS MINE."),
         (3, HOM, "upper right", "YOU WERE CALLED TO ANSWER. YOU ARE NOT A COUNCIL MEMBER."),
         (4, BOY16, "upper right", "THEN YOU CALLED THE WRONG MAN."),
-        (5, BOY16, "upper right", "YOU SUMMONED THE HEAD OF THE UCHIHA.")),
+        (5, BOY16, "upper right", "YOU SUMMONED THE HEAD OF THE UCHIHA."))
+  + "In PANEL 5 the balloon \"YOU SUMMONED THE HEAD OF THE UCHIHA.\" belongs to the BLOND TEEN seated at the southeast place: its tail must reach HIS mouth and must never run down-right onto the dark-haired teen, who speaks nothing on this page. The east-arc clan heads are the SAME individuals at the same ages and in the same clan robes as on the previous page \u2014 the stern long-haired Hyuga clan head and the man with the long pineapple ponytail among them \u2014 never a fresh set of younger figures. ",
   R("naruto_v4_black", "sasuke_16", "koharu", "homura", "tsunade", "hiashi", "shikaku",
     "env_konoha_council_chamber"), "low"),
 
@@ -195,7 +205,8 @@ PAGES = [
         (3, KOH, "upper right", "WE GAVE NO CONSENT."),
         (4, BOY16, "upper right", "SINCE WHEN DO ADVISERS SELECT CLAN HEADS?"),
         (5, HIA, "upper right", "CLAN SUCCESSION IS A CLAN MATTER."),
-        (6, BOY16, "upper right", "NOTHING HERE REQUIRES YOUR PERMISSION.")),
+        (6, BOY16, "upper right", "NOTHING HERE REQUIRES YOUR PERMISSION."))
+  + "The stern long-haired Hyuga clan head with the pale pupil-less eyes sits on the EAST arc at reader-RIGHT in PANELS 5 and 6 \u2014 never on the west arc, never beside the bandaged old man or the elderly female adviser, and never among the advisers in any shot. Every seated clan head has a fully drawn face with eyes, nose and mouth; none is blank, featureless or smoothed over. In PANEL 6 the balloon \"NOTHING HERE REQUIRES YOUR PERMISSION.\" belongs to the BLOND TEEN at the southeast place: draw a long tail across the panel to HIS mouth and never to any clan head on the east arc. ",
   R("naruto_v4_black", "sasuke_16", "danzo", "koharu", "hiashi",
     "env_konoha_council_chamber"), "low"),
 
@@ -204,7 +215,7 @@ PAGES = [
   + SASUKE16.format(i=4) + ENV.format(i=5)
   + ONLY(KOH, TSU, BOY16, SAS16, ATTEND) + SEATING + CAST + DOCS + BLACKFIT + EYES_N
   + EYES_S_OFF +
-  "SIX panels. The Hokage keeps authority over the meeting and refuses ownership of the clan.\n"
+  "SIX panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. This page has EXACTLY SIX panels in a two-column, three-tier grid and no seventh panel of any kind. TIER 1 holds PANEL 1 at the RIGHT and PANEL 2 at the LEFT. TIER 2 holds PANEL 3 at the RIGHT and PANEL 4 at the LEFT. TIER 3 holds PANEL 5 at the RIGHT and PANEL 6 at the LEFT. PANEL 4 is the drawn close-up of the blond teen's eyes and its balloon sits INSIDE that same panel — never in a separate strip of its own. The Hokage keeps authority over the meeting and refuses ownership of the clan.\n"
   "PANEL 1 (top right): the elderly female adviser turns north from the west arc toward the north "
   "head, presenting her back to the southeast place.\n"
   "PANEL 2 (top left): the blonde woman front-on, hands folded over an illegibly marked agenda.\n"
@@ -220,7 +231,8 @@ PAGES = [
         (3, KOH, "upper right", "A CHAIR DOES NOT MAKE THIS BOY OUR EQUAL."),
         (4, OFF(BOY16), "upper right", "THE CLAN DOES."),
         (5, BOY16, "upper right", "AND ITS HEAD IS NOT 'BOY' TO AN ADVISER."),
-        (6, TSU, "upper right", "THE UCHIHA SEAT STANDS. THE MEETING BEGINS.")),
+        (6, TSU, "upper right", "THE UCHIHA SEAT STANDS. THE MEETING BEGINS."))
+  + "PANEL 2's balloon reads exactly \"THE HOKAGE DOES NOT APPOINT CLAN HEADS.\" \u2014 the word CLAN is present, spelled C-L-A-N, and the whole line is lettered complete. It must never read \"THE HOKAGE DOES NOT APPOINT HEADS.\" PANEL 4 is a fully drawn close-up of the blond teen's eyes and brow with its off-panel balloon \"THE CLAN DOES.\" inside it; no panel on this page is left blank, beige or unrendered. In PANEL 6 the only blond person in the chamber is the one SEATED in the carved Uchiha chair \u2014 the figure standing at his right shoulder is the DARK-HAIRED teen with black upswept hair and the Uchiha fan on his back, never a second blond in a spiral shirt. ",
   R("koharu", "tsunade", "naruto_v4_black", "sasuke_16", "env_konoha_council_chamber"), "low"),
 
  # ---- Spread 3: security or possession ---------------------------------------------
@@ -229,13 +241,13 @@ PAGES = [
   + SHIKAKU.format(i=4) + SASUKE16.format(i=5) + ENV.format(i=6)
   + ONLY(HAWK, HOM, BOY16, SHIK, SAS16, ATTEND) + SEATING + CAST + DOCS + BLACKFIT + EYES_N
   + EYES_S_OFF +
-  "SIX panels. The demand for his training history is forced into the open as a security claim.\n"
+  "SIX panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width. TIER 2 holds PANEL 2 at the RIGHT, PANEL 3 in the CENTRE and PANEL 4 at the LEFT. TIER 3, the bottom tier, holds PANEL 5 at the RIGHT and PANEL 6 at the LEFT, both wholly below tier 2. The demand for his training history is forced into the open as a security claim.\n"
   "PANEL 1 (top band, full width): the bandaged old man's HAND taps the first item on the "
   "illegible agenda sheet already lying before him on the west arc; his face and mouth are outside "
   "this frame and nothing moves across the table.\n"
-  "PANEL 2 (middle right): the male adviser counts points on three fingers.\n"
-  "PANEL 3 (middle centre): the same angle, second finger.\n"
-  "PANEL 4 (middle left): the same angle, third finger pointing across the table.\n"
+  "PANEL 2 (tier 2, RIGHT): the male adviser raises ONE finger — the first of three points, a single finger up and no others.\n"
+  "PANEL 3 (tier 2, CENTRE): the same angle a moment later — a SECOND finger joins the first, TWO fingers now raised.\n"
+  "PANEL 4 (tier 2, LEFT): the same angle again — a THIRD finger joins them, THREE fingers now raised and pointing across the table. The count rises one, two, three with the reading order and never counts down.\n"
   "PANEL 5 (bottom right): the blond teen answers from the southeast seat without touching any "
   "document.\n"
   "PANEL 6 (bottom left): the man with the long pineapple ponytail props one elbow on the northern "
@@ -245,7 +257,8 @@ PAGES = [
         (3, HOM, "upper right", "HOW DID YOU LEAVE UNSEEN?"),
         (4, HOM, "upper right", "WHERE DID YOU TRAIN?"),
         (5, BOY16, "upper right", "I DID NOT NEED JIRAIYA. MY METHOD IS PRIVATE. MY LOCATION IS NOT YOURS."),
-        (6, SHIK, "upper right", "IS THIS DISCIPLINE, OR AN INTELLIGENCE INQUIRY?")),
+        (6, SHIK, "upper right", "IS THIS DISCIPLINE, OR AN INTELLIGENCE INQUIRY?"))
+  + "PANELS 2, 3 and 4 run RIGHT TO LEFT across the middle row and the finger count RISES with the reading order: PANEL 2 at reader-RIGHT shows ONE finger raised, PANEL 3 in the centre shows TWO, and PANEL 4 at reader-LEFT shows THREE pointing across the table. Never count down. PANEL 5 (the blond teen's answer) opens the BOTTOM row at reader-RIGHT and PANEL 6 (\"IS THIS DISCIPLINE, OR AN INTELLIGENCE INQUIRY?\") sits to its LEFT in that same bottom row, so the answer is read before the question about it. ",
   R("danzo", "homura", "naruto_v4_black", "shikaku", "sasuke_16",
     "env_konoha_council_chamber"), "low"),
 
@@ -273,7 +286,8 @@ PAGES = [
         (3, KOH, "upper right", "THE VILLAGE MUST CONTROL ITS SHINOBI."),
         (4, BOY16, "upper right", "THE VILLAGE HAS A HOKAGE."),
         (5, OFF(BOY16), "upper right", "YOU SPEAK AS IF HER SHINOBI ARE YOURS."),
-        (6, BOY16, "upper right", "WHICH PART OF THIS IS ADVICE?")),
+        (6, BOY16, "upper right", "WHICH PART OF THIS IS ADVICE?"))
+  + "In PANEL 5 the blond teen is NOT drawn, so \"YOU SPEAK AS IF HER SHINOBI ARE YOURS.\" is an off-panel balloon whose short spur runs UP to the TOP panel border and stops on the border line, pointing out of the panel; it must never touch or aim down at the male or female adviser drawn inside it. In PANEL 6 \"WHICH PART OF THIS IS ADVICE?\" belongs to the BLOND TEEN at the near southeast place and its tail reaches HIS visible mouth, never the dark-haired teen behind his shoulder. The east arc in PANEL 6 holds individually distinct clan heads in clan robes, including the stern long-haired Hyuga clan head and the man with the long pineapple ponytail \u2014 never four identical ninja in matching green flak vests. ",
   R("danzo", "shikaku", "koharu", "homura", "naruto_v4_black", "tsunade", "sasuke_16",
     "hiashi", "env_konoha_council_chamber"), "medium"),
 
@@ -298,7 +312,8 @@ PAGES = [
         (3, HOM, "upper right", "ANSWER, OR WE WILL TAKE THE ANSWER FROM YOUR MIND."),
         (4, BOY16, "upper right", "YOU CANNOT."),
         (5, HAWK, "upper right", "UNACCOUNTED POWER IS A THREAT."),
-        (6, BOY16, "upper right", "ARE YOU NAMING THE UCHIHA CLAN HEAD A THREAT TO KONOHA?")),
+        (6, BOY16, "upper right", "ARE YOU NAMING THE UCHIHA CLAN HEAD A THREAT TO KONOHA?"))
+  + "Every balloon is lettered in SOLID BLACK at full weight on EVERY line: no line is drawn faded, grey, hollow or outline-only, and \"UNACCOUNTED POWER IS A THREAT.\" is fully inked across all of its lines. In PANEL 1 the table is ONE continuous unbroken oval with a single smooth rim, never split into separate slabs or disjointed sections. Only the blond teen and the dark-haired teen wear the Uchiha fan crest; no extra figure stands in the foreground with a fan crest on his back, and nobody else in the chamber carries that crest at all. ",
   R("homura", "sasuke_16", "naruto_v4_black", "danzo", "tsunade",
     "env_konoha_council_chamber"), "low"),
 
@@ -327,7 +342,8 @@ PAGES = [
         (4, TSU, "upper right", "YES. AND I WILL NOT SHARE A PRIVATE SECURITY DISCUSSION."),
         (5, SHIK, "upper right", "THEN THERE IS NO UNRESOLVED FINDING BEFORE THIS COUNCIL."),
         (5, HIA, "upper left", "AGREED."),
-        (6, OFF(HAWK), "upper right", "THEN WE WILL DISCUSS THE CLAN'S SURVIVAL.")),
+        (6, OFF(HAWK), "upper right", "THEN WE WILL DISCUSS THE CLAN'S SURVIVAL."))
+  + "In PANEL 5 the two east-arc speakers are clearly drawn as SEPARATE men: the man with the long pineapple ponytail at the northern end of the arc, and the stern long-haired Hyuga clan head with the pale pupil-less eyes farther south on the same arc. \"AGREED.\" is the HYUGA clan head's line and carries its own clearly drawn tail running to HIS mouth \u2014 never tail-less, never resting on the ponytailed man's chest, who speaks only \"THEN THERE IS NO UNRESOLVED FINDING BEFORE THIS COUNCIL.\" ",
   R("danzo", "naruto_v4_black", "koharu", "tsunade", "shikaku", "hiashi", "sasuke_16",
     "env_konoha_council_chamber"), "low"),
 
@@ -354,7 +370,8 @@ PAGES = [
         (2, HAWK, "upper right", "KONOHA CANNOT ALLOW THE SHARINGAN TO DISAPPEAR."),
         (3, OFF(HAWK), "upper right", "THE CLAN RESTORATION ACT EXISTS FOR THIS."),
         (4, HIA, "upper right", "RESTORING A FOUNDING CLAN STRENGTHENS KONOHA."),
-        (5, OFF(HAWK), "upper right", "THE PREMISE IS ACCEPTED.")),
+        (5, OFF(HAWK), "upper right", "THE PREMISE IS ACCEPTED."))
+  + "The west arc in PANEL 5 carries the bandaged old man, the elderly female adviser with the pale hair bun and the elderly male adviser in the small round glasses, all three clearly recognisable in their fixed seats \u2014 never two unnamed grey-haired men in their places. In PANEL 5 the bandaged old man's mouth is not in frame, so \"THE PREMISE IS ACCEPTED.\" is an off-panel balloon whose spur runs LEFT to the WEST edge of the panel and stops on the border line; it must never reach down onto a clan head on the east arc at reader-right. ",
   R("danzo", "hiashi", "naruto_v4_black", "sasuke_16", "tsunade", "koharu", "homura",
     "env_konoha_council_chamber"), "medium"),
 
@@ -377,7 +394,8 @@ PAGES = [
         (1, HAWK, "upper left", "KONOHA MUST PRESERVE EVERY POWER IT HAS."),
         (2, HOM, "upper right", "THE FUTURE SHARINGAN ARE A VILLAGE INTEREST."),
         (3, BOY16, "upper right", "SAY IT PLAINLY."),
-        (3, BOY16, "upper left", "YOU WANT THEIR CHILDREN AS FUTURE WEAPONS.")),
+        (3, BOY16, "upper left", "YOU WANT THEIR CHILDREN AS FUTURE WEAPONS."))
+  + "In PANEL 3 there is EXACTLY ONE blond figure on the whole page: the blond teen seated in the carved Uchiha chair at the southeast place in foreground right. The west adviser arc holds only the bandaged old man, the elderly female adviser and the elderly male adviser in dark formal robes \u2014 no blond figure, no black shirt with a red Uzumaki spiral, and no duplicate of the blond teen sits anywhere on the west or east arc or between an adviser and the table. ",
   R("danzo", "homura", "naruto_v4_black", "sasuke_16", "koharu",
     "env_konoha_council_chamber"), "high"),
 
@@ -404,7 +422,8 @@ PAGES = [
         (2, EAST_GLASS, "upper right", "IT CREATES HEALTHY RELATIONSHIPS."),
         (2, EAST_GLASS, "upper left", "ATTACHMENTS MAKE DEPARTURE COSTLY."),
         (4, BOY16, "upper right", "REDUCING THE CHANCE OF BETRAYAL."),
-        (5, HOM, "upper right", "EXACTLY.")),
+        (5, HOM, "upper right", "EXACTLY."))
+  + "In PANEL 1 the open-handed clan head is ONE SPECIFIC seated man on the east arc \u2014 a broad adult in pale clan robes, plainly distinct from every other figure in the room \u2014 and \"THEN LET THEM MARRY FROM THE CLANS ALREADY HERE.\" carries a tail that ends on HIS mouth. The stern long-haired Hyuga clan head and the man with the long pineapple ponytail are also seated on that arc and say nothing. In PANEL 5 \"EXACTLY.\" belongs to the elderly male adviser in the small round glasses on the WEST arc: its tail must END ON HIS MOUTH and never stop in mid-air over the table, over an empty seat, or short of any figure. ",
   R("naruto_v4_black", "sasuke_16", "homura", "hiashi", "shikaku", "tsunade",
     "env_konoha_council_chamber"), "low"),
 
@@ -426,7 +445,8 @@ PAGES = [
         (2, BOY16, "upper right", "I AM NOT IGNORING IT."),
         (2, BOY16, "upper left", "I AM REFUSING YOUR OWNERSHIP OF THE ANSWER."),
         (3, HAWK, "upper right", "THEN OFFER SECURITY THIS COUNCIL CAN ENFORCE."),
-        (4, BOY16, "upper right", "APPLY YOUR PRECEDENT CONSISTENTLY.")),
+        (4, BOY16, "upper right", "APPLY YOUR PRECEDENT CONSISTENTLY."))
+  + "In EVERY panel where the blond teen's eye is visible, including the PANEL 2 view of his face above the carved chair arm, his visible left eye is the RED ordinary three-tomoe Sharingan \u2014 never plain blue, never grey, never a dark eye. In PANEL 4 \"APPLY YOUR PRECEDENT CONSISTENTLY.\" belongs to the BLOND TEEN and its tail reaches his mouth, never the dark-haired teen standing behind his right shoulder. ",
   R("hiashi", "naruto_v4_black", "danzo", "tsunade", "sasuke_16",
     "env_konoha_council_chamber"), "low"),
 
@@ -437,7 +457,7 @@ PAGES = [
          "the west-arc advisers and east-arc clan heads seen from behind or in lost profile, none "
          "of them individually recognisable", ATTEND)
   + SEATING + CAST + DOCS + BLACKFIT + EYES_N + EYES_S_ON +
-  "FOUR panels. The Act's own principle is made to touch the last member of the other founding "
+  "FOUR panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width. TIER 2 holds PANEL 2 at the RIGHT and PANEL 3 at the LEFT. TIER 3 is PANEL 4 alone, full width. The Act's own principle is made to touch the last member of the other founding "
   "clan.\n"
   "PANEL 1 (top band, full width): long diagonal from BEHIND the blond teen at the southeast place "
   "to the blonde woman at the north head; his head and shoulders are seen from the back and his "
@@ -451,7 +471,8 @@ PAGES = [
   + L_CHAMBER
   + SAY((1, OFF(BOY16), "upper right", "THE HOKAGE IS THE LAST SENJU."),
         (1, OFF(BOY16), "upper left", "PLACE HER UNDER THE SAME ACT."),
-        (4, BOY16, "upper right", "IF FOUNDING BLOOD MUST SURVIVE, WHY WAS THIS NOT RAISED WHEN SHE RETURNED?")),
+        (4, BOY16, "upper right", "IF FOUNDING BLOOD MUST SURVIVE, WHY WAS THIS NOT RAISED WHEN SHE RETURNED?"))
+  + "In PANEL 4 the blond teen is in NEAR-RIGHT PROFILE with his mouth clearly visible, and the balloon \"IF FOUNDING BLOOD MUST SURVIVE, WHY WAS THIS NOT RAISED WHEN SHE RETURNED?\" carries a clearly drawn tail that ends AT HIS MOUTH; it is never tail-less and never floats between two figures. The dark-haired teen is NOT drawn in PANEL 4 at all. In PANEL 1 the blond teen is seen from BEHIND with no mouth in frame, so both balloons are off-panel balloons whose short spurs run to the RIGHT panel border and stop on the border line, touching and aiming at no figure inside the panel. ",
   R("naruto_v4_black", "tsunade", "sasuke_16", "env_konoha_council_chamber"), "low"),
 
  ("p14", dict(scene="dialogue", light="day", cast="two", mood="tense", panels=4),
@@ -470,7 +491,8 @@ PAGES = [
         (2, TSU, "upper right", "I AM PAST THE AGE FOR CHILDREN."),
         (3, BOY16, "upper right", "A CIVILIAN MIGHT BE."),
         (3, BOY16, "upper left", "THE GREATEST MEDICAL NINJA IS NOT."),
-        (4, TSU, "upper right", "ANSWER THE PROPOSAL DIRECTLY, NARUTO.")),
+        (4, TSU, "upper right", "ANSWER THE PROPOSAL DIRECTLY, NARUTO."))
+  + "In PANEL 4, and in every panel where the southeast place is in frame, the DARK-HAIRED TEEN is drawn at his fixed mark one pace behind the blond teen's right shoulder, plainly present although he speaks nothing on this page. The southeast place is never shown with that mark empty and the blond teen is never alone in it. ",
   R("tsunade", "naruto_v4_black", "sasuke_16", "env_konoha_council_chamber"), "low"),
 
  # ---- Spread 8: consent for now ----------------------------------------------------
@@ -488,18 +510,19 @@ PAGES = [
   + SAY((1, BOY16, "upper right", "THE ACT CANNOT COMPEL SOMEONE UNDER EIGHTEEN WITHOUT CONSENT."),
         (2, BOY16, "upper right", "I AM UNDER EIGHTEEN."),
         (2, BOY16, "upper left", "TODAY, IT REQUIRES MY AGREEMENT."),
-        (3, BOY16, "upper right", "I REFUSE COMPULSORY ENROLLMENT.")),
+        (3, BOY16, "upper right", "I REFUSE COMPULSORY ENROLLMENT."))
+  + "In PANEL 3 the blond teen's hair is clean flat inked hair only: there is no second face, no partial or fragmentary face, and nothing smeared or garbled hidden inside or at the edge of it. Exactly ONE face appears in that panel. In PANEL 2 the carved chair back behind him carries exactly ONE clean, correctly proportioned Uchiha fan crest and his shirt carries exactly ONE red Uzumaki spiral \u2014 never a doubled, stacked, duplicated or malformed second emblem anywhere. ",
   R("naruto_v4_black", "env_konoha_council_chamber"), "low"),
 
  ("p16", dict(scene="dialogue", light="day", cast="group", mood="tense", panels=4),
   FILL + RTL + DAN.format(i=1) + N16_BLACK.format(i=2) + HOMURA.format(i=3)
   + SASUKE16.format(i=4) + TSUNADE.format(i=5) + ENV.format(i=6)
   + ONLY(HAWK, BOY16, HOM, SAS16, TSU, ATTEND) + SEATING + CAST + DOCS + BLACKFIT + EYES_N + EYES_S_ON +
-  "FOUR panels. The limit is named: a delay, not immunity.\n"
+  "FOUR panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. TIER 1 holds PANEL 1 at the RIGHT and PANEL 2 at the LEFT, side by side and the same height. TIER 2 is PANEL 3 alone, spanning the FULL WIDTH of the page beneath both of them. TIER 3 is PANEL 4 alone, full width. The page is never built as two vertical columns, and PANEL 3 never sits in a right-hand column directly under PANEL 1. The limit is named: a delay, not immunity.\n"
   "PANEL 1 (top right): the bandaged old man keeps his own statute copy beneath one hand on the "
   "west arc.\n"
   "PANEL 2 (top left): the blond teen meets his screen-left gaze.\n"
-  "PANEL 3 (middle right): the male adviser touches the edge of the west-arc copy.\n"
+  "PANEL 3 (tier 2, a FULL-WIDTH band beneath panels 1 and 2): the male adviser touches the edge of the west-arc copy from his seat, the clear tabletop running away to either side of him.\n"
   "PANEL 4 (bottom band, full width): the blond teen keeps both the adviser arc and the clan-head "
   "arc in view without turning his chair; the bandaged old man's mouth stays visible on the west "
   "arc and the dark-haired teen holds his mark behind the right shoulder. " + L_CHAMBER
@@ -508,7 +531,8 @@ PAGES = [
         (3, HOM, "upper right", "THE COUNCIL MAY PRESENT SUITABLE CANDIDATES."),
         (4, BOY16, "upper right", "THE ACT DOES NOT CHOOSE WHOM I MARRY."),
         (4, BOY16, "upper left", "NEITHER DO YOU."),
-        (4, HAWK, "lower left", "SASUKE. DOES YOUR ANSWER DIFFER?")),
+        (4, HAWK, "lower left", "SASUKE. DOES YOUR ANSWER DIFFER?"))
+  + "PANELS 1 and 2 form the TOP row \u2014 PANEL 1 (the bandaged old man) at reader-RIGHT and PANEL 2 (the blond teen's reply) at reader-LEFT. PANEL 3 (the male adviser, \"THE COUNCIL MAY PRESENT SUITABLE CANDIDATES.\") opens the MIDDLE row at reader-RIGHT, entirely BELOW both of them; it must never sit beside or above PANEL 2, so the council's offer is read after the blond teen's reply, not before it. ",
   R("danzo", "naruto_v4_black", "homura", "sasuke_16", "tsunade",
     "env_konoha_council_chamber"), "low"),
 
@@ -535,7 +559,8 @@ PAGES = [
         (2, SAS16, "upper left", "I WILL NOT BE COMPELLED INTO THE ACT."),
         (3, OFF(SAS16), "upper right", "I EXPECT TO MARRY BEFORE EIGHTEEN—VOLUNTARILY."),
         (4, SAS16, "upper right", "YOU WILL NOT CHOOSE HER."),
-        (4, SAS16, "upper left", "AND YOU WILL NOT TREAT MY CHILDREN AS WEAPONS.")),
+        (4, SAS16, "upper left", "AND YOU WILL NOT TREAT MY CHILDREN AS WEAPONS."))
+  + "In PANEL 3 the dark-haired teen is NOT drawn, so \"I EXPECT TO MARRY BEFORE EIGHTEEN\u2014VOLUNTARILY.\" is an off-panel balloon whose short spur runs to the nearest panel BORDER and stops on the border line; it must never touch, cross or aim at the bandaged old man's face, which is the only face in that panel. In PANEL 1 \"SASUKE.\" is spoken by the BLOND TEEN and its tail reaches HIS mouth, never the dark-haired teen he is calling. In PANEL 4 BOTH balloons belong to the DARK-HAIRED teen standing at the blond teen's right side: each tail reaches HIS mouth and neither runs across the oval to the advisers on the west arc. ",
   R("naruto_v4_black", "sasuke_16", "danzo", "tsunade",
     "env_konoha_council_chamber"), "medium"),
 
@@ -557,7 +582,8 @@ PAGES = [
         (2, SAS16, "upper right", "RESTORING IT DOES NOT MAKE IT YOURS."),
         (3, BOY16, "upper right", "HIS CHILDREN WILL BE UCHIHA."),
         (3, BOY16, "upper left", "THE CLAN PROTECTS THEM FROM ANYONE WHO CLAIMS THEM."),
-        (4, OFF(BOY16), "upper right", "BY THE TIME THEY ARE OUR AGE, YOU WILL LIKELY BE DEAD.")),
+        (4, OFF(BOY16), "upper right", "BY THE TIME THEY ARE OUR AGE, YOU WILL LIKELY BE DEAD."))
+  + "In PANEL 3 the north head is occupied by the BLONDE WOMAN IN THE GREEN HAORI \u2014 two long blonde tails, the dark diamond mark on her forehead \u2014 seated behind her low Hokage desk. She is never a grey-haired elder, never a stranger in dark robes, never malformed, and the north head is never deskless or empty. BOTH PANEL 3 balloons belong to the BLOND TEEN seated at the southeast place: draw each tail to HIS mouth, never onto the dark-haired teen beside him and never across to the west-arc advisers. ",
   R("hiashi", "sasuke_16", "naruto_v4_black", "koharu", "homura", "danzo", "tsunade",
     "env_konoha_council_chamber"), "low"),
 
@@ -568,7 +594,7 @@ PAGES = [
          "the west-arc advisers seen from behind or in lost profile, never individually "
          "recognisable", ATTEND)
   + SEATING + CAST + DOCS + BLACKFIT + EYES_N + EYES_S_ON +
-  "FOUR panels. The ruling closes the present proposal only.\n"
+  "FOUR panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width. TIER 2 holds PANEL 2 at the RIGHT and PANEL 3 at the LEFT, side by side and the same height. TIER 3 is PANEL 4 alone, full width. The ruling closes the present proposal only.\n"
   "PANEL 1 (top band, full width): the blonde woman rises at the north head, the tallest figure in "
   "the chamber for the first time.\n"
   "PANEL 2 (middle right): the blond teen stays seated beside his untouched section of the statute "
@@ -581,7 +607,8 @@ PAGES = [
         (2, OFF(TSU), "upper right", "NARUTO IS UNDER EIGHTEEN AND DOES NOT CONSENT."),
         (2, OFF(TSU), "upper left", "HE WILL NOT BE ENTERED INTO THE ACT TODAY."),
         (3, OFF(TSU), "upper right", "SASUKE REFUSES COMPULSION AND HAS STATED HIS VOLUNTARY INTENT."),
-        (4, TSU, "upper right", "NO SPOUSE IS ASSIGNED. THE PRESENT PROPOSAL ENDS HERE.")),
+        (4, TSU, "upper right", "NO SPOUSE IS ASSIGNED. THE PRESENT PROPOSAL ENDS HERE."))
+  + "In PANELS 2 and 3 the blond teen's visible left eye is the RED ordinary three-tomoe Sharingan, never plain grey, blue or dark. PANEL 2 \u2014 the blond teen, carrying the ruling about him \u2014 sits at reader-RIGHT of the middle row and PANEL 3 \u2014 the dark-haired teen, carrying the ruling about him \u2014 sits to its LEFT, so the ruling on the blond teen is read first. The blonde woman is NOT drawn in either panel, so each of those balloons is an off-panel balloon whose spur runs UP to the TOP panel border and stops on the border line, pointing out of the panel and never down at the blond teen or the dark-haired teen. ",
   R("tsunade", "naruto_v4_black", "sasuke_16", "env_konoha_council_chamber"), "low"),
 
  ("p20", dict(scene="dialogue", light="day", cast="crowd", mood="calm", panels=3),
@@ -602,7 +629,8 @@ PAGES = [
   + SAY((1, HAWK, "upper right", "THE STATUTE REMAINS WHEN NARUTO TURNS EIGHTEEN."),
         (2, SAS16, "upper right", "A DRAW."),
         (3, TSU, "upper right", "I BELIEVE THAT SETTLES THE MATTER."),
-        (3, TSU, "upper left", "GOOD. WE MOVE TO THE NEXT MATTER. DANZŌ?")),
+        (3, TSU, "upper left", "GOOD. WE MOVE TO THE NEXT MATTER. DANZŌ?"))
+  + "In PANEL 3 the bandaged old man \u2014 cane in his left hand, right arm wrapped and slung, right eye bandaged, X-shaped scar on his chin \u2014 is clearly drawn on the WEST arc in the seat NEAREST the north head, unmistakably present in this closing master. He is never absent from it and never replaced by an unnamed grey-haired man. The west arc holds him, the elderly female adviser and the elderly male adviser: exactly three. ",
   R("danzo", "sasuke_16", "tsunade", "naruto_v4_black", "koharu", "homura",
     "env_konoha_council_chamber"), "medium"),
 ]

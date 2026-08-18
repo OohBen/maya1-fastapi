@@ -334,7 +334,8 @@ PAGES = [
     "straight spur to the panel's right border. "
   + "In PANEL 5 the balloon reads exactly YOU MAKE MERCY SOUND LIKE ENGINEERING. — spell "
     "ENGINEERING as one unbroken word with no hyphen, colon, dash or any other mark inside it. "
-  + FLATCEL,
+  + FLATCEL
+  + SKYLINE,
   R("naruto_v4_armor", "mei_v4", "kiri_rebel_mob", "env_mizukage_tower"), "medium"),
 
  ("p08", dict(scene="dialogue", light="day", cast="two", mood="calm", panels=8),
@@ -406,7 +407,8 @@ PAGES = [
          "THE BATTLEFIELD OFFERS ME A CHANCE TO DANCE. THIS PLACE OFFERS PEACE."),
         (5, MEI, "upper right", "THEN CHANGE MORE."),
         (6, BOY16, "upper left", "BE PRECISE."))
-  + FLATCEL,
+  + FLATCEL
+  + SKYLINE,
   R("naruto_v4_armor", "mei_v4", "susanoo_orange_final", "env_kiri_moonlit_hill"), "low"),
 
  ("p10", dict(scene="dialogue", light="overcast", cast="two", mood="tense", panels=6),
@@ -434,7 +436,8 @@ PAGES = [
         (5, BOY16, "upper left", "EVERYONE WANTS A DIFFERENT PEACE."),
         (6, MEI, "upper left",
          "THEN BEGIN WITH ONE THAT DOES NOT BURY CHILDREN FOR THEIR BLOOD."))
-  + FLATCEL,
+  + FLATCEL
+  + SKYLINE,
   R("naruto_v4_armor", "mei_v4", "kiri_rebel_mob", "env_kiri_moonlit_hill"), "low"),
 
  # ---- Spread 6: reasons and the strong who watched -----------------------------------
@@ -555,7 +558,8 @@ PAGES = [
         (4, MEI, "upper left", "AND EVERYONE ELSE?"),
         (5, BOY16, "upper right", "BUILD STRENGTH."),
         (6, MEI, "upper left", "CHILDREN TOO?"))
-  + FLATCEL,
+  + FLATCEL
+  + SKYLINE,
   R("naruto_v4_armor", "mei_v4", "env_kiri_moonlit_hill"), "low"),
 
  # ---- Spread 8: choice without a cage ------------------------------------------------

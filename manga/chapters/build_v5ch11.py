@@ -54,6 +54,17 @@ ROOM = ("Karin's sitting room keeps ONE unbroken 180-degree axis on every page: 
         "teen at the far centre beyond the table. The axis is never mirrored. ")
 TABLE = ("The Uchiha kitchen table is one long horizontal axis: the dark-haired teen on frame LEFT "
          "with tea and a closed book, the blond teen on frame RIGHT. The axis is never mirrored. ")
+# The page-QA gate found the same two defects again and again across this chapter: a balloon
+# tailed to whoever stood nearest instead of its named speaker, and a balloon left tail-less on
+# top of the wrong face. This is the chapter-wide law; every reissued page carries it.
+TAILS = ("BALLOON TAILS ARE CHECKED ON THIS PAGE. Every balloon has ONE clearly drawn tail whose "
+         "point ENDS AT ITS NAMED SPEAKER'S MOUTH. No balloon is tail-less, none carries a short "
+         "stub that stops on a nearer character's head, hair, shoulder or sleeve, and none floats "
+         "above a face it does not belong to. Where the named speaker stands on the far side of "
+         "the panel from the balloon, the tail is drawn LONG and travels the whole way across to "
+         "them, passing clear of every other face. An off-panel balloon's spur runs to the panel "
+         "BORDER and stops on the border line, touching and aiming at no figure inside the panel. ")
+
 L_SITTING = "Lighting: warm low evening lamplight in a wooden interior, deep quiet shadows. "
 L_SEALED = ("Lighting: even indoor lamplight in a clean modern room; the faint blue seal lines in "
             "floor, window lattice and tabletop are the only cool accent. ")
@@ -70,7 +81,7 @@ PAGES = [
  ("p01", dict(scene="dialogue", light="dusk", cast="two", mood="calm", panels=5),
   FILL + RTL + N16_ARMOR.format(i=1) + SASUKE16.format(i=2) + ENV.format(i=3)
   + ONLY(BOY16, SAS16) + ARMOUR +
-  "FIVE panels. Image 3 supplies Uchiha architecture, palette and crest motifs only; this page is "
+  "FIVE panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width, across the top of the page. TIER 2 holds PANEL 2 in its RIGHT half and PANEL 3 in its LEFT half. TIER 3, the bottom tier, holds PANEL 4 in its RIGHT half and PANEL 5 in its LEFT half. PANEL 4 therefore sits BELOW panels 2 and 3, never beside or above them. Image 3 supplies Uchiha architecture, palette and crest motifs only; this page is "
   "an INTERIOR sitting room in that compound, not a street.\n"
   "PANEL 1 (top band, full width): wide evening interior — the dark-haired teen sits at frame left "
   "with an open book; the blond teen stands at frame right in red armour just inside the garden "
@@ -95,7 +106,8 @@ PAGES = [
         (3, BOY16, "upper right", "KARIN'S HOUSE."),
         (3, BOY16, "upper left", "THE COMPOUND IS NOT PRIVATE ENOUGH YET."),
         (4, SAS16, "upper right", "YOU GAVE HER YOUR HOUSE?"),
-        (5, BOY16, "upper right", "I WASN'T USING IT.")),
+        (5, BOY16, "upper right", "I WASN'T USING IT."))
+  + TAILS + "PANELS 2 and 3 occupy the ENTIRE middle row \u2014 PANEL 2 at reader-RIGHT, PANEL 3 at reader-LEFT \u2014 and PANEL 4 sits in the BOTTOM row at reader-RIGHT, wholly below both of them. No part of PANEL 4 may sit in the middle row or above PANEL 3, so the dark-haired teen's \"YOU GAVE HER YOUR HOUSE?\" is read AFTER the blond teen has said \"KARIN'S HOUSE.\", never before it. ",
   R("naruto_v4_armor", "sasuke_16", "env_uchiha_compound"), "high"),
 
  ("p02", dict(scene="dialogue", light="day", cast="small_group", mood="tense", panels=5),
@@ -126,7 +138,8 @@ PAGES = [
         (4, KAR, "upper left", "YOU DECIDED THAT QUICKLY."),
         (4, BOY16, "lower right", "NO. I DECIDED IT CAREFULLY."),
         (5, SAS16, "upper right", "KAKASHI SAID ANBU COULDN'T ENTER THIS HOUSE."),
-        (5, BOY16, "lower left", "JIRAIYA DID ONCE. I CORRECTED THE ERROR.")),
+        (5, BOY16, "lower left", "JIRAIYA DID ONCE. I CORRECTED THE ERROR."))
+  + TAILS + "In PANEL 5 BOTH teens are drawn: the dark-haired teen at frame LEFT with his mouth visible as he tracks the seal lines, and the blond teen in three-quarter profile at frame RIGHT. \"KAKASHI SAID ANBU COULDN'T ENTER THIS HOUSE.\" is the DARK-HAIRED teen's line \u2014 place the balloon at the upper right as stated but draw a long tail travelling down-LEFT across the panel to HIS mouth, never stopping at the blond teen. In PANEL 4 \"NO. I DECIDED IT CAREFULLY.\" belongs to the BLOND TEEN standing at the back centre; its tail runs to HIS mouth and never up-right to the dark-haired teen in the foreground. ",
   R("naruto_v4_armor", "sasuke_16", "karin", "env_shinobi_apartment"), "medium"),
 
  # ---- Spread 2: what belongs to them -----------------------------------------------
@@ -156,7 +169,8 @@ PAGES = [
         (5, SAS16, "upper right", "WHAT WAS WORTH COPYING?"),
         (6, BOY16, "upper right", "CLAN HISTORY. SHARINGAN RESEARCH. A FEW FORBIDDEN TECHNIQUES."),
         (6, SAS16, "centre left", "THE NAKA SHRINE HOLDS THE DANGEROUS SECRETS."),
-        (6, BOY16, "lower left", "THAT DOESN'T MAKE THESE THEIRS.")),
+        (6, BOY16, "lower left", "THAT DOESN'T MAKE THESE THEIRS."))
+  + TAILS + "In PANEL 6 the three balloons run in strict right-to-left, top-to-bottom order: \"CLAN HISTORY. SHARINGAN RESEARCH. A FEW FORBIDDEN TECHNIQUES.\" is the RIGHTMOST and highest, \"THE NAKA SHRINE HOLDS THE DANGEROUS SECRETS.\" sits BELOW AND LEFT of it, and \"THAT DOESN'T MAKE THESE THEIRS.\" sits below and left again. The shrine line must never sit to the right of, or level with, the list it answers. ",
   R("naruto_v4_armor", "sasuke_16", "karin", "env_shinobi_apartment"), "low"),
 
  ("p04", dict(scene="dialogue", light="day", cast="small_group", mood="tense", panels=7),
@@ -186,7 +200,8 @@ PAGES = [
         (6, BOY16, "upper right", "I DON'T TAKE WHAT ISN'T MINE."),
         (6, BOY16, "upper left", "WHAT BELONGS TO THE CLAN COMES BACK—LAWFULLY OR OTHERWISE."),
         (7, KAR, "upper right", "AND AFTER THE SCROLLS?"),
-        (7, SAS16, "upper left", "WE RESTORE THE CLAN.")),
+        (7, SAS16, "upper left", "WE RESTORE THE CLAN."))
+  + TAILS + "In PANEL 7 the balloon \"AND AFTER THE SCROLLS?\" is the RIGHTMOST balloon and \"WE RESTORE THE CLAN.\" sits to its LEFT, so the red-haired girl's question is read before the dark-haired teen's answer. In PANEL 6 the second balloon reads exactly \"WHAT BELONGS TO THE CLAN COMES BACK \u2014 LAWFULLY OR OTHERWISE.\" with ONE single long dash between BACK and LAWFULLY: never a run of two or three hyphens, never \"BACK---LAWFULLY\", and never a hyphen breaking a word across lines. ",
   R("naruto_v4_armor", "sasuke_16", "karin", "env_shinobi_apartment"), "low"),
 
  # ---- Spread 3: recent history -----------------------------------------------------
@@ -214,13 +229,14 @@ PAGES = [
         (4, OFF(SAS16), "lower left", "I DIDN'T SAY THAT."),
         (5, KAR, "upper right", "THEN DON'T TALK ABOUT A FAMILY LIKE A RECRUITMENT QUOTA."),
         (6, KAR, "upper right", "IF YOU REBUILD IT, DO IT WITH SOMEONE YOU LOVE."),
-        (6, KAR, "upper left", "ALTHOUGH HE MAY NOT UNDERSTAND THE DISTINCTION.")),
+        (6, KAR, "upper left", "ALTHOUGH HE MAY NOT UNDERSTAND THE DISTINCTION."))
+  + TAILS + "In PANEL 5 the balloon \"THEN DON'T TALK ABOUT A FAMILY LIKE A RECRUITMENT QUOTA.\" belongs to the RED-HAIRED GIRL in the foreground at frame left; it carries a clearly drawn tail running down to HER mouth and is never tail-less and never rests against the dark-haired teen's head. In PANEL 4 the dark-haired teen is NOT drawn anywhere, so \"I DIDN'T SAY THAT.\" is an off-panel balloon whose short spur runs to the LOWER-LEFT panel border and stops on the border line itself, touching no part of the red-haired girl \u2014 not her sleeve, her hand, nor her hair. ",
   R("naruto_v4_armor", "sasuke_16", "karin", "env_shinobi_apartment"), "low"),
 
  ("p06", dict(scene="emotional_closeup", light="day", cast="small_group", mood="calm", panels=8),
   FILL + RTL + N16_ARMOR.format(i=1) + SASUKE16.format(i=2) + KARIN.format(i=3) + ENV.format(i=4)
   + ONLY(BOY16, SAS16, KAR) + ARMOUR + ROOM +
-  "EIGHT panels. Humour exposes how new their cooperation is; it must never read as childhood "
+  "EIGHT panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. TIER 1 holds PANEL 1 at the RIGHT and PANEL 2 at the LEFT. TIER 2 is PANEL 3 alone, full width. TIER 3 holds PANEL 4 at the RIGHT and PANEL 5 at the LEFT. TIER 4, the bottom tier, holds PANEL 6 at the RIGHT, PANEL 7 in the CENTRE and PANEL 8 at the LEFT. Panels 6, 7 and 8 all sit BELOW panels 4 and 5. Humour exposes how new their cooperation is; it must never read as childhood "
   "friendship.\n"
   "PANEL 1 (top right, square): close on the red-haired girl looking left.\n"
   "PANEL 2 (top left, square): close on the dark-haired teen looking right, flat and immediate.\n"
@@ -245,7 +261,8 @@ PAGES = [
         (6, SAS16, "upper right", "WE AREN'T."),
         (7, BOY16, "upper right", "WE WERE CIVIL IN KIRI."),
         (7, SAS16, "upper left", "A FEW WEEKS AGO. BEFORE THAT, WE HATED EACH OTHER."),
-        (8, KAR, "upper right", "YOU DON'T ACT LIKE IT.")),
+        (8, KAR, "upper right", "YOU DON'T ACT LIKE IT."))
+  + TAILS + "PANELS 1 and 2 form the TOP row, PANEL 3 is a full-width band beneath them, PANELS 4 and 5 form the MIDDLE row with 4 at reader-RIGHT and 5 at reader-LEFT, and PANELS 6, 7 and 8 form the BOTTOM row with 6 at reader-RIGHT, 7 in the centre and 8 at reader-LEFT. PANEL 6 sits wholly BELOW panel 5, never beside it, so \"WE AREN'T.\" is read after \"HOW LONG HAVE YOU TWO BEEN FRIENDS?\" In PANEL 7 \"WE WERE CIVIL IN KIRI.\" is the RIGHTMOST balloon and \"A FEW WEEKS AGO. BEFORE THAT, WE HATED EACH OTHER.\" sits to its LEFT. ",
   R("naruto_v4_armor", "sasuke_16", "karin", "env_shinobi_apartment"), "medium"),
 
  # ---- Spread 4: seat and shield ----------------------------------------------------
@@ -302,7 +319,8 @@ PAGES = [
         (5, BOY16, "upper right", "WITH THE COUNCIL. INTELLIGENCE. TRAINING."),
         (6, BOY16, "upper right", "BUT TWO UCHIHA AREN'T A FORCE."),
         (6, SAS16, "upper left", "WE ASK TSUNADE FOR RECRUITS."),
-        (7, SAS16, "upper right", "THEN WE TRAIN THEM.")),
+        (7, SAS16, "upper right", "THEN WE TRAIN THEM."))
+  + TAILS + "In PANEL 1 the balloon \"THE UCHIHA FOUNDED THE POLICE FORCE. IT DIED WITH THE CLAN.\" belongs to the DARK-HAIRED teen sitting at frame LEFT. Draw a long tail that crosses the panel to HIS mouth and never a stub stopping at the blond teen at frame right, who says nothing at all in this panel. ",
   R("naruto_v4_armor", "sasuke_16", "karin", "env_shinobi_apartment"), "low"),
 
  # ---- Spread 5: protection is not presence -----------------------------------------
@@ -339,7 +357,7 @@ PAGES = [
  ("p10", dict(scene="dialogue", light="dark", cast="small_group", mood="calm", panels=7),
   FILL + RTL + N16_ARMOR.format(i=1) + SASUKE16.format(i=2) + YUGAO_V4.format(i=3) + ENV.format(i=4)
   + ONLY(BOY16, SAS16, YUG) + ARMOUR +
-  "SEVEN panels. Image 4 supplies Uchiha architecture and palette; the scene plays at the house "
+  "SEVEN panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width. TIER 2 holds PANEL 2 at the RIGHT, PANEL 3 in the CENTRE and PANEL 4 at the LEFT. TIER 3, the bottom tier, holds PANEL 5 at the RIGHT, PANEL 6 in the CENTRE and PANEL 7 at the LEFT. Panel 5 sits BELOW panel 4, never beside it. Image 4 supplies Uchiha architecture and palette; the scene plays at the house "
   "door of that compound at night.\n"
   "PANEL 1 (top band, full width): night exterior — the purple-haired kunoichi stands frame right "
   "at the Uchiha house door, the empty compound receding left. Keep the upper right quiet for the "
@@ -367,7 +385,8 @@ PAGES = [
         (6, YUG, "upper left", "PLEASE DON'T WEAR THE ARMOUR."),
         (7, SAS16, "upper right", "A DATE?"),
         (7, BOY16, "upper left", "PERHAPS."))
-  + SFX(1, "KNOCK", "Small, at the lower left beside her knuckles; it must not cover her face."),
+  + SFX(1, "KNOCK", "Small, at the lower left beside her knuckles; it must not cover her face.")
+  + TAILS + "In PANEL 6 the two balloons must not exchange speakers: \"YES.\" is the BLOND TEEN's and its tail ends at his mouth, and \"PLEASE DON'T WEAR THE ARMOUR.\" is the PURPLE-HAIRED KUNOICHI's and its tail ends at hers. PANEL 4 closes the MIDDLE row at reader-LEFT and PANEL 5 opens the BOTTOM row at reader-RIGHT, wholly below it, so the blond teen's \"IT'S GOOD TO SEE YOU WELL.\" is read before her \"DINNER. TOMORROW NIGHT?\" In PANEL 7 \"A DATE?\" is the RIGHTMOST balloon and \"PERHAPS.\" sits to its LEFT. ",
   R("naruto_v4_armor", "sasuke_16", "yugao_v4", "env_uchiha_compound"), "low"),
 
  # ---- Spread 6: the response -------------------------------------------------------
@@ -376,7 +395,7 @@ PAGES = [
   + ONLY(HAWK, KOH, HOM,
          "two distant masked Root guards at the rear wall in plain featureless white oval masks, "
          "never unmasked and never individually recognisable") +
-  "SIX panels. A deep underground Root chamber holds a rigid triangle: the bandaged old man "
+  "SIX panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width. TIER 2 holds PANEL 2 at the RIGHT and PANEL 3 at the LEFT. TIER 3, the bottom tier, holds PANEL 4 at the RIGHT, PANEL 5 in the CENTRE and PANEL 6 at the LEFT. Panel 4 sits BELOW panel 3, never beside it. A deep underground Root chamber holds a rigid triangle: the bandaged old man "
   "elevated at the far centre, the elderly female adviser entering from frame right, the elderly "
   "male adviser from frame left. No Root agent stands close enough to imply a specific operation, "
   "and NO object, gesture or document hints at any method.\n"
@@ -400,7 +419,8 @@ PAGES = [
         (5, OFF(KOH), "upper left", "THEN SHE'S USEFUL."),
         (6, HAWK, "upper right", "USEFUL ENOUGH FOR HIM TO BRING INTO KONOHA."),
         (6, OFF(HOM), "upper centre", "HE WON'T LET US QUESTION HER."),
-        (6, HAWK, "upper left", "AND FORCE WOULD WASTE ROOT LIVES.")),
+        (6, HAWK, "upper left", "AND FORCE WOULD WASTE ROOT LIVES."))
+  + TAILS + "PANEL 4 (the male adviser, \"WITH A RED-HAIRED WOMAN.\") opens the BOTTOM row at reader-RIGHT and PANEL 5 sits to its LEFT in that same row, so \"WITH A RED-HAIRED WOMAN.\" is read before \"SHE WORKED UNDER OROCHIMARU.\" and \"THEN SHE'S USEFUL.\" In PANEL 6 the male adviser is one of the two BACKS filling the lower corners with no mouth in frame, so \"HE WON'T LET US QUESTION HER.\" is an off-panel balloon whose spur runs DOWN-LEFT to the LOWER-LEFT panel border and stops on the border line; it must never run down onto, touch or aim at the bandaged old man, who is the elevated central figure. ",
   R("danzo", "koharu", "homura"), "low"),
 
  ("p12", dict(scene="dialogue", light="dark", cast="small_group", mood="tense", panels=7),
@@ -430,7 +450,8 @@ PAGES = [
         (5, HOM, "upper left", "AND HE DOESN'T ANSWER TO US."),
         (6, HAWK, "upper right", "HE HAS MADE HIMSELF UNMANAGEABLE."),
         (6, OFF(KOH), "lower left", "THEN WHAT DO WE DO?"),
-        (7, OFF(HAWK), "upper right", "I'VE ALREADY PREPARED A RESPONSE.")),
+        (7, OFF(HAWK), "upper right", "I'VE ALREADY PREPARED A RESPONSE."))
+  + TAILS + "LETTERING IS CRITICAL ON THIS PAGE: each balloon contains its words and NOTHING else. There is no extra line beneath the text, no stray dash, hyphen, underscore, dot, tick or mark of any kind inside or below any balloon, and no hyphen splitting a word across two lines. In PANEL 5 \"HE KNOWS TOO MUCH.\" is the RIGHTMOST balloon and \"AND HE DOESN'T ANSWER TO US.\" sits to its LEFT. ",
   R("danzo", "koharu", "homura"), "low"),
 
  # ---- Spread 7: what the schedule costs --------------------------------------------
@@ -444,9 +465,12 @@ PAGES = [
   "PANEL 2 (top left, horizontal): SILENT medium — he sits at the bed edge in dark sleep shorts "
   "and no shirt, one hand braced on the mattress, the other pressed to his temple; his skin is "
   "pale and he looks down, not at the reader. No text in this panel.\n"
-  "PANEL 3 (middle band, full width): SILENT three-beat continuous motion read RIGHT TO LEFT — he "
-  "reaches the wall-mounted gunbai, bites his thumb, presses blood to its seal. The repeated figure "
-  "must read as ONE movement in time, never as clones. No text in this panel.\n"
+  "PANEL 3 (middle band, full width): SILENT three-beat continuous motion laid out RIGHT TO LEFT "
+  "across the band. The RIGHTMOST beat, at the right edge of the panel, is his hand reaching up to "
+  "the wall-mounted gunbai. The CENTRE beat is him biting his thumb. The LEFTMOST beat, at the left "
+  "edge, is the bloodied thumb pressed to the seal. Never lay these three beats out left to right "
+  "and never put the pressed thumb on the right. The repeated figure must read as ONE movement in "
+  "time, never as clones. No text in this panel.\n"
   "PANEL 4 (bottom right, vertical): three-beat continuous action down the panel — at the top his "
   "hands complete two distinct seals in sequence; at the centre both palms plant on the bare floor "
   "and a circular array grows outward beneath them; at the bottom the gunbai base strikes the "
@@ -466,7 +490,8 @@ PAGES = [
         (6, OFF(ZETSU), "upper right", "YES."),
         (6, OFF(ZETSU), "upper left", "LET IT COOL."),
         (6, BOY16, "lower left", "HOT OR COLD DOESN'T MATTER."))
-  + SFX(4, "THUM", "At the lower left beside the seal; keep it clear of his hands."),
+  + SFX(4, "THUM", "At the lower left beside the seal; keep it clear of his hands.")
+  + TAILS + "PANEL 3's three-beat continuous motion runs RIGHT TO LEFT with the reading direction: the RIGHTMOST beat is his hand reaching for the wall-mounted gunbai, the CENTRE beat is the thumb being bitten, and the LEFTMOST beat is the bloodied thumb pressed to the seal. Never reverse that order and never lay the three beats out left to right. ",
   R("naruto_v4_black", "zetsu", "gunbai_v4", "env_hideout_kitchen"), "medium"),
 
  ("p14", dict(scene="dialogue", light="dark", cast="two", mood="calm", panels=7),
@@ -502,14 +527,15 @@ PAGES = [
         (6, ZETSU, "upper right", "MOST ARE CELEBRATING OROCHIMARU'S DEATH. A FEW WANT REVENGE."),
         (6, BOY16, "lower right", "IF THEY INTERFERE, QUIET THEM."),
         (7, ZETSU, "upper right", "YOU'LL BE BUSY?"),
-        (7, BOY16, "upper left", "THE COUNCIL. DANZŌ'S RESPONSE. MEI'S ALLIANCE. KEEP OTO MOVING.")),
+        (7, BOY16, "upper left", "THE COUNCIL. DANZŌ'S RESPONSE. MEI'S ALLIANCE. KEEP OTO MOVING."))
+  + TAILS + "In PANEL 6 \"MOST ARE CELEBRATING OROCHIMARU'S DEATH. A FEW WANT REVENGE.\" is the RIGHTMOST and highest balloon and \"IF THEY INTERFERE, QUIET THEM.\" sits BELOW AND LEFT of it, so the order is only given after the report that prompts it. PANEL 5 is a BORDERLESS report image: it has NO panel border, NO frame line and NO gutter of its own, bleeding softly into the surrounding page as visualized information rather than reading as a live cut to another location. ",
   R("naruto_v4_black", "zetsu", "gunbai_v4", "env_hideout_kitchen"), "low"),
 
  # ---- Spread 8: a place for the Police ---------------------------------------------
  ("p15", dict(scene="dialogue", light="day", cast="two", mood="calm", panels=7),
   FILL + RTL + N16_BLACK.format(i=1) + SASUKE16.format(i=2) + GUNBAI_V4.format(i=3)
   + ENV.format(i=4) + ONLY(BOY16, SAS16) + BLACKFIT + TABLE +
-  "SEVEN panels. Image 4 supplies Uchiha architecture and palette only; this is the INTERIOR "
+  "SEVEN panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width. TIER 2 holds PANEL 2 at the RIGHT, PANEL 3 in the CENTRE and PANEL 4 at the LEFT. TIER 3, the bottom tier, holds PANEL 5 at the RIGHT, PANEL 6 in the CENTRE and PANEL 7 at the LEFT. Panels 5, 6 and 7 are each ONE TIER TALL ONLY — none of them is a tall column reaching up into tier 2 — so panel 5 sits wholly BELOW panel 4. Image 4 supplies Uchiha architecture and palette only; this is the INTERIOR "
   "kitchen of that house.\n"
   "PANEL 1 (top band, full width): wide kitchen — the dark-haired teen sits frame left reading "
   "with tea; the blond teen enters frame right, hair still damp; his three-quarter BACK view shows "
@@ -522,7 +548,7 @@ PAGES = [
   "dark-haired teen left, eye-lines meeting.\n"
   "PANEL 4 (middle left, small horizontal): close on the dark-haired teen, eyes drifting up-right "
   "in thought.\n"
-  "PANEL 5 (bottom right, vertical): the blond teen looking left without changing expression.\n"
+  "PANEL 5 (tier 3, RIGHT — a small panel ONE TIER TALL, never a column reaching up into tier 2): the blond teen looking left without changing expression.\n"
   "PANEL 6 (bottom centre, narrow vertical): SILENT close on the dark-haired teen with no "
   "immediate answer, his book lowering. No text in this panel.\n"
   "PANEL 7 (bottom left, large vertical): high angle along the table — the blond teen's gloved "
@@ -535,13 +561,14 @@ PAGES = [
         (5, BOY16, "upper right", "WHERE IN IT?"),
         (7, BOY16, "upper right", "WHERE DO YOU STORE CASE FILES?"),
         (7, BOY16, "upper centre", "HOLD BRIEFINGS?"),
-        (7, BOY16, "upper left", "SEPARATE POLICE WORK FROM CLAN BUSINESS?")),
+        (7, BOY16, "upper left", "SEPARATE POLICE WORK FROM CLAN BUSINESS?"))
+  + TAILS + "PANEL 4 (the dark-haired teen, \"THE COMPOUND.\") closes the MIDDLE row at reader-LEFT and PANEL 5 (the blond teen, \"WHERE IN IT?\") opens the BOTTOM row at reader-RIGHT, wholly below it. Neither is a tall panel, and NO panel anywhere on this page spans two rows, so \"WHERE IN IT?\" can never be read before \"THE COMPOUND.\" ",
   R("naruto_v4_black", "sasuke_16", "gunbai_v4", "env_uchiha_compound"), "low"),
 
  ("p16", dict(scene="dialogue", light="day", cast="two", mood="calm", panels=6),
   FILL + RTL + N16_BLACK.format(i=1) + SASUKE16.format(i=2) + ENV.format(i=3)
   + ONLY(BOY16, SAS16) + BLACKFIT + TABLE +
-  "SIX panels. The headquarters stays a blank sheet and its resources stay unresolved.\n"
+  "SIX panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. TIER 1 holds PANEL 1 at the RIGHT and PANEL 2 at the LEFT. TIER 2 holds PANEL 3 at the RIGHT and PANEL 4 at the LEFT. TIER 3, the bottom tier, holds PANEL 5 at the RIGHT and PANEL 6 at the LEFT. Panel 5 sits BELOW panel 4, never beside it. The headquarters stays a blank sheet and its resources stay unresolved.\n"
   "PANEL 1 (top right, horizontal): the dark-haired teen looks down at the blank sheet, his tea "
   "and closed book above it; his eye-line follows the page toward the blond teen at frame right.\n"
   "PANEL 2 (top left, horizontal): the blond teen in profile looking right.\n"
@@ -561,14 +588,15 @@ PAGES = [
         (3, SAS16, "upper right", "THEN WE BUILD ONE. WE'LL NEED RESOURCES."),
         (4, BOY16, "upper right", "FIRST, DRAW THE PLANS."),
         (5, SAS16, "upper right", "YOU HAVEN'T ANSWERED."),
-        (6, BOY16, "upper left", "THE COUNCIL COMES FIRST.")),
+        (6, BOY16, "upper left", "THE COUNCIL COMES FIRST."))
+  + TAILS + "PANEL 4 (the blond teen, \"FIRST, DRAW THE PLANS.\") closes the MIDDLE row at reader-LEFT and PANEL 5 (the dark-haired teen, \"YOU HAVEN'T ANSWERED.\") opens the BOTTOM row at reader-RIGHT, wholly below it, so the instruction is read before the complaint about it. In PANEL 6 the balloon \"THE COUNCIL COMES FIRST.\" belongs to the BLOND TEEN at frame RIGHT: place it in the upper left as stated but draw a long tail crossing the panel to HIS mouth, clear of the dark-haired teen's head and hair at frame left. ",
   R("naruto_v4_black", "sasuke_16", "env_uchiha_compound"), "low"),
 
  # ---- Spread 9: called to account --------------------------------------------------
  ("p17", dict(scene="dialogue", light="day", cast="small_group", mood="tense", panels=7),
   FILL + RTL + N16_BLACK.format(i=1) + SASUKE16.format(i=2) + ENV.format(i=3)
   + ONLY(BOY16, SAS16, ANBU) + BLACKFIT + TABLE +
-  "SEVEN panels. Public authority interrupts private planning.\n"
+  "SEVEN panels. PAGE GRID — THIS IS THE PANEL LAYOUT AND NOTHING MAY CROSS A TIER LINE. The page is divided into horizontal TIERS that each run the full width of the paper, stacked top to bottom, separated by an unbroken horizontal gutter that crosses the whole page. Inside a tier the panels are read RIGHT TO LEFT. No panel is taller than its own tier and no panel spans, straddles or reaches into the tier above or below it. TIER 1 is PANEL 1 alone, full width. TIER 2 holds PANEL 2 at the RIGHT and PANEL 3 at the LEFT. TIER 3, the bottom tier, holds PANEL 4 at the RIGHT, PANEL 5 in the CENTRE, and in its LEFT third PANEL 6 stacked directly above PANEL 7. Panel 4 sits BELOW panel 3, and panel 6 sits to the LEFT of panel 5. Public authority interrupts private planning.\n"
   "PANEL 1 (top band, full width): wide kitchen — the blond teen eats in silence at frame right, "
   "the dark-haired teen studies the blank headquarters sheet at frame left; both look toward the "
   "unseen front door in the same instant.\n"
@@ -593,7 +621,8 @@ PAGES = [
         (7, BOY16, "upper right", "ABOUT EVERYTHING THEY CAN'T CONTROL."),
         (7, SAS16, "upper centre", "THAT WORKS FOR YOU?"),
         (7, BOY16, "upper left", "YES."))
-  + SFX(1, "KNOCK", "Upper left near the hallway; keep it clear of both faces."),
+  + SFX(1, "KNOCK", "Upper left near the hallway; keep it clear of both faces.")
+  + TAILS + "PANEL 3 (the owl-masked ANBU's summons) closes the MIDDLE row at reader-LEFT, and PANELS 4, 5, 6 and 7 all sit BELOW it: PANEL 4 at bottom-right, PANEL 5 in the bottom centre, PANEL 6 above PANEL 7 in the bottom-left corner. So the summons is heard before \"I'LL GET HIM.\", and \"WE'RE SUMMONED.\" is read before \"THEY'RE IMPATIENT.\" In PANEL 7 the balloon \"YES.\" is the BLOND TEEN's: it carries a clearly drawn tail reaching HIS mouth at frame right, and is never tail-less and never floats above the dark-haired teen at frame left. ",
   R("naruto_v4_black", "sasuke_16", "env_uchiha_compound"), "low"),
 
  ("p18", dict(scene="establishing", light="day", cast="two", mood="tense", panels=5),
@@ -619,7 +648,8 @@ PAGES = [
   "facing the still-closed doors. The owl-masked ANBU lands small in the deep background between "
   "the orange-red flame trail and the leaf trail. No text in this panel. " + L_DOORS
   + SAY((1, SAS16, "upper right", "HE'S STILL WAITING."),
-        (2, BOY16, "upper right", "HE'LL FOLLOW.")),
+        (2, BOY16, "upper right", "HE'LL FOLLOW."))
+  + TAILS + "PANEL 5 shows the COUNCIL CHAMBER exterior from Image 4 and takes nothing from Image 3: tall formal stone administrative doors in a civic facade. There is NO Uchiha fan crest anywhere on those doors, walls, banners, lanterns or ground, no wooden clan gate, no compound gateway and no residential wall \u2014 the shunshin must plainly end somewhere else than where it started. In PANEL 1 \"HE'S STILL WAITING.\" belongs to the DARK-HAIRED teen standing at frame LEFT by the closed door; its tail reaches HIS mouth, never the blond teen approaching from the hall at frame right. ",
   R("naruto_v4_black", "sasuke_16", "env_uchiha_compound", "env_konoha_council_chamber"), "high"),
 ]
 

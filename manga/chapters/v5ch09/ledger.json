@@ -124,5 +124,54 @@
   "size": "2160x3840",
   "cost": 0.128,
   "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p09",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p03",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p13",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p17",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p04",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p06",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p12",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "style_v01_p094.png"
  }
 ]

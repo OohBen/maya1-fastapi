@@ -76,6 +76,61 @@ WAKE = ("The present-day sixteen-year-old is a DIFFERENT, OLDER figure from the 
         "and the two are never drawn on the same page. His visible left eye carries NO Sharingan "
         "and NO six-bladed pattern anywhere on this page. ")
 
+# ------------------------------------------------------------------ the dissolution clock
+# The fade is this chapter's clock and it may ONLY advance. It reset on p12 in the first pass —
+# p12 drew her completely solid after p11 had already taken most of a forearm — so the state is
+# now declared as a per-page constant instead of being left to each page's prose.
+FADE_LAW = ("DISSOLUTION CLOCK — HARD RULE. The red-haired woman is dissolving into red-gold seal "
+            "light, and that dissolution only ever ADVANCES from page to page. It never shrinks, "
+            "never heals, never pauses and never resets: no later page may show her more solid "
+            "than an earlier one. The order across the chapter is fixed — a fingertip, then a "
+            "strand of hair, then most of one forearm, then the forearm and the hand, then the "
+            "lower body, then almost all of her. Wherever a part of her has already gone, it "
+            "stays gone. ")
+FADE_07 = (FADE_LAW + "STATE ON THIS PAGE: the dissolution is confined to the TIPS OF THE FINGERS "
+           "of ONE hand, breaking into red-gold script. Everything else — both arms, her hair, "
+           "her face, her blouse and her long skirt — is completely solid and opaque. ")
+FADE_08 = (FADE_LAW + "STATE ON THIS PAGE: the fingers of one hand are gone into red-gold script "
+           "AND one long strand of her red hair dissolves at its end. Nothing else has gone yet; "
+           "her arms, face and clothing stay solid. ")
+FADE_09 = (FADE_LAW + "STATE ON THIS PAGE: the fingers of one hand and one strand of her hair are "
+           "gone into red-gold script, and the dissolution has crept up to that WRIST. The hand "
+           "she touches him with is her other, still-solid hand. ")
+FADE_10 = (FADE_LAW + "STATE ON THIS PAGE: one hand and wrist and one strand of hair are gone "
+           "into red-gold script; the LOWER HALF of that forearm has begun to break up as well. "
+           "Her other hand, her face, her hair and her clothing are still solid. ")
+FADE_11 = (FADE_LAW + "STATE ON THIS PAGE: MOST OF ONE FOREARM has now turned to red-gold script, "
+           "from the fingers up nearly to the elbow, with only the palm she presses to his chest "
+           "still solid. Her face, hair and clothing remain solid. ")
+FADE_12 = (FADE_LAW + "STATE ON THIS PAGE — THIS IS THE PAGE THE CLOCK PREVIOUSLY BROKE ON, SO "
+           "DRAW IT DELIBERATELY: MORE of her is gone than on the page before. The WHOLE of one "
+           "forearm and hand is now red-gold script — that arm ends at the elbow and there is "
+           "clear water and light visible THROUGH where it used to be — and the dissolution has "
+           "spread across that shoulder and started at the hem of her long skirt. She is NOT "
+           "solid, NOT whole and NOT opaque anywhere on that side. In EVERY panel of this page "
+           "where that arm or hand would be — including the panels where she sits upright with "
+           "both hands open on her knees and the panel where she looks down into the water — the "
+           "missing forearm must be visibly missing. Her face, her hair and her upper body remain "
+           "solid so she is still recognisably herself. ")
+FADE_13 = (FADE_LAW + "STATE ON THIS PAGE: one whole arm is gone and her LOWER BODY — skirt, hips "
+           "and legs — is mostly red-gold script by the last panel. Her face, hair and upper body "
+           "remain solid. ")
+FADE_14 = (FADE_LAW + "STATE ON THIS PAGE: almost all of her goes. She ends as her face, her "
+           "smile, her very long red hair and one hand, then nothing. ")
+
+# Her design is the one thing the chapter's key page got wrong: on p10 she came back as a second
+# blond boy in his own shirt. Stated once here, and attached hard to that page.
+KUSHINA_LOCK = (
+    "THE RED-HAIRED WOMAN IS NOT A SECOND VERSION OF THE BOY. She is an ADULT WOMAN, a full head "
+    "taller than him, with a woman's face and figure. Her hair is LONG, STRAIGHT and DARK RED — "
+    "falling loose past her waist — and it is NEVER blond, never yellow, never blond streaked "
+    "with red, and never cut short or spiked. She wears a PALE CREAM HIGH-COLLARED LONG-SLEEVED "
+    "BLOUSE and a LONG SEA-GREEN SKIRT that reaches her ankles. She NEVER wears his black shirt, "
+    "NEVER wears a red Uzumaki spiral on her chest, NEVER wears fingerless gloves, NEVER wears "
+    "trousers or shorts, and NEVER wears anything he is wearing. Her clothing and his have no "
+    "colour, garment or emblem in common. If the two of them appear in the same panel they must "
+    "be instantly separable at thumbnail size by hair colour, height and outfit. ")
+
 L_SEAL = ("Lighting: warm red-gold seal light rising off shallow black reflective water, soft "
           "reflected glow from below, no sky and no hard exterior shadows. ")
 L_CAMP = ("Lighting: hard cold blue moonlight falling through branches onto dry dark earth, deep "
@@ -197,7 +252,14 @@ PAGES = [
         (5, BOY13, "upper right", "THAT PHRASE. I USED TO SAY IT."),
         (5, KUSHINA_SPEAKER, "below and left of the first balloon", "YOU GOT IT FROM ME."),
         (6, BOY13, "upper right", "SO THAT WAS YOUR FAULT."),
-        (6, KUSHINA_SPEAKER, "below and left of the first balloon", "MY GIFT.")),
+        (6, KUSHINA_SPEAKER, "below and left of the first balloon", "MY GIFT."))
+  + "PANEL 6 CARRIES TWO BALLOONS AND BOTH MUST BE LETTERED — the joke has no punchline without "
+    "the second. Draw the boy's balloon reading \"SO THAT WAS YOUR FAULT.\" at the UPPER RIGHT of "
+    "the panel with its tail to his mouth, and a SECOND, SEPARATE balloon reading \"MY GIFT.\" "
+    "below it and to its LEFT, with its own tail running to the red-haired woman's mouth. \"MY "
+    "GIFT.\" is two words, spelled M-Y and G-I-F-T, and it is never omitted, never merged into "
+    "the first balloon and never left empty. Leave clear space in the lower-left of that panel "
+    "for it. ",
   R("naruto_13", "minato_kushina", "env_inner_sewer"),
   "low"),
 
@@ -260,7 +322,7 @@ PAGES = [
  # ---- Spread 4: listen while I can ----------------------------------------------------
  ("p07", dict(scene="dialogue", light="dark", cast="two", mood="tense", panels=5),
   FILL + RTL + N13.format(i=1) + KUSHINA.format(i=2) + ENV_SEAL.format(i=3) + DREAM + BOYSTATE
-  + ONLY(BOY13, KUSHINA_SPEAKER) +
+  + FADE_07 + ONLY(BOY13, KUSHINA_SPEAKER) +
   "FIVE panels. He is given an active objective he cannot complete: keep her here. Her fading is "
   "still confined to one hand — the rest of her stays solid and opaque.\n"
   "PANEL 1 (upper-right close-up): one of her fingertips dissolving into reflected script. His hand "
@@ -278,7 +340,14 @@ PAGES = [
         (2, KUSHINA_SPEAKER, "upper right", "I KNOW."),
         (3, BOY13, "upper right", "THEN STAY."),
         (4, KUSHINA_SPEAKER, "upper right", "I CANNOT."),
-        (5, KUSHINA_SPEAKER, "upper right, in the space behind his head", "SO LISTEN WHILE I CAN STILL SAY THIS.")),
+        (5, KUSHINA_SPEAKER, "upper right, in the space behind his head", "SO LISTEN WHILE I CAN STILL SAY THIS."))
+  + "IN PANEL 3 THE BOY IS THE SPEAKER OF \"THEN STAY.\" — he stands at SCREEN-LEFT and she "
+    "stands at SCREEN-RIGHT. Draw a LONG tail that travels all the way from the balloon LEFTWARD "
+    "and DOWN to the BLOND BOY'S MOUTH at panel-left, passing clear of the woman entirely. The "
+    "tail must NOT point down-right, must NOT end on her hair, her face or her shoulder, and must "
+    "not stop short at whichever figure is nearer the balloon. Her reply \"I CANNOT\" comes in "
+    "the NEXT panel and is spoken by a different person, so if this tail lands on her the whole "
+    "exchange reads as one speaker. ",
   R("naruto_13", "minato_kushina", "env_inner_sewer"),
   "low"),
 
@@ -316,7 +385,7 @@ PAGES = [
  # ---- Spread 5: life between objectives ------------------------------------------------
  ("p09", dict(scene="dialogue", light="dark", cast="two", mood="tense", panels=5),
   FILL + RTL + N13.format(i=1) + KUSHINA.format(i=2) + ENV_SEAL.format(i=3) + DREAM + BOYSTATE
-  + ONLY(BOY13, KUSHINA_SPEAKER) +
+  + FADE_09 + ONLY(BOY13, KUSHINA_SPEAKER) +
   "FIVE panels. Her request arrives in terms he first takes literally.\n"
   "PANEL 1 (narrow upper-right): close shot — he gives one immediate, solemn nod. Her hand stays on "
   "his shoulder. No text in this panel.\n"
