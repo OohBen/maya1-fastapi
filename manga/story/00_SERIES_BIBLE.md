@@ -1,11 +1,13 @@
 # Series Bible — *Uchiha Naruto: The Sage*
 
 Adaptation of the fanfic by **The Omnipresent Sage** (FFN 9891190, 50 ch / 555,004 words, complete).
-Source text extracted to scratchpad; not committed.
+Source text is fetched into ignored `manga/.source/`; it is not committed.
 
-**Read status:** fic ch1–3 read in full (this is all of Volume 1). Ch4–50 mapped from scene-header
-and keyword survey, not full reads. Anything about Volumes 2+ below is structural, not detailed —
-re-read before scripting those.
+**Read status:** fic ch1–3 were read for Volume 1; completed later-volume work read its own source
+ranges. Fic ch8–11 were read for Volume 4, and ch10–20 were read to script Volume 5 and fix its
+ch12–16 boundary. Chapters 21–50 remain mapped rather than production-read and must be read with the
+required surrounding context before later scripting. Use the per-volume source-truth files for
+detailed verified state rather than this original series overview.
 
 ---
 
@@ -135,7 +137,9 @@ rendering, no lens flare.
    logic for that location.
 4. **Say what to ignore in every reference.** "Use Image 1 for his face and outfit only; ignore its
    white background and three-view layout."
-5. **Never let the model letter.** Art with clean space, text composited deterministically after.
+5. **Integrated lettering is the current default, but never self-approving.** Supply exact words,
+   page, panel, speaker, placement, and tail target; inspect the rendered page at full size. The
+   deterministic letterer is a fallback for a text-only failure or later translation pass.
 6. **Name the protagonist as unique.** "He is the ONLY character on this page who looks like this" —
    without it, his blond hair and red swirl leak onto background extras.
 7. **Content staging.** The volume contains a child beaten by a mob and stabbed through the hand, a
@@ -143,19 +147,17 @@ rendering, no lens flare.
    silhouette, reaction shot, the moment after, blood on the floor rather than the wound. This is
    both a moderation necessity and how good manga shoots these beats anyway.
 
-## Full arc map (50 fic chapters)
+## Verified adaptation map
 
-| Fic ch | Arc | Volume |
+| Fic ch | Adaptation state | Volume |
 |---|---|---|
-| 1–3 | **Origin / Madara.** Age 6→13. Ends: Mangekyō, Team 7 forms. | **Vol 1** |
-| 3–4 | Bell test → 6-month skip | Vol 2 |
-| 4–7 | Chūnin Exams + invasion | Vol 2–4 |
-| 8–13 | Orochimaru; Akatsuki debut (Itachi & Kisame, ch8) | Vol 4–6 |
-| 14–19 | Tsunade; Danzō and Root | Vol 6–8 |
-| 20–28 | Nagato / Rinnegan; Obito; Kumo enters | Vol 8–11 |
-| 29–35 | Escalation; Rinnegan payoff | Vol 11–13 |
-| 36–42 | Kage Summit → war opens | Vol 13–15 |
-| 43–50 | Fourth Shinobi World War; ends ch50 "The Limit" | Vol 15–17 |
+| 1–3 | Complete | Vol 1 |
+| 3–4 | Complete | Vol 2 |
+| 5–7 | Complete; the omitted ch7 ending is restored by Volume 4's prologue | Vol 3–4 |
+| 8–11 | Complete | Vol 4 |
+| 12–16 | Writing/storyboard preproduction complete; production stopped pending owner instruction | Vol 5 |
+| 17–20 | Read only as Volume 5 boundary context; belongs to the next volume | Vol 6 begins at ch17 |
+| 21–50 | Mapped, not production-planned | Unverified |
 
-Roughly **17 volumes** at Volume 1's density. Nobody needs to commit to that. Volume 1 is the
-decision; everything after is a map, not a plan.
+The current descriptive estimate is roughly 13–15 volumes, not a page or pacing target. The
+source-verified boundary and planning status in `ROADMAP.md` supersede older heading-based arc maps.

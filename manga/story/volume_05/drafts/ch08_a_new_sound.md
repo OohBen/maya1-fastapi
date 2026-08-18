@@ -921,9 +921,10 @@ Zetsu.
 - No model-integrated effects or lettering are produced at this stage. `TSUKUYOMI`, `POOF`, and
   `FLUTTER` are storyboard text specifications for the later approved lettering/effects pass.
 
-## Open review items
+## Review closure
 
-- Follow-up reviewer: confirm the corrected weapon/arm continuity and Iwa-first Chapter 9 handoff.
-- Follow-up reviewer: confirm pages 17–19 read in the source order—scroll, hesitation, acceptance,
-  then instructions—and imply no exclusive command channel, veto, or relationship change.
-- Builder/art remain unauthorized until the Volume 5 writing gate and pilot are approved.
+- Independent review passed the corrected weapon/arm continuity and Iwa-first Chapter 9 handoff.
+- Independent review passed pages 17–19 in source order: scroll, hesitation, acceptance, then
+  instructions, with no exclusive command channel, veto, or relationship change.
+- The Volume 5 writing gate and pilot pass. Builder and art production remain stopped until the
+  owner explicitly says to start producing.

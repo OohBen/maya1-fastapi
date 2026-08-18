@@ -207,7 +207,8 @@ it, mark the chapter blocked and report the exact page and defect.
 
 No Volume 5 builder or final page generation begins until all of these exist:
 
-1. A verified source-truth sheet for the full planned volume after reading fic chapters 10–16.
+1. A verified source-truth sheet for the full planned volume after reading the adapted range plus
+   required context; Volume 5's completed planning read covered fic chapters 10–20.
 2. A complete dramatic scene script for each planned chapter, including final dialogue.
 3. A page-and-spread `name` for each chapter with balloon order and page-turn beats.
 4. A source comparison confirming the same causes, decisions, relationship changes, and outcomes.
@@ -223,6 +224,11 @@ Then produce an **8–12-page writing/storyboard pilot**, not finished full-volu
 Approve the pilot only when the story reads naturally, the voices are distinct, the fight geography
 is clear, and dialogue density varies by scene purpose. Only then write builders and render final
 art. The existing 3–5-page visual probe remains a separate art-quality check after the writing pilot.
+
+**Current Volume 5 state:** every item above and the ten-page Chapter 4 pilot pass. The evidence is
+in `volume_05/REVIEW_STATUS.md` and `volume_05/STORYBOARD_PILOT.md`. This closes writing
+preproduction; it does not start production. Wait for the owner's explicit instruction, then begin
+with the reference-gap audit, first builder, and separate 3–5-page visual probe.
 
 ## Review questions
 

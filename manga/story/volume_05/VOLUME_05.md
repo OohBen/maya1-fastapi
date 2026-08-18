@@ -41,10 +41,10 @@ bijū hunt, and Mei proposes a political marriage. None of those outcomes may be
 
 ## Chapter architecture
 
-Page counts after Chapter 1 are working allocations, not compression targets. A chapter may grow if
-its completed scene script or `name` needs the space.
+The completed `name`s set the current page counts. A builder must match them unless a source or
+reader review explicitly reopens a chapter; they are not compression targets.
 
-| Ch | Working title | Source | Pages | Dramatic turn / final beat |
+| Ch | Title | Source | Pages | Dramatic turn / final beat |
 |---:|---|---|---:|---|
 | 01 | After the Blue | ch12:7–125 | 16 | Zetsu reveals Jiraiya is bringing Sasuke home; Naruto's plans converge. |
 | 02 | Peace | ch12:127–281 | 16 | Mei asks why Naruto will not use his power for peace; he refuses her premise. |

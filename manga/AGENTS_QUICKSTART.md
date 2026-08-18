@@ -2,6 +2,14 @@
 
 Read `/AGENTS.md` first. This is the shortest path from a clean checkout to finished pages.
 
+## Current handoff
+
+Volume 5 writing/storyboard preproduction is complete: 13 chapters, 232 scripted pages, and 1,327
+planned panels. The review record and approved ten-page pilot are in `story/volume_05/`. Production
+is stopped until the owner explicitly says to start producing. Once authorized, audit the missing
+references, write the first builder, and run a 3–5-page visual probe before any larger batch. The
+Volume 4 commands below are tested examples of the transport, not permission to regenerate it.
+
 ## 0. Choose the generation transport
 
 The ordinary Python runner uses the configured HTTP backend. The native Codex ImageGen tool is
@@ -27,8 +35,9 @@ python3 story/source/fetch_source.py
 ```
 
 This retrieves the FicHub EPUB, validates all 50 sequential chapter files, and writes the local
-working copy under ignored `manga/.source/`. Volume 4 uses fic chapters 8–11. To work offline,
-pass an existing EPUB with `--epub /path/to/story.epub`.
+working copy under ignored `manga/.source/`. Volume 4 uses fic chapters 8–11; Volume 5 uses fic
+chapters 12–16, with chapters 10–11 and 17–20 read for boundary context. To work offline, pass an
+existing EPUB with `--epub /path/to/story.epub`.
 
 ## 2. Add any new characters
 

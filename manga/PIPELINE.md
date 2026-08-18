@@ -1,11 +1,21 @@
-# PIPELINE — how to make a chapter
+# PIPELINE — production history and current constraints
 
-Operational handoff. Everything needed to produce a chapter without prior context.
-Read this **plus** `story/00_SERIES_BIBLE.md` before generating anything.
+`AGENTS.md` and `manga/AGENTS_QUICKSTART.md` are the current operational handoff. This file retains
+the original Replicate/letterer workflow and its reversals so later agents can understand why the
+current rules exist. Do not execute a historical command merely because it appears below.
+
+Current state: Volumes 1–4 are complete. Volume 5 writing/storyboard preproduction is complete, but
+production is stopped until the owner explicitly starts it. Native generation is agent-mediated
+through exported manifests; `backend.py` cannot call the built-in tool, the tool accepts at most
+five physical reference paths, and approved rasters are normalized only after full-size review.
 
 ---
 
-## 1. The decisions, already made
+## 1. Historical Volume 1 decisions
+
+The table records the original paid HTTP pipeline. Later sections document the lettering reversal;
+the native-tool workflow in `AGENTS.md` supersedes its provider, tier, worker-count, and transport
+choices.
 
 | Question | Answer | Why |
 |---|---|---|
@@ -53,7 +63,7 @@ manga/
 
 ---
 
-## 3. Making a chapter — the loop
+## 3. Historical HTTP chapter loop
 
 **Step 1. Read the chapter file** (`story/volume_01/chNN_*.md`). It has the beats, page
 budget, refs, key dialogue and direction notes. It is the brief.
@@ -465,25 +475,23 @@ the two is what the prose was doing.
 
 ---
 
-## ADDENDUM — handoff to a host with a native image tool
+## CORRECTED ADDENDUM — native image tool
 
-The project is moving to an agent that generates images with a built-in tool rather than a paid
-API. Three things were done to make that a one-file change:
+The earlier handoff expected the built-in image tool to become a one-file `backend.py` port. Testing
+disproved that assumption: the tool is available only to the agent and has no ordinary-Python bridge,
+size parameter, quality parameter, or multi-image count. `MANGA_BACKEND=codex` therefore remains
+intentionally unavailable; do not implement or advertise it as a working switch.
 
-- **`backend.py`** is now the only module that knows how a prompt becomes a PNG. `build_page()`
-  calls it lazily; `runner.py` imports it. Implement the `codex` branch and set
-  `MANGA_BACKEND=codex`. Nothing in `chapters/` changes.
-- **Resolution is chosen per page** in `runner.py`, not per volume: `medium`/`high` pages get
-  2160x3840, `low` pages get 1152x2048. That pairing is deliberate — see TIER_REPORT finding 4,
-  `low` at 2160 is worse than `low` at 1152.
-- **The dead OpenRouter path no longer breaks imports.** `genlib.H` is built in a try/except so
-  a checkout with no `.env` can still `import genlib`.
+The current native path is:
 
-`AGENTS.md` at the repo root is the entry point for the next agent; `manga/AGENTS_QUICKSTART.md`
-is the shortest path to a generated chapter; `manga/story/ROADMAP.md` maps the remaining ~46 fic
-chapters onto volumes.
+1. validate the approved builder;
+2. export an exact manifest with prompts and ordered logical refs;
+3. preserve reference order and pack overflow so the physical call uses at most five paths;
+4. generate a bounded 3–5-page probe through separate workers;
+5. inspect every original raster against the storyboard, regenerate defects, and reread the sequence;
+6. normalize only approved pages to 1152x2048 and serialize provenance; and
+7. package chapters and the volume only after independent sequence and cold-reader gates pass.
 
-**The important thing to preserve across the port:** reference images and their ORDER. The
-prompts address them positionally ("Image 1 is the CHARACTER REFERENCE for…"). Character
-consistency across 351 finished pages rests on nothing else. A backend that drops or reorders
-them will silently produce a book that does not match the first three volumes.
+Reference order remains load-bearing. Integrated lettering and effects are the default, but each
+line, tail, SFX, origin, path, contact, and carryover must pass full-size QA. The old 50-worker paid
+HTTP setting is not a native-tool concurrency recommendation.

@@ -8,7 +8,10 @@
 
 - `R(...)` resolves each ordered asset key to `manga/refs/images/<key>.png` (`manga/chapters/prompts.py:16-17`). Page prompt order is therefore the reference order.
 - The runner appends one style image after the page references (`manga/runner.py:35`), and `build_page` sends the supplied references plus that style candidate (`manga/genlib.py:283`).
-- The repository has no checked cap on the number of references. Treat a **16-image total** as a working native-tool limit until it is independently retested; that leaves at most **15 `R(...)` images** when a style image is present. This limit is not verified by the repository code.
+- This audit originally assumed a 16-image native-tool limit. That assumption was disproved: the
+  native tool accepts at most **five physical image paths**. The current exporter reserves the last
+  for the style page and packs logical content refs beyond four into an ordered composite. Follow
+  `AGENTS.md` and `manga/AGENTS_QUICKSTART.md`, not the historical estimate.
 - `naruto_13_sword.png` depicts the earlier 13-year-old sword state, while ch9 introduces an older Naruto with a new sash sword (`manga/.source/uchiha-naruto-the-sage/ch09.txt:15-16`). It must not stand in for the post-skip state.
 - The existing `gunbai.png` has a purple face and three tomoe; ch9 specifies Naruto's later gunbai uses the Uzumaki swirl and Uchiha crest instead (`ch09.txt:15-16`). It is not a correct close-up reference for Volume 4's later weapon.
 
@@ -110,7 +113,10 @@ Every new sheet below should be a three-view white-background turnaround unless 
 | Water-filled crater | ch10 | No | **New `env_kiri_water_crater`**: a single large battle crater filled with shallow water, broken earth rim, sight lines for water dragon and sword duel. | Flooded / steaming / drained. |
 | Linked crater aftermath | ch10–11 | No | **New `env_kiri_battlefield_crater`**: connected impact craters, torn earth, smoke and low dust; keeps Yagura at center and Naruto nearer the foreground rim. | Before full Sanbi / merged after Susano'o bomb / blue-column aftermath. |
 
-## Page reference-count budget
+## Logical page-reference budget
+
+The counts below describe logical bindings before exporter packing. The physical native-tool call
+must still contain no more than five paths, including the shared style page.
 
 | Page class | Typical ordered page refs (`R`) | + runner style | Total | Direction |
 |---|---:|---:|---:|---|
@@ -119,7 +125,7 @@ Every new sheet below should be a three-view white-background turnaround unless 
 | Oto duel | Naruto state + Orochimaru + Kabuto + 1 environment = 4 | 1 | 5 | Add Manda *or* a Susano'o state only on the page that reveals it. |
 | Kiri command/tower page | Naruto + Mei + Ao + Chōjūrō + 1 environment = 5 | 1 | 6 | Keep unnamed rebels generic. Do not place Kurama and the full command group in the same close page. |
 | Kiri climax | Naruto state + Yagura/Sanbi + one form/technique + 1 environment = 4–5 | 1 | 5–6 | Split transformations by page: human → cloak → full Sanbi. |
-| Worst plausible page | Naruto + 6 named council members + environment + prop/eye sheet = 10 | 1 | 11 | Under the 16-image working budget, but visually overcrowded; split it anyway. |
+| Worst plausible page | Naruto + 6 named council members + environment + prop/eye sheet = 10 | 1 | 11 | Requires exporter packing and is visually overcrowded; split it anyway. |
 
 ### Pages at risk of needless over-reference
 

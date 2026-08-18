@@ -29,6 +29,7 @@ manifests, generated images, or final PDFs.
 | Full-volume context-clean cold read | All 232 pages; source ch10–18 context | PASS |
 | Mechanical audit | 13 drafts; 232 pages; 1,327 panels; markers, balloons, handoffs, source anchors, whitespace | PASS |
 | Storyboard pilot | Chapter 4 pages 1–10; conversation, tactical action, reaction, page-turn reveal | PASS |
+| Documentation consistency | Active handoff, source/read status, native-tool constraints, review closure, and relative links | PASS |
 
 The full-volume reader verified the ch12–16 boundary, the exact Volume 4 handoff, every chapter
 seam, and the ch16:683 ending. No Volume 6 event remains in the scripts. The mechanical audit found

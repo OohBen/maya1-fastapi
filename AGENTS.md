@@ -183,12 +183,14 @@ Every one of these came from an observed failure. `manga/PIPELINE.md` has the fu
 
 | Path | What |
 |---|---|
-| `manga/PIPELINE.md` | Full operational history and every reversal, with reasons |
+| `manga/PIPELINE.md` | Historical pipeline and reversals; current commands remain in the quickstart |
 | `manga/AGENTS_QUICKSTART.md` | Shortest path to generating your first chapter |
 | `manga/models/TIER_REPORT.md` | Tier/resolution experiment — **read before choosing settings** |
 | `manga/story/00_SERIES_BIBLE.md` | Characters, designs, continuity |
 | `manga/story/ROADMAP.md` | Completed scope and source-verified next-volume boundary |
 | `manga/story/MANGA_WRITING_GUIDE.md` | Required prose-to-manga writing, dialogue, fight, and `name` gate |
+| `manga/story/volume_05/VOLUME_05.md` | Volume 5 engine, chapter architecture, boundaries, and hard locks |
+| `manga/story/volume_05/SOURCE_TRUTH.md` | Volume 5 source ranges, context, immutable beats, and exclusions |
 | `manga/story/volume_05/PRODUCTION_GATES.md` | Volume 5 writer, generator, page-QA, chapter-QA, and closure roles |
 | `manga/story/volume_05/REVIEW_STATUS.md` | Volume 5 chapter, full-volume, mechanical, and pilot review record |
 | `manga/story/volume_05/STORYBOARD_PILOT.md` | Approved ten-page writing/storyboard pilot and production handoff |

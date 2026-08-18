@@ -68,6 +68,14 @@ curl -X POST "http://localhost:8000/v1/tts/generate" \
 ./server.sh status   # Check status
 ```
 
+## Manga adaptation workspace
+
+The repository also contains the private full-colour manga adaptation under `manga/`. Read
+`AGENTS.md` before touching it. Volumes 1–4 are complete. Volume 5, *What We Build*, has completed
+writing/storyboard preproduction for 13 chapters, 232 pages, and 1,327 planned panels; production is
+stopped until the owner explicitly says to start producing. The current handoff and review evidence
+are in `manga/story/volume_05/`.
+
 ## License
 
 MIT

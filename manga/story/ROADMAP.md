@@ -14,8 +14,10 @@ future volume length. This file exists so nobody has to re-derive the shape of i
 | 3 | 5–7 | 102 | Tighter chapters, no padding |
 | 4 | ch7 seam, 8–11 | 215 | Complete; expanded after a full source read |
 
-The historical average is roughly **3.5 fic chapters and ~120 pages per volume.** It is descriptive,
-not a pacing rule; do not compress a scene to preserve it.
+The four completed volumes total 664 pages, an average of 166 pages. Their source ranges overlap and
+Volume 4 includes a repaired chapter-7 seam, so a fic-chapters-per-volume average is not useful as a
+pacing rule. Volume 5's completed `name` is 232 pages; do not compress a scene to preserve either
+historical number.
 
 ## Mapped so far
 
