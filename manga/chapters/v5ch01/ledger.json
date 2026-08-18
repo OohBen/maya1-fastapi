@@ -229,5 +229,138 @@
   "size": "2160x3840",
   "cost": 0.128,
   "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p03",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p05",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p03",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p03",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p05",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p11",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p09",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p07",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p12",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p13",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p08",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p14",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p15",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p10",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p06",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p02",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p16",
+  "quality": "high",
+  "size": "2160x3840",
+  "cost": 0.128,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p01",
+  "quality": "high",
+  "size": "2160x3840",
+  "cost": 0.128,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p04",
+  "quality": "high",
+  "size": "2160x3840",
+  "cost": 0.128,
+  "style_ref": "style_v01_p094.png"
  }
 ]

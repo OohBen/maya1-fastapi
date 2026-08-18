@@ -38,13 +38,34 @@ except Exception:                       # no .env / no key — fine, nothing use
     H = {}
 
 # ---------------------------------------------------------------- house style
+# STYLE HISTORY — read before changing this string.
+#   V1-V4 used a "flat digital cel" string. The reader judged Volume 4 "decent... a good
+#   starting ground", so that is the BASELINE.
+#   A full swing to traditional watercolour was then tried and rejected: dark chamber pages went
+#   seinen ink-wash and the bright daylight crowd page came back "terrible".
+#   Current string = the Volume 4 baseline PLUS only the corrections that move it toward printed
+#   colour manga without abandoning cel colouring: cream paper, screentone, simpler faces,
+#   sparser backgrounds, matte finish. Work UP from here in small steps; do not swing again.
 STYLE = (
-    "Premium 2D shonen manga artwork, full colour. "
-    "Clean confident black ink linework with varied line weight. "
-    "Flat digital cel colouring: two to three tonal values per material, hard-edged shadows, "
-    "no soft gradients. Hair drawn as distinct clusters and wedges, never individual strands. "
+    "Premium 2D shonen manga artwork, full colour, in the style of a printed Naruto colour "
+    "chapter. "
+    "Clean confident black ink linework with varied line weight — brush-drawn, tapering and "
+    "swelling, never uniform-weight vector outlines. "
+    "Flat cel colouring: two to three tonal values per material, hard-edged shadows, no soft "
+    "gradients. Hair drawn as distinct clusters and wedges, never individual strands. "
+    "PAPER: the page sits on a warm off-white paper tone, not pure digital white, with a matte "
+    "printed finish rather than a glossy screen finish. "
+    "SHADOW: use halftone screentone dots and parallel-line hatching in the shadow areas. "
+    "PALETTE: clear readable colours on the characters, slightly softened and print-like rather "
+    "than glowing or neon; backgrounds sit a step more muted than the figures. "
+    "FACES: simply drawn in Kishimoto's manner — large clear expressive eyes, a small minimal "
+    "nose, a simple mouth, smooth cheeks and very little skin shading. Never a semi-realistic or "
+    "painted portrait face. "
+    "BACKGROUNDS: keep them lighter than the figures. Many panels use a flat colour field, "
+    "screentone, speed lines or blank paper instead of fully rendered scenery. "
     "Avoid depth-of-field blur, avoid photorealistic skin texture, avoid any 3D or CGI look, "
-    "avoid painterly or oil-paint rendering, avoid lens flare, avoid watermarks and signatures."
+    "avoid painterly or oil-paint rendering, avoid watercolour wash and ink-wash looks, avoid "
+    "lens flare, avoid watermarks and signatures."
 )
 
 # Never write emphatic capitalised "NO" — text-rendering models draw the token.
@@ -296,13 +317,12 @@ def build_page(prompt, refs, style_candidates, quality, aspect="1152x2048"):
 # binds a real colored-manga page as a STYLE-ONLY reference, with a hard ignore list so its
 # content does not bleed into ours.
 STYLE_REF = (
-    "Image {i} is a STYLE REFERENCE ONLY — it is a page from a printed colour manga, included "
-    "solely to show you how to RENDER. Copy its rendering technique exactly: thin black panel "
-    "borders sitting on a white paper background, flat solid colour fills with no gradients, "
-    "halftone screentone dot texture in the shadow areas, parallel-line hatching instead of soft "
-    "shading, heavy black brush inking with clear line-weight variation, and simplified faces "
-    "with small simple eyes and minimal nose detail. Match its slightly desaturated print-like "
-    "palette rather than a glowing digital one. "
+    "Image {i} is a STYLE REFERENCE ONLY — it is a real page from a printed colour manga, "
+    "included solely to show you how to RENDER. Match its warm paper tone, its brush-inked line "
+    "quality, its flat print-like colour, its halftone screentone, and its simply-drawn faces "
+    "with large clear eyes and minimal nose detail. Your page should look like it was printed in "
+    "the same book — if your output looks glossier, more saturated, more photographic or more "
+    "digitally rendered than Image {i}, it is WRONG. "
     "Ignore absolutely everything else about Image {i}: ignore its characters and their designs, "
     "ignore their costumes and hair, ignore its panel layout, ignore its story content, and "
     "ignore all of its lettering and sound effects. Take only the drawing and colouring "
