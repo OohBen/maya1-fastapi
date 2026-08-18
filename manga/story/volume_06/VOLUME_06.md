@@ -2,10 +2,14 @@
 
 **Verified source scope:** fic chapters 17–21.
 
-**Status:** step 1 of preproduction only — source read and volume boundary. The source-truth ledger is
-complete (`SOURCE_TRUTH.md`). **No dramatic scene scripts, no dialogue, no page/panel `name`, no
-builders, no reference sheets, no manifests, no generated pages.** The chapter architecture below is a
-plan to be scripted, not a storyboard.
+**Status:** writing preproduction complete. The source-truth ledger is complete
+(`SOURCE_TRUTH.md`) and all fifteen chapters are drafted at `drafts/ch01…ch15`, each with final
+dialogue and an executable page/panel `name`: **250 pages, roughly 1,550 panels**, every balloon
+carrying speaker, placement and tail target. A cross-chapter reconciliation pass has verified the
+eye-state and dress chain end to end (see Hard locks) and consolidated every reference gap below.
+**Still outstanding: reference sheets, builders, manifests, and all generated pages.** No chapter
+may be built until its references exist — Volume 5 lost two chapters to unbound names, and this
+volume's gap list is far longer.
 
 **Title.** *Perfect Results* is Naruto's own recurring phrase in this range: he refuses interruption
 because he cannot get "perfect results," he will not stop his clones until he can say "perfect," and
