@@ -1,0 +1,13 @@
+"""Total Replicate spend across every chapter ledger, with budget remaining."""
+import json, pathlib, sys
+BUDGET = float(sys.argv[1]) if len(sys.argv) > 1 else 26.0
+tot = 0.0
+rows = []
+for f in sorted(pathlib.Path("chapters").glob("v5ch*/ledger.json")):
+    v = sum(r.get("cost", 0) or 0 for r in json.load(f.open()))
+    tot += v
+    pages = len(list((f.parent / "raw").glob("p*.png")))
+    rows.append((f.parent.name, pages, v))
+for cid, n, v in rows:
+    print(f"  {cid}  {n:3} pages  ${v:6.2f}")
+print(f"\n  VOLUME 5 TOTAL: ${tot:.2f} of ${BUDGET:.2f}   remaining ${BUDGET-tot:.2f}")
