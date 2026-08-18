@@ -14,6 +14,11 @@ TITLE = "Volume 5 - What We Build"
 MASTER_PDF = "Volume_05.pdf"
 COMPRESSED_PDF = "Volume_05_compressed.pdf"
 COMPRESSED_JPEG_QUALITY = 50
+# Volume 5 mixes 1152x2048 and 2160x3840 pages. The reading PDF normalises every page down to
+# the smaller height so the tall pages stop tripling the file size for no visible gain.
+COMPRESSED_MAX_HEIGHT = 2048
+# GitHub refuses any file over 100MB, so the master ships as parts.
+PART_MAX_BYTES = 90 * 1024 * 1024
 
 CHAPTERS = [
     ("v5ch01", "After the Blue", "Zetsu reveals Jiraiya is bringing Sasuke home"),
@@ -68,7 +73,48 @@ def add_navigation(pdf, rows):
     temp.replace(pdf)
 
 
+def downscale(images, max_height):
+    out = []
+    for im in images:
+        if im.height > max_height:
+            w = round(im.width * max_height / im.height)
+            im = im.resize((w, max_height), Image.LANCZOS)
+        out.append(im)
+    return out
+
+
+def split_master(pdf, out_dir, stem):
+    """Split the master into parts that each fit under GitHub's file-size ceiling."""
+    for stale in out_dir.glob(f"{stem}_part*_of_*.pdf"):
+        stale.unlink()
+    reader = PdfReader(pdf)
+    n = len(reader.pages)
+    parts = max(1, -(-pdf.stat().st_size // PART_MAX_BYTES))
+    while True:
+        per = -(-n // parts)
+        paths, ok = [], True
+        for i in range(parts):
+            chunk = reader.pages[i * per:(i + 1) * per]
+            if not chunk:
+                continue
+            w = PdfWriter()
+            for page in chunk:
+                w.add_page(page)
+            dest = out_dir / f"{stem}_part{i + 1}_of_{parts}.pdf"
+            with dest.open("wb") as fh:
+                w.write(fh)
+            paths.append(dest)
+            if dest.stat().st_size > PART_MAX_BYTES:
+                ok = False
+        if ok:
+            return paths
+        for dest in paths:
+            dest.unlink()
+        parts += 1
+
+
 def save_compressed_pdf(images, pdf, rows):
+    images = downscale(images, COMPRESSED_MAX_HEIGHT)
     images[0].save(
         pdf,
         save_all=True,
@@ -121,6 +167,7 @@ def main():
 
     compressed_pdf = OUT / COMPRESSED_PDF
     save_compressed_pdf(ims, compressed_pdf, rows)
+    parts = split_master(pdf, OUT, pdf.stem)
 
     cols, tw = 10, 200
     th = int(tw * ims[0].height / ims[0].width)
@@ -133,7 +180,9 @@ def main():
     md = ["# Volume 5 — *What We Build*", "",
           f"**{len(all_pages)} pages across {len(rows)} chapters. ${total:.2f} of generation.**", "",
           "`Volume_05.pdf` is the full-quality master. `Volume_05_compressed.pdf` keeps "
-          "the same page rasters with light JPEG compression for smoother reading. "
+          "the same pages normalised to a single height with light JPEG compression for "
+          "smoother reading. `Volume_05_part*.pdf` are the master split to fit GitHub's "
+          "100MB per-file limit; concatenate them to recover the master. "
           "Both PDFs include a nested chapter outline/bookmarks panel.", "",
           "Covers fic chapters 12-16. Volume 4 ended with Yagura down and an unexplained blue "
           "chakra column over Kiri; this volume opens in that aftermath and asks what Naruto "
@@ -155,6 +204,8 @@ def main():
            "- He warns Jiraiya away from Ame - a refusal that is left to pay off later.", ""]
     (OUT / "README.md").write_text("\n".join(md))
     print(f"{len(all_pages)} pages, ${total:.2f} -> {pdf}, {compressed_pdf}")
+    for part in parts:
+        print(f"  part: {part.name}  {part.stat().st_size / 1024 / 1024:.0f}MB")
 
 
 if __name__ == "__main__":

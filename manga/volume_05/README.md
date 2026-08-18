@@ -1,14 +1,17 @@
-# Volume 5 — *What Are You?*
+# Volume 5 — *What We Build*
 
-**182 pages across one prologue and 9 chapters. $8.50 of generation.**
+**232 pages across 13 chapters. $10.32 of generation.**
 
-`Volume_05.pdf` is the full-quality master. `Volume_05_compressed.pdf` keeps the same 1152x2048 page rasters with light JPEG compression for smoother reading. Both PDFs include a nested chapter outline/bookmarks panel.
+`Volume_05.pdf` is the full-quality master. `Volume_05_compressed.pdf` keeps the same pages normalised to a single height with light JPEG compression for smoother reading. `Volume_05_part*.pdf` are the master split to fit GitHub's 100MB per-file limit; concatenate them to recover the master. Both PDFs include a nested chapter outline/bookmarks panel.
 
-Bridges the omitted end of fic ch7, then covers ch8-11 from the invasion aftermath through the unresolved blue chakra column in Kiri. Hiruzen's death removes Naruto's political buffer; each chapter then shows what he takes, reveals, or spends once that restraint is gone.
+Covers fic chapters 12-16. Volume 4 ended with Yagura down and an unexplained blue chakra column over Kiri; this volume opens in that aftermath and asks what Naruto builds with the reputation winning there bought him. Each chapter turns destructive power into something that can last - freedom for Kurama, a working bond with Sasuke, protection for Karin, a successor state in Oto, a restored clan seat, and a new Police Force - while every constructive act also pushes his private power further beyond anyone's oversight.
 
 | Ch | Title | Pages | Cost | Ends on |
 |---|---|---|---|---|
 | 01 | After the Blue | 16 | $2.88 | Zetsu reveals Jiraiya is bringing Sasuke home |
+| 02 | Peace | 16 | $0.56 | Mei asks why he will not use his power for peace |
+| 03 | The Other Uchiha | 16 | $0.60 | Naruto and Sasuke agree to rebuild the clan |
+| 04 | The Open Cage | 18 | $0.66 | Kurama is freed without being controlled |
 | 05 | Goodbye, Mizukage | 10 | $0.46 | He leaves Kiri and enters the recurring dream |
 | 06 | Mother | 16 | $0.56 | Kushina asks him to live as himself |
 | 07 | The Snake's Last Skin | 24 | $0.83 | Orochimaru dies; Naruto takes the mask |
@@ -19,12 +22,13 @@ Bridges the omitted end of fic ch7, then covers ch8-11 from the invasion afterma
 | 12 | Head of the Uchiha | 20 | $0.61 | He claims the council seat |
 | 13 | The Police Force | 22 | $0.67 | The Uchiha stand up again |
 
-| | **Total** | **182** | **$8.50** | |
+| | **Total** | **232** | **$10.32** | |
 
 ## Notes
 
-- The prologue restores the omitted Sound pursuit, Sasuke/Gaara outcome, Gaara's apology, and Naruto's return without replaying the invasion opening.
-- Naruto refuses Jiraiya and leaves alone; the permission meeting is with his clone.
-- Mei is the rebel leader while Yagura remains the Fourth Mizukage.
-- The post-skip sash sword is new, not the ninjato lost in Volume 3.
-- The final blue chakra column is deliberately left unnamed and unexplained.
+- Kurama is released rather than controlled; the seal is opened by choice, not broken.
+- Kushina appears in the recurring dream and asks him to live as himself, not to complete objectives.
+- Orochimaru dies here and Naruto takes his mask; Guren inherits the rebuilding of Oto.
+- Karin enters Konoha under Naruto's protection, as promised in Volume 3.
+- Naruto claims the Uchiha council seat and stands the Police Force back up.
+- He warns Jiraiya away from Ame - a refusal that is left to pay off later.

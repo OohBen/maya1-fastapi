@@ -14,5 +14,7 @@ manga/refs/style_png/
 # Derived PNG cache of the style library — rebuilt on demand by refs/style_select.py
 manga/refs/style_png/
 lora/
-manga/volume_05/Volume_05*.pdf
-manga/volume_05/*contact_sheet*
+# Volume 5's master is 173MB — past GitHub's 100MB per-file ceiling. Unlike earlier volumes
+# it ships as Volume_05_part*.pdf (tracked) plus the compressed reader; the master is local
+# only and rebuilt with `python manga/assemble_v5.py --rebuild-master`.
+manga/volume_05/Volume_05.pdf
