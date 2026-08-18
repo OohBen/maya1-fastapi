@@ -289,7 +289,8 @@ PAGES = [
     "is left blank, beige or unrendered. In PANEL 6 the only blond person in the chamber is the "
     "one SEATED in the carved Uchiha chair — the figure standing at his right shoulder is the "
     "DARK-HAIRED teen with black upswept hair and the Uchiha fan on his back, never a second "
-    "blond in a spiral shirt.",
+    "blond in a spiral shirt."
+  + "LETTERING PRECISION ON THIS PAGE: the PANEL 1 balloon reads exactly \"HOKAGE-SAMA, WILL YOU ALLOW THIS?\" with the word ALLOW appearing ONCE and no word doubled or repeated anywhere; the PANEL 2 balloon reads exactly \"THE HOKAGE DOES NOT APPOINT CLAN HEADS.\" with a full stop straight after HEADS and no ink blob, smudge or stray mark following CLAN or HEADS. ",
   R("koharu", "tsunade", "naruto_v4_black", "sasuke_16", "env_konoha_council_chamber"), "low"),
 
  # ---- Spread 3: security or possession ---------------------------------------------
@@ -788,8 +789,8 @@ PAGES = [
   "PANEL 4 (bottom band, full width): she looks from the west-arc advisers to the southeast Uchiha "
   "place. " + L_CHAMBER
   + SAY((1, TSU, "upper right", "ENOUGH."),
-        (2, OFF(TSU), "upper right", "NARUTO IS UNDER EIGHTEEN AND DOES NOT CONSENT."),
-        (2, OFF(TSU), "upper left", "HE WILL NOT BE ENTERED INTO THE ACT TODAY."),
+        (2, OFF(TSU), "upper centre, ABOVE the other balloon in this panel", "NARUTO IS UNDER EIGHTEEN AND DOES NOT CONSENT."),
+        (2, OFF(TSU), "lower centre, BELOW the other balloon in this panel", "HE WILL NOT BE ENTERED INTO THE ACT TODAY."),
         (3, OFF(TSU), "upper right", "SASUKE REFUSES COMPULSION AND HAS STATED HIS VOLUNTARY INTENT."),
         (4, TSU, "upper right", "NO SPOUSE IS ASSIGNED. THE PRESENT PROPOSAL ENDS HERE."))
   + "In PANELS 2 and 3 the blond teen's visible left eye is the RED ordinary three-tomoe "
@@ -801,7 +802,8 @@ PAGES = [
     "carrying the ruling about him — sits to its LEFT, so the ruling on the blond teen is read "
     "first. The blonde woman is NOT drawn in either panel, so each of those balloons is an "
     "off-panel balloon whose spur runs UP to the TOP panel border and stops on the border line, "
-    "pointing out of the panel and never down at the blond teen or the dark-haired teen.",
+    "pointing out of the panel and never down at the blond teen or the dark-haired teen."
+  + "In PANELS 2 and 3 the blond teen's visible eye is the ORDINARY THREE-TOMOE SHARINGAN drawn large enough to read: a red iris with a black pupil and THREE separate black comma-shaped tomoe spaced evenly around it. A plain red eye with no tomoe drawn is wrong; if the framing is too small to carry three tomoe, crop tighter so it does. ",
   R("tsunade", "naruto_v4_black", "sasuke_16", "env_konoha_council_chamber"), "low"),
 
  ("p20", dict(scene="dialogue", light="day", cast="crowd", mood="calm", panels=3),

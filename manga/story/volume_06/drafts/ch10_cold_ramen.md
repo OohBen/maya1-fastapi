@@ -815,7 +815,7 @@ answer them.
   threat?" (p11 B4) gets a long shot of his back. No line may be added to either. The source is
   explicit that he does not do threats and does not answer such questions.
 - Naruto's warmest two lines in the chapter — "YOU ARE PROVING TO BE QUITE A WOMAN, UZUKI YUGAO"
-  (**cut from this draft**, see below) and "I PREFER BEING HERE WITH YOU THAN WITH THEM" — must not
+  (**cut; the cut is confirmed**, see below) and "I PREFER BEING HERE WITH YOU THAN WITH THEM" — must not
   be delivered with any change of expression. The reader should notice them; he should not.
 - **Declared cut, with reason.** The source's counter exchange at ch20:213–219 — "how long are you
   going to play this game", "you are in no hurry, so am I", "you are proving to be quite a woman,
@@ -823,9 +823,11 @@ answer them.
   already carries (ch19:429, "you hold the keys"), and page 12 needs its space for Ayame, who is the
   scene's actual event. Nothing the exchange establishes is lost: the game is visible in Yugao's three
   thought balloons on page 8, and her private note about the surname is redundant once Chapter 9 has
-  played the mate conversation. **If the Chapter 7–9 agent's draft does *not* stage ch19:429 as a
-  said-aloud beat, this exchange must be restored here** — it would then be the only place in the
-  volume where the game is named. Flagged for the coordinator.
+  played the mate conversation. **Resolved by the coordinator: the cut stands.** Chapter 9 does stage
+  ch19:429 aloud — page 12 balloons B8 ("THERE IS NO ONE MORE SUITABLE TO BE MY MATE, AND THE SUBJECT
+  OF MY AFFECTIONS IF THERE ARE ANY.") and B9 ("YOU HOLD THE KEYS. YOU HAVE NOT ANSWERED MY
+  QUESTION."), both spoken with tails to a visible mouth — so the condition for restoring ch20:213–219
+  is not met. The game is named on page in Chapter 9 and must not be named again here.
 - **Declared compression.** Teuchi's "how has business been / good / then I would have closed"
   exchange (ch20:203–209) is cut as pure flavour; his welcome, his thanks to Yugao and his knowing
   Naruto's order without asking all survive, which is the whole characterisation the passage carries.

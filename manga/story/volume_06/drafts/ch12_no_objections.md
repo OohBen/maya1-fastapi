@@ -67,10 +67,10 @@ powerful woman is her leaning across a dead man's desk getting the same treatmen
 - **The Eternal Mangekyō is active in both irises on every page of this chapter** — switched on at
   ch20:437, which is Chapter 11 page 13. The council's surprise is only earned if Chapter 11 delivered
   it, and this chapter is where it pays.
-- **He is not wearing his forehead protector** (ch20:455). This contradicts the closing note in the
-  Chapter 5 draft, which has him keep it for the rest of the volume; the source wins and the
-  coordinator must reconcile the two drafts. He wears plain black with no armour, no Gunbai and no
-  weapon.
+- **He is not wearing his forehead protector** (ch20:455). It came off with the armour at Chapter 9
+  page 4 panel 5 (ch19:373) and has stayed off through Chapters 10 and 11. **Resolved by the
+  coordinator:** the Chapter 5 draft's note claiming he keeps it for the rest of the volume was wrong
+  and has been amended. He wears plain black with no armour, no Gunbai and no weapon.
 - **No medicine is drunk, held, or shown.** Chapter 5 carried the volume's second and last on-page
   dose of the volume.
 - Mei arrived yesterday, was received formally, was told Naruto was busy, and has not yet seen him.
@@ -736,9 +736,8 @@ who knew said nothing.
   ordinary three-tomoe appears nowhere. p1 panel 4 is the only panel that shows both eyes at once —
   everywhere else the heavy right bang covers the right eye. If any page shows the plain Sharingan,
   the council's reaction on page 1 and Chapter 11's closing beat both fail.
-- **No forehead protector, on any page.** See "Continuity in": this contradicts a closing note in the
-  Chapter 5 draft and the source (ch20:455) resolves it. **The coordinator must reconcile Chapters 5,
-  10, 11 and 12 before production.**
+- **No forehead protector, on any page.** See "Continuity in": the source (ch20:455) resolves it, the
+  Chapter 5 draft's contrary note has been amended, and Chapters 5, 9, 10, 11 and 12 now agree.
 - **No armour, no Gunbai, no sword, no pouch.** Plain black on every page.
 - **No medicine bottle appears, is held, or is implied.** Chapter 5 carried the volume's second and
   last on-page dose.
@@ -786,4 +785,7 @@ who knew said nothing.
   the room that is kept.
 - Naruto leaves this chapter engaged, with Konoha's non-aggression toward Oto on the record, with Mei
   carrying his largest secret and instructions to visit his own village, and with the Mangekyō
-  permanently on. Chapter 13 inherits all four, plus a report from Suna he has not heard yet.
+  permanently on. Chapter 13 inherits all four, plus a report from Suna he has not heard yet. **Dress
+  changes between the chapters:** he is in plain black with no forehead protector here, and is back in
+  the armour with the protector on from Chapter 13 page 1. The changeover is off-page and neither
+  chapter draws or remarks on it.

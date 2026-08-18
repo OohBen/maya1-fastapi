@@ -669,7 +669,10 @@ forehead protector is still on that nightstand.
   Gunbai are on the wall rack and the forehead protector is on the nightstand.** On **page 13 panel 6
   the rack is bare** and on **page 13 panel 5 and page 14 panel 9 the protector has not moved.** If
   the rack still holds the Gunbai on page 13, or the protector is missing, the chapter's ending is
-  destroyed and Chapter 15's bare-headed Naruto becomes unexplained.
+  destroyed and Chapter 15's bare-headed Naruto becomes unexplained. This page is where the volume's
+  armour-and-protector pairing (`VOLUME_06.md`, Hard locks) is **deliberately broken for the first and
+  only time** — he takes the armour and leaves the protector — and that break is the whole point of the
+  scene, so it must not be tidied back into agreement.
 - **The single camera crossing is page 12 panel 8** and it must be one clean cut. Before it, Naruto is
   frame left and the door is frame right. From it onward — including all of page 13 — the camera is at
   the foot of the bed, Naruto is frame right and Yugao is frame left, which is his right side per

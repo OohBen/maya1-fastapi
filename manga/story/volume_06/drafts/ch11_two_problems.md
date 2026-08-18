@@ -55,9 +55,10 @@ experiment with a control. And the last thing he says is that he wants it filmed
 - **His eyes carry the ordinary three-tomoe Sharingan when the chapter opens.** The EMS goes on for
   the last time in this volume on page 13 and does not come off again — that is ch20:437, and it is
   why the council is surprised by it in Chapter 12.
-- **He is not wearing his forehead protector, armour, Gunbai or sword.** See the Chapter 10 draft's
-  continuity note: the Chapter 5 draft's closing line says he keeps the protector for the rest of the
-  volume, and ch20:455 says he is not wearing it at the council next morning. The source wins.
+- **He is not wearing his forehead protector, armour, Gunbai or sword.** Armour and protector travel
+  together and both came off at Chapter 9 page 4 panel 5 (ch19:373); ch20:455 confirms he is still
+  without the protector at the council next morning. **Resolved by the coordinator:** the Chapter 5
+  draft's contrary line has been amended and Chapters 5, 9, 10, 11 and 12 now agree.
 - **No medicine is drunk, held, or shown.** Chapter 5 carried the volume's second and last on-page
   dose. The bottle is discussed in dialogue on page 7 and must not appear in any panel.
 - The Gedō Mazō is gone from this room. Nagato began summoning it and it has not come back; Naruto

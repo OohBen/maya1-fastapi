@@ -820,7 +820,10 @@ previewed on page 18 and no epilogue panel may be added after it.**
 - **Dress, and where it came from.** Full armour, **the Gunbai on his back**, and **no forehead
   protector** on every page. Both facts were set by Chapter 14 page 13 — the empty wall rack and the
   protector left on the nightstand — and if either is contradicted here, that chapter's ending stops
-  meaning anything. The bare head is also the volume's visual return: he ends the volume dressed
+  meaning anything. This is the **one deliberate exception** in the volume to `VOLUME_06.md`'s
+  armour-and-protector-travel-together lock, and it is the exception the source itself stages: he took
+  the armour off the rack and left the protector behind (ch21:319, ch21:529). It is a plot point, not a
+  continuity error, and the reference sheet must carry the armoured-and-bare-headed state. The bare head is also the volume's visual return: he ends the volume dressed
   closer to how he began it.
 - **The Gunbai is drawn on his back everywhere except p11 panels 4–7 and p12 panel 2**, where it is in
   his hand and then goes back. The Kusanagi does not appear; no sword appears at any point.

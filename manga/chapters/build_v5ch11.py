@@ -472,10 +472,10 @@ PAGES = [
         (3, OFF(YUG), "upper right", "I HEARD YOU RETURNED. I WANTED TO SEE IF YOU WERE WELL."),
         (4, BOY16, "upper right", "IT'S GOOD TO SEE YOU WELL."),
         (5, YUG, "upper right", "DINNER. TOMORROW NIGHT?"),
-        (6, BOY16, "upper right", "YES."),
-        (6, YUG, "upper left", "PLEASE DON'T WEAR THE ARMOUR."),
-        (7, SAS16, "upper right", "A DATE?"),
-        (7, BOY16, "upper left", "PERHAPS."))
+        (6, BOY16, "upper centre, ABOVE the other balloon in this panel", "YES."),
+        (6, YUG, "lower centre, BELOW the other balloon in this panel", "PLEASE DON'T WEAR THE ARMOUR."),
+        (7, SAS16, "upper centre, ABOVE the other balloon in this panel", "A DATE?"),
+        (7, BOY16, "lower centre, BELOW the other balloon in this panel", "PERHAPS."))
   + SFX(1, "KNOCK", "Small, at the lower left beside her knuckles; it must not cover her face.")
   + TAILS + "EVERY SCRIPTED BALLOON MUST APPEAR. PANEL 7 carries BOTH \"A DATE?\" and "
     "\"PERHAPS.\" — \"A DATE?\" at the upper right beside the dark-haired teen and "
@@ -712,9 +712,9 @@ PAGES = [
         (3, BOY16, "upper right", "WHERE WILL YOU BASE THE POLICE FORCE?"),
         (4, SAS16, "upper right", "THE COMPOUND."),
         (5, BOY16, "upper right", "WHERE IN IT?"),
-        (7, BOY16, "upper right", "WHERE DO YOU STORE CASE FILES?"),
-        (7, BOY16, "upper centre", "HOLD BRIEFINGS?"),
-        (7, BOY16, "upper left", "SEPARATE POLICE WORK FROM CLAN BUSINESS?"))
+        (7, BOY16, "TOP of the panel, the highest of its three balloons", "WHERE DO YOU STORE CASE FILES?"),
+        (7, BOY16, "MIDDLE of the panel, below the first and above the third", "HOLD BRIEFINGS?"),
+        (7, BOY16, "BOTTOM of the panel, the lowest of its three balloons", "SEPARATE POLICE WORK FROM CLAN BUSINESS?"))
   + TAILS + "PANEL 4 (the dark-haired teen, \"THE COMPOUND.\") closes the MIDDLE row at reader-LEFT and "
     "PANEL 5 (the blond teen, \"WHERE IN IT?\") opens the BOTTOM row at reader-RIGHT, wholly "
     "below it. Neither is a tall panel, and NO panel anywhere on this page spans two rows, so "
@@ -792,11 +792,11 @@ PAGES = [
         (3, ANBU_S, "upper right", "YOU AND NARUTO ARE WANTED IN THE COUNCIL CHAMBER. NOW."),
         (4, SAS16, "upper right", "I'LL GET HIM."),
         (5, SAS16, "upper right", "WE'RE SUMMONED."),
-        (6, BOY16, "upper right", "THEY'RE IMPATIENT."),
-        (6, OFF(SAS16), "upper left", "ABOUT THE CLAN SEAT?"),
-        (7, BOY16, "upper right", "ABOUT EVERYTHING THEY CAN'T CONTROL."),
-        (7, SAS16, "upper centre", "THAT WORKS FOR YOU?"),
-        (7, BOY16, "upper left", "YES."))
+        (6, BOY16, "upper centre, ABOVE the other balloon in this panel", "THEY'RE IMPATIENT."),
+        (6, OFF(SAS16), "lower centre, BELOW the other balloon in this panel", "ABOUT THE CLAN SEAT?"),
+        (7, BOY16, "TOP of the panel, the highest of its three balloons", "ABOUT EVERYTHING THEY CAN'T CONTROL."),
+        (7, SAS16, "MIDDLE of the panel, below the first and above the third", "THAT WORKS FOR YOU?"),
+        (7, BOY16, "BOTTOM of the panel, the lowest of its three balloons", "YES."))
   + SFX(1, "KNOCK", "Upper left near the hallway; keep it clear of both faces.")
   + TAILS + "PANEL 3 (the owl-masked ANBU's summons) closes the MIDDLE row at reader-LEFT, and PANELS 4, "
     "5, 6 and 7 all sit BELOW it: PANEL 4 at bottom-right, PANEL 5 in the bottom centre, PANEL 6 "

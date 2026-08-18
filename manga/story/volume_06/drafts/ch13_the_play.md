@@ -24,7 +24,7 @@ context-clean writing review, not for builder, reference work, or final art.
 
 | Needed | Existing | Gap |
 |---|---|---|
-| `naruto_v6_black` | `naruto_v4_armor`, `naruto_v4_black` | Age ~16, **full armour with the forehead protector** (the standing dress since Chapter 5), **Eternal Mangekyō active in both eyes** in every panel, **no Gunbai and no sword**. Additionally requires a **bang-swept variant** — page 6 panels 2–6 show the whole face uncovered for the only time in the chapter, which is a specific on-page action (ch21:61) and not a framing choice. Same gap name used in the Chapter 4, 5 and 8 drafts. |
+| `naruto_v6_black` | `naruto_v4_armor`, `naruto_v4_black` | Age ~16, **full armour with the forehead protector** (back in the armour — he was in plain black and bare-headed for Chapters 10, 11 and 12; the changeover is off-page between ch20:631 and ch21:7 and is not drawn), **Eternal Mangekyō active in both eyes** in every panel, **no Gunbai and no sword**. Additionally requires a **bang-swept variant** — page 6 panels 2–6 show the whole face uncovered for the only time in the chapter, which is a specific on-page action (ch21:61) and not a framing choice. Same gap name used in the Chapter 4, 5 and 8 drafts. |
 | `zetsu.png` | present | Covered. Zetsu is in his true form on pages 1–6 and appears nowhere else. |
 | `env_hideout_throne` | — | **No sheet.** Named in `VOLUME_06.md`. Madara's old stone seat on a low dais, and behind it the enormous empty socket in the rock where the Gedō Mazō stood. `env_hideout_tablets.png` and `env_oto_throne_hall.png` are different rooms and neither carries the empty socket, which is the visual point of pages 3, 4 and 6. |
 | `mei_mizukage_robes` | `mei_v4.png` | Named in `VOLUME_06.md`. Full Mizukage robes and hat — she is concluding a state alliance and the source calls the choice deliberate. Pages 7–9 only. |
@@ -66,7 +66,11 @@ else has already used as a door.
 - **The Eternal Mangekyō is active in both eyes and stays active.** Naruto has kept it on continuously
   since ch20:437 to force the medicine to adapt. There is no medicine on page in this chapter and
   none may be shown — the volume's two on-page doses are Chapters 4 and 5 and the hard lock is closed.
-- He wears the **armour and the forehead protector**. The **Gunbai stays on the bedroom wall rack**,
+- He wears the **armour and the forehead protector**. **This is a change of dress from Chapter 12,**
+  which had him in plain black with no protector at the alliance council (ch20:455). The armour and the
+  protector travel together (`VOLUME_06.md`, Hard locks) and both go back on **off-page**, between
+  ch20:631 and ch21:7 — nothing in this chapter shows or remarks on the change, and no panel may. The
+  **Gunbai stays on the bedroom wall rack**,
   where Chapter 5 put it and where Chapter 14 page 13 will find it missing. He does not carry it here.
 - The right-side bang covers his right eye on pages 1–6 panel 1 and again from page 7 to his last
   appearance on page 12 panel 1. He sweeps it back by hand on page 6 panel 2 and the whole face is
@@ -697,7 +701,8 @@ black flame the reader watched leave the Hokage's office arrives on the training
 - **The medicine does not appear and must not.** `VOLUME_06.md`'s hard lock puts the volume's two
   on-page doses in Chapters 4 and 5 and closes the subject. No bottle, no label, no drinking, no
   reference in dialogue or thought anywhere in this chapter.
-- **Dress.** Armour and forehead protector on every page. **No Gunbai and no sword** — the Gunbai is
+- **Dress.** Armour and forehead protector on every page — the pair went back on off-page between
+  Chapters 12 and 13 and the change is never drawn or spoken. **No Gunbai and no sword** — the Gunbai is
   on the bedroom wall rack where Chapter 5 left it, and Chapter 14 page 13 depends on it being there
   until he leaves the village. If the Gunbai appears on his back in this chapter, the page fails.
 - **Three geometry axes, never inverted.** Hideout: Naruto frame right facing left, Zetsu frame left
