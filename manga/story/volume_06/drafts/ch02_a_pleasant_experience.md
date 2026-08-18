@@ -3,7 +3,7 @@
 **Source:** ch17:149–332. The chapter begins at the "Later that day" card and ends on the empty
 passage outside Yugao's door, before the ch17:333 time card ("The following day").
 
-**Length:** 18 pages, nine spreads, 108 panels, 96 balloons plus one chapter marker and one time
+**Length:** 18 pages, nine spreads, 110 panels, 77 balloons plus one chapter marker and one time
 card.
 
 **Status:** final dialogue and executable textual `name`; ready for independent source and
@@ -587,7 +587,7 @@ Karin beside him and a barrier that opens only for his blood.
 
 ## Dialogue QA
 
-- 96 balloons, one chapter marker, and one time card across 18 pages; the marker is exactly
+- 77 balloons, one chapter marker, and one time card across 18 pages; the marker is exactly
   "CHAPTER 2 — A PLEASANT EXPERIENCE" and the card is exactly "LATER THAT DAY". Balloon numbering
   restarts and stays contiguous on every page.
 - Density varies by scene function as required: page 1 carries one balloon across six panels, pages
@@ -613,7 +613,7 @@ Karin beside him and a barrier that opens only for his blood.
 
 ## Visual and continuity QA
 
-- Naruto's irises are plain blue in all 108 panels; no tomoe, no Mangekyō. He has taken no medicine
+- Naruto's irises are plain blue in all 110 panels; no tomoe, no Mangekyō. He has taken no medicine
   on page, and nothing in this chapter requires the Sharingan.
 - Naruto wears the same plain black from page 2 to page 18: **no gloves, no forehead protector, no
   armour, no Gunbai, no sword.** The bare right hand is load-bearing on page 18 panels 4 and 5.

@@ -125,7 +125,7 @@ Kakashi in as an interruption rather than an arrival.
    "KAKASHI."
 5. **Bottom right, x=51–100 y=67–100; medium-long.** Cast/blocking: Kakashi walks in from the far
    right along the clifftop ledge, moving left, one hand in his pocket and an orange book in the
-   other; Naruto is seated at the far left edge, unmoving. **B1 continues numbering — use B5** upper
+   other; Naruto is seated at the far left edge, unmoving. **B5** upper
    right, Kakashi: "THE VIEW IS QUITE LOVELY FROM HERE." Tail points to visible Kakashi's mouth.
 6. **Bottom left, x=0–47 y=67–100; close-up.** Cast/blocking: Naruto faces left, eyes forward over
    the village, giving no reply and no turn. No text.
