@@ -193,7 +193,7 @@ of the animal registers before anybody speaks to it.
 
 1. **Top right, x=60–100 y=0–30; medium from behind.** Cast/blocking: Naruto walking left, back
    three-quarters to the reader; his shoulders rise and drop in the smallest possible shrug; Zetsu
-   walks a half-pace behind at frame right. No text. This panel is the answer to page 2 **B7** and
+   walks a half-pace behind at frame right. No text. This panel is the answer to page 2's seventh balloon and
    must read as a refusal, not as thought.
 2. **Top left, x=0–56 y=0–30; wide.** Cast/blocking: seen past the two small figures at the right
    edge, an enormous orange mass lies curled among the rocks across a shallow basin; folded tails

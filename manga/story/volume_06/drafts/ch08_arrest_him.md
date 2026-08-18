@@ -4,7 +4,7 @@
 Chapter 7 ends, and stops at ch19:319 with Sasuke walking off to learn the technique. The "Later that
 day" kitchen scene (ch19:321 onward) belongs to Chapter 9 and no part of it is played here.
 
-**Length:** 12 pages, six spreads, 84 panels, 72 balloons plus one chapter marker, two location
+**Length:** 12 pages, six spreads, 84 panels, 71 balloons plus one chapter marker, two location
 cards, and three SFX units.
 
 **Status:** final dialogue and executable textual `name`; ready for independent source and
@@ -503,7 +503,7 @@ and Naruto does not yet know who is in it.
 
 ## Dialogue QA
 
-- 72 balloons, one chapter marker, two location cards and three SFX units across 12 pages. The marker
+- 71 balloons, one chapter marker, two location cards and three SFX units across 12 pages. The marker
   is exactly "CHAPTER 8 — ARREST HIM"; the cards are exactly "KONOHA — COUNCIL CHAMBERS" (p1) and
   "UCHIHA COMPOUND — TRAINING GROUND" (p10). Balloon numbering restarts and stays contiguous on every
   page.
