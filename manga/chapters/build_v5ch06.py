@@ -12,10 +12,11 @@ deliberately different ages and costumes and never share a page.
 This builder must match the `name`, not improve on it. Every balloon below is the draft's
 exact final text, in the draft's exact panel and position.
 
-Reference gaps recorded for the owner (never invented here): there is no dedicated
-kushina.png sheet, so she is bound from the two-person minato_kushina.png with the blond
-half excluded by name; and there is no approved younger-training-period Naruto sheet, so
-naruto_13.png carries the dream-memory boy.
+Reference note: most pages bind the red-haired woman from the two-person minato_kushina.png
+with the blond half excluded by name. Page 10 — the chapter's key image — does NOT: it uses
+the dedicated single-figure refs/images/kushina.png instead, because on the two-person sheet
+the model took the BLOND half and drew her as a second Naruto. There is still no approved
+younger-training-period Naruto sheet, so naruto_13.png carries the dream-memory boy.
 """
 import pathlib
 import sys
@@ -520,7 +521,17 @@ PAGES = [
         (3, KUSHINA_SPEAKER, "upper right, over the gap between them", "I CANNOT ASK YOU TO FORGIVE HIM."),
         (4, BOY13, "upper right", "I WILL NOT."),
         (5, KUSHINA_SPEAKER, "upper right", "I KNOW."),
-        (6, KUSHINA_SPEAKER, "upper right", "BUT HE WAS KIND. TOO TRUSTING. SOMETIMES AN IDIOT.")),
+        (6, KUSHINA_SPEAKER, "upper right", "BUT HE WAS KIND. TOO TRUSTING. SOMETIMES AN IDIOT."))
+  + "THE DISSOLUTION MUST BE VISIBLE ON THIS PAGE AND THIS IS THE PAGE IT PREVIOUSLY RESET ON. "
+    "Do NOT draw the red-haired woman whole. In PANEL 1, PANEL 3, PANEL 5 and PANEL 6 — every "
+    "panel where her arms or body are in frame — ONE of her forearms and its hand are GONE, "
+    "replaced by drifting red-gold seal script, so that arm visibly ends near the elbow and the "
+    "dark water and the light behind it show THROUGH the gap. The dissolution has also crept "
+    "across that shoulder and started at the hem of her long skirt. In PANEL 3 she sits upright "
+    "with her hands open on her knees: only ONE solid hand rests on a knee, and the other knee "
+    "has nothing but seal light above it. She is not opaque, not intact and not solid on this "
+    "page, and she never becomes more complete than she was on the previous page. Her face, her "
+    "very long red hair and her upper body stay solid so she is still clearly herself. ",
   R("naruto_13", "minato_kushina", "env_inner_sewer"),
   "low"),
 
@@ -611,7 +622,14 @@ PAGES = [
   + SAY((4, ZETSU, "upper right", "THE SAME DREAM?"),
         (5, BOY16, "upper right", "YES."),
         (5, BOY16, "directly below the first balloon, sharing the same tail target", "WHAT TIME IS IT?"),
-        (6, ZETSU, "upper right", "STILL MIDNIGHT.")),
+        (6, ZETSU, "upper right", "STILL MIDNIGHT."))
+  + "THE GEAR GROUP IS LOCKED TO SCREEN-LEFT AND STAYS TOGETHER. In PANEL 2 all three objects lie "
+    "on the ground on the blond teen's SCREEN-LEFT side, within arm's reach and grouped as one "
+    "cluster: the folded repaired red armour nearest him, and BEHIND the armour, resting "
+    "separately and both fully visible, the PLAIN STRAIGHT SASH SWORD and the dark purple gunbai. "
+    "The sword lies on the SAME side as the armour and the gunbai — it is NEVER on his "
+    "screen-RIGHT, never on the opposite side of his body from the armour, and never separated "
+    "from the group. Nothing of his equipment appears anywhere to his screen-right on this page. ",
   R("naruto_v4_black", "zetsu", "gunbai_v4", "env_wave_forest"),
   "medium"),
 

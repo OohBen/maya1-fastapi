@@ -236,6 +236,9 @@ PAGES = [
         (5, OFF(NAR), "mid-left", "THEN RETURN AND STRIP THIS ONE."),
         (5, OFF(NAR), "lower left",
          "SECURE EVERY RECORD, SAMPLE, AND USEFUL INSTRUMENT BEFORE IWA FINDS IT."))
+  + "The PANEL 2 balloon reads exactly \"GO TO OTO. SPREAD WORD THAT OROCHIMARU IS DEAD.\" — THAT "
+    "is spelled T-H-A-T, ending in a T and never in a Y. Never write THAY, THAR or any other form "
+    "of it. "
   + "LOWER ROW ORDER: PANEL 4 (the creature shifting the bundle and the sword higher) is the "
     "lower row's RIGHT-HAND panel and PANEL 5 (the close-up of the wrapped bundle and the long "
     "thin sword) sits entirely to its LEFT. The question \"AND UZUSHIO?\" must therefore be read "
@@ -572,15 +575,15 @@ PAGES = [
         (5, GUREN, "lower left", "YOU NEED ANOTHER PRISONER."),
         (6, NAR, "upper right", "I NEEDED YOU TO LISTEN."),
         (6, GUREN, "upper left", "I'M LISTENING."),
-        (6, GUREN, "lower right", "THAT IS NOT AGREEMENT."),
-        (6, NAR, "lower left", "GOOD."))
-  + "In PANEL 6 the two lower balloons cross the panel diagonally: the lower-right balloon's tail "
-    "runs down-LEFT to the light-blue-haired woman and the lower-left balloon's tail runs "
-    "down-RIGHT to the blond teen. Neither tail may approach the other speaker. "
-  + "PANEL 6 BALLOON ORDER IS FIXED: the LOWER-RIGHT balloon reads \"THAT IS NOT AGREEMENT.\" and "
-    "the LOWER-LEFT balloon reads \"GOOD.\", in that right-to-left order, so his one-word answer "
-    "is read AFTER the line it answers. Never put \"GOOD.\" to the right of \"THAT IS NOT "
-    "AGREEMENT.\" "
+        (6, GUREN, "mid-left, directly beneath her own first balloon", "THAT IS NOT AGREEMENT."),
+        (6, NAR, "bottom right corner, lower than every other balloon in the panel", "GOOD."))
+  + "PANEL 6 IS READ TOP TO BOTTOM AND ITS FOUR BALLOONS ARE STACKED SO THAT NOTHING DEPENDS ON "
+    "LEFT AND RIGHT: \"I NEEDED YOU TO LISTEN.\" highest at the upper right, \"I'M LISTENING.\" "
+    "just below it at the upper left, \"THAT IS NOT AGREEMENT.\" below THAT at the mid-left, and "
+    "\"GOOD.\" LAST and LOWEST, alone in the bottom right corner with clear empty space above it "
+    "so no reader can take it before her line. Each of the four sits at a visibly different "
+    "height. Her two balloons tail to the light-blue-haired woman at the LEFT and his two tail to "
+    "the blond teen at the RIGHT, each by the shortest clean route. "
   + "PANEL 4 IS ONE SINGLE PANEL, never split into two and never repeated: inside that one frame "
     "the light-blue-haired woman is already MID-RISE — one boot planted, one hand pushing off the "
     "floor, her shoulders coming up — with the loosed papers still settling around her. The page "
@@ -596,15 +599,21 @@ PAGES = [
   "PANEL 1 (top right): he stands at the reader's RIGHT, she stands behind the desk at the "
   "reader's LEFT, eye-lines holding. Both mouths are visible.\n"
   "PANEL 2 (upper left): close on him, mouth visible.\n"
-  "PANEL 3 (middle right): close on her, chin raised, mouth visible.\n"
-  "PANEL 4 (BORDERLESS memory image occupying the CENTRE of the middle row — immediately to the "
-  "LEFT of PANEL 3 and immediately to the RIGHT of PANEL 5, softly faded at its edges): a gentle-faced "
+  "PANELS 3, 4 and 5 ARE THREE FULL-WIDTH BANDS STACKED VERTICALLY, one above the next, each "
+  "spanning the whole width of the page so that nothing about their order depends on left and "
+  "right. They are markedly unequal in height: PANEL 3 a shallow strip, PANEL 4 the tall one, "
+  "PANEL 5 a shallow strip again.\n"
+  "PANEL 3 (shallow full-width band, the FIRST of the three): close on her, chin raised, mouth "
+  "visible. Keep her head at the reader-RIGHT of the band.\n"
+  "PANEL 4 (tall full-width BORDERLESS memory band directly BELOW PANEL 3, softly faded at its "
+  "edges): a gentle-faced "
   "dark-haired woman shelters an unconscious younger blue-haired girl; behind them a second much "
   "smaller silhouette shows that same girl carrying out an order she regrets. The violence stays "
   "entirely implicit — no injury, no blood, no weapon in contact. NEITHER PRESENT-DAY SPEAKER "
   "APPEARS IN THIS IMAGE.\n"
-  "PANEL 5 (middle left): close on him, mouth visible, with no triumph anywhere in the "
-  "expression.\n"
+  "PANEL 5 (shallow full-width band directly BELOW PANEL 4, the LAST of the three): close on him, "
+  "mouth visible, with no triumph anywhere in the expression. Keep his head at the reader-RIGHT "
+  "of the band.\n"
   "PANEL 6 (wide panel, lower right): she grips the desk with her left hand until the knuckles go "
   "pale and her eye-line drops for the first time. HE IS NOT IN THIS PANEL AT ALL.\n"
   "PANEL 7 (wide two-shot across the bottom): she looks up sharply from the reader's LEFT; he "
@@ -624,15 +633,17 @@ PAGES = [
          "HE PROMISED YOU WOULD BE HIS NEXT VESSEL. HE ALWAYS CHOSE ANOTHER."),
         (7, GUREN, "upper left", "YOU CRAWLED THROUGH MY HEAD SO YOU CAN USE IT TOO."),
         (7, NAR, "lower right", "SO YOU KNOW I COULD."))
-  + "PANEL LAYOUT IS FIXED AND MUST NOT BE REORDERED. PANELS 3, 4 and 5 form ONE middle tier read "
-    "right to left: PANEL 3 (close on her) at the tier's RIGHT edge, the BORDERLESS memory image "
-    "PANEL 4 in the CENTRE immediately to its left, PANEL 5 (close on him) at the tier's LEFT "
-    "edge. PANELS 6 and 7 sit entirely BELOW that tier, PANEL 6 above PANEL 7. Consequences that "
-    "must hold: \"YOU KNOW NOTHING ABOUT IT.\" is read BEFORE the memory image and its \"YUKIMARU'S "
-    "MOTHER.\" / \"STOP.\"; and \"HE ORDERED YOU TO KILL THE WOMAN WHO SAVED YOU—THEN GAVE YOU HER "
-    "SON.\" is read BEFORE \"HE WOULD HAVE ORDERED YUKIMARU'S DEATH WHEN THE BOY STOPPED BEING "
-    "USEFUL.\" Never place the memory image to the right of PANEL 3, and never place PANEL 6 "
-    "above or to the right of PANEL 5. ",
+  + "PANEL LAYOUT IS FIXED AND MUST NOT BE REORDERED. PANELS 3, 4 and 5 are three FULL-WIDTH "
+    "BANDS stacked strictly top to bottom — PANEL 3 above PANEL 4 above PANEL 5 — and NONE of "
+    "them shares a tier with another panel. PANELS 6 and 7 sit entirely below PANEL 5, PANEL 6 "
+    "above PANEL 7. Consequences that must hold: \"YOU KNOW NOTHING ABOUT IT.\" is read BEFORE "
+    "the memory band and its \"YUKIMARU'S MOTHER.\" / \"STOP.\"; and \"HE ORDERED YOU TO KILL THE "
+    "WOMAN WHO SAVED YOU—THEN GAVE YOU HER SON.\" is read BEFORE \"HE WOULD HAVE ORDERED "
+    "YUKIMARU'S DEATH WHEN THE BOY STOPPED BEING USEFUL.\" The memory band is never placed beside "
+    "PANEL 3, only beneath it. "
+  + "The shelves behind the desk on this page carry ROLLED SCROLLS AND BOUND RECORD FILES ONLY. "
+    "No bottles, jars, flasks or vials appear on any shelf in any panel — this room is a records "
+    "office, never an apothecary or a laboratory. ",
   R("naruto_v4_armor_sword", "env_orochimaru_lab"), "low"),
 
  # ---- Spread 8: name the hidden ownership ------------------------------------------

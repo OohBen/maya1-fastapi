@@ -115,6 +115,11 @@ PAGES = [
         (3, BOY16, "lower left", "ASK HER."),
         (4, TSU, "upper right", "THIS ISN'T ABOUT KARIN."),
         (4, TSU, "lower left", "IT'S ABOUT WHETHER MY ORDERS APPLY TO YOU."))
+  + "BOTH PANEL 4 BALLOONS ARE THE BLONDE WOMAN'S. She sits reader-LEFT behind the desk and the "
+    "blond teen stands in the centre foreground; each of her two balloons needs a tail that ends "
+    "at HER mouth, however far left that is. Neither tail may stop on the blond teen's red "
+    "armour, his shoulder or his body — he says nothing at all in PANEL 4, and a tail landing on "
+    "him would hand him her line about her own orders. "
   + "The PANEL 1 balloon reads exactly \"YOU LEFT WITHOUT PERMISSION AND RETURNED WITHOUT "
     "REPORTING.\" — LEFT is spelled L-E-F-T, four letters with an F as the third letter. Never "
     "write LEPT, LEFF or any other form of it. ",
@@ -430,6 +435,12 @@ PAGES = [
         (6, JIRA, "upper right", "IF IT'S TRUE, I HAVE MORE REASON TO GO."),
         (6, BOY16, "lower centre", "IF YOU ENTER AME, AKATSUKI'S LEADER WILL KILL YOU."),
         (6, JIRA, "lower left", "I'M STILL GOING."))
+  + "PANEL 6 ATTRIBUTION, AND THE TWO TAILS MUST NOT BE INTERCHANGED: \"IF IT'S TRUE, I HAVE MORE "
+    "REASON TO GO.\" and \"I'M STILL GOING.\" are "
+    "BOTH the white-haired man's and BOTH their tails must end at HIS mouth. \"IF YOU ENTER AME, "
+    "AKATSUKI'S LEADER WILL KILL YOU.\" is the blond teen's alone and its tail must end at HIS "
+    "mouth. No tail may cross to the other man: the warning belongs to the teen and the refusal "
+    "belongs to the older man. "
   + "The lower PANEL 3 balloon reads exactly \"LATELY, NO SPY GOES IN AND COMES OUT.\" — nine "
     "words and no more. AND is spelled A-N-D, and there is no stray \"AD\", no repeated word and "
     "no extra letter anywhere in the balloon. COMES is spelled C-O-M-E-S with a fully formed "
@@ -489,7 +500,7 @@ PAGES = [
   "Their faces occupy equal scale in the frame. " + L_HOK
   + SAY((1, BOY16, "upper right", "JIRAIYA DISAPPEARS WHEN HIS WORK REQUIRES IT."),
         (2, TSU, "upper right", "JIRAIYA REPORTS TO ME."),
-        (2, OFF(JIRA), "lower left", "EVENTUALLY."),
+        (2, OFF(JIRA), "lower right corner, well clear of her face", "EVENTUALLY."),
         (3, TSU, "upper right", "HE ALSO BUILT ACCESS OVER DECADES."),
         (4, BOY16, "upper right", "I RETURN WITH INFORMATION HE CANNOT FIND."),
         (5, TSU, "upper right", "THAT IS USEFUL."),
@@ -502,10 +513,12 @@ PAGES = [
     "two are the blonde woman's and tail to her at reader-left; the third is the blond teen's and "
     "tails across to him at reader-right. "
     "In PANEL 2 the balloon \"EVENTUALLY.\" belongs to the big white-haired man, who is NOT DRAWN "
-    "IN THAT PANEL. Draw it as an off-panel balloon whose tail is a short straight spur running "
-    "to the panel's lower-left border and stopping there, pointing out of the frame. That spur "
-    "must not touch or aim at the blonde woman, and the balloon must not sit directly beneath her "
-    "mouth where it would read as a second line of hers. ",
+    "IN THAT PANEL. It sits in the panel's LOWER RIGHT corner — the side he stands on elsewhere "
+    "in the room — and carries a clearly VISIBLE off-panel spur: a short straight tail running "
+    "from the balloon to the panel's RIGHT border and stopping there, pointing out of the frame. "
+    "It must never sit under, beside or level with the blonde woman's mouth, and no part of it "
+    "may aim at her, because an untailed balloon near her face turns his interruption into a "
+    "second line of hers. ",
   R("tsunade", "jiraiya", "naruto_v4_armor", "env_hokage_office"), "low"),
 
  # ---- Spread 9: permission remains withheld ----------------------------------------

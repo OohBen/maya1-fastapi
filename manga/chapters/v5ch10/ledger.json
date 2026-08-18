@@ -180,5 +180,19 @@
   "size": "2160x3840",
   "cost": 0.047,
   "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p02",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p16",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "style_v01_p094.png"
  }
 ]

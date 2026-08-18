@@ -59,7 +59,66 @@ SOUND4 = ("the four Sound guards — none of them has a reference sheet, so all 
 JIRO = "the very large orange-crested Sound boy"
 TAY = "the red-haired Sound girl in the horned black cap"
 SAK = "the grey-blue-haired Sound youth with the green face markings"
-KIDO = "the dark-skinned Sound archer with the topknot"
+KIDO = "the dark-skinned six-armed Sound archer with the topknot"
+
+# ---------------------------------------------------------------- Sound Four identity
+# NONE of the four has a reference sheet in refs/images, so nothing binds their faces to an
+# "Image {i}" index and the model silently substitutes one for another whenever two of them share
+# a panel. First pass: Kidōmaru was drawn with Sakon's design on p12, Tayuya was drawn firing
+# Kidōmaru's bow on p14, and a dead Sakon stood in the living file on p11. Written description is
+# the only lever available, so it is stated ONCE here and attached to every page holding more than
+# one of them.
+FOUR = (
+    "SOUND FOUR IDENTITY LOCK — READ THIS AS IF IT WERE FOUR REFERENCE SHEETS. None of these four "
+    "has a reference image, so they are drawn from this description alone and they are NOT "
+    "interchangeable. They differ in SKIN TONE, HAIR COLOUR, HAIR SHAPE, SEX, BUILD and NUMBER OF "
+    "ARMS, and no panel may swap, merge, mirror or substitute one for another:\n"
+    "  JIRŌBŌ — a very large heavy-set BOY, by far the biggest and widest of the four, pale-tan "
+    "skin, SHORT BRIGHT ORANGE hair standing up in one wide crest, no headgear, a dark "
+    "high-collared sleeveless tunic. Exactly TWO arms. He carries no weapon.\n"
+    "  TAYUYA — the only GIRL of the four and the smallest, slim, with LONG DARK-RED HAIR falling "
+    "from under a close-fitting BLACK CAP that carries two short horn-like points, and a bamboo "
+    "FLUTE at her belt. Exactly TWO arms. She NEVER holds a bow and NEVER shoots an arrow.\n"
+    "  SAKON — a slender youth with VERY PALE skin and LIGHT GREY-BLUE hair falling over his "
+    "right eye, dark green markings under both eyes, a cream sleeveless top. Exactly TWO arms and "
+    "ordinary human anatomy. He has NO bow, NO topknot, NO spider marking and NO extra arms.\n"
+    "  KIDŌMARU — THE ARCHER. A lean youth with DARK BROWN SKIN, the darkest skin of anyone on "
+    "the page, BLACK hair pulled tightly into a high TOPKNOT, a forehead protector marked with a "
+    "spider, and SIX ARMS: the ordinary pair plus TWO EXTRA PAIRS folded along his sides, all six "
+    "visible whenever his torso is in frame. Every bow and every arrow in this chapter belongs to "
+    "HIM and to nobody else. He is never pale-skinned, never blue- or red-haired, never female, "
+    "and never has only two arms.\n"
+    "Before drawing any guard, decide which of these four he is and give him ALL of that entry's "
+    "features. A figure that mixes two entries is a failed page. ")
+
+# ---------------------------------------------------------------- the death ledger
+# The chapter's dominant first-pass failure was not reading order: it was dead combatants standing
+# back up. This states, page by page, who is dead, in what visible state, and where the remains
+# lie, and it is attached to every page from p09 (the first death) to p16 (the state panel).
+DEATHS = (
+    "DEATH LEDGER — A HARD CONTINUITY RULE THAT OUTRANKS ANY PANEL DESCRIPTION IT CONFLICTS WITH. "
+    "A guard who has died NEVER stands, walks, fights, dodges, speaks, reacts, holds a weapon, "
+    "fires an arrow or appears whole again on any later page. He stays exactly where he fell, in "
+    "exactly the state listed here, in every panel that shows that part of the floor:\n"
+    "  SAKON (pale skin, light grey-blue hair over the right eye, green eye markings, two arms) "
+    "dies on PAGE 9, ignited by black flame. From PAGE 10 onward he is a still, flat, BLACKENED "
+    "BODY lying at WEST-OF-CENTRE, and he is dead for the whole of pages 10 to 24.\n"
+    "  TAYUYA (the girl — long dark-red hair, horned black cap, flute) dies on PAGE 11 under a "
+    "contact lightning discharge. From that moment she is a HEAP OF FLAT GREY ASH beside the "
+    "EASTERN pillar — no body, no limbs, no face, no cap — and she is dead for the whole of pages "
+    "12 to 24. She never fires a bow, because she never had one.\n"
+    "  JIRŌBŌ (the very large orange-crested boy) dies on PAGE 14. From that moment he is a SLACK "
+    "BODY: held upright against the EAST wall, then stuck full of arrows, then hung in white web "
+    "at west-of-centre from PAGE 15 onward. He is dead for the whole of pages 15 to 24.\n"
+    "  KIDŌMARU (dark brown skin, black topknot, six arms — the archer) is the LAST of the four "
+    "alive and the ONLY one who ever holds a bow. He dies on PAGE 15. From that moment he is FLAT "
+    "CHARRED BLACK-GREY REMAINS at WEST-OF-CENTRE, and he is dead for the whole of pages 16 to "
+    "24.\n"
+    "COUNT THE LIVING GUARDS BEFORE DRAWING. Page 9 opens with four and closes with three. Pages "
+    "10 and 11 open with three; page 11 closes with two. Pages 12, 13 and 14 open with two; page "
+    "14 closes with one. Page 15 opens with one and closes with none. Page 16 onward has none at "
+    "all. Never draw more living guards than that count, and never place a dead one among the "
+    "living. ")
 
 # ---------------------------------------------------------------- forms and perceived-world tails
 WSNAKE = ("Image {i} is the FORM REFERENCE for the giant serpent's ANATOMY AND SCALE ONLY — take "
@@ -169,7 +228,15 @@ PAGES = [
         (3, OFF(ONOKI), "upper right", "A BOY I REFUSED TO SEE."),
         (4, ONOKI, "upper right", "S-RANK IS NO LONGER AN EXAGGERATION."),
         (5, ONOKI, "upper right", "NO MOVE YET."),
-        (5, ONOKI, "upper left", "I WANT EVERY REPORT.")),
+        (5, ONOKI, "upper left", "I WANT EVERY REPORT."))
+  + "THE PANEL 4 BALLOON IS THE MOST IMPORTANT LINE ON THIS PAGE AND ITS FIRST LETTER CARRIES THE "
+    "WHOLE MEANING. It reads exactly \"S-RANK IS NO LONGER AN EXAGGERATION.\" The first word is "
+    "spelled with the single capital letter S, then a hyphen, then R-A-N-K — S-hyphen-R-A-N-K. It "
+    "is NEVER A-RANK, never B-RANK, never C-RANK and never any letter other than S. The printed "
+    "bingo-book page in PANEL 2 carries an S mark for the same reason, and a later page has a "
+    "guard ask \"THIS IS THE S-RANK?\" — any other letter inverts the line's meaning and "
+    "contradicts the rest of the chapter. Letter every balloon on this page once, with no "
+    "doubled, ghosted or overprinted text. ",
   R("naruto_v4_armor_sword", "yagura_human", "kiri_rebel_mob", "env_kiri_battlefield_crater"),
   "low"),
 
@@ -232,7 +299,8 @@ PAGES = [
  # ---- Spread 3: the throne is bait -------------------------------------------------
  ("p05", dict(scene="establishing", light="interior", cast="small_group", mood="tense", panels=6),
   FILL + RTL + N16_SWORD.format(i=1) + ORO.format(i=2) + KAB.format(i=3) + ENV.format(i=4)
-  + ENV.format(i=5) + ONLY(NAR, PALEONE, SPEC, SOUND4) + GEAR + ROOM +
+  + ENV.format(i=5) + ONLY(NAR, PALEONE, SPEC, SOUND4) + GEAR + ROOM 
+  + FOUR +
   "SIX panels. Route, room geometry, every weapon, and a false calm.\n"
   "PANEL 1 (top band, full width): wide corridor shot — the teen walks alone away from the reader "
   "down a low stone corridor; two taut trip-wires cross the passage and a raised pressure plate "
@@ -262,7 +330,8 @@ PAGES = [
  ("p06", dict(scene="action", light="interior", cast="small_group", mood="tense", panels=7),
   FILL + RTL + N16_SWORD.format(i=1) + ORO.format(i=2) + KAB.format(i=3)
   + MANGEKYO_EYE.format(i=4) + ENV.format(i=5)
-  + ONLY(NAR, PALEONE, SPEC, SOUND4) + GEAR + EMS + ROOM + FLAT +
+  + ONLY(NAR, PALEONE, SPEC, SOUND4) + GEAR + EMS + ROOM + FLAT 
+  + FOUR +
   "SEVEN panels. The medic is removed before the fight starts.\n"
   "PANEL 1 (top right): extreme close-up — the teen's left eye changes state on the page: the "
   "six-bladed red pattern replaces the ordinary one. It is a change of the eye itself.\n"
@@ -276,9 +345,12 @@ PAGES = [
   "this panel.\n"
   "PANEL 5 (middle left): medium — the red-haired girl in the horned cap steps one pace forward "
   "from the eastern end of the guards' line, facing right toward the teen.\n"
-  "PANEL 6 (lower right): medium close-up — the teen's eye-line returns from the dais to the four "
-  "guards, head level.\n"
-  "PANEL 7 (dominant panel across the bottom): overhead angle looking straight down — the four "
+  "PANEL 6 (a narrow strip running the FULL WIDTH of the page, directly ABOVE the bottom panel — "
+  "nothing sits to its left or to its right): medium close-up — the teen's eye-line returns from "
+  "the dais to the four guards, head level. His two balloons sit inside this strip, the first "
+  "further right than the second.\n"
+  "PANEL 7 (dominant panel running the FULL WIDTH of the page across the very BOTTOM, below "
+  "PANEL 6 — the last panel read): overhead angle looking straight down — the four "
   "guards sprint out of their line into a diamond around the teen at south-centre: the very large "
   "orange-crested boy two paces NORTH of him, the red-haired girl two paces EAST, the "
   "grey-blue-haired youth two paces WEST, and the dark-skinned archer further north on the open "
@@ -289,14 +361,22 @@ PAGES = [
         (5, TAY, "upper right", "WHO DO YOU THINK YOU ARE?"),
         (6, NAR, "upper right", "THE SOUND FOUR."),
         (6, NAR, "upper left", "YOUR LEADER IS ALREADY DEAD."),
-        (7, NAR, "upper right", "COME, THEN.")),
+        (7, NAR, "upper right", "COME, THEN."))
+  + "THIS PAGE HAS EXACTLY SEVEN PANELS — do not invent an eighth. THE ANSWER MUST BE READ BEFORE "
+    "THE CHALLENGE. \"THE SOUND FOUR.\" and \"YOUR LEADER IS ALREADY DEAD.\" are his reply to the "
+    "red-haired girl's question and belong ONLY inside PANEL 6, the full-width strip. \"COME, "
+    "THEN.\" is the challenge that follows and belongs ONLY inside PANEL 7, the overhead "
+    "formation panel across the very bottom of the page; it never appears in a separate "
+    "close-up, never sits beside PANEL 6, and never sits above or to the RIGHT of PANEL 6's two "
+    "balloons. If \"COME, THEN.\" is read before \"THE SOUND FOUR.\", the page is wrong. ",
   R("naruto_v4_armor_sword", "orochimaru", "kabuto", "mangekyo_design",
     "env_oto_throne_hall"), "medium"),
 
  # ---- Spread 4: their strength is sequence -----------------------------------------
  ("p07", dict(scene="action", light="interior", cast="small_group", mood="violent", panels=6),
   FILL + RTL + N16_SWORD.format(i=1) + ENV.format(i=2)
-  + ONLY(NAR, SOUND4) + GEAR + ROOM + IMPACT + FLAT +
+  + ONLY(NAR, SOUND4) + GEAR + ROOM + IMPACT + FLAT 
+  + FOUR +
   "SIX panels. A four-part relay, and the first physical cost. This page has NO speech balloons "
   "and NO captions — only the sound effects listed below.\n"
   "PANEL 1 (top right, canted): the orange-crested boy drives an unarmed left uppercut from the "
@@ -327,7 +407,8 @@ PAGES = [
 
  ("p08", dict(scene="action", light="interior", cast="small_group", mood="tense", panels=6),
   FILL + RTL + N16_SWORD.format(i=1) + ORO.format(i=2) + MANGEKYO_EYE.format(i=3)
-  + ENV.format(i=4) + ONLY(NAR, PALEONE, SOUND4) + GEAR + EMS + ROOM + IMPACT + FLAT +
+  + ENV.format(i=4) + ONLY(NAR, PALEONE, SOUND4) + GEAR + EMS + ROOM + IMPACT + FLAT 
+  + FOUR +
   "SIX panels. He reads the relay and names the real problem.\n"
   "PANEL 1 (tall panel down the right edge): the dark-skinned archer stands at north-centre, feet "
   "planted, a pre-formed golden bow in his left hand and one golden arrow drawn back to his cheek "
@@ -355,7 +436,8 @@ PAGES = [
  # ---- Spread 5: break the handoff --------------------------------------------------
  ("p09", dict(scene="action", light="interior", cast="small_group", mood="violent", panels=6),
   FILL + RTL + N16_SWORD.format(i=1) + MANGEKYO_EYE.format(i=2) + ENV.format(i=3)
-  + ONLY(NAR, SOUND4) + GEAR + EMS + ROOM + IMPACT + FLAT +
+  + ONLY(NAR, SOUND4) + GEAR + EMS + ROOM + IMPACT + FLAT 
+  + FOUR + DEATHS +
   "SIX panels. The formation breaks and their rescue instinct kills one of them.\n"
   "PANEL 1 (top right): medium — the teen finishes one hand seal just inside the SOUTH wall, "
   "inhales, and opens his mouth.\n"
@@ -390,7 +472,8 @@ PAGES = [
 
  ("p10", dict(scene="action", light="interior", cast="small_group", mood="violent", panels=7),
   FILL + RTL + N16_SWORD.format(i=1) + ENV.format(i=2)
-  + ONLY(NAR, SOUND4) + GEAR + ROOM + IMPACT + FLAT +
+  + ONLY(NAR, SOUND4) + GEAR + ROOM + IMPACT + FLAT 
+  + FOUR + DEATHS +
   "SEVEN panels. An arrow answer, a clone, and a lost firing lane.\n"
   "PANEL 1 (tall panel down the right edge): the grey-blue-haired youth writhes at west-of-centre "
   "with flat black flame fixed to his torso; the teen draws his plain sash sword from his LEFT "
@@ -404,11 +487,14 @@ PAGES = [
   "north-east to south-west. The teen backflips SOUTH once, then again; on the second inversion "
   "his hands cross into a clone seal hidden behind his torso. Draw the flip as one figure with "
   "ghosted motion phases, not two separate people.\n"
-  "PANEL 5 (small panel, lower right): the continuing figure reaches the SOUTH wall and the third "
-  "arrow enters its chest. It is the clone. Flat shapes, no injury detail.\n"
-  "PANEL 6 (small panel, lower centre): the struck figure bursts into a flat opaque smoke cloud "
-  "against the wall.\n"
-  "PANEL 7 (wide reveal across the bottom): the archer has turned fully SOUTH toward the smoke, "
+  "PANEL 5 (the RIGHT-HAND panel of a row of EXACTLY TWO small panels — PANEL 6 is its only "
+  "neighbour and sits directly to its LEFT): the continuing figure reaches the SOUTH wall and the "
+  "third arrow enters its chest. It is the clone. Flat shapes, no injury detail.\n"
+  "PANEL 6 (the LEFT-HAND panel of that same two-panel row, immediately LEFT of PANEL 5): the "
+  "struck figure bursts into a flat opaque smoke cloud against the wall.\n"
+  "PANEL 7 (wide reveal running the FULL WIDTH of the page across the very BOTTOM, BELOW that "
+  "two-panel row — nothing sits to its left or right): the archer has turned fully SOUTH toward "
+  "the smoke, "
   "his back exposed to the north. The real teen is NOT in that sightline — he is pressed against "
   "the NORTH face of the eastern pillar, hidden from him. The grey-blue-haired youth lies still "
   "and blackened at exact west-of-centre. The orange-crested boy and the red-haired girl have "
@@ -419,13 +505,20 @@ PAGES = [
         (2, KIDO, "upper right", "TAKE ONE MORE STEP."),
         (3, NAR, "upper right", "THEN WATCH HIM BURN."))
   + SFX(4, "TWANG—TWANG—TWANG", "Three separate marks, one at each bow release. ")
-  + SFX(6, "POOF", "Inside the smoke cloud. "),
+  + SFX(6, "POOF", "Inside the smoke cloud. ")
+  + "THIS PAGE HAS EXACTLY SEVEN PANELS — do not add an eighth, and do not draw an empty stone "
+    "corner as a panel of its own. THE CLONE IS HIT BEFORE IT BURSTS. The panel showing the arrow "
+    "ENTERING the figure at the south wall must sit to the RIGHT of the panel showing the smoke "
+    "cloud, so that reading right to left gives the strike first and the POOF second. The smoke "
+    "cloud is NEVER to the right of the arrow strike, and the wide bottom reveal is never to the "
+    "right of either — it runs the full width of the page below them both. ",
   R("naruto_v4_armor_sword", "env_oto_throne_hall"), "low"),
 
  # ---- Spread 6: two seals open -----------------------------------------------------
  ("p11", dict(scene="action", light="interior", cast="small_group", mood="violent", panels=6),
   FILL + RTL + N16_SWORD.format(i=1) + ENV.format(i=2)
-  + ONLY(NAR, SOUND4) + GEAR + ROOM + IMPACT + FLAT +
+  + ONLY(NAR, SOUND4) + GEAR + ROOM + IMPACT + FLAT 
+  + FOUR + DEATHS +
   "SIX panels. The reposition pays off and costs him a great deal of chakra.\n"
   "PANEL 1 (narrow strip across the top): rear reveal — the teen steps out from the NORTH face of "
   "the eastern pillar one pace behind the orange-crested boy at the north end of the file. He "
@@ -455,12 +548,28 @@ PAGES = [
         (5, NAR, "upper right", "SIGH OF THE YELLOW DRAGON."))
   + SFX(2, "KRA-KOOOM", "Running the whole length of the dragon's path. ")
   + SFX(3, "KRAK", "At the western pillar where the archer lands. ")
-  + SFX(6, "ZZZRAAAM", "Vertically through the discharge. "),
+  + SFX(6, "ZZZRAAAM", "Vertically through the discharge. ")
+  + "EXACTLY THREE SOUND GUARDS ARE ALIVE ON THIS PAGE AND THIS IS THE PAGE THAT PREVIOUSLY GOT "
+    "THEM WRONG. The north-to-south file that the lightning dragon passes through in PANEL 1 and "
+    "PANEL 2 contains exactly these three, in this order: JIRŌBŌ, the very large orange-crested "
+    "boy, at the NORTH end nearest the teen; TAYUYA, the slim GIRL with long dark-red hair under "
+    "the horned black cap, in the MIDDLE; and KIDŌMARU, the dark-brown-skinned archer with the "
+    "black topknot and SIX ARMS, at the SOUTH end. All three are drawn from behind with the "
+    "dragon striking their aligned backs, and the red-haired girl is clearly present and clearly "
+    "visible in BOTH panels — she does not vanish from the file and then reappear kneeling.\n"
+    "SAKON IS DEAD. He was burned by black flame on the previous page. On this page he appears "
+    "ONLY as a still, flat, blackened body lying on the floor at WEST-OF-CENTRE, far away from "
+    "the file and from every action. He is NEVER standing, NEVER in the file, NEVER struck by the "
+    "lightning, NEVER kicked, and NEVER drawn upright in any panel. No living figure anywhere on "
+    "this page has his pale skin, his light grey-blue hair or his green under-eye markings. There "
+    "are never more than three living guards in any panel; if a fourth upright guard appears, the "
+    "page is wrong. ",
   R("naruto_v4_armor_sword", "env_oto_throne_hall"), "medium"),
 
  ("p12", dict(scene="action", light="interior", cast="small_group", mood="tense", panels=6),
   FILL + RTL + N16_SWORD.format(i=1) + ORO.format(i=2) + KAB.format(i=3) + ENV.format(i=4)
-  + ONLY(NAR, PALEONE, SPEC, SOUND4) + GEAR + ROOM + IMPACT + FLAT +
+  + ONLY(NAR, PALEONE, SPEC, SOUND4) + GEAR + ROOM + IMPACT + FLAT 
+  + FOUR + DEATHS +
   "SIX panels. His prevention attempt fails for a reason the reader can see.\n"
   "PANEL 1 (top right): medium — the orange-crested boy digs both hands into the stone floor to "
   "stop his slide, east of the file; a dark curse pattern spreads from his neck across his face "
@@ -487,13 +596,28 @@ PAGES = [
         (5, JIRO, "upper right", "NOW TRY."),
         (6, NAR, "upper right", "THE SEALS BOUGHT POWER."),
         (6, NAR, "upper left", "NOT JUDGMENT."))
-  + SFX(4, "BRAK-KOOM", "At the pillar where the floor slab shatters, crossing the gutter. "),
+  + SFX(4, "BRAK-KOOM", "At the pillar where the floor slab shatters, crossing the gutter. ")
+  + "THE GUARD AT THE CRACKED WESTERN PILLAR IS KIDŌMARU AND NOBODY ELSE. In PANEL 2 and in PANEL "
+    "5 the figure pulling himself off that pillar and growing the golden forearm blade has DARK "
+    "BROWN SKIN, BLACK hair pulled into a high TOPKNOT, a spider-marked forehead protector, and "
+    "SIX ARMS — the ordinary pair plus two extra pairs along his sides, all six drawn. He is NOT "
+    "pale-skinned, NOT light-blue-haired, does NOT have hair falling over one eye, and NEVER has "
+    "only two arms. SAKON IS DEAD: he lies as a still blackened body at west-of-centre in the "
+    "background and is never the figure at the pillar and never upright anywhere on this page. "
+    "Exactly TWO living guards appear on this page — Kidōmaru at the western pillar and JIRŌBŌ, "
+    "the very large orange-crested boy, east of the file — plus Tayuya's heap of grey ash beside "
+    "the eastern pillar, which is ash and not a person.\n"
+    "Once the flat black curse-seal markings have spread over Kidōmaru and Jirōbō in PANELS 1, 2 "
+    "and 5, those blotched black markings stay on their faces, arms and torsos in EVERY remaining "
+    "panel of this page and on every later page either of them appears on. Their skin is never "
+    "clean again. ",
   R("naruto_v4_armor_sword", "orochimaru", "kabuto", "env_oto_throne_hall"), "low"),
 
  # ---- Spread 7: power without judgment ---------------------------------------------
  ("p13", dict(scene="action", light="interior", cast="small_group", mood="violent", panels=6),
   FILL + RTL + N16_SWORD.format(i=1) + ENV.format(i=2)
-  + ONLY(NAR, SOUND4) + GEAR + ROOM + IMPACT + FLAT +
+  + ONLY(NAR, SOUND4) + GEAR + ROOM + IMPACT + FLAT 
+  + FOUR + DEATHS +
   "SIX panels. The blade panels narrow; the last one is the biggest on the page.\n"
   "PANEL 1 (top right): the transformed archer charges east-south-east from the western pillar "
   "with the golden blade in his right hand; his downward cut forces the teen one pace SOUTH. The "
@@ -523,12 +647,21 @@ PAGES = [
   + SAY((4, KIDO, "upper right", "YOUR OFF HAND IS LATE."))
   + SFX(1, "KLANG", "At the blade clash. ")
   + SFX(6, "DOOM", "Large, at the forearms, overlapping both figures. ")
-  + SFX(6, "KRAK", "Secondary, smaller, at the wall behind his back. "),
+  + SFX(6, "KRAK", "Secondary, smaller, at the wall behind his back. ")
+  + "EXACTLY TWO SOUND GUARDS ARE ALIVE ON THIS PAGE: KIDŌMARU, the dark-brown-skinned archer "
+    "with the black topknot, the spider-marked forehead protector and SIX ARMS, and JIRŌBŌ, the "
+    "very large orange-crested boy. Sakon and Tayuya are dead and appear nowhere on this page, "
+    "not even in the background. BOTH survivors still carry the flat black CURSE-SEAL MARKINGS "
+    "that spread over them on the previous page: dark blotched patterns across the face, arms and "
+    "torso, clearly drawn in EVERY panel where their skin is visible, including the close-up of "
+    "the archer noticing the late off hand. Neither of them is ever drawn clean-skinned or "
+    "untransformed on this page. ",
   R("naruto_v4_armor_sword", "env_oto_throne_hall"), "low"),
 
  ("p14", dict(scene="action", light="interior", cast="two", mood="violent", panels=7),
   FILL + RTL + N16_SWORD.format(i=1) + MANGEKYO_EYE.format(i=2) + ENV.format(i=3)
-  + ONLY(NAR, SOUND4) + GEAR + ARM + EMS + ROOM + IMPACT + FLAT +
+  + ONLY(NAR, SOUND4) + GEAR + ARM + EMS + ROOM + IMPACT + FLAT 
+  + FOUR + DEATHS +
   "SEVEN panels. Close range becomes eye contact, and the body becomes cover.\n"
   "PANEL 1 (tall panel down the right edge): the teen is still set into the EAST wall. The "
   "transformed orange-crested boy steps around the fallen sword without touching it, closes to "
@@ -558,13 +691,23 @@ PAGES = [
         (5, NAR, "upper right", "FALSE DARKNESS."))
   + SFX(1, "KRAK", "At the wall beside his ear. ")
   + SFX(5, "TZAK", "At the fingertip contact point. ")
-  + SFX(7, "THK—THK—THK", "Three separate marks across the arrows. "),
+  + SFX(7, "THK—THK—THK", "Three separate marks across the arrows. ")
+  + "THE ARCHER IN PANEL 6 AND PANEL 7 IS KIDŌMARU. He stands at west-of-centre, forms the golden "
+    "bow and looses the fan of arrows due EAST, and he is a MALE youth with DARK BROWN SKIN, "
+    "BLACK hair pulled into a high TOPKNOT, a spider-marked forehead protector, SIX ARMS and the "
+    "black curse-seal markings from the previous pages. He is NEVER drawn as a girl, NEVER "
+    "red-haired, NEVER wearing a horned black cap, and never has only two arms. TAYUYA IS DEAD — "
+    "she was reduced to a heap of grey ash three pages ago — so no red-haired girl and no horned "
+    "cap appears anywhere on this page, in any panel, in the foreground or the background. Apart "
+    "from the blond teen and the slack body he is holding, Kidōmaru is the only living person on "
+    "this page. ",
   R("naruto_v4_armor_sword", "mangekyo_design", "env_oto_throne_hall"), "low"),
 
  # ---- Spread 8: the last guard -----------------------------------------------------
  ("p15", dict(scene="action", light="interior", cast="two", mood="violent", panels=6),
   FILL + RTL + N16_SWORD.format(i=1) + ENV.format(i=2)
-  + ONLY(NAR, SOUND4) + GEAR + ARM + ROOM + IMPACT + FLAT +
+  + ONLY(NAR, SOUND4) + GEAR + ARM + ROOM + IMPACT + FLAT 
+  + FOUR + DEATHS +
   "SIX panels. Distraction, rear reposition, and the second expensive finish.\n"
   "PANEL 1 (top right, diagonal): the teen throws the arrow-filled body WEST across the room "
   "toward the archer; it crosses the centre of the hall and blocks the archer's view of him.\n"
@@ -574,11 +717,15 @@ PAGES = [
   "PANEL 3 (middle right): the archer leans around the east side of the hanging body. The teen is "
   "NOT there. The dropped plain sword still lies untouched on the floor beside the east wall, "
   "proving he moved without it.\n"
-  "PANEL 4 (middle left): the teen stands two paces directly BEHIND the archer at west-of-centre "
-  "and extends his right index and middle fingers; a narrow flat lightning beam leaves the "
-  "fingertips and passes through the archer's right shoulder from back to front, stunning the bow "
-  "arm. No injury detail, no blood.\n"
-  "PANEL 5 (lower right): he closes the two paces before the archer can turn and plants his RIGHT "
+  "PANEL 4 (the LEFT-hand panel of the middle row, immediately LEFT of PANEL 3): BOTH FIGURES ARE "
+  "IN THIS PANEL. The archer stands at west-of-centre with his back to the reader, facing WEST "
+  "away from the camera; the teen stands two paces directly BEHIND him and extends his right "
+  "index and middle fingers. A narrow flat lightning beam leaves those fingertips, crosses the "
+  "two paces and passes through the archer's RIGHT SHOULDER from back to front, exiting the "
+  "front of it and stunning the bow arm. The teen is never alone in this panel and never points "
+  "at empty space; the archer is never absent from it.\n"
+  "PANEL 5 (the RIGHT-hand panel of the row BELOW that middle row, read after PANEL 4): he closes "
+  "the two paces before the archer can turn and plants his RIGHT "
   "palm flat on the sternum; his left arm stays lowered and is not used. Flat lightning begins "
   "converging through his body into that palm.\n"
   "PANEL 6 (dominant panel across the bottom): the point-blank discharge — the archer collapses "
@@ -588,7 +735,18 @@ PAGES = [
         (6, NAR, "upper right", "SIGH OF THE YELLOW DRAGON."))
   + SFX(2, "SPTCH", "Along the web rope. ")
   + SFX(4, "TZAK", "Where the beam exits the shoulder. ")
-  + SFX(6, "ZZZRAAAM", "Through the contact point, cropped by the panel edge. "),
+  + SFX(6, "ZZZRAAAM", "Through the contact point, cropped by the panel edge. ")
+  + "THE BEAM HAS A TARGET AND IT COMES BEFORE THE PALM. The lightning-beam panel must contain "
+    "KIDŌMARU — the dark-brown-skinned archer with the black topknot, the spider-marked forehead "
+    "protector and SIX ARMS — seen from behind at west-of-centre, with the beam entering the back "
+    "of his RIGHT SHOULDER and coming out of the front. The teen is never shown alone pointing "
+    "two fingers into empty air. That beam panel must be read BEFORE the panel where the teen's "
+    "right palm meets the sternum: it sits higher on the page and further right in its own row, "
+    "and the palm-contact panel sits in the row BELOW it. Once the shoulder has been pierced it "
+    "STAYS pierced — in the palm-contact panel and in the bottom panel the archer's right "
+    "shoulder and bow arm are visibly slack and hanging, never sound and never raised. He is the "
+    "last living guard on this page; Sakon, Tayuya and Jirōbō are all dead and none of them "
+    "stands, moves or acts anywhere on it. ",
   R("naruto_v4_armor_sword", "env_oto_throne_hall"), "medium"),
 
  ("p16", dict(scene="dialogue", light="interior", cast="small_group", mood="tense", panels=7),
@@ -597,7 +755,8 @@ PAGES = [
          "the four dead Sound guards, present ONLY as unmoving remains that never reset: a "
          "blackened body at west-of-centre, a heap of grey ash beside the eastern pillar, an "
          "arrow-filled body hanging in white web at west-of-centre, and charred remains beneath "
-         "it") + GEAR + ARM + ROOM + IMPACT +
+         "it") + GEAR + ARM + ROOM + IMPACT 
+  + FOUR + DEATHS +
   "SEVEN panels. The guards are gone; the unmoving fifth person becomes visible again.\n"
   "PANEL 1 (top right): close insert — the teen lifts the plain sash sword from its exact floor "
   "point beside the EAST wall with his right hand and slides it home at his LEFT hip. His left "
@@ -626,7 +785,25 @@ PAGES = [
         (6, NAR, "upper right", "YOU NEVER NOTICED."),
         (7, NAR, "upper right", "YOU ARE SEVERELY WEAKENED."),
         (7, NAR, "upper left", "YOU NEVER INTENDED TO HELP THEM."))
-  + SFX(5, "THUD", "Beside the shoulder where it meets the floor. "),
+  + SFX(5, "THUD", "Beside the shoulder where it meets the floor. ")
+  + "PANEL 2 IS THE MOST IMPORTANT PANEL ON THIS PAGE AND IT PREVIOUSLY CAME BACK EMPTY. It is "
+    "the one panel that carries the whole fight forward, so it must be FULL. Draw all of the "
+    "following at once, all clearly visible in the same wide shot of the hall seen from the "
+    "south, and do not leave any of them out:\n"
+    "  (a) SAKON'S blackened body lying flat and unmoved on the floor at WEST-OF-CENTRE;\n"
+    "  (b) TAYUYA'S heap of flat grey ASH on the floor beside the EASTERN pillar;\n"
+    "  (c) JIRŌBŌ'S slack body, stuck full of arrow shafts, HANGING off the floor in a white web "
+    "sling one pace east of west-of-centre;\n"
+    "  (d) KIDŌMARU'S flat charred black-grey remains on the floor beneath that hanging body;\n"
+    "  (e) the blond teen in red armour standing beside the EAST wall with his sword now sheathed "
+    "at his left hip;\n"
+    "  (f) the pale long-haired man STILL SEATED ON THE THRONE on the north dais — the throne is "
+    "OCCUPIED in this panel, never empty, because he does not stand up until two panels later;\n"
+    "  (g) the grey-haired medic in round glasses still standing frozen upright at the eastern "
+    "dais stair.\n"
+    "The WESTERN pillar is cracked, the EASTERN pillar is intact, the floor is broken, and nothing "
+    "has been cleaned away. An empty hall, an empty throne, a missing body or a missing ash heap "
+    "makes this panel fail. ",
   R("naruto_v4_armor_sword", "orochimaru", "kabuto", "env_oto_throne_hall"), "low"),
 
  # ---- Spread 9: the fight he never wanted ------------------------------------------
@@ -642,10 +819,13 @@ PAGES = [
   "origin in one shot — do not crop it away.\n"
   "PANEL 2 (top left): medium — the teen stands east of centre with his arms at his sides and does "
   "NOT draw his own sword.\n"
-  "PANEL 3 (middle right): the pale man charges south from the eastern stair at ordinary human "
-  "speed and swings the long sword diagonally across the teen's chest; the teen jumps one pace "
-  "south and the blade misses the armour. No text in this panel.\n"
-  "PANEL 4 (middle centre): the follow-up horizontal cut at the face; the teen ducks, and the pale "
+  "PANEL 3 (the RIGHT-HAND panel of the middle row, read before PANELS 4 and 5, which sit to its "
+  "LEFT in that order): LONG RANGE — the pale man charges south from the eastern stair at "
+  "ordinary human speed across three metres of open floor and swings the long sword diagonally "
+  "across the teen's chest; the teen jumps one pace south and the blade misses the armour. The "
+  "gap between the two men is wide and clearly readable. No text in this panel.\n"
+  "PANEL 4 (the MIDDLE panel of that same row, immediately LEFT of PANEL 3): CLOSE QUARTERS, "
+  "inside arm's length — the follow-up horizontal cut at the face; the teen ducks, and the pale "
   "man's left foot immediately kicks at the lowered head. The teen blocks that kick on his RIGHT "
   "forearm only, keeping the bruised left tucked in, and hops south-east.\n"
   "PANEL 5 (middle left): the pale man plants the long sword point-first in the floor beside his "
@@ -663,7 +843,18 @@ PAGES = [
         (5, PALEONE, "upper right", "WIND RELEASE: GREAT BREAKTHROUGH."),
         (7, OFF(PALEONE), "upper right", "YOU ARE NOT EVEN TRYING."),
         (7, NAR, "upper left", "THAT TOOK YOU TOO LONG."))
-  + SFX(4, "THK", "At the right-forearm block. "),
+  + SFX(4, "THK", "At the right-forearm block. ")
+  + "THE DUEL ESCALATES INWARD AND MUST NOT READ BACKWARDS. The panel showing the pale man's "
+    "OPENING LUNGE from three metres of open floor sits to the RIGHT of the panel showing the "
+    "close-quarters cut, the ducked head and the \"THK\" forearm block. Reading right to left the "
+    "reader gets the long-range charge FIRST and the close-quarters block SECOND; the \"THK\" "
+    "panel is never to the right of the lunge panel.\n"
+    "PANEL 7 CONTAINS ONLY THE BLOND TEEN — the pale man is not drawn in it at all — and it "
+    "carries TWO balloons that must not read as one speaker. \"YOU ARE NOT EVEN TRYING.\" is the "
+    "pale man's OFF-PANEL line: give it a short straight spur tail that runs to the nearest panel "
+    "border and STOPS there, pointing out of the panel, clear of the teen's face and body. It is "
+    "never tail-less and never aimed at the teen. \"THAT TOOK YOU TOO LONG.\" is the teen's line "
+    "and carries an ordinary tail reaching his mouth. Both balloons must have a visible tail. ",
   R("naruto_v4_armor_sword", "orochimaru", "env_oto_throne_hall"), "low"),
 
  ("p18", dict(scene="action", light="interior", cast="two", mood="violent", panels=7),
@@ -699,7 +890,18 @@ PAGES = [
         (6, NAR, "upper right", "POISON?"),
         (7, PALEONE, "upper right", "MADE AFTER OUR LAST MEETING."),
         (7, PALEONE, "upper left", "THIS ONE HAS NO ANTIDOTE—EXCEPT ME."))
-  + SFX(4, "HSSSS", "Inside the aerosol cone. "),
+  + SFX(4, "HSSSS", "Inside the aerosol cone. ")
+  + "THE POISON COMES OUT OF HIS MOUTH AND OUT OF NOTHING ELSE. In the panel where the purple "
+    "aerosol is emitted, and in the contact panel that follows it, the pale man's MOUTH IS OPEN "
+    "and his cupped LEFT HAND is raised beside that open mouth. The flat opaque purple cone "
+    "BEGINS AT HIS LIPS and widens away from his face. NOTHING purple leaves either of his hands: "
+    "his right arm is not outstretched toward the teen, no stream, mist or spray issues from any "
+    "palm or fingertip, and his mouth is never closed while the poison is in the air.\n"
+    "The balloon \"POISON?\" belongs to the BLOND TEEN, who crouches at the FAR LEFT of his "
+    "panel. Draw a LONG tail that travels all the way across the panel to HIS mouth at "
+    "panel-left, passing clear of the pale man. The tail must never end on the pale man's head, "
+    "face or body at panel-right, and never stop short at whichever figure is nearer the "
+    "balloon. ",
   R("naruto_v4_armor_sword", "orochimaru", "mangekyo_design", "env_oto_throne_hall"), "medium"),
 
  # ---- Spread 10: the body is the objective -----------------------------------------
@@ -750,10 +952,11 @@ PAGES = [
   "endless black-and-red plane; the white coils ring him at a distance.\n"
   "PANEL 3 (small, upper left of the lower band): the coils fill the whole background as though "
   "they own every horizon; the teen is small at the lower right, not struggling.\n"
-  "PANEL 4 (middle of the lower band): medium — the teen looks up and along the coils rather than "
-  "at the face, hands at his sides.\n"
-  "PANEL 5 (lower right): the pale snake-face leans in close from the left, huge against the teen "
-  "at the right edge.\n"
+  "PANEL 4 (the RIGHT-HAND panel of the next row down — PANEL 5 is its only neighbour and sits "
+  "directly to its LEFT): medium — the teen looks up and along the coils rather than at the face, "
+  "hands at his sides. Both of his balloons sit inside THIS panel.\n"
+  "PANEL 5 (the LEFT-HAND panel of that same row, immediately LEFT of PANEL 4, read after it): "
+  "the pale snake-face leans in close from the left, huge against the teen at the right edge.\n"
   "PANEL 6 (dominant bottom panel): false-victory close-up — the pale snake-face smiles, and the "
   "teen is reflected small and upright in its pupil. " + L_VOID
   + CAP(1, "upper right", "WHAT OROCHIMARU PERCEIVES")
@@ -763,7 +966,15 @@ PAGES = [
         (4, NARP, "upper right", "THE GUARDS BOUGHT YOUR ATTENTION."),
         (4, NARP, "upper left", "THE POISON BOUGHT YOUR OPENING."),
         (5, PFACE, "upper right", "AND FREED KURAMA BOUGHT ME YOUR BODY."),
-        (6, PFACE, "upper right", "YOU ARE MINE, NARUTO-KUN.")),
+        (6, PFACE, "upper right", "YOU ARE MINE, NARUTO-KUN."))
+  + "THE LIST MUST BE SPOKEN BEFORE THE LINE THAT CONTINUES IT. The panel carrying \"THE GUARDS "
+    "BOUGHT YOUR ATTENTION.\" and \"THE POISON BOUGHT YOUR OPENING.\" sits to the RIGHT of the "
+    "panel carrying \"AND FREED KURAMA BOUGHT ME YOUR BODY.\", so that reading right to left "
+    "delivers the teen's two lines first and the snake-face's answer second. The line beginning "
+    "with the word AND completes a list that has not been spoken yet if it is read first, so its "
+    "panel is NEVER to the right of, and never level with and rightward of, the teen's panel. "
+    "Within the teen's own panel, \"THE GUARDS BOUGHT YOUR ATTENTION.\" sits further RIGHT than "
+    "\"THE POISON BOUGHT YOUR OPENING.\" ",
   R("naruto_v4_armor_sword", "orochimaru", "giant_snake"), "medium"),
 
  # ---- Spread 11: before my eyes ----------------------------------------------------
@@ -816,10 +1027,12 @@ PAGES = [
   "PANEL 2 (top left): he crouches under the travelling neck and swings the wind-sharpened blade "
   "horizontally from EAST to WEST; the edge cuts only the forward cluster of the small white "
   "snakes that make up the body. Cut shapes are flat and clean — no injury detail, no blood.\n"
-  "PANEL 3 (middle right): the severed white snakes release a flat pale gas from their cut ends; "
+  "PANEL 3 (the RIGHT-HAND panel of the middle row — PANEL 4 is its only neighbour and sits "
+  "directly to its LEFT): the severed white snakes release a flat pale gas from their cut ends; "
   "the teen sees it and pushes off SOUTH before breathing any of it. The gas does not touch him "
   "and does not remove the purple poison already inside him.\n"
-  "PANEL 4 (middle left): the white form's tail sweeps west to east UNDER the gas and catches his "
+  "PANEL 4 (the LEFT-HAND panel of that same row, immediately LEFT of PANEL 3 and read after it): "
+  "the white form's tail sweeps west to east UNDER the gas and catches his "
   "left side, because the bruised left forearm cannot set a full guard. He is thrown five paces "
   "EAST; the sword stays in his right hand. Flat impact shapes only.\n"
   "PANEL 5 (lower right): he twists once and lands on both feet at east-of-centre, sliding. The "
@@ -835,7 +1048,12 @@ PAGES = [
         (7, NAR, "upper right", "YOU WILL NOT DO IT TWICE."))
   + SFX(2, "SHRAK", "Along the sword edge. ")
   + SFX(4, "THOOM", "At the rib-and-armour contact. ")
-  + SFX(7, "FSSSH", "Inside the black flame shapes. "),
+  + SFX(7, "FSSSH", "Inside the black flame shapes. ")
+  + "THE GAS IS RELEASED BEFORE THE TAIL LANDS. The panel showing the severed white snakes venting "
+    "pale gas — with the teen still unhurt and pushing off south, dodging — sits to the RIGHT of "
+    "the panel showing the tail sweep, the \"THOOM\" impact and the teen thrown east. The impact "
+    "panel is NEVER to the right of the gas panel: he must be seen dodging the gas before the "
+    "tail catches him, or the whole beat reads backwards. ",
   R("naruto_v4_armor_sword", "giant_snake", "mangekyo_design", "env_oto_throne_hall"), "low"),
 
  # ---- Spread 12: nothing left to shed ----------------------------------------------
@@ -858,10 +1076,13 @@ PAGES = [
   "PANEL 4 (dominant panel, middle left and running most of the width): a SECOND lightning dragon "
   "leaves the joined palms and strikes the full length of the body. All movement and all hissing "
   "stop here. Flat lightning shapes, no injury detail.\n"
-  "PANEL 5 (lower right): he forms fire seals, inhales and emits a great fireball from his MOUTH, "
-  "travelling north-west into the electrically locked remains at north-centre. The fireball is a "
-  "flat opaque shape with a hard outline and does not wash out the hall.\n"
-  "PANEL 6 (lower centre): after the ordinary fire passes he redraws the plain sword, runs flat "
+  "PANEL 5 (the RIGHT-HAND panel of a row of EXACTLY TWO panels — PANEL 6 is its only neighbour "
+  "and sits directly to its LEFT): he forms fire seals, inhales and emits a great fireball from "
+  "his MOUTH, travelling north-west into the electrically locked remains at north-centre. The "
+  "white body is still WHOLE and coiled in this panel. The fireball is a flat opaque shape with a "
+  "hard outline and does not wash out the hall.\n"
+  "PANEL 6 (the LEFT-HAND panel of that same two-panel row, immediately LEFT of PANEL 5 and read "
+  "after it): after the ordinary fire passes he redraws the plain sword, runs flat "
   "wind wedges from palm through hilt to edge, and cuts the cooked white mass into separated "
   "sections in ONE continuous motion sequence with ghosted phases — never duplicate figures, never "
   "any injury detail.\n"
@@ -878,7 +1099,14 @@ PAGES = [
         (5, NAR, "upper right", "FIRE RELEASE: GREAT FIREBALL."))
   + SFX(2, "KRA-KOOOM", "At the torso contact point. ")
   + SFX(4, "KRA-KOOOM", "Running down the length of the body. ")
-  + SFX(5, "WHOOF", "Inside the fireball. "),
+  + SFX(5, "WHOOF", "Inside the fireball. ")
+  + "THE BODY IS BURNED WHOLE, THEN CUT, AND IT NEVER REASSEMBLES. The panel containing the great "
+    "fireball — where the white mass is still WHOLE and coiled — sits to the RIGHT of the panel "
+    "containing the sword cutting it into separated sections. Reading right to left the reader "
+    "gets: whole body burned, then body cut apart, then the bottom band of separated sections "
+    "burning black. The cutting panel is NEVER to the right of the fireball panel, and the white "
+    "body must NEVER appear whole or coiled again in any panel that is read after it has been "
+    "cut. This page has EXACTLY SEVEN panels; do not add an eighth. ",
   R("naruto_v4_armor_sword", "giant_snake", "kabuto", "mangekyo_design",
     "env_oto_throne_hall"), "medium"),
 
@@ -900,14 +1128,20 @@ PAGES = [
   "PANEL 4 (middle centre): medium — the teen stands and lifts the long thin sword by its hilt "
   "from the north-west edge of the dais. He keeps his own plain sash sword sheathed at his left "
   "hip; the two weapons are clearly different objects.\n"
-  "PANEL 5 (middle left): he throws the long thin sword hilt-first to the creature, which catches "
-  "it in one hand while the other keeps the wrapped mask against its shoulder.\n"
-  "PANEL 6 (narrow strip): rear two-shot — the two of them walk SOUTH away from the reader down "
-  "the entrance corridor. Behind them the hall is structurally whole: the bodies, the ash, the "
-  "cracked western pillar, the fallen medic and the shelves of valuables are all still there. No "
-  "text in this panel.\n"
-  "PANEL 7 (lower right): outside now — the creature turns its head back toward the intact sealed "
-  "cliff entrance, which has not collapsed.\n"
+  "PANEL 5 (the LEFT-HAND panel of the middle row, at the end of the row that begins with PANELS "
+  "3 and 4 — nothing on this page sits to its RIGHT except those two panels of its own row): he "
+  "throws the long thin sword hilt-first to the creature, which catches it in one hand while the "
+  "other keeps the wrapped mask against its shoulder.\n"
+  "PANEL 6 (a narrow strip running the FULL WIDTH of the page, BELOW the whole middle row — "
+  "nothing sits to its left or to its right): rear two-shot — the two of them walk SOUTH away "
+  "from the reader down the entrance corridor. The dark purple GUNBAI is strapped flat across the "
+  "blond teen's back and fills most of it; his back is never bare. The creature already carries "
+  "the wrapped mask and the long thin sword it was given in PANEL 5. Behind them the hall is "
+  "structurally whole: the bodies, the ash, the cracked western pillar, the fallen medic and the "
+  "shelves of valuables are all still there. No text in this panel.\n"
+  "PANEL 7 (a panel BELOW the full-width strip of PANEL 6, at the right of its own row): outside "
+  "now — the creature turns its head back toward the intact sealed cliff entrance, which has not "
+  "collapsed.\n"
   "PANEL 8 (dominant panel across the bottom): wide exterior — the teen walks LEFT TO RIGHT into "
   "flat Earth Country daylight with the gunbai on his back and the plain sword at his hip, his "
   "left forearm held close and the skin around his active eye tight; the creature follows with the "
@@ -921,7 +1155,22 @@ PAGES = [
         (4, NAR, "upper right", "LEAVE HIM."),
         (5, NAR, "upper right", "KEEP THIS SAFE WITH THE MASK."),
         (7, ZWHITE, "upper right", "YOU ARE LEAVING THE HIDEOUT?"),
-        (8, NAR, "upper right", "IT STILL HAS VALUE.")),
+        (8, NAR, "upper right", "IT STILL HAS VALUE."))
+  + "THE PANEL 1 BALLOON READS EXACTLY \"DID I MISS ANYTHING?\" — MISS is spelled M-I-S-S, with "
+    "EXACTLY TWO letter S at the end of the word, never three and never MISSS. Letter every "
+    "balloon on this page once, spelled in full, with no doubled, ghosted or overprinted text and "
+    "no repeated letters inside a word.\n"
+    "THE SWORD IS HANDED OVER BEFORE THE DEPARTURE PANELS. The panel where the blond teen throws "
+    "the long thin sword to the plant creature is read BEFORE the corridor strip and before the "
+    "cliff-door panel: it sits in the MIDDLE row, and both the corridor strip and the cliff-door "
+    "panel sit in rows BELOW it. The creature is therefore already carrying that sword the first "
+    "time it is seen with one, and \"YOU ARE LEAVING THE HIDEOUT?\" is never read before the "
+    "handoff.\n"
+    "THE GUNBAI NEVER LEAVES HIS BACK. In EVERY panel of this page where the blond teen's back is "
+    "visible — the corridor rear two-shot above all, and the wide exterior at the bottom — the "
+    "large dark purple GUNBAI with its chain is strapped flat across that back and clearly drawn. "
+    "His back is never bare, and the gunbai is never absent, never dropped, never carried by the "
+    "creature and never replaced by the sword. ",
   R("naruto_v4_armor_sword", "zetsu", "kabuto", "env_oto_throne_hall",
     "env_oto_hidden_base"), "low"),
 ]

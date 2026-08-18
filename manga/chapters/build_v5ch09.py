@@ -246,6 +246,10 @@ PAGES = [
     "its upper left; it is the red-haired girl's, its tail runs down-right toward her mouth just "
     "outside the crop, and it must never be lettered inside PANEL 4, which holds the blond teen "
     "alone and in which she does not speak. "
+    "THIS PAGE HAS EXACTLY SIX PANELS. PANEL 6 is the single bottom panel and it is the ONLY "
+    "place \"THEN TELL ME.\" appears: those three words are lettered ONCE on the whole page. Do "
+    "NOT add a seventh panel above it repeating that balloon, and do not letter the same line in "
+    "two frames. "
     "BOTH balloons in PANEL 6 are the blond teen's: he stands at the reader-LEFT, she has stopped "
     "at the reader-RIGHT, and each of his tails travels across the gap to HIS mouth. Neither tail "
     "may stop at, touch or aim at the red-haired girl, however much closer to her the balloon "
@@ -706,6 +710,11 @@ PAGES = [
         (6, SAS16, "upper right", "I THOUGHT THAT WAS KEPT AT NAKA SHRINE."),
         (7, BOY16, "upper right", "THE SHRINE HOLDS THE WHOLE TRUTH."),
         (7, BOY16, "upper left", "THESE HOLD ENOUGH TO BE DANGEROUS."))
+  + "SECOND TIER ORDER: PANEL 3, the wide two-shot across the aisle, occupies the RIGHT-HAND "
+    "two-thirds of that tier and PANEL 4, the medium on the dark-haired teen, is the narrow panel "
+    "at its LEFT. So \"DANZŌ HAD ALREADY COPIED SOME.\" / \"THE ADVISERS HELD THE ORIGINALS.\" is "
+    "read BEFORE \"WHAT WAS WORTH COPYING?\", and the three-object shelf panel below then answers "
+    "that question immediately. Never place PANEL 4 to the right of PANEL 3. "
   + "THE NAME DANZŌ APPEARS TWICE ON THIS PAGE AND MUST BE LETTERED IDENTICALLY BOTH TIMES: "
     "D-A-N-Z-O with a single straight horizontal bar above the final O. The PANEL 2 balloon reads "
     "exactly \"AND DANZŌ?\" and the PANEL 3 balloon reads exactly \"DANZŌ HAD ALREADY COPIED "

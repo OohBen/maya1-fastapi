@@ -107,7 +107,11 @@ PAGES = [
         (3, BOY16, "upper left", "THE COMPOUND IS NOT PRIVATE ENOUGH YET."),
         (4, SAS16, "upper right", "YOU GAVE HER YOUR HOUSE?"),
         (5, BOY16, "upper right", "I WASN'T USING IT."))
-  + TAILS + "PANELS 2 and 3 occupy the ENTIRE middle row \u2014 PANEL 2 at reader-RIGHT, PANEL 3 at reader-LEFT \u2014 and PANEL 4 sits in the BOTTOM row at reader-RIGHT, wholly below both of them. No part of PANEL 4 may sit in the middle row or above PANEL 3, so the dark-haired teen's \"YOU GAVE HER YOUR HOUSE?\" is read AFTER the blond teen has said \"KARIN'S HOUSE.\", never before it. ",
+  + TAILS + "PANELS 2 and 3 occupy the ENTIRE middle row — PANEL 2 at reader-RIGHT, PANEL 3 at "
+    "reader-LEFT — and PANEL 4 sits in the BOTTOM row at reader-RIGHT, wholly below both of them. "
+    "No part of PANEL 4 may sit in the middle row or above PANEL 3, so the dark-haired teen's "
+    "\"YOU GAVE HER YOUR HOUSE?\" is read AFTER the blond teen has said \"KARIN'S HOUSE.\", never "
+    "before it.",
   R("naruto_v4_armor", "sasuke_16", "env_uchiha_compound"), "high"),
 
  ("p02", dict(scene="dialogue", light="day", cast="small_group", mood="tense", panels=5),
@@ -139,7 +143,13 @@ PAGES = [
         (4, BOY16, "lower right", "NO. I DECIDED IT CAREFULLY."),
         (5, SAS16, "upper right", "KAKASHI SAID ANBU COULDN'T ENTER THIS HOUSE."),
         (5, BOY16, "lower left", "JIRAIYA DID ONCE. I CORRECTED THE ERROR."))
-  + TAILS + "In PANEL 5 BOTH teens are drawn: the dark-haired teen at frame LEFT with his mouth visible as he tracks the seal lines, and the blond teen in three-quarter profile at frame RIGHT. \"KAKASHI SAID ANBU COULDN'T ENTER THIS HOUSE.\" is the DARK-HAIRED teen's line \u2014 place the balloon at the upper right as stated but draw a long tail travelling down-LEFT across the panel to HIS mouth, never stopping at the blond teen. In PANEL 4 \"NO. I DECIDED IT CAREFULLY.\" belongs to the BLOND TEEN standing at the back centre; its tail runs to HIS mouth and never up-right to the dark-haired teen in the foreground. ",
+  + TAILS + "In PANEL 5 BOTH teens are drawn: the dark-haired teen at frame LEFT with his mouth visible "
+    "as he tracks the seal lines, and the blond teen in three-quarter profile at frame RIGHT. "
+    "\"KAKASHI SAID ANBU COULDN'T ENTER THIS HOUSE.\" is the DARK-HAIRED teen's line — place the "
+    "balloon at the upper right as stated but draw a long tail travelling down-LEFT across the "
+    "panel to HIS mouth, never stopping at the blond teen. In PANEL 4 \"NO. I DECIDED IT "
+    "CAREFULLY.\" belongs to the BLOND TEEN standing at the back centre; its tail runs to HIS "
+    "mouth and never up-right to the dark-haired teen in the foreground.",
   R("naruto_v4_armor", "sasuke_16", "karin", "env_shinobi_apartment"), "medium"),
 
  # ---- Spread 2: what belongs to them -----------------------------------------------
@@ -170,7 +180,11 @@ PAGES = [
         (6, BOY16, "upper right", "CLAN HISTORY. SHARINGAN RESEARCH. A FEW FORBIDDEN TECHNIQUES."),
         (6, SAS16, "centre left", "THE NAKA SHRINE HOLDS THE DANGEROUS SECRETS."),
         (6, BOY16, "lower left", "THAT DOESN'T MAKE THESE THEIRS."))
-  + TAILS + "In PANEL 6 the three balloons run in strict right-to-left, top-to-bottom order: \"CLAN HISTORY. SHARINGAN RESEARCH. A FEW FORBIDDEN TECHNIQUES.\" is the RIGHTMOST and highest, \"THE NAKA SHRINE HOLDS THE DANGEROUS SECRETS.\" sits BELOW AND LEFT of it, and \"THAT DOESN'T MAKE THESE THEIRS.\" sits below and left again. The shrine line must never sit to the right of, or level with, the list it answers. ",
+  + TAILS + "In PANEL 6 the three balloons run in strict right-to-left, top-to-bottom order: \"CLAN "
+    "HISTORY. SHARINGAN RESEARCH. A FEW FORBIDDEN TECHNIQUES.\" is the RIGHTMOST and highest, "
+    "\"THE NAKA SHRINE HOLDS THE DANGEROUS SECRETS.\" sits BELOW AND LEFT of it, and \"THAT "
+    "DOESN'T MAKE THESE THEIRS.\" sits below and left again. The shrine line must never sit to "
+    "the right of, or level with, the list it answers.",
   R("naruto_v4_armor", "sasuke_16", "karin", "env_shinobi_apartment"), "low"),
 
  ("p04", dict(scene="dialogue", light="day", cast="small_group", mood="tense", panels=7),
@@ -201,7 +215,12 @@ PAGES = [
         (6, BOY16, "upper left", "WHAT BELONGS TO THE CLAN COMES BACK—LAWFULLY OR OTHERWISE."),
         (7, KAR, "upper right", "AND AFTER THE SCROLLS?"),
         (7, SAS16, "upper left", "WE RESTORE THE CLAN."))
-  + TAILS + "In PANEL 7 the balloon \"AND AFTER THE SCROLLS?\" is the RIGHTMOST balloon and \"WE RESTORE THE CLAN.\" sits to its LEFT, so the red-haired girl's question is read before the dark-haired teen's answer. In PANEL 6 the second balloon reads exactly \"WHAT BELONGS TO THE CLAN COMES BACK \u2014 LAWFULLY OR OTHERWISE.\" with ONE single long dash between BACK and LAWFULLY: never a run of two or three hyphens, never \"BACK---LAWFULLY\", and never a hyphen breaking a word across lines. ",
+  + TAILS + "In PANEL 7 the balloon \"AND AFTER THE SCROLLS?\" is the RIGHTMOST balloon and \"WE RESTORE "
+    "THE CLAN.\" sits to its LEFT, so the red-haired girl's question is read before the "
+    "dark-haired teen's answer. In PANEL 6 the second balloon reads exactly \"WHAT BELONGS TO THE "
+    "CLAN COMES BACK — LAWFULLY OR OTHERWISE.\" with ONE single long dash between BACK and "
+    "LAWFULLY: never a run of two or three hyphens, never \"BACK---LAWFULLY\", and never a hyphen "
+    "breaking a word across lines.",
   R("naruto_v4_armor", "sasuke_16", "karin", "env_shinobi_apartment"), "low"),
 
  # ---- Spread 3: recent history -----------------------------------------------------
@@ -230,7 +249,13 @@ PAGES = [
         (5, KAR, "upper right", "THEN DON'T TALK ABOUT A FAMILY LIKE A RECRUITMENT QUOTA."),
         (6, KAR, "upper right", "IF YOU REBUILD IT, DO IT WITH SOMEONE YOU LOVE."),
         (6, KAR, "upper left", "ALTHOUGH HE MAY NOT UNDERSTAND THE DISTINCTION."))
-  + TAILS + "In PANEL 5 the balloon \"THEN DON'T TALK ABOUT A FAMILY LIKE A RECRUITMENT QUOTA.\" belongs to the RED-HAIRED GIRL in the foreground at frame left; it carries a clearly drawn tail running down to HER mouth and is never tail-less and never rests against the dark-haired teen's head. In PANEL 4 the dark-haired teen is NOT drawn anywhere, so \"I DIDN'T SAY THAT.\" is an off-panel balloon whose short spur runs to the LOWER-LEFT panel border and stops on the border line itself, touching no part of the red-haired girl \u2014 not her sleeve, her hand, nor her hair. ",
+  + TAILS + "In PANEL 5 the balloon \"THEN DON'T TALK ABOUT A FAMILY LIKE A RECRUITMENT QUOTA.\" belongs "
+    "to the RED-HAIRED GIRL in the foreground at frame left; it carries a clearly drawn tail "
+    "running down to HER mouth and is never tail-less and never rests against the dark-haired "
+    "teen's head. In PANEL 4 the dark-haired teen is NOT drawn anywhere, so \"I DIDN'T SAY "
+    "THAT.\" is an off-panel balloon whose short spur runs to the LOWER-LEFT panel border and "
+    "stops on the border line itself, touching no part of the red-haired girl — not her sleeve, "
+    "her hand, nor her hair.",
   R("naruto_v4_armor", "sasuke_16", "karin", "env_shinobi_apartment"), "low"),
 
  ("p06", dict(scene="emotional_closeup", light="day", cast="small_group", mood="calm", panels=8),
@@ -262,7 +287,12 @@ PAGES = [
         (7, BOY16, "upper right", "WE WERE CIVIL IN KIRI."),
         (7, SAS16, "upper left", "A FEW WEEKS AGO. BEFORE THAT, WE HATED EACH OTHER."),
         (8, KAR, "upper right", "YOU DON'T ACT LIKE IT."))
-  + TAILS + "PANELS 1 and 2 form the TOP row, PANEL 3 is a full-width band beneath them, PANELS 4 and 5 form the MIDDLE row with 4 at reader-RIGHT and 5 at reader-LEFT, and PANELS 6, 7 and 8 form the BOTTOM row with 6 at reader-RIGHT, 7 in the centre and 8 at reader-LEFT. PANEL 6 sits wholly BELOW panel 5, never beside it, so \"WE AREN'T.\" is read after \"HOW LONG HAVE YOU TWO BEEN FRIENDS?\" In PANEL 7 \"WE WERE CIVIL IN KIRI.\" is the RIGHTMOST balloon and \"A FEW WEEKS AGO. BEFORE THAT, WE HATED EACH OTHER.\" sits to its LEFT. ",
+  + TAILS + "PANELS 1 and 2 form the TOP row, PANEL 3 is a full-width band beneath them, PANELS 4 and 5 "
+    "form the MIDDLE row with 4 at reader-RIGHT and 5 at reader-LEFT, and PANELS 6, 7 and 8 form "
+    "the BOTTOM row with 6 at reader-RIGHT, 7 in the centre and 8 at reader-LEFT. PANEL 6 sits "
+    "wholly BELOW panel 5, never beside it, so \"WE AREN'T.\" is read after \"HOW LONG HAVE YOU "
+    "TWO BEEN FRIENDS?\" In PANEL 7 \"WE WERE CIVIL IN KIRI.\" is the RIGHTMOST balloon and \"A "
+    "FEW WEEKS AGO. BEFORE THAT, WE HATED EACH OTHER.\" sits to its LEFT.",
   R("naruto_v4_armor", "sasuke_16", "karin", "env_shinobi_apartment"), "medium"),
 
  # ---- Spread 4: seat and shield ----------------------------------------------------
@@ -320,7 +350,10 @@ PAGES = [
         (6, BOY16, "upper right", "BUT TWO UCHIHA AREN'T A FORCE."),
         (6, SAS16, "upper left", "WE ASK TSUNADE FOR RECRUITS."),
         (7, SAS16, "upper right", "THEN WE TRAIN THEM."))
-  + TAILS + "In PANEL 1 the balloon \"THE UCHIHA FOUNDED THE POLICE FORCE. IT DIED WITH THE CLAN.\" belongs to the DARK-HAIRED teen sitting at frame LEFT. Draw a long tail that crosses the panel to HIS mouth and never a stub stopping at the blond teen at frame right, who says nothing at all in this panel. ",
+  + TAILS + "In PANEL 1 the balloon \"THE UCHIHA FOUNDED THE POLICE FORCE. IT DIED WITH THE CLAN.\" "
+    "belongs to the DARK-HAIRED teen sitting at frame LEFT. Draw a long tail that crosses the "
+    "panel to HIS mouth and never a stub stopping at the blond teen at frame right, who says "
+    "nothing at all in this panel.",
   R("naruto_v4_armor", "sasuke_16", "karin", "env_shinobi_apartment"), "low"),
 
  # ---- Spread 5: protection is not presence -----------------------------------------
@@ -386,7 +419,12 @@ PAGES = [
         (7, SAS16, "upper right", "A DATE?"),
         (7, BOY16, "upper left", "PERHAPS."))
   + SFX(1, "KNOCK", "Small, at the lower left beside her knuckles; it must not cover her face.")
-  + TAILS + "In PANEL 6 the two balloons must not exchange speakers: \"YES.\" is the BLOND TEEN's and its tail ends at his mouth, and \"PLEASE DON'T WEAR THE ARMOUR.\" is the PURPLE-HAIRED KUNOICHI's and its tail ends at hers. PANEL 4 closes the MIDDLE row at reader-LEFT and PANEL 5 opens the BOTTOM row at reader-RIGHT, wholly below it, so the blond teen's \"IT'S GOOD TO SEE YOU WELL.\" is read before her \"DINNER. TOMORROW NIGHT?\" In PANEL 7 \"A DATE?\" is the RIGHTMOST balloon and \"PERHAPS.\" sits to its LEFT. ",
+  + TAILS + "In PANEL 6 the two balloons must not exchange speakers: \"YES.\" is the BLOND TEEN's and its "
+    "tail ends at his mouth, and \"PLEASE DON'T WEAR THE ARMOUR.\" is the PURPLE-HAIRED "
+    "KUNOICHI's and its tail ends at hers. PANEL 4 closes the MIDDLE row at reader-LEFT and PANEL "
+    "5 opens the BOTTOM row at reader-RIGHT, wholly below it, so the blond teen's \"IT'S GOOD TO "
+    "SEE YOU WELL.\" is read before her \"DINNER. TOMORROW NIGHT?\" In PANEL 7 \"A DATE?\" is the "
+    "RIGHTMOST balloon and \"PERHAPS.\" sits to its LEFT.",
   R("naruto_v4_armor", "sasuke_16", "yugao_v4", "env_uchiha_compound"), "low"),
 
  # ---- Spread 6: the response -------------------------------------------------------
@@ -420,7 +458,13 @@ PAGES = [
         (6, HAWK, "upper right", "USEFUL ENOUGH FOR HIM TO BRING INTO KONOHA."),
         (6, OFF(HOM), "upper centre", "HE WON'T LET US QUESTION HER."),
         (6, HAWK, "upper left", "AND FORCE WOULD WASTE ROOT LIVES."))
-  + TAILS + "PANEL 4 (the male adviser, \"WITH A RED-HAIRED WOMAN.\") opens the BOTTOM row at reader-RIGHT and PANEL 5 sits to its LEFT in that same row, so \"WITH A RED-HAIRED WOMAN.\" is read before \"SHE WORKED UNDER OROCHIMARU.\" and \"THEN SHE'S USEFUL.\" In PANEL 6 the male adviser is one of the two BACKS filling the lower corners with no mouth in frame, so \"HE WON'T LET US QUESTION HER.\" is an off-panel balloon whose spur runs DOWN-LEFT to the LOWER-LEFT panel border and stops on the border line; it must never run down onto, touch or aim at the bandaged old man, who is the elevated central figure. ",
+  + TAILS + "PANEL 4 (the male adviser, \"WITH A RED-HAIRED WOMAN.\") opens the BOTTOM row at "
+    "reader-RIGHT and PANEL 5 sits to its LEFT in that same row, so \"WITH A RED-HAIRED WOMAN.\" "
+    "is read before \"SHE WORKED UNDER OROCHIMARU.\" and \"THEN SHE'S USEFUL.\" In PANEL 6 the "
+    "male adviser is one of the two BACKS filling the lower corners with no mouth in frame, so "
+    "\"HE WON'T LET US QUESTION HER.\" is an off-panel balloon whose spur runs DOWN-LEFT to the "
+    "LOWER-LEFT panel border and stops on the border line; it must never run down onto, touch or "
+    "aim at the bandaged old man, who is the elevated central figure.",
   R("danzo", "koharu", "homura"), "low"),
 
  ("p12", dict(scene="dialogue", light="dark", cast="small_group", mood="tense", panels=7),
@@ -451,7 +495,11 @@ PAGES = [
         (6, HAWK, "upper right", "HE HAS MADE HIMSELF UNMANAGEABLE."),
         (6, OFF(KOH), "lower left", "THEN WHAT DO WE DO?"),
         (7, OFF(HAWK), "upper right", "I'VE ALREADY PREPARED A RESPONSE."))
-  + TAILS + "LETTERING IS CRITICAL ON THIS PAGE: each balloon contains its words and NOTHING else. There is no extra line beneath the text, no stray dash, hyphen, underscore, dot, tick or mark of any kind inside or below any balloon, and no hyphen splitting a word across two lines. In PANEL 5 \"HE KNOWS TOO MUCH.\" is the RIGHTMOST balloon and \"AND HE DOESN'T ANSWER TO US.\" sits to its LEFT. ",
+  + TAILS + "LETTERING IS CRITICAL ON THIS PAGE: each balloon contains its words and NOTHING else. There "
+    "is no extra line beneath the text, no stray dash, hyphen, underscore, dot, tick or mark of "
+    "any kind inside or below any balloon, and no hyphen splitting a word across two lines. In "
+    "PANEL 5 \"HE KNOWS TOO MUCH.\" is the RIGHTMOST balloon and \"AND HE DOESN'T ANSWER TO US.\" "
+    "sits to its LEFT.",
   R("danzo", "koharu", "homura"), "low"),
 
  # ---- Spread 7: what the schedule costs --------------------------------------------
@@ -491,7 +539,10 @@ PAGES = [
         (6, OFF(ZETSU), "upper left", "LET IT COOL."),
         (6, BOY16, "lower left", "HOT OR COLD DOESN'T MATTER."))
   + SFX(4, "THUM", "At the lower left beside the seal; keep it clear of his hands.")
-  + TAILS + "PANEL 3's three-beat continuous motion runs RIGHT TO LEFT with the reading direction: the RIGHTMOST beat is his hand reaching for the wall-mounted gunbai, the CENTRE beat is the thumb being bitten, and the LEFTMOST beat is the bloodied thumb pressed to the seal. Never reverse that order and never lay the three beats out left to right. ",
+  + TAILS + "PANEL 3's three-beat continuous motion runs RIGHT TO LEFT with the reading direction: the "
+    "RIGHTMOST beat is his hand reaching for the wall-mounted gunbai, the CENTRE beat is the "
+    "thumb being bitten, and the LEFTMOST beat is the bloodied thumb pressed to the seal. Never "
+    "reverse that order and never lay the three beats out left to right.",
   R("naruto_v4_black", "zetsu", "gunbai_v4", "env_hideout_kitchen"), "medium"),
 
  ("p14", dict(scene="dialogue", light="dark", cast="two", mood="calm", panels=7),
@@ -528,7 +579,12 @@ PAGES = [
         (6, BOY16, "lower right", "IF THEY INTERFERE, QUIET THEM."),
         (7, ZETSU, "upper right", "YOU'LL BE BUSY?"),
         (7, BOY16, "upper left", "THE COUNCIL. DANZŌ'S RESPONSE. MEI'S ALLIANCE. KEEP OTO MOVING."))
-  + TAILS + "In PANEL 6 \"MOST ARE CELEBRATING OROCHIMARU'S DEATH. A FEW WANT REVENGE.\" is the RIGHTMOST and highest balloon and \"IF THEY INTERFERE, QUIET THEM.\" sits BELOW AND LEFT of it, so the order is only given after the report that prompts it. PANEL 5 is a BORDERLESS report image: it has NO panel border, NO frame line and NO gutter of its own, bleeding softly into the surrounding page as visualized information rather than reading as a live cut to another location. ",
+  + TAILS + "In PANEL 6 \"MOST ARE CELEBRATING OROCHIMARU'S DEATH. A FEW WANT REVENGE.\" is the RIGHTMOST "
+    "and highest balloon and \"IF THEY INTERFERE, QUIET THEM.\" sits BELOW AND LEFT of it, so the "
+    "order is only given after the report that prompts it. PANEL 5 is a BORDERLESS report image: "
+    "it has NO panel border, NO frame line and NO gutter of its own, bleeding softly into the "
+    "surrounding page as visualized information rather than reading as a live cut to another "
+    "location.",
   R("naruto_v4_black", "zetsu", "gunbai_v4", "env_hideout_kitchen"), "low"),
 
  # ---- Spread 8: a place for the Police ---------------------------------------------
@@ -562,7 +618,10 @@ PAGES = [
         (7, BOY16, "upper right", "WHERE DO YOU STORE CASE FILES?"),
         (7, BOY16, "upper centre", "HOLD BRIEFINGS?"),
         (7, BOY16, "upper left", "SEPARATE POLICE WORK FROM CLAN BUSINESS?"))
-  + TAILS + "PANEL 4 (the dark-haired teen, \"THE COMPOUND.\") closes the MIDDLE row at reader-LEFT and PANEL 5 (the blond teen, \"WHERE IN IT?\") opens the BOTTOM row at reader-RIGHT, wholly below it. Neither is a tall panel, and NO panel anywhere on this page spans two rows, so \"WHERE IN IT?\" can never be read before \"THE COMPOUND.\" ",
+  + TAILS + "PANEL 4 (the dark-haired teen, \"THE COMPOUND.\") closes the MIDDLE row at reader-LEFT and "
+    "PANEL 5 (the blond teen, \"WHERE IN IT?\") opens the BOTTOM row at reader-RIGHT, wholly "
+    "below it. Neither is a tall panel, and NO panel anywhere on this page spans two rows, so "
+    "\"WHERE IN IT?\" can never be read before \"THE COMPOUND.\"",
   R("naruto_v4_black", "sasuke_16", "gunbai_v4", "env_uchiha_compound"), "low"),
 
  ("p16", dict(scene="dialogue", light="day", cast="two", mood="calm", panels=6),
@@ -589,7 +648,12 @@ PAGES = [
         (4, BOY16, "upper right", "FIRST, DRAW THE PLANS."),
         (5, SAS16, "upper right", "YOU HAVEN'T ANSWERED."),
         (6, BOY16, "upper left", "THE COUNCIL COMES FIRST."))
-  + TAILS + "PANEL 4 (the blond teen, \"FIRST, DRAW THE PLANS.\") closes the MIDDLE row at reader-LEFT and PANEL 5 (the dark-haired teen, \"YOU HAVEN'T ANSWERED.\") opens the BOTTOM row at reader-RIGHT, wholly below it, so the instruction is read before the complaint about it. In PANEL 6 the balloon \"THE COUNCIL COMES FIRST.\" belongs to the BLOND TEEN at frame RIGHT: place it in the upper left as stated but draw a long tail crossing the panel to HIS mouth, clear of the dark-haired teen's head and hair at frame left. ",
+  + TAILS + "PANEL 4 (the blond teen, \"FIRST, DRAW THE PLANS.\") closes the MIDDLE row at reader-LEFT "
+    "and PANEL 5 (the dark-haired teen, \"YOU HAVEN'T ANSWERED.\") opens the BOTTOM row at "
+    "reader-RIGHT, wholly below it, so the instruction is read before the complaint about it. In "
+    "PANEL 6 the balloon \"THE COUNCIL COMES FIRST.\" belongs to the BLOND TEEN at frame RIGHT: "
+    "place it in the upper left as stated but draw a long tail crossing the panel to HIS mouth, "
+    "clear of the dark-haired teen's head and hair at frame left.",
   R("naruto_v4_black", "sasuke_16", "env_uchiha_compound"), "low"),
 
  # ---- Spread 9: called to account --------------------------------------------------
@@ -622,7 +686,12 @@ PAGES = [
         (7, SAS16, "upper centre", "THAT WORKS FOR YOU?"),
         (7, BOY16, "upper left", "YES."))
   + SFX(1, "KNOCK", "Upper left near the hallway; keep it clear of both faces.")
-  + TAILS + "PANEL 3 (the owl-masked ANBU's summons) closes the MIDDLE row at reader-LEFT, and PANELS 4, 5, 6 and 7 all sit BELOW it: PANEL 4 at bottom-right, PANEL 5 in the bottom centre, PANEL 6 above PANEL 7 in the bottom-left corner. So the summons is heard before \"I'LL GET HIM.\", and \"WE'RE SUMMONED.\" is read before \"THEY'RE IMPATIENT.\" In PANEL 7 the balloon \"YES.\" is the BLOND TEEN's: it carries a clearly drawn tail reaching HIS mouth at frame right, and is never tail-less and never floats above the dark-haired teen at frame left. ",
+  + TAILS + "PANEL 3 (the owl-masked ANBU's summons) closes the MIDDLE row at reader-LEFT, and PANELS 4, "
+    "5, 6 and 7 all sit BELOW it: PANEL 4 at bottom-right, PANEL 5 in the bottom centre, PANEL 6 "
+    "above PANEL 7 in the bottom-left corner. So the summons is heard before \"I'LL GET HIM.\", "
+    "and \"WE'RE SUMMONED.\" is read before \"THEY'RE IMPATIENT.\" In PANEL 7 the balloon "
+    "\"YES.\" is the BLOND TEEN's: it carries a clearly drawn tail reaching HIS mouth at frame "
+    "right, and is never tail-less and never floats above the dark-haired teen at frame left.",
   R("naruto_v4_black", "sasuke_16", "env_uchiha_compound"), "low"),
 
  ("p18", dict(scene="establishing", light="day", cast="two", mood="tense", panels=5),
@@ -649,7 +718,13 @@ PAGES = [
   "the orange-red flame trail and the leaf trail. No text in this panel. " + L_DOORS
   + SAY((1, SAS16, "upper right", "HE'S STILL WAITING."),
         (2, BOY16, "upper right", "HE'LL FOLLOW."))
-  + TAILS + "PANEL 5 shows the COUNCIL CHAMBER exterior from Image 4 and takes nothing from Image 3: tall formal stone administrative doors in a civic facade. There is NO Uchiha fan crest anywhere on those doors, walls, banners, lanterns or ground, no wooden clan gate, no compound gateway and no residential wall \u2014 the shunshin must plainly end somewhere else than where it started. In PANEL 1 \"HE'S STILL WAITING.\" belongs to the DARK-HAIRED teen standing at frame LEFT by the closed door; its tail reaches HIS mouth, never the blond teen approaching from the hall at frame right. ",
+  + TAILS + "PANEL 5 shows the COUNCIL CHAMBER exterior from Image 4 and takes nothing from Image 3: tall "
+    "formal stone administrative doors in a civic facade. There is NO Uchiha fan crest anywhere "
+    "on those doors, walls, banners, lanterns or ground, no wooden clan gate, no compound gateway "
+    "and no residential wall — the shunshin must plainly end somewhere else than where it "
+    "started. In PANEL 1 \"HE'S STILL WAITING.\" belongs to the DARK-HAIRED teen standing at "
+    "frame LEFT by the closed door; its tail reaches HIS mouth, never the blond teen approaching "
+    "from the hall at frame right.",
   R("naruto_v4_black", "sasuke_16", "env_uchiha_compound", "env_konoha_council_chamber"), "high"),
 ]
 
