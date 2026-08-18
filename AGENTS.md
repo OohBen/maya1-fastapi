@@ -130,6 +130,31 @@ Every one of these came from an observed failure. `manga/PIPELINE.md` has the fu
   familiar orange, spiky-haired, grinning version is one of the most-drawn figures in training
   data and reasserts itself wherever his description is short.
 - **Never pair `low` with 2160×3840.** Soft, smeary, coarse halftone. See TIER_REPORT finding 4.
+- **An unbound name is a silently substituted character.** A name that appears only in prose, with
+  no `Image {i}` binding and no sheet in `refs/images/`, gets drawn as whatever the model
+  associates with the description. Volume 5's review gates traced two of the volume's worst
+  chapters to exactly this: the Sound Four had no reference sheets at all, so they collapsed into
+  each other whenever two shared a panel and rendered fine whenever only one was in frame; and
+  Volume 5 chapter 12's named clan heads came back as interchangeable elderly men. **Before
+  generating a chapter, list every named character on every page and confirm each one is bound to
+  an index.** Where a sheet genuinely does not exist, write a per-chapter identity constant whose
+  first clause is the separating feature — skin tone, hair, sex, build, limb count — not the
+  costume, because costume is what the model blends.
+- **A two-person reference sheet hands over the wrong person.** Volume 5 chapter 6 page 10 drew
+  Kushina as a second Naruto because it was bound to `minato_kushina.png` and took the blond half.
+  Bind a solo sheet, or name the excluded figure explicitly in the binding.
+- **Panel order is geometry, not instruction.** `genlib.RTL_LAW` is prepended to `STAGING` on every
+  multi-panel page, and it is not sufficient on its own. It does not beat a page body whose own
+  panel-position labels put a lower-numbered panel left of a higher-numbered one in the same tier —
+  fix the body. It also does not beat a panel that renders wider or taller than intended and
+  swallows its neighbours; three separate pages needed the same body-level fix after two failed
+  text-only rounds each: "ONE ordinary rectangular frame confined to that tier, never split, never
+  spanning two tiers." Appended sentences lose to layout every time.
+- **Tails decide who is speaking, and the model tails to whoever is nearest.** This inverts meaning
+  rather than merely looking wrong — Volume 5 had a character claiming protection over herself and
+  a chapter's closing beat destroyed because one hurt question got tailed to the person it was
+  addressed to. `prompts.SAY` now names nearness as the trap and demands a long cross-panel tail
+  when the speaker is far from the balloon.
 
 ---
 
