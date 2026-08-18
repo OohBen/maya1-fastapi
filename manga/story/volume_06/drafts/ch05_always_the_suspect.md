@@ -60,8 +60,11 @@ suspicion. It is a woman who has just realised she has no idea what she signed.
   last on-page dose of the volume;** after it the bottle is about a third full and Zetsu has not yet
   brought anything stronger.
 - Naruto has not worn his forehead protector for several days — Chapters 1, 2, 3 and 4 all show him
-  without it — and nobody has commented. He puts it back on in this chapter and keeps it for the rest
-  of the volume until ch21.
+  without it — and nobody has commented. He puts it back on in this chapter, **with the armour**.
+  **Armour and forehead protector travel together** (`VOLUME_06.md`, Hard locks): both stay on through
+  Chapters 6, 7, 8 and Chapter 9 pages 1–4, and **both come off together at Chapter 9 page 4 panel 5**
+  (ch19:373), after which he is back in plain black without the protector for Chapters 10, 11 and 12
+  (ch20:455). He is **not** protectored for the rest of the volume.
 - He has not spoken to Tsunade since she summoned him to give him the Sannin title; she has avoided
   him since. That summons is this chapter's flashback and its beats are locked by `SOURCE_TRUTH.md`.
 - Sasuke was briefed and given the evidence **last night**, after Naruto punished Danzō. That
@@ -95,7 +98,8 @@ or misattributed line fails the page and requires editing or regeneration.
 
 **Standing visual locks for this chapter.** Naruto's irises are **plain blue** from page 1 panel 3 to
 page 2 panel 4, and the **ordinary three-tomoe Sharingan** from page 2 panel 5 to the end. The
-Eternal Mangekyō does **not** appear anywhere in this chapter. He is in plain black without the
+Eternal Mangekyō does **not** appear anywhere in this chapter, and does not return until Chapter 11
+page 13 panel 6. He is in plain black without the
 forehead protector on pages 1–3 panel 4, and in **full armour with the forehead protector on** from
 page 3 panel 6 to the end. The Gunbai stays on its wall rack and is never carried. Every written
 surface — the medicine label, the Police Force files, the office paperwork, the hospital chart — is
@@ -748,15 +752,18 @@ went well.
 ## Visual and continuity QA
 
 - **Eyes.** Plain blue from p1 panel 3 to p2 panel 4; **ordinary three-tomoe Sharingan** from p2 panel
-  5 to p18. The Eternal Mangekyō appears **nowhere** in this chapter — it was switched off at the end
-  of Chapter 4 and does not return until Chapter 7. Naruto in the flashback (pp. 5–6) also carries the
-  ordinary three-tomoe.
+  5 to p18. The Eternal Mangekyō appears **nowhere** in this chapter — it was switched off at ch17:779
+  at the end of Chapter 4 and **does not return until Chapter 11 page 13 panel 6** (ch20:437). Chapters
+  6, 7, 8, 9 and 10 all carry the ordinary three-tomoe. Naruto in the flashback (pp. 5–6) also carries
+  the ordinary three-tomoe.
 - **The medicine.** One dose, on page, p2 panels 3–4. The bottle starts at the halfway line Chapter 4
   left it at and ends at about a third; the two numbers are stated in his own thoughts on p2 B1–B2.
   **This is the volume's second and last on-page dose** and no further dose may be shown or implied
   for the rest of Volume 6.
 - **Dress state is the chapter's clock.** Plain black, bare-headed, unarmoured on pp. 1–3 panel 5;
-  **full armour with the forehead protector** from p3 panel 6 to the end. In the flashback (p4 panel 7
+  **full armour with the forehead protector** from p3 panel 6 to the end. The armoured state carries
+  forward through Chapters 6, 7, 8 and Chapter 9 pages 1–4 and **ends at Chapter 9 page 4 panel 5**,
+  where both come off together; it is **not** kept for the rest of the volume. In the flashback (p4 panel 7
   to p6 panel 7) he is plain black **without** the forehead protector, which is how the reader dates
   it. The **Gunbai stays on the wall rack** in p2 panel 6 and p3 panel 6 and is never carried — do not
   put it on his back.

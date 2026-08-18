@@ -14,7 +14,7 @@ context-clean writing review, not for builder, reference work, or final art.
 
 | Needed | Existing | Gap |
 |---|---|---|
-| `naruto_v6_black` | `naruto_v4_black`, `naruto_v4_armor` | Age ~16, **wearing the armour and the forehead protector** (the Chapter 7 armour lock), **EMS permanently active**, no sword, no Gunbai. He is seated for nine pages and standing for three. |
+| `naruto_v6_black` | `naruto_v4_black`, `naruto_v4_armor` | Age ~16, **wearing the armour and the forehead protector** (the Chapter 7 armour lock), **ordinary three-tomoe Sharingan active** (the EMS is off — it does not return until Chapter 11), no sword, no Gunbai. He is seated for nine pages and standing for three. |
 | `choza` | — | No sheet. Akimichi Chōza sits at the council table on every council page and speaks one line on page 9. The source names him, so he cannot be reduced to a distant extra. |
 | `env_uchiha_training_ground` | — | No sheet. The compound's own walled field where the clones work, pages 10–12. **Not** `env_training_ground_7` and not `env_uchiha_compound.png`, which is the street-level exterior. |
 | `env_konoha_council_chamber.png` | present | Covered. Pages 1–10 panel 4. |
@@ -44,8 +44,10 @@ which is the closest thing to affection in the volume so far and is delivered as
 
 - The same day as Chapters 6 and 7, roughly an hour after Dragon Land. Naruto returned before noon
   exactly as he intended.
-- Naruto is **wearing the armour and the forehead protector**; the **Eternal Mangekyō is active in
-  both eyes** and stays active. No medicine is drunk on page.
+- Naruto is **wearing the armour and the forehead protector**; the **ordinary three-tomoe Sharingan is
+  active in both eyes** and stays active. The Eternal Mangekyō does not appear — it was switched off at
+  ch17:779 in Chapter 4 and is not switched on again until Chapter 11 (ch20:437). No medicine is drunk
+  on page.
 - The right bang covers his right eye. The visible eye is his left.
 - Last night Naruto destroyed Root and crippled Danzō and did not erase anything linking him to it.
   Danzō is alive, unconscious, in hospital, with no right eye, no right arm and a ruined left leg.
@@ -83,9 +85,9 @@ Integrated ImageGen lettering is intended. During production, each generated pag
 full size with the exact page/panel/speaker order below; any missing, duplicated, misspelled, moved,
 or misattributed line fails the page and requires editing or regeneration.
 
-**Standing visual locks for this chapter:** the **Eternal Mangekyō is active in both of Naruto's
-eyes** in every panel he appears in, and his right eye stays behind the bang, so the visible eye is
-always his left. He wears the armour and the forehead protector on every page. The chamber's seating
+**Standing visual locks for this chapter:** the **ordinary three-tomoe Sharingan is active in both of
+Naruto's eyes** in every panel he appears in — no Mangekyō anywhere — and his right eye stays behind
+the bang, so the visible eye is always his left. He wears the armour and the forehead protector on every page. The chamber's seating
 is fixed from page 1 and never rearranges: **Tsunade at the head (frame left in every table shot),
 the two elders on the near-left arc, the clan heads along the far arc, and Naruto and Sasuke together
 on the near-right arc.** No ANBU is ever drawn inside the chamber.
@@ -122,7 +124,7 @@ page has to re-explain it, and let the accusation arrive before the meeting has 
    the anger of somebody frightened. **B3** upper left, Koharu: "HE ATTACKED A COUNCIL MEMBER. HE
    SHOULD BE UNDER ARREST." Tail points to visible Koharu's mouth.
 5. **Bottom left, right half, x=30–58 y=62–100; medium.** Cast/blocking: Naruto in profile at his
-   place, one forearm on the armrest, the Eternal Mangekyō visible in his left eye, the right behind
+   place, one forearm on the armrest, the three-tomoe Sharingan visible in his left eye, the right behind
    the bang; he has not turned his head toward her and his expression has not changed. No text.
 6. **Bottom left, centre, x=16–27 y=62–100; close-up.** Cast/blocking: Sasuke's face beside him,
    facing left; the decision to speak arrives in it. No text.
@@ -316,7 +318,7 @@ chamber.
    RATHER THEY REVOLTED INSIDE THE WALLS WITH THEIR MASTER IN A CELL?" Tail points to visible
    Naruto's mouth.
 7. **Bottom left, x=0–47 y=82–100; close-up.** Cast/blocking: Naruto's visible left eye and the bang
-   over the right, Eternal Mangekyō. **B6** upper left, Naruto: "THEY WERE AS GUILTY AS HE WAS. DO
+   over the right, three-tomoe Sharingan. **B6** upper left, Naruto: "THEY WERE AS GUILTY AS HE WAS. DO
    NOT PRETEND OTHERWISE." Tail points to visible Naruto's mouth.
 
 #### Page 8 — 7 panels
@@ -396,7 +398,7 @@ compound scene on the industrial scale of what Naruto is now running.
    frame right, a small smile that does not fit his face. **B1** upper right, Hiashi: "NARUTO-SAN."
    Tail points to visible Hiashi's mouth.
 2. **Top left, x=0–56 y=0–26; close-up.** Cast/blocking: Naruto standing out of his chair and turning
-   to frame left; the Eternal Mangekyō level. **B2** upper left, Naruto: "WHAT CAN I DO FOR YOU,
+   to frame left; the three-tomoe Sharingan level. **B2** upper left, Naruto: "WHAT CAN I DO FOR YOU,
    HIASHI-SAN?" Tail points to visible Naruto's mouth.
 3. **Middle-upper right, x=62–100 y=30–50; close-up.** Cast/blocking: Hiashi facing right; the
    honorific has visibly caught him off balance and the small smile changes shape. **B3** upper
@@ -415,7 +417,7 @@ compound scene on the industrial scale of what Naruto is now running.
    only his left eye open and the right still behind the bang; Sasuke walking in from frame left.
    **B4** upper left, Sasuke: "WHAT DID HIASHI WANT?" Tail points to visible Sasuke's mouth.
 7. **Bottom left, x=0–47 y=82–100; close-up.** Cast/blocking: Naruto's face, the single open left eye
-   with the Eternal Mangekyō in it. **B5** upper left, Naruto: "TO MARRY ONE OF HIS DAUGHTERS TO ONE
+   with the three-tomoe Sharingan in it. **B5** upper left, Naruto: "TO MARRY ONE OF HIS DAUGHTERS TO ONE
    OF US." Tail points to visible Naruto's mouth.
 
 **Page turn:** One of us.
@@ -532,10 +534,12 @@ and Naruto does not yet know who is in it.
 
 ## Visual and continuity QA
 
-- **The Eternal Mangekyō is active in both of Naruto's eyes on every one of his panels**, with the
-  right eye behind the bang so only the left is ever visible. No three-tomoe, no plain blue.
+- **The ordinary three-tomoe Sharingan is active in both of Naruto's eyes on every one of his panels**,
+  with the right eye behind the bang so only the left is ever visible. **No Eternal Mangekyō anywhere in
+  this chapter** — ch20:457 turns on the council being surprised to see the Mangekyō later, so it must
+  not appear at this council. No plain blue.
 - Naruto wears the **armour and the forehead protector** on every page, with no sword and no Gunbai.
-  Chapter 9 page 5 is the scene that removes them; nothing here may pre-empt it.
+  Chapter 9 page 4 panel 5 is the scene that removes them; nothing here may pre-empt it.
 - **Sasuke's Sharingan is never activated in this chapter**, and page 12 panel 5 must show his irises
   black while he watches the seals — Naruto forbade it on page 11 and the panel is the proof.
 - The chamber's geography is fixed from page 1 panel 1 and never rearranges: Tsunade at the head and

@@ -59,12 +59,14 @@ wanted — nobody's company but hers — and it costs him an answer he does not 
   the EMS off after Dragon Land; ch20:459–465 is explicit that the council is surprised to see the
   Mangekyō the following morning **because he normally wears the plain Sharingan**, and ch20:437 is
   the moment he decides to keep the EMS running. That decision happens at the end of Chapter 11.
-  **Continuity note for the Chapter 7–9 agent:** if Chapter 9 leaves the EMS active, it must be
-  switched off before this chapter opens, or ch20:459–465 breaks.
+  **Resolved by the coordinator:** the EMS was switched off at ch17:779 at the end of Chapter 4 and
+  Chapters 5, 6, 7, 8 and 9 all now carry the ordinary three-tomoe Sharingan, so nothing has to be
+  switched off before this chapter opens.
 - **He is not wearing his forehead protector** (ch20:455 states plainly that he does not often wear
-  it and is not wearing it at the council next morning). **This contradicts the closing note in the
-  Chapter 5 draft**, which says he keeps it on "for the rest of the volume until ch21." The source
-  wins: it is off in Chapters 10, 11 and 12. Flagged for the coordinator.
+  it and is not wearing it at the council next morning). It came off with the armour at Chapter 9 page
+  4 panel 5 (ch19:373) and stays off through Chapters 10, 11 and 12. **Resolved by the coordinator:**
+  the Chapter 5 note claiming he keeps it on "for the rest of the volume until ch21" was wrong and has
+  been amended in that draft.
 - No armour, no Gunbai, no sword. He was training at the compound ground when Yugao came to him; he
   is in plain black.
 - **No medicine is drunk, held, or shown at any point in this chapter.** Chapter 5 carried the second
@@ -842,9 +844,9 @@ answer them.
   at the end of Chapter 11 and is a surprise to the council in Chapter 12. If any page here shows the
   Mangekyō, ch20:459–465 breaks and the page fails. His right eye stays behind the heavy right bang;
   only the left eye is ever visible.
-- **No forehead protector, on any page.** See "Continuity in" — this contradicts a closing note in the
-  Chapter 5 draft and the source resolves it. **The coordinator must reconcile the two drafts before
-  production.**
+- **No forehead protector, on any page.** See "Continuity in". The armour and the protector came off
+  together at Chapter 9 page 4 panel 5; the Chapter 5 draft's contrary note has been amended and the
+  two drafts now agree.
 - **No armour, no Gunbai, no sword, no gloves, no pouch.** He is in plain black on every page.
 - **No medicine bottle appears, is held, or is implied.** Chapter 5 carried the volume's second and
   last on-page dose.

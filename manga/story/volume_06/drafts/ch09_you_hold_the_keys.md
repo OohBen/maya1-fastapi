@@ -14,7 +14,7 @@ context-clean writing review, not for builder, reference work, or final art.
 
 | Needed | Existing | Gap |
 |---|---|---|
-| `naruto_v6_black` | `naruto_v4_black`, `naruto_v4_armor` | Age ~16, **EMS permanently active**. This chapter needs **both** states on the same evening: armoured with the forehead protector on pages 1–4, and plain black with **no armour and no forehead protector** from page 4 panel 5 onward. Page 4 panel 5 is the changeover and the source calls it out explicitly. |
+| `naruto_v6_black` | `naruto_v4_black`, `naruto_v4_armor` | Age ~16, **ordinary three-tomoe Sharingan active** throughout (the EMS is off — it does not return until Chapter 11). This chapter needs **both** dress states on the same evening: armoured with the forehead protector on pages 1–4, and plain black with **no armour and no forehead protector** from page 4 panel 5 onward. Page 4 panel 5 is the changeover and the source calls it out explicitly. |
 | `yugao_civilian` | `yugao.png`, `yugao_v4.png` | Both existing sheets are ANBU/uniform states. This chapter needs the **domestic** state named in `VOLUME_06.md` — hair loose and down, sleeves pushed up, unarmed, no mask, no armour, barefoot or in house sandals. She is on 60 panels. |
 | `env_uchiha_house_kitchen` | — | No sheet. Pages 1–12 are staged there: range, sink, a plain table with two chairs, a doorway to the corridor. |
 | `env_brothel` | — | **No sheet, and not in `VOLUME_06.md`'s "New references needed" list — raised here for the first time.** The genjutsu memory on pages 9–10 needs one building and three interiors: a two-storey night street front with red paper lanterns, a lamplit counter room, a narrow stair, and an upstairs corridor with one door. Every one of them is staged for implication only (see the content lock below), but the building itself is on six panels and cannot be improvised. |
@@ -54,8 +54,10 @@ reader knows exactly what it is worth even though Kurotsuchi does not.
 
 - The same evening as Chapter 8. Naruto has come in from the training field; his clones are still
   working outside.
-- **The Eternal Mangekyō is active in both eyes for the entire Konoha half** and does not switch off,
-  including while he casts the genjutsu. The right bang covers the right eye, so only the left is
+- **The ordinary three-tomoe Sharingan is active in both eyes for the entire Konoha half** and does not
+  switch off, including while he casts the genjutsu — the balloon on page 8 names it "SHARINGAN:
+  GENJUTSU" and it is the ordinary eye that casts it. The Eternal Mangekyō was switched off at ch17:779
+  in Chapter 4 and is **not** switched on again until Chapter 11 (ch20:437); it appears nowhere here. The right bang covers the right eye, so only the left is
   ever visible except in the direct eye close-up on page 8.
 - Naruto arrives in the armour and the forehead protector and removes both on page 4 panel 5.
 - **Yugao believes Naruto rescued her from Danzō.** It was Zetsu wearing his form. She never learns
@@ -98,8 +100,9 @@ Integrated ImageGen lettering is intended. During production, each generated pag
 full size with the exact page/panel/speaker order below; any missing, duplicated, misspelled, moved,
 or misattributed line fails the page and requires editing or regeneration.
 
-**Standing visual locks for this chapter.** The **Eternal Mangekyō is active in both of Naruto's eyes
-in every panel of pages 1–12**, with the right eye behind the bang. The kitchen's layout is fixed
+**Standing visual locks for this chapter.** The **ordinary three-tomoe Sharingan is active in both of
+Naruto's eyes in every panel of pages 1–12** and the Mangekyō appears nowhere, with the right eye
+behind the bang. The kitchen's layout is fixed
 from page 1 and never rearranges: **the doorway and corridor at frame right, the range and sink at
 frame left, the table between them with Naruto's chair on the right side and Yugao's on the left.**
 The Crystal Palace office's layout is fixed from page 13: **the window wall at frame left, the desk
@@ -140,7 +143,7 @@ the first line of the chapter be an accusation dressed as an observation.
    protected area: "CHAPTER 9 — YOU HOLD THE KEYS". Tail-less chapter marker. **CAP1** at the lower
    edge of the protected band, tail-less time card, small box: "LATER THAT DAY".
 2. **Top left, x=0–58 y=0–30; extreme close-up.** Cast/blocking: Naruto's face in three-quarter
-   facing left, eyes half-lidded, the Eternal Mangekyō visible in the left eye; his nostrils have
+   facing left, eyes half-lidded, the three-tomoe Sharingan visible in the left eye; his nostrils have
    widened very slightly and that is the entire reaction in his body. No text.
 3. **Middle left, right half, x=30–58 y=34–62; medium.** Cast/blocking: the kitchen seen from the
    corridor doorway — Yugao at the sink at frame left with her back to the reader, hair loose and
@@ -235,8 +238,8 @@ four wordless actions, and end it the instant he reappears looking like a differ
    upper right, tail-less thought balloon, Yugao: "HE FELT THINGS ONCE. THEY ONLY BROKE PART OF IT."
 5. **Bottom left focal panel, x=0–47 y=64–100; medium, from her eye-line.** Cast/blocking: the
    corridor doorway at frame right with Naruto standing in it — **out of the armour, no forehead
-   protector**, plain black, hair loose over the right eye, the Eternal Mangekyō in the visible left
-   one. **B4** upper left, tail-less thought balloon, Yugao: "...OR ALL OF IT. HE KEEPS NOTHING BUT
+   protector**, plain black, hair loose over the right eye, the three-tomoe Sharingan in the visible
+   left one. **B4** upper left, tail-less thought balloon, Yugao: "...OR ALL OF IT. HE KEEPS NOTHING BUT
    THE ONES WHO WERE KIND TO HIM."
 
 **Page turn:** She has just decided he cannot care. He is about to tell her he finds her pleasing.
@@ -300,7 +303,7 @@ chart needs and it is the only page in the volume where Yugao wins.
 
 **Source anchor:** ch19:391–399.
 
-**Spread focal panel:** page 8, panel 6 — the Eternal Mangekyō turning once.
+**Spread focal panel:** page 8, panel 6 — the three-tomoe Sharingan turning once.
 
 #### Page 7 — 6 panels
 
@@ -348,8 +351,8 @@ in a single panel before the illusion starts.
    mid-breath. **B4** upper right, Naruto: "SHARINGAN: GENJUTSU." Tail points to visible Naruto's
    mouth.
 6. **Bottom left focal panel, x=0–47 y=62–100; extreme close-up.** Cast/blocking: Naruto's visible
-   left eye filling the frame, the bang pushed clear of it; the Eternal Mangekyō — the black centre
-   ring with six black blades to the rim — rotates once, and concentric rings of distortion travel
+   left eye filling the frame, the bang pushed clear of it; the **ordinary three-tomoe Sharingan** —
+   red iris, black pupil, three comma tomoe evenly spaced around it — rotates once, and concentric rings of distortion travel
    outward from the pupil to every edge of the panel. Origin: the eye. Path: outward along the
    eye-line. Contact: Yugao, off-panel to the left. No text.
 
@@ -680,10 +683,10 @@ chapter on a smile the reader can price and Kurotsuchi cannot.
 
 ## Visual and continuity QA
 
-- **The Eternal Mangekyō is active in both of Naruto's eyes on every one of his panels**, with the
-  right eye behind the bang, so only the left is visible except in the direct close-up on page 8
-  panel 6. No three-tomoe and no plain blue anywhere, including inside the illusion for the
-  present-day Naruto.
+- **The ordinary three-tomoe Sharingan is active in both of Naruto's eyes on every one of his panels**,
+  with the right eye behind the bang, so only the left is visible except in the direct close-up on page
+  8 panel 6. **No Eternal Mangekyō anywhere in this chapter** and no plain blue, including inside the
+  illusion for the present-day Naruto.
 - **The younger Naruto of the memory has no active Sharingan** — his eyes are plain blue. He is
   visibly shorter and younger than the present-day Naruto standing three feet from him in the same
   panel on page 9 panel 3, and the two must be distinguishable at a glance.
@@ -718,5 +721,5 @@ chapter on a smile the reader can price and Kurotsuchi cannot.
   at all; cool desaturated night inside the illusion; flat high daylight for Oto on pages 13–16. The
   Oto half is two days later and in another country, and nothing carries over from the kitchen but
   the reader's memory of it.
-- No balloon covers a face, an eye, the Eternal Mangekyō on page 8 panel 6, the closed door on page
+- No balloon covers a face, an eye, the Sharingan on page 8 panel 6, the closed door on page
   10 panel 4, or Guren's smile on page 16 panel 8.

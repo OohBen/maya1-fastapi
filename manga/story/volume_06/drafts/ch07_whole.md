@@ -14,7 +14,7 @@ context-clean writing review, not for builder, reference work, or final art.
 
 | Needed | Existing | Gap |
 |---|---|---|
-| `naruto_v6_black` | `naruto_v4_black`, `naruto_v4_armor` | Age ~16, **wearing the armour**, **EMS permanently active**, **forehead protector on** (see the armour lock below), no sword, no Gunbai. No existing sheet covers the armoured sixteen-year-old with Eternal Mangekyō. |
+| `naruto_v6_black` | `naruto_v4_black`, `naruto_v4_armor` | Age ~16, **wearing the armour**, **ordinary three-tomoe Sharingan active** (the EMS is off for this chapter — see the eye lock below), **forehead protector on** (see the armour lock below), no sword, no Gunbai. No existing sheet covers the armoured sixteen-year-old. |
 | `minato_edo_tensei` | `minato_kushina.png` | No sheet. Cracked ash-grey skin, black sclera with a pale iris, Hokage coat over the flak vest, and the kunai of orders driven into the base of the skull. He is drawn on 47 panels of this chapter and is its second lead; the existing sheet is the living reveal-imagery pair and cannot stand in. |
 | `env_dragon_land` | — | No sheet. Every panel of the chapter is staged there: broken red-lit stone shelves, dry grass, weathered bone, a single dead tree on a rise. |
 | `tobi_masked` | — | No sheet. The masked man of the flashback plates — dark mask, one right eyehole, a Sharingan inside it. Must **not** be the unmasked Obito and must not be given a second eyehole. |
@@ -70,8 +70,10 @@ ownership.
   back in Konoha before noon for the council meeting, which is Chapter 8.
 - Naruto is **wearing his armour and forehead protector**, no sword, no Gunbai. The lost V3 ninjato
   is still not replaced.
-- **The Eternal Mangekyō is active in both eyes for the entire chapter** and does not switch off.
-  The medicine was taken off-page; neither on-page dose belongs to this chapter.
+- **His eyes carry the ordinary three-tomoe Sharingan for the entire chapter.** The Eternal Mangekyō
+  was switched off at ch17:779 at the end of Chapter 4 and is **not** switched on again until Chapter 11
+  (ch20:437); it does not appear anywhere in this chapter. The medicine was taken off-page; neither
+  on-page dose belongs to this chapter.
 - Minato's soul was retrieved from the Shinigami at the end of Chapter 6 and stored in a coffin
   **without being allowed to speak.** He has never heard a word from his son.
 - Kurama is physically free, lives in Dragon Land, and is **half complete** — Naruto promised the
@@ -107,10 +109,10 @@ Integrated ImageGen lettering is intended. During production, each generated pag
 full size with the exact page/panel/speaker order below; any missing, duplicated, misspelled, moved,
 or misattributed line fails the page and requires editing or regeneration.
 
-**Standing visual locks for this chapter:** Naruto's eyes carry the **Eternal Mangekyō in both** on
-every panel he appears in — no three-tomoe, no blue, no switching off. He wears the armour and the
-forehead protector on every panel. Minato's Edo Tensei body keeps the cracked skin, the black sclera
-and the kunai in the back of the skull in every present-tense panel, and has **none of those things**
+**Standing visual locks for this chapter:** Naruto's eyes carry the **ordinary three-tomoe Sharingan
+in both** on every panel he appears in — no Mangekyō, no blue, no switching off. He wears the
+armour and the forehead protector on every panel. Minato's Edo Tensei body keeps the cracked skin,
+the black sclera and the kunai in the back of the skull in every present-tense panel, and has **none of those things**
 inside a flashback plate. Zetsu is never drawn with legs.
 
 **Flashback plate convention.** Pages 13–16 alternate PLATE panels (Minato's account) and PRESENT
@@ -145,10 +147,10 @@ and let Zetsu open the chapter with an observation rather than a report.
    road, no sky-line of any kind. No text.
 3. **Middle left, x=0–56 y=36–66; medium two-shot.** Cast/blocking: Zetsu has risen out of the rock
    at frame left, emerged to the ribs and no further; Naruto stands at frame right in his armour,
-   forehead protector on, Eternal Mangekyō level, facing left toward him. **B1** upper left, Zetsu:
+   forehead protector on, ordinary three-tomoe Sharingan level, facing left toward him. **B1** upper left, Zetsu:
    "YOU DID NOT TAKE LONG." Tail points to visible Zetsu's mouth.
 4. **Bottom left, x=0–56 y=70–100; close-up.** Cast/blocking: Naruto in three-quarter profile facing
-   left, the Eternal Mangekyō filling both eyes. **B2** upper left, Naruto: "THERE WAS NOTHING
+   left, the ordinary three-tomoe Sharingan filling both eyes. **B2** upper left, Naruto: "THERE WAS NOTHING
    HOLDING ME." Tail points to visible Naruto's mouth.
 
 #### Page 2 — 6 panels
@@ -221,7 +223,7 @@ the next page answers with a coffin.
    the frame facing right; behind him a tail sweeps slowly through the top of the panel. **B2** upper
    left, Kurama: "I SHOULD ENJOY IT. IT WAS GIVEN TO ME." Tail points to visible Kurama's mouth.
 3. **Middle right, x=55–100 y=37–64; medium.** Cast/blocking: Naruto at frame right facing left, arms
-   unfolding to his sides, Eternal Mangekyō level. **B3** upper right, Naruto: "TODAY IS THE DAY I
+   unfolding to his sides, ordinary three-tomoe Sharingan level. **B3** upper right, Naruto: "TODAY IS THE DAY I
    KEEP MY PROMISE." Tail points to visible Naruto's mouth.
 4. **Middle left, x=0–51 y=37–64; close-up.** Cast/blocking: Kurama's eye narrowing, searching the
    face outside the frame to the right; nothing playful in it. No text.
@@ -251,7 +253,7 @@ lid, body — and give the reveal of Minato to Kurama's eye rather than to Narut
    first seal of the chain, deliberately and slowly, at chest height; his jaw and the lower edge of
    the forehead protector visible at the top of frame, facing left. No text.
 2. **Top left, x=0–60 y=0–34; close-up.** Cast/blocking: Naruto's face, three-quarter facing left,
-   Eternal Mangekyō in both eyes, mouth open on the word. **B1** upper left, Naruto: "KUCHIYOSE: EDO
+   ordinary three-tomoe Sharingan in both eyes, mouth open on the word. **B1** upper left, Naruto: "KUCHIYOSE: EDO
    TENSEI." Tail points to visible Naruto's mouth.
 3. **Middle band focal panel, x=0–100 y=38–66; wide, low angle.** Cast/blocking: Naruto stands at
    frame right with his palms still joined; ten paces to his left the rock floor splits along a
@@ -312,7 +314,7 @@ personality must read as an administrative act, not as cruelty.
 1. **Top right, x=60–100 y=0–30; close-up.** Cast/blocking: Minato's face turning fully to frame
    right; the recognition arrives visibly. **B1** upper right, Minato: "NARUTO? WHAT ARE YOU TRYING
    TO DO HERE?" Tail points to visible Minato's mouth.
-2. **Top left, x=0–56 y=0–30; close-up.** Cast/blocking: Naruto facing left, Eternal Mangekyō, no
+2. **Top left, x=0–56 y=0–30; close-up.** Cast/blocking: Naruto facing left, ordinary three-tomoe Sharingan, no
    change of expression whatever. **B2** upper left, Naruto: "DO AS YOU ARE INSTRUCTED." Tail points
    to visible Naruto's mouth.
 3. **Middle right, x=64–100 y=34–62; close on the hand.** Cast/blocking: Naruto's right hand in a
@@ -346,7 +348,7 @@ so the reader can see where the chakra comes from and where it goes.
    under the lattice; the rock beneath his forelimbs cracking outward in radial lines; Minato small
    at frame right with his palm still on the fur. **SFX** across the lower frame: "GOOOM". No balloon.
 5. **Bottom left, x=0–51 y=72–100; close-up.** Cast/blocking: Naruto at frame right of the panel
-   facing left, watching, Eternal Mangekyō, entirely unmoved. No text.
+   facing left, watching, ordinary three-tomoe Sharingan, entirely unmoved. No text.
 
 **Page turn:** How big does he get?
 
@@ -446,7 +448,7 @@ this conversation exists, and hand the floor over.
    bench facing left, leaning back with arms folded and one ankle across a knee; Minato seated on the
    left bench facing right, hands on his knees, back straight; the dead tree above them and empty
    land behind. This fixes the axis for pages 12–19: **Naruto right, Minato left.** No text.
-2. **Middle right, x=64–100 y=34–62; close-up.** Cast/blocking: Naruto facing left, Eternal Mangekyō
+2. **Middle right, x=64–100 y=34–62; close-up.** Cast/blocking: Naruto facing left, ordinary three-tomoe Sharingan
    steady. **B1** upper right, Naruto: "MOTHER SAID YOU WERE THE KINDEST MAN SHE KNEW." Tail points
    to visible Naruto's mouth.
 3. **Middle centre, x=32–61 y=34–62; close-up.** Cast/blocking: Minato facing right; the smile that
@@ -566,8 +568,8 @@ reader to the clearing.
    right, bleeding from the shoulder, watching him go. Soft plate border. **B3** upper right,
    tail-less oval, Minato: "HE SAID HE WOULD COME BACK, AND THAT THE KYUUBI WOULD BE HIS." **B4**
    lower left, tail-less oval, Minato: "I BELIEVED HIM."
-4. **Middle left, x=0–58 y=34–58; PRESENT, close-up.** Cast/blocking: Naruto's eyes, Eternal
-   Mangekyō, filling the frame; absolutely level. Hard border. **B5** upper left, Minato: "SO I MADE
+4. **Middle left, x=0–58 y=34–58; PRESENT, close-up.** Cast/blocking: Naruto's eyes, ordinary
+   three-tomoe Sharingan, filling the frame; absolutely level. Hard border. **B5** upper left, Minato: "SO I MADE
    A CHOICE." `OFF`, tail exits the left edge toward Minato on the far bench.
 5. **Bottom right, x=66–100 y=62–100; PLATE, extreme-wide low angle.** Cast/blocking: a colossal toad
    rendered as a flat black silhouette against a night sky, only the outline and the pipe readable;
@@ -661,8 +663,8 @@ aloud, and end the page with Minato's hand starting to move.
 1. **Top right, x=64–100 y=0–24; close-up.** Cast/blocking: Naruto facing left, eyes back down.
    **B1** upper right, Naruto: "HATRED DOES ME NO GOOD. I DISCARDED WHAT I COULD." Tail points to
    visible Naruto's mouth.
-2. **Top left, x=0–60 y=0–24; tighter close-up.** Cast/blocking: Naruto's eyes alone, Eternal
-   Mangekyō. **B2** upper left, Naruto: "SOME THINGS WILL NOT DISCARD." Tail points off the lower
+2. **Top left, x=0–60 y=0–24; tighter close-up.** Cast/blocking: Naruto's eyes alone, ordinary
+   three-tomoe Sharingan. **B2** upper left, Naruto: "SOME THINGS WILL NOT DISCARD." Tail points off the lower
    edge of the balloon to visible Naruto's mouth just outside the balloon's tier; the balloon must
    not cover either iris.
 3. **Middle-upper right, x=55–100 y=28–52; medium two-shot.** Cast/blocking: Naruto stands up off the
@@ -710,7 +712,7 @@ and walk Naruto back across the plateau in silence. Naruto must not be shown rea
    **B2** upper right, Minato: "I LOVE YOU, AND I WILL BE PROUD OF YOU WHICHEVER ROAD YOU TAKE." Tail
    points to visible Minato's mouth. **B3** lower right, Minato: "SHE WILL CRY WHEN I TELL HER." Tail
    points to the same visible mouth.
-4. **Middle left, x=0–58 y=30–54; close-up.** Cast/blocking: Naruto facing left; the Eternal Mangekyō
+4. **Middle left, x=0–58 y=30–54; close-up.** Cast/blocking: Naruto facing left; the ordinary three-tomoe Sharingan
    and nothing else. **No text, and no thought balloon may be added to this panel under any
    circumstances.**
 5. **Bottom-upper right, x=51–100 y=58–78; medium.** Cast/blocking: Naruto's hands running a short
@@ -740,8 +742,8 @@ beast with nothing to kill.
 4. **Middle-upper left, x=0–58 y=28–48; close-up.** Cast/blocking: Kurama's muzzle facing right, the
    grin collapsed into a snarl, teeth apart. **B5** upper left, Kurama: "YOU COULD HAVE KEPT HIM. HE
    CANNOT DIE — I COULD HAVE TORN HIM APART AGAIN AND AGAIN." Tail points to visible Kurama's mouth.
-5. **Middle-lower right, x=62–100 y=52–72; close-up.** Cast/blocking: Naruto facing left, Eternal
-   Mangekyō, bored. **B6** upper right, Naruto: "WHAT IS THE POINT OF TEARING APART SOMETHING THAT
+5. **Middle-lower right, x=62–100 y=52–72; close-up.** Cast/blocking: Naruto facing left, ordinary
+   three-tomoe Sharingan, bored. **B6** upper right, Naruto: "WHAT IS THE POINT OF TEARING APART SOMETHING THAT
    FEELS NO PAIN?" Tail points to visible Naruto's mouth.
 6. **Middle-lower left, x=0–58 y=52–72; close-up.** Cast/blocking: Naruto facing left, the smallest
    possible change at one corner of his mouth. **B7** upper left, Naruto: "AND YOU WOULD HAVE HAD TO
@@ -798,9 +800,10 @@ Koharu already on her feet.
 
 ## Visual and continuity QA
 
-- **The Eternal Mangekyō is active in both of Naruto's eyes on every one of his 63 panels.** No
-  three-tomoe, no plain blue, no deactivation, and no bleeding — the eye damage of Chapter 4 is
-  healed and the drug is not on page. Any panel that shows an ordinary Sharingan fails.
+- **The ordinary three-tomoe Sharingan is active in both of Naruto's eyes on every one of his 63
+  panels.** No Mangekyō, no plain blue, no deactivation, and no bleeding — the eye damage of Chapter 4
+  is healed and the drug is not on page. Any panel that shows the Eternal Mangekyō fails: it was
+  switched off at ch17:779 and is not switched on again until Chapter 11 page 13 panel 6.
 - Naruto wears the **armour and the forehead protector** in every panel, with no sword and no Gunbai.
   Chapter 9 is the scene that removes them; nothing here may pre-empt it.
 - **Minato's Edo Tensei body is consistent in every PRESENT panel:** cracked ash-grey skin, black
