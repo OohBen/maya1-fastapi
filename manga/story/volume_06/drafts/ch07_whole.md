@@ -21,12 +21,21 @@ context-clean writing review, not for builder, reference work, or final art.
 | `konoha_anbu` | — | No sheet. The ANBU on Kushina's roofline, the guards outside the birth room, and the ANBU-era Kakashi plate. |
 | `gamabunta` | — | No sheet. One panel (p15 panel 5) and deliberately staged as a black silhouette with only the outline and the pipe readable, so the plate survives if the sheet is never built. |
 | `shinigami` | — | No sheet. One panel (p16 panel 1), staged as a vast horned darkness behind Minato with only the reaching arm defined. Do not render a full creature design. |
+| `edo_tensei_coffin` | — | No sheet. The plain upright wooden coffin that rises out of the rock and crumbles away: pages 5 (panels 3, 4, 5) and 6 (panel 1). It is the visual answer to Kurama's "and how will you do that?" and carries the spread's focal panel, so it cannot be improvised at render time. |
 | `env_konoha_kyuubi_night` | `env_village_street.png`, `env_konoha_after_invasion.png` | Partially covered. The burning-street plate (p14 panel 6) can be built from the street sheet at night with fire; the "after invasion" sheet is the wrong event and must not be used as-is. |
 | `kurama_full.png` | `kurama_full.png` | Covered. The half-complete state on pages 3–8 is the same design at reduced mass and scale, not a different design; the full state from page 9 is the sheet exactly. |
 | `kushina.png`, `minato_kushina.png`, `hiruzen.png`, `kakashi.png`, `zetsu.png` | present | Covered. Kushina appears in flashback plates only; Hiruzen appears in one plate handing over the hat; Kakashi appears in one plate as a masked ANBU with his silver hair visible. |
 
 Yugao and Karin are named in dialogue on page 2 and never appear. Obito is named once, on page 20,
 and does not appear in the present tense.
+
+**Five of the gaps above are not in `VOLUME_06.md`'s "New references needed" list and are raised here
+for the first time:** `edo_tensei_coffin`, `gamabunta`, `shinigami`, `env_konoha_kyuubi_night`, and
+the ANBU-era Kakashi state folded into `konoha_anbu`. None of them is invented for effect — each is
+required by a source beat in ch19:45–137. `gamabunta` and `shinigami` are deliberately written as
+silhouette-only stagings so that the reference-gap audit can decline to build them without losing the
+panel; `edo_tensei_coffin` cannot be avoided that way, because it is a focal object seen four times
+in close and medium shot.
 
 **Armour lock (flagged for the chapter reviewer).** Chapter 6 ends with Yugao remarking that Naruto
 has gone back to wearing his armour (ch18:571). Fic ch19:373 has him return to his kitchen "without
