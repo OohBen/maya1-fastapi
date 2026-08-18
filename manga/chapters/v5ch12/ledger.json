@@ -131,5 +131,12 @@
   "size": "2160x3840",
   "cost": 0.047,
   "style_ref": "v03_p170.png"
+ },
+ {
+  "page": "p01",
+  "quality": "high",
+  "size": "2160x3840",
+  "cost": 0.128,
+  "style_ref": "v01_p106.png"
  }
 ]
