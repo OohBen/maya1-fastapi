@@ -131,6 +131,19 @@ KUSHINA_LOCK = (
     "colour, garment or emblem in common. If the two of them appear in the same panel they must "
     "be instantly separable at thumbnail size by hair colour, height and outfit. ")
 
+# p10 is the one image this chapter exists to deliver and the two-person parents sheet failed it:
+# the model took the BLOND half and drew her as a second Naruto. refs/images/kushina.png is a
+# dedicated SINGLE-FIGURE sheet of her — no blond man on it at all — so that page uses it instead.
+KUSHINA_SOLO = (
+    "Image {i} is the SINGLE-FIGURE CHARACTER REFERENCE for the red-haired woman, showing her "
+    "front, three-quarter and back views. She is an ADULT WOMAN whose defining feature is VERY "
+    "LONG STRAIGHT DARK-RED HAIR falling loose past her waist, with two shoulder-length strands "
+    "framing her face and a small clip above one ear. Warm blue-violet eyes, a pale cream "
+    "HIGH-COLLARED long-sleeved blouse, a LONG SEA-GREEN SKIRT to the ankles, dark sandals. "
+    "Reproduce her face, hair, colours and outfit exactly; ignore the sheet's white background "
+    "and its three-view lineup layout. There is NO man anywhere on this sheet and no second "
+    "figure to borrow from. ")
+
 L_SEAL = ("Lighting: warm red-gold seal light rising off shallow black reflective water, soft "
           "reflected glow from below, no sky and no hard exterior shadows. ")
 L_CAMP = ("Lighting: hard cold blue moonlight falling through branches onto dry dark earth, deep "
@@ -353,7 +366,7 @@ PAGES = [
 
  ("p08", dict(scene="emotional_closeup", light="dark", cast="two", mood="somber", panels=6),
   FILL + RTL + N13.format(i=1) + KUSHINA.format(i=2) + ENV_SEAL.format(i=3) + DREAM + BOYSTATE
-  + ONLY(BOY13, KUSHINA_SPEAKER,
+  + FADE_08 + ONLY(BOY13, KUSHINA_SPEAKER,
          "the outline of a swaddled infant appearing ONLY inside one explicitly imagined symbolic "
          "inset in panel 2, drawn as a plain empty outline shape rather than a real baby in a real "
          "room") +
@@ -405,12 +418,23 @@ PAGES = [
         (3, BOY13, "upper right", "I AM ALIVE."),
         (3, KUSHINA_SPEAKER, "below and left of the first balloon", "THAT IS NOT WHAT I SAID."),
         (4, KUSHINA_SPEAKER, "upper right", "YOU COMPLETE ONE OBJECTIVE AND REACH FOR THE NEXT."),
-        (5, KUSHINA_SPEAKER, "upper right", "I WANT YOU TO ENJOY THE LIFE BETWEEN THEM.")),
+        (5, KUSHINA_SPEAKER, "upper right", "I WANT YOU TO ENJOY THE LIFE BETWEEN THEM."))
+  + "PANEL 3 CARRIES TWO BALLOONS AND THEIR ORDER IS THE POINT OF THE PANEL — the statement must "
+    "be read before the rebuttal. Do NOT simply park each balloon above its own speaker. Place "
+    "the boy's balloon \"I AM ALIVE.\" HIGH and at the RIGHT-HAND END of the panel's empty middle "
+    "space, and place the woman's balloon \"THAT IS NOT WHAT I SAID.\" BELOW it and further LEFT, "
+    "clearly lower and clearly further left, so that reading right to left and top to bottom "
+    "delivers \"I AM ALIVE.\" first. Her balloon is never level with his and never further right "
+    "than his. The boy stands at SCREEN-LEFT, so his balloon needs a LONG tail travelling left "
+    "and down to his mouth; the woman stands at SCREEN-RIGHT, so hers needs a LONG tail "
+    "travelling right to her mouth. The two tails cross in the empty middle of the panel — that "
+    "is correct and intended. ",
   R("naruto_13", "minato_kushina", "env_inner_sewer"),
   "medium"),
 
  ("p10", dict(scene="emotional_closeup", light="dark", cast="two", mood="calm", panels=6),
-  FILL + RTL + N13.format(i=1) + KUSHINA.format(i=2) + ENV_SEAL.format(i=3) + DREAM + BOYSTATE
+  FILL + RTL + N13.format(i=1) + KUSHINA_SOLO.format(i=2) + ENV_SEAL.format(i=3) + DREAM
+  + BOYSTATE + KUSHINA_LOCK + FADE_10
   + ONLY(BOY13, KUSHINA_SPEAKER) +
   "SIX panels. The smile has to be earned, small, and specific to this encounter.\n"
   "PANEL 1 (upper-right): medium shot — he looks down-left at their two reflections, shoulders "
@@ -430,14 +454,26 @@ PAGES = [
         (3, KUSHINA_SPEAKER, "upper right", "WHEN SOMETHING MAKES YOU HAPPY, LET IT."),
         (4, KUSHINA_SPEAKER, "upper right", "SMILE WHEN THE SMILE IS YOURS."),
         (5, BOY13, "upper right", "LIKE THIS?"),
-        (6, KUSHINA_SPEAKER, "upper right", "EXACTLY LIKE THAT.")),
-  R("naruto_13", "minato_kushina", "env_inner_sewer"),
+        (6, KUSHINA_SPEAKER, "upper right", "EXACTLY LIKE THAT."))
+  + "THIS PAGE IS THE ONE IMAGE THE CHAPTER EXISTS TO DELIVER, AND PANEL 1 IS WHERE IT PREVIOUSLY "
+    "FAILED. In PANEL 1 there are exactly TWO figures and they must be impossible to confuse. The "
+    "BOY is short, thirteen, with LONG BLOND hair, a BLACK long-sleeved shirt carrying a LARGE "
+    "RED UZUMAKI SPIRAL on the chest, black trousers and black fingerless gloves with small red "
+    "spirals. The WOMAN is an ADULT, a full head TALLER than him, with VERY LONG STRAIGHT "
+    "DARK-RED HAIR past her waist, a PALE CREAM HIGH-COLLARED BLOUSE and a LONG SEA-GREEN SKIRT "
+    "reaching her ankles. She is NOT blond and NOT blond streaked with red; she does NOT wear a "
+    "black shirt; she does NOT wear a red Uzumaki spiral anywhere; she does NOT wear fingerless "
+    "gloves; she does NOT wear trousers; she is NOT a second version of the boy and NOT the same "
+    "height as him. If the panel could be read as two blond children, it is wrong. The PANEL 1 "
+    "balloon \"I DON'T KNOW HOW.\" is the BOY'S: its tail must reach HIS mouth and stop there — "
+    "never end in the empty space between the two figures, and never touch the woman. ",
+  R("naruto_13", "kushina", "env_inner_sewer"),
   "low"),
 
  # ---- Spread 6: remain yourself ---------------------------------------------------------
  ("p11", dict(scene="dialogue", light="dark", cast="two", mood="somber", panels=5),
   FILL + RTL + N13.format(i=1) + KUSHINA.format(i=2) + ENV_SEAL.format(i=3) + DREAM + BOYSTATE
-  + ONLY(BOY13, KUSHINA_SPEAKER) +
+  + FADE_11 + ONLY(BOY13, KUSHINA_SPEAKER) +
   "FIVE panels. She refuses to let her request become an order. Her fading has now reached part of "
   "one forearm; her face, hair and dress remain solid.\n"
   "PANEL 1 (wide upper tier, full width): two-shot — she draws back far enough to watch his smile "
@@ -462,7 +498,7 @@ PAGES = [
 
  ("p12", dict(scene="dialogue", light="dark", cast="two", mood="tense", panels=6),
   FILL + RTL + N13.format(i=1) + KUSHINA.format(i=2) + ENV_SEAL.format(i=3) + DREAM + BOYSTATE
-  + ONLY(BOY13, KUSHINA_SPEAKER,
+  + FADE_12 + ONLY(BOY13, KUSHINA_SPEAKER,
          "an indistinct pale blond reflection lying in the water in panel 6 which NEVER becomes a "
          "person — no face, no features, no body, no cloak detail; it never moves and never "
          "speaks") +
@@ -491,7 +527,7 @@ PAGES = [
  # ---- Spread 7: love without conditions --------------------------------------------------
  ("p13", dict(scene="dialogue", light="dark", cast="two", mood="tense", panels=6),
   FILL + RTL + N13.format(i=1) + KUSHINA.format(i=2) + ENV_SEAL.format(i=3) + DREAM + BOYSTATE
-  + ONLY(BOY13, KUSHINA_SPEAKER,
+  + FADE_13 + ONLY(BOY13, KUSHINA_SPEAKER,
          "an indistinct pale blond reflection lying in the water in panels 1 and 3 which NEVER "
          "becomes a person — no face, no features, no body; it never moves and never speaks") +
   "SIX panels. His anger survives intact and neither of them wins.\n"
@@ -516,7 +552,7 @@ PAGES = [
 
  ("p14", dict(scene="emotional_closeup", light="dark", cast="two", mood="somber", panels=6),
   FILL + RTL + N13.format(i=1) + KUSHINA.format(i=2) + ENV_SEAL.format(i=3) + DREAM + BOYSTATE
-  + ONLY(BOY13, KUSHINA_SPEAKER) +
+  + FADE_14 + ONLY(BOY13, KUSHINA_SPEAKER) +
   "SIX panels. THE CHAPTER'S EMOTIONAL FOCAL PAGE — the encounter ends on the loss he keeps "
   "dreaming. Her balloons stay ORDINARY white speech balloons with clean black outlines: they never "
   "become wavy, ghostly, broken or faded, because this really happened. No balloon may cover her "
