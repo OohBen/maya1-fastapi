@@ -10,7 +10,7 @@ from pypdf.generic import NameObject
 HERE = pathlib.Path(__file__).resolve().parent
 CH = HERE / "chapters"
 OUT = HERE / "volume_05"
-TITLE = "Volume 5 - What Are You?"
+TITLE = "Volume 5 - What We Build"
 MASTER_PDF = "Volume_05.pdf"
 COMPRESSED_PDF = "Volume_05_compressed.pdf"
 COMPRESSED_JPEG_QUALITY = 50
@@ -130,25 +130,29 @@ def main():
         sheet.paste(im.resize((tw, th), Image.LANCZOS), ((i % cols) * tw, (i // cols) * th))
     sheet.save(OUT / "volume_05_contact_sheet.jpg", quality=85)
 
-    md = ["# Volume 5 — *What Are You?*", "",
-          f"**{len(all_pages)} pages across one prologue and {len(rows) - 1} chapters. ${total:.2f} of generation.**", "",
+    md = ["# Volume 5 — *What We Build*", "",
+          f"**{len(all_pages)} pages across {len(rows)} chapters. ${total:.2f} of generation.**", "",
           "`Volume_05.pdf` is the full-quality master. `Volume_05_compressed.pdf` keeps "
-          "the same 1152x2048 page rasters with light JPEG compression for smoother reading. "
+          "the same page rasters with light JPEG compression for smoother reading. "
           "Both PDFs include a nested chapter outline/bookmarks panel.", "",
-          "Bridges the omitted end of fic ch7, then covers ch8-11 from the invasion aftermath through the unresolved blue chakra "
-          "column in Kiri. Hiruzen's death removes Naruto's political buffer; each chapter then "
-          "shows what he takes, reveals, or spends once that restraint is gone.", "",
+          "Covers fic chapters 12-16. Volume 4 ended with Yagura down and an unexplained blue "
+          "chakra column over Kiri; this volume opens in that aftermath and asks what Naruto "
+          "builds with the reputation winning there bought him. Each chapter turns destructive "
+          "power into something that can last - freedom for Kurama, a working bond with Sasuke, "
+          "protection for Karin, a successor state in Oto, a restored clan seat, and a new "
+          "Police Force - while every constructive act also pushes his private power further "
+          "beyond anyone's oversight.", "",
           "| Ch | Title | Pages | Cost | Ends on |", "|---|---|---|---|---|"]
     for cid, title, n, c, ends in rows:
-        label = "P" if cid.endswith("00") else cid[-2:]
-        md.append(f"| {label} | {title} | {n} | ${c:.2f} | {ends} |")
+        md.append(f"| {cid[-2:]} | {title} | {n} | ${c:.2f} | {ends} |")
     md += ["", f"| | **Total** | **{len(all_pages)}** | **${total:.2f}** | |", "",
            "## Notes", "",
-           "- The prologue restores the omitted Sound pursuit, Sasuke/Gaara outcome, Gaara's apology, and Naruto's return without replaying the invasion opening.",
-           "- Naruto refuses Jiraiya and leaves alone; the permission meeting is with his clone.",
-           "- Mei is the rebel leader while Yagura remains the Fourth Mizukage.",
-           "- The post-skip sash sword is new, not the ninjato lost in Volume 3.",
-           "- The final blue chakra column is deliberately left unnamed and unexplained.", ""]
+           "- Kurama is released rather than controlled; the seal is opened by choice, not broken.",
+           "- Kushina appears in the recurring dream and asks him to live as himself, not to complete objectives.",
+           "- Orochimaru dies here and Naruto takes his mask; Guren inherits the rebuilding of Oto.",
+           "- Karin enters Konoha under Naruto's protection, as promised in Volume 3.",
+           "- Naruto claims the Uchiha council seat and stands the Police Force back up.",
+           "- He warns Jiraiya away from Ame - a refusal that is left to pay off later.", ""]
     (OUT / "README.md").write_text("\n".join(md))
     print(f"{len(all_pages)} pages, ${total:.2f} -> {pdf}, {compressed_pdf}")
 
