@@ -77,6 +77,17 @@ TSUKU = ("THIS PAGE TAKES PLACE ENTIRELY INSIDE THE TSUKUYOMI ILLUSION, not in t
 CROWD = ("The Kiri workers and civilians are unnamed and non-recurring, and they wear NO forehead "
          "protectors, NO headband plates and NO village symbols of any kind. ")
 
+# ---- V5 ch03 page-QA gate, chapter-wide locks --------------------------------------------
+# The gate found Kakashi's orange book present on p01, p08 and p11, gone entirely on p09, p13
+# and p15, then open again on p14 where the draft has him closing it. Carried by p09/p13/p15.
+KAK_BOOK = ("The masked silver-haired man carries his orange book in one hand in every panel that "
+            "shows his hands. ")
+# The same gate found Jiraiya's forehead plate alternating between a correct 油, a garbled
+# non-word kanji (p13/p14) and a blank plate (p08/p15). Carried by p01/p08/p13/p14/p15.
+JIR_KANJI = ("The big white-haired man's forehead protector always bears the single kanji 油, drawn "
+             "identically on every panel and every page; never a blank plate and never any other "
+             "character. ")
+
 ENV_STREET = ("Image {i} is the LOCATION REFERENCE for the rebuilding Kiri street beneath the "
               "repaired tower — reuse its architecture, scaffolding, wet stone and colour palette. "
               "The street is under active reconstruction and carries NO battlefield damage. Do not "
@@ -125,7 +136,12 @@ PAGES = [
         (5, MAN, "upper right",
          "GIVE HIM BLACK HAIR AND THE ELDERS WOULD PROBABLY CALL FOR HIS EXECUTION."))
   + "The masked man's mouth is covered by cloth: his balloon tails point at the covered mouth. The "
-    "time card and the chapter marker specified above are the only other text on this page. ",
+    "time card and the chapter marker specified above are the only other text on this page. "
+  + "In EVERY panel of this page the blond teen's visible eye is a BLOOD-RED iris with a black "
+    "pupil and exactly THREE black comma-shaped tomoe — never plain black, never blue, never one "
+    "or two tomoe. His hair is heavy, straight, shoulder-length blond in every panel; it is never "
+    "spiky or jagged. "
+  + JIR_KANJI,
   R("naruto_v4_armor_sword", "sasuke_16", "kakashi", "jiraiya", "kiri_rebel_mob",
     "env_mizukage_tower"), "high"),
 
@@ -162,7 +178,11 @@ PAGES = [
         (5, OFF(BOY16), "upper right", "TSUKUYOMI."))
   + "The PANEL 5 balloon is small and sharp-edged. Its off-panel tail must run to the LOWER-RIGHT "
     "panel border and stop there, pointing down toward the blond teen's mouth below the eye crop. "
-    "It must never touch or point at the eye itself. ",
+    "It must never touch or point at the eye itself. "
+  + "On the middle tier, PANEL 2 (the blond teen speaking) is the RIGHT-hand panel and PANEL 3 "
+    "(the dark-haired teen's silent reaction) is the LEFT-hand panel. In PANEL 5 the balloon's "
+    "tail is a short straight spur running to the LOWER-RIGHT panel border and stopping there; it "
+    "must never touch, cross or point at the eye. ",
   R("naruto_v4_armor_sword", "sasuke_16", "kakashi", "jiraiya", "mangekyo_design",
     "env_mizukage_tower"), "high"),
 
@@ -220,7 +240,10 @@ PAGES = [
         (5, SAS16, "upper right", "THAT WAS WHY I CAME TO YOU AFTER THE EXAMS."),
         (6, BOY16, "upper right", "THEN ANSWER ME AGAIN."))
   + "In PANEL 4 the blond teen is visible at frame right: that balloon's tail runs directly to HIS "
-    "mouth and must not approach the dark-haired teen at frame left. ",
+    "mouth and must not approach the dark-haired teen at frame left. "
+  + "In PANEL 1 the visible eye is a blood-red iris with one black centre ring and exactly SIX "
+    "broad black blades radiating outward — never a plain red disc. He wears the segmented red "
+    "pauldron on BOTH shoulders, matching the reference exactly. ",
   R("naruto_v4_armor_sword", "sasuke_16", "mangekyo_design"), "low"),
 
  # ---- Spread 3: recover what was taken -----------------------------------------------
@@ -248,7 +271,11 @@ PAGES = [
         (5, BOY16, "upper right", "WHEN YOU RETURN, GO TO TSUNADE OR THE COUNCIL."),
         (6, OFF(BOY16), "upper right", "DEMAND EVERYTHING CONFISCATED AFTER THE MASSACRE."))
   + "The PANEL 6 off-panel tail is a short straight spur entering from the panel's RIGHT edge and "
-    "stopping there; it must not touch or aim at the dark-haired teen who is drawn in that panel. ",
+    "stopping there; it must not touch or aim at the dark-haired teen who is drawn in that panel. "
+  + "In PANEL 1 the dark purple gunbai with its Uchiha crest and Uzumaki spiral is clearly "
+    "strapped to his BACK and fully visible in profile. Draw no other object, blade, pouch or "
+    "metallic shape at his hip beyond the plain straight sword in its dark sheath; every piece of "
+    "his armour has a clean unbroken black outline. ",
   R("naruto_v4_armor_sword", "sasuke_16", "mangekyo_design"), "low"),
 
  ("p06", dict(scene="dialogue", light="dark", cast="two", mood="tense", panels=6),
@@ -277,7 +304,9 @@ PAGES = [
         (5, BOY16, "upper right", "WHEN I RETURN, WE BEGIN REBUILDING THE COMPOUND."),
         (6, SAS16, "upper right", "IF THEY REFUSE?"))
   + "The PANEL 3 off-panel tail enters from that panel's UPPER-LEFT border; the PANEL 4 off-panel "
-    "tail enters from that panel's RIGHT edge. Neither may touch or aim at the dark-haired teen. ",
+    "tail enters from that panel's RIGHT edge. Neither may touch or aim at the dark-haired teen. "
+  + "In PANEL 2 the balloon reads exactly ALL OF IT. — three words, and the word OF appears "
+    "exactly once. ",
   R("naruto_v4_armor_sword", "sasuke_16", "mangekyo_design"), "low"),
 
  # ---- Spread 4: an unfamiliar "we" ---------------------------------------------------
@@ -335,7 +364,14 @@ PAGES = [
         (6, SAGE, "upper right", "WHERE ARE YOU GOING?"))
   + "In PANEL 6 the white-haired man stands at frame LEFT while the balloon sits at the upper "
     "right: draw a long clear tail crossing to HIS visible mouth at the left, passing clear of the "
-    "blond teen and the dark-haired teen, whose mouths are closed in that panel. ",
+    "blond teen and the dark-haired teen, whose mouths are closed in that panel. "
+  + "From PANEL 2 onward the blond teen stands at reader-RIGHT facing LEFT and the dark-haired "
+    "teen, masked man and white-haired man are at reader-LEFT. PANEL 2 is a tight close-up of the "
+    "blond teen's eye in which the six-bladed pattern visibly contracts back into three comma "
+    "tomoe. In PANEL 3 the masked man's orange book is CLOSED and held down at his side. In PANEL "
+    "4 the balloon's tail runs to the BLOND TEEN'S mouth at frame right and must not point at the "
+    "masked man. "
+  + JIR_KANJI,
   R("naruto_v4_armor_sword", "sasuke_16", "kakashi", "jiraiya", "mangekyo_design",
     "env_mizukage_tower"), "low"),
 
@@ -365,7 +401,11 @@ PAGES = [
         (3, MAN, "upper right", "AREN'T YOU COMING BACK TO KONOHA WITH US?"),
         (4, BOY16, "upper right", "NO."),
         (5, SAGE, "upper right", "WHAT BUSINESS?"),
-        (6, BOY16, "upper right", "YOU'RE INTERROGATING ME, JIRAIYA. I DON'T LIKE IT.")),
+        (6, BOY16, "upper right", "YOU'RE INTERROGATING ME, JIRAIYA. I DON'T LIKE IT."))
+  + "Do not stack two panels in one column beside a tall panel. Lay the middle out as three equal "
+    "tiers or as PANEL 3 right / PANEL 4 left on one tier and PANEL 5 as a band beneath, so the "
+    "reading runs 3, 4, 5 in strict right-to-left, top-to-bottom order. "
+  + KAK_BOOK,
   R("naruto_v4_armor_sword", "jiraiya", "kakashi", "sasuke_16", "env_mizukage_tower"), "low"),
 
  ("p10", dict(scene="dialogue", light="day", cast="small_group", mood="tense", panels=6),
@@ -397,7 +437,11 @@ PAGES = [
         (4, BOY16, "upper right", "YOUR ORDERS DO NOT MATTER TO ME."),
         (5, BOY16, "upper right", "TELL THEM YOU FAILED."))
   + "The PANEL 3 off-panel tail exits the LOWER-RIGHT panel border and stops there, pointing down "
-    "toward the blond teen's mouth below the forehead-protector crop. ",
+    "toward the blond teen's mouth below the forehead-protector crop. "
+  + "The purple-haired kunoichi appears in PANEL 6 ONLY, dropping from the upper-right roofline. "
+    "She must NOT be drawn, even partly or in the background, in PANELS 1, 2, 3, 4 or 5; in those "
+    "panels the only people are the blond teen, the big white-haired man, the masked "
+    "silver-haired man and the dark-haired teen. ",
   R("naruto_v4_armor_sword", "jiraiya", "kakashi", "sasuke_16", "yugao_v4",
     "env_mizukage_tower"), "low"),
 
@@ -429,7 +473,10 @@ PAGES = [
         (4, MAN, "upper right", "WHAT ARE YOU DOING HERE?"),
         (5, YUG, "upper right", "LONG STORY."),
         (6, SAGE, "upper right", "UZUKI YUGAO. YOU'VE BEEN MISSING FOR A MONTH."),
-        (7, YUG, "upper right", "I'LL EXPLAIN LATER.")),
+        (7, YUG, "upper right", "I'LL EXPLAIN LATER."))
+  + "Place PANEL 3, the embrace, as a wide band directly BELOW panels 1 and 2, with PANEL 4 "
+    "beginning the next tier at the right. The embrace must be read before panel 4, never after "
+    "it. ",
   R("naruto_v4_armor_sword", "yugao_v4", "kakashi", "jiraiya", "sasuke_16",
     "env_mizukage_tower"), "medium"),
 
@@ -463,7 +510,10 @@ PAGES = [
         (7, OFF(YUG), "upper right", "AND YOU CANNOT FORCE HIM."))
   + "Both PANEL 4 balloons belong to the white-haired man and both tails run to HIS mouth. The "
     "PANEL 7 off-panel tail enters from that panel's RIGHT edge and stops there; it must not touch "
-    "or aim at the white-haired man's face, which fills that panel. ",
+    "or aim at the white-haired man's face, which fills that panel. "
+  + "Strict right-to-left ordering on every tier: PANEL 2 occupies the RIGHT of its tier and "
+    "PANEL 3 the LEFT; PANEL 4 occupies the RIGHT of its tier and PANEL 5 the LEFT. The "
+    "lower-numbered panel is always the right-hand panel of its tier. ",
   R("naruto_v4_armor_sword", "yugao_v4", "jiraiya", "kakashi", "env_mizukage_tower"), "low"),
 
  # ---- Spread 7: change the question --------------------------------------------------
@@ -499,7 +549,13 @@ PAGES = [
         (5, YUG, "upper right", "NO ONE MAKES HIM DO WHAT HE DOESN'T WANT."),
         (6, YUG, "upper right", "YOU SPENT TIME WITH HIM AS A GENIN. YOU KNOW THAT."))
   + "The PANEL 4 off-panel tail enters from that panel's LEFT edge and stops there; it must not "
-    "touch or aim at the blond teen's face, which fills that panel. ",
+    "touch or aim at the blond teen's face, which fills that panel. "
+  + "PANEL 4 occupies the RIGHT of its tier and PANEL 5 the LEFT. In PANEL 3 the orange armoured "
+    "warrior sits inside a hard ragged-edged remembered inset, flat and desaturated, clearly "
+    "separated from the present-day foreground; it is a memory image only and must never look "
+    "present in the Kiri street. "
+  + KAK_BOOK
+  + JIR_KANJI,
   R("naruto_v4_armor_sword", "yugao_v4", "jiraiya", "kakashi", "sasuke_16",
     "susanoo_orange_final", "env_mizukage_tower"), "medium"),
 
@@ -531,7 +587,12 @@ PAGES = [
         (6, SAGE, "upper right", "WHAT IS THIS I HEARD ABOUT THE NINE-TAILS?"))
   + "In PANEL 6 the balloon sits at the upper right while the white-haired man occupies the "
     "foreground at the LEFT: draw a firm tail crossing to HIS mouth, clear of the blond teen behind "
-    "him, whose mouth is closed in that panel. ",
+    "him, whose mouth is closed in that panel. "
+  + "Lay the lower half of the page out as: PANEL 4 (small) at the upper RIGHT, PANEL 5 (medium) "
+    "directly to its LEFT on the same tier, and PANEL 6 as one dominant full-width band BELOW "
+    "them both. Panel 6 must never sit to the right of panels 4 and 5. In PANEL 1 he is CLOSING "
+    "the orange book with one hand — the covers are shut, not open and not being read. "
+  + JIR_KANJI,
   R("naruto_v4_armor_sword", "jiraiya", "kakashi", "sasuke_16", "yugao_v4",
     "env_mizukage_tower"), "low"),
 
@@ -559,7 +620,9 @@ PAGES = [
         (2, SAGE, "upper right", "DON'T PLAY STUPID WITH ME."),
         (5, SAGE, "upper right", "YOU KNOW EXACTLY WHAT I'M ASKING."))
   + "In PANEL 5 the white-haired man stands at the LEFT: draw a long clear tail from the upper "
-    "right balloon to HIS mouth, passing clear of the three figures staggered between them. ",
+    "right balloon to HIS mouth, passing clear of the three figures staggered between them. "
+  + KAK_BOOK
+  + JIR_KANJI,
   R("naruto_v4_armor_sword", "jiraiya", "sasuke_16", "kakashi", "yugao_v4",
     "env_mizukage_tower"), "low"),
 

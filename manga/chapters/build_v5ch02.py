@@ -54,6 +54,24 @@ CROWD = ("The Kiri workers, shinobi, civilians and children are unnamed and non-
 NOWRITE = ("Every scrap of paperwork, every document, every banner and every sign anywhere on this "
            "page carries ILLEGIBLE SCRIBBLE, not readable words. ")
 
+# ---- V5 ch02 page-QA gate, chapter-wide locks --------------------------------------------
+# The gate found a hard style seam: pp.01-03 are flat cel colour with white gutters, and from
+# p04 every page switches to screentone, cross-hatch, ink-wash, sepia grading and beige
+# gutters, so the chapter reads as two different books. Carried by p04-p16.
+FLATCEL = ("Render in FLAT CEL COLOUR with clean black brush linework and pure WHITE gutters: no "
+           "screentone dots, no cross-hatching, no ink-wash or watercolour bleeding, no sepia or "
+           "beige paper tint anywhere on the page. ")
+# The same gate found Kiri drawn as six different cities (cylindrical towers, a grey pagoda
+# cluster, a blue-roofed pagoda town, a white stone coastal city, a walled European lakeside
+# town, a tiered stone complex), so the reader cannot believe it is one village.
+SKYLINE = ("Kiri's skyline is the SAME city on every page of this chapter: tall cylindrical grey "
+           "mist-village towers with rounded caps, wrapped in bamboo scaffolding, on wet stone. Do "
+           "not substitute pagodas, castle keeps, spires or a walled European town. ")
+# And the gunbai is on his back on p05, p08 P8 and p10-p16 but vanished on p04, p06 and p08 P1.
+GUNBAI = ("The dark purple gunbai with its chain is strapped to the blond teen's BACK and must be "
+          "visible rising above his shoulder in every panel that shows him from the front, side or "
+          "back on this page. ")
+
 ENV_ROOM = ("Image {i} is the LOCATION REFERENCE for the plain rented Kiri lodging room — reuse its "
             "walls, window, floorboards, simple furniture and colour palette. Do not copy its "
             "camera angle; ignore that it is empty of people. ")
@@ -106,7 +124,10 @@ PAGES = [
         (6, BOY16, "upper left", "AN OBSERVATION."))
   + "In PANEL 2 the balloon belongs to the BLOND TEEN, whose head is visible at the lower left of "
     "that panel: its tail must run down-left to HIS mouth and must not point at the kunoichi, whose "
-    "mouth is closed there. The chapter marker specified above is the only other text on this page. ",
+    "mouth is closed there. The chapter marker specified above is the only other text on this page. "
+  + "In PANEL 2 extend the balloon's tail down-LEFT until it touches the BLOND TEEN'S mouth at "
+    "the lower left of the panel; it must not stop in mid-air and must not point rightward or at "
+    "the kunoichi. ",
   R("naruto_v4_black", "yugao_v4", "naruto_v4_armor", "env_shinobi_apartment"), "high"),
 
  ("p02", dict(scene="dialogue", light="dark", cast="two", mood="tense", panels=7),
@@ -135,7 +156,11 @@ PAGES = [
         (3, YUG, "upper left", "THEN I CAME TO SEE YOU."),
         (4, BOY16, "upper right", "YOU SEEK ME OUT WHENEVER I AM ALONE."),
         (6, BOY16, "upper centre", "ARE YOU INTERESTED IN ME, YUGAO?"),
-        (7, YUG, "upper left", "WHEN ARE WE LEAVING KIRI?")),
+        (7, YUG, "upper left", "WHEN ARE WE LEAVING KIRI?"))
+  + "In PANEL 5 the hand is the PURPLE-HAIRED KUNOICHI'S: draw a dark NAVY-BLUE sleeve cuff and "
+    "her mesh-backed dark navy glove, and include one long strand of her PURPLE hair falling "
+    "across the wrist so the hand is unmistakably hers and never the blond teen's black-sleeved "
+    "black-gloved hand. ",
   R("naruto_v4_black", "yugao_v4", "env_shinobi_apartment"), "low"),
 
  # ---- Spread 2: other business, then governing ---------------------------------------
@@ -169,7 +194,12 @@ PAGES = [
         (6, BOY16, "upper left", "WHY?"),
         (7, YUG, "upper right", "I SHOULD LET YOU REST."),
         (7, BOY16, "lower left", "THAT WAS NOT AN ANSWER."),
-        (8, YUG, "upper left", "NEITHER WAS YOURS.")),
+        (8, YUG, "upper left", "NEITHER WAS YOURS."))
+  + "This is the SAME small bedroom as the two previous pages: the bed against the wall with the "
+    "teen sitting on it, one chair, one window. There is NO sofa, NO armchair, NO coffee table "
+    "and NO dining furniture anywhere on this page. In PANELS 1 and 2 the balloons belong to the "
+    "BLOND TEEN: each tail must run to HIS mouth at frame right and must not touch, overlap or "
+    "aim at the purple-haired kunoichi. ",
   R("naruto_v4_black", "yugao_v4", "env_shinobi_apartment"), "low"),
 
  ("p04", dict(scene="dialogue", light="day", cast="two", mood="calm", panels=6),
@@ -197,7 +227,13 @@ PAGES = [
         (5, MEI, "upper centre", "THIS WAS NOT IN THE SPEECH."),
         (6, BOY16, "upper left", "DELEGATE."))
   + "In PANEL 2 her face is turned sideways against the bedspread: the balloon's tail must reach "
-    "HER turned mouth and must not point at the teen in the doorway. ",
+    "HER turned mouth and must not point at the teen in the doorway. "
+  + "In PANEL 2 the auburn-haired woman is ONE single body: exactly one head with one topknot, "
+    "exactly two arms and two hands of normal size, and exactly two legs. Draw her lying "
+    "face-down diagonally with head at frame left and feet at frame right; no limb, hand or head "
+    "may be duplicated, doubled or overlapped with a second copy of itself. "
+  + GUNBAI
+  + FLATCEL,
   R("mei_v4", "naruto_v4_armor", "env_shinobi_apartment"), "low"),
 
  # ---- Spread 3: support, then public gratitude ---------------------------------------
@@ -226,7 +262,13 @@ PAGES = [
         (4, BOY16, "upper left", "DO NOT BECOME ACCUSTOMED TO IT."),
         (5, MEI, "upper right", "STAY. LET ME ENJOY THE MOMENT."),
         (6, BOY16, "upper right", "I WAS LEAVING."),
-        (6, MEI, "lower left", "OF COURSE YOU WERE.")),
+        (6, MEI, "lower left", "OF COURSE YOU WERE."))
+  + "In PANEL 2 the balloon belongs to the BLOND TEEN at frame right: its tail runs down-RIGHT to "
+    "HIS mouth and must not point at the auburn-haired woman. In PANEL 5 place the balloon fully "
+    "inside the panel border and draw a long tail reaching the AUBURN-HAIRED WOMAN'S mouth at "
+    "frame left. His red armour in PANEL 5 is flat, clean, even bright red with no scorch marks, "
+    "no soot, no dark mottling and no staining of any kind. "
+  + FLATCEL,
   R("mei_v4", "naruto_v4_armor", "env_shinobi_apartment"), "low"),
 
  ("p06", dict(scene="establishing", light="day", cast="crowd", mood="calm", panels=6),
@@ -253,7 +295,10 @@ PAGES = [
         (3, MEI, "upper centre", "BECAUSE THEY LOVE YOU."),
         (4, BOY16, "upper left", "THEY ARE GRATEFUL."),
         (5, MEI, "upper right", "THAT IS OFTEN HOW LOVE BEGINS."),
-        (6, BOY16, "upper left", "THEN IT IS IMPRECISE.")),
+        (6, BOY16, "upper left", "THEN IT IS IMPRECISE."))
+  + GUNBAI
+  + SKYLINE
+  + FLATCEL,
   R("naruto_v4_armor", "mei_v4", "kiri_rebel_mob", "env_mizukage_tower"), "medium"),
 
  # ---- Spread 4: construction, departure, destination ---------------------------------
@@ -286,7 +331,10 @@ PAGES = [
   + "In PANEL 1 the balloon belongs to the AUBURN-HAIRED WOMAN standing small at the bottom centre "
     "of the panel: draw a long clear tail that reaches all the way down to HER mouth without "
     "touching either scaffold worker. In PANEL 2 nobody is drawn, so the balloon's tail is a short "
-    "straight spur to the panel's right border. ",
+    "straight spur to the panel's right border. "
+  + "In PANEL 5 the balloon reads exactly YOU MAKE MERCY SOUND LIKE ENGINEERING. — spell "
+    "ENGINEERING as one unbroken word with no hyphen, colon, dash or any other mark inside it. "
+  + FLATCEL,
   R("naruto_v4_armor", "mei_v4", "kiri_rebel_mob", "env_mizukage_tower"), "medium"),
 
  ("p08", dict(scene="dialogue", light="day", cast="two", mood="calm", panels=8),
@@ -316,7 +364,15 @@ PAGES = [
         (5, MEI, "upper centre", "WHAT WILL YOU DO THERE?"),
         (6, BOY16, "upper left", "OTHER BUSINESS."),
         (8, MEI, "upper right", "YOU ANSWER LOCATIONS MORE EASILY THAN MOTIVES."),
-        (8, BOY16, "lower left", "LOCATIONS ARE SIMPLER.")),
+        (8, BOY16, "lower left", "LOCATIONS ARE SIMPLER."))
+  + "In PANEL 8 draw a clear tail from the lower-left balloon running right to the BLOND TEEN'S "
+    "mouth, and draw the auburn-haired woman lowering herself smoothly toward a seated position "
+    "with an upright spine — not bent double or off balance. In PANEL 1 the tail runs right to "
+    "the AUBURN-HAIRED WOMAN'S mouth. His visible eye is a plain ORDINARY BLUE on every panel: "
+    "never teal, green or grey. "
+  + GUNBAI
+  + SKYLINE
+  + FLATCEL,
   R("naruto_v4_armor", "mei_v4", "env_mizukage_tower", "env_kiri_moonlit_hill"), "low"),
 
  # ---- Spread 5: battle as dance, then whose peace ------------------------------------
@@ -349,7 +405,8 @@ PAGES = [
         (4, BOY16, "upper left",
          "THE BATTLEFIELD OFFERS ME A CHANCE TO DANCE. THIS PLACE OFFERS PEACE."),
         (5, MEI, "upper right", "THEN CHANGE MORE."),
-        (6, BOY16, "upper left", "BE PRECISE.")),
+        (6, BOY16, "upper left", "BE PRECISE."))
+  + FLATCEL,
   R("naruto_v4_armor", "mei_v4", "susanoo_orange_final", "env_kiri_moonlit_hill"), "low"),
 
  ("p10", dict(scene="dialogue", light="overcast", cast="two", mood="tense", panels=6),
@@ -376,7 +433,8 @@ PAGES = [
         (4, MEI, "upper centre", "EVERYONE."),
         (5, BOY16, "upper left", "EVERYONE WANTS A DIFFERENT PEACE."),
         (6, MEI, "upper left",
-         "THEN BEGIN WITH ONE THAT DOES NOT BURY CHILDREN FOR THEIR BLOOD.")),
+         "THEN BEGIN WITH ONE THAT DOES NOT BURY CHILDREN FOR THEIR BLOOD."))
+  + FLATCEL,
   R("naruto_v4_armor", "mei_v4", "kiri_rebel_mob", "env_kiri_moonlit_hill"), "low"),
 
  # ---- Spread 6: reasons and the strong who watched -----------------------------------
@@ -408,7 +466,13 @@ PAGES = [
         (5, BOY16, "upper right", "YOU HAD A REASON."),
         (5, MEI, "lower left", "SO DO YOU."))
   + "In PANEL 4 the balloon belongs to the PRESENT-DAY woman in the foreground silhouette, not to "
-    "anyone inside the remembered image behind her: its tail must reach her foreground mouth. ",
+    "anyone inside the remembered image behind her: its tail must reach her foreground mouth. "
+  + "In PANEL 4 the remembered figures are KIRI REBELS ONLY: dark blue-grey mist-shinobi wraps "
+    "and vests, NO green flak jackets, NO forehead protectors, NO Leaf plates, and no bearded or "
+    "otherwise distinctive recurring face. Draw the whole remembered area inside a hard "
+    "ragged-edged inset, flat and heavily desaturated to grey-blue, showing a burned KIRI STREET "
+    "— never the present-day hill, grass or isolated tree. "
+  + FLATCEL,
   R("naruto_v4_armor", "mei_v4", "kiri_rebel_mob", "env_kiri_moonlit_hill"), "medium"),
 
  ("p12", dict(scene="dialogue", light="overcast", cast="two", mood="tense", panels=5),
@@ -429,7 +493,9 @@ PAGES = [
         (3, BOY16, "upper right", "WHAT DID KONOHA'S REFUSAL TEACH YOU?"),
         (4, MEI, "upper right", "THAT GOOD MEN CAN WATCH EVIL WHEN HELPING IS INCONVENIENT."),
         (5, BOY16, "upper left",
-         "AND NOW YOU WANT ANOTHER STRONG MAN TO PROMISE HE WILL ALWAYS HELP.")),
+         "AND NOW YOU WANT ANOTHER STRONG MAN TO PROMISE HE WILL ALWAYS HELP."))
+  + SKYLINE
+  + FLATCEL,
   R("naruto_v4_armor", "mei_v4", "env_kiri_moonlit_hill"), "low"),
 
  # ---- Spread 7: consequences and the limit of possession -----------------------------
@@ -461,7 +527,12 @@ PAGES = [
          "YOU CROSSED AN OCEAN AND ENDED A WAR YOU CALLED NONE OF YOUR BUSINESS."),
         (6, BOY16, "upper left", "FOR MY OWN REASONS."))
   + "In PANEL 5 both figures are tiny: draw a long clear tail from the balloon down to the "
-    "AUBURN-HAIRED WOMAN'S small figure, clear of the blond teen beside her. ",
+    "AUBURN-HAIRED WOMAN'S small figure, clear of the blond teen beside her. "
+  + "In PANEL 1 draw a long, thin, clearly separated tail from the balloon all the way across to "
+    "the AUBURN-HAIRED WOMAN at frame left; the tail must pass clear of the blond teen and must "
+    "never touch his head, hair or shoulder. "
+  + SKYLINE
+  + FLATCEL,
   R("naruto_v4_armor", "mei_v4", "kiri_rebel_mob", "env_kiri_moonlit_hill",
     "env_mizukage_tower"), "medium"),
 
@@ -483,7 +554,8 @@ PAGES = [
         (3, BOY16, "upper centre", "IF EVIL TOUCHES WHAT IS MINE, I REMOVE IT."),
         (4, MEI, "upper left", "AND EVERYONE ELSE?"),
         (5, BOY16, "upper right", "BUILD STRENGTH."),
-        (6, MEI, "upper left", "CHILDREN TOO?")),
+        (6, MEI, "upper left", "CHILDREN TOO?"))
+  + FLATCEL,
   R("naruto_v4_armor", "mei_v4", "env_kiri_moonlit_hill"), "low"),
 
  # ---- Spread 8: choice without a cage ------------------------------------------------
@@ -512,7 +584,13 @@ PAGES = [
         (6, MEI, "upper centre", "THEN CHOOSE PEACE."),
         (7, BOY16, "upper left",
          "NOT BY CHOOSING FOR EVERYONE. A PEACE THAT TAKES THEIR CHOICE IS ANOTHER CAGE."),
-        (7, OFF(MEI), "lower left", "AND TODAY?")),
+        (7, OFF(MEI), "lower left", "AND TODAY?"))
+  + "PANEL 7 stays on the OPEN TRAINING GROUND: no forest, no standing tree trunks around him — "
+    "only flat vertical tree-SHADOW stripes cast across bare grass behind his shoulders. The "
+    "village in PANEL 1 is Kiri: cylindrical grey mist-village towers under scaffolding, no "
+    "European walls, spires or clock towers. "
+  + SKYLINE
+  + FLATCEL,
   R("naruto_v4_armor", "mei_v4", "env_kiri_moonlit_hill"), "low"),
 
  ("p16", dict(scene="establishing", light="overcast", cast="crowd", mood="calm", panels=7),
@@ -550,7 +628,15 @@ PAGES = [
   + "PANEL 3 carries three balloons whose tails cross the panel: the upper right balloon and the "
     "lower centre balloon both tail LEFT to the auburn-haired woman at the far left edge, and the "
     "upper left balloon tails RIGHT to the blond teen at the far right edge. Draw the three tails "
-    "long, thin and clearly separated so no tail can be read as belonging to the nearer figure. ",
+    "long, thin and clearly separated so no tail can be read as belonging to the nearer figure. "
+  + "In PANEL 3, the balloon reading BECAUSE YOU CHOSE TO DANCE. must sit in the UPPER RIGHT of "
+    "the panel with a long tail crossing left to the auburn-haired woman, and the balloon reading "
+    "BECAUSE YOU CHOSE TO LEAD. must sit in the UPPER LEFT with a long tail crossing right to the "
+    "blond teen; do not swap these two positions. In PANEL 7 write CONVERSATIONS on one line, "
+    "unbroken and unhyphenated, and keep her hair in its high braided topknot on every panel of "
+    "this page. "
+  + SKYLINE
+  + FLATCEL,
   R("naruto_v4_armor", "mei_v4", "kiri_rebel_mob", "env_kiri_moonlit_hill",
     "env_mizukage_tower"), "high"),
 ]

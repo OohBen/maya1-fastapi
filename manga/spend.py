@@ -1,9 +1,12 @@
 """Total Replicate spend across every chapter ledger, with budget remaining."""
 import json, pathlib, sys
 BUDGET = float(sys.argv[1]) if len(sys.argv) > 1 else 26.0
+# Resolve against this file, not the cwd: running it from the repo root used to glob nothing
+# and report a confident $0.00 spent.
+HERE = pathlib.Path(__file__).resolve().parent
 tot = 0.0
 rows = []
-for f in sorted(pathlib.Path("chapters").glob("v5ch*/ledger.json")):
+for f in sorted((HERE / "chapters").glob("v5ch*/ledger.json")):
     v = sum(r.get("cost", 0) or 0 for r in json.load(f.open()))
     tot += v
     pages = len(list((f.parent / "raw").glob("p*.png")))

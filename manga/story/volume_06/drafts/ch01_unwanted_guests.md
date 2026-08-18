@@ -4,7 +4,7 @@
 and stops before the ch17:149 time card ("Later that day"). No part of ch16 is re-adapted and no
 part of the date is used here.
 
-**Length:** 14 pages, seven spreads, 81 panels, 78 balloons plus one chapter marker.
+**Length:** 14 pages, seven spreads, 81 panels, 79 balloons plus one chapter marker.
 
 **Status:** final dialogue and executable textual `name`; ready for independent source and
 context-clean writing review, not for builder, reference work, or final art.
@@ -87,8 +87,9 @@ spread 2 panel 1 and never reappears. The two men do not look at each other unti
 sentiment, and end on the one word that states his plan without explaining it.
 
 1. **Right strip, x=62–100 y=0–100; extreme-wide vertical, high angle.** Cast/blocking: Naruto sits
-   small at lower right on the crown of the Yondaime's carved stone head, back three-quarters to the
-   reader, facing left over Konoha; morning haze fills the middle distance; nothing else moves.
+   small at lower right on the bare stone ledge that runs along the top of the monument cliff, well to
+   the side of the carved heads and on none of them, back three-quarters to the reader, facing left
+   over Konoha; morning haze fills the middle distance; nothing else moves.
    Protect x=66–96 y=4–30 as plain pale sky: no figure, cloud, bird, texture, effect, or balloon may
    enter this lettering-safe negative space. **TITLE1** centred in that protected area:
    "CHAPTER 1 — UNWANTED GUESTS". Tail-less chapter marker.
@@ -123,7 +124,7 @@ Kakashi in as an interruption rather than an arrival.
    frame right while his body still faces left. **B4** upper left, tail-less thought balloon:
    "KAKASHI."
 5. **Bottom right, x=51–100 y=67–100; medium-long.** Cast/blocking: Kakashi walks in from the far
-   right along the monument crown, moving left, one hand in his pocket and an orange book in the
+   right along the clifftop ledge, moving left, one hand in his pocket and an orange book in the
    other; Naruto is seated at the far left edge, unmoving. **B1 continues numbering — use B5** upper
    right, Kakashi: "THE VIEW IS QUITE LOVELY FROM HERE." Tail points to visible Kakashi's mouth.
 6. **Bottom left, x=0–47 y=67–100; close-up.** Cast/blocking: Naruto faces left, eyes forward over
@@ -209,7 +210,7 @@ loud so Naruto can take it apart.
 3. **Top left, x=0–31 y=0–27; close-up.** Cast/blocking: Kakashi faces left; the eye goes flat and
    the crease under it deepens. No text.
 4. **Middle band focal panel, x=0–100 y=31–61; wide, low horizon.** Cast/blocking: both men sit
-   small at upper centre on the stone crown, Naruto left and Kakashi right, with Konoha enormous
+   small at upper centre on the clifftop ledge, Naruto left and Kakashi right, with Konoha enormous
    below and behind them; neither looks at the other. **B3** upper right, Kakashi: "BEFORE I CAME UP
    HERE I ASKED MYSELF WHY I KEEP TRYING." Tail descends to visible Kakashi's small figure.
    **B4** lower left, Kakashi: "YOU DO NOT CALL SENSEI YOUR FATHER. YOU DO NOT WANT FRIENDS." Tail
@@ -250,8 +251,8 @@ tells the reader Naruto has decided to reply.
 
 **Source anchor:** ch17:63–87.
 
-**Spread focal panel:** page 7, panel 5 — the carved stone face of the Yondaime with Naruto tiny at
-its crown, dismissing it.
+**Spread focal panel:** page 7, panel 5 — the carved stone face of the Yondaime with Naruto tiny on
+the clifftop beside it, refusing to sit on it.
 
 #### Page 7 — 6 panels
 
@@ -274,9 +275,9 @@ the Minato dismissal a picture rather than a line.
    mouth.
 5. **Bottom right focal panel, x=51–100 y=66–100; extreme-wide low angle from below the cliff.**
    Cast/blocking: the carved stone face of the Yondaime fills the frame from below, weathered and
-   enormous; Naruto is a very small seated figure on its crown at upper right, facing away from the
-   face he is sitting on. **B6** upper right, Naruto: "A DEAD MAN IS NOT WORTH THE TIME." `OFF`, tail
-   rises toward Naruto's small figure at the crown.
+   enormous; Naruto is a very small seated figure on the clifftop ledge at upper right, clearly
+   beside the head and not on it, facing away from it. **B6** upper right, Naruto: "A DEAD MAN IS NOT WORTH THE TIME." `OFF`, tail
+   rises toward Naruto's small figure on the ledge.
 6. **Bottom left, x=0–47 y=66–100; close-up.** Cast/blocking: Naruto faces right, eyes on Kakashi.
    **B7** upper left, Naruto: "WHAT DO I FEEL WHEN THE VILLAGERS SMILE AT ME?" Tail points to visible
    Naruto's mouth.
@@ -361,7 +362,7 @@ account on Naruto's terms.
    Naruto: "STAY AWAY, KAKASHI." Tail points to visible Naruto's mouth. **B6** lower right, Naruto:
    "I HAVE NO NEED FOR TRIVIAL THINGS AS FRIENDSHIP." Tail points to the same visible mouth.
 6. **Bottom left, x=0–47 y=66–100; medium of empty stone.** Cast/blocking: the patch of monument
-   crown where Kakashi stood is empty; a small dispersing swirl of leaves is the only trace, and
+   ledge where Kakashi stood is empty; a small dispersing swirl of leaves is the only trace, and
    Naruto is not in frame. **SFX** small, at the swirl: "FWSH". **B7** upper left, Naruto: "GO. YOU
    HAVE DISTURBED ENOUGH OF MY PEACE." `OFF`, tail exits the right edge toward Naruto.
 
@@ -378,7 +379,7 @@ account on Naruto's terms.
 **Purpose:** Reveal that the entire conversation had a witness, and establish that Naruto's most
 useful ally is one he cannot detect.
 
-1. **Top band, x=0–100 y=0–30; wide.** Cast/blocking: Naruto alone at centre-left on the stone crown,
+1. **Top band, x=0–100 y=0–30; wide.** Cast/blocking: Naruto alone at centre-left on the clifftop ledge,
    facing left, the sky filling the upper two thirds; nothing else in frame. No text.
 2. **Middle right, x=68–100 y=34–62; medium.** Cast/blocking: a white half-figure rises out of the
    solid stone at frame right beside Naruto — Zetsu, head and one shoulder clear of the rock, facing
@@ -481,7 +482,7 @@ out his hand for a drug.
 
 ## Dialogue QA
 
-- 78 balloons and one chapter marker across 14 pages; the marker is exactly
+- 79 balloons and one chapter marker across 14 pages; the marker is exactly
   "CHAPTER 1 — UNWANTED GUESTS". Balloon numbering restarts and stays contiguous on every page.
 - Density is deliberately uneven: pages 1 and 2 carry one to five short thought balloons over five
   silent or near-silent panels; pages 3, 7, 8 and 10 run seven balloons of hard two-man exchange;
@@ -507,6 +508,9 @@ out his hand for a drug.
   red. Page 12 panels 3–5 are the proof, and no later panel contradicts them.
 - Naruto wears plain black, **no forehead protector, no gloves, no armour, no Gunbai, no sword.**
   The lost V3 ninjato is not replaced.
+- **Naruto never sits on the Yondaime's carved head.** The series bible records that he stopped doing
+  so. He is on the bare clifftop ledge beside the heads on pages 1, 3, 5, 7, 9, 11 and 14, and page 7
+  panel 5 must read unambiguously as him seated *next to* the stone face and not on it.
 - Kakashi's book is visible on page 2 panel 5 and put away on page 3 panel 1; it never returns.
 - The chapter axis is fixed after page 3 panel 1: Naruto left, Kakashi right, the village below and
   to the left. The two men do not look at each other until page 7 panel 1, and Kakashi turns to
