@@ -23,7 +23,7 @@ HERE = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent))
 sys.path.insert(0, str(HERE))
 from runner import run  # noqa: E402
-from prompts import CAP, FILL, OFF, ONLY, R, SAY  # noqa: E402
+from prompts import FILL, OFF, ONLY, R, SAY  # noqa: E402
 from prompts_v4 import (KIRI_REBELS, MEI_V4, N16_ARMOR, N16_BLACK, SUSA_FINAL,  # noqa: E402
                         YUGAO_V4, MEI_V4_SPEAKER, N16_SPEAKER, YUGAO_V4_SPEAKER)
 

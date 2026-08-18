@@ -559,7 +559,7 @@ PAGES = [
  # ---- Spread 8: what the fox left behind ---------------------------------------------
  ("p15", dict(scene="dialogue", light="dark", cast="two", mood="somber", panels=6),
   FILL + RTL + N16_BLACK.format(i=1) + ZET.format(i=2)
-  + ONLY(BOY, WZ, BZ) + YOUNGER + FLAT + NOEYE + NOBLOOD +
+  + ONLY(BOY, ZETSU, WZ, BZ) + YOUNGER + FLAT + NOEYE + NOBLOOD +
   "SIX panels. Two separate reasons the boy has a chance to live, without any instant recovery.\n"
   "THIS PAGE IS INSIDE A NARROW SHELTERED BASALT FISSURE: dark rock walls close on both sides, no "
   "sky, no volcano and no caldera view.\n"
