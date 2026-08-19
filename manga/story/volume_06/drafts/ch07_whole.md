@@ -4,7 +4,7 @@
 Dragon Land and ends at ch19:207, on Kurama glaring at the empty rock. The council chamber
 (ch19:209 onward) belongs to Chapter 8 and no part of it appears here.
 
-**Length:** 20 pages, ten spreads, 125 panels, 94 balloons plus one chapter marker, two location
+**Length:** 20 pages, ten spreads, 125 panels, 147 balloons plus one chapter marker, two location
 cards, and eight SFX units.
 
 **Status:** final dialogue and executable textual `name`; ready for independent source and
@@ -147,11 +147,13 @@ and let Zetsu open the chapter with an observation rather than a report.
    road, no sky-line of any kind. No text.
 3. **Middle left, x=0–56 y=36–66; medium two-shot.** Cast/blocking: Zetsu has risen out of the rock
    at frame left, emerged to the ribs and no further; Naruto stands at frame right in his armour,
-   forehead protector on, ordinary three-tomoe Sharingan level, facing left toward him. **B1** upper left, Zetsu:
-   "YOU DID NOT TAKE LONG." Tail points to visible Zetsu's mouth.
-4. **Bottom left, x=0–56 y=70–100; close-up.** Cast/blocking: Naruto in three-quarter profile facing
-   left, the ordinary three-tomoe Sharingan filling both eyes. **B2** upper left, Naruto: "THERE WAS NOTHING
-   HOLDING ME." Tail points to visible Naruto's mouth.
+   forehead protector on, ordinary three-tomoe Sharingan level, facing left toward him. **B1**
+   upper left, Zetsu: "YOU DID NOT TAKE LONG." Tail points to visible Zetsu's mouth. **B2** lower
+   left, Zetsu: "SHE THANKED YOU FOR MY WORK." Tail points to the same visible Zetsu's mouth.
+4. **Bottom left, x=0–56 y=70–100; close-up.** Cast/blocking: Naruto in three-quarter profile
+   facing left, the ordinary three-tomoe Sharingan filling both eyes. **B3** upper left, Naruto:
+   "THERE WAS NOTHING HOLDING ME." Tail points to visible Naruto's mouth. **B4** lower left,
+   Naruto: "SHE THANKED THE FACE SHE SAW." Tail points to the same visible Naruto's mouth.
 
 #### Page 2 — 6 panels
 
@@ -164,20 +166,22 @@ assessing people while the landscape tells them how far from Konoha this is.
    right, Zetsu: "I THOUGHT YUGAO WOULD KEEP YOU AFTER LAST NIGHT." Tail points to visible Zetsu's
    mouth. **B2** lower left, Zetsu: "WOMEN WHO SURVIVE SUCH THINGS BECOME VERY EMOTIONAL. I HAVE
    OBSERVED IT." Tail points to the same visible mouth.
-2. **Middle right, x=55–100 y=32–60; medium.** Cast/blocking: Naruto in profile at frame right facing
-   left, arms folded, not turning to Zetsu. **B3** upper right, Naruto: "YUGAO IS ANBU." Tail points
-   to visible Naruto's mouth.
+2. **Middle right, x=55–100 y=32–60; medium.** Cast/blocking: Naruto in profile at frame right
+   facing left, arms folded, not turning to Zetsu. **B3** upper right, Naruto: "YUGAO IS ANBU."
+   Tail points to visible Naruto's mouth. **B4** lower right, Naruto: "SHE WILL HAVE FILED THE
+   REPORT ON IT ALREADY." Tail points to the same visible Naruto's mouth.
 3. **Middle left, x=0–51 y=32–60; close-up.** Cast/blocking: Naruto's face, three-quarter, facing
-   left. **B4** upper left, Naruto: "HER MIND WAS BUILT TO CARRY WORSE THAN ONE NIGHT IN A CELL."
+   left. **B5** upper left, Naruto: "HER MIND WAS BUILT TO CARRY WORSE THAN ONE NIGHT IN A CELL."
    Tail points to visible Naruto's mouth.
 4. **Bottom right, x=64–100 y=64–100; close-up.** Cast/blocking: Zetsu's yellow eye and half his
-   face, facing right toward Naruto outside the panel. **B5** upper right, Zetsu: "AND THE UZUMAKI
+   face, facing right toward Naruto outside the panel. **B6** upper right, Zetsu: "AND THE UZUMAKI
    GIRL? SHE IS NOT ANBU. SHE IS NOT EVEN A SHINOBI." Tail points to visible Zetsu's mouth.
 5. **Bottom centre, x=32–61 y=64–100; close-up.** Cast/blocking: Naruto facing left, expression
-   unchanged. **B6** upper centre, Naruto: "SHE WORKED FOR OROCHIMARU." Tail points to visible
-   Naruto's mouth.
+   unchanged. **B7** upper centre, Naruto: "SHE WORKED FOR OROCHIMARU." Tail points to visible
+   Naruto's mouth. **B8** lower centre, Naruto: "SHE HAS SEEN WORSE ROOMS THAN DANZOU'S." Tail
+   points to the same visible Naruto's mouth.
 6. **Bottom left, x=0–29 y=64–100; close-up.** Cast/blocking: Zetsu facing right, head tilted, the
-   thoughtful version of his face. **B7** upper left, Zetsu: "AND IF ONE OF THEM HAD WEPT? WHAT WOULD
+   thoughtful version of his face. **B9** upper left, Zetsu: "AND IF ONE OF THEM HAD WEPT? WHAT WOULD
    YOU HAVE DONE?" Tail points to visible Zetsu's mouth.
 
 **Page turn:** He has been asked something he has no answer for. Does he answer?
@@ -215,24 +219,28 @@ of the animal registers before anybody speaks to it.
 **Purpose:** Give the promise and the doubt in six short exchanges, and end the page on the question
 the next page answers with a coffin.
 
-1. **Top right, x=58–100 y=0–33; low angle from ground level.** Cast/blocking: Naruto stands small at
-   the bottom of the frame facing left; Kurama's lowered head occupies the upper two-thirds, facing
-   right down at him. **B1** upper right, Naruto: "YOU ARE ENJOYING YOUR FREEDOM." Tail points to
-   visible Naruto's mouth.
-2. **Top left, x=0–54 y=0–33; close on the muzzle.** Cast/blocking: Kurama's muzzle and one eye fill
-   the frame facing right; behind him a tail sweeps slowly through the top of the panel. **B2** upper
-   left, Kurama: "I SHOULD ENJOY IT. IT WAS GIVEN TO ME." Tail points to visible Kurama's mouth.
+1. **Top right, x=58–100 y=0–33; low angle from ground level.** Cast/blocking: Naruto stands small
+   at the bottom of the frame facing left; Kurama's lowered head occupies the upper two-thirds,
+   facing right down at him. **B1** upper right, Naruto: "YOU ARE ENJOYING YOUR FREEDOM." Tail
+   points to visible Naruto's mouth. **B2** lower right, Naruto: "NOBODY HAS COME LOOKING FOR YOU."
+   Tail points to the same visible Naruto's mouth.
+2. **Top left, x=0–54 y=0–33; close on the muzzle.** Cast/blocking: Kurama's muzzle and one eye
+   fill the frame facing right; behind him a tail sweeps slowly through the top of the panel.
+   **B3** upper left, Kurama: "I SHOULD ENJOY IT. IT WAS GIVEN TO ME." Tail points to visible
+   Kurama's mouth. **B4** lower left, Kurama: "AND YOU HAVE COME TO REMIND ME WHO GAVE IT." Tail
+   points to the same visible Kurama's mouth.
 3. **Middle right, x=55–100 y=37–64; medium.** Cast/blocking: Naruto at frame right facing left, arms
-   unfolding to his sides, ordinary three-tomoe Sharingan level. **B3** upper right, Naruto: "TODAY IS THE DAY I
+   unfolding to his sides, ordinary three-tomoe Sharingan level. **B5** upper right, Naruto: "TODAY IS THE DAY I
    KEEP MY PROMISE." Tail points to visible Naruto's mouth.
 4. **Middle left, x=0–51 y=37–64; close-up.** Cast/blocking: Kurama's eye narrowing, searching the
-   face outside the frame to the right; nothing playful in it. No text.
+   face outside the frame to the right; nothing playful in it. **B6** upper left, Kurama: "SAY THAT
+   AGAIN." Tail points to visible Kurama's mouth at the frame's left edge, below the narrowed eye.
 5. **Bottom right, x=51–100 y=68–100; close on the mouth.** Cast/blocking: the muzzle draws back off
-   the teeth into a grin, facing right. **B4** upper right, Kurama: "I WAS BEGINNING TO THINK YOU
+   the teeth into a grin, facing right. **B7** upper right, Kurama: "I WAS BEGINNING TO THINK YOU
    WERE ONLY WORDS." Tail points to visible Kurama's mouth.
 6. **Bottom left, x=0–47 y=68–100; two-shot, low angle.** Cast/blocking: Naruto small at frame right
-   facing left; Kurama's head above and left of him facing right. **B5** upper right, Naruto: "I SAID
-   I WOULD MAKE YOU WHOLE AGAIN." Tail points to visible Naruto's mouth. **B6** lower left, Kurama:
+   facing left; Kurama's head above and left of him facing right. **B8** upper right, Naruto: "I SAID
+   I WOULD MAKE YOU WHOLE AGAIN." Tail points to visible Naruto's mouth. **B9** lower left, Kurama:
    "AND HOW WILL YOU DO THAT?" Tail points to visible Kurama's mouth.
 
 **Page turn:** How.
@@ -249,11 +257,13 @@ Kyūbi.
 **Purpose:** Show the technique as a physical chain the reader can follow — seals, ground, coffin,
 lid, body — and give the reveal of Minato to Kurama's eye rather than to Naruto's face.
 
-1. **Top right, x=64–100 y=0–34; close on the hands.** Cast/blocking: Naruto's two hands forming the
-   first seal of the chain, deliberately and slowly, at chest height; his jaw and the lower edge of
-   the forehead protector visible at the top of frame, facing left. No text.
+1. **Top right, x=64–100 y=0–34; close on the hands.** Cast/blocking: Naruto's two hands forming
+   the first seal of the chain, deliberately and slowly, at chest height; his jaw and the lower
+   edge of the forehead protector visible at the top of frame, facing left. **B1** upper right,
+   Kurama: "WHAT IS THAT SEAL CHAIN?" `OFF`, tail exits the left edge toward Kurama, who is not
+   drawn in this panel.
 2. **Top left, x=0–60 y=0–34; close-up.** Cast/blocking: Naruto's face, three-quarter facing left,
-   ordinary three-tomoe Sharingan in both eyes, mouth open on the word. **B1** upper left, Naruto: "KUCHIYOSE: EDO
+   ordinary three-tomoe Sharingan in both eyes, mouth open on the word. **B2** upper left, Naruto: "KUCHIYOSE: EDO
    TENSEI." Tail points to visible Naruto's mouth.
 3. **Middle band focal panel, x=0–100 y=38–66; wide, low angle.** Cast/blocking: Naruto stands at
    frame right with his palms still joined; ten paces to his left the rock floor splits along a
@@ -261,12 +271,14 @@ lid, body — and give the reveal of Minato to Kurama's eye rather than to Narut
    Kurama's foreleg and lowered muzzle fill the left edge, watching it. Origin: Naruto's completed
    seal chain. Path: downward into the stone and back up along the seam. Contact: the coffin standing
    on the plateau between them. **SFX** along the seam, heavy: "GRRRND". No balloon.
-4. **Bottom right, x=62–100 y=70–100; medium.** Cast/blocking: the coffin lid slides down and away to
-   the left and falls; the interior is black; Naruto stands in profile at the far right facing left.
-   **SFX** at the lid's lower edge: "KTNK". No balloon.
-5. **Bottom centre, x=32–59 y=70–100; close-up.** Cast/blocking: Minato revealed standing inside the
-   open coffin, facing right, eyes closed, Hokage coat over the flak vest, skin cracked ash-grey.
-   No text.
+4. **Bottom right, x=62–100 y=70–100; medium.** Cast/blocking: the coffin lid slides down and away
+   to the left and falls; the interior is black; Naruto stands in profile at the far right facing
+   left. **SFX** at the lid's lower edge: "KTNK". No balloon. **B3** upper right, Naruto: "WATCH."
+   Tail points to visible Naruto's mouth at the far right.
+5. **Bottom centre, x=32–59 y=70–100; close-up.** Cast/blocking: Minato revealed standing inside
+   the open coffin, facing right, eyes closed, Hokage coat over the flak vest, skin cracked
+   ash-grey. **B4** upper right, Kurama: "HIM." `OFF`, tail exits the left edge toward Kurama, who
+   is not drawn in this panel.
 6. **Bottom left, x=0–29 y=70–100; extreme close-up.** Cast/blocking: Kurama's eye; the slit pupil
    contracts to a hairline. No text.
 
@@ -277,25 +289,30 @@ that Minato has no standing here at all.
 
 1. **Top right, x=60–100 y=0–32; medium.** Cast/blocking: the coffin has crumbled away to nothing;
    Minato stands alone on bare rock at frame left facing right, still asleep on his feet; Naruto
-   walks toward him from frame right. No text.
+   walks toward him from frame right. **B1** upper left, Kurama: "HE IS SMALLER THAN I REMEMBER."
+   `OFF`, tail exits the left edge toward Kurama, who is not drawn in this panel.
 2. **Top left, x=0–56 y=0–32; close from behind Minato's head.** Cast/blocking: the back of Minato's
    skull and blond hair fill the frame; Naruto's hand enters from the right and drives a kunai with a
    paper tag wrapped at the ring into the base of the skull. Any writing on the tag is **ILLEGIBLE
    SCRIBBLE, not readable words.** **SFX** at the point of entry, small: "SHK". No balloon.
 3. **Middle right, x=62–100 y=36–64; close on the hand.** Cast/blocking: Naruto's right hand alone,
-   held in a single seal at chest height. No text.
+   held in a single seal at chest height. **B2** upper right, Naruto: "OPEN YOUR EYES." `OFF` —
+   only the hand is in frame; tail exits the top edge toward Naruto.
 4. **Middle centre, x=32–59 y=36–64; extreme close-up.** Cast/blocking: Minato's eyes open — black
    sclera, a pale ringed iris; nothing behind them yet. No text.
 5. **Middle left, x=0–29 y=36–64; close-up.** Cast/blocking: Kurama's lips draw off the teeth; the
-   restraint is visible in the set of the jaw; he does not move. **B1** upper left, Kurama:
-   "YONDAIME HOKAGE." Tail points to visible Kurama's mouth.
+   restraint is visible in the set of the jaw; he does not move. **B3** upper left, Kurama:
+   "YONDAIME HOKAGE." Tail points to visible Kurama's mouth. **B4** lower left, Kurama: "SIXTEEN
+   YEARS I HAVE WAITED TO SMELL YOU AGAIN." Tail points to the same visible Kurama's mouth.
 6. **Bottom right, x=52–100 y=68–100; medium.** Cast/blocking: Minato turns to his left toward the
-   voice; Kurama's snout intrudes at the frame's left edge, enormous; Minato's face is alarm without
-   fear. **B2** upper right, Minato: "KYUUBI? HOW ARE YOU FREE?" Tail points to visible Minato's
-   mouth. **B3** lower right, Minato: "WHERE IS NARUTO?" Tail points to the same visible mouth.
+   voice; Kurama's snout intrudes at the frame's left edge, enormous; Minato's face is alarm
+   without fear. **B5** upper right, Minato: "KYUUBI? HOW ARE YOU FREE?" Tail points to visible
+   Minato's mouth. **B6** lower right, Minato: "WHERE IS NARUTO?" Tail points to the same visible
+   mouth. **B7** lower left, Minato: "AND WHO ARE YOU?" Tail points to the same visible Minato's
+   mouth; the question is aimed at the figure standing off the frame's right edge.
 7. **Bottom left, x=0–48 y=68–100; over-shoulder.** Cast/blocking: Minato's shoulder and hair fill
    the left foreground with his back to the reader; beyond him at frame right Naruto stands facing
-   left, arms at his sides. **B4** upper right, Naruto: "DO WHAT YOU ARE INSTRUCTED. STOP QUESTIONING
+   left, arms at his sides. **B8** upper right, Naruto: "DO WHAT YOU ARE INSTRUCTED. STOP QUESTIONING
    THINGS THAT DO NOT CONCERN YOU." Tail points to visible Naruto's mouth.
 
 **Page turn:** He has not recognised him yet.
@@ -313,20 +330,24 @@ personality must read as an administrative act, not as cruelty.
 
 1. **Top right, x=60–100 y=0–30; close-up.** Cast/blocking: Minato's face turning fully to frame
    right; the recognition arrives visibly. **B1** upper right, Minato: "NARUTO? WHAT ARE YOU TRYING
-   TO DO HERE?" Tail points to visible Minato's mouth.
-2. **Top left, x=0–56 y=0–30; close-up.** Cast/blocking: Naruto facing left, ordinary three-tomoe Sharingan, no
-   change of expression whatever. **B2** upper left, Naruto: "DO AS YOU ARE INSTRUCTED." Tail points
-   to visible Naruto's mouth.
+   TO DO HERE?" Tail points to visible Minato's mouth. **B2** lower right, Minato: "THOSE EYES. YOU
+   HAVE THE SHARINGAN." Tail points to the same visible Minato's mouth.
+2. **Top left, x=0–56 y=0–30; close-up.** Cast/blocking: Naruto facing left, ordinary three-tomoe
+   Sharingan, no change of expression whatever. **B3** upper left, Naruto: "DO AS YOU ARE
+   INSTRUCTED." Tail points to visible Naruto's mouth. **B4** lower left, Naruto: "YOU DO NOT NEED
+   TO UNDERSTAND ANY OF IT." Tail points to the same visible Naruto's mouth.
 3. **Middle right, x=64–100 y=34–62; close on the hand.** Cast/blocking: Naruto's right hand in a
    single seal; no face in frame. No text.
 4. **Middle centre, x=32–61 y=34–62; close-up.** Cast/blocking: Minato's face goes blank in the
    middle of a breath; the eyes stay open and stop being anyone's. No text.
-5. **Middle left, x=0–29 y=34–62; close-up.** Cast/blocking: Naruto watching, facing left. **B3**
+5. **Middle left, x=0–29 y=34–62; close-up.** Cast/blocking: Naruto watching, facing left. **B5**
    upper left, tail-less thought balloon, Naruto: "NOT YET. FIRST HE PAYS WHAT I OWE." Tail-less;
    speaker is Naruto and he is drawn in the panel.
 6. **Bottom band, x=0–100 y=66–100; wide.** Cast/blocking: Minato leaps left in one flat bound and
-   lands beside Kurama's foreleg at frame left; Naruto stands at frame right, unmoving; Kurama's mass
-   fills the upper left. No text.
+   lands beside Kurama's foreleg at frame left; Naruto stands at frame right, unmoving; Kurama's
+   mass fills the upper left. **B6** upper left, Kurama: "PUT YOUR HAND ON ME, HOKAGE." Tail points
+   to visible Kurama's mouth in the upper left mass. **B7** lower right, Naruto: "HE WILL DO WHAT
+   HE IS TOLD." Tail points to visible Naruto's mouth at frame right.
 
 #### Page 8 — 5 panels
 
@@ -346,9 +367,13 @@ so the reader can see where the chakra comes from and where it goes.
    must all be legible. No text.
 4. **Bottom right, x=55–100 y=72–100; low wide.** Cast/blocking: Kurama's mass visibly increasing
    under the lattice; the rock beneath his forelimbs cracking outward in radial lines; Minato small
-   at frame right with his palm still on the fur. **SFX** across the lower frame: "GOOOM". No balloon.
+   at frame right with his palm still on the fur. **SFX** across the lower frame: "GOOOM". No
+   balloon. **B1** upper right, Kurama: "I FEEL IT. ALL OF IT." Tail points to visible Kurama's
+   mouth in the upper left mass.
 5. **Bottom left, x=0–51 y=72–100; close-up.** Cast/blocking: Naruto at frame right of the panel
-   facing left, watching, ordinary three-tomoe Sharingan, entirely unmoved. No text.
+   facing left, watching, ordinary three-tomoe Sharingan, entirely unmoved. **B2** upper left,
+   tail-less thought balloon, Naruto: "HALF OF HIM HAS BEEN INSIDE A DEAD MAN SINCE THE NIGHT I WAS
+   BORN."
 
 **Page turn:** How big does he get?
 
@@ -371,12 +396,16 @@ name in a wide quiet panel so that the reader understands it is the larger of th
    to the left through the frame; Minato at frame left is already off the ground, coat flaring.
    Origin: the paw. Path: down and left across the panel. Contact: Minato's chest. **SFX** at the
    contact point: "DOOM". No balloon.
-3. **Middle left, x=0–51 y=62–80; wide.** Cast/blocking: Minato tumbling away to the left across the
-   basin, very small against the rock, a dust plume opening behind him. No text.
+3. **Middle left, x=0–51 y=62–80; wide.** Cast/blocking: Minato tumbling away to the left across
+   the basin, very small against the rock, a dust plume opening behind him. **B1** upper right,
+   Kurama: "THAT IS MY THANKS, HOKAGE." `OFF`, tail exits the right edge toward Kurama, who is not
+   drawn in this panel.
 4. **Bottom band, x=0–100 y=84–100; wide, eye-level.** Cast/blocking: Naruto in profile at frame
    right facing left; Kurama's foreleg and lowered head fill the left; the smallest possible smile
-   touches one corner of Naruto's mouth and nothing else in his face moves. **B1** upper right,
-   Naruto: "YOU NOW DESERVE TO BE CALLED KURAMA." Tail points to visible Naruto's mouth.
+   touches one corner of Naruto's mouth and nothing else in his face moves. **B2** upper right,
+   Naruto: "YOU NOW DESERVE TO BE CALLED KURAMA." Tail points to visible Naruto's mouth. **B3**
+   lower right, Naruto: "THE SAGE WAS THE LAST TO USE IT." Tail points to the same visible Naruto's
+   mouth.
 
 #### Page 10 — 6 panels
 
@@ -384,22 +413,25 @@ name in a wide quiet panel so that the reader understands it is the larger of th
 the plateau alone.
 
 1. **Top right, x=62–100 y=0–32; extreme close-up.** Cast/blocking: Kurama's eye, wide; every trace
-   of celebration has stopped. No text.
+   of celebration has stopped. **B1** upper left, tail-less thought balloon, Kurama: "KURAMA."
 2. **Top left, x=0–58 y=0–32; close on the muzzle.** Cast/blocking: the jaw tightens and the nostrils
    flare once; he will not thank anybody and will not be seen not thanking anybody. **SFX** at the
    nostrils, small: "FNNH". No balloon.
-3. **Middle right, x=55–100 y=36–62; medium.** Cast/blocking: Naruto turning away to his left, toward
-   the far side of the basin where Minato landed; Kurama's foreleg at the right edge. **B1** upper
-   right, Naruto: "ENJOY BEING WHOLE." Tail points to visible Naruto's mouth.
+3. **Middle right, x=55–100 y=36–62; medium.** Cast/blocking: Naruto turning away to his left,
+   toward the far side of the basin where Minato landed; Kurama's foreleg at the right edge. **B2**
+   upper right, Naruto: "ENJOY BEING WHOLE." Tail points to visible Naruto's mouth. **B3** lower
+   right, Kurama: "UCHIHA." `OFF` — only his foreleg is in frame; tail exits the right edge toward
+   Kurama.
 4. **Middle left, x=0–51 y=36–62; two-shot.** Cast/blocking: Naruto at frame right facing left; Zetsu
-   risen out of the rock at frame left, emerged to the ribs, facing right. **B2** upper right,
-   Naruto: "I HAVE MATTERS TO DISCUSS WITH MINATO." Tail points to visible Naruto's mouth. **B3**
+   risen out of the rock at frame left, emerged to the ribs, facing right. **B4** upper right,
+   Naruto: "I HAVE MATTERS TO DISCUSS WITH MINATO." Tail points to visible Naruto's mouth. **B5**
    lower left, Naruto: "WILL YOU COME, OR STAY AND CHAT WITH HIM?" Tail points to the same visible
    mouth.
 5. **Bottom right, x=51–100 y=66–100; close-up.** Cast/blocking: Zetsu facing right, the yellow eye
-   steady, the smile absent for once. **B4** upper right, Zetsu: "I WILL STAY HERE." Tail points to
-   visible Zetsu's mouth. **B5** lower right, Zetsu: "SOME THINGS SHOULD NOT HAVE AN AUDIENCE." Tail
-   points to the same visible mouth.
+   steady, the smile absent for once. **B6** upper right, Zetsu: "I WILL STAY HERE." Tail points to
+   visible Zetsu's mouth. **B7** lower right, Zetsu: "SOME THINGS SHOULD NOT HAVE AN AUDIENCE."
+   Tail points to the same visible mouth. **B8** lower left, Zetsu: "AND I HAVE NO WISH TO HEAR A
+   DEAD MAN EXPLAIN HIMSELF." Tail points to the same visible Zetsu's mouth.
 6. **Bottom left, x=0–47 y=66–100; medium.** Cast/blocking: bare rock where Naruto stood, unmarked;
    Zetsu at frame right looking left at nothing; one of Kurama's tails sweeps through the top of the
    frame. No text.
@@ -425,42 +457,52 @@ the Mokuton a piece of staging rather than a technique display.
 2. **Top left, x=0–54 y=0–32; close-up.** Cast/blocking: Minato's face, facing right, personality
    still removed; the eyes are open and empty; the cracked skin catches the light. No text.
 3. **Middle right, x=66–100 y=36–60; close on the hand.** Cast/blocking: Naruto's right hand in a
-   single seal; no face in frame. No text.
-4. **Middle centre, x=34–63 y=36–60; close-up.** Cast/blocking: Minato's face, same framing as panel
-   2; expression floods back into it and the confusion arrives half a second later. No text.
-5. **Middle left, x=0–31 y=36–60; medium, low angle at ground level.** Cast/blocking: Naruto crouched
-   at frame right with both palms flat on the dry ground; two pale roots run out from beneath his
-   hands, one toward the dead tree at frame left and one toward the reader's foreground. Origin:
-   Naruto's palms. Path: along and under the ground. **SFX** along the running roots: "KRRK". No
-   balloon.
+   single seal; no face in frame. **B1** upper right, Naruto: "COME BACK." `OFF` — only the hand is
+   in frame; tail exits the top edge toward Naruto.
+4. **Middle centre, x=34–63 y=36–60; close-up.** Cast/blocking: Minato's face, same framing as
+   panel 2; expression floods back into it and the confusion arrives half a second later. **B2**
+   upper centre, Minato: "WHERE—" Tail points to visible Minato's mouth.
+5. **Middle left, x=0–31 y=36–60; medium, low angle at ground level.** Cast/blocking: Naruto
+   crouched at frame right with both palms flat on the dry ground; two pale roots run out from
+   beneath his hands, one toward the dead tree at frame left and one toward the reader's
+   foreground. Origin: Naruto's palms. Path: along and under the ground. **SFX** along the running
+   roots: "KRRK". No balloon. **B3** upper left, Minato: "THAT IS MOKUTON." `OFF`, tail exits the
+   left edge toward Minato, who is not drawn in this panel.
 6. **Bottom band, x=0–100 y=64–100; wide, eye-level.** Cast/blocking: two plain wooden benches have
-   grown up out of the ground facing each other under the dead tree; Naruto is already seated on the
-   right-hand bench, leaning back, arms folded, facing left; Minato stands at frame left, hesitating.
-   Contact: the finished benches. **B1** upper right, Naruto: "TAKE A SEAT." Tail points to visible
-   Naruto's mouth.
+   grown up out of the ground facing each other under the dead tree; Naruto is already seated on
+   the right-hand bench, leaning back, arms folded, facing left; Minato stands at frame left,
+   hesitating. Contact: the finished benches. **B4** upper right, Naruto: "TAKE A SEAT." Tail
+   points to visible Naruto's mouth. **B5** lower left, Minato: "HOW DO YOU HAVE THE SHODAI'S
+   WOOD?" Tail points to visible Minato's mouth at frame left. He gets no answer.
 
 #### Page 12 — 6 panels
 
 **Purpose:** Fix the two-man axis for the rest of the chapter, establish that Kushina is the reason
 this conversation exists, and hand the floor over.
 
-1. **Top band, x=0–100 y=0–30; wide two-shot, eye-level.** Cast/blocking: Naruto seated on the right
-   bench facing left, leaning back with arms folded and one ankle across a knee; Minato seated on the
-   left bench facing right, hands on his knees, back straight; the dead tree above them and empty
-   land behind. This fixes the axis for pages 12–19: **Naruto right, Minato left.** No text.
+1. **Top band, x=0–100 y=0–30; wide two-shot, eye-level.** Cast/blocking: Naruto seated on the
+   right bench facing left, leaning back with arms folded and one ankle across a knee; Minato
+   seated on the left bench facing right, hands on his knees, back straight; the dead tree above
+   them and empty land behind. This fixes the axis for pages 12–19: **Naruto right, Minato left.**
+   **B1** upper left, Minato: "HOW LONG HAS IT BEEN?" Tail points to visible Minato's mouth on the
+   left bench. **B2** lower right, Naruto: "SIXTEEN YEARS." Tail points to visible Naruto's mouth
+   on the right bench.
 2. **Middle right, x=64–100 y=34–62; close-up.** Cast/blocking: Naruto facing left, ordinary three-tomoe Sharingan
-   steady. **B1** upper right, Naruto: "MOTHER SAID YOU WERE THE KINDEST MAN SHE KNEW." Tail points
+   steady. **B3** upper right, Naruto: "MOTHER SAID YOU WERE THE KINDEST MAN SHE KNEW." Tail points
    to visible Naruto's mouth.
 3. **Middle centre, x=32–61 y=34–62; close-up.** Cast/blocking: Minato facing right; the smile that
-   arrives is the one that hurts him. No text.
-4. **Middle left, x=0–29 y=34–62; close-up.** Cast/blocking: Naruto facing left, unchanged. **B2**
-   upper left, Naruto: "I DO NOT CARE FOR THAT." Tail points to visible Naruto's mouth.
+   arrives is the one that hurts him. **B4** upper centre, Minato: "SHE SAID THAT?" Tail points to
+   visible Minato's mouth.
+4. **Middle left, x=0–29 y=34–62; close-up.** Cast/blocking: Naruto facing left, unchanged. **B5**
+   upper left, Naruto: "I DO NOT CARE FOR THAT." Tail points to visible Naruto's mouth. **B6**
+   lower left, Naruto: "SHE SAID A GREAT MANY THINGS." Tail points to the same visible Naruto's
+   mouth.
 5. **Bottom right, x=51–100 y=66–100; medium.** Cast/blocking: Naruto on the bench facing left, arms
-   still folded. **B3** upper right, Naruto: "BUT I HAVE UNRESOLVED MATTERS WITH YOU." Tail points to
-   visible Naruto's mouth. **B4** lower right, Naruto: "SO. TELL ME YOUR STORY." Tail points to the
+   still folded. **B7** upper right, Naruto: "BUT I HAVE UNRESOLVED MATTERS WITH YOU." Tail points to
+   visible Naruto's mouth. **B8** lower right, Naruto: "SO. TELL ME YOUR STORY." Tail points to the
    same visible mouth.
 6. **Bottom left, x=0–47 y=66–100; close-up.** Cast/blocking: Minato facing right; he braces, and the
-   nervous smile holds. **B5** upper left, Minato: "THEN LET ME START WHERE IT STARTED. THE DAY THEY
+   nervous smile holds. **B9** upper left, Minato: "THEN LET ME START WHERE IT STARTED. THE DAY THEY
    MADE ME HOKAGE." Tail points to visible Minato's mouth.
 
 **Page turn:** The account begins.
@@ -481,26 +523,31 @@ to Naruto twice so the reader is watching a face, not reading a history.
    flat daylight; Hiruzen at frame right, younger, holding out the Hokage hat; a living Minato at
    frame left taking it, uncracked skin, ordinary eyes, no kunai. Soft grey-washed plate border.
    **B1** upper right, tail-less oval, Minato: "IT WAS YOUR MOTHER'S DREAM AND MINE. ONE OF US
-   REACHED IT." Tail-less; speaker Minato, who is not drawn as the speaker in this panel.
+   REACHED IT." Tail-less; speaker Minato, who is not drawn as the speaker in this panel. **B2**
+   lower left, tail-less oval, Minato: "YOUR MOTHER CRIED. SHE SAID I WOULD NEVER BE HOME AGAIN."
+   Tail-less; speaker Minato, who is not drawn as the speaker in this panel.
 2. **Top left, x=0–54 y=0–30; PRESENT, close-up.** Cast/blocking: Naruto on the bench facing left,
-   listening; nothing in his face is moving. Hard border. No text.
+   listening; nothing in his face is moving. Hard border. **B3** upper left, Naruto: "GO ON." Tail
+   points to visible Naruto's mouth.
 3. **Middle band, x=0–100 y=34–62; PLATE, wide.** Cast/blocking: a house corridor at dusk; Kushina,
    heavily pregnant, walks left past a window with one hand at her back; beyond the glass and above
    the eaves a masked ANBU with silver hair is crouched on the roofline, facing away from her.
-   Soft plate border. **B2** upper right, tail-less oval, Minato: "SHE WAS A JINCHURIKI. WHILE SHE
-   CARRIED YOU THE SEAL WAS THIN." **B3** lower left, tail-less oval, Minato: "I HAD KAKASHI GUARD
+   Soft plate border. **B4** upper right, tail-less oval, Minato: "SHE WAS A JINCHURIKI. WHILE SHE
+   CARRIED YOU THE SEAL WAS THIN." **B5** lower left, tail-less oval, Minato: "I HAD KAKASHI GUARD
    HER FOR TEN MONTHS. SHE NEVER KNEW."
-4. **Bottom right, x=55–100 y=66–100; PLATE, medium.** Cast/blocking: a stone-walled room lit by two
-   lamps, no windows; Kushina on a low bed at frame left, two midwives beside her seen from behind;
-   the living Minato kneeling at frame right with both palms pressed to the seal on her stomach, his
-   face rigid with effort; two ANBU silhouettes standing outside an open doorway in the background.
-   Soft plate border. **B4** upper right, tail-less oval, Minato: "WE MOVED HER SOMEWHERE SECLUDED.
-   I HELD THE SEAL MYSELF WHILE SHE GAVE BIRTH."
-5. **Bottom centre, x=32–52 y=66–100; PRESENT, close-up.** Cast/blocking: Naruto's face, closer than
-   panel 2, facing left; still nothing. Hard border. No text.
+4. **Bottom right, x=55–100 y=66–100; PLATE, medium.** Cast/blocking: a stone-walled room lit by
+   two lamps, no windows; Kushina on a low bed at frame left, two midwives beside her seen from
+   behind; the living Minato kneeling at frame right with both palms pressed to the seal on her
+   stomach, his face rigid with effort; two ANBU silhouettes standing outside an open doorway in
+   the background. Soft plate border. **B6** upper right, tail-less oval, Minato: "WE MOVED HER
+   SOMEWHERE SECLUDED. I HELD THE SEAL MYSELF WHILE SHE GAVE BIRTH." **B7** lower left, tail-less
+   oval, Minato: "THE SANDAIME'S WIFE DELIVERED YOU HERSELF."
+5. **Bottom centre, x=32–52 y=66–100; PRESENT, close-up.** Cast/blocking: Naruto's face, closer
+   than panel 2, facing left; still nothing. Hard border. **B8** upper centre, Naruto: "YOU HID
+   HER." Tail points to visible Naruto's mouth.
 6. **Bottom left, x=0–29 y=66–100; PLATE, close-up.** Cast/blocking: outside the room — an overturned
    oil lamp lying on stone, and at the edge of its spilled light one still open hand, palm up. No
-   face, no wound, no blood pool. Soft plate border. **B5** upper left, tail-less oval, Minato: "THEN
+   face, no wound, no blood pool. Soft plate border. **B9** upper left, tail-less oval, Minato: "THEN
    HE CAME."
 
 #### Page 14 — 7 panels
@@ -514,32 +561,35 @@ where the reader can see Naruto not accept it.
    upper right, tail-less oval, Minato: "HE KILLED THE GUARDS. HE KILLED THE NURSES. HE KILLED THE
    SANDAIME'S WIFE."
 2. **Top left, x=0–56 y=0–30; PLATE, close-up.** Cast/blocking: two gloved hands holding a swaddled
-   newborn; paper tags are pressed flat against the blanket at the child's chest; the writing on the
-   tags is **ILLEGIBLE SCRIBBLE, not readable words.** No face in frame. Soft plate border. **B2**
-   upper left, tail-less oval, Minato: "HE TOOK YOU AND PUT EXPLOSIVE TAGS ON YOU."
+   newborn; paper tags are pressed flat against the blanket at the child's chest; the writing on
+   the tags is **ILLEGIBLE SCRIBBLE, not readable words.** No face in frame. Soft plate border.
+   **B2** upper left, tail-less oval, Minato: "HE TOOK YOU AND PUT EXPLOSIVE TAGS ON YOU." **B3**
+   lower left, tail-less oval, Minato: "YOU WERE MINUTES OLD."
 3. **Middle right, x=62–100 y=34–62; PLATE, medium.** Cast/blocking: a bare hillside at night; the
    living Minato on one knee with the infant against his chest and his back turned to a small burst
    of light behind him where the tags have gone off harmlessly against empty ground. Soft plate
-   border. **B3** upper right, tail-less oval, Minato: "I GOT YOU OUT. I WAS FAST ENOUGH FOR THAT."
-4. **Middle left, x=0–58 y=34–62; PRESENT, medium two-shot.** Cast/blocking: Minato on the left bench
-   facing right with his head down and both hands closed on his knees; Naruto on the right bench
-   facing left, arms folded, unmoved. Hard border. **B4** upper right, Minato: "I WAS NOT FAST ENOUGH
-   FOR HER." Tail points to visible Minato's mouth. **B5** lower left, Minato: "SORRY." Tail points
-   to the same visible mouth.
+   border. **B4** upper right, tail-less oval, Minato: "I GOT YOU OUT. I WAS FAST ENOUGH FOR THAT."
+4. **Middle left, x=0–58 y=34–62; PRESENT, medium two-shot.** Cast/blocking: Minato on the left
+   bench facing right with his head down and both hands closed on his knees; Naruto on the right
+   bench facing left, arms folded, unmoved. Hard border. **B5** upper right, Minato: "I WAS NOT
+   FAST ENOUGH FOR HER." Tail points to visible Minato's mouth. **B6** lower left, Minato: "SORRY."
+   Tail points to the same visible mouth. **B7** lower right, Naruto: "KEEP GOING." Tail points to
+   visible Naruto's mouth on the right bench.
 5. **Bottom right, x=66–100 y=66–100; PLATE, medium.** Cast/blocking: Kushina on stone, the seal on
    her stomach torn open; a column of orange chakra pours upward out of it and out of the top of the
    frame; the masked figure stands over her at frame left with one hand raised. Origin: her stomach.
-   Path: straight up. Soft plate border. **B6** upper right, tail-less oval, Minato: "HE TORE THE
+   Path: straight up. Soft plate border. **B8** upper right, tail-less oval, Minato: "HE TORE THE
    KYUUBI OUT OF HER."
-6. **Bottom centre, x=34–63 y=66–100; PLATE, wide low angle.** Cast/blocking: the Kyūbi towering over
-   a burning Konoha street; the one visible eye carries a three-tomoe Sharingan pattern laid over the
-   slit pupil. Soft plate border. **B7** upper centre, tail-less oval, Minato: "AND SET IT ON HER
-   WITH HIS SHARINGAN. I REACHED HER IN TIME."
+6. **Bottom centre, x=34–63 y=66–100; PLATE, wide low angle.** Cast/blocking: the Kyūbi towering
+   over a burning Konoha street; the one visible eye carries a three-tomoe Sharingan pattern laid
+   over the slit pupil. Soft plate border. **B9** upper centre, tail-less oval, Minato: "AND SET IT
+   ON HER WITH HIS SHARINGAN. I REACHED HER IN TIME." **B10** lower centre, tail-less oval, Minato:
+   "THE VILLAGE PAID FOR A GRUDGE IT NEVER HEARD OF."
 7. **Bottom left, x=0–31 y=66–100; PLATE, medium.** Cast/blocking: a black-red Bijūdama hangs in
    mid-air at frame left, already released from jaws that are just out of frame at the left edge; a
    square barrier of glowing formula planes folds shut around it; the living Minato is a small figure
    at frame right with one hand extended. Origin: the Kyūbi's jaws off the left edge. Path: right,
-   toward Minato. Contact: the barrier planes. Soft plate border. **B8** upper left, tail-less oval,
+   toward Minato. Contact: the barrier planes. Soft plate border. **B11** upper left, tail-less oval,
    Minato: "I STOPPED A BIJUUDAMA WITH A SPACE-TIME BARRIER."
 
 **Page turn:** The two of them have not fought yet.
@@ -581,10 +631,11 @@ reader to the clearing.
    Kyūbi's forelimbs, dragging them down; a translucent dome is closing over the whole clearing.
    Origin: Kushina's back. Path: left across the panel. Contact: the forelimbs. Soft plate border.
    **B7** upper centre, tail-less oval, Minato: "YOUR MOTHER CHAINED IT AND WALLED US IN."
-7. **Bottom left, x=0–31 y=62–100; PLATE, medium.** Cast/blocking: Kushina upright and torn, arguing,
-   one arm out; the living Minato facing her; between them on a low heap of blankets an infant.
-   Soft plate border. **B8** upper left, tail-less oval, Minato: "SHE WANTED IT SEALED BACK INTO
-   HERSELF. I WAS THINKING ABOUT LATER."
+7. **Bottom left, x=0–31 y=62–100; PLATE, medium.** Cast/blocking: Kushina upright and torn,
+   arguing, one arm out; the living Minato facing her; between them on a low heap of blankets an
+   infant. Soft plate border. **B8** upper left, tail-less oval, Minato: "SHE WANTED IT SEALED BACK
+   INTO HERSELF. I WAS THINKING ABOUT LATER." **B9** lower left, tail-less oval, Minato: "SHE
+   CALLED ME SELFISH. SHE WAS RIGHT."
 
 #### Page 16 — 7 panels
 
@@ -602,20 +653,25 @@ inside the same page so the reader does not get a rest between them.
 3. **Middle right, x=62–100 y=34–60; PLATE, close-up.** Cast/blocking: an infant's stomach; an
    eight-trigram spiral closes on it under the living Minato's palm; the plate's soft border frays
    away to bare white on the panel's left side, ending the flashback. Soft plate border, frayed.
-   **B2** upper right, tail-less oval, Minato: "EIGHT TRIGRAMS. AND BOTH OUR CHAKRA SEALED IN WITH IT
-   — MINE FOR THE SEAL, HERS FOR YOU."
-4. **Middle left, x=0–58 y=34–60; PRESENT, wide two-shot.** Cast/blocking: the two benches under the
-   dead tree; Naruto right facing left, arms folded; Minato left facing right, finished, hands open
-   on his knees; a long wind through the dry grass. Hard border. No text.
-5. **Bottom right, x=66–100 y=64–100; PRESENT, close-up.** Cast/blocking: Naruto facing left. **B3**
+   **B2** upper right, tail-less oval, Minato: "EIGHT TRIGRAMS. AND BOTH OUR CHAKRA SEALED IN WITH
+   IT — MINE FOR THE SEAL, HERS FOR YOU." **B3** lower right, tail-less oval, Minato: "IT WAS THE
+   ONLY SEAL THAT WOULD HOLD IT."
+4. **Middle left, x=0–58 y=34–60; PRESENT, wide two-shot.** Cast/blocking: the two benches under
+   the dead tree; Naruto right facing left, arms folded; Minato left facing right, finished, hands
+   open on his knees; a long wind through the dry grass. Hard border. **B4** upper right, Minato:
+   "THAT IS ALL OF IT." Tail points to visible Minato's mouth on the left bench. **B5** lower left,
+   Naruto: "THAT IS ALL YOU KNOW OF IT." Tail points to visible Naruto's mouth on the right bench.
+5. **Bottom right, x=66–100 y=64–100; PRESENT, close-up.** Cast/blocking: Naruto facing left. **B6**
    upper right, Naruto: "SO WHEN YOU MADE ME A JINCHURIKI, YOU EXPECTED MY MOTHER TO RAISE ME." Tail
    points to visible Naruto's mouth.
 6. **Bottom centre, x=34–63 y=64–100; PRESENT, close-up.** Cast/blocking: Minato facing right,
-   nodding once. **B4** upper centre, Minato: "YES. I WOULD HAVE DIED A HERO AND LEFT YOU A MOTHER."
-   Tail points to visible Minato's mouth. **B5** lower centre, Minato: "AND JIRAIYA-SENSEI. AND THE
+   nodding once. **B7** upper centre, Minato: "YES. I WOULD HAVE DIED A HERO AND LEFT YOU A MOTHER."
+   Tail points to visible Minato's mouth. **B8** lower centre, Minato: "AND JIRAIYA-SENSEI. AND THE
    SANDAIME. AND KAKASHI. I TRUSTED THEM." Tail points to the same visible mouth.
 7. **Bottom left, x=0–31 y=64–100; PRESENT, close-up.** Cast/blocking: Naruto facing left, chin
-   level. **B6** upper left, Naruto: "SHE DIED WITH YOU." Tail points to visible Naruto's mouth.
+   level. **B9** upper left, Naruto: "SHE DIED WITH YOU." Tail points to visible Naruto's mouth.
+   **B10** lower left, Naruto: "AND I WAS LEFT WITH THE PART OF THE PLAN THAT SURVIVED." Tail points
+   to the same visible Naruto's mouth.
 
 **Page turn:** The plan is now on the table. What happened to it?
 
@@ -635,24 +691,27 @@ hatred as a finished historical object.
    Naruto: "JIRAIYA WENT AWAY. THE SANDAIME WATCHED." Tail points to visible Naruto's mouth. **B2**
    lower right, Naruto: "KAKASHI WAS WILLING AND WAS FORBIDDEN." Tail points to the same visible
    mouth.
-2. **Top centre, x=32–59 y=0–28; close-up.** Cast/blocking: Minato facing right; he is holding tears
-   in and it shows in the jaw, not the eyes. **B3** upper centre, Minato: "I NEVER THOUGHT THE
-   VILLAGE WOULD TREAT YOU THAT WAY." Tail points to visible Minato's mouth.
+2. **Top centre, x=32–59 y=0–28; close-up.** Cast/blocking: Minato facing right; he is holding
+   tears in and it shows in the jaw, not the eyes. **B3** upper centre, Minato: "I NEVER THOUGHT
+   THE VILLAGE WOULD TREAT YOU THAT WAY." Tail points to visible Minato's mouth. **B4** lower
+   centre, Minato: "I THOUGHT THEY WOULD SEE MY SON." Tail points to the same visible Minato's
+   mouth.
 3. **Top left, x=0–29 y=0–28; tighter close-up.** Cast/blocking: Minato's face fills the frame,
-   facing right. **B4** upper left, Minato: "I AM SORRY, NARUTO. I TRULY AM." Tail points to visible
+   facing right. **B5** upper left, Minato: "I AM SORRY, NARUTO. I TRULY AM." Tail points to visible
    Minato's mouth.
 4. **Middle band, x=0–100 y=32–60; wide two-shot, eye-level.** Cast/blocking: the two benches, the
    dead tree, both men seated and neither leaning toward the other; Naruto right facing left, Minato
-   left facing right. **B5** upper right, Naruto: "WHEN I WAS TOLD YOU WERE MY FATHER, I HATED YOU."
-   Tail points to visible Naruto's mouth. **B6** lower left, Naruto: "IF YOU HAD BEEN ALIVE THEN, I
+   left facing right. **B6** upper right, Naruto: "WHEN I WAS TOLD YOU WERE MY FATHER, I HATED YOU."
+   Tail points to visible Naruto's mouth. **B7** lower left, Naruto: "IF YOU HAD BEEN ALIVE THEN, I
    WOULD HAVE KILLED YOU SLOWLY." Tail points to the same visible mouth.
 5. **Bottom right, x=66–100 y=64–100; close-up.** Cast/blocking: Naruto facing left, entirely calm.
-   **B7** upper right, Naruto: "WHAT KIND OF FATHER SEALS A BEAST OF HATRED INTO HIS OWN SON." Tail
+   **B8** upper right, Naruto: "WHAT KIND OF FATHER SEALS A BEAST OF HATRED INTO HIS OWN SON." Tail
    points to visible Naruto's mouth.
 6. **Bottom centre, x=34–63 y=64–100; close-up.** Cast/blocking: Minato facing right, taking it
-   without defence. No text.
+   without defence. **B9** upper centre, Minato: "THERE IS NO ANSWER TO THAT." Tail points to
+   visible Minato's mouth.
 7. **Bottom left, x=0–31 y=64–100; close-up, low angle.** Cast/blocking: Naruto's face tipped up
-   toward an empty sky, eyes half-lidded, still facing left. **B8** upper left, Naruto: "SO I STOPPED
+   toward an empty sky, eyes half-lidded, still facing left. **B10** upper left, Naruto: "SO I STOPPED
    CALLING YOU MY FATHER. IT WAS EASIER THAN CARRYING IT." Tail points to visible Naruto's mouth.
 
 #### Page 18 — 8 panels
@@ -662,31 +721,34 @@ aloud, and end the page with Minato's hand starting to move.
 
 1. **Top right, x=64–100 y=0–24; close-up.** Cast/blocking: Naruto facing left, eyes back down.
    **B1** upper right, Naruto: "HATRED DOES ME NO GOOD. I DISCARDED WHAT I COULD." Tail points to
-   visible Naruto's mouth.
+   visible Naruto's mouth. **B2** lower right, Naruto: "IT SERVED ITS PURPOSE AND IT IS SPENT."
+   Tail points to the same visible Naruto's mouth.
 2. **Top left, x=0–60 y=0–24; tighter close-up.** Cast/blocking: Naruto's eyes alone, ordinary
-   three-tomoe Sharingan. **B2** upper left, Naruto: "SOME THINGS WILL NOT DISCARD." Tail points off the lower
+   three-tomoe Sharingan. **B3** upper left, Naruto: "SOME THINGS WILL NOT DISCARD." Tail points off the lower
    edge of the balloon to visible Naruto's mouth just outside the balloon's tier; the balloon must
    not cover either iris.
-3. **Middle-upper right, x=55–100 y=28–52; medium two-shot.** Cast/blocking: Naruto stands up off the
-   right bench facing left; Minato is already rising off the left bench, mirroring him. **B3** upper
-   right, Naruto: "WHATEVER HAPPENED, HAPPENED." Tail points to visible Naruto's mouth. **B4** lower
-   left, Minato: "I WOULD STILL HAVE WISHED IT DIFFERENT." Tail points to visible Minato's mouth.
+3. **Middle-upper right, x=55–100 y=28–52; medium two-shot.** Cast/blocking: Naruto stands up off
+   the right bench facing left; Minato is already rising off the left bench, mirroring him. **B4**
+   upper right, Naruto: "WHATEVER HAPPENED, HAPPENED." Tail points to visible Naruto's mouth.
+   **B5** lower left, Minato: "I WOULD STILL HAVE WISHED IT DIFFERENT." Tail points to visible
+   Minato's mouth. **B6** lower right, Naruto: "WISHING IS FOR THE LIVING." Tail points to the same
+   visible Naruto's mouth.
 4. **Middle-upper left focal panel, x=0–51 y=28–52; wide two-shot, low horizon.** Cast/blocking: both
    men standing on the rise, small, the dead tree between and above them, empty land to the horizon;
-   Naruto right facing left, Minato left facing right. **B5** upper right, Naruto: "I WILL BE HOKAGE
-   ONE DAY." Tail descends to visible Naruto's figure. **B6** lower left, Naruto: "AT THIS RATE, I
+   Naruto right facing left, Minato left facing right. **B7** upper right, Naruto: "I WILL BE HOKAGE
+   ONE DAY." Tail descends to visible Naruto's figure. **B8** lower left, Naruto: "AT THIS RATE, I
    SHOULD BE THE ROKUDAIME." Tail descends to the same visible figure.
 5. **Middle-lower right, x=55–100 y=56–78; close-up.** Cast/blocking: Minato facing right; his whole
    face opens and he says nothing at all. No text.
 6. **Middle-lower left, x=0–51 y=56–78; close-up.** Cast/blocking: Naruto facing left, unchanged.
-   **B7** upper left, Naruto: "IF I HAD NOT MET MOTHER, I WOULD HAVE LEFT YOU TO ROT IN SELF PITY."
+   **B9** upper left, Naruto: "IF I HAD NOT MET MOTHER, I WOULD HAVE LEFT YOU TO ROT IN SELF PITY."
    Tail points to visible Naruto's mouth.
 7. **Bottom right, x=51–100 y=82–100; medium.** Cast/blocking: Naruto at frame right facing left,
-   arms at his sides for the first time in the scene. **B8** upper right, Naruto: "WHEN I RELEASE
+   arms at his sides for the first time in the scene. **B10** upper right, Naruto: "WHEN I RELEASE
    YOU, YOU WILL NOT RETURN TO THE SHINIGAMI'S STOMACH. YOU WILL GO WHERE SHE IS." Tail points to
    visible Naruto's mouth.
 8. **Bottom left, x=0–47 y=82–100; medium.** Cast/blocking: Minato at frame left facing right; his
-   right hand has come up halfway toward Naruto and stopped in the air. **B9** upper left, Minato:
+   right hand has come up halfway toward Naruto and stopped in the air. **B11** upper left, Minato:
    "THANK YOU." Tail points to visible Minato's mouth.
 
 **Page turn:** The hand is halfway up.
@@ -709,17 +771,21 @@ and walk Naruto back across the plateau in silence. Naruto must not be shown rea
    to visible Minato's mouth.
 3. **Middle right, x=62–100 y=30–54; medium.** Cast/blocking: Minato at frame left facing right,
    standing straight, smiling properly for the only time in the chapter; the dead tree behind him.
-   **B2** upper right, Minato: "I LOVE YOU, AND I WILL BE PROUD OF YOU WHICHEVER ROAD YOU TAKE." Tail
-   points to visible Minato's mouth. **B3** lower right, Minato: "SHE WILL CRY WHEN I TELL HER." Tail
-   points to the same visible mouth.
+   **B2** upper right, Minato: "I LOVE YOU, AND I WILL BE PROUD OF YOU WHICHEVER ROAD YOU TAKE."
+   Tail points to visible Minato's mouth. **B3** lower right, Minato: "SHE WILL CRY WHEN I TELL
+   HER." Tail points to the same visible mouth. **B4** lower left, Minato: "AND SHE WILL SHOUT AT
+   ME FIRST." Tail points to the same visible Minato's mouth.
 4. **Middle left, x=0–58 y=30–54; close-up.** Cast/blocking: Naruto facing left; the ordinary three-tomoe Sharingan
    and nothing else. **No text, and no thought balloon may be added to this panel under any
    circumstances.**
 5. **Bottom-upper right, x=51–100 y=58–78; medium.** Cast/blocking: Naruto's hands running a short
-   seal chain at chest height, unhurried; Minato small at frame left, still smiling. No text.
-6. **Bottom-upper left, x=0–47 y=58–78; wide.** Cast/blocking: the rise; Minato's outline is already
-   half gone, ash lifting off him upward and away to the left on the wind; Naruto stands at frame
-   right with his arms at his sides watching. No text.
+   seal chain at chest height, unhurried; Minato small at frame left, still smiling. **B5** upper
+   left, Minato: "GOODBYE, NARUTO." Tail points to visible Minato's mouth at frame left.
+6. **Bottom-upper left, x=0–47 y=58–78; wide.** Cast/blocking: the rise; Minato's outline is
+   already half gone, ash lifting off him upward and away to the left on the wind; Naruto stands at
+   frame right with his arms at his sides watching. **B6** upper left, Minato: "TELL HER I—" Tail
+   points to what is left of visible Minato's mouth as the outline goes; the sentence is cut off by
+   the release and is never finished.
 7. **Bottom band, x=0–100 y=82–100; wide, eye-level.** Cast/blocking: the two empty wooden benches
    facing each other under the dead tree, dry grass moving; at the far right edge Naruto is already
    walking away to the left, small, one glance up at the sky. No text.
@@ -734,28 +800,29 @@ beast with nothing to kill.
    "DONE ALREADY?" Tail points to visible Zetsu's mouth. **B2** lower left, Naruto: "I LET HIM TALK.
    HE TALKED." Tail points to visible Naruto's mouth.
 2. **Top left, x=0–60 y=0–24; close-up.** Cast/blocking: Zetsu at frame right of the panel, facing
-   left, studying Naruto's face off-panel; the yellow eye narrowed. No text.
+   left, studying Naruto's face off-panel; the yellow eye narrowed. **B3** upper right, Zetsu: "YOU
+   LOOK EXACTLY AS YOU DID WHEN YOU LEFT." Tail points to visible Zetsu's mouth.
 3. **Middle-upper right, x=62–100 y=28–48; low angle.** Cast/blocking: Kurama's head lowers into the
    frame from above at frame left, at full size now; Naruto stands very small at frame right facing
-   left. **B3** upper right, Kurama: "WHERE IS THE YONDAIME?" Tail points to visible Kurama's mouth.
-   **B4** lower left, Naruto: "RELEASED." Tail points to visible Naruto's mouth.
+   left. **B4** upper right, Kurama: "WHERE IS THE YONDAIME?" Tail points to visible Kurama's mouth.
+   **B5** lower left, Naruto: "RELEASED." Tail points to visible Naruto's mouth.
 4. **Middle-upper left, x=0–58 y=28–48; close-up.** Cast/blocking: Kurama's muzzle facing right, the
-   grin collapsed into a snarl, teeth apart. **B5** upper left, Kurama: "YOU COULD HAVE KEPT HIM. HE
+   grin collapsed into a snarl, teeth apart. **B6** upper left, Kurama: "YOU COULD HAVE KEPT HIM. HE
    CANNOT DIE — I COULD HAVE TORN HIM APART AGAIN AND AGAIN." Tail points to visible Kurama's mouth.
 5. **Middle-lower right, x=62–100 y=52–72; close-up.** Cast/blocking: Naruto facing left, ordinary
-   three-tomoe Sharingan, bored. **B6** upper right, Naruto: "WHAT IS THE POINT OF TEARING APART SOMETHING THAT
+   three-tomoe Sharingan, bored. **B7** upper right, Naruto: "WHAT IS THE POINT OF TEARING APART SOMETHING THAT
    FEELS NO PAIN?" Tail points to visible Naruto's mouth.
 6. **Middle-lower left, x=0–58 y=52–72; close-up.** Cast/blocking: Naruto facing left, the smallest
-   possible change at one corner of his mouth. **B7** upper left, Naruto: "AND YOU WOULD HAVE HAD TO
+   possible change at one corner of his mouth. **B8** upper left, Naruto: "AND YOU WOULD HAVE HAD TO
    CATCH HIM." Tail points to visible Naruto's mouth.
 7. **Bottom right, x=51–100 y=76–100; low angle, medium.** Cast/blocking: Naruto at frame right
    facing left with Zetsu already sinking into the rock beside him at frame centre-left; Kurama's
-   foreleg and lowered eye occupy the upper left. **B8** upper right, Naruto: "THINGS ARE IN MOTION.
-   I MAY USE YOU MORE THAN I HAVE." Tail points to visible Naruto's mouth. **B9** upper left, Naruto:
+   foreleg and lowered eye occupy the upper left. **B9** upper right, Naruto: "THINGS ARE IN MOTION.
+   I MAY USE YOU MORE THAN I HAVE." Tail points to visible Naruto's mouth. **B10** upper left, Naruto:
    "ZETSU. GO TO THE HIDEOUT AND SUMMON ME FROM THERE." Tail points to the same visible Naruto's
-   mouth. **B10** lower left, Kurama: "AND WHEN DO I GET THE MASKED FOOL WHO PUT HIS SHARINGAN ON
-   ME?" Tail rises to visible Kurama's mouth at the upper left. **B11** lower right, Naruto: "YOU DO
-   NOT." Tail points to visible Naruto's mouth. **B12** lower centre, Naruto: "THE ONE WHO KILLS
+   mouth. **B11** lower left, Kurama: "AND WHEN DO I GET THE MASKED FOOL WHO PUT HIS SHARINGAN ON
+   ME?" Tail rises to visible Kurama's mouth at the upper left. **B12** lower right, Naruto: "YOU DO
+   NOT." Tail points to visible Naruto's mouth. **B13** lower centre, Naruto: "THE ONE WHO KILLS
    OBITO IS ME." Tail points to the same visible mouth. Zetsu does not speak in this panel.
 8. **Bottom left, x=0–47 y=76–100; wide, low angle.** Cast/blocking: bare rock where Naruto stood
    with a thin curl of summoning smoke still dispersing over it and the stone closed seamlessly where
@@ -767,32 +834,44 @@ Koharu already on her feet.
 
 ## Dialogue QA
 
-- 94 balloons, one chapter marker, two location cards and eight SFX units across 20 pages. The marker
-  is exactly "CHAPTER 7 — WHOLE"; the cards are exactly "DRAGON LAND" (p1) and "ELSEWHERE IN DRAGON
-  LAND" (p11). Balloon numbering restarts and stays contiguous on every page. Page 20 panel 7
-  carries five balloons, B8 through B12, in that lettering order; Zetsu is drawn in it and is silent.
-- Density varies hard by function. Page 3 and page 8 are fully wordless (twelve panels, zero
-  balloons). Pages 1, 5, 9 and 11 carry one or two. Pages 14, 15, 17 and 18 run eight or nine
-  balloons of account and reckoning. Page 20 carries twelve because two refusals and two dismissals
-  land inside one page.
+- 147 balloons, one chapter marker, two location cards and eight SFX units across 20 pages. The
+  marker is exactly "CHAPTER 7 — WHOLE"; the cards are exactly "DRAGON LAND" (p1) and "ELSEWHERE IN
+  DRAGON LAND" (p11). Balloon numbering restarts and stays contiguous on every page. Page 20 panel 7
+  carries five balloons, B9 through B13, in that lettering order; Zetsu is drawn in it and is silent.
+  No other panel in the chapter carries more than four.
+- Density averages 7.4 a page and still varies hard by function. **Page 3 remains fully wordless** —
+  six panels, no balloons — because its first panel is Naruto's shrugged refusal of page 2's last
+  question and its remaining five are the approach to the animal; a line anywhere on it would turn
+  the refusal into a conversation. Pages 9 and 19 stay low (three and six) because the near-splash
+  and the release are carried by the art. Pages 14–18 run nine to eleven balloons of account and
+  reckoning. Page 20 carries thirteen because two refusals and two dismissals land inside one page.
 - Preserved from `SOURCE_TRUTH.md`'s verbatim list, redistributed but not softened: "TODAY IS THE DAY
-  I KEEP MY PROMISE." (p4 B3), "YOU NOW DESERVE TO BE CALLED KURAMA." (p9 B1), "MOTHER SAID YOU WERE
-  THE KINDEST MAN SHE KNEW." / "I DO NOT CARE FOR THAT." / "SO. TELL ME YOUR STORY." (p12 B1, B2,
-  B4), "AT THIS RATE, I SHOULD BE THE ROKUDAIME." (p18 B6), and "THE ONE WHO KILLS OBITO IS ME."
-  (p20 B12).
-- **Minato's monologue is not lettered as a monologue.** The account is 18 tail-less oval balloons
-  spread across 20 plate panels on pages 13–16, none longer than two sentences, with four PRESENT
-  cutbacks to Naruto's face interleaved. No panel carries more than two of them.
+  I KEEP MY PROMISE." (p4 B5), "YOU NOW DESERVE TO BE CALLED KURAMA." (p9 B2), "MOTHER SAID YOU WERE
+  THE KINDEST MAN SHE KNEW." / "I DO NOT CARE FOR THAT." / "SO. TELL ME YOUR STORY." (p12 B3, B5,
+  B8), "AT THIS RATE, I SHOULD BE THE ROKUDAIME." (p18 B8), and "THE ONE WHO KILLS OBITO IS ME."
+  (p20 B13). Not one of them has another balloon added inside its own panel.
+- **Minato's monologue is not lettered as a monologue.** The account is 26 tail-less oval balloons
+  spread across the plate panels of pages 13–16, none longer than two sentences, with the PRESENT
+  cutbacks to Naruto's face interleaved — and those cutbacks now carry his three flat interjections
+  ("GO ON.", "YOU HID HER.", "KEEP GOING.") instead of standing silent, so the account reads as
+  something being extracted rather than delivered. **No plate panel carries more than two ovals.**
 - Naruto's lines in the bench scene question, state, refuse, concede a fact, and decide. He never
   summarises the flashback for the reader and never explains the Edo Tensei, the Shinigami, or Obito
   to anyone. Kurama's lines doubt, demand, complain and demand again; he never thanks anybody and
   never explains himself.
-- Zetsu speaks on seven balloons and every one of them is a probe: two about the women, one about
-  Naruto's speed, one refusal, one judgement, and no report. He gives Naruto no information in this
-  chapter.
+- Zetsu speaks on ten balloons and every one of them is a probe: three about the women — including
+  the one that only the two of them could exchange, that Yugao thanked Naruto for Zetsu's work — one
+  about Naruto's speed, one about his face, two refusals, one judgement, and no report. He gives
+  Naruto no information in this chapter, and he never states in Yugao's hearing or anyone else's
+  that he performed the rescue.
 - **Naruto is given no reaction to Minato's declaration.** Page 19 panel 4 is a close-up with no text
   and an explicit prohibition on adding one. This is the chapter's deliberate withholding and it must
-  survive review.
+  survive review. Minato's added lines on that page — "AND SHE WILL SHOUT AT ME FIRST.", "GOODBYE,
+  NARUTO." and the unfinished "TELL HER I—" — all belong to Minato and are all answered with
+  nothing, which is the point: he is released without comment.
+- Kurama gets two wordless beats that are deliberately not converted to speech: the snort on page 10
+  panel 2, and the empty rock on page 20 panel 8. His one thought balloon, page 10 panel 1, is the
+  single word "KURAMA." — he takes the name without thanking anyone for it.
 - Nobody names Danzō, Root, Tsunade, the council, Mei, Oto, Guren, the Hiraishin, the medicine or the
   illness. Yugao and Karin are named on page 2 only. Obito is named once, on page 20, by Naruto.
 - No caption box narrates an event. The two cards state place only, never elapsed time — the entire

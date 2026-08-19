@@ -3,7 +3,7 @@
 **Source:** ch17:149–332. The chapter begins at the "Later that day" card and ends on the empty
 passage outside Yugao's door, before the ch17:333 time card ("The following day").
 
-**Length:** 18 pages, nine spreads, 110 panels, 77 balloons plus one chapter marker and one time
+**Length:** 18 pages, nine spreads, 110 panels, 127 balloons plus one chapter marker and one time
 card.
 
 **Status:** final dialogue and executable textual `name`; ready for independent source and
@@ -99,14 +99,16 @@ card, and let Sasuke break first.
 2. **Middle right, x=68–100 y=36–63; close-up.** Cast/blocking: Naruto's eyes track left across the
    scroll; no expression. No text.
 3. **Middle centre, x=34–65 y=36–63; close-up.** Cast/blocking: Sasuke turns a page and glances up
-   right toward Naruto outside the panel. No text.
+   right toward Naruto outside the panel. **B1** upper centre, tail-less thought balloon, Sasuke:
+   "AN HOUR. NOT ONE WORD OUT OF HIM."
 4. **Middle left, x=0–31 y=36–63; insert.** Cast/blocking: no faces, so eye-line is not applicable;
-   the untouched cup of tea, no steam left on it. No text.
+   the untouched cup of tea, no steam left on it. **B2** upper left, tail-less thought balloon,
+   Sasuke: "AND HE HAS NOT TOUCHED IT."
 5. **Bottom right, x=51–100 y=67–100; repeat of the panel 1 framing, one hour later.**
    Cast/blocking: identical staging and identical postures; the lamp light has warmed and the window
    behind is fully dark. No text.
 6. **Bottom left, x=0–47 y=67–100; medium on Sasuke.** Cast/blocking: Sasuke lowers the book to the
-   table and faces right toward Naruto. **B1** upper left, Sasuke: "AREN'T YOU GOING OUT TONIGHT?"
+   table and faces right toward Naruto. **B3** upper left, Sasuke: "AREN'T YOU GOING OUT TONIGHT?"
    Tail points to visible Sasuke's mouth.
 
 #### Page 2 — 6 panels
@@ -119,16 +121,19 @@ enough to say so.
    visible Naruto's mouth.
 2. **Top left, x=0–58 y=0–29; medium.** Cast/blocking: Sasuke leans back, gesturing once at Naruto
    with two fingers, facing right. **B2** upper left, Sasuke: "DRESSED LIKE THAT?" Tail points to
-   visible Sasuke's mouth.
+   visible Sasuke's mouth. **B3** lower left, Sasuke: "THAT IS WHAT YOU WORE TO THE COUNCIL THIS
+   MORNING." Tail points to visible Sasuke's mouth.
 3. **Middle right, x=51–100 y=33–62; close-up.** Cast/blocking: Naruto faces left, eyes still on the
-   scroll. **B3** upper right, Naruto: "IS THERE A PROBLEM?" Tail points to visible Naruto's mouth.
+   scroll. **B4** upper right, Naruto: "IS THERE A PROBLEM?" Tail points to visible Naruto's mouth.
 4. **Middle left, x=0–47 y=33–62; medium.** Cast/blocking: Sasuke raises both palms slightly, facing
-   right. **B4** upper left, Sasuke: "NO. NO PROBLEM." Tail points to visible Sasuke's mouth.
+   right. **B5** upper left, Sasuke: "NO. NO PROBLEM." Tail points to visible Sasuke's mouth.
 5. **Bottom right, x=51–100 y=66–100; close-up.** Cast/blocking: Sasuke faces right, one eyebrow up.
-   **B5** upper right, Sasuke: "PEOPLE WEAR SOMETHING NICE ON A DATE." Tail points to visible
+   **B6** upper right, Sasuke: "PEOPLE WEAR SOMETHING NICE ON A DATE." Tail points to visible
    Sasuke's mouth.
-6. **Bottom left, x=0–47 y=66–100; medium two-shot.** Cast/blocking: Naruto shrugs once with his eyes
-   on the scroll; Sasuke watches him from the left and gets nothing. No text.
+6. **Bottom left, x=0–47 y=66–100; medium two-shot.** Cast/blocking: Naruto shrugs once with his
+   eyes on the scroll; Sasuke watches him from the left and gets nothing. **B7** upper left,
+   Sasuke: "YOU ARE NOT CURIOUS WHERE SHE IS TAKING YOU?" Tail points to visible Sasuke's mouth.
+   **B8** lower right, Naruto: "SHE MADE THE RESERVATION." Tail points to visible Naruto's mouth.
 
 **Page turn:** He is not going to argue about clothes. What will he talk about?
 
@@ -148,19 +153,22 @@ admitting he took a break.
    DOCUMENTS?" Tail points to visible Naruto's mouth.
 2. **Top left, x=0–58 y=0–30; medium.** Cast/blocking: Sasuke sits forward, a small genuine smile,
    facing right. **B2** upper left, Sasuke: "SHE DID. THE REGISTERED SHINOBI FILES COME IN THREE
-   DAYS." Tail points to visible Sasuke's mouth.
+   DAYS." Tail points to visible Sasuke's mouth. **B3** lower left, Sasuke: "SHE SIGNED THEM
+   WITHOUT LOOKING UP AT ME." Tail points to visible Sasuke's mouth.
 3. **Middle right, x=51–100 y=34–62; close-up.** Cast/blocking: Naruto faces left, eyes finally up
-   from the scroll. **B3** upper right, Naruto: "AND THE PLANS FOR THE POLICE HEADQUARTERS?" Tail
+   from the scroll. **B4** upper right, Naruto: "AND THE PLANS FOR THE POLICE HEADQUARTERS?" Tail
    points to visible Naruto's mouth.
 4. **Middle left, x=0–47 y=34–62; medium.** Cast/blocking: Sasuke tips his head, facing right.
-   **B4** upper left, Sasuke: "NOT YET. YOU CANNOT EXPECT EVERYTHING IN ONE DAY." Tail points to
+   **B5** upper left, Sasuke: "NOT YET. YOU CANNOT EXPECT EVERYTHING IN ONE DAY." Tail points to
    visible Sasuke's mouth.
 5. **Bottom right, x=51–100 y=66–100; close-up.** Cast/blocking: Naruto faces left, level and
-   genuinely puzzled by the answer. **B5** upper right, Naruto: "DID YOU NOT HAVE THE TIME?" Tail
+   genuinely puzzled by the answer. **B6** upper right, Naruto: "DID YOU NOT HAVE THE TIME?" Tail
    points to visible Naruto's mouth.
 6. **Bottom left, x=0–47 y=66–100; medium two-shot.** Cast/blocking: Sasuke shrugs at left facing
-   right; Naruto at right holds the look one beat too long. **B6** upper left, Sasuke: "I HAD IT. I
-   TOOK A BREAK." Tail points to visible Sasuke's mouth.
+   right; Naruto at right holds the look one beat too long. **B7** upper left, Sasuke: "I HAD IT. I
+   TOOK A BREAK." Tail points to visible Sasuke's mouth. **B8** middle right, Naruto: "A BREAK."
+   Tail points to visible Naruto's mouth. **B9** lower left, Sasuke: "PEOPLE TAKE THEM. TRY ONE
+   TONIGHT." Tail points to visible Sasuke's mouth.
 
 #### Page 4 — 6 panels
 
@@ -172,10 +180,13 @@ effect reads as a technique and not decoration.
    door, medium: "KNOCK KNOCK". No balloon.
 2. **Top left, x=0–58 y=0–28; medium.** Cast/blocking: Sasuke turns right toward the door with a
    smirk, one hand still on his book. **B1** upper left, Sasuke: "THAT WILL BE YOUR DATE." Tail
-   points to visible Sasuke's mouth.
-3. **Middle right, x=51–100 y=32–58; medium.** Cast/blocking: Sasuke leans back in his chair, facing
-   right, thoroughly pleased with himself. **B2** upper right, Sasuke: "DON'T STAY OUT LATE. DON'T DO
-   ANYTHING I WOULDN'T DO." Tail points to visible Sasuke's mouth.
+   points to visible Sasuke's mouth. **B2** lower left, Sasuke: "SHALL I GET IT?" Tail points to
+   visible Sasuke's mouth.
+3. **Middle right, x=51–100 y=32–58; medium.** Cast/blocking: Sasuke leans back in his chair,
+   facing right, thoroughly pleased with himself. **B3** upper right, Sasuke: "DON'T STAY OUT LATE.
+   DON'T DO ANYTHING I WOULDN'T DO." Tail points to visible Sasuke's mouth. **B4** lower right,
+   Sasuke: "AND BRING HER INSIDE NEXT TIME. I AM TOLD THAT IS ALSO A THING PEOPLE DO." Tail points
+   to visible Sasuke's mouth.
 4. **Middle left focal panel, x=0–47 y=32–58; tight frontal close-up.** Cast/blocking: Naruto faces
    forward, eyes angled left toward Sasuke; not one feature has moved — no smile, no twitch of a
    brow, no narrowing of an eye. Absolutely still. No text.
@@ -185,10 +196,11 @@ effect reads as a technique and not decoration.
    ribbon that travels left and downward and meets the scroll's upper edge, which is already
    blackening and curling. Origin, path and contact are all inside this one panel. **SFX** along the
    ribbon: "FWOOSH". No balloon.
-6. **Bottom left, x=0–47 y=62–100; medium.** Cast/blocking: the chair at right is empty and Naruto's
-   back is disappearing out of the frame's left edge; Sasuke sits alone at left, hand still half
-   raised from the joke, looking after him. **B3** upper left, Sasuke: "...I KEEP FORGETTING HE DOES
-   NOT JOKE." Tail points to visible Sasuke's mouth.
+6. **Bottom left, x=0–47 y=62–100; medium.** Cast/blocking: the chair at right is empty and
+   Naruto's back is disappearing out of the frame's left edge; Sasuke sits alone at left, hand
+   still half raised from the joke, looking after him. **B5** upper left, Sasuke: "...I KEEP
+   FORGETTING HE DOES NOT JOKE." Tail points to visible Sasuke's mouth. **B6** lower left, Sasuke:
+   "ONE DAY I WILL GET ONE PAST HIM." Tail points to visible Sasuke's mouth.
 
 **Page turn:** The door.
 
@@ -207,39 +219,45 @@ enough that the reader wants him to say something too.
    Cast/blocking: the door is open at centre; Yugao stands on the step facing the reader, weight on
    one hip, in blue jeans and a dark purple T-shirt with her hair loose over her shoulders and no
    mask, no armour, no sword; the compound path and night sky are behind her; Naruto's black
-   shoulder and jaw occupy the lower-right foreground, facing her. No text.
+   shoulder and jaw occupy the lower-right foreground, facing her. **B1** upper left, Yugao: "GOOD
+   EVENING." Tail points to visible Yugao's mouth.
 2. **Middle right, x=68–100 y=38–65; close-up.** Cast/blocking: Naruto's face, facing left; his right
    eyebrow lifts perhaps two millimetres. Nothing else changes. No text.
-3. **Middle centre, x=34–65 y=38–65; close-up.** Cast/blocking: Yugao faces right toward him, a small
-   expectant smile already in place, waiting. No text.
-4. **Middle left, x=0–31 y=38–65; close-up.** Cast/blocking: Naruto faces right; the eyebrow has come
-   back down. No text.
+3. **Middle centre, x=34–65 y=38–65; close-up.** Cast/blocking: Yugao faces right toward him, a
+   small expectant smile already in place, waiting. **B2** upper centre, Yugao: "WELL?" Tail points
+   to visible Yugao's mouth.
+4. **Middle left, x=0–31 y=38–65; close-up.** Cast/blocking: Naruto faces right; the eyebrow has
+   come back down. **B3** upper left, tail-less thought balloon, Naruto: "SHE IS WAITING FOR
+   SOMETHING."
 5. **Bottom right, x=51–100 y=69–100; medium two-shot.** Cast/blocking: Naruto steps out and pulls
-   the door closed behind him with his left hand; Yugao stands at left facing right. **B1** upper
+   the door closed behind him with his left hand; Yugao stands at left facing right. **B4** upper
    right, Naruto: "SHALL WE?" Tail points to visible Naruto's mouth.
 6. **Bottom left, x=0–47 y=69–100; close reaction.** Cast/blocking: Yugao faces right; the smile
-   flattens by degrees and her eyes drop half an inch. No text.
+   flattens by degrees and her eyes drop half an inch. **B5** upper left, tail-less thought
+   balloon, Yugao: "NOT ONE WORD."
 
 #### Page 6 — 6 panels
 
 **Purpose:** Get them walking, and let her open the argument she actually came prepared to have.
 
-1. **Top right, x=62–100 y=0–29; medium.** Cast/blocking: Yugao turns away from the door toward frame
-   left, chin up, recovering. **B1** upper right, Yugao: "LET'S WALK." Tail points to visible Yugao's
-   mouth.
+1. **Top right, x=62–100 y=0–29; medium.** Cast/blocking: Yugao turns away from the door toward
+   frame left, chin up, recovering. **B1** upper right, Yugao: "LET'S WALK." Tail points to visible
+   Yugao's mouth. **B2** lower right, Yugao: "IT IS NOT FAR." Tail points to visible Yugao's mouth.
 2. **Top left, x=0–58 y=0–29; wide two-shot on the compound road.** Cast/blocking: Naruto at right
    and Yugao at left walk left along the dark compound path; old Uchiha walls run behind them; the
-   pace is slow and neither is hurrying. No text.
+   pace is slow and neither is hurrying. **B3** upper right, Naruto: "WHERE ARE WE EATING?" Tail
+   points to visible Naruto's mouth. **B4** lower left, Yugao: "YOU WILL SEE. I BOOKED IT DAYS
+   AGO." Tail points to visible Yugao's mouth.
 3. **Middle right, x=51–100 y=33–61; medium.** Cast/blocking: Yugao walks left and turns her face
-   right toward Naruto. **B2** upper right, Yugao: "YOU COULD COMPLIMENT SOMEONE ON THEIR LOOKS ONCE.
+   right toward Naruto. **B5** upper right, Yugao: "YOU COULD COMPLIMENT SOMEONE ON THEIR LOOKS ONCE.
    NORMAL PEOPLE DO." Tail points to visible Yugao's mouth.
 4. **Middle left, x=0–47 y=33–61; close-up.** Cast/blocking: Naruto walks left, eyes on the road
-   ahead, not on her. **B3** upper left, Naruto: "YOU EXPECTED THAT FROM ME?" Tail points to visible
+   ahead, not on her. **B6** upper left, Naruto: "YOU EXPECTED THAT FROM ME?" Tail points to visible
    Naruto's mouth.
-5. **Bottom right, x=51–100 y=65–100; close-up.** Cast/blocking: Yugao faces right, firm. **B4**
+5. **Bottom right, x=51–100 y=65–100; close-up.** Cast/blocking: Yugao faces right, firm. **B7**
    upper right, Yugao: "WELL. YES." Tail points to visible Yugao's mouth.
 6. **Bottom left, x=0–47 y=65–100; close-up.** Cast/blocking: Naruto faces left, eyes still forward.
-   **B5** upper left, Naruto: "FOR WHAT PURPOSE?" Tail points to visible Naruto's mouth.
+   **B8** upper left, Naruto: "FOR WHAT PURPOSE?" Tail points to visible Naruto's mouth.
 
 **Page turn:** She has to explain why praise is worth anything.
 
@@ -255,24 +273,28 @@ enough that the reader wants him to say something too.
 the argument.
 
 1. **Top right, x=62–100 y=0–30; medium.** Cast/blocking: Yugao walking left, hands loose, facing
-   right toward Naruto. **B1** upper right, Yugao: "IT IS PLEASANT TO HEAR THAT YOU LOOK WONDERFUL."
-   Tail points to visible Yugao's mouth.
+   right toward Naruto. **B1** upper right, Yugao: "IT IS PLEASANT TO HEAR THAT YOU LOOK
+   WONDERFUL." Tail points to visible Yugao's mouth. **B2** lower right, Yugao: "MOST PEOPLE MANAGE
+   IT WITHOUT BEING ASKED." Tail points to visible Yugao's mouth.
 2. **Top left, x=0–58 y=0–30; close-up.** Cast/blocking: Naruto in profile facing left, walking.
-   **B2** upper left, Naruto: "AND IF I TOLD YOU THAT YOUR CLOTHES DO NOT SUIT YOU?" Tail points to
-   visible Naruto's mouth.
+   **B3** upper left, Naruto: "AND IF I TOLD YOU THAT YOUR CLOTHES DO NOT SUIT YOU?" Tail points to
+   visible Naruto's mouth. **B4** lower left, Naruto: "WOULD THAT ALSO BE PLEASANT TO HEAR?" Tail
+   points to visible Naruto's mouth.
 3. **Middle right, x=68–100 y=34–63; close-up.** Cast/blocking: Yugao facing right; she takes the
-   question seriously instead of taking offence. **B3** upper right, Yugao: "NOT SO GOOD, I SUPPOSE."
+   question seriously instead of taking offence. **B5** upper right, Yugao: "NOT SO GOOD, I SUPPOSE."
    Tail points to visible Yugao's mouth.
 4. **Middle centre, x=34–65 y=34–63; close-up.** Cast/blocking: Yugao still facing right, thinking it
-   through. **B4** upper centre, Yugao: "IT DEPENDS WHO SAYS IT." Tail points to visible Yugao's
+   through. **B6** upper centre, Yugao: "IT DEPENDS WHO SAYS IT." Tail points to visible Yugao's
    mouth.
 5. **Middle left, x=0–31 y=34–63; tight close-up.** Cast/blocking: Yugao's face fills the frame,
-   facing right, entirely candid. **B5** upper left, Yugao: "IF YOU SAID I LOOKED GOOD I WOULD BE
+   facing right, entirely candid. **B7** upper left, Yugao: "IF YOU SAID I LOOKED GOOD I WOULD BE
    ECSTATIC. IF YOU SAID I DID NOT, I WOULD BE SAD — BECAUSE YOU WOULD MEAN IT." Tail points to
    visible Yugao's mouth.
-6. **Bottom band, x=0–100 y=67–100; wide two-shot from behind.** Cast/blocking: both seen from behind
-   moving left down the compound road, the lit village visible far ahead at the left edge; Naruto
-   does not answer. No text.
+6. **Bottom band, x=0–100 y=67–100; wide two-shot from behind.** Cast/blocking: both seen from
+   behind moving left down the compound road, the lit village visible far ahead at the left edge;
+   Naruto does not answer. **B8** upper left, Yugao: "YOU HAVE GONE QUIET." Tail points to Yugao's
+   head at frame left, seen from behind — no mouth is visible, so the tail runs to the back of her
+   head and to no one else.
 
 #### Page 8 — 6 panels
 
@@ -281,21 +303,23 @@ Naruto offers anyone in this volume.
 
 1. **Top right, x=62–100 y=0–28; medium.** Cast/blocking: Yugao faces right, one eyebrow raised,
    enjoying herself. **B1** upper right, Yugao: "THOUGH I DOUBT ANY WOMAN WOULD BE HAPPY TO HEAR IT
-   FROM JIRAIYA." Tail points to visible Yugao's mouth.
+   FROM JIRAIYA." Tail points to visible Yugao's mouth. **B2** lower right, Yugao: "THAT WAS A
+   JOKE." Tail points to visible Yugao's mouth.
 2. **Top left, x=0–58 y=0–28; close-up.** Cast/blocking: Naruto faces left; the corner of his mouth
-   does not move, but his eyes flick right to her for a fraction of a second. No text.
-3. **Middle right, x=51–100 y=32–58; medium.** Cast/blocking: Naruto walks left, eyes ahead. **B2**
+   does not move, but his eyes flick right to her for a fraction of a second. **B3** upper left,
+   Naruto: "I KNOW." Tail points to visible Naruto's mouth.
+3. **Middle right, x=51–100 y=32–58; medium.** Cast/blocking: Naruto walks left, eyes ahead. **B4**
    upper right, Naruto: "DO NOT EXPECT IT FROM ME. OR FROM ANYONE." Tail points to visible Naruto's
    mouth.
 4. **Middle left focal panel, x=0–47 y=32–58; medium, both feet stopped.** Cast/blocking: Naruto has
    halted mid-road and turned fully right to face Yugao, who is caught a half step ahead of him at
-   frame left, turning back; the compound wall runs behind them. **B3** upper left, Naruto: "KNOW WHO
+   frame left, turning back; the compound wall runs behind them. **B5** upper left, Naruto: "KNOW WHO
    YOU ARE AND WHAT YOU ARE." Tail points to visible Naruto's mouth.
 5. **Bottom right, x=51–100 y=62–100; close-up.** Cast/blocking: Naruto facing left, eyes on her.
-   **B4** upper right, Naruto: "TAKE A COMPLIMENT AS A COMPLIMENT." Tail points to visible Naruto's
+   **B6** upper right, Naruto: "TAKE A COMPLIMENT AS A COMPLIMENT." Tail points to visible Naruto's
    mouth.
 6. **Bottom left, x=0–47 y=62–100; tight close-up.** Cast/blocking: Naruto's face fills the frame,
-   facing left. **B5** upper left, Naruto: "DO NOT LET IT DECIDE WHAT YOU THINK OF YOURSELF." Tail
+   facing left. **B7** upper left, Naruto: "DO NOT LET IT DECIDE WHAT YOU THINK OF YOURSELF." Tail
    points to visible Naruto's mouth.
 
 **Page turn:** She did not expect that from him either.
@@ -311,20 +335,23 @@ Naruto offers anyone in this volume.
 **Purpose:** Let her be visibly moved, let him register it without comment, and then let him turn the
 observation on her.
 
-1. **Top right, x=62–100 y=0–30; medium.** Cast/blocking: Yugao stands stopped at frame centre facing
-   right, staring at Naruto outside the panel; one foot is still lifted from the interrupted step. No
-   text.
+1. **Top right, x=62–100 y=0–30; medium.** Cast/blocking: Yugao stands stopped at frame centre
+   facing right, staring at Naruto outside the panel; one foot is still lifted from the interrupted
+   step. **B1** upper right, tail-less thought balloon, Yugao: "HE MEANT IT."
 2. **Top left, x=0–58 y=0–30; medium.** Cast/blocking: Yugao takes two quick steps left to catch up
-   to Naruto, who has already started walking again at the left edge. **B1** upper left, Yugao: "I
-   DID NOT THINK YOU COULD SAY SOMETHING LIKE THAT." Tail points to visible Yugao's mouth.
+   to Naruto, who has already started walking again at the left edge. **B2** upper left, Yugao: "I
+   DID NOT THINK YOU COULD SAY SOMETHING LIKE THAT." Tail points to visible Yugao's mouth. **B3**
+   lower left, Yugao: "SOMEONE TAUGHT YOU THAT." Tail points to visible Yugao's mouth.
 3. **Middle right, x=51–100 y=34–62; close-up.** Cast/blocking: Naruto in profile facing left, eyes
-   forward; the faintest possible smile at one corner of his mouth. No text.
+   forward; the faintest possible smile at one corner of his mouth. **B4** upper right, Yugao: "NO
+   ANSWER, THEN." `OFF`, tail exits the right edge toward Yugao.
 4. **Middle left, x=0–47 y=34–62; medium two-shot.** Cast/blocking: both walking left, half a stride
-   apart; Naruto turns his eyes right to her without turning his head. **B2** upper left, Naruto:
+   apart; Naruto turns his eyes right to her without turning his head. **B5** upper left, Naruto:
    "YOU ARE ACTING NORMAL NOW." Tail points to visible Naruto's mouth.
-5. **Bottom right, x=51–100 y=66–100; close-up.** Cast/blocking: Yugao faces left, caught off guard.
-   **B3** upper right, Yugao: "HUH?" Tail points to visible Yugao's mouth.
-6. **Bottom left, x=0–47 y=66–100; close-up.** Cast/blocking: Naruto faces right at her. **B4** upper
+5. **Bottom right, x=51–100 y=66–100; close-up.** Cast/blocking: Yugao faces left, caught off
+   guard. **B6** upper right, Yugao: "HUH?" Tail points to visible Yugao's mouth. **B7** lower
+   right, Yugao: "ACTING NORMAL?" Tail points to visible Yugao's mouth.
+6. **Bottom left, x=0–47 y=66–100; close-up.** Cast/blocking: Naruto faces right at her. **B8** upper
    left, Naruto: "YOU ARE CONFIDENT. YOU DO NOT LOOK UNCOMFORTABLE BESIDE ME, AND THIS IS A DATE."
    Tail points to visible Naruto's mouth.
 
@@ -336,17 +363,20 @@ the spread in a silence that is comfortable rather than awkward.
 1. **Top right, x=62–100 y=0–29; medium.** Cast/blocking: Yugao walks left, hands behind her back,
    face turned right toward him. **B1** upper right, Yugao: "I WAS COMFORTABLE WITH YOU BEFORE. THEN
    THIS HAPPENED." Tail points to visible Yugao's mouth.
-2. **Top left, x=0–58 y=0–29; close-up.** Cast/blocking: Yugao facing right, eyes going to the road.
-   **B2** upper left, Yugao: "MAYBE I DID NOT KNOW WHAT TO MAKE OF YOU. THAT MADE ME NERVOUS." Tail
-   points to visible Yugao's mouth.
+2. **Top left, x=0–58 y=0–29; close-up.** Cast/blocking: Yugao facing right, eyes going to the
+   road. **B2** upper left, Yugao: "MAYBE I DID NOT KNOW WHAT TO MAKE OF YOU. THAT MADE ME
+   NERVOUS." Tail points to visible Yugao's mouth. **B3** lower left, Yugao: "PEOPLE ARE USUALLY
+   AFRAID OF YOU. I COULD NOT TELL IF I WAS." Tail points to visible Yugao's mouth.
 3. **Middle right, x=51–100 y=33–60; close-up.** Cast/blocking: Naruto faces left, eyes forward.
-   **B3** upper right, Naruto: "AND NOW YOU KNOW WHAT TO MAKE OF ME?" Tail points to visible Naruto's
+   **B4** upper right, Naruto: "AND NOW YOU KNOW WHAT TO MAKE OF ME?" Tail points to visible Naruto's
    mouth.
 4. **Middle left, x=0–47 y=33–60; close-up.** Cast/blocking: Yugao faces right; her eyes go forward
-   instead of to him, and the answer costs her something. **B4** upper left, Yugao: "YES." Tail
-   points to visible Yugao's mouth.
+   instead of to him, and the answer costs her something. **B5** upper left, Yugao: "YES." Tail
+   points to visible Yugao's mouth. **B6** lower left, Yugao: "MOSTLY." Tail points to visible
+   Yugao's mouth.
 5. **Bottom right, x=51–100 y=64–100; close-up.** Cast/blocking: Naruto in profile facing left. He
-   does not ask. His expression does not shift at all. No text.
+   does not ask. His expression does not shift at all. **B7** upper left, Yugao: "YOU ARE NOT GOING
+   TO ASK WHAT I DECIDED?" `OFF`, tail exits the left edge toward Yugao.
 6. **Bottom left focal panel, x=0–47 y=64–100; wide two-shot, low angle.** Cast/blocking: the two
    pass out of the dark compound gateway at the right and into the lit village street at the left,
    walking left; hanging lanterns and lit shopfronts fill the background and evening foot traffic
@@ -366,23 +396,28 @@ the spread in a silence that is comfortable rather than awkward.
 between the ground floor and the third floor the actual information.
 
 1. **Top right, x=62–100 y=0–27; wide establishing exterior.** Cast/blocking: a three-storey
-   restaurant front at night, warm windows on all three floors, a smartly dressed doorman on the step
-   at frame left; Naruto and Yugao approach from the right; the building's name board is ILLEGIBLE
-   SCRIBBLE. No text.
+   restaurant front at night, warm windows on all three floors, a smartly dressed doorman on the
+   step at frame left; Naruto and Yugao approach from the right; the building's name board is
+   ILLEGIBLE SCRIBBLE. **B1** upper right, Yugao: "THIS IS IT. I ASKED FOR THE TOP FLOOR — IT IS
+   QUIETER." Tail points to visible Yugao's mouth.
 2. **Top left, x=0–58 y=0–27; medium.** Cast/blocking: the doorman at frame left faces right with a
-   clipboard; Yugao and Naruto stand at right. **B1** upper left, doorman: "NAME, PLEASE." Tail
+   clipboard; Yugao and Naruto stand at right. **B2** upper left, doorman: "NAME, PLEASE." Tail
    points to visible doorman's mouth.
-3. **Middle right, x=68–100 y=31–56; medium.** Cast/blocking: Yugao faces left, chin up. **B2** upper
+3. **Middle right, x=68–100 y=31–56; medium.** Cast/blocking: Yugao faces left, chin up. **B3** upper
    right, Yugao: "UZUKI YUGAO. TABLE FOR TWO." Tail points to visible Yugao's mouth.
 4. **Middle centre, x=34–65 y=31–56; insert close-up.** Cast/blocking: no faces, so eye-line is not
    applicable; the doorman's hand runs down a clipboard list rendered entirely as ILLEGIBLE SCRIBBLE
-   and stops. **B3** upper centre, doorman: "THIS WAY. MADAM. SIR." `OFF`, tail exits the left edge
+   and stops. **B4** upper centre, doorman: "THIS WAY. MADAM. SIR." `OFF`, tail exits the left edge
    toward the doorman.
 5. **Middle left, x=0–31 y=31–56; medium.** Cast/blocking: the ground-floor room seen past Naruto's
    shoulder — four or five diners at tables, and three of them have turned their heads to look
-   directly at him. No text.
+   directly at him. **B5** upper left, an unnamed seated diner: "THAT IS HIM. THE UCHIHA." Tail
+   points to that diner's visible mouth. **B6** lower left, a second unnamed diner: "DON'T STARE."
+   Tail points to that second diner's visible mouth.
 6. **Bottom right, x=51–100 y=60–100; medium on the stairs.** Cast/blocking: Naruto climbs left and
-   upward behind Yugao; his eyes are angled back down-right toward the turned heads below. No text.
+   upward behind Yugao; his eyes are angled back down-right toward the turned heads below. **B7**
+   upper left, Yugao: "IGNORE THEM." `OFF` — her face is turned away up the stair, so no tail may
+   be grown from it; the tail exits the upper left edge toward her.
 7. **Bottom left focal panel, x=0–47 y=60–100; wide interior.** Cast/blocking: the third floor — low
    dim light, deep red walls and hangings, widely spaced tables of which three are occupied by
    quiet-looking civilians; not one of them looks up. Naruto and Yugao enter small at the right edge.
@@ -400,15 +435,18 @@ her terms.
    just visible at the frame's left edge settling into her chair. **B2** upper left, tail-less
    thought balloon: "SHE PULLED STRINGS."
 3. **Middle right, x=51–100 y=32–58; insert.** Cast/blocking: no faces, so eye-line is not
-   applicable; a waiter's hands set two plates down onto the dark tablecloth. No text.
+   applicable; a waiter's hands set two plates down onto the dark tablecloth. **B3** upper right,
+   the waiter: "PLEASE ENJOY YOUR MEAL." `OFF`, tail exits the top edge toward the unseen waiter.
+   **B4** lower left, Yugao: "THANK YOU." `OFF`, tail exits the left edge toward Yugao.
 4. **Middle left, x=0–47 y=32–58; medium two-shot across the table.** Cast/blocking: Yugao at left
-   facing right, Naruto at right facing left, the low lamp between them. **B3** upper left, Yugao:
-   "MOST MEN WOULD BE THRILLED TO BE HERE." Tail points to visible Yugao's mouth.
+   facing right, Naruto at right facing left, the low lamp between them. **B5** upper left, Yugao:
+   "MOST MEN WOULD BE THRILLED TO BE HERE." Tail points to visible Yugao's mouth. **B6** lower
+   left, Yugao: "YOU HAVE NOT LOOKED AT THE FOOD ONCE." Tail points to visible Yugao's mouth.
 5. **Bottom right, x=51–100 y=62–100; close-up.** Cast/blocking: Naruto faces left, entirely level.
-   **B4** upper right, Naruto: "I AM NOT MOST MEN." Tail points to visible Naruto's mouth. **B5**
+   **B7** upper right, Naruto: "I AM NOT MOST MEN." Tail points to visible Naruto's mouth. **B8**
    lower right, Naruto: "HOW IS ANBU?" Tail points to the same visible mouth.
 6. **Bottom left, x=0–47 y=62–100; medium.** Cast/blocking: Yugao faces right, chopsticks paused.
-   **B6** upper left, Yugao: "I HAVE BEEN THINKING OF RETIRING." Tail points to visible Yugao's
+   **B9** upper left, Yugao: "I HAVE BEEN THINKING OF RETIRING." Tail points to visible Yugao's
    mouth.
 
 **Page turn:** She has said something large and he has not reacted to it yet.
@@ -430,13 +468,17 @@ to ask.
    **B2** upper left, Yugao: "NO. I WANT TIME THAT BELONGS TO ME." Tail points to visible Yugao's
    mouth.
 3. **Middle right, x=51–100 y=33–60; close-up.** Cast/blocking: Yugao faces right, the smile going.
-   **B3** upper right, Yugao: "IN ANBU, NOTHING DOES." Tail points to visible Yugao's mouth.
-4. **Middle left, x=0–47 y=33–60; medium.** Cast/blocking: Naruto inclines his head a single degree,
-   facing left, and eats. No text.
+   **B3** upper right, Yugao: "IN ANBU, NOTHING DOES." Tail points to visible Yugao's mouth. **B4**
+   lower right, Yugao: "THE MISSIONS DO NOT STOP. THEY ONLY CHANGE COLOUR." Tail points to visible
+   Yugao's mouth.
+4. **Middle left, x=0–47 y=33–60; medium.** Cast/blocking: Naruto inclines his head a single
+   degree, facing left, and eats. **B5** upper left, Naruto: "THEN TAKE IT BACK." Tail points to
+   visible Naruto's mouth.
 5. **Bottom right, x=51–100 y=64–100; close-up.** Cast/blocking: Yugao facing right; her chopsticks
-   lower to the plate and stop; she is choosing her words. No text.
+   lower to the plate and stop; she is choosing her words. **B6** upper right, Yugao: "CAN I ASK
+   YOU SOMETHING?" Tail points to visible Yugao's mouth.
 6. **Bottom left, x=0–47 y=64–100; medium two-shot.** Cast/blocking: Yugao at left leans very
-   slightly forward toward Naruto at right; her voice is deliberately light. **B4** upper left,
+   slightly forward toward Naruto at right; her voice is deliberately light. **B7** upper left,
    Yugao: "SO WHO IS THE GIRL LIVING IN YOUR HOUSE?" Tail points to visible Yugao's mouth.
 
 #### Page 14 — 6 panels
@@ -445,20 +487,22 @@ to ask.
 from her by naming it.
 
 1. **Top right, x=62–100 y=0–29; close-up.** Cast/blocking: Naruto faces left; he does not look up
-   immediately and does not stop eating. No text.
+   immediately and does not stop eating. **B1** upper left, Yugao: "IF YOU WOULD RATHER NOT SAY—"
+   `OFF`, tail exits the left edge toward Yugao.
 2. **Top left, x=0–58 y=0–29; close-up.** Cast/blocking: Naruto's eyes come up to her, facing left.
-   **B1** upper left, Naruto: "KARIN." Tail points to visible Naruto's mouth.
-3. **Middle right, x=68–100 y=33–60; close-up.** Cast/blocking: Yugao faces right, waiting, her face
-   carefully neutral and failing at it. No text.
+   **B2** upper left, Naruto: "KARIN." Tail points to visible Naruto's mouth.
+3. **Middle right, x=68–100 y=33–60; close-up.** Cast/blocking: Yugao faces right, waiting, her
+   face carefully neutral and failing at it. **B3** upper right, tail-less thought balloon, Yugao:
+   "SAY SHE IS NOBODY. SAY IT."
 4. **Middle centre, x=34–65 y=33–60; insert.** Cast/blocking: no faces, so eye-line is not
    applicable; Yugao's hand flat on the tablecloth, the fingers pressing down. No text.
 5. **Middle left focal panel, x=0–31 y=33–60; tight close-up.** Cast/blocking: Naruto's face fills
-   the frame, facing right, eyes level on her. **B2** upper left, Naruto: "SHE IS FAMILY." Tail
+   the frame, facing right, eyes level on her. **B4** upper left, Naruto: "SHE IS FAMILY." Tail
    points to visible Naruto's mouth.
 6. **Bottom band, x=0–100 y=64–100; wide two-shot across the table.** Cast/blocking: Yugao at left
    facing right; her shoulders drop, the pressing hand relaxes, and a real smile arrives before she
-   can stop it; Naruto at right watches it happen. **B3** upper left, Yugao: "OH." Tail points to
-   visible Yugao's mouth.
+   can stop it; Naruto at right watches it happen. **B5** upper left, Yugao: "OH." Tail points to
+   visible Yugao's mouth. **B6** lower left, Yugao: "FAMILY." Tail points to visible Yugao's mouth.
 
 **Page turn:** He watched her whole face do that.
 
@@ -477,17 +521,20 @@ than lose the whole evening to it.
    slightly — the same movement he gave her clothes on page 5. **B1** upper right, Naruto: "DOES IT
    MAKE YOU HAPPY THAT KARIN IS FAMILY TO ME?" Tail points to visible Naruto's mouth.
 2. **Top left, x=0–58 y=0–29; close-up.** Cast/blocking: Yugao faces right, caught completely.
-   **B2** upper left, Yugao: "W-WELL... YES." Tail points to visible Yugao's mouth.
+   **B2** upper left, Yugao: "W-WELL... YES." Tail points to visible Yugao's mouth. **B3** lower
+   left, Yugao: "SHOULD IT NOT?" Tail points to visible Yugao's mouth.
 3. **Middle right, x=51–100 y=33–60; close-up.** Cast/blocking: Naruto faces left, eyes steady on
-   her; there is no cruelty in the face and no mercy either. **B3** upper right, Naruto: "YOU THOUGHT
+   her; there is no cruelty in the face and no mercy either. **B4** upper right, Naruto: "YOU THOUGHT
    SHE WAS MORE THAN THAT. IT MADE YOU SAD." Tail points to visible Naruto's mouth.
 4. **Middle left, x=0–47 y=33–60; tight close-up.** Cast/blocking: Naruto's face, facing left.
-   **B4** upper left, Naruto: "INTERESTING." Tail points to visible Naruto's mouth.
+   **B5** upper left, Naruto: "INTERESTING." Tail points to visible Naruto's mouth.
 5. **Bottom right, x=51–100 y=64–100; close-up.** Cast/blocking: Yugao faces down toward the table,
-   swallowing; her eyes are off him for the first time all evening. No text.
-6. **Bottom left, x=0–47 y=64–100; medium.** Cast/blocking: Yugao's head comes up, facing right, with
-   a determinedly bright expression bolted on. **B5** upper left, Yugao: "I HEARD YOU HAD FUN AT THE
-   COUNCIL TODAY." Tail points to visible Yugao's mouth.
+   swallowing; her eyes are off him for the first time all evening. **B6** upper right, tail-less
+   thought balloon, Yugao: "HE READ ME LIKE A REPORT."
+6. **Bottom left, x=0–47 y=64–100; medium.** Cast/blocking: Yugao's head comes up, facing right,
+   with a determinedly bright expression bolted on. **B7** upper left, Yugao: "I HEARD YOU HAD FUN
+   AT THE COUNCIL TODAY." Tail points to visible Yugao's mouth. **B8** lower left, Yugao: "AND I AM
+   CHANGING THE SUBJECT, SO LET ME." Tail points to visible Yugao's mouth.
 
 #### Page 16 — 6 panels
 
@@ -530,23 +577,26 @@ own surprise at himself.
 **Purpose:** Get them to her door on her initiative, and stage the approach in three deliberate steps
 so the reader feels the distance closing.
 
-1. **Top right, x=62–100 y=0–29; wide night street.** Cast/blocking: Naruto and Yugao walk left along
-   a quiet residential street; the shops are shuttered and the lanterns are down to a few; Yugao is
-   half a step ahead and choosing the direction. No text.
+1. **Top right, x=62–100 y=0–29; wide night street.** Cast/blocking: Naruto and Yugao walk left
+   along a quiet residential street; the shops are shuttered and the lanterns are down to a few;
+   Yugao is half a step ahead and choosing the direction. **B1** upper right, Yugao: "YOU DO NOT
+   HAVE TO WALK ME BACK." Tail points to visible Yugao's mouth. **B2** lower left, Naruto: "I AM
+   ALREADY WALKING." Tail points to visible Naruto's mouth.
 2. **Top left, x=0–58 y=0–29; medium.** Cast/blocking: they turn left into an apartment passage —
-   an open exterior walkway with plain doors along the left wall and a rail on the right; Yugao leads
-   and Naruto follows. No text.
+   an open exterior walkway with plain doors along the left wall and a rail on the right; Yugao
+   leads and Naruto follows. **B3** upper right, Yugao: "MIND THE STEP. THE LAMP HAS BEEN OUT FOR A
+   MONTH." Tail points to visible Yugao's mouth.
 3. **Middle right, x=51–100 y=33–61; medium.** Cast/blocking: Yugao stops with her back to a door at
    frame left and turns right to face Naruto, who stands three paces off at frame right; her hands
-   have gone behind her against the door. **B1** upper right, Yugao: "THIS IS MY PLACE." Tail points
+   have gone behind her against the door. **B4** upper right, Yugao: "THIS IS MY PLACE." Tail points
    to visible Yugao's mouth.
 4. **Middle left, x=0–47 y=33–61; close-up.** Cast/blocking: Naruto faces left, standing still in the
-   passage. **B2** upper left, Naruto: "COME HERE." Tail points to visible Naruto's mouth.
+   passage. **B5** upper left, Naruto: "COME HERE." Tail points to visible Naruto's mouth.
 5. **Bottom right, x=51–100 y=65–100; medium.** Cast/blocking: Yugao takes one step away from the
-   door toward Naruto at right; the gap is now two paces. **B3** upper right, Naruto: "CLOSER."
+   door toward Naruto at right; the gap is now two paces. **B6** upper right, Naruto: "CLOSER."
    `OFF`, tail exits the right edge toward Naruto.
 6. **Bottom left, x=0–47 y=65–100; medium.** Cast/blocking: Yugao takes another step; the gap is one
-   pace; her chin is up and she is looking straight at him. **B4** upper left, Naruto: "CLOSER."
+   pace; her chin is up and she is looking straight at him. **B7** upper left, Naruto: "CLOSER."
    `OFF`, tail exits the right edge toward Naruto.
 
 #### Page 18 — 7 panels
@@ -554,22 +604,23 @@ so the reader feels the distance closing.
 **Purpose:** Give the warmest line he has, let her spoil it with the right question, and end on him
 gone and her smiling — the exact end effect the source leaves.
 
-1. **Top band, x=0–100 y=0–30; medium two-shot, tight framing.** Cast/blocking: Yugao stands directly
-   against Naruto, front to front, her face turned up to the right toward his; both are shown from
-   the chest up and both pairs of arms hang down at their sides — neither is holding the other. The
-   passage rail and a shuttered window are behind them. **B1** upper right, Naruto: "YOU ARE NOT
-   ANNOYING AND YOUR PRESENCE IS TOLERABLE UNLIKE ANY OTHER WOMEN I HAVE COME ACROSS." Tail points to
-   visible Naruto's mouth.
+1. **Top band, x=0–100 y=0–30; medium two-shot, tight framing.** Cast/blocking: Yugao stands
+   directly against Naruto, front to front, her face turned up to the right toward his; both are
+   shown from the chest up and both pairs of arms hang down at their sides — neither is holding the
+   other. The passage rail and a shuttered window are behind them. **B1** upper right, Naruto: "YOU
+   ARE NOT ANNOYING AND YOUR PRESENCE IS TOLERABLE UNLIKE ANY OTHER WOMEN I HAVE COME ACROSS." Tail
+   points to visible Naruto's mouth. **B2** lower left, Yugao: "THAT IS THE MOST YOU HAVE EVER SAID
+   TO ME AT ONCE." Tail points to visible Yugao's mouth.
 2. **Middle right, x=68–100 y=34–61; close-up.** Cast/blocking: Yugao's face, turned up and right;
-   the sentence arrives and something goes wrong behind her eyes at the same moment. **B2** upper
+   the sentence arrives and something goes wrong behind her eyes at the same moment. **B3** upper
    right, Yugao: "YOU DID NOT SEEM TO FIND MEI'S PRESENCE ANNOYING." Tail points to visible Yugao's
    mouth.
 3. **Middle centre, x=34–65 y=34–61; close-up.** Cast/blocking: Naruto's face, angled down-left
-   toward her; the small smile appears, which is not the reaction she braced for. **B3** upper
+   toward her; the small smile appears, which is not the reaction she braced for. **B4** upper
    centre, Naruto: "YOU ARE DIFFERENT." Tail points to visible Naruto's mouth.
 4. **Middle left, x=0–31 y=34–61; close-up.** Cast/blocking: Naruto's bare right hand comes up and
    his fingers settle under Yugao's chin, tilting it a fraction higher; both faces are partly in
-   frame at the right edge. **B4** upper left, Naruto: "PERHAPS BECAUSE YOU ARE ANBU." Tail points to
+   frame at the right edge. **B5** upper left, Naruto: "PERHAPS BECAUSE YOU ARE ANBU." Tail points to
    visible Naruto's mouth.
 5. **Bottom right, x=68–100 y=65–100; medium, waist-up.** Cast/blocking: the hand has left her chin;
    Naruto's flat open palm is set against the centre of Yugao's upper chest at the sternum, arm
@@ -587,22 +638,29 @@ Karin beside him and a barrier that opens only for his blood.
 
 ## Dialogue QA
 
-- 77 balloons, one chapter marker, and one time card across 18 pages; the marker is exactly
+- 127 balloons, one chapter marker, and one time card across 18 pages; the marker is exactly
   "CHAPTER 2 — A PLEASANT EXPERIENCE" and the card is exactly "LATER THAT DAY". Balloon numbering
   restarts and stays contiguous on every page.
-- Density varies by scene function as required: page 1 carries one balloon across six panels, pages
-  6–8 and 15–16 run five to nine turns of two-hander, page 5 gives the doorstep four silent panels
-  and one line, and page 18 ends with three consecutive wordless panels.
+- Density runs 5–9 balloons a page against a chapter average of 7.1, and varies by scene function as
+  required: page 1 breaks its hour of silence only in two thought balloons, pages 6–8 and 12–16 run
+  seven to nine turns of two-hander, and page 18 still ends with three consecutive wordless panels —
+  the push-off, the empty passage, and her face. Nothing was added to the last three panels of the
+  chapter or to page 16, which was already the chapter's densest page.
 - Preserved from `SOURCE_TRUTH.md`'s verbatim list: "KNOW WHO YOU ARE AND WHAT YOU ARE." / "TAKE A
-  COMPLIMENT AS A COMPLIMENT." (p8 B3–B4), "KARIN." / "SHE IS FAMILY." (p14 B1, B2), and "YOU ARE
+  COMPLIMENT AS A COMPLIMENT." (p8 B5–B6), "KARIN." / "SHE IS FAMILY." (p14 B2, B4), and "YOU ARE
   NOT ANNOYING AND YOUR PRESENCE IS TOLERABLE UNLIKE ANY OTHER WOMEN I HAVE COME ACROSS." (p18 B1).
   The source's spelling "complement" is corrected to "COMPLIMENT" in lettering; the wording is
   otherwise unchanged. The ungrammatical "any other women" in the page 18 line is **kept exactly** —
   it is the character's own phrasing and appears verbatim in the source-truth ledger.
-- Sasuke's four beats are distinct: needle, retreat to business, joke, self-correction. He is not a
-  plot announcer, and his last line is the only one that is about himself.
-- Yugao argues, concedes, jokes, retreats, and asks the one question she came for. She never
-  summarises her own feelings for the reader.
+- Sasuke's beats are distinct: needle, retreat to business, joke, self-correction. He is not a plot
+  announcer, and his last two lines are the only ones that are about himself. His two page 1 thought
+  balloons are the only interior voice he gets in the chapter, and they measure the silence rather
+  than explain it.
+- Yugao argues, concedes, jokes, retreats, corrects herself, changes the subject out loud, and asks
+  the one question she came for. She never summarises her own feelings for the reader; her four
+  thought balloons (p5, p9, p14, p15) are wants and instructions to herself, not summaries.
+- Two unnamed ground-floor diners and the waiter speak once each. They are the only voices in the
+  chapter besides the four named characters, and the doorman.
 - Naruto questions, inverts, instructs, observes, reads her, and finally defines her by what she is
   not. He never explains himself and never answers "what do you think of me".
 - Nothing in this chapter tells anyone about the medicine, the Sharingan failure, the Edo Tensei,

@@ -148,15 +148,19 @@ the first line of the chapter be an accusation dressed as an observation.
    widened very slightly and that is the entire reaction in his body. No text.
 3. **Middle left, right half, x=30–58 y=34–62; medium.** Cast/blocking: the kitchen seen from the
    corridor doorway — Yugao at the sink at frame left with her back to the reader, hair loose and
-   down, sleeves pushed up, humming; two pots on the range beside her. No text.
+   down, sleeves pushed up, humming; two pots on the range beside her. **B1** upper left, Yugao:
+   "...ANOTHER MINUTE ON THAT ONE." `OFF` — her back is to the reader and no mouth is visible, so
+   no tail may be grown from her figure; the tail exits the left edge toward her.
 4. **Middle left, left half, x=0–27 y=34–62; close-up.** Cast/blocking: her hands in the water, a
-   plate turning under a cloth; no face in frame. No text.
-5. **Bottom left, right half, x=30–58 y=66–100; medium.** Cast/blocking: Naruto has stepped into the
-   kitchen doorway at frame right, still armoured, one shoulder against the frame; Yugao's back at
-   frame left. **B1** upper right, Naruto: "IF I DID NOT KNOW BETTER, I WOULD SAY YOU WERE MARRIED."
-   Tail points to visible Naruto's mouth.
+   plate turning under a cloth; no face in frame. **B2** upper left, Yugao: "AND HE IS LATE." `OFF`
+   — no face is in frame; the tail exits the left edge toward Yugao.
+5. **Bottom left, right half, x=30–58 y=66–100; medium.** Cast/blocking: Naruto has stepped into
+   the kitchen doorway at frame right, still armoured, one shoulder against the frame; Yugao's back
+   at frame left. **B3** upper right, Naruto: "IF I DID NOT KNOW BETTER, I WOULD SAY YOU WERE
+   MARRIED." Tail points to visible Naruto's mouth. **B4** lower right, Naruto: "THIS HOUSE HAS
+   NEVER SMELLED OF ANYTHING." Tail points to the same visible Naruto's mouth.
 6. **Bottom left, left half, x=0–27 y=66–100; close-up.** Cast/blocking: Yugao spinning round to
-   frame right, plate still in one hand, water running off her wrist, genuinely startled. **B2** upper
+   frame right, plate still in one hand, water running off her wrist, genuinely startled. **B5** upper
    left, Yugao: "WHAT MAKES YOU SAY THAT?" Tail points to visible Yugao's mouth.
 
 #### Page 2 — 6 panels
@@ -164,25 +168,28 @@ the first line of the chapter be an accusation dressed as an observation.
 **Purpose:** Give the answer in full, including the part that should be insulting and is not meant to
 be, and let her land the only real hit of the scene.
 
-1. **Top right, x=60–100 y=0–30; medium.** Cast/blocking: Naruto pulling out the right-hand chair at
-   the kitchen table at frame right and sitting; Yugao at frame left with her back to the sink,
+1. **Top right, x=60–100 y=0–30; medium.** Cast/blocking: Naruto pulling out the right-hand chair
+   at the kitchen table at frame right and sitting; Yugao at frame left with her back to the sink,
    drying her hands, looking at his armour. **B1** upper right, Naruto: "FROM WHAT I HAVE OBSERVED
    AND LEARNED, WHAT YOU ARE DOING IS MOSTLY DONE BY WIVES." Tail points to visible Naruto's mouth.
+   **B2** lower left, Yugao: "YOU HAVE NOT TAKEN THAT ARMOUR OFF ALL DAY." Tail points to visible
+   Yugao's mouth.
 2. **Top left, x=0–56 y=0–30; close-up.** Cast/blocking: Naruto seated, facing left, forearm on the
-   table. **B2** upper left, Naruto: "OR BY WOMEN WHO FEEL COMPELLED TO PLEASE A MAN." Tail points to
+   table. **B3** upper left, Naruto: "OR BY WOMEN WHO FEEL COMPELLED TO PLEASE A MAN." Tail points to
    visible Naruto's mouth.
 3. **Middle right, x=62–100 y=34–58; close-up.** Cast/blocking: Yugao at frame right of the panel
-   facing left, one eyebrow up, the towel stopped in her hands. **B3** upper right, Yugao: "YOU HAVE
-   STUDIED COUPLES? FOR WHAT?" Tail points to visible Yugao's mouth.
+   facing left, one eyebrow up, the towel stopped in her hands. **B4** upper right, Yugao: "YOU
+   HAVE STUDIED COUPLES? FOR WHAT?" Tail points to visible Yugao's mouth. **B5** lower right,
+   Yugao: "AND WHO WOULD DO SUCH A THING FOR YOU?" Tail points to the same visible Yugao's mouth.
 4. **Middle left, x=0–58 y=34–58; medium.** Cast/blocking: Naruto seated with one arm hooked over the
-   chair back, facing left. **B4** upper left, Naruto: "NOT ME. A FRIEND DID IT FOR ME. MY TIME IS
+   chair back, facing left. **B6** upper left, Naruto: "NOT ME. A FRIEND DID IT FOR ME. MY TIME IS
    TOO VALUABLE FOR SUCH THINGS." Tail points to visible Naruto's mouth.
 5. **Bottom right, x=51–100 y=62–100; close-up.** Cast/blocking: Naruto's face, facing left, entirely
-   matter-of-fact. **B5** upper right, Naruto: "I WILL BE MARRIED ONE DAY." Tail points to visible
-   Naruto's mouth. **B6** lower right, Naruto: "I WOULD RATHER NOT BE PUT IN UNPLEASANT SITUATIONS BY
+   matter-of-fact. **B7** upper right, Naruto: "I WILL BE MARRIED ONE DAY." Tail points to visible
+   Naruto's mouth. **B8** lower right, Naruto: "I WOULD RATHER NOT BE PUT IN UNPLEASANT SITUATIONS BY
    A WOMAN I DID NOT UNDERSTAND." Tail points to the same visible mouth.
 6. **Bottom left, x=0–47 y=62–100; close-up.** Cast/blocking: Yugao facing right, half smiling and
-   half appalled, the towel over one shoulder. **B7** upper left, Yugao: "KNOWING SOMETHING DOES NOT
+   half appalled, the towel over one shoulder. **B9** upper left, Yugao: "KNOWING SOMETHING DOES NOT
    MEAN YOU CAN DO IT." Tail points to visible Yugao's mouth.
 
 **Page turn:** She has told him he is wrong. Does he argue?
@@ -213,11 +220,12 @@ so the reader feels the cost of him before she articulates it.
    lower left, Naruto: "WHERE IS SASUKE?" Tail points to the same visible mouth.
 5. **Bottom right, x=51–100 y=60–100; medium.** Cast/blocking: Yugao at the sink with her back to
    him; her shoulders drop a fraction and she does not turn round. **B7** upper right, Yugao: "HE
-   WENT OUT WITH KAKASHI-SEMPAI." Tail points off the panel's upper edge to visible Yugao's mouth in
-   profile.
+   WENT OUT WITH KAKASHI-SEMPAI." Tail points off the panel's upper edge to visible Yugao's mouth
+   in profile. **B8** lower right, Yugao: "HE SAID NOT TO WAIT ON HIM." Tail points off the panel's
+   upper edge to the same visible Yugao's mouth in profile.
 6. **Bottom left, x=0–47 y=60–100; medium.** Cast/blocking: Naruto already up and walking out through
    the doorway at frame right of the panel, seen from behind; Yugao small at frame left, still at the
-   sink, still not turned round. **B8** upper right, Naruto: "I SEE." Tail points to visible Naruto's
+   sink, still not turned round. **B9** upper right, Naruto: "I SEE." Tail points to visible Naruto's
    head as he goes.
 
 #### Page 4 — 5 panels
@@ -226,21 +234,24 @@ so the reader feels the cost of him before she articulates it.
 four wordless actions, and end it the instant he reappears looking like a different man.
 
 1. **Top band, x=0–100 y=0–30; wide, eye-level.** Cast/blocking: the kitchen with the corridor
-   doorway empty at frame right; Yugao alone at the sink at frame left, one hand still in the water,
-   looking at the doorway rather than at the dishes. No text.
+   doorway empty at frame right; Yugao alone at the sink at frame left, one hand still in the
+   water, looking at the doorway rather than at the dishes. **B1** upper right, tail-less thought
+   balloon, Yugao: "HE DID NOT EVEN NOTICE HE HAD DONE IT." Tail-less; speaker is Yugao and she is
+   drawn in the panel.
 2. **Middle right, x=62–100 y=34–60; close-up.** Cast/blocking: Yugao's face; not hurt — working
-   something out. **B1** upper right, tail-less thought balloon, Yugao: "HE COULD HAVE ASKED ABOUT
+   something out. **B2** upper right, tail-less thought balloon, Yugao: "HE COULD HAVE ASKED ABOUT
    MINE. IT WOULD HAVE COST HIM NOTHING." Tail-less; speaker is Yugao and she is drawn in the panel.
 3. **Middle left, x=0–58 y=34–60; close-up.** Cast/blocking: her hands laying the washed plate down
-   on the rack, carefully, squarely; no face in frame. **B2** upper left, tail-less thought balloon,
+   on the rack, carefully, squarely; no face in frame. **B3** upper left, tail-less thought balloon,
    Yugao: "ROOT WERE MADE THAT WAY FROM THE CRADLE. HE WAS NOT."
-4. **Bottom right, x=51–100 y=64–100; medium.** Cast/blocking: Yugao setting two places at the table,
-   chopsticks squared, bowls aligned; the second place is Naruto's and she sets it anyway. **B3**
-   upper right, tail-less thought balloon, Yugao: "HE FELT THINGS ONCE. THEY ONLY BROKE PART OF IT."
+4. **Bottom right, x=51–100 y=64–100; medium.** Cast/blocking: Yugao setting two places at the
+   table, chopsticks squared, bowls aligned; the second place is Naruto's and she sets it anyway.
+   **B4** upper right, tail-less thought balloon, Yugao: "HE FELT THINGS ONCE. THEY ONLY BROKE PART
+   OF IT." **B5** lower right, tail-less thought balloon, Yugao: "AND I HAVE SET HIS PLACE ANYWAY."
 5. **Bottom left focal panel, x=0–47 y=64–100; medium, from her eye-line.** Cast/blocking: the
    corridor doorway at frame right with Naruto standing in it — **out of the armour, no forehead
    protector**, plain black, hair loose over the right eye, the three-tomoe Sharingan in the visible
-   left one. **B4** upper left, tail-less thought balloon, Yugao: "...OR ALL OF IT. HE KEEPS NOTHING BUT
+   left one. **B6** upper left, tail-less thought balloon, Yugao: "...OR ALL OF IT. HE KEEPS NOTHING BUT
    THE ONES WHO WERE KIND TO HIM."
 
 **Page turn:** She has just decided he cannot care. He is about to tell her he finds her pleasing.
@@ -257,23 +268,25 @@ four wordless actions, and end it the instant he reappears looking like a differ
 question that admits more than he intends.
 
 1. **Top right, x=60–100 y=0–30; medium.** Cast/blocking: Naruto crossing the kitchen from frame
-   right toward the table, unarmoured and bare-headed; Yugao at frame left watching him come and not
-   commenting on it. No text.
-2. **Top left, x=0–56 y=0–30; close-up.** Cast/blocking: Naruto sitting down in the right-hand chair,
-   facing left; the two set places in the foreground. No text.
+   right toward the table, unarmoured and bare-headed; Yugao at frame left watching him come and
+   not commenting on it. **B1** upper right, Yugao: "YOU CHANGED." Tail points to visible Yugao's
+   mouth. **B2** lower left, Naruto: "IT IS THE EVENING." Tail points to visible Naruto's mouth.
+2. **Top left, x=0–56 y=0–30; close-up.** Cast/blocking: Naruto sitting down in the right-hand
+   chair, facing left; the two set places in the foreground. **B3** upper left, Yugao: "IT IS
+   ALMOST READY." `OFF`, tail exits the left edge toward Yugao.
 3. **Middle band, x=0–100 y=34–60; wide two-shot across the table, eye-level.** Cast/blocking: Naruto
    seated at frame right facing left; Yugao standing at frame left with one hand on the back of the
    opposite chair; the two bowls between them. There is a faint warmth in his delivery here that she
-   can hear and cannot identify — play it in the eyes only, not in the mouth. **B1** upper right,
+   can hear and cannot identify — play it in the eyes only, not in the mouth. **B4** upper right,
    Naruto: "YOU HAVE BECOME RATHER ATTACHED TO MY PRESENCE." Tail points to visible Naruto's mouth.
 4. **Bottom right, x=64–100 y=64–100; close-up.** Cast/blocking: Yugao facing right; she takes the
-   line as an opening rather than a complaint. **B2** upper right, Yugao: "IS IT NOT A GOOD THING TO
+   line as an opening rather than a complaint. **B5** upper right, Yugao: "IS IT NOT A GOOD THING TO
    HAVE SOMEONE TO SHARE A MEAL WITH?" Tail points to visible Yugao's mouth.
 5. **Bottom centre, x=32–61 y=64–100; close-up.** Cast/blocking: Naruto facing left; one shoulder
-   lifts and drops and nothing happens in his face at all. **B3** upper centre, Naruto: "I WAS
+   lifts and drops and nothing happens in his face at all. **B6** upper centre, Naruto: "I WAS
    STATING THE OBVIOUS." Tail points to visible Naruto's mouth.
 6. **Bottom left, x=0–29 y=64–100; close-up.** Cast/blocking: Naruto's face, eyes coming up level.
-   **B4** upper left, Naruto: "COULD IT BE THAT YOU ARE TAKING ADVANTAGE OF THE FACT THAT I FIND YOUR
+   **B7** upper left, Naruto: "COULD IT BE THAT YOU ARE TAKING ADVANTAGE OF THE FACT THAT I FIND YOUR
    PRESENCE PLEASING?" Tail points to visible Naruto's mouth.
 
 **Page turn:** He said it out loud.
@@ -313,23 +326,25 @@ sentence in the chapter, then get her to ask the question herself.
 
 1. **Top right, x=60–100 y=0–28; medium.** Cast/blocking: Yugao seated across the table at frame
    left, relaxed now, both hands round a cup. **B1** upper left, Yugao: "YOU SAVED ME TWICE." Tail
-   points to visible Yugao's mouth.
-2. **Top left, x=0–56 y=0–28; close-up.** Cast/blocking: Yugao facing right. **B2** upper left,
+   points to visible Yugao's mouth. **B2** lower left, Yugao: "TWICE, AND YOU HAVE NEVER ONCE
+   BROUGHT IT UP." Tail points to the same visible Yugao's mouth.
+2. **Top left, x=0–56 y=0–28; close-up.** Cast/blocking: Yugao facing right. **B3** upper left,
    Yugao: "AND YOU ARE THE ONLY MAN I CAN TALK TO KNOWING HE IS NOT LOOKING AT ME." Tail points to
-   visible Yugao's mouth. **B3** lower left, Yugao: "THAT MAKES YOUR COMPANY EASY." Tail points to
+   visible Yugao's mouth. **B4** lower left, Yugao: "THAT MAKES YOUR COMPANY EASY." Tail points to
    the same visible mouth.
 3. **Middle right, x=62–100 y=32–58; close-up.** Cast/blocking: Naruto facing left, head tilted a
-   fraction. **B4** upper right, Naruto: "YOU DISLIKE BEING LOOKED AT?" Tail points to visible
-   Naruto's mouth.
+   fraction. **B5** upper right, Naruto: "YOU DISLIKE BEING LOOKED AT?" Tail points to visible
+   Naruto's mouth. **B6** lower right, Naruto: "IT IS A STRANGE THING TO DISLIKE." Tail points to
+   the same visible Naruto's mouth.
 4. **Middle left, x=0–58 y=32–58; close-up.** Cast/blocking: Naruto facing left, no change of tone
-   whatsoever. **B5** upper left, Naruto: "THE WOMEN IN BROTHELS SEEM TO ENJOY IT. SO DO OTHER
+   whatsoever. **B7** upper left, Naruto: "THE WOMEN IN BROTHELS SEEM TO ENJOY IT. SO DO OTHER
    PLAYFUL WOMEN." Tail points to visible Naruto's mouth.
 5. **Bottom right, x=51–100 y=62–100; close-up.** Cast/blocking: Yugao facing right; the ease has
-   gone out of her face between one panel and the next. **B6** upper right, Yugao: "BROTHELS?" Tail
-   points to visible Yugao's mouth. **B7** lower right, Yugao: "I DID NOT THINK YOU WENT TO SUCH
+   gone out of her face between one panel and the next. **B8** upper right, Yugao: "BROTHELS?" Tail
+   points to visible Yugao's mouth. **B9** lower right, Yugao: "I DID NOT THINK YOU WENT TO SUCH
    PLACES. WHAT WERE YOU DOING THERE?" Tail points to the same visible mouth.
 6. **Bottom left, x=0–47 y=62–100; close-up.** Cast/blocking: Naruto facing left, entirely level.
-   **B8** upper left, Naruto: "CONDUCTING EXPERIMENTS. AND TAKING A FEW LESSONS." Tail points to
+   **B10** upper left, Naruto: "CONDUCTING EXPERIMENTS. AND TAKING A FEW LESSONS." Tail points to
    visible Naruto's mouth.
 
 #### Page 8 — 6 panels
@@ -337,19 +352,22 @@ sentence in the chapter, then get her to ask the question herself.
 **Purpose:** Make her consent explicit, and make the technique's origin, path and target unmistakable
 in a single panel before the illusion starts.
 
-1. **Top right, x=62–100 y=0–30; close-up.** Cast/blocking: Yugao facing right; her hand has tightened
-   round the cup and she has not noticed. No text.
-2. **Top left, x=0–58 y=0–30; close-up.** Cast/blocking: Yugao facing right. **B1** upper left,
+1. **Top right, x=62–100 y=0–30; close-up.** Cast/blocking: Yugao facing right; her hand has
+   tightened round the cup and she has not noticed. **B1** upper right, tail-less thought balloon,
+   Yugao: "DO NOT ASK HIM. ASK HIM."
+2. **Top left, x=0–58 y=0–30; close-up.** Cast/blocking: Yugao facing right. **B2** upper left,
    Yugao: "WHAT KIND OF LESSONS?" Tail points to visible Yugao's mouth.
 3. **Middle right, x=62–100 y=34–58; medium.** Cast/blocking: Naruto across the table facing left,
-   both hands flat on the wood. **B2** upper right, Naruto: "I COULD SHOW YOU, IF YOU WISH." Tail
-   points to visible Naruto's mouth.
+   both hands flat on the wood. **B3** upper right, Naruto: "I COULD SHOW YOU, IF YOU WISH." Tail
+   points to visible Naruto's mouth. **B4** lower right, Naruto: "IT IS FASTER THAN EXPLAINING IT."
+   Tail points to the same visible Naruto's mouth.
 4. **Middle left, x=0–58 y=34–58; close-up.** Cast/blocking: Yugao facing right; curiosity beating
-   the bad feeling by a fraction, and the reader can see both. **B3** upper left, Yugao: "...SURE."
-   Tail points to visible Yugao's mouth.
+   the bad feeling by a fraction, and the reader can see both. **B5** upper left, Yugao: "...SURE."
+   Tail points to visible Yugao's mouth. **B6** lower left, Yugao: "HOW BAD CAN IT BE." Tail points
+   to the same visible Yugao's mouth.
 5. **Bottom right, x=51–100 y=62–100; medium two-shot.** Cast/blocking: Naruto leaning slightly
    forward across the table at frame right, his eyes locking onto hers; Yugao at frame left, caught
-   mid-breath. **B4** upper right, Naruto: "SHARINGAN: GENJUTSU." Tail points to visible Naruto's
+   mid-breath. **B7** upper right, Naruto: "SHARINGAN: GENJUTSU." Tail points to visible Naruto's
    mouth.
 6. **Bottom left focal panel, x=0–47 y=62–100; extreme close-up.** Cast/blocking: Naruto's visible
    left eye filling the frame, the bang pushed clear of it; the **ordinary three-tomoe Sharingan** —
@@ -380,20 +398,25 @@ first beat as comedy that stops being comedy.
    illusion border. **B1** upper right, Naruto: "THIS IS MY GENJUTSU." Tail points to visible Naruto's
    mouth.
 2. **Top left, x=0–54 y=0–34; ILLUSION, close-up.** Cast/blocking: Yugao's face tipped up at the
-   building, working out what it is; the lantern light on her. Ring-dissolved border. No text.
-3. **Middle right, x=62–100 y=38–62; ILLUSION, medium.** Cast/blocking: a **younger** Naruto — around
-   thirteen, shorter, black shirt with the red swirl, hair to the shoulders, ordinary Sharingan not
-   active — walking in through the door, seen from behind; the present-day pair stand at frame right
-   watching him go. Ring-dissolved border. No text.
+   building, working out what it is; the lantern light on her. Ring-dissolved border. **B2** upper
+   left, Yugao: "THIS IS A MEMORY. YOURS." Tail points to visible Yugao's mouth.
+3. **Middle right, x=62–100 y=38–62; ILLUSION, medium.** Cast/blocking: a **younger** Naruto —
+   around thirteen, shorter, black shirt with the red swirl, hair to the shoulders, ordinary
+   Sharingan not active — walking in through the door, seen from behind; the present-day pair stand
+   at frame right watching him go. Ring-dissolved border. **B3** upper right, Yugao: "HOW OLD WERE
+   YOU?" Tail points to visible present-day Yugao's mouth at frame right. **B4** lower right,
+   Naruto: "THIRTEEN." Tail points to visible present-day Naruto's mouth at frame right.
 4. **Middle left, x=0–58 y=38–62; ILLUSION, medium interior.** Cast/blocking: a lamplit room with a
    low counter; the younger Naruto at frame right facing left; an older woman behind the counter at
-   frame left, smiling down at him. Both fully clothed. Ring-dissolved border. No text.
+   frame left, smiling down at him. Both fully clothed. Ring-dissolved border. **B5** upper left,
+   the older woman behind the counter: "AND WHAT CAN WE DO FOR YOU, YOUNG MAN?" Tail points to that
+   woman's visible mouth.
 5. **Bottom right, x=51–100 y=66–100; ILLUSION, close-up.** Cast/blocking: the older woman's hand
    caught at the end of a slap; the younger Naruto's head turned by it, one eyebrow raised a
    millimetre and nothing else in his face. Ring-dissolved border. **SFX** at the point of contact:
    "PAK". No balloon.
 6. **Bottom left, x=0–47 y=66–100; ILLUSION, close two-shot.** Cast/blocking: present-day Yugao at
-   frame left turning to look up at present-day Naruto at frame right. Ring-dissolved border. **B2**
+   frame left turning to look up at present-day Naruto at frame right. Ring-dissolved border. **B6**
    upper right, Yugao: "WHAT DID YOU SAY TO HER?" Tail points to visible Yugao's mouth.
 
 #### Page 10 — 7 panels
@@ -401,23 +424,26 @@ first beat as comedy that stops being comedy.
 **Purpose:** Answer her honestly, which is worse than any image; put a closed door between the reader
 and the rest of it; and end the illusion without a word of comment.
 
-1. **Top right, x=62–100 y=0–28; ILLUSION, close-up.** Cast/blocking: present-day Naruto facing left,
-   entirely matter-of-fact, as though reporting a procurement decision. Ring-dissolved border. **B1**
-   upper right, Naruto: "BEFORE I WENT, A SOURCE TOLD ME THAT OLDER WOMEN HAVE EXPERIENCE BUT ARE NOT
-   SUITED TO ME." Tail points to visible Naruto's mouth.
+1. **Top right, x=62–100 y=0–28; ILLUSION, close-up.** Cast/blocking: present-day Naruto facing
+   left, entirely matter-of-fact, as though reporting a procurement decision. Ring-dissolved
+   border. **B1** upper right, Naruto: "BEFORE I WENT, A SOURCE TOLD ME THAT OLDER WOMEN HAVE
+   EXPERIENCE BUT ARE NOT SUITED TO ME." Tail points to visible Naruto's mouth. **B2** lower right,
+   Naruto: "SO I WENT TO ASK." Tail points to the same visible Naruto's mouth.
 2. **Top left, x=0–58 y=0–28; ILLUSION, close-up.** Cast/blocking: present-day Yugao facing right,
-   flushed to the ears — not surprised, appalled. Ring-dissolved border. No text.
+   flushed to the ears — not surprised, appalled. Ring-dissolved border. **B3** upper left, Yugao:
+   "A SOURCE." Tail points to visible Yugao's mouth.
 3. **Middle right, x=62–100 y=32–54; ILLUSION, medium.** Cast/blocking: a narrow stair; the younger
    Naruto climbing it at frame left behind two young women, all three fully clothed and seen from
-   behind; a door standing open at the top. Ring-dissolved border. **B2** upper right, Naruto: "I WAS
+   behind; a door standing open at the top. Ring-dissolved border. **B4** upper right, Naruto: "I WAS
    TOLD TO LOOK FOR SOMEONE YOUNGER. SOMEONE WHO HAD NOT YET SEEN MUCH." `OFF`, tail exits the right
    edge toward present-day Naruto.
-4. **Middle left, x=0–58 y=32–54; ILLUSION, medium.** Cast/blocking: the upstairs corridor; the door
-   is closing and the last of the lamplight inside narrows to a vertical line; present-day Naruto and
-   Yugao stand in the corridor in front of it, he at frame right and she at frame left with her mouth
-   open. **Nothing beyond the door is drawn.** Ring-dissolved border. **B3** upper right, Naruto: "AN
-   OLD MACHINE LEAKS OIL AND RUSTS FROM THE INSIDE. IT WOULD HAVE GIVEN ME SOMETHING BAD FOR MY
-   HEALTH." Tail points to visible Naruto's mouth.
+4. **Middle left, x=0–58 y=32–54; ILLUSION, medium.** Cast/blocking: the upstairs corridor; the
+   door is closing and the last of the lamplight inside narrows to a vertical line; present-day
+   Naruto and Yugao stand in the corridor in front of it, he at frame right and she at frame left
+   with her mouth open. **Nothing beyond the door is drawn.** Ring-dissolved border. **B5** upper
+   right, Naruto: "AN OLD MACHINE LEAKS OIL AND RUSTS FROM THE INSIDE. IT WOULD HAVE GIVEN ME
+   SOMETHING BAD FOR MY HEALTH." Tail points to visible Naruto's mouth. **B6** lower left, Yugao:
+   "THAT IS WHAT YOU TOOK AWAY FROM IT?" Tail points to visible Yugao's mouth at frame left.
 5. **Middle-lower band focal panel, x=0–100 y=58–76; ILLUSION, wide.** Cast/blocking: the same
    corridor, the same closed door, the same two figures in front of it — but the corridor lamps have
    burned down to stubs, which is the only indication of how long they have been standing there;
@@ -446,24 +472,27 @@ and the rest of it; and end the illusion without a word of comment.
 her embarrassment with a fact rather than an apology.
 
 1. **Top right, x=62–100 y=0–26; close-up.** Cast/blocking: Yugao seated at the table facing right,
-   mouth open, eyes fixed on nothing, not blinking. No text.
+   mouth open, eyes fixed on nothing, not blinking. **B1** upper right, tail-less thought balloon,
+   Yugao: "HE WAS THIRTEEN."
 2. **Top left, x=0–58 y=0–26; medium two-shot.** Cast/blocking: Naruto across the table at frame
-   right watching her, faintly amused and saying nothing; Yugao at frame left, motionless. No text.
+   right watching her, faintly amused and saying nothing; Yugao at frame left, motionless. **B2**
+   upper right, Naruto: "YOU ASKED." Tail points to visible Naruto's mouth at frame right.
 3. **Middle-upper right, x=62–100 y=30–50; close-up.** Cast/blocking: Yugao's face going red from the
    throat upward; the eyes finally move. No text.
 4. **Middle-upper left, x=0–58 y=30–50; medium.** Cast/blocking: Yugao standing so fast the chair
-   goes back behind her, already half out of the doorway at frame right of the panel. **B1** upper
+   goes back behind her, already half out of the doorway at frame right of the panel. **B3** upper
    left, Yugao: "EXCUSE ME." Tail points to visible Yugao's mouth.
 5. **Middle-lower band, x=0–100 y=54–74; wide.** Cast/blocking: the kitchen; Naruto alone at the
    table at frame right facing left with his hands folded, the two pots still on the range at frame
    left, the second chair pushed out and empty. No text.
 6. **Bottom right, x=51–100 y=78–100; medium.** Cast/blocking: Yugao back in the doorway at frame
-   right with two filled bowls, composed, hair tucked back, setting one down in front of him. **B2**
-   upper right, Yugao: "IT IS GOING TO BE RATHER DIFFICULT TO SPEAK WITH YOU NOW." Tail points to
-   visible Yugao's mouth.
+   right with two filled bowls, composed, hair tucked back, setting one down in front of him.
+   **B4** upper right, Yugao: "IT IS GOING TO BE RATHER DIFFICULT TO SPEAK WITH YOU NOW." Tail
+   points to visible Yugao's mouth. **B5** lower right, Yugao: "AND YOU MAY NOT LOOK PLEASED ABOUT
+   IT." Tail points to the same visible Yugao's mouth.
 7. **Bottom left, x=0–47 y=78–100; close-up.** Cast/blocking: Naruto facing left, taking the bowl in
-   both hands. **B3** upper left, Naruto: "I HAVE ALREADY SEEN YOU NAKED." Tail points to visible
-   Naruto's mouth. **B4** lower left, Naruto: "MORE IMPORTANTLY, I CLEANED YOU WHILE YOU WERE." Tail
+   both hands. **B6** upper left, Naruto: "I HAVE ALREADY SEEN YOU NAKED." Tail points to visible
+   Naruto's mouth. **B7** lower left, Naruto: "MORE IMPORTANTLY, I CLEANED YOU WHILE YOU WERE." Tail
    points to the same visible mouth.
 
 #### Page 12 — 7 panels
@@ -519,22 +548,26 @@ in a torn inset so the reader can measure it, and find Guren proud.
    of anything near it, its facets throwing light down the street. **CAP2** upper right, tail-less
    location/time card, small box: "OTOGAKURE — TWO DAYS LATER". No balloon.
 2. **Middle right, x=62–100 y=50–72; medium, street level.** Cast/blocking: two men walking a roof
-   beam up between them; a woman handing a water flask up to a third on a ladder; nobody in frame is
-   armed. No text.
+   beam up between them; a woman handing a water flask up to a third on a ladder; nobody in frame
+   is armed. **B1** upper right, an unnamed Oto builder: "MIND YOUR END OF IT!" Tail points to that
+   builder's visible mouth. **B2** lower left, a second unnamed builder: "TWO MORE AFTER THIS ONE
+   AND WE ARE DONE BEFORE DARK." Tail points to that second builder's visible mouth.
 3. **Middle left, x=0–58 y=50–72; medium, torn-edged inset plate.** Cast/blocking: the **same street
    under Orochimaru** — grey, empty, every shutter closed, one figure hurrying through it with his
    head down. This panel carries a **torn and ragged border**, distinct from both the hard present
    border and the ring-dissolved genjutsu border of pages 9–10. No text.
 4. **Bottom right, x=64–100 y=76–100; medium, interior.** Cast/blocking: the Crystal Palace's top
-   floor — crystal floor and crystal ceiling, a single enormous window in the left wall; Guren stands
-   at that window at frame left with her back to the reader, looking down over the village; her desk
-   at frame centre behind her, the door at frame right. This fixes the office layout for the rest of
-   the chapter. No text.
-5. **Bottom centre, x=32–61 y=76–100; close-up.** Cast/blocking: Guren's face in profile against the
-   glass, facing left; the expression on it is satisfaction, which she has not worn in five volumes.
-   No text.
+   floor — crystal floor and crystal ceiling, a single enormous window in the left wall; Guren
+   stands at that window at frame left with her back to the reader, looking down over the village;
+   her desk at frame centre behind her, the door at frame right. This fixes the office layout for
+   the rest of the chapter. **B3** upper right, tail-less thought balloon, Guren: "SIX MONTHS AGO
+   THIS WAS A HOLE IN THE GROUND." Tail-less; speaker is Guren and she is drawn in the panel.
+5. **Bottom centre, x=32–61 y=76–100; close-up.** Cast/blocking: Guren's face in profile against
+   the glass, facing left; the expression on it is satisfaction, which she has not worn in five
+   volumes. **B4** upper centre, tail-less thought balloon, Guren: "AND NOT ONE OF THEM IS AFRAID
+   TO WALK IN THE STREET."
 6. **Bottom left, x=0–29 y=76–100; close-up.** Cast/blocking: her hand laid flat on the crystal sill;
-   no face in frame. **B1** upper left, tail-less thought balloon, Guren: "I MADE THE RIGHT CHOICE
+   no face in frame. **B5** upper left, tail-less thought balloon, Guren: "I MADE THE RIGHT CHOICE
    COMING BACK HERE." Tail-less; speaker is Guren and her hand is drawn in the panel.
 
 #### Page 14 — 7 panels
@@ -546,29 +579,32 @@ and bring Zetsu in through the floor.
    desk at frame centre and the stack of reports on it; all writing is **ILLEGIBLE SCRIBBLE, not
    readable words.** **B1** upper right, tail-less thought balloon, Guren: "HOSPITAL NEARLY DONE.
    ANBU AND JOUNIN HEADQUARTERS NEARLY DONE."
-2. **Top left, x=0–58 y=0–26; medium, torn-edged inset plate.** Cast/blocking: a village square with
-   a crowd held back at its edges; Guren at its centre with a crystal blade lowered at her side and
-   two covered shapes on the ground in front of her; **no wounds and no blood are drawn.** Nobody in
-   the crowd is looking away. Torn ragged border. No text.
+2. **Top left, x=0–58 y=0–26; medium, torn-edged inset plate.** Cast/blocking: a village square
+   with a crowd held back at its edges; Guren at its centre with a crystal blade lowered at her
+   side and two covered shapes on the ground in front of her; **no wounds and no blood are drawn.**
+   Nobody in the crowd is looking away. Torn ragged border. **B2** upper left, tail-less thought
+   balloon, Guren: "THEY ONLY NEEDED TO SEE IT ONCE."
 3. **Middle-upper right, x=62–100 y=30–50; medium, torn-edged inset plate.** Cast/blocking: a dark
    alley at night; a black cloak hem and one white shoulder disappearing into a solid wall at frame
-   left, and a single dropped sandal on the stones. Nothing else is in the frame and nothing else may
-   be added. Torn ragged border. No text.
+   left, and a single dropped sandal on the stones. Nothing else is in the frame and nothing else
+   may be added. Torn ragged border. **B3** upper right, tail-less thought balloon, Guren: "AND
+   WHAT HE TAKES, NOBODY LOOKS FOR."
 4. **Middle-upper left, x=0–58 y=30–50; close-up.** Cast/blocking: Guren at the desk, pen stopped
-   above the page, facing left. **B2** upper left, tail-less thought balloon, Guren: "NOBODY STANDS
+   above the page, facing left. **B4** upper left, tail-less thought balloon, Guren: "NOBODY STANDS
    IN THE WAY ANY MORE. THAT PART IS FINISHED."
 5. **Middle-lower right, x=62–100 y=54–74; close-up.** Cast/blocking: a single report page held up in
    her hand; a column of names in **ILLEGIBLE SCRIBBLE** with most of the column struck through.
-   **B3** upper right, tail-less thought balloon, Guren: "MEDICS. WE HAVE FOUR, AND THREE OF THEM ARE
+   **B5** upper right, tail-less thought balloon, Guren: "MEDICS. WE HAVE FOUR, AND THREE OF THEM ARE
    APPRENTICES."
-6. **Middle-lower left, x=0–58 y=54–74; medium.** Cast/blocking: Zetsu has come up out of the crystal
-   floor in the middle of the office at frame left, emerged to the ribs, no legs visible; Guren at
-   her desk at frame right, not startled at all, only annoyed. **B4** upper right, Guren: "CAN YOU
-   NOT FIND A BETTER WAY IN?" Tail points to visible Guren's mouth.
+6. **Middle-lower left, x=0–58 y=54–74; medium.** Cast/blocking: Zetsu has come up out of the
+   crystal floor in the middle of the office at frame left, emerged to the ribs, no legs visible;
+   Guren at her desk at frame right, not startled at all, only annoyed. **B6** upper right, Guren:
+   "CAN YOU NOT FIND A BETTER WAY IN?" Tail points to visible Guren's mouth. **B7** lower left,
+   Zetsu: "THE DOOR IS FOR GUESTS." Tail points to visible Zetsu's mouth.
 7. **Bottom band, x=0–100 y=78–100; wide.** Cast/blocking: Zetsu walking to the window at frame left
    with his back to her, looking down over the village; Guren at her desk at frame right, watching
-   him go. **B5** upper right, Guren: "WHAT IF YOU HAD WALKED IN ON ME DOING SOMETHING PRIVATE?" Tail
-   points to visible Guren's mouth. **B6** lower left, Zetsu: "THIS WAY IS MORE FUN." Tail points to
+   him go. **B8** upper right, Guren: "WHAT IF YOU HAD WALKED IN ON ME DOING SOMETHING PRIVATE?" Tail
+   points to visible Guren's mouth. **B9** lower left, Zetsu: "THIS WAY IS MORE FUN." Tail points to
    visible Zetsu's mouth.
 
 **Page turn:** He never comes here for nothing.
@@ -590,22 +626,23 @@ her with an argument that is only half of his reason.
 2. **Top left, x=0–58 y=0–26; close-up.** Cast/blocking: Zetsu at the window in profile facing left,
    still looking out over the village. **B2** upper left, Zetsu: "THERE WILL BE A GUEST IN A FEW
    MINUTES." Tail points to visible Zetsu's mouth.
-3. **Middle-upper right, x=62–100 y=30–50; close-up.** Cast/blocking: Guren facing left. **B3** upper
-   right, Guren: "WHOSE GUEST?" Tail points to visible Guren's mouth.
+3. **Middle-upper right, x=62–100 y=30–50; close-up.** Cast/blocking: Guren facing left. **B3**
+   upper right, Guren: "WHOSE GUEST?" Tail points to visible Guren's mouth. **B4** lower right,
+   Guren: "THERE IS NOTHING IN THE BOOK." Tail points to the same visible Guren's mouth.
 4. **Middle-upper left, x=0–58 y=30–50; close-up.** Cast/blocking: Zetsu turning from the window to
-   face right, the yellow eye on her. **B4** upper left, Zetsu: "THE TSUCHIKAGE'S GRANDDAUGHTER. SHE
+   face right, the yellow eye on her. **B5** upper left, Zetsu: "THE TSUCHIKAGE'S GRANDDAUGHTER. SHE
    IS HERE TO COLLECT EVERYTHING SHE CAN ABOUT THIS VILLAGE." Tail points to visible Zetsu's mouth.
 5. **Middle-lower right, x=62–100 y=54–74; medium.** Cast/blocking: Guren rising half out of her
-   chair at frame right; the decision has already been taken. **B5** upper right, Guren: "THEN WE
+   chair at frame right; the decision has already been taken. **B6** upper right, Guren: "THEN WE
    REMOVE HER BEFORE SHE COLLECTS ANYTHING." Tail points to visible Guren's mouth.
 6. **Middle-lower left, x=0–58 y=54–74; medium.** Cast/blocking: Zetsu at frame left with one hand
-   raised, shaking his head once. **B6** upper left, Zetsu: "NO. LET HER IN AND LET HER TAKE WHATEVER
-   SHE LIKES." Tail points to visible Zetsu's mouth. **B7** lower left, Zetsu: "THERE IS NOTHING TO
+   raised, shaking his head once. **B7** upper left, Zetsu: "NO. LET HER IN AND LET HER TAKE WHATEVER
+   SHE LIKES." Tail points to visible Zetsu's mouth. **B8** lower left, Zetsu: "THERE IS NOTHING TO
    FIND. I HAVE NEVER USED HIS NAME HERE." Tail points to the same visible mouth.
 7. **Bottom band, x=0–100 y=78–100; wide two-shot.** Cast/blocking: Guren at frame right with both
-   palms on the desk; Zetsu at frame left against the window light, half in silhouette. **B8** upper
-   right, Guren: "THEN WHY LET HER IN AT ALL?" Tail points to visible Guren's mouth. **B9** centre,
-   Zetsu: "SHE IS ALREADY IN." Tail points to visible Zetsu's mouth. **B10** lower left, Zetsu: "AND
+   palms on the desk; Zetsu at frame left against the window light, half in silhouette. **B9** upper
+   right, Guren: "THEN WHY LET HER IN AT ALL?" Tail points to visible Guren's mouth. **B10** centre,
+   Zetsu: "SHE IS ALREADY IN." Tail points to visible Zetsu's mouth. **B11** lower left, Zetsu: "AND
    IT WILL BE AMUSING TO WATCH THE TSUCHIKAGE GET NOTHING BACK." Tail points to the same visible
    mouth.
 
@@ -625,29 +662,30 @@ chapter on a smile the reader can price and Kurotsuchi cannot.
    SOMETHING GOLDEN JUST TO MAKE HIM ACT. YOU ARE A TWISTED BASTARD." Tail points to visible Guren's
    mouth.
 4. **Middle-upper left, x=0–58 y=26–44; close-up.** Cast/blocking: Zetsu facing right; he simply
-   smiles and does not deny any part of it. No text.
+   smiles and does not deny any part of it. **B5** upper right, Guren: "...I WILL TAKE THAT AS A
+   YES." `OFF`, tail exits the right edge toward Guren, who is not drawn in this panel.
 5. **Middle-lower right, x=62–100 y=48–64; medium.** Cast/blocking: the office — the space by the
    window at frame left is empty and the crystal floor is unbroken where he stood; Guren at the desk
-   at frame centre looking at it; the closed door at frame right. **B5** upper left, Zetsu, tail-less
+   at frame centre looking at it; the closed door at frame right. **B6** upper left, Zetsu, tail-less
    `OFF` — he has already gone and no tail may be drawn to any surface: "BE GOOD TO OUR GUEST. SMILE
    AT HER AND REVEAL NOTHING." **SFX** at the door at frame right: "TOK TOK".
 6. **Middle-lower left, x=0–58 y=48–64; medium.** Cast/blocking: the door at frame right stands open
    with a young Oto shinobi bowing in it; Guren behind the desk at frame left, the professional smile
-   already on her face. **B6** upper right, Oto aide: "GUREN-SAMA. A WOMAN OUTSIDE IS ASKING FOR AN
-   AUDIENCE." Tail points to the visible aide's mouth. **B7** lower left, Guren: "LET HER IN." Tail
+   already on her face. **B7** upper right, Oto aide: "GUREN-SAMA. A WOMAN OUTSIDE IS ASKING FOR AN
+   AUDIENCE." Tail points to the visible aide's mouth. **B8** lower left, Guren: "LET HER IN." Tail
    points to visible Guren's mouth.
 7. **Lower band, x=0–100 y=68–86; wide two-shot.** Cast/blocking: Kurotsuchi standing just inside the
    door at frame right with her head tipped right back, openly staring up at the crystal ceiling
-   instead of at her host; Guren coming round the desk toward her at frame left. **B8** upper right,
+   instead of at her host; Guren coming round the desk toward her at frame left. **B9** upper right,
    Kurotsuchi: "I HAVE TO SAY — YOU HAVE DONE WONDERS WITH THIS PLACE." Tail points to visible
-   Kurotsuchi's mouth. **B9** lower left, Guren: "THANK YOU. I AM GLAD SOMEONE FROM OUTSIDE LIKES OUR
+   Kurotsuchi's mouth. **B10** lower left, Guren: "THANK YOU. I AM GLAD SOMEONE FROM OUTSIDE LIKES OUR
    STYLE." Tail points to visible Guren's mouth.
 8. **Bottom band focal panel, x=0–100 y=90–100; letterbox wide.** Cast/blocking: Guren at frame left,
    one arm extended toward the open door behind Kurotsuchi at frame right — the invitation; her smile
    is warm, open, and completely unreadable, and the reader has watched her stand over two covered
-   bodies four panels ago. **B10** upper right, Kurotsuchi: "MY GRANDFATHER WOULD LIKE TO BE ALIGNED
+   bodies four panels ago. **B11** upper right, Kurotsuchi: "MY GRANDFATHER WOULD LIKE TO BE ALIGNED
    WITH THE WORK YOU HAVE STARTED. MAY I SEE THE VILLAGE?" Tail points to visible Kurotsuchi's mouth.
-   **B11** lower left, Guren: "OF COURSE. COME. I WILL SHOW YOU EVERYTHING." Tail points to visible
+   **B12** lower left, Guren: "OF COURSE. COME. I WILL SHOW YOU EVERYTHING." Tail points to visible
    Guren's mouth.
 
 **Chapter turn:** Chapter 10 begins at ch20:7, with the Mizukage arriving in Konoha in full robes.

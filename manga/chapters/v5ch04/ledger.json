@@ -5,5 +5,124 @@
   "size": "1152x2048",
   "cost": 0.012,
   "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p09",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p07",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p10",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p11",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p17",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p06",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "v01_p094.png"
+ },
+ {
+  "page": "p13",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p04",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "v01_p022.png"
+ },
+ {
+  "page": "p02",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "v03_p176.png"
+ },
+ {
+  "page": "p15",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "v03_p156.png"
+ },
+ {
+  "page": "p12",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p03",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "v03_p017.png"
+ },
+ {
+  "page": "p18",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "v01_p016.png"
+ },
+ {
+  "page": "p05",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p14",
+  "quality": "high",
+  "size": "2160x3840",
+  "cost": 0.128,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p08",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "v05_p151.png"
+ },
+ {
+  "page": "p01",
+  "quality": "high",
+  "size": "2160x3840",
+  "cost": 0.128,
+  "style_ref": "v03_p158.png"
  }
 ]
