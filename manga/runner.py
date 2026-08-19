@@ -29,7 +29,7 @@ def run(pages, outdir, ledger_path, workers=50, size=None, style_ref=None):
     def one(spec):
         pid, want, desc, refs, quality = spec
         dest = out / f"{pid}.png"
-        if dest.exists():
+        if dest.exists() and dest.stat().st_size > 0:
             return f"[skip] {pid}"
         stage = SPLASH if want.get("panels") == 1 else STAGING
         prompt = desc + " " + stage + STYLE_REF.format(i=len(refs) + 1) + STYLE
@@ -49,7 +49,9 @@ def run(pages, outdir, ledger_path, workers=50, size=None, style_ref=None):
         except Exception as e:
             return f"[FAIL] {pid}  {str(e)[-100:]}"
         out.mkdir(parents=True, exist_ok=True)
-        dest.write_bytes(img)
+        tmp = dest.with_suffix(".png.part")
+        tmp.write_bytes(img)
+        tmp.replace(dest)
         led.add(page=pid, quality=quality, size=px, cost=cost,
                 style_ref=pathlib.Path(sref).name if sref else None)
         return f"[ok]   {pid}  {quality:6} ${cost:.3f}"
