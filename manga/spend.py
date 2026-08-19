@@ -13,7 +13,9 @@ for f in sorted((HERE / "chapters").glob("v5ch*/ledger.json")):
     rows.append((f.parent.name, pages, v))
 for cid, n, v in rows:
     print(f"  {cid}  {n:3} pages  ${v:6.2f}")
-SPENT_BEFORE_RESTYLE = 16.05  # first pass + all review-gate fixes; ledgers reset 2026-08-18
+SPENT_BEFORE_RESTYLE = 17.20  # calibrated to the owner's reported balance of $0.70 on
+# 2026-08-18, not derived from ledgers: retries, refusals and the tier/style experiments
+# never reached a chapter ledger, so ledger sums run roughly $1 light. Trust the balance.
 print(f"\n  this pass:      ${tot:.2f}")
 print(f"  before restyle: ${SPENT_BEFORE_RESTYLE:.2f}  (ledgers were reset; not on disk)")
 print(f"  VOLUME 5 TOTAL: ${tot + SPENT_BEFORE_RESTYLE:.2f} of ${BUDGET:.2f}   remaining ${BUDGET - tot - SPENT_BEFORE_RESTYLE:.2f}")
