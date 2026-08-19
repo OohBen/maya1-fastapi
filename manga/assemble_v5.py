@@ -5,7 +5,7 @@ import pathlib
 
 from PIL import Image
 from pypdf import PdfReader, PdfWriter
-from pypdf.generic import NameObject
+from pypdf.generic import DictionaryObject, NameObject
 
 HERE = pathlib.Path(__file__).resolve().parent
 CH = HERE / "chapters"
@@ -66,6 +66,10 @@ def add_navigation(pdf, rows):
         )
         start += count
     writer.root_object[NameObject("/PageMode")] = NameObject("/UseOutlines")
+    writer.root_object[NameObject("/PageLayout")] = NameObject("/TwoPageRight")
+    prefs = DictionaryObject()
+    prefs[NameObject("/Direction")] = NameObject("/R2L")
+    writer.root_object[NameObject("/ViewerPreferences")] = prefs
 
     temp = pdf.with_name(f".{pdf.name}.tmp")
     with temp.open("wb") as stream:
@@ -184,6 +188,14 @@ def main():
           "smoother reading. `Volume_05_part*.pdf` are the master split to fit GitHub's "
           "100MB per-file limit; concatenate them to recover the master. "
           "Both PDFs include a nested chapter outline/bookmarks panel.", "",
+          "## Reading direction", "",
+          "**This is a right-to-left manga.** Panel 1 is the TOP-RIGHT panel of a page; panels "
+          "run right to left across a row before dropping to the next row, and balloons inside a "
+          "panel read the same way. Both PDFs declare right-to-left binding "
+          "(`/Direction /R2L`) and open in two-page spreads with page 1 on the right, so a "
+          "viewer that honours those flags will pair and order the spreads correctly. If your "
+          "reader ignores them and shows page 1 on the LEFT of a spread, your eye will land on "
+          "the wrong page first — switch the reader to right-to-left or single-page mode.", "",
           "Covers fic chapters 12-16. Volume 4 ended with Yagura down and an unexplained blue "
           "chakra column over Kiri; this volume opens in that aftermath and asks what Naruto "
           "builds with the reputation winning there bought him. Each chapter turns destructive "

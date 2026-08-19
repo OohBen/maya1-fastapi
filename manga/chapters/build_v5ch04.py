@@ -351,8 +351,8 @@ PAGES = [
   + SAY((2, BOY13, "upper right", "I WILL WEAKEN MINATO'S SEAL FROM INSIDE."),
         (3, ZETSU, "upper left", "I PULL THE NINE-TAILS OUT FROM HERE."),
         (4, BOY13, "upper right", "THE KYŪBI PUSHES FROM THE OTHER SIDE."),
-        (5, ZETSU, "upper right", "AND IF THE SEAL HOLDS?"),
-        (5, BOY13, "upper left", "WE BREAK IT."))
+        (5, ZETSU, "upper centre, ABOVE the other balloon in this panel", "AND IF THE SEAL HOLDS?"),
+        (5, BOY13, "lower centre, BELOW the other balloon in this panel", "WE BREAK IT."))
   + "In PANEL 3 the creature's tail points at the single JOINED mouth of its two-toned face. "
   + ONLYTEXT
   + "PANEL 5 IS NOT MIRRORED: the boy kneels at centre-RIGHT and the plant creature braces one knee at his LEFT, exactly as in panels 1, 2 and 4, and the creature's WHITE half is on the viewer's LEFT with its BLACK half on the viewer's RIGHT, split by one clean vertical line down both its face and its body. ",

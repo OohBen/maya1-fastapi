@@ -47,25 +47,51 @@ except Exception:                       # no .env / no key — fine, nothing use
 #   colour manga without abandoning cel colouring: cream paper, screentone, simpler faces,
 #   sparser backgrounds, matte finish. Work UP from here in small steps; do not swing again.
 STYLE = (
-    "Premium 2D shonen manga artwork, full colour, in the style of a printed Naruto colour "
-    "chapter. "
-    "Clean confident black ink linework with varied line weight — brush-drawn, tapering and "
-    "swelling, never uniform-weight vector outlines. "
-    "Flat cel colouring: two to three tonal values per material, hard-edged shadows, no soft "
-    "gradients. Hair drawn as distinct clusters and wedges, never individual strands. "
+    # STYLE HISTORY — do not swing this wholesale again; each revision was a reader response.
+    # V4 baseline was approved as "decent". A full watercolour swing was rejected outright.
+    # V5 revision added print/paper correction. THIS revision (V5.2) answers "it looks more like a
+    # colour book than a manga": the previous text told the model to keep backgrounds LIGHTER and
+    # MUTED than the figures, and it obeyed by leaving them as pale uncoloured line sketch behind
+    # flat-filled characters — the exact pasted-on look that reads as a colouring book. The target
+    # named by the reader is late-Shippuden Kishimoto colour work.
+    "Premium 2D shonen manga artwork, full colour, in the style of a LATE-SERIES Naruto colour "
+    "chapter — Kishimoto's mature Shippuden-era work, not his early style. "
+    "Clean confident black ink linework with strongly varied line weight — brush-drawn, tapering "
+    "and swelling, heavy where a form turns away from the light and fine on interior detail, "
+    "never uniform-weight vector outlines. "
+    "SOLID BLACKS: spot true black generously — in hair, in cast shadow, inside folds, under jaws "
+    "and in the darkest corners of the panel. The page must carry real black weight, not only "
+    "outlines around coloured shapes. "
+    "COLOUR: cel-shaded with hard-edged shadow boundaries, but RICH — three or four values per "
+    "material plus a reflected-light tone, deep saturated darks and clean lights. Not two flat "
+    "fills with a line around them. Hair drawn as distinct clusters and wedges, never individual "
+    "strands. "
+    "THE WHOLE PANEL IS FINISHED TO THE SAME LEVEL. This is the most important rule here: the "
+    "background is painted in full colour with the same cel-shaded finish, the same line quality "
+    "and the same black weight as the characters. Buildings, ground, foliage, sky and interiors "
+    "are COLOURED, never left as pale sepia or grey line sketch, never left as bare uncoloured "
+    "pencil or etching behind coloured figures, and never washed out to a faint tint. Characters "
+    "and their environment must look drawn and coloured by the same hand in the same pass, lit by "
+    "the SAME light source, sharing one colour temperature, so the figures sit INSIDE the scene "
+    "rather than being pasted on top of a sketch. "
+    "DELIBERATE EMPTY PANELS ARE STILL ALLOWED and should be used for pace — a close-up may drop "
+    "its background entirely for one flat saturated colour field, a black void, screentone or "
+    "speed lines. That is a designed choice and must read as intentional; it is NOT the same "
+    "thing as a scene rendered weakly. When a panel shows a place, that place is fully coloured. "
+    "DEPTH: separate foreground, midground and background by VALUE and colour temperature — "
+    "atmospheric recession, cooler and lighter with distance — rather than by leaving the "
+    "distance uncoloured. "
     "PAPER: the page sits on a warm off-white paper tone, not pure digital white, with a matte "
     "printed finish rather than a glossy screen finish. "
-    "SHADOW: use halftone screentone dots and parallel-line hatching in the shadow areas. "
-    "PALETTE: clear readable colours on the characters, slightly softened and print-like rather "
-    "than glowing or neon; backgrounds sit a step more muted than the figures. "
+    "SHADOW: use halftone screentone dots and parallel-line hatching within the shadow areas, over "
+    "the colour rather than instead of it. "
+    "PALETTE: clear readable colours, print-like rather than glowing or neon. "
     "FACES: simply drawn in Kishimoto's manner — large clear expressive eyes, a small minimal "
     "nose, a simple mouth, smooth cheeks and very little skin shading. Never a semi-realistic or "
     "painted portrait face. "
-    "BACKGROUNDS: keep them lighter than the figures. Many panels use a flat colour field, "
-    "screentone, speed lines or blank paper instead of fully rendered scenery. "
     "Avoid depth-of-field blur, avoid photorealistic skin texture, avoid any 3D or CGI look, "
     "avoid painterly or oil-paint rendering, avoid watercolour wash and ink-wash looks, avoid "
-    "lens flare, avoid watermarks and signatures."
+    "sepia or monochrome backgrounds, avoid lens flare, avoid watermarks and signatures."
 )
 
 # Never write emphatic capitalised "NO" — text-rendering models draw the token.
