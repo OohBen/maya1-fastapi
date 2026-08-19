@@ -4,7 +4,7 @@
 and stops before the ch17:149 time card ("Later that day"). No part of ch16 is re-adapted and no
 part of the date is used here.
 
-**Length:** 14 pages, seven spreads, 81 panels, 79 balloons plus one chapter marker.
+**Length:** 14 pages, seven spreads, 81 panels, 104 balloons plus one chapter marker.
 
 **Status:** final dialogue and executable textual `name`; ready for independent source and
 context-clean writing review, not for builder, reference work, or final art.
@@ -98,13 +98,15 @@ sentiment, and end on the one word that states his plan without explaining it.
    moving left; a laundry line stirs. Any shop signage is ILLEGIBLE SCRIBBLE, not readable words. No
    text.
 3. **Middle left, right half, x=30–58 y=35–64; medium close.** Cast/blocking: Naruto's profile at
-   frame right facing left, long hair pulled left by wind; eyes on the street below. No text.
-4. **Middle left, left half, x=0–27 y=35–64; insert close-up.** Cast/blocking: no face is visible, so
-   eye-line is not applicable; Naruto's bare right hand lies open on his knee, palm up, fingers
-   slightly spread, rendered with a doubled contour that reads as a fine tremor. No text.
+   frame right facing left, long hair pulled left by wind; eyes on the street below. **B1** upper
+   left, tail-less thought balloon: "NO MISSIONS. NO BATTLES. NOT UNTIL IT PASSES."
+4. **Middle left, left half, x=0–27 y=35–64; insert close-up.** Cast/blocking: no face is visible,
+   so eye-line is not applicable; Naruto's bare right hand lies open on his knee, palm up, fingers
+   slightly spread, rendered with a doubled contour that reads as a fine tremor. **B2** upper
+   right, tail-less thought balloon: "IT IS WORSE THIS MORNING."
 5. **Bottom left band, x=0–58 y=68–100; medium-long from behind.** Cast/blocking: Naruto is small at
    centre-right, back to the reader, facing left; the village fills the lower half and the sky the
-   upper. **B1** upper left, tail-less thought balloon: "SOON."
+   upper. **B3** upper left, tail-less thought balloon: "SOON."
 
 #### Page 2 — 6 panels
 
@@ -125,10 +127,13 @@ Kakashi in as an interruption rather than an arrival.
    "KAKASHI."
 5. **Bottom right, x=51–100 y=67–100; medium-long.** Cast/blocking: Kakashi walks in from the far
    right along the clifftop ledge, moving left, one hand in his pocket and an orange book in the
-   other; Naruto is seated at the far left edge, unmoving. **B5** upper
-   right, Kakashi: "THE VIEW IS QUITE LOVELY FROM HERE." Tail points to visible Kakashi's mouth.
+   other; Naruto is seated at the far left edge, unmoving. **B5** upper right, Kakashi: "THE VIEW
+   IS QUITE LOVELY FROM HERE." Tail points to visible Kakashi's mouth. **B6** lower right, Kakashi:
+   "THOUGH I AM TOLD THE BEST SEAT IS ON THE YONDAIME'S HEAD." Tail points to the same visible
+   Kakashi's mouth.
 6. **Bottom left, x=0–47 y=67–100; close-up.** Cast/blocking: Naruto faces left, eyes forward over
-   the village, giving no reply and no turn. No text.
+   the village, giving no reply and no turn. **B7** upper left, Kakashi: "STILL AS TALKATIVE AS
+   EVER." `OFF`, tail exits the right edge toward Kakashi.
 
 **Page turn:** Naruto has not answered. What does Kakashi actually want?
 
@@ -143,26 +148,28 @@ Kakashi in as an interruption rather than an arrival.
 **Purpose:** Establish the two-man axis, let Kakashi try the indirect approach, and let Naruto refuse
 it in four lines.
 
-1. **Top band, x=0–100 y=0–29; wide two-shot, high three-quarter angle from behind.** Cast/blocking:
-   Kakashi lowers himself to sit at frame right and pushes his book into his hip pouch; Naruto sits
-   at frame left facing left over the village and does not turn. This establishes the chapter's fixed
-   axis — Naruto left, Kakashi right, the village below and to the left. **B1** upper right, Kakashi:
-   "YOU DO NOT MAKE THINGS EASY FOR ANYONE." Tail points to visible Kakashi's mouth.
+1. **Top band, x=0–100 y=0–29; wide two-shot, high three-quarter angle from behind.**
+   Cast/blocking: Kakashi lowers himself to sit at frame right and pushes his book into his hip
+   pouch; Naruto sits at frame left facing left over the village and does not turn. This
+   establishes the chapter's fixed axis — Naruto left, Kakashi right, the village below and to the
+   left. **B1** upper right, Kakashi: "YOU DO NOT MAKE THINGS EASY FOR ANYONE." Tail points to
+   visible Kakashi's mouth. **B2** lower right, Kakashi: "NOT EVEN ME, AND I HAVE HAD FOUR YEARS OF
+   PRACTICE." Tail points to the same visible Kakashi's mouth.
 2. **Middle right, x=68–100 y=33–62; close-up.** Cast/blocking: Kakashi's single visible eye, angled
    left toward Naruto outside the panel. No text.
 3. **Middle centre, x=34–65 y=33–62; close-up.** Cast/blocking: Naruto's profile, now facing right,
-   level and unhurried. **B2** upper centre, Naruto: "I DISLIKE EASY THINGS." Tail points to visible
+   level and unhurried. **B3** upper centre, Naruto: "I DISLIKE EASY THINGS." Tail points to visible
    Naruto's mouth.
 4. **Middle left, x=0–31 y=33–62; tight close-up on mouth and jaw.** Cast/blocking: Naruto's lower
-   face fills the frame, facing right. **B3** upper left, Naruto: "DIFFICULT THINGS ARE MORE
+   face fills the frame, facing right. **B4** upper left, Naruto: "DIFFICULT THINGS ARE MORE
    INTERESTING." Tail points to visible Naruto's mouth.
 5. **Bottom right, x=51–100 y=66–100; medium on Kakashi.** Cast/blocking: Kakashi sits with one
-   elbow on a raised knee, facing left. **B4** upper right, Kakashi: "SO YOU COMPLICATE PEOPLE FOR
-   SPORT?" Tail points to visible Kakashi's mouth. **B5** lower left, Naruto: "DO YOU NOT ENJOY A
+   elbow on a raised knee, facing left. **B5** upper right, Kakashi: "SO YOU COMPLICATE PEOPLE FOR
+   SPORT?" Tail points to visible Kakashi's mouth. **B6** lower left, Naruto: "DO YOU NOT ENJOY A
    PUZZLE?" `OFF`, tail exits the left edge toward Naruto.
 6. **Bottom left, x=0–47 y=66–100; two-shot in profile.** Cast/blocking: Naruto at left faces right,
    Kakashi at right faces left; their eye-lines meet for the first time and immediately break.
-   **B6** upper right, Kakashi: "SOMETIMES." Tail points to visible Kakashi's mouth. **B7** lower
+   **B7** upper right, Kakashi: "SOMETIMES." Tail points to visible Kakashi's mouth. **B8** lower
    left, Naruto: "WHAT DO YOU WANT?" Tail points to visible Naruto's mouth.
 
 #### Page 4 — 6 panels
@@ -170,23 +177,25 @@ it in four lines.
 **Purpose:** Let Kakashi state the real question, and let Naruto answer the easy half of it before
 the hard half arrives.
 
-1. **Top right, x=62–100 y=0–31; close-up.** Cast/blocking: Kakashi facing left, visible eye lowered,
-   a long exhale moving his mask. No text.
+1. **Top right, x=62–100 y=0–31; close-up.** Cast/blocking: Kakashi facing left, visible eye
+   lowered, a long exhale moving his mask. **B1** upper right, Kakashi: "ALL RIGHT. THE POINT."
+   Tail points to visible Kakashi's mouth.
 2. **Top left, x=0–58 y=0–31; medium.** Cast/blocking: Kakashi turns forward and looks out over the
-   village to the left rather than at Naruto. **B1** upper left, Kakashi: "IN TEAM SEVEN I TRIED TO
+   village to the left rather than at Naruto. **B2** upper left, Kakashi: "IN TEAM SEVEN I TRIED TO
    BEFRIEND YOU." Tail points to visible Kakashi's mouth.
 3. **Middle band, x=0–100 y=35–60; wide two-shot.** Cast/blocking: both men sit facing forward-left
    over Konoha, neither looking at the other; the drop of the monument face falls away below them.
-   **B2** upper right, Kakashi: "EVERY TIME, YOU SHOT ME DOWN." Tail points to visible Kakashi's
-   mouth. **B3** lower left, Kakashi: "I ASSUMED I HAD DONE SOMETHING WRONG." Tail points to the same
-   visible mouth.
+   **B3** upper right, Kakashi: "EVERY TIME, YOU SHOT ME DOWN." Tail points to visible Kakashi's
+   mouth. **B4** lower left, Kakashi: "I ASSUMED I HAD DONE SOMETHING WRONG." Tail points to the
+   same visible mouth. **B5** lower right, Kakashi: "AND I NEVER ONCE ASKED YOU OUTRIGHT. THAT WAS
+   MINE." Tail points to the same visible mouth.
 4. **Bottom right, x=68–100 y=64–100; close-up.** Cast/blocking: Naruto facing right, eyes closing.
-   No text.
+   **B6** upper right, Kakashi: "WELL?" `OFF`, tail exits the right edge toward Kakashi.
 5. **Bottom centre, x=34–65 y=64–100; identical framing.** Cast/blocking: the same close-up, eyes
-   opening. **B4** upper centre, Naruto: "YOU DID NOTHING WRONG." Tail points to visible Naruto's
+   opening. **B7** upper centre, Naruto: "YOU DID NOTHING WRONG." Tail points to visible Naruto's
    mouth.
 6. **Bottom left, x=0–31 y=64–100; tighter close-up.** Cast/blocking: Naruto's face fills the frame,
-   facing right, expression flat. **B5** upper left, Naruto: "I DID NOT LIKE HAVING PEOPLE CLOSE TO
+   facing right, expression flat. **B8** upper left, Naruto: "I DID NOT LIKE HAVING PEOPLE CLOSE TO
    ME." Tail points to visible Naruto's mouth.
 
 **Page turn:** Past tense. Is that an opening?
@@ -208,19 +217,21 @@ loud so Naruto can take it apart.
 2. **Top centre, x=34–65 y=0–27; close-up.** Cast/blocking: Naruto faces right, unmoved. **B2** upper
    centre, Naruto: "STILL DO NOT." Tail points to visible Naruto's mouth.
 3. **Top left, x=0–31 y=0–27; close-up.** Cast/blocking: Kakashi faces left; the eye goes flat and
-   the crease under it deepens. No text.
+   the crease under it deepens. **B3** upper left, Kakashi: "...RIGHT." Tail points to visible
+   Kakashi's mouth.
 4. **Middle band focal panel, x=0–100 y=31–61; wide, low horizon.** Cast/blocking: both men sit
    small at upper centre on the clifftop ledge, Naruto left and Kakashi right, with Konoha enormous
-   below and behind them; neither looks at the other. **B3** upper right, Kakashi: "BEFORE I CAME UP
+   below and behind them; neither looks at the other. **B4** upper right, Kakashi: "BEFORE I CAME UP
    HERE I ASKED MYSELF WHY I KEEP TRYING." Tail descends to visible Kakashi's small figure.
-   **B4** lower left, Kakashi: "YOU DO NOT CALL SENSEI YOUR FATHER. YOU DO NOT WANT FRIENDS." Tail
+   **B5** lower left, Kakashi: "YOU DO NOT CALL SENSEI YOUR FATHER. YOU DO NOT WANT FRIENDS." Tail
    descends to the same visible figure.
 5. **Bottom right, x=51–100 y=65–100; medium.** Cast/blocking: Kakashi turns his head left toward
-   Naruto for the first time. **B5** upper right, Kakashi: "THE ANSWER I FOUND WAS THAT YOU ARE HIS
+   Naruto for the first time. **B6** upper right, Kakashi: "THE ANSWER I FOUND WAS THAT YOU ARE HIS
    SON." Tail points to visible Kakashi's mouth.
 6. **Bottom left, x=0–47 y=65–100; close-up.** Cast/blocking: Naruto still faces left over the
-   village and does not turn to receive the line. **B6** upper left, Naruto: "THEN YOUR REASON IS A
-   DEAD MAN." Tail points to visible Naruto's mouth.
+   village and does not turn to receive the line. **B7** upper left, Naruto: "THEN YOUR REASON IS A
+   DEAD MAN." Tail points to visible Naruto's mouth. **B8** lower left, Naruto: "YOU HAVE BEEN
+   KEEPING FAITH WITH A CORPSE." Tail points to the same visible Naruto's mouth.
 
 #### Page 6 — 6 panels
 
@@ -233,17 +244,19 @@ tells the reader Naruto has decided to reply.
    mouth.
 2. **Top left, x=0–58 y=0–29; medium.** Cast/blocking: Kakashi sits forward, forearms on his knees,
    facing left. **B3** upper left, Kakashi: "I GUARDED YOUR MOTHER WHILE SHE CARRIED YOU." Tail
-   points to visible Kakashi's mouth.
+   points to visible Kakashi's mouth. **B4** lower left, Kakashi: "SHE TALKED TO ME THROUGH THE
+   WINDOW WHEN SHE COULD NOT SLEEP." Tail points to the same visible Kakashi's mouth.
 3. **Middle right, x=51–100 y=33–61; close-up.** Cast/blocking: Kakashi's visible eye closes.
-   **B4** upper right, Kakashi: "AFTER YOU WERE BORN, I STOPPED." Tail points to visible Kakashi's
+   **B5** upper right, Kakashi: "AFTER YOU WERE BORN, I STOPPED." Tail points to visible Kakashi's
    mouth.
 4. **Middle left, x=0–47 y=33–61; close-up.** Cast/blocking: Kakashi's eye opens and angles left
-   toward Naruto. **B5** upper left, Kakashi: "I AM SORRY FOR THE YEARS I LEFT YOU IN." Tail points
+   toward Naruto. **B6** upper left, Kakashi: "I AM SORRY FOR THE YEARS I LEFT YOU IN." Tail points
    to visible Kakashi's mouth.
-5. **Bottom right, x=51–100 y=65–100; close-up.** Cast/blocking: Naruto faces left over the village,
-   completely unreadable; nothing in his face has moved. No text.
+5. **Bottom right, x=51–100 y=65–100; close-up.** Cast/blocking: Naruto faces left over the
+   village, completely unreadable; nothing in his face has moved. **B7** upper right, Kakashi: "SAY
+   SOMETHING. ANYTHING." `OFF`, tail exits the right edge toward Kakashi.
 6. **Bottom left, x=0–47 y=65–100; tight close-up.** Cast/blocking: Naruto's head turns right and his
-   eyes come up level. **B6** upper left, Naruto: "LISTEN." Tail points to visible Naruto's mouth.
+   eyes come up level. **B8** upper left, Naruto: "LISTEN." Tail points to visible Naruto's mouth.
 
 **Page turn:** He is going to answer. Nobody has heard this before.
 
@@ -279,31 +292,34 @@ the Minato dismissal a picture rather than a line.
    beside the head and not on it, facing away from it. **B6** upper right, Naruto: "A DEAD MAN IS NOT WORTH THE TIME." `OFF`, tail
    rises toward Naruto's small figure on the ledge.
 6. **Bottom left, x=0–47 y=66–100; close-up.** Cast/blocking: Naruto faces right, eyes on Kakashi.
-   **B7** upper left, Naruto: "WHAT DO I FEEL WHEN THE VILLAGERS SMILE AT ME?" Tail points to visible
-   Naruto's mouth.
+   **B7** upper left, Naruto: "WHAT DO I FEEL WHEN THE VILLAGERS SMILE AT ME?" Tail points to
+   visible Naruto's mouth. **B8** lower left, Naruto: "THEY SMILE AT ME IN THE STREET NOW." Tail
+   points to the same visible Naruto's mouth.
 
 #### Page 8 — 6 panels
 
 **Purpose:** Deliver the second and third dismissals, let Kakashi test the word "forgive," and leave
 him with nothing left to hope for before the reversal.
 
-1. **Top right, x=68–100 y=0–28; close-up.** Cast/blocking: Kakashi faces left; a small shake of the
-   head. **B1** upper right, Kakashi: "I DO NOT KNOW." Tail points to visible Kakashi's mouth.
-2. **Top centre, x=34–65 y=0–28; close-up.** Cast/blocking: Naruto faces right. **B2** upper centre,
+1. **Top right, x=68–100 y=0–28; close-up.** Cast/blocking: Kakashi faces left; a small shake of
+   the head. **B1** upper right, Kakashi: "I DO NOT KNOW." Tail points to visible Kakashi's mouth.
+   **B2** lower right, Kakashi: "TELL ME." Tail points to the same visible Kakashi's mouth.
+2. **Top centre, x=34–65 y=0–28; close-up.** Cast/blocking: Naruto faces right. **B3** upper centre,
    Naruto: "NUISANCES." Tail points to visible Naruto's mouth.
 3. **Top left, x=0–31 y=0–28; high-angle long shot straight down.** Cast/blocking: no named cast in
    frame, so eye-line is not applicable; a Konoha street far below with a handful of upturned,
-   smiling faces among the stalls; any signage is ILLEGIBLE SCRIBBLE. **B3** upper left, Naruto:
+   smiling faces among the stalls; any signage is ILLEGIBLE SCRIBBLE. **B4** upper left, Naruto:
    "INSECTS I COULD CRUSH WHENEVER I WISH." `OFF`, tail exits the upper-right corner toward Naruto.
 4. **Middle band, x=0–100 y=32–61; wide two-shot.** Cast/blocking: Naruto at left faces right and
-   Kakashi at right faces left; the sky is empty behind them. **B4** upper right, Kakashi: "THEN YOU
-   HAVE NOT FORGIVEN THEM." Tail points to visible Kakashi's mouth. **B5** lower left, Naruto:
+   Kakashi at right faces left; the sky is empty behind them. **B5** upper right, Kakashi: "THEN YOU
+   HAVE NOT FORGIVEN THEM." Tail points to visible Kakashi's mouth. **B6** lower left, Naruto:
    "FORGIVE. I DO NOT KNOW HOW TO USE THAT WORD." Tail points to visible Naruto's mouth.
 5. **Bottom right, x=51–100 y=65–100; close-up.** Cast/blocking: Naruto faces right, chin level.
-   **B6** upper right, Naruto: "AND JIRAIYA?" Tail points to visible Naruto's mouth. **B7** lower
+   **B7** upper right, Naruto: "AND JIRAIYA?" Tail points to visible Naruto's mouth. **B8** lower
    right, Naruto: "NOTHING. I CARE NOT FOR THE MAN." Tail points to the same visible mouth.
 6. **Bottom left, x=0–47 y=65–100; close-up.** Cast/blocking: Kakashi faces left, the visible eye
-   lowered; he does not argue. No text.
+   lowered; he does not argue. **B9** upper left, Kakashi: "HE WOULD SAY THE SAME OF HIMSELF." Tail
+   points to visible Kakashi's mouth.
 
 **Page turn:** Everything has been refused. What is left?
 
@@ -322,21 +338,22 @@ reader never gets to settle into it.
 1. **Top right, x=55–100 y=0–34; close-up in profile against open sky.** Cast/blocking: Naruto's
    profile at frame left facing right; behind him nothing but flat pale sky. **B1** upper right,
    Naruto: "THERE ARE MANY PEOPLE I SHOULD WATCH DIE AND NOT CARE, EVEN THE SLIGHTEST." Tail points
-   to visible Naruto's mouth.
+   to visible Naruto's mouth. **B2** lower right, Naruto: "I HAVE COUNTED THEM." Tail points to the
+   same visible Naruto's mouth.
 2. **Top left, x=0–51 y=0–34; wide downward view.** Cast/blocking: no named cast, so eye-line is not
    applicable; Konoha entirely ordinary below — a cart, a rooftop, two children running left.
-   **B2** upper left, Naruto: "EVEN THIS VILLAGE COULD BE KILLED IN FRONT OF ME AND I WOULD NOT
+   **B3** upper left, Naruto: "EVEN THIS VILLAGE COULD BE KILLED IN FRONT OF ME AND I WOULD NOT
    AVENGE IT." `OFF`, tail exits the upper-right corner toward Naruto.
 3. **Middle band focal panel, x=0–100 y=38–72; dominant two-shot, eye-level.** Cast/blocking: Naruto
    sits at left turned fully right, eyes locked on Kakashi at right; Kakashi faces left and meets
    them; the space between them is empty stone and empty sky and nothing else occupies the frame.
-   **B3** upper right, Naruto: "BUT YOU ARE NOT ONE OF THEM." Tail points to visible Naruto's mouth.
+   **B4** upper right, Naruto: "BUT YOU ARE NOT ONE OF THEM." Tail points to visible Naruto's mouth.
 4. **Bottom right, x=51–100 y=76–100; close-up.** Cast/blocking: Kakashi faces left; the visible eye
-   softens and his shoulders drop for the first time in the chapter. **B4** upper right, Kakashi:
+   softens and his shoulders drop for the first time in the chapter. **B5** upper right, Kakashi:
    "...I THOUGHT FOR A SECOND THAT—" Tail points to visible Kakashi's mouth.
 5. **Bottom left, x=0–47 y=76–100; close-up.** Cast/blocking: Naruto faces right, cutting across him;
-   nothing in his face has warmed. **B5** upper left, Naruto: "KAKASHI." Tail points to visible
-   Naruto's mouth. **B6** lower left, Naruto: "THOSE WORDS HAVE SOLVED EVERYTHING. DO NOT LET ANY
+   nothing in his face has warmed. **B6** upper left, Naruto: "KAKASHI." Tail points to visible
+   Naruto's mouth. **B7** lower left, Naruto: "THOSE WORDS HAVE SOLVED EVERYTHING. DO NOT LET ANY
    OTHER THOUGHT FIND ROOM IN YOUR HEAD." Tail points to the same visible mouth.
 
 #### Page 10 — 6 panels
@@ -354,16 +371,17 @@ account on Naruto's terms.
    village again, not watching him go. **B3** upper right, Naruto: "DO NOT COME TO ME AGAIN WITHOUT
    SOMETHING IMPORTANT TO SAY." Tail points to visible Naruto's mouth.
 4. **Middle left, x=0–47 y=34–62; medium from behind.** Cast/blocking: Kakashi has stopped mid-step
-   with his back to the reader, head half turned left over his shoulder. **B4** upper left, Kakashi:
-   "MAA, MAA. AND HERE I THOUGHT WE WERE GOING TO BE GOOD FRIENDS." Tail points to visible Kakashi's
-   turned mouth.
+   with his back to the reader, head half turned left over his shoulder. **B4** upper left,
+   Kakashi: "MAA, MAA. AND HERE I THOUGHT WE WERE GOING TO BE GOOD FRIENDS." Tail points to visible
+   Kakashi's turned mouth. **B5** lower left, Kakashi: "WORTH A TRY." Tail points to the same
+   visible turned mouth.
 5. **Bottom right, x=51–100 y=66–100; close-up.** Cast/blocking: Naruto has turned right and gives
-   Kakashi a completely blank stare; the plain blue eyes are wide open and empty. **B5** upper right,
-   Naruto: "STAY AWAY, KAKASHI." Tail points to visible Naruto's mouth. **B6** lower right, Naruto:
+   Kakashi a completely blank stare; the plain blue eyes are wide open and empty. **B6** upper right,
+   Naruto: "STAY AWAY, KAKASHI." Tail points to visible Naruto's mouth. **B7** lower right, Naruto:
    "I HAVE NO NEED FOR TRIVIAL THINGS AS FRIENDSHIP." Tail points to the same visible mouth.
 6. **Bottom left, x=0–47 y=66–100; medium of empty stone.** Cast/blocking: the patch of monument
    ledge where Kakashi stood is empty; a small dispersing swirl of leaves is the only trace, and
-   Naruto is not in frame. **SFX** small, at the swirl: "FWSH". **B7** upper left, Naruto: "GO. YOU
+   Naruto is not in frame. **SFX** small, at the swirl: "FWSH". **B8** upper left, Naruto: "GO. YOU
    HAVE DISTURBED ENOUGH OF MY PEACE." `OFF`, tail exits the right edge toward Naruto.
 
 **Page turn:** He is finally alone. He is not.
@@ -379,23 +397,26 @@ account on Naruto's terms.
 **Purpose:** Reveal that the entire conversation had a witness, and establish that Naruto's most
 useful ally is one he cannot detect.
 
-1. **Top band, x=0–100 y=0–30; wide.** Cast/blocking: Naruto alone at centre-left on the clifftop ledge,
-   facing left, the sky filling the upper two thirds; nothing else in frame. No text.
+1. **Top band, x=0–100 y=0–30; wide.** Cast/blocking: Naruto alone at centre-left on the clifftop
+   ledge, facing left, the sky filling the upper two thirds; nothing else in frame. **B1** upper
+   left, tail-less thought balloon: "ALONE, THEN."
 2. **Middle right, x=68–100 y=34–62; medium.** Cast/blocking: a white half-figure rises out of the
    solid stone at frame right beside Naruto — Zetsu, head and one shoulder clear of the rock, facing
-   left; Naruto's shoulder is at the left edge. **SFX** small, at the stone: "SHF". **B1** upper
+   left; Naruto's shoulder is at the left edge. **SFX** small, at the stone: "SHF". **B2** upper
    right, Zetsu: "THAT WAS INTERESTING." Tail points to visible Zetsu's mouth.
 3. **Middle centre, x=34–65 y=34–62; close-up.** Cast/blocking: Naruto's eyes cut right without his
-   head turning. **B2** upper centre, Naruto: "YOU WERE HERE THE WHOLE TIME." Tail points to visible
+   head turning. **B3** upper centre, Naruto: "YOU WERE HERE THE WHOLE TIME." Tail points to visible
    Naruto's mouth.
-4. **Middle left, x=0–31 y=34–62; close-up.** Cast/blocking: Zetsu faces left, nodding once. **B3**
+4. **Middle left, x=0–31 y=34–62; close-up.** Cast/blocking: Zetsu faces left, nodding once. **B4**
    upper left, Zetsu: "YOU DID NOT SENSE ME?" Tail points to visible Zetsu's mouth.
 5. **Bottom right, x=51–100 y=66–100; two-shot.** Cast/blocking: Naruto seated at left facing right,
-   Zetsu emerged to the waist at right facing left. **B4** upper right, Naruto: "IT IS IMPOSSIBLE TO
-   SENSE YOU." Tail points to visible Naruto's mouth. **B5** lower left, Zetsu: "YOU ALWAYS LOOK AT
+   Zetsu emerged to the waist at right facing left. **B5** upper right, Naruto: "IT IS IMPOSSIBLE TO
+   SENSE YOU." Tail points to visible Naruto's mouth. **B6** lower left, Zetsu: "YOU ALWAYS LOOK AT
    MY POSITION BEFORE I APPEAR." Tail points to visible Zetsu's mouth.
-6. **Bottom left, x=0–47 y=66–100; close-up.** Cast/blocking: Naruto faces right, flat. **B6** upper
-   left, Naruto: "I FEEL THE GROUND OPEN. NOTHING MORE." Tail points to visible Naruto's mouth.
+6. **Bottom left, x=0–47 y=66–100; close-up.** Cast/blocking: Naruto faces right, flat. **B7**
+   upper left, Naruto: "I FEEL THE GROUND OPEN. NOTHING MORE." Tail points to visible Naruto's
+   mouth. **B8** lower left, Zetsu: "THEN I AM STILL OF SOME USE." `OFF`, tail exits the right edge
+   toward Zetsu.
 
 #### Page 12 — 6 panels
 
@@ -404,9 +425,11 @@ read faster than Naruto will admit anything.
 
 1. **Top right, x=62–100 y=0–29; medium.** Cast/blocking: Zetsu at frame right, facing left, the
    yellow eye level. **B1** upper right, Zetsu: "HOW ARE YOU HOLDING UP?" Tail points to visible
-   Zetsu's mouth.
-2. **Top left, x=0–58 y=0–29; close-up.** Cast/blocking: Naruto facing right, eyes closing. **B2**
-   upper left, Naruto: "SO FAR, WELL." Tail points to visible Naruto's mouth.
+   Zetsu's mouth. **B2** lower right, Zetsu: "AND DO NOT SAY 'WELL'." Tail points to the same
+   visible Zetsu's mouth.
+2. **Top left, x=0–58 y=0–29; close-up.** Cast/blocking: Naruto facing right, eyes closing. **B3**
+   upper left, Naruto: "SO FAR, WELL." Tail points to visible Naruto's mouth. **B4** lower left,
+   Naruto: "AS WELL AS YESTERDAY." Tail points to the same visible Naruto's mouth.
 3. **Middle right, x=68–100 y=33–63; extreme close-up on the left eye.** Cast/blocking: the eye
    opens; the iris is plain blue, no tomoe. No text.
 4. **Middle centre focal panel, x=34–65 y=33–63; identical framing, one step tighter.**
@@ -414,9 +437,11 @@ read faster than Naruto will admit anything.
    iris still flat plain blue with no pattern whatsoever. No text.
 5. **Middle left, x=0–31 y=33–63; identical framing.** Cast/blocking: the same eye closes. No text.
 6. **Bottom band, x=0–100 y=67–100; wide two-shot.** Cast/blocking: Naruto seated at left facing
-   right toward Zetsu at right; his expression has not changed at all since panel 2. **B3** upper
-   right, Naruto: "NOTHING IS TROUBLING ME MUCH." Tail points to visible Naruto's mouth. **B4** lower
-   left, Zetsu: "I LEFT YOUR MEDICINE IN YOUR ROOM." Tail points to visible Zetsu's mouth.
+   right toward Zetsu at right; his expression has not changed at all since panel 2. **B5** upper
+   right, Naruto: "NOTHING IS TROUBLING ME MUCH." Tail points to visible Naruto's mouth. **B6**
+   lower left, Zetsu: "I LEFT YOUR MEDICINE IN YOUR ROOM." Tail points to visible Zetsu's mouth.
+   **B7** lower right, Naruto: "I WILL NOT NEED IT MUCH LONGER." Tail points to the same visible
+   Naruto's mouth.
 
 **Page turn:** He said "nothing is troubling me" over a failed eye. What does the medicine actually
 cost him?
@@ -436,21 +461,23 @@ logistics, so the reader sees the wound and the refusal to sit in it.
    not applicable; a small dark glass bottle with a plain stopper stands alone on a windowsill in an
    unlit room, catching the only light in the frame; no label, or a label rendered as ILLEGIBLE
    SCRIBBLE. No text.
-2. **Top left, x=0–58 y=0–30; close-up.** Cast/blocking: Naruto faces right, jaw set, the plain blue
-   eyes hard. **B1** upper left, Naruto: "IF THAT THING WERE STILL ALIVE, I WOULD MAKE IT SUFFER FOR
-   ALL ETERNITY." Tail points to visible Naruto's mouth.
+2. **Top left, x=0–58 y=0–30; close-up.** Cast/blocking: Naruto faces right, jaw set, the plain
+   blue eyes hard. **B1** upper left, Naruto: "IF THAT THING WERE STILL ALIVE, I WOULD MAKE IT
+   SUFFER FOR ALL ETERNITY." Tail points to visible Naruto's mouth. **B2** lower left, Naruto: "A
+   BOTTLE DECIDES WHEN I MAY OPEN MY EYES." Tail points to the same visible Naruto's mouth.
 3. **Middle right, x=51–100 y=34–62; tight close-up.** Cast/blocking: Naruto's mouth and jaw, facing
-   right. **B2** upper right, Naruto: "TO DEPEND ON MEDICINE. UNACCEPTABLE." Tail points to visible
+   right. **B3** upper right, Naruto: "TO DEPEND ON MEDICINE. UNACCEPTABLE." Tail points to visible
    Naruto's mouth.
 4. **Middle left, x=0–47 y=34–62; medium.** Cast/blocking: Zetsu at right facing left, saying
-   nothing, the yellow eye steady; he does not offer comfort. No text.
+   nothing, the yellow eye steady; he does not offer comfort. **B4** upper left, Zetsu: "IT WAS
+   NEVER MEANT TO CURE YOU." Tail points to visible Zetsu's mouth.
 5. **Bottom right, x=51–100 y=66–100; medium two-shot.** Cast/blocking: Naruto at left facing right,
-   Zetsu at right facing left. **B3** upper right, Naruto: "IS EVERYTHING PREPARED FOR THE EDO
-   TENSEI?" Tail points to visible Naruto's mouth. **B4** lower left, Zetsu: "NOT YET. THE CLONES
+   Zetsu at right facing left. **B5** upper right, Naruto: "IS EVERYTHING PREPARED FOR THE EDO
+   TENSEI?" Tail points to visible Naruto's mouth. **B6** lower left, Zetsu: "NOT YET. THE CLONES
    WILL HAVE GATHERED IT ALL BEFORE TOMORROW." Tail points to visible Zetsu's mouth.
 6. **Bottom left, x=0–47 y=66–100; close-up.** Cast/blocking: Naruto faces right; the smallest
-   possible smile touches one corner of his mouth and nothing else in his face moves. **B5** upper
-   left, Naruto: "GOOD. EVERY PLAYER IS MOVING NOW." Tail points to visible Naruto's mouth. **B6**
+   possible smile touches one corner of his mouth and nothing else in his face moves. **B7** upper
+   left, Naruto: "GOOD. EVERY PLAYER IS MOVING NOW." Tail points to visible Naruto's mouth. **B8**
    lower left, Naruto: "THE RESULT SHOULD BE EXCITING." Tail points to the same visible mouth.
 
 #### Page 14 — 5 panels
@@ -459,20 +486,21 @@ logistics, so the reader sees the wound and the refusal to sit in it.
 out his hand for a drug.
 
 1. **Top band, x=0–100 y=0–28; wide.** Cast/blocking: Naruto has stood and faces right at the
-   monument edge; Zetsu is half-sunk into the stone at the far right; Konoha falls away at the left.
-   No text.
+   monument edge; Zetsu is half-sunk into the stone at the far right; Konoha falls away at the
+   left. **B1** upper left, Zetsu: "IS THAT ALL, THEN?" Tail points to visible Zetsu's mouth at the
+   far right.
 2. **Middle right, x=55–100 y=32–60; medium.** Cast/blocking: Naruto turns and holds out his open
-   right hand, palm up, toward Zetsu at frame right; his face is level and unembarrassed. **B1**
+   right hand, palm up, toward Zetsu at frame right; his face is level and unembarrassed. **B2**
    upper right, Naruto: "ONE MORE THING." Tail points to visible Naruto's mouth.
 3. **Middle left, x=0–51 y=32–60; close-up.** Cast/blocking: Zetsu at frame left looks down-right at
-   the offered palm, which enters the frame from the right edge. **B2** upper left, Naruto:
+   the offered palm, which enters the frame from the right edge. **B3** upper left, Naruto:
    "OROCHIMARU'S SCROLLS. FIND ME SOMETHING STRONGER." `OFF`, tail exits the right edge toward
    Naruto.
 4. **Bottom right, x=51–100 y=64–100; two-shot.** Cast/blocking: Naruto at left facing right with the
-   hand still extended; Zetsu at right facing left. **B3** upper right, Zetsu: "STRONGER THAN WHAT
-   YOU TAKE NOW?" Tail points to visible Zetsu's mouth. **B4** upper left, Naruto: "STRONG ENOUGH TO
-   PUT ANYONE ELSE ON THE FLOOR." Tail points to visible Naruto's mouth. **B5** lower right, Zetsu:
-   "AND IF THERE IS NOTHING IN THEM?" Tail points to visible Zetsu's mouth. **B6** lower left,
+   hand still extended; Zetsu at right facing left. **B4** upper right, Zetsu: "STRONGER THAN WHAT
+   YOU TAKE NOW?" Tail points to visible Zetsu's mouth. **B5** upper left, Naruto: "STRONG ENOUGH TO
+   PUT ANYONE ELSE ON THE FLOOR." Tail points to visible Naruto's mouth. **B6** lower right, Zetsu:
+   "AND IF THERE IS NOTHING IN THEM?" Tail points to visible Zetsu's mouth. **B7** lower left,
    Naruto: "THEN YOU WILL LOOK AGAIN." Tail points to visible Naruto's mouth.
 5. **Bottom left focal panel, x=0–47 y=64–100; extreme close-up.** Cast/blocking: the open empty palm
    fills the frame, held out over the drop; far below and out of focus, Konoha is a soft grey-green
@@ -482,16 +510,22 @@ out his hand for a drug.
 
 ## Dialogue QA
 
-- 79 balloons and one chapter marker across 14 pages; the marker is exactly
+- 104 balloons and one chapter marker across 14 pages; the marker is exactly
   "CHAPTER 1 — UNWANTED GUESTS". Balloon numbering restarts and stays contiguous on every page.
-- Density is deliberately uneven: pages 1 and 2 carry one to five short thought balloons over five
-  silent or near-silent panels; pages 3, 7, 8 and 10 run seven balloons of hard two-man exchange;
-  page 12 has four balloons across six panels, three of which are wordless.
+- Density averages 7.4 a page and is still deliberately uneven at the ends: page 1 carries three
+  short thought balloons over five near-silent panels, and page 12 keeps its **three identical
+  wordless eye panels** — the failed activation is watched, not narrated, and no line may be put into
+  those three frames. Pages 3–11 run seven to nine balloons of hard two-man exchange.
 - Preserved verbatim from `SOURCE_TRUTH.md`: "THERE ARE MANY PEOPLE I SHOULD WATCH DIE AND NOT CARE,
-  EVEN THE SLIGHTEST." (p9 B1, split from the second half at p9 B3, "BUT YOU ARE NOT ONE OF THEM.")
-  and "I HAVE NO NEED FOR TRIVIAL THINGS AS FRIENDSHIP." (p10 B6).
+  EVEN THE SLIGHTEST." (p9 B1, split from the second half at p9 B4, "BUT YOU ARE NOT ONE OF THEM.")
+  and "I HAVE NO NEED FOR TRIVIAL THINGS AS FRIENDSHIP." (p10 B7).
 - Kakashi's four tactics are distinct and escalate: scenery, grievance, self-justification, apology.
-  He never repeats an argument and he loses each one.
+  He never repeats an argument and he loses each one. Where he used to sit silent through Naruto's
+  refusals he now pushes once more each time — "WELL?", "SAY SOMETHING. ANYTHING.", "TELL ME." — and
+  is answered every time by a change of subject or a dismissal, which is what those silences were
+  doing before.
+- Zetsu's added lines are all dry and none of them is comfort: he tells Naruto not to say "well," and
+  tells him plainly that the medicine was never meant to cure him.
 - Naruto's lines question, refuse, dismiss, exempt, and then legislate. No line of his summarises
   plot for the reader's benefit.
 - Nobody names Danzō, Root, the Akatsuki leader, Kurama, Minato's house, Yugao, Karin, Mei, or the

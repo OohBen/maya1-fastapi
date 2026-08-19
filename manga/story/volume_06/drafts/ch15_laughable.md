@@ -9,7 +9,7 @@ where the source stops showing anything, and this chapter stops in the same plac
 refuses to show Naruto's reaction to Obito's questions, and so does this chapter. See "The ending" and
 the last three bullets of the Visual QA before touching page 18.
 
-**Length:** 18 pages, nine spreads, 109 panels, 101 balloons plus one chapter marker, four
+**Length:** 18 pages, nine spreads, 109 panels, 121 balloons plus one chapter marker, four
 location/time cards, and six SFX units.
 
 **Status:** final dialogue and executable textual `name`; ready for independent source and
@@ -193,12 +193,14 @@ job — and let the reader understand from Naruto's own amusement exactly whose 
 4. **Middle left, x=0–31 y=34–58; medium.** Cast/blocking: Karin at the panel's right, half a step out
    from behind Naruto, facing left. **B4** upper left, Karin: "HE IS RETURNING ME. I USED TO LIVE HERE,
    IN ONE OF OROCHIMARU'S HIDEOUTS." Tail points to visible Karin's mouth.
-5. **Bottom right, x=62–100 y=62–100; medium.** Cast/blocking: the guard at frame left of the panel,
-   suspicious, one hand out flat. **B5** upper right, Oto gate guard: "PAPERS." Tail points to visible
-   guard's mouth.
+5. **Bottom right, x=62–100 y=62–100; medium.** Cast/blocking: the guard at frame left of the
+   panel, suspicious, one hand out flat. **B5** upper right, Oto gate guard: "PAPERS." Tail points
+   to visible guard's mouth. **B6** lower right, Oto gate guard: "EVERYONE SHOWS PAPERS." Tail
+   points to the same visible guard's mouth.
 6. **Bottom left, x=0–58 y=62–100; close-up.** Cast/blocking: Karin's nervous smile, her eyes going
-   sideways toward Naruto at frame left. **B6** upper left, tail-less thought balloon, Karin: "HE SAID
-   WE DID NOT NEED ANY."
+   sideways toward Naruto at frame left. **B7** upper left, tail-less thought balloon, Karin: "HE
+   SAID WE DID NOT NEED ANY." **B8** lower left, tail-less thought balloon, Karin: "PLEASE DO NOT
+   KILL THE GATE GUARD."
 
 #### Page 2 — 5 panels
 
@@ -210,21 +212,23 @@ Karin gets — this is the payoff of two volumes of Oto being a ruin.
    COULD PUT THE SHARINGAN ON HIM." **B2** lower right, tail-less thought balloon, Naruto: "I WILL DO
    IT THE LESS TROUBLING WAY. FOR A CHANGE."
 2. **Top centre, x=34–65 y=0–24; insert close-up.** Cast/blocking: no faces; a folded paper passing
-   from Naruto's hand into the guard's. The writing on it is ILLEGIBLE SCRIBBLE, not readable words.
-   No text.
-3. **Top left, x=0–31 y=0–24; medium.** Cast/blocking: the guard at the panel's right holding the paper
-   up to read it; Naruto's back at the panel's left, already walking past him and **not turning
-   round.** **B3** upper left, Naruto: "COME, KARIN." `OFF` — his mouth is not in frame; tail exits
-   the panel's left edge toward Naruto's head.
+   from Naruto's hand into the guard's. The writing on it is ILLEGIBLE SCRIBBLE, not readable
+   words. **B3** upper right, Karin: "YOU *HAD* PAPERS?" `OFF` — no face is in frame; tail exits
+   the right edge toward Karin.
+3. **Top left, x=0–31 y=0–24; medium.** Cast/blocking: the guard at the panel's right holding the
+   paper up to read it; Naruto's back at the panel's left, already walking past him and **not
+   turning round.** **B4** upper left, Naruto: "COME, KARIN." `OFF` — his mouth is not in frame;
+   tail exits the panel's left edge toward Naruto's head. **B5** lower left, Oto gate guard: "WAIT
+   — I HAVE NOT FINISHED READING—" Tail points to visible guard's mouth. He is ignored.
 4. **Middle band, x=0–100 y=28–52; wide.** Cast/blocking: the gateway. The guard at frame right holding
    the paper back out at arm's length toward a man who is no longer looking at him; Karin hurrying
-   past at centre; Naruto already through at frame left. **B4** upper right, Oto gate guard: "DO NOT
+   past at centre; Naruto already through at frame left. **B6** upper right, Oto gate guard: "DO NOT
    CAUSE ANY TROUBLE." Tail points to visible guard's mouth. *(He is ignored, and no reply is given.)*
 5. **Bottom band focal panel, x=0–100 y=56–100; large wide.** Cast/blocking: the street inside the
    gates. **Konoha-style buildings**, awnings, shop lamps coming on against the dusk, a cart, two
    children running across the road, ordinary people. Karin has stopped dead at frame right and is
-   staring; Naruto walks on at frame left without breaking stride. **B5** upper right, Karin: "IT'S
-   BEAUTIFUL." Tail points to visible Karin's mouth. **B6** lower right, Karin: "I NEVER THOUGHT THIS
+   staring; Naruto walks on at frame left without breaking stride. **B7** upper right, Karin: "IT'S
+   BEAUTIFUL." Tail points to visible Karin's mouth. **B8** lower right, Karin: "I NEVER THOUGHT THIS
    VILLAGE WOULD LOOK LIKE THIS." Tail points to the same visible mouth.
 
 **Page turn:** Where did all these people come from?
@@ -240,18 +244,22 @@ Karin gets — this is the payoff of two volumes of Oto being a ruin.
 **Purpose:** Walk the reader through a working village at street level so that the palace, when it
 arrives, is the top of something real rather than a fantasy building on empty ground.
 
-1. **Top right, x=68–100 y=0–26; medium.** Cast/blocking: Karin catching up and falling in **behind**
-   Naruto; both moving leftward. **B1** upper right, Karin: "WHERE DID ALL THESE PEOPLE COME FROM?"
-   Tail points to visible Karin's mouth.
+1. **Top right, x=68–100 y=0–26; medium.** Cast/blocking: Karin catching up and falling in
+   **behind** Naruto; both moving leftward. **B1** upper right, Karin: "WHERE DID ALL THESE PEOPLE
+   COME FROM?" Tail points to visible Karin's mouth. **B2** lower right, Karin: "THERE ARE SHOPS.
+   THERE ARE CHILDREN." Tail points to the same visible Karin's mouth.
 2. **Top centre, x=34–65 y=0–26; medium.** Cast/blocking: Naruto ahead at frame left, not turning his
-   head, the near side of his mouth in frame. **B2** upper centre, Naruto: "OTHER SMALL VILLAGES. SOME
+   head, the near side of his mouth in frame. **B3** upper centre, Naruto: "OTHER SMALL VILLAGES. SOME
    WERE ALREADY HERE. SOME WERE FOUND WANDERING." Tail points to visible Naruto's mouth.
-3. **Top left, x=0–31 y=0–26; medium.** Cast/blocking: three villagers outside a shop front watching
-   the two of them go past — curious, unafraid, and nobody does anything. No text.
+3. **Top left, x=0–31 y=0–26; medium.** Cast/blocking: three villagers outside a shop front
+   watching the two of them go past — curious, unafraid, and nobody does anything. **B4** upper
+   right, an unnamed Oto villager: "EVENING TO YOU." Tail points to that villager's visible mouth.
+   **B5** lower right, a second unnamed villager: "THE ROAD HAS BEEN BUSY ALL WEEK." Tail points to
+   that second villager's visible mouth.
 4. **Middle band, x=0–100 y=30–62; wide.** Cast/blocking: the street from behind them; Naruto at frame
-   left, Karin a pace back at frame right, lamps and lit windows on both sides. **B3** upper left,
+   left, Karin a pace back at frame right, lamps and lit windows on both sides. **B6** upper left,
    Naruto: "YOU WILL SEE IT PROPERLY TOMORROW, WHEN I AM GONE." Tail points to visible Naruto's mouth.
-   **B4** lower left, Naruto: "IT IS NEARLY NIGHT." Tail points to the same visible mouth.
+   **B7** lower left, Naruto: "IT IS NEARLY NIGHT." Tail points to the same visible mouth.
 5. **Bottom band, x=0–100 y=66–100; wide.** Cast/blocking: the street opening out into a square; at the
    far end of it, filling the frame's left half from the ground up and cut off by the panel's top
    edge, the **base and first two storeys of something enormous** catching the last of the sun. Naruto
@@ -269,13 +277,16 @@ him, and the person looking up at it revises her opinion of him because of it.
    right. No text. **This is the chapter's first large image and it is silent.**
 2. **Middle right, x=68–100 y=60–78; close-up.** Cast/blocking: Karin's face tipped straight back,
    looking up. **B1** upper right, Karin: "DID YOU ACTUALLY DESIGN THIS?" Tail points to visible
-   Karin's mouth.
+   Karin's mouth. **B2** lower right, Karin: "ALL OF IT? THE WHOLE THING?" Tail points to the same
+   visible Karin's mouth.
 3. **Middle left, x=0–65 y=60–78; medium.** Cast/blocking: Naruto at frame left, facing left, **not
-   looking up at it.** **B2** upper left, Naruto: "YES." Tail points to visible Naruto's mouth.
+   looking up at it.** **B3** upper left, Naruto: "YES." Tail points to visible Naruto's mouth.
+   **B4** lower left, Naruto: "FOUR FLOORS. THE LOWEST ONE IS MINE." Tail points to the same
+   visible Naruto's mouth.
 4. **Bottom-upper band, x=0–100 y=82–92; medium wide.** Cast/blocking: Karin at frame right, still
-   looking up; Naruto at frame left, already turning toward the entrance. **B3** upper right, Karin:
+   looking up; Naruto at frame left, already turning toward the entrance. **B5** upper right, Karin:
    "PERHAPS I WAS WRONG ABOUT YOU NOT UNDERSTANDING CERTAIN THINGS." Tail points to visible Karin's
-   mouth. **B4** lower right, Karin: "IF YOUR MIND MADE THIS, YOU ARE NOT WHAT I THOUGHT." Tail points
+   mouth. **B6** lower right, Karin: "IF YOUR MIND MADE THIS, YOU ARE NOT WHAT I THOUGHT." Tail points
    to the same visible mouth.
 5. **Bottom band, x=0–100 y=94–100; narrow letterbox.** Cast/blocking: Naruto walking toward the
    palace doors at frame left, having said nothing at all; Karin's feet hurrying after him at frame
@@ -301,20 +312,22 @@ challenges him, nobody is surprised, and the woman running it is already standin
    box: "THE CRYSTAL PALACE". **B1** lower right, tail-less thought balloon, Karin: "NO ONE HAS STOPPED
    US ONCE."
 2. **Middle right, x=68–100 y=34–58; medium.** Cast/blocking: the top-floor door; Naruto pushing it
-   open with one hand and **not knocking**. No text.
+   open with one hand and **not knocking**. **B2** upper right, tail-less thought balloon, Karin:
+   "HE DID NOT KNOCK."
 3. **Middle centre, x=34–65 y=34–58; medium.** Cast/blocking: **Guren already on her feet, standing
-   beside the desk rather than behind it**, facing right. **B2** upper centre, Guren: "NARUTO-SAMA."
+   beside the desk rather than behind it**, facing right. **B3** upper centre, Guren: "NARUTO-SAMA."
    Tail points to visible Guren's mouth.
 4. **Middle left, x=0–31 y=34–58; close-up.** Cast/blocking: Naruto, facing left, one eyebrow raised.
-   **B3** upper left, Naruto: "'NARUTO-SAMA.'" Tail points to visible Naruto's mouth.
+   **B4** upper left, Naruto: "'NARUTO-SAMA.'" Tail points to visible Naruto's mouth.
 5. **Bottom right, x=62–100 y=62–100; medium.** Cast/blocking: Guren at frame left of the panel, facing
-   right, entirely unembarrassed. **B4** upper right, Guren: "SUBORDINATES CALL THEIR SUPERIORS THAT."
+   right, entirely unembarrassed. **B5** upper right, Guren: "SUBORDINATES CALL THEIR SUPERIORS THAT."
    Tail points to visible Guren's mouth.
-6. **Bottom left, x=0–58 y=62–100; wide medium.** Cast/blocking: Naruto taking the chair in front of
-   the desk at frame right, Karin sitting beside him, Guren crossing back round to the seat behind the
-   desk at frame left. **B5** upper right, Naruto: "SIT." Tail points to visible Naruto's mouth. **B6**
-   lower left, Guren: "I WAS NOT EXPECTING YOU SO SOON. ZETSU SAID YOU WERE BUSY IN KONOHA." Tail
-   points to visible Guren's mouth.
+6. **Bottom left, x=0–58 y=62–100; wide medium.** Cast/blocking: Naruto taking the chair in front
+   of the desk at frame right, Karin sitting beside him, Guren crossing back round to the seat
+   behind the desk at frame left. **B6** upper right, Naruto: "SIT." Tail points to visible
+   Naruto's mouth. **B7** lower left, Guren: "I WAS NOT EXPECTING YOU SO SOON. ZETSU SAID YOU WERE
+   BUSY IN KONOHA." Tail points to visible Guren's mouth. **B8** lower right, Naruto: "I FINISHED
+   IN KONOHA." Tail points to the same visible Naruto's mouth.
 
 #### Page 6 — 6 panels
 
@@ -327,22 +340,23 @@ room and seals it anyway, and Karin turns out to have a history here that Guren 
    centre, Naruto: "ONE OF ZETSU'S CLONES IS IN THIS PALACE. NO ONE WILL OVERHEAR ANYTHING." Tail
    points to visible Naruto's mouth. **B3** lower centre, tail-less thought balloon, Naruto: "IT IS NOT
    ONE."
-3. **Top left, x=0–31 y=0–26; medium.** Cast/blocking: Naruto turning his chair away from the desk, his
-   hands already running through seals. No text.
+3. **Top left, x=0–31 y=0–26; medium.** Cast/blocking: Naruto turning his chair away from the desk,
+   his hands already running through seals. **B4** upper left, Guren: "...NARUTO-SAMA?" `OFF`, tail
+   exits the right edge toward Guren at the desk.
 4. **Middle band focal panel, x=0–100 y=30–58; wide.** Cast/blocking: **origin** — both of Naruto's
    palms coming down flat on the crystal floor at frame right; **emission and path** — light running
    out of his hands along every seam of the floor and up the walls; **contact** — the crystal ceiling
    and the crystallised window taking it and holding it; Guren at frame left and Karin at centre
-   watching the room light up around them. **SFX** running along the floor seams: "VMMMM". **B4** upper
+   watching the room light up around them. **SFX** running along the floor seams: "VMMMM". **B5** upper
    right, Naruto: "NOW IT IS PERMANENT." Tail points to visible Naruto's mouth.
 5. **Bottom-upper band, x=0–100 y=62–80; medium wide.** Cast/blocking: Karin turning in her chair at
-   centre toward Guren at frame left. **B5** upper left, Karin: "IT IS NICE TO SEE YOU AGAIN, GUREN."
+   centre toward Guren at frame left. **B6** upper left, Karin: "IT IS NICE TO SEE YOU AGAIN, GUREN."
    Tail points to visible Karin's mouth.
 6. **Bottom band, x=0–100 y=84–100; wide.** Cast/blocking: Guren at frame left, her eyes narrowed on
    Karin, holding it for a beat too long, then one nod; Naruto at frame right not intervening in any
-   way. **B6** upper left, Guren: "I DID NOT KNOW YOU WERE WITH NARUTO-SAMA." Tail points to visible
-   Guren's mouth. **B7** lower centre, Karin: "I HAVE BEEN WITH HIM SINCE BEFORE OROCHIMARU WAS
-   KILLED." Tail points to visible Karin's mouth. **B8** lower left, tail-less thought balloon, Guren:
+   way. **B7** upper left, Guren: "I DID NOT KNOW YOU WERE WITH NARUTO-SAMA." Tail points to visible
+   Guren's mouth. **B8** lower centre, Karin: "I HAVE BEEN WITH HIM SINCE BEFORE OROCHIMARU WAS
+   KILLED." Tail points to visible Karin's mouth. **B9** lower left, tail-less thought balloon, Guren:
    "I WAS NEVER TOLD."
 
 **Page turn:** Business.
@@ -362,20 +376,22 @@ only unqualified compliment he pays anyone in it.
    Naruto: "WHEN DID MEI LEAVE?" Tail points to visible Naruto's mouth.
 2. **Top centre, x=34–65 y=0–26; medium.** Cast/blocking: Guren facing right. **B2** upper centre,
    Guren: "AROUND NOON. SHE SEEMED IN A HURRY TO GET BACK." Tail points to visible Guren's mouth.
+   **B3** lower centre, Guren: "SHE ASKED ME TO TELL YOU SHE HAD GONE." Tail points to the same
+   visible Guren's mouth.
 3. **Top left, x=0–31 y=0–26; close-up.** Cast/blocking: Naruto, facing left. One flat look and nothing
    else — no line, no expression change. No text.
 4. **Middle band, x=0–100 y=30–58; wide.** Cast/blocking: Guren straightening a little under that look
-   at frame left; Naruto at frame right, unmoved; Karin between them saying nothing. **B3** upper left,
+   at frame left; Naruto at frame right, unmoved; Karin between them saying nothing. **B4** upper left,
    Guren: "EVERYTHING WITH HER WAS HANDLED. THE TREATY IS SIGNED." Tail points to visible Guren's
-   mouth. **B4** lower left, Guren: "THERE WAS NO TROUBLE ONCE SHE SAID YOU HAD SENT HER." Tail points
+   mouth. **B5** lower left, Guren: "THERE WAS NO TROUBLE ONCE SHE SAID YOU HAD SENT HER." Tail points
    to the same visible mouth.
-5. **Bottom-upper band, x=0–100 y=62–80; medium wide.** Cast/blocking: Naruto at frame right. **B5**
-   upper right, Naruto: "GOOD." Tail points to visible Naruto's mouth. **B6** lower right, Naruto: "YOU
+5. **Bottom-upper band, x=0–100 y=62–80; medium wide.** Cast/blocking: Naruto at frame right. **B6**
+   upper right, Naruto: "GOOD." Tail points to visible Naruto's mouth. **B7** lower right, Naruto: "YOU
    HAVE HANDLED THINGS PERFECTLY." Tail points to the same visible mouth.
 6. **Bottom band, x=0–100 y=84–100; wide, shot from behind the desk.** Cast/blocking: past Guren's
    shoulder at frame left and out through the **crystallised window** at the lit village below; Naruto
-   at frame right in the chair. **B7** upper left, Guren: "THANK YOU. WHEN EVERYTHING IS FINISHED, OTO
-   WILL BE A SUCCESS." Tail points to visible Guren's mouth. **B8** lower right, Naruto: "IT WILL. I
+   at frame right in the chair. **B8** upper left, Guren: "THANK YOU. WHEN EVERYTHING IS FINISHED, OTO
+   WILL BE A SUCCESS." Tail points to visible Guren's mouth. **B9** lower right, Naruto: "IT WILL. I
    WILL NOT ACCEPT ANYTHING ELSE." Tail points to visible Naruto's mouth.
 
 #### Page 8 — 6 panels
@@ -388,16 +404,19 @@ get Naruto out of the scene without a goodbye, which is how he leaves every room
    visible Naruto's mouth.
 2. **Top centre, x=34–65 y=0–26; medium.** Cast/blocking: Guren at frame left of the panel, one nod.
    **B2** upper centre, Guren: "HAI." Tail points to visible Guren's mouth.
-3. **Top left, x=0–31 y=0–26; close-up.** Cast/blocking: Karin's face. She has been given somewhere to
-   be, and it is the first time in the volume. No text.
+3. **Top left, x=0–31 y=0–26; close-up.** Cast/blocking: Karin's face. She has been given somewhere
+   to be, and it is the first time in the volume. **B3** upper left, Karin: "...HERE?" Tail points
+   to visible Karin's mouth.
 4. **Middle band, x=0–100 y=30–58; wide.** Cast/blocking: Naruto setting a **large scroll** down on the
-   desk at frame left; Guren's hand coming to it. **B3** upper right, Naruto: "THE LIBRARY IS IN THIS.
-   YOU AND KARIN WILL SHELVE IT. I WILL NOT DO IT." Tail points to visible Naruto's mouth. **B4**
+   desk at frame left; Guren's hand coming to it. **B4** upper right, Naruto: "THE LIBRARY IS IN THIS.
+   YOU AND KARIN WILL SHELVE IT. I WILL NOT DO IT." Tail points to visible Naruto's mouth. **B5**
    lower right, Naruto: "SHE CONTINUES TRAINING UNTIL I SAY SHE STOPS." Tail points to the same visible
    mouth.
-5. **Bottom-upper band, x=0–100 y=62–80; medium wide.** Cast/blocking: the office door at frame left
-   closing behind Naruto as he goes down to his own floor; Guren at the desk; Karin at frame right
-   watching him go. No text.
+5. **Bottom-upper band, x=0–100 y=62–80; medium wide.** Cast/blocking: the office door at frame
+   left closing behind Naruto as he goes down to his own floor; Guren at the desk; Karin at frame
+   right watching him go. **B6** upper left, Guren: "HE DOES NOT SAY GOODBYE." Tail points to
+   visible Guren's mouth at the desk. **B7** lower right, Karin: "HE NEVER HAS." Tail points to
+   visible Karin's mouth.
 6. **Bottom band focal panel, x=0–100 y=84–100; wide letterbox.** Cast/blocking: **Karin alone at the
    crystallised window at frame left**, looking down at the lit streets of a village that is now hers
    to live in; the large scroll on the desk behind her at frame right, and Guren already working. No
@@ -422,18 +441,22 @@ carrying the Gunbai — all three of which the fight two pages later depends on.
    protector.** Protect x=6–40 y=4–19 as plain sky. **CAP1** upper right, tail-less time-and-place
    card, small box: "THE FOLLOWING DAY — OUTSIDE OTOGAKURE". No balloon.
 2. **Middle right, x=68–100 y=34–58; medium.** Cast/blocking: Naruto stopped mid-stride, his head
-   turning back toward frame right. No text.
-3. **Middle centre, x=34–65 y=34–58; medium.** Cast/blocking: **Jiraiya** standing in the road at the
-   panel's right, facing left, and the expression on him is not the usual one. No text.
-4. **Middle left, x=0–31 y=34–58; close-up.** Cast/blocking: Naruto facing right at him. **B1** upper
-   left, Naruto: "WHAT CAN I DO FOR YOU, JIRAIYA?" Tail points to visible Naruto's mouth.
+   turning back toward frame right. **B1** upper right, Jiraiya: "NARUTO." `OFF`, tail exits the
+   right edge toward Jiraiya, who is not drawn in this panel.
+3. **Middle centre, x=34–65 y=34–58; medium.** Cast/blocking: **Jiraiya** standing in the road at
+   the panel's right, facing left, and the expression on him is not the usual one. **B2** upper
+   right, Jiraiya: "WE NEED TO TALK." Tail points to visible Jiraiya's mouth.
+4. **Middle left, x=0–31 y=34–58; close-up.** Cast/blocking: Naruto facing right at him. **B3**
+   upper left, Naruto: "WHAT CAN I DO FOR YOU, JIRAIYA?" Tail points to visible Naruto's mouth.
+   **B4** lower left, Naruto: "YOU ARE A LONG WAY FROM KONOHA." Tail points to the same visible
+   Naruto's mouth.
 5. **Bottom right, x=55–100 y=62–100; medium.** Cast/blocking: Jiraiya at frame right, facing left.
-   **B2** upper right, Jiraiya: "WHAT WERE YOU DOING IN OTO?" Tail points to visible Jiraiya's mouth.
-   **B3** lower right, Jiraiya: "I HEARD WHERE YOU WERE HEADED AND CAME STRAIGHT HERE. THEY SAID YOU
+   **B5** upper right, Jiraiya: "WHAT WERE YOU DOING IN OTO?" Tail points to visible Jiraiya's mouth.
+   **B6** lower right, Jiraiya: "I HEARD WHERE YOU WERE HEADED AND CAME STRAIGHT HERE. THEY SAID YOU
    HAD A RED-HAIRED GIRL WITH YOU. KARIN." Tail points to the same visible mouth.
 6. **Bottom left, x=0–51 y=62–100; medium.** Cast/blocking: Naruto folding his arms across the
-   breastplate, facing right, entirely at ease. **B4** upper left, Naruto: "NOW THAT RAISES A SECOND
-   QUESTION." Tail points to visible Naruto's mouth. **B5** lower left, Naruto: "I WENT IN WITH HER
+   breastplate, facing right, entirely at ease. **B7** upper left, Naruto: "NOW THAT RAISES A SECOND
+   QUESTION." Tail points to visible Naruto's mouth. **B8** lower left, Naruto: "I WENT IN WITH HER
    AND CAME OUT WITHOUT HER. WHY?" Tail points to the same visible mouth.
 
 #### Page 10 — 6 panels
@@ -443,23 +466,24 @@ he states is true — and then show it bounce off, which is what makes his decis
 
 1. **Top right, x=68–100 y=0–24; medium.** Cast/blocking: Jiraiya facing left. **B1** upper right,
    Jiraiya: "ARE YOU GOING TO ANSWER MY QUESTION?" Tail points to visible Jiraiya's mouth.
-2. **Top centre, x=34–65 y=0–24; close-up.** Cast/blocking: Naruto facing right. **B2** upper centre,
-   Naruto: "I WONDER." Tail points to visible Naruto's mouth.
+2. **Top centre, x=34–65 y=0–24; close-up.** Cast/blocking: Naruto facing right. **B2** upper
+   centre, Naruto: "I WONDER." Tail points to visible Naruto's mouth. **B3** lower centre, Naruto:
+   "ASK IT DIFFERENTLY." Tail points to the same visible Naruto's mouth.
 3. **Top left, x=0–31 y=0–24; medium.** Cast/blocking: Jiraiya stepping in one pace, facing left.
-   **B3** upper left, Jiraiya: "YOU WERE SEEN IN KUSAGAKURE, NEAR ONE OF OROCHIMARU'S HIDEOUTS. GUREN
-   WAS THERE." Tail points to visible Jiraiya's mouth. **B4** lower left, Jiraiya: "WITNESSES SAY SHE
+   **B4** upper left, Jiraiya: "YOU WERE SEEN IN KUSAGAKURE, NEAR ONE OF OROCHIMARU'S HIDEOUTS. GUREN
+   WAS THERE." Tail points to visible Jiraiya's mouth. **B5** lower left, Jiraiya: "WITNESSES SAY SHE
    LEFT IT AFTER YOU DID." Tail points to the same visible mouth.
 4. **Middle band, x=0–100 y=28–50; wide two-shot.** Cast/blocking: the road; Naruto at frame left with
-   his arms still folded, Jiraiya at frame right. **B5** upper left, Naruto: "SO?" Tail points to
+   his arms still folded, Jiraiya at frame right. **B6** upper left, Naruto: "SO?" Tail points to
    visible Naruto's mouth.
 5. **Bottom-upper band, x=0–100 y=54–72; medium wide.** Cast/blocking: Jiraiya at frame right, stern.
-   **B6** upper right, Jiraiya: "WHAT CONNECTION DO YOU HAVE WITH HER? IT WAS NO COINCIDENCE THAT SHE
+   **B7** upper right, Jiraiya: "WHAT CONNECTION DO YOU HAVE WITH HER? IT WAS NO COINCIDENCE THAT SHE
    WENT AND REBUILT OTOGAKURE AFTER YOUR VISIT." Tail points to visible Jiraiya's mouth.
 6. **Bottom band focal panel, x=0–100 y=76–100; wide.** Cast/blocking: Naruto at frame left, unmoved;
    Jiraiya at frame right. **All three balloons sit in the left half above Naruto and read
-   top-to-bottom.** **B7** upper left, Naruto: "HO. YOU HAVE BEEN DIGGING." Tail points to visible
-   Naruto's mouth. **B8** middle left, Naruto: "I NEVER HID THAT VISIT. IF I HAD WANTED TO GO UNSEEN, I
-   WOULD HAVE." Tail points to the same visible mouth. **B9** lower left, Naruto: "AS FOR GUREN —
+   top-to-bottom.** **B8** upper left, Naruto: "HO. YOU HAVE BEEN DIGGING." Tail points to visible
+   Naruto's mouth. **B9** middle left, Naruto: "I NEVER HID THAT VISIT. IF I HAD WANTED TO GO UNSEEN, I
+   WOULD HAVE." Tail points to the same visible mouth. **B10** lower left, Naruto: "AS FOR GUREN —
    PERHAPS I WAS INTERESTED IN TAKING HER AS A MATE. A LOVELY WOMAN, WITH UNIQUE ABILITIES. DO YOU NOT
    AGREE?" Tail points to the same visible mouth.
 
@@ -765,22 +789,30 @@ previewed on page 18 and no epilogue panel may be added after it.**
 
 ## Dialogue QA
 
-- **101 balloons, one chapter marker, four location/time cards and six SFX units across 18 pages.**
+- **121 balloons, one chapter marker, four location/time cards and six SFX units across 18 pages.**
   The marker is exactly "CHAPTER 15 — LAUGHABLE". The four cards are exactly "OTOGAKURE" (p1), "THE
   CRYSTAL PALACE" (p5), "THE FOLLOWING DAY — OUTSIDE OTOGAKURE" (p9) and "THE VALLEY OF THE END"
   (p13). The six SFX units are "VMMMM" (p6 panel 4), "GOOOO" (p11 panel 3), "GRRRRND" (p11 panel 5),
   "DOOM" (p11 panel 7), "GOOOOOOO" (p13 panel 1) and "GOOOOOOO" (p18 panel 4). Balloon numbering
   restarts and stays contiguous on every page.
-- Per-page balloon counts, summing to 101: p1 6, p2 6, p3 4, p4 4, p5 6, p6 8, p7 8, p8 4, p9 5,
-  p10 9, p11 4, p12 10, p13 4, p14 5, p15 5, p16 6, p17 7, **p18 0**.
+- Per-page balloon counts, summing to 121: p1 8, p2 8, p3 7, p4 6, p5 8, p6 9, p7 9, p8 7, p9 8,
+  p10 10, p11 4, p12 10, p13 4, p14 5, p15 5, p16 6, p17 7, **p18 0**. No panel carries more than
+  four.
+- **The density pass touched pages 1–12 only. Pages 13–18 are unchanged, balloon for balloon.** The
+  Valley of the End sequence is built on Naruto going quiet — his last thought balloon is two pages
+  before Obito speaks and the final page has eight panels and no text — and its counts must stay
+  exactly as they are. So must page 11, the Jiraiya exchange, whose four balloons are spaced across a
+  seven-panel physical chain.
 - Per-page panel counts, summing to 109: p1 6, p2 5, p3 5, p4 5, p5 6, p6 6, p7 6, p8 6, p9 6, p10 6,
   p11 7, p12 7, p13 5, p14 6, p15 6, p16 7, p17 6, p18 8.
-- **The density curve is the chapter's argument.** Oto and the office run six to ten a page because
-  everything there is working. The fight drops to four across seven panels. The Valley then runs four,
-  five, five, six, seven — **rising, and all of it Obito's** — and then falls off a cliff to **zero.**
-  Page 18 is the only page in Volume 6 with no text but an environmental SFX.
+- **The density curve is the chapter's argument, and raising the front half sharpens it.** Oto and
+  the office now run six to ten a page because everything there is working and everyone in it is
+  talking — the gate guard argues, the villagers greet them, Karin says what she sees. The fight
+  drops to four across seven panels. The Valley then runs four, five, five, six, seven — **rising,
+  and all of it Obito's** — and then falls off a cliff to **zero.** Page 18 is the only page in
+  Volume 6 with no text but an environmental SFX.
 - Preserved from `SOURCE_TRUTH.md`'s verbatim list: **"UCHIHA RETURN."** (p11 B4), Guren's
-  **"NARUTO-SAMA."** (p5 B2), Obito's **"IT WOULD BE A NAIVE THOUGHT TO BELIEVE THAT A HEARTLESS MAN
+  **"NARUTO-SAMA."** (p5 B3), Obito's **"IT WOULD BE A NAIVE THOUGHT TO BELIEVE THAT A HEARTLESS MAN
   LIKE MADARA COULD EVER BE CAPABLE OF LOVING YOU."** (p17 B2) and **"UCHIHA MADARA, RECONSIDERING HIS
   IDEALS?" / "LAUGHABLE."** (p17 B6–B7).
 - **The five questions are the chapter's load-bearing lettering and are rendered as close to the
@@ -798,9 +830,14 @@ previewed on page 18 and no epilogue panel may be added after it.**
   taunting and not as angry; the source says he leaves satisfied, so his lines are the lines of
   someone completing an errand. If any of his balloons is lettered as a shout, the scene tips into a
   confrontation and loses.
-- The gate guard's four balloons are the whole of his part and none of them acknowledges who Naruto
-  is. That is the joke and the point: the security Naruto built does not make exceptions for him.
-- Guren's eleven balloons are all administrative except "NARUTO-SAMA." and her one thought. She never
+- The gate guard's six balloons are the whole of his part and none of them acknowledges who Naruto
+  is — his last is a half-finished sentence delivered to a back. That is the joke and the point: the
+  security Naruto built does not make exceptions for him, and it does not get the last word either.
+- Two unnamed Oto villagers greet the pair on page 3 and are the only voices in Otogakure besides the
+  guard, Guren, Karin and Naruto. They say nothing about who he is, because nobody in Oto has ever
+  been told his name.
+- Guren's fourteen balloons are all administrative except "NARUTO-SAMA.", her one thought, and
+  "HE DOES NOT SAY GOODBYE." on page 8. She never
   asks him where he has been, never mentions Kurotsuchi, and never refers to Konoha.
 - **Jiraiya loses the argument, loses the exchange, and closes his own investigation in a thought
   balloon.** His last two thoughts (p12 B9–B10) are the end of a thread running since Volume 4 and

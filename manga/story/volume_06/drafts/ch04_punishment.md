@@ -4,7 +4,7 @@
 Chapter 3's last panel, and ends at ch17:809 with Naruto walking to his bathroom. Lines 811–813 are
 the author's closing note and are not adapted. No part of ch18 appears here.
 
-**Length:** 26 pages, thirteen spreads, 154 panels, 88 balloons plus one chapter marker and two
+**Length:** 26 pages, thirteen spreads, 154 panels, 91 balloons plus one chapter marker and two
 location/time cards.
 
 **Status:** final dialogue and executable textual `name`; ready for independent source and
@@ -459,11 +459,12 @@ closing ring, with nobody in the room understanding what they are looking at.
 **Purpose:** Open the fight with a read rather than an attack. Danzō's order — do not damage the
 Sharingan — becomes the tactical geometry of the entire massacre.
 
-1. **Top right, x=68–100 y=0–28; medium.** Cast/blocking: three Root come in low together from frame
-   right, blades aimed at his legs, his hip and his ribs; not one blade is above the collarbone. No
-   text.
+1. **Top right, x=68–100 y=0–28; medium.** Cast/blocking: three Root come in low together from
+   frame right, blades aimed at his legs, his hip and his ribs; not one blade is above the
+   collarbone. **B1** upper right, Root C: "BELOW THE COLLARBONE. THE EYES ARE NOT TO BE DAMAGED."
+   Tail points to the leading Root's visible masked mouth.
 2. **Top centre, x=34–65 y=0–28; close-up.** Cast/blocking: Naruto's eyes tracking the three, Eternal
-   Mangekyō. **B1** upper centre, tail-less thought balloon: "NOTHING ABOVE THE SHOULDERS."
+   Mangekyō. **B2** upper centre, tail-less thought balloon: "NOTHING ABOVE THE SHOULDERS."
 3. **Top left, x=0–31 y=0–28; close-up.** Cast/blocking: Naruto's face; he tips his head down and
    forward, deliberately, into the line of the nearest blade. No text.
 4. **Middle band, x=0–100 y=32–62; wide, the technique in one panel.** Cast/blocking: the nearest
@@ -476,7 +477,8 @@ Sharingan — becomes the tactical geometry of the entire massacre.
    fire steel wire from forearm launchers; the wire crosses the frame from both sides and wraps
    Naruto's chest and upper arms. **SFX** along the wire: "SHRRR". No balloon.
 6. **Bottom centre, x=34–65 y=66–100; medium.** Cast/blocking: both men haul the wire taut from
-   opposite sides; Naruto's arms are pinned and he is not resisting the pull at all. No text.
+   opposite sides; Naruto's arms are pinned and he is not resisting the pull at all. **B3** upper
+   centre, Root D: "HOLD HIM!" Tail points to that visible Root's masked mouth.
 7. **Bottom left, x=0–31 y=66–100; medium, the technique in one panel.** Cast/blocking: wood grows out
    of **Naruto's own forearms** where the wire crosses them, runs outward along both wires in both
    directions like frost, and reaches both wire-men at the frame's edges at the same moment. Origin,
@@ -509,9 +511,10 @@ convert the rest of the massacre into a single landscape rather than an attack l
 4. **Middle centre, x=34–65 y=30–56; close-up.** Cast/blocking: a second Root's mask beside him,
    facing left. **B3** upper centre, Root F: "HE HAS NOT NEEDED ONE." Tail points to visible Root F's
    masked mouth.
-5. **Middle left, x=0–31 y=30–56; medium.** Cast/blocking:
-   the remaining Root push off the walls and come at him together from every side of the frame.
-   **SFX** low across the frame: "DUDUDU". No balloon.
+5. **Middle left, x=0–31 y=30–56; medium.** Cast/blocking: the remaining Root push off the walls
+   and come at him together from every side of the frame. **SFX** low across the frame: "DUDUDU".
+   No balloon. **B4** upper right, Root E: "ALL OF US. NOW." `OFF`, tail exits the right edge
+   toward Root E.
 6. **Bottom band focal panel, x=0–100 y=60–100; extreme-wide, high angle looking straight down.**
    Cast/blocking: the hall floor from the vault. A thicket of pale wood has grown across two thirds of
    it in a broad arc whose origin point is Naruto's own small figure at frame right; shapes lie under
@@ -910,19 +913,26 @@ Danzō already in the hospital, and Tsunade already waiting.
 
 ## Dialogue QA
 
-- **88 balloons, one chapter marker and two location/time cards across 26 pages.** The marker is
+- **91 balloons, one chapter marker and two location/time cards across 26 pages.** The marker is
   exactly "CHAPTER 4 — PUNISHMENT". The two cards are exactly "ROOT BASE" (p1) and "UCHIHA COMPOUND —
   LATE THAT NIGHT" (p25). Balloon numbering restarts and stays contiguous on every page.
-- Per-page balloon counts, summing to 88: p1 **0**, p2 1, p3 5, p4 2, p5 2, p6 1, p7 5, p8 6, p9 3,
-  p10 4, p11 5, p12 1, p13 3, p14 3, p15 1, p16 1, p17 7, p18 8, p19 3, p20 2, p21 **0**, p22 3,
+- Per-page balloon counts, summing to 91: p1 **0**, p2 1, p3 5, p4 2, p5 2, p6 1, p7 5, p8 6, p9 3,
+  p10 4, p11 5, p12 3, p13 4, p14 3, p15 1, p16 1, p17 7, p18 8, p19 3, p20 2, p21 **0**, p22 3,
   p23 5, p24 6, p25 5, p26 6.
+- **This chapter was deliberately left out of the volume's dialogue-density pass.** It is the Root
+  massacre and its sparseness is the writing, not an oversight: Naruto says one word in the first six
+  pages and it is the name of a technique. Exactly three lines were added, all of them Root voices in
+  the fight (p12 panels 1 and 6, p13 panel 5), and their only job is to make Danzō's standing order —
+  do not damage the Sharingan — audible in the room instead of only in Naruto's thought balloon,
+  because that order is the tactical geometry of the whole massacre. **Both wordless pages (p1, p21),
+  the silent eye-removal on p19, and every focal technique panel are untouched.**
 - Per-page panel counts, summing to 154: p1 6, p2 6, p3 7, p4 5, p5 6, p6 5, p7 6, p8 6, p9 6, p10 6,
   p11 6, p12 7, p13 6, p14 5, p15 6, p16 4, p17 6, p18 6, p19 6, p20 6, p21 5, p22 6, p23 6, p24 7,
   p25 7, p26 6.
-- Density varies hard by function, exactly as the writing guide requires. The chapter opens on a
-  **wordless page** and contains a second wordless page (p21, the arm) at its most violent moment;
-  the corridor sequence (pp. 1–6) carries eleven balloons across six pages, of which four are
-  tail-less thoughts; the two conversation pages either side of the punishment (pp. 17–18) carry
+- Density varies hard by function, exactly as the writing guide requires, and averages 3.5 a page
+  against a volume average above seven. The chapter opens on a **wordless page** and contains a second
+  wordless page (p21, the arm) at its most violent moment; the corridor sequence (pp. 1–6) carries
+  eleven balloons across six pages, of which four are tail-less thoughts; the two conversation pages either side of the punishment (pp. 17–18) carry
   fifteen; the two closing pages carry eleven.
 - Preserved from `SOURCE_TRUTH.md`'s verbatim list: "SHIMURA." (p17 B1), "WHAT IS IT THAT YOU LOVE
   THE MOST, DANZOU? POWER? KONOHA? YOURSELF?" (p18 B1), "I WILL TAKE YOUR SHARINGANS." (p18 B5),

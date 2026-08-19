@@ -5,7 +5,7 @@ after Chapter 5's last panel, and ends at ch18:571 with Naruto reverse-summoning
 own room. Lines 573–589 are the author's closing note and are not adapted. Dragon Land itself
 (ch19:5 onward) belongs to Chapter 7 and no part of it appears here.
 
-**Length:** 16 pages, eight spreads, 94 panels, 87 balloons plus one chapter marker and four
+**Length:** 16 pages, eight spreads, 94 panels, 114 balloons plus one chapter marker and four
 location/time cards.
 
 **Status:** final dialogue and executable textual `name`; ready for independent source and
@@ -128,22 +128,27 @@ the two of them are debriefing a hundred and fifty deaths over a stack of paperw
    lettering-safe negative space. **TITLE1** centred in that protected area: "CHAPTER 6 — TEN CLOAKS".
    Tail-less chapter marker. **CAP1** upper right, tail-less location card, small box: "UCHIHA
    COMPOUND".
-2. **Middle right, x=68–100 y=34–58; medium interior.** Cast/blocking: a plain domestic room — table,
-   cupboards, a window over a sink. A black-flame spiral unwinds in the middle of the floor and Naruto
-   steps out of it in full armour, facing left; the boards under him scorch in a clean disc. Origin,
-   direction and result inside this panel. **SFX** thin, at the top of the spiral: "VWOOM". No balloon.
+2. **Middle right, x=68–100 y=34–58; medium interior.** Cast/blocking: a plain domestic room —
+   table, cupboards, a window over a sink. A black-flame spiral unwinds in the middle of the floor
+   and Naruto steps out of it in full armour, facing left; the boards under him scorch in a clean
+   disc. Origin, direction and result inside this panel. **SFX** thin, at the top of the spiral:
+   "VWOOM". No balloon. **B1** upper left, Sasuke: "THOSE BOARDS ARE NEW." `OFF`, tail exits the
+   left edge toward Sasuke, who is not drawn in this panel.
 3. **Middle centre, x=34–65 y=34–58; medium.** Cast/blocking: Sasuke at the table at frame left facing
    right, the Police Force files spread in front of him, one open. Every page is ILLEGIBLE SCRIBBLE.
-   **B1** upper centre, Sasuke: "EVERYTHING WENT WELL?" Tail points to visible Sasuke's mouth.
-4. **Middle left, x=0–31 y=34–58; close-up.** Cast/blocking: Naruto facing left. **B2** upper left,
+   **B2** upper centre, Sasuke: "EVERYTHING WENT WELL?" Tail points to visible Sasuke's mouth.
+4. **Middle left, x=0–31 y=34–58; close-up.** Cast/blocking: Naruto facing left. **B3** upper left,
    Naruto: "YES." Tail points to visible Naruto's mouth.
-5. **Bottom right, x=55–100 y=62–100; medium two-shot.** Cast/blocking: Sasuke at frame left closes the
-   open file with one hand; Naruto stands at frame right and does not sit down. **B3** upper right,
-   Sasuke: "SHE ASKED WHERE I GOT IT. I TOLD HER IT WAS POLICE FORCE EVIDENCE AND SHE STOPPED
-   ASKING." Tail points to visible Sasuke's mouth. **B4** lower left, Sasuke: "I DID NOT HAVE TO LIE
-   ONCE." Tail points to the same visible mouth.
-6. **Bottom left, x=0–51 y=62–100; close-up.** Cast/blocking: Naruto facing left. **B5** upper left,
-   Naruto: "THAT WAS THE POINT." Tail points to visible Naruto's mouth.
+5. **Bottom right, x=55–100 y=62–100; medium two-shot.** Cast/blocking: Sasuke at frame left closes
+   the open file with one hand; Naruto stands at frame right and does not sit down. **B4** upper
+   right, Sasuke: "SHE ASKED WHERE I GOT IT. I TOLD HER IT WAS POLICE FORCE EVIDENCE AND SHE
+   STOPPED ASKING." Tail points to visible Sasuke's mouth. **B5** lower left, Sasuke: "I DID NOT
+   HAVE TO LIE ONCE." Tail points to the same visible mouth. **B6** lower right, Sasuke: "SHE READ
+   EVERY PAGE TWICE BEFORE SHE SAID IT." Tail points to the same visible Sasuke's mouth.
+6. **Bottom left, x=0–51 y=62–100; close-up.** Cast/blocking: Naruto facing left. **B7** upper
+   left, Naruto: "THAT WAS THE POINT." Tail points to visible Naruto's mouth. **B8** lower left,
+   Naruto: "SHE CANNOT ASK A QUESTION SHE HAS ALREADY ANSWERED." Tail points to the same visible
+   Naruto's mouth.
 
 #### Page 2 — 6 panels
 
@@ -154,20 +159,24 @@ before the scene becomes warm.
    right. **B1** upper right, Sasuke: "I JUST HOPE SHE DOES NOT START BEING SUSPICIOUS OF ME TOO."
    Tail points to visible Sasuke's mouth. **B2** lower right, Sasuke: "IT IS BAD ENOUGH THAT SHE IS
    ALWAYS CAREFUL AROUND YOU." Tail points to the same visible mouth.
-2. **Top left, x=0–58 y=0–26; close-up.** Cast/blocking: Naruto facing left. **B3** upper left, Naruto:
-   "SHE WILL NOT. NOT WITH HOW MUCH YOU HAVE CHANGED." Tail points to visible Naruto's mouth.
+2. **Top left, x=0–58 y=0–26; close-up.** Cast/blocking: Naruto facing left. **B3** upper left,
+   Naruto: "SHE WILL NOT. NOT WITH HOW MUCH YOU HAVE CHANGED." Tail points to visible Naruto's
+   mouth. **B4** lower left, Naruto: "AND SHE NEEDS THE POLICE FORCE MORE THAN SHE NEEDS THE
+   ANSWER." Tail points to the same visible Naruto's mouth.
 3. **Middle band focal panel, x=0–100 y=30–58; wide.** Cast/blocking: the two of them held in one
    frame — Sasuke seated at the kitchen table at frame left with the file stack, Naruto standing
    armoured at frame right by the window. The room is completely domestic and neither of them treats
-   the conversation as unusual. **B4** upper right, Sasuke: "IT DOES NOT MATTER EITHER WAY. AS LONG AS
-   SHE STAYS OUT OF MY WORK." Tail points to visible Sasuke's mouth. **B5** lower left, tail-less
+   the conversation as unusual. **B5** upper right, Sasuke: "IT DOES NOT MATTER EITHER WAY. AS LONG AS
+   SHE STAYS OUT OF MY WORK." Tail points to visible Sasuke's mouth. **B6** lower left, tail-less
    thought balloon, Naruto: "IN FOUR DAYS HE HAS MADE THE POLICE FORCE NECESSARY. THAT WAS THE OTHER
    POINT."
 4. **Bottom right, x=68–100 y=62–100; medium.** Cast/blocking: Sasuke squares the files and stands.
-   **B6** upper right, Sasuke: "KARIN IS WAITING FOR YOU AT THE TRAINING GROUND." Tail points to
+   **B7** upper right, Sasuke: "KARIN IS WAITING FOR YOU AT THE TRAINING GROUND." Tail points to
    visible Sasuke's mouth.
-5. **Bottom centre, x=34–65 y=62–100; close-up.** Cast/blocking: Naruto's face, facing left; there is
-   the smallest possible pause in it before he moves, and no expression attached to the pause. No text.
+5. **Bottom centre, x=34–65 y=62–100; close-up.** Cast/blocking: Naruto's face, facing left; there
+   is the smallest possible pause in it before he moves, and no expression attached to the pause.
+   **B8** upper centre, Sasuke: "SHE HAS BEEN OUT THERE SINCE DAWN." `OFF`, tail exits the right
+   edge toward Sasuke, who is not drawn in this panel.
 6. **Bottom left, x=0–31 y=62–100; medium.** Cast/blocking: black flame breaks out from **Naruto's own
    feet and the floorboards beneath them**, climbs him in a rising spiral and closes over his head;
    Sasuke at the frame's right has an arm up against the heat. Origin, direction and result inside
@@ -187,28 +196,31 @@ copies of one of them.
 **Purpose:** Let Karin change the terms of her own training in one speech, and let the reader notice
 that she is thanking the wrong man and will never know it.
 
-1. **Top band, x=0–100 y=0–28; wide establishing.** Cast/blocking: the Uchiha compound's own training
-   ground, seen from the near edge. The far two thirds of the field is full of working clones — a
-   seated block over open scrolls at frame left, the rest spread out with spheres of spinning chakra
-   in their palms at various stages of collapse. Karin stands alone in the near foreground at frame
-   right with her back to them. **CAP1** upper right, tail-less location card, small box: "THE UCHIHA
-   TRAINING GROUND". No balloon.
-2. **Middle right, x=68–100 y=32–58; medium.** Cast/blocking: a black-flame spiral unwinds beside her
-   and Naruto steps out of it in full armour, facing left; the grass under him scorches in a clean
-   disc. **SFX** thin: "VWOOM". No balloon.
+1. **Top band, x=0–100 y=0–28; wide establishing.** Cast/blocking: the Uchiha compound's own
+   training ground, seen from the near edge. The far two thirds of the field is full of working
+   clones — a seated block over open scrolls at frame left, the rest spread out with spheres of
+   spinning chakra in their palms at various stages of collapse. Karin stands alone in the near
+   foreground at frame right with her back to them. **CAP1** upper right, tail-less location card,
+   small box: "THE UCHIHA TRAINING GROUND". No balloon. **B1** upper left, tail-less thought
+   balloon, Karin: "TWO HUNDRED OF HIM. AND HE CALLS THIS A SLOW MORNING." Tail-less; speaker is
+   Karin and she is drawn in the panel.
+2. **Middle right, x=68–100 y=32–58; medium.** Cast/blocking: a black-flame spiral unwinds beside
+   her and Naruto steps out of it in full armour, facing left; the grass under him scorches in a
+   clean disc. **SFX** thin: "VWOOM". No balloon. **B2** upper left, Karin: "DO YOU EVER SIMPLY
+   WALK ANYWHERE?" `OFF`, tail exits the left edge toward Karin.
 3. **Middle centre, x=34–65 y=32–58; medium.** Cast/blocking: Karin at frame left facing right, arms
-   crossed. **B1** upper centre, Karin: "YOU DO NOT WASTE TIME, DO YOU." Tail points to visible
+   crossed. **B3** upper centre, Karin: "YOU DO NOT WASTE TIME, DO YOU." Tail points to visible
    Karin's mouth.
-4. **Middle left, x=0–31 y=32–58; close-up.** Cast/blocking: Naruto facing left. **B2** upper left,
+4. **Middle left, x=0–31 y=32–58; close-up.** Cast/blocking: Naruto facing left. **B4** upper left,
    Naruto: "NO." Tail points to visible Naruto's mouth.
 5. **Bottom right, x=55–100 y=62–100; medium.** Cast/blocking: Karin's arms come down to her sides;
-   she is facing left toward him and her voice has changed. **B3** upper right, Karin: "WHEN THEY TOOK
-   ME I COULD NOT STOP THEM. NOT ONE OF THEM." Tail points to visible Karin's mouth. **B4** lower
+   she is facing left toward him and her voice has changed. **B5** upper right, Karin: "WHEN THEY TOOK
+   ME I COULD NOT STOP THEM. NOT ONE OF THEM." Tail points to visible Karin's mouth. **B6** lower
    right, Karin: "I THOUGHT I WAS GOING TO DIE AND THERE WAS NOTHING I COULD DO ABOUT IT." Tail points
    to the same visible mouth.
 6. **Bottom left, x=0–51 y=62–100; close-up.** Cast/blocking: Karin looking straight at him with a
-   small unhappy smile. **B5** upper left, Karin: "I UNDERSTAND NOW WHY YOU WANTED ME STRONG." Tail
-   points to visible Karin's mouth. **B6** lower left, Karin: "TRAIN ME AS HARD AS YOU CAN." Tail
+   small unhappy smile. **B7** upper left, Karin: "I UNDERSTAND NOW WHY YOU WANTED ME STRONG." Tail
+   points to visible Karin's mouth. **B8** lower left, Karin: "TRAIN ME AS HARD AS YOU CAN." Tail
    points to the same visible mouth.
 
 #### Page 4 — 6 panels
@@ -231,11 +243,12 @@ built out of the worst night of her life.
    THE WORLD WORKS." Tail points to visible Karin's mouth.
 5. **Bottom centre, x=34–65 y=62–100; close-up.** Cast/blocking: Naruto facing left. **B6** upper
    centre, Naruto: "DO NOT CONFORM YOURSELF TO SUCH PRINCIPLES." Tail points to visible Naruto's
-   mouth. **B7** lower centre, Naruto: "MAKE YOUR OWN. DO NOT FOLLOW THE BELIEFS OF THE WORLD." Tail
-   points to the same visible mouth.
+   mouth. **B7** lower centre, Naruto: "MAKE YOUR OWN. DO NOT FOLLOW THE BELIEFS OF THE WORLD."
+   Tail points to the same visible mouth. **B8** lower left, Naruto: "THE WORLD HAS NO PRINCIPLES.
+   PEOPLE HAVE THEM." Tail points to the same visible Naruto's mouth.
 6. **Bottom left, x=0–31 y=62–100; medium.** Cast/blocking: Karin has looked away toward the frame's
-   left edge; the fight has gone out of her posture. **B8** upper left, Karin: "THAT IS EASY FOR YOU
-   TO SAY. YOU HAVE THE POWER TO BACK YOURS UP." Tail points to visible Karin's mouth. **B9** lower
+   left edge; the fight has gone out of her posture. **B9** upper left, Karin: "THAT IS EASY FOR YOU
+   TO SAY. YOU HAVE THE POWER TO BACK YOURS UP." Tail points to visible Karin's mouth. **B10** lower
    left, Naruto: "PERHAPS." `OFF`, tail exits the right edge toward Naruto.
 
 **Page turn:** He does not argue the point. He changes the subject.
@@ -253,25 +266,26 @@ built out of the worst night of her life.
 1. **Top right, x=62–100 y=0–26; medium.** Cast/blocking: Naruto facing left; the change of subject is
    total and he does not signal it. **B1** upper right, Naruto: "HAVE YOU SETTLED WELL IN THIS
    VILLAGE?" Tail points to visible Naruto's mouth.
-2. **Top left, x=0–58 y=0–26; medium.** Cast/blocking: Karin facing right; she actually thinks about it
-   before she answers. **B2** upper left, Karin: "NOT REALLY. IT IS A GOOD VILLAGE. IT IS NOT MINE."
-   Tail points to visible Karin's mouth.
+2. **Top left, x=0–58 y=0–26; medium.** Cast/blocking: Karin facing right; she actually thinks
+   about it before she answers. **B2** upper left, Karin: "NOT REALLY. IT IS A GOOD VILLAGE. IT IS
+   NOT MINE." Tail points to visible Karin's mouth. **B3** lower left, Karin: "I KEEP WAITING FOR
+   SOMEONE TO ASK ME WHAT I AM DOING HERE." Tail points to the same visible Karin's mouth.
 3. **Middle right, x=68–100 y=30–56; close-up.** Cast/blocking: Naruto facing left, half to himself.
-   **B3** upper right, Naruto: "THEN GUREN HAS FINISHED THE CRYSTAL PALACE BY NOW." Tail points to
+   **B4** upper right, Naruto: "THEN GUREN HAS FINISHED THE CRYSTAL PALACE BY NOW." Tail points to
    visible Naruto's mouth.
 4. **Middle centre, x=34–65 y=30–56; medium.** Cast/blocking: Karin, completely blank, facing right.
-   **B4** upper centre, Karin: "GUREN? CRYSTAL PALACE?" Tail points to visible Karin's mouth.
+   **B5** upper centre, Karin: "GUREN? CRYSTAL PALACE?" Tail points to visible Karin's mouth.
 5. **Middle left, x=0–31 y=30–56; close-up.** Cast/blocking: Karin's face as the first name lands.
-   **B5** upper left, Karin: "OH. HER." Tail points to visible Karin's mouth. **B6** lower left, Karin:
+   **B6** upper left, Karin: "OH. HER." Tail points to visible Karin's mouth. **B7** lower left, Karin:
    "WE NEVER GOT ALONG." Tail points to the same visible mouth.
 6. **Bottom band focal panel, x=0–100 y=60–100; wide.** Cast/blocking: Naruto at frame right facing
    left, Karin at frame left facing right, the clone field still working behind them. **The Crystal
    Palace is not drawn anywhere in this panel or this chapter** — there is no imagined inset, no
-   silhouette and no reflection. Its establishing image belongs to Chapter 15. **B7** upper right,
+   silhouette and no reflection. Its establishing image belongs to Chapter 15. **B8** upper right,
    Naruto: "SHE IS LEADING THE REBUILDING OF OTO. THE PALACE IS MY HEADQUARTERS THERE." Tail points
-   to visible Naruto's mouth. **B8** lower right, Naruto: "FOUR FLOORS. WOOD AND CRYSTAL OUTSIDE,
+   to visible Naruto's mouth. **B9** lower right, Naruto: "FOUR FLOORS. WOOD AND CRYSTAL OUTSIDE,
    CRYSTAL THROUGHOUT INSIDE — CEILINGS AND FLOORS. THE UNDERGROUND FLOOR IS MINE." Tail points to
-   the same visible mouth. **B9** lower left, Naruto: "IT IS LARGER THAN THE HOKAGE'S TOWER. I
+   the same visible mouth. **B10** lower left, Naruto: "IT IS LARGER THAN THE HOKAGE'S TOWER. I
    DESIGNED IT." Tail points to the same visible mouth.
 
 #### Page 6 — 7 panels
@@ -327,49 +341,56 @@ through three voices, and hold the two new faces back until the bottom of the pa
    semi-transparent, lit from within, edges flickering, casting no shadow, with the dark ground
    visible through their feet. No two of them are lit by the same source. **CAP1** upper right,
    tail-less location card, small box: "SOMEWHERE ELSE". No balloon.
-2. **Middle right, x=68–100 y=40–66; medium.** Cast/blocking: two of the ten seen closer — Kisame at
-   frame right and Itachi at frame left, both holographic, both facing across the ring to frame left.
-   **B1** upper right, Kisame: "I DID NOT KNOW THERE WAS ANOTHER UCHIHA, ITACHI." Tail points to
-   visible Kisame's mouth.
+2. **Middle right, x=68–100 y=40–66; medium.** Cast/blocking: two of the ten seen closer — Kisame
+   at frame right and Itachi at frame left, both holographic, both facing across the ring to frame
+   left. **B1** upper right, Kisame: "I DID NOT KNOW THERE WAS ANOTHER UCHIHA, ITACHI." Tail points
+   to visible Kisame's mouth. **B2** lower right, Kisame: "A RELATIVE OF YOURS?" Tail points to the
+   same visible Kisame's mouth.
 3. **Middle centre, x=34–65 y=40–66; close-up.** Cast/blocking: Itachi's face, facing left, entirely
    without expression. He does not answer and the panel gives him no balloon. No text.
 4. **Middle left, x=0–31 y=40–66; medium.** Cast/blocking: Hidan at frame centre, arms thrown out.
-   **B2** upper left, Hidan: "WHO THE HELL ARE THOSE TWO?" Tail points to visible Hidan's mouth.
-5. **Bottom band, x=0–100 y=70–100; wide.** Cast/blocking: the two new figures standing side by side in
-   the ring — **Tobi**, masked, the single right eyehole showing a three-tomoe Sharingan, and
-   **Kabuto** in an Akatsuki cloak with his glasses catching light from nowhere, watching everyone
-   else and saying nothing. Neither of them reacts to Hidan. **B3** upper right, Kakuzu: "SHUT UP,
-   HIDAN. LEADER-SAMA WILL INTRODUCE THEM." `OFF`, tail exits the right edge toward Kakuzu. **B4**
-   lower left, Hidan: "IS ANYBODY GOING TO ANSWER ME?" `OFF`, tail exits the left edge toward Hidan.
+   **B3** upper left, Hidan: "WHO THE HELL ARE THOSE TWO?" Tail points to visible Hidan's mouth.
+   **B4** lower left, Hidan: "NOBODY TELLS ME ANYTHING." Tail points to the same visible Hidan's
+   mouth.
+5. **Bottom band, x=0–100 y=70–100; wide.** Cast/blocking: the two new figures standing side by
+   side in the ring — **Tobi**, masked, the single right eyehole showing a three-tomoe Sharingan,
+   and **Kabuto** in an Akatsuki cloak with his glasses catching light from nowhere, watching
+   everyone else and saying nothing. Neither of them reacts to Hidan. **B5** upper right, Kakuzu:
+   "SHUT UP, HIDAN. LEADER-SAMA WILL INTRODUCE THEM." `OFF`, tail exits the right edge toward
+   Kakuzu. **B6** lower left, Hidan: "IS ANYBODY GOING TO ANSWER ME?" `OFF`, tail exits the left
+   edge toward Hidan. **B7** lower right, Deidara: "I WOULD LIKE TO KNOW AS WELL, HM." Tail points
+   to visible Deidara's mouth in the ring.
 
 #### Page 8 — 6 panels
 
 **Purpose:** Compress the roll call the volume plan asked to be compressed, and spend the page's one
 large beat on the only line in the introduction that matters.
 
-1. **Top band, x=0–100 y=0–30; wide, low angle.** Cast/blocking: **the Leader** at frame right of the
-   ring with **Konan** a half step behind his shoulder, both holographic; his **Rinnegan** eyes — grey,
-   concentric rings — are the brightest thing in the frame, and the whispering around the ring stops.
-   **The Leader holds this frame-right position in the ring for the rest of the chapter.** **SFX**
-   small, around his eyes: "vwn". **B1** upper right, the Leader: "QUIET." Tail points to visible
-   Leader's mouth.
+1. **Top band, x=0–100 y=0–30; wide, low angle.** Cast/blocking: **the Leader** at frame right of
+   the ring with **Konan** a half step behind his shoulder, both holographic; his **Rinnegan** eyes
+   — grey, concentric rings — are the brightest thing in the frame, and the whispering around the
+   ring stops. **The Leader holds this frame-right position in the ring for the rest of the
+   chapter.** **SFX** small, around his eyes: "vwn". **B1** upper right, the Leader: "QUIET." Tail
+   points to visible Leader's mouth. **B2** lower right, the Leader: "YOU WILL BE TOLD WHAT YOU
+   NEED TO BE TOLD." Tail points to the same visible Leader's mouth.
 2. **Middle right, x=68–100 y=34–60; medium.** Cast/blocking: the Leader, facing left across the ring.
-   **B2** upper right, the Leader: "BEFORE WE DISCUSS ANYTHING — OUR NEW MEMBERS. TOBI AND KABUTO."
+   **B3** upper right, the Leader: "BEFORE WE DISCUSS ANYTHING — OUR NEW MEMBERS. TOBI AND KABUTO."
    Tail points to visible Leader's mouth.
 3. **Middle centre, x=34–65 y=34–60; medium.** Cast/blocking: Sasori, hooded, facing right; the voice
-   is flat and rough. **B3** upper centre, Sasori: "KABUTO. OROCHIMARU'S NUMBER TWO." Tail points to
+   is flat and rough. **B4** upper centre, Sasori: "KABUTO. OROCHIMARU'S NUMBER TWO." Tail points to
    visible Sasori's mouth.
-4. **Middle left, x=0–31 y=34–60; medium.** Cast/blocking: Hidan again, furious, facing right. **B4**
-   upper left, Hidan: "WHAT IS THAT ONE DOING HERE? HE IS NOT EVEN S-RANK." Tail points to visible
-   Hidan's mouth.
+4. **Middle left, x=0–31 y=34–60; medium.** Cast/blocking: Hidan again, furious, facing right.
+   **B5** upper left, Hidan: "WHAT IS THAT ONE DOING HERE? HE IS NOT EVEN S-RANK." Tail points to
+   visible Hidan's mouth. **B6** lower left, Hidan: "S-RANK OR NOTHING. THAT WAS THE RULE." Tail
+   points to the same visible Hidan's mouth.
 5. **Bottom right, x=55–100 y=64–100; medium.** Cast/blocking: the Leader at frame right facing left,
-   ignoring the question completely; Deidara is visible across the ring at frame left. **B5** upper
+   ignoring the question completely; Deidara is visible across the ring at frame left. **B7** upper
    right, the Leader: "TOBI AND KABUTO WILL BE PARTNERED. THEY WILL GATHER INTELLIGENCE. THEY WILL
-   NOT HUNT JINCHURIKI." Tail points to visible Leader's mouth. **B6** lower left, Deidara: "SO IS HE
+   NOT HUNT JINCHURIKI." Tail points to visible Leader's mouth. **B8** lower left, Deidara: "SO IS HE
    AN UCHIHA OR NOT, HM?" Tail points to visible Deidara's mouth.
 6. **Bottom left focal panel, x=0–51 y=64–100; close-up.** Cast/blocking: Tobi's mask filling the frame
    in three-quarter view — the single right eyehole and the three-tomoe Sharingan behind it, and
-   nothing else readable. **B7** upper left, Tobi: "I MIGHT BE. OR NOT." Tail points to the lower edge
+   nothing else readable. **B9** upper left, Tobi: "I MIGHT BE. OR NOT." Tail points to the lower edge
    of Tobi's mask; his mouth is behind the mask and is never drawn.
 
 **Page turn:** Nobody asks him a second question.
@@ -389,25 +410,26 @@ then give the page's whole bottom third to the two sentences the scene exists fo
    him, facing left across the ring. **B1** upper right, the Leader: "WE CONTINUE AS PLANNED. ALL THE
    BIJUU — EVEN THOUGH THE SANBI HAS NOT REFORMED." Tail points to visible Leader's mouth.
 2. **Top left, x=0–58 y=0–26; medium.** Cast/blocking: Sasori and Deidara standing together in the
-   ring at frame centre, holographic, facing right; the Leader is not in frame. **B2** upper left, the
-   Leader: "SASORI. DEIDARA. THE SHUKAKU. ITS JINCHURIKI IS THE KAZEKAGE NOW, SO IT WILL BE
-   TROUBLESOME." `OFF`, tail exits the right edge toward the Leader. **B3** lower left, the Leader: "I
-   EXPECT NO FAILURE." `OFF`, tail exits the same edge toward the Leader.
+   ring at frame centre, holographic, facing right; the Leader is not in frame. **B2** upper left,
+   the Leader: "SASORI. DEIDARA. THE SHUKAKU. ITS JINCHURIKI IS THE KAZEKAGE NOW, SO IT WILL BE
+   TROUBLESOME." `OFF`, tail exits the right edge toward the Leader. **B3** lower left, the Leader:
+   "I EXPECT NO FAILURE." `OFF`, tail exits the same edge toward the Leader. **B4** lower right,
+   Deidara: "ART. IN A DESERT. HM." Tail points to visible Deidara's mouth at frame centre.
 3. **Middle right, x=68–100 y=30–56; medium.** Cast/blocking: Kakuzu and Hidan standing together at
-   frame centre, facing right; the Leader is not in frame. **B4** upper right, the Leader: "KAKUZU.
+   frame centre, facing right; the Leader is not in frame. **B5** upper right, the Leader: "KAKUZU.
    HIDAN. THE OUTSKIRTS OF KUMO. THE TWO-TAILS. THE ARRANGEMENTS ARE MADE." `OFF`, tail exits the
    right edge toward the Leader.
 4. **Middle centre, x=34–65 y=30–56; medium.** Cast/blocking: the Leader at frame right of the panel,
-   head turning left toward Tobi's position. **B5** upper centre, the Leader: "TOBI. ANYTHING TO
+   head turning left toward Tobi's position. **B6** upper centre, the Leader: "TOBI. ANYTHING TO
    ADD?" Tail points to visible Leader's mouth.
 5. **Middle left, x=0–31 y=30–56; close-up.** Cast/blocking: Tobi's mask, the Sharingan behind the
-   right eyehole. **B6** upper left, Tobi: "KUMO'S JINCHURIKI CONTROL THEIR BIJUU COMPLETELY. THEY
+   right eyehole. **B7** upper left, Tobi: "KUMO'S JINCHURIKI CONTROL THEIR BIJUU COMPLETELY. THEY
    WILL BE MORE TROUBLE THAN ANY OTHER." Tail points to the lower edge of Tobi's mask.
 6. **Bottom band focal panel, x=0–100 y=60–100; extreme-wide, low angle.** Cast/blocking: the full ring
    of ten again, Tobi at frame centre with the Sharingan the single brightest point in the frame;
-   every other figure is turned toward him and none of them says anything. **B7** upper centre, Tobi:
+   every other figure is turned toward him and none of them says anything. **B8** upper centre, Tobi:
    "AND WATCH OUT FOR UCHIHA NARUTO. HE IS NOT JUST YOUR NORMAL SHINOBI." Tail points to the lower
-   edge of Tobi's mask. **B8** lower right, the Leader: "I EXPECT THE SHUKAKU WITHIN A WEEK.
+   edge of Tobi's mask. **B9** lower right, the Leader: "I EXPECT THE SHUKAKU WITHIN A WEEK.
    DISMISSED." `OFF`, tail exits the right edge toward the Leader.
 
 #### Page 10 — 5 panels
@@ -415,16 +437,19 @@ then give the page's whole bottom third to the two sentences the scene exists fo
 **Purpose:** Empty the ring, leave three, and end the scene on a man who does not answer — which is
 the only response the source gives and must not be improved on.
 
-1. **Top band, x=0–100 y=0–30; wide.** Cast/blocking: the ring going out one figure at a time — four
-   already gone, leaving gaps in the circle; the remaining holograms flicker as the space around them
-   loses its light sources. No text.
+1. **Top band, x=0–100 y=0–30; wide.** Cast/blocking: the ring going out one figure at a time —
+   four already gone, leaving gaps in the circle; the remaining holograms flicker as the space
+   around them loses its light sources. **B1** upper right, Deidara: "A WEEK, HE SAYS." Tail points
+   to visible Deidara's mouth as his figure goes out.
 2. **Middle right, x=55–100 y=34–62; medium.** Cast/blocking: three left. The Leader at frame right
-   with Konan at his shoulder; Tobi alone at frame left across the empty ring. No text.
-3. **Middle left, x=0–51 y=34–62; close-up.** Cast/blocking: Tobi's mask, facing right. **B1** upper
+   with Konan at his shoulder; Tobi alone at frame left across the empty ring. **B2** upper left,
+   Tobi: "THEY ARE GONE." Tail points to the lower edge of Tobi's mask; his mouth is behind the
+   mask and is never drawn.
+3. **Middle left, x=0–51 y=34–62; close-up.** Cast/blocking: Tobi's mask, facing right. **B3** upper
    left, Tobi: "NARUTO WILL BE TROUBLESOME." Tail points to the lower edge of Tobi's mask.
 4. **Bottom right focal panel, x=55–100 y=66–100; tight close-up.** Cast/blocking: the Leader's eyes
    alone — the concentric **Rinnegan** rings — narrowing very slightly, and nothing else in his face
-   moving. **He is given no balloon and must not be given one.** **B2** upper right, Tobi: "WHEN THE
+   moving. **He is given no balloon and must not be given one.** **B4** upper right, Tobi: "WHEN THE
    TIME COMES, YOU SHOULD BE THE ONE TO COLLECT THE KYUUBI." `OFF`, tail exits the left edge toward
    Tobi.
 5. **Bottom left, x=0–51 y=66–100; wide.** Cast/blocking: the same space, entirely empty. No ring, no
@@ -457,15 +482,17 @@ out of a death god's stomach — as one closed box and two thoughts, exactly as 
    thought balloon: "I DID NOT LET HIM SPEAK."
 4. **Middle left, x=0–31 y=32–58; close-up.** Cast/blocking: the same face, tighter. **B2** upper left,
    tail-less thought balloon: "HE WILL SPEAK WHEN I CHOOSE TO LET HIM."
-5. **Bottom right, x=55–100 y=62–100; medium.** Cast/blocking: Zetsu rises out of the floorboards of
-   Naruto's room at frame left, halved white and black, yellow eyes; Naruto at frame right has not
-   turned to look. **SFX** small, at the boards: "SHF". **B3** upper right, Zetsu: "IS EVERYTHING
-   SET?" Tail points to visible Zetsu's mouth. **B4** lower left, Naruto: "YES." Tail points to visible
-   Naruto's mouth.
-6. **Bottom left, x=0–51 y=62–100; medium two-shot.** Cast/blocking: Naruto at frame right facing left,
-   Zetsu at frame left facing right. **B5** upper right, Naruto: "AND OTO?" Tail points to visible
-   Naruto's mouth. **B6** lower left, Zetsu: "YOUR PALACE IS NEARLY DONE. THEY ARE FINISHING THE
-   INSIDE." Tail points to visible Zetsu's mouth.
+5. **Bottom right, x=55–100 y=62–100; medium.** Cast/blocking: Zetsu rises out of the floorboards
+   of Naruto's room at frame left, halved white and black, yellow eyes; Naruto at frame right has
+   not turned to look. **SFX** small, at the boards: "SHF". **B3** upper right, Zetsu: "IS
+   EVERYTHING SET?" Tail points to visible Zetsu's mouth. **B4** lower left, Naruto: "YES." Tail
+   points to visible Naruto's mouth. **B5** lower right, Zetsu: "AND YOU DID IT ALONE." Tail points
+   to the same visible Zetsu's mouth.
+6. **Bottom left, x=0–51 y=62–100; medium two-shot.** Cast/blocking: Naruto at frame right facing
+   left, Zetsu at frame left facing right. **B6** upper right, Naruto: "AND OTO?" Tail points to
+   visible Naruto's mouth. **B7** lower left, Zetsu: "YOUR PALACE IS NEARLY DONE. THEY ARE
+   FINISHING THE INSIDE." Tail points to visible Zetsu's mouth. **B8** lower centre, Zetsu: "GUREN
+   ASKS WHEN YOU WILL COME AND SEE IT." Tail points to the same visible Zetsu's mouth.
 
 #### Page 12 — 6 panels
 
@@ -478,10 +505,14 @@ anyone can see it.
    the door at frame left and the yellow eyes have narrowed. No text.
 3. **Middle right, x=68–100 y=30–56; close-up.** Cast/blocking: Naruto, reading Zetsu's face rather
    than the passage. **B2** upper right, Naruto: "WHAT IS IT?" Tail points to visible Naruto's mouth.
-4. **Middle centre, x=34–65 y=30–56; medium.** Cast/blocking: Zetsu, already sunk to the knees in the
-   boards. **B3** upper centre, Zetsu: "SOMEONE IS COMING." Tail points to visible Zetsu's mouth.
-5. **Middle left, x=0–31 y=30–56; medium.** Cast/blocking: Naruto facing left. **B4** upper left,
-   Naruto: "GO. I WILL REVERSE-SUMMON MYSELF IN A FEW MOMENTS." Tail points to visible Naruto's mouth.
+4. **Middle centre, x=34–65 y=30–56; medium.** Cast/blocking: Zetsu, already sunk to the knees in
+   the boards. **B3** upper centre, Zetsu: "SOMEONE IS COMING." Tail points to visible Zetsu's
+   mouth. **B4** lower centre, Zetsu: "NOT AN ENEMY." Tail points to the same visible Zetsu's
+   mouth.
+5. **Middle left, x=0–31 y=30–56; medium.** Cast/blocking: Naruto facing left. **B5** upper left,
+   Naruto: "GO. I WILL REVERSE-SUMMON MYSELF IN A FEW MOMENTS." Tail points to visible Naruto's
+   mouth. **B6** lower left, Naruto: "AND STAY OUT OF THIS HOUSE WHILE SHE IS IN IT." Tail points
+   to the same visible Naruto's mouth.
 6. **Bottom band, x=0–100 y=60–100; wide.** Cast/blocking: the room. The floorboards where Zetsu was
    have closed without a seam at frame centre; at frame right an inner sliding door stands open on the
    dark room with the coffin in it, and Naruto's hand is on that door pushing it shut as he crosses
@@ -500,8 +531,10 @@ anyone can see it.
 **Purpose:** Slow everything down. After ten pages of orders and assignments, spend a whole page on a
 door opening.
 
-1. **Top right, x=62–100 y=0–26; medium, interior.** Cast/blocking: Naruto's armoured hand closing on
-   the door handle from the inside; the rest of him is out of the frame's top edge. No text.
+1. **Top right, x=62–100 y=0–26; medium, interior.** Cast/blocking: Naruto's armoured hand closing
+   on the door handle from the inside; the rest of him is out of the frame's top edge. **B1** upper
+   left, Yugao: "NARUTO?" `OFF` — she is outside the door and is not drawn in this panel; tail
+   exits the left edge toward the passage.
 2. **Top left, x=0–58 y=0–26; medium.** Cast/blocking: the door swinging outward away from the reader
    and daylight coming up the passage floor. No text.
 3. **Middle band focal panel, x=0–100 y=30–64; wide.** Cast/blocking: Yugao standing in the passage
@@ -510,23 +543,27 @@ door opening.
    the expression is not a greeting yet. No text.
 4. **Bottom right, x=55–100 y=68–100; close-up.** Cast/blocking: her eyes travelling down over him —
    over the chest plate, the pauldrons, the forehead protector. No text.
-5. **Bottom left, x=0–51 y=68–100; close-up.** Cast/blocking: Yugao's face, facing right. **B1** upper
-   left, Yugao: "YOU HAVE GONE BACK TO WEARING YOUR ARMOUR." Tail points to visible Yugao's mouth.
+5. **Bottom left, x=0–51 y=68–100; close-up.** Cast/blocking: Yugao's face, facing right. **B2**
+   upper left, Yugao: "YOU HAVE GONE BACK TO WEARING YOUR ARMOUR." Tail points to visible Yugao's
+   mouth. **B3** lower left, Yugao: "I WAS BEGINNING TO THINK YOU HAD BURNED IT." Tail points to
+   the same visible Yugao's mouth.
 
 #### Page 14 — 6 panels
 
 **Purpose:** Two words out of him in six panels, and then let her close the distance anyway. This is
 the quietest page in the chapter and it must stay that way.
 
-1. **Top right, x=62–100 y=0–26; close-up.** Cast/blocking: Naruto facing left, saying nothing at all
-   and showing nothing at all. No text.
+1. **Top right, x=62–100 y=0–26; close-up.** Cast/blocking: Naruto facing left, saying nothing at
+   all and showing nothing at all. **B1** upper right, Yugao: "NOT EVEN A GOOD MORNING." `OFF`,
+   tail exits the left edge toward Yugao in the passage.
 2. **Top left, x=0–58 y=0–26; medium.** Cast/blocking: Yugao waits half a beat for an answer, does not
-   get one, and is visibly not put out by it. **B1** upper left, Yugao: "ARE YOU GOING SOMEWHERE?"
+   get one, and is visibly not put out by it. **B2** upper left, Yugao: "ARE YOU GOING SOMEWHERE?"
    Tail points to visible Yugao's mouth.
-3. **Middle right, x=68–100 y=30–56; close-up.** Cast/blocking: Naruto facing left. **B2** upper right,
+3. **Middle right, x=68–100 y=30–56; close-up.** Cast/blocking: Naruto facing left. **B3** upper right,
    Naruto: "YES." Tail points to visible Naruto's mouth.
 4. **Middle centre, x=34–65 y=30–56; medium.** Cast/blocking: Yugao nods once and accepts that as a
-   complete answer, because it is one. No text.
+   complete answer, because it is one. **B4** upper centre, Yugao: "THEN I WILL NOT KEEP YOU." Tail
+   points to visible Yugao's mouth.
 5. **Middle left, x=0–31 y=30–56; medium.** Cast/blocking: she steps in over the threshold toward him.
    No text.
 6. **Bottom band focal panel, x=0–100 y=60–100; wide.** Cast/blocking: Yugao puts both arms around him
@@ -546,17 +583,18 @@ the quietest page in the chapter and it must stay that way.
 **Purpose:** Land the volume's cruellest small beat — she thanks him for something Zetsu did, and he
 does not correct her — without a single line of commentary.
 
-1. **Top right, x=62–100 y=0–26; close-up.** Cast/blocking: her mouth beside his ear, both in profile.
-   **B1** upper right, Yugao, small whisper-shaped balloon: "I HEARD WHAT HAPPENED TO DANZOU." Tail
-   points to visible Yugao's mouth.
+1. **Top right, x=62–100 y=0–26; close-up.** Cast/blocking: her mouth beside his ear, both in
+   profile. **B1** upper right, Yugao, small whisper-shaped balloon: "I HEARD WHAT HAPPENED TO
+   DANZOU." Tail points to visible Yugao's mouth. **B2** lower right, Yugao, small whisper-shaped
+   balloon: "THE WHOLE OF HQ IS TALKING ABOUT IT." Tail points to the same visible Yugao's mouth.
 2. **Top left, x=0–58 y=0–26; close-up.** Cast/blocking: Naruto's face over her shoulder, eyes open,
-   looking at the passage wall past her; no reaction whatsoever. **B2** upper left, Yugao, small
+   looking at the passage wall past her; no reaction whatsoever. **B3** upper left, Yugao, small
    whisper-shaped balloon: "IT WAS A LITTLE EXTREME." `OFF` — Yugao's mouth is behind his shoulder and
    not in frame; tail exits the right edge toward Yugao.
 3. **Middle band, x=0–100 y=30–62; wide.** Cast/blocking: the two of them held in the doorway from the
    side — her arms around the armour, her face turned into his neck, his hands still at his sides and
-   the doorway's light behind them. **B3** upper right, Yugao, small whisper-shaped balloon: "I AM
-   STILL GRATEFUL FOR THE SAVE." Tail points to visible Yugao's mouth. **B4** lower right, Yugao,
+   the doorway's light behind them. **B4** upper right, Yugao, small whisper-shaped balloon: "I AM
+   STILL GRATEFUL FOR THE SAVE." Tail points to visible Yugao's mouth. **B5** lower right, Yugao,
    small whisper-shaped balloon: "THANK YOU." Tail points to the same visible mouth.
 4. **Bottom right, x=55–100 y=66–100; tight close-up.** Cast/blocking: Naruto's eyes, ordinary
    three-tomoe Sharingan. Nothing in them moves. **He does not correct her and the panel gives him no
@@ -577,11 +615,13 @@ technique taking him out of a conversation he did not finish.
 3. **Top left, x=0–31 y=0–24; close-up.** Cast/blocking: Naruto's face as the bang falls back into
    place. **No physical reaction at all** — not a flinch, not a shift of the eyes, not a change in the
    mouth. No text.
-4. **Middle band focal panel, x=0–100 y=28–56; wide.** Cast/blocking: she has stepped back out into the
-   passage at frame left, hands at her sides; Naruto stands in the doorway at frame right. **B1** upper
-   left, Yugao: "I WILL SEE YOU TONIGHT." Tail points to visible Yugao's mouth.
+4. **Middle band focal panel, x=0–100 y=28–56; wide.** Cast/blocking: she has stepped back out into
+   the passage at frame left, hands at her sides; Naruto stands in the doorway at frame right.
+   **B1** upper left, Yugao: "I WILL SEE YOU TONIGHT." Tail points to visible Yugao's mouth. **B2**
+   lower left, Yugao: "I AM COOKING. DO NOT BE LATE." Tail points to the same visible Yugao's
+   mouth.
 5. **Bottom right, x=68–100 y=60–100; close-up.** Cast/blocking: Naruto facing left; this is the only
-   thing in the entire chapter that gets a reaction out of him, and the reaction is one word. **B2**
+   thing in the entire chapter that gets a reaction out of him, and the reaction is one word. **B3**
    upper right, Naruto: "TONIGHT?" Tail points to visible Naruto's mouth.
 6. **Bottom centre, x=34–65 y=60–100; medium.** Cast/blocking: Yugao walking away down the passage
    toward frame left with her back to the reader; she does not answer and does not turn round, and the
@@ -598,37 +638,43 @@ asleep.
 
 ## Dialogue QA
 
-- **87 balloons, one chapter marker and four location/time cards across 16 pages.** The marker is
+- **114 balloons, one chapter marker and four location/time cards across 16 pages.** The marker is
   exactly "CHAPTER 6 — TEN CLOAKS". The four cards are exactly "UCHIHA COMPOUND" (p1), "THE UCHIHA
   TRAINING GROUND" (p3), "SOMEWHERE ELSE" (p7) and "UCHIHA COMPOUND — LATER THAT MORNING" (p11).
   Balloon numbering restarts and stays contiguous on every page.
-- Per-page balloon counts, summing to 87: p1 5, p2 6, p3 6, p4 9, p5 9, p6 12, p7 4, p8 7, p9 8,
-  p10 2, p11 6, p12 4, p13 **1**, p14 2, p15 4, p16 2.
+- Per-page balloon counts, summing to 114: p1 8, p2 8, p3 8, p4 10, p5 10, p6 12, p7 7, p8 9, p9 9,
+  p10 4, p11 8, p12 6, p13 3, p14 4, p15 5, p16 3. No panel carries more than four.
 - Per-page panel counts, summing to 94: p1 6, p2 6, p3 6, p4 6, p5 6, p6 7, p7 5, p8 6, p9 6, p10 5,
   p11 6, p12 6, p13 5, p14 6, p15 5, p16 7.
-- **The density curve is the chapter's structure.** Pages 3–6 are the talkiest run in the volume so
-  far — thirty-six balloons across four pages, and Karin carries eighteen of them, because she is the
-  only person who argues with him about anything. The assembly then drops to twenty-one across four
-  pages, mostly single
-  declarative orders. And the last four pages carry **nine balloons in twenty-three panels**, of which
-  four are whispers and one is a single word; page 13 has one balloon and page 16's kiss panel has
-  none at all.
+- **The density curve is still the chapter's structure, at a higher floor.** Pages 3–6 are the
+  talkiest run — forty balloons across four pages, and Karin carries twenty-one of them, because she
+  is the only person who argues with him about anything. The assembly runs twenty-nine across four
+  pages, mostly declarative orders with the two new voices (Deidara, Hidan) pushing back and being
+  ignored. And the last four pages still carry only **fifteen balloons in twenty-three panels**, of
+  which five are whispers and one is a single word. **Every added line in those four pages is
+  Yugao's**; Naruto still says exactly "YES." and "TONIGHT?" and nothing else across them, and
+  page 16's kiss panel still has no balloon and no SFX.
 - Preserved from `SOURCE_TRUTH.md`'s verbatim list: Tobi's "AND WATCH OUT FOR UCHIHA NARUTO. HE IS
-  NOT JUST YOUR NORMAL SHINOBI." (p9 B7) and "WHEN THE TIME COMES, YOU SHOULD BE THE ONE TO COLLECT
-  THE KYUUBI." (p10 B2).
+  NOT JUST YOUR NORMAL SHINOBI." (p9 B8) and "WHEN THE TIME COMES, YOU SHOULD BE THE ONE TO COLLECT
+  THE KYUUBI." (p10 B4).
 - **The Leader is not given an answer to Tobi's last line and must never be given one.** p10 panel 4
   is a close-up of his eyes with no balloon; the source's beat is that he narrows them and says
   nothing.
-- Itachi has **no balloon in this chapter.** Kisame speaks to him and he does not respond; that
-  silence is source-locked. Konan and Kabuto also have no balloons.
+- Itachi has **no balloon in this chapter.** Kisame speaks to him twice — the second time asking
+  outright whether Tobi is a relative — and he does not respond either time; that silence is
+  source-locked and the second question makes it louder. Konan and Kabuto also have no balloons.
 - Karin's four functions are distinct: she thanks the wrong man, she asks to be made a weapon, she
   argues a philosophy and loses, and she asks the one question he will not answer — and he leaves
   before she finishes it, which is the source's exact ending for the scene.
-- Sasuke's five balloons are all professional. He never thanks Naruto, never asks what really
-  happened in the base, and never refers to the deaths.
-- **Yugao gets six balloons and every one of them changes the scene.** Three of them are whispers, one
-  is an observation about clothing, one is an appointment, and none of them is a question he can
+- Sasuke's eight balloons are all professional. He never thanks Naruto, never asks what really
+  happened in the base, and never refers to the deaths — his one unprompted remark is about the
+  floorboards.
+- **Yugao gets twelve balloons and every one of them changes the scene.** Four are whispers, two are
+  observations about clothing, one is a call through a closed door, one is the appointment, and one —
+  "I AM COOKING. DO NOT BE LATE." — is the line Chapter 9 opens on. None of them is a question he can
   refuse. He answers her with "YES." and "TONIGHT?" and nothing else in twenty-three panels.
+- Karin's twenty-one balloons include one thought balloon, on page 3 panel 1, which is the only
+  interiority anyone but Naruto is given in this chapter.
 - Nothing here tells any character about the medicine, the poison, the Edo Tensei, Kurama, Minato's
   soul, the contents of the coffin, or the Akatsuki leader's identity. Karin learns about Guren, Oto
   and the Crystal Palace and nothing else. **Yugao learns nothing at all** — she does the talking.

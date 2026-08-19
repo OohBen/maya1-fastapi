@@ -4,7 +4,7 @@
 with Zetsu sinking into the ground and Naruto leaving for the Root base. The Root base itself
 (ch17:637 onward) belongs to Chapter 4 and no part of it appears here.
 
-**Length:** 16 pages, eight spreads, 106 panels, 90 balloons plus one chapter marker and four
+**Length:** 16 pages, eight spreads, 106 panels, 119 balloons plus one chapter marker and four
 location/time cards.
 
 **Status:** final dialogue and executable textual `name`; ready for independent source and
@@ -105,11 +105,13 @@ all the emotional work without a line of dialogue.
    "CHAPTER 3 — HIS THINGS". Tail-less chapter marker. **CAP1** upper right, tail-less time card,
    small box: "THE FOLLOWING DAY".
 2. **Middle right, x=68–100 y=34–58; medium.** Cast/blocking: Naruto stands at the gate at frame
-   right facing left toward the door; Karin stands half a step behind him at frame left, arms folded,
-   looking up at the house. His eyes are red three-tomoe Sharingan. No text.
+   right facing left toward the door; Karin stands half a step behind him at frame left, arms
+   folded, looking up at the house. His eyes are red three-tomoe Sharingan. **B1** upper left,
+   Karin: "IS THIS REALLY HIS HOUSE?" Tail points to visible Karin's mouth. She gets no answer.
 3. **Middle centre, x=34–65 y=34–58; insert close-up.** Cast/blocking: no faces, so eye-line is not
    applicable; Naruto's right thumb at his mouth, the skin just broken, a single bead of blood
-   forming. No text.
+   forming. **B2** upper right, Karin: "WHAT ARE YOU DOING?" `OFF` — no face is in frame; tail
+   exits the left edge toward Karin.
 4. **Middle left, x=0–31 y=34–58; insert close-up.** Cast/blocking: no faces; the bloodied thumb is
    pressed flat against a small seal plate set into the doorframe. Every mark on the plate is
    ILLEGIBLE SCRIBBLE, not readable words. No text.
@@ -119,6 +121,8 @@ all the emotional work without a line of dialogue.
 6. **Bottom centre, x=34–65 y=62–100; medium.** Cast/blocking: the door swings inward away from the
    reader; a slab of grey dust rolls out over the threshold into the daylight; Karin's raised hand
    enters at the left edge, covering her nose. **SFX** low at the threshold: "GWOO". No balloon.
+   **B3** upper right, Karin: "*KOFF* — A WARNING WOULD HAVE BEEN NICE." `OFF` — only her raised
+   hand is in frame; tail exits the left edge toward Karin.
 7. **Bottom left focal panel, x=0–31 y=62–100; wide interior, from the doorway.** Cast/blocking: no
    figures; the room beyond is completely undisturbed — every chair pushed in, every object in its
    place — and every surface carries a finger's depth of dust, with heavy webs strung corner to
@@ -166,23 +170,26 @@ each one as a fact until the answers stop being about the house.
 
 1. **Top right, x=62–100 y=0–29; medium.** Cast/blocking: Naruto lets the dust sheet fall and keeps
    walking left, deeper into the house. **B1** upper right, Naruto: "SOMEONE SHOULD FIND USE FOR
-   THEM." Tail points to visible Naruto's mouth.
+   THEM." Tail points to visible Naruto's mouth. **B2** upper left, Karin: "USE FOR WHAT?" `OFF`,
+   tail exits the left edge toward Karin.
 2. **Top left focal panel, x=0–58 y=0–29; tight close-up.** Cast/blocking: Naruto's face fills the
    frame in three-quarter view facing left; the red three-tomoe Sharingan is entirely level and
-   entirely uninterested. **B2** upper left, Naruto: "IN THIS CASE, I WILL." Tail points to visible
+   entirely uninterested. **B3** upper left, Naruto: "IN THIS CASE, I WILL." Tail points to visible
    Naruto's mouth.
 3. **Middle right, x=51–100 y=33–61; medium from behind Naruto.** Cast/blocking: Naruto's back fills
    the right of the frame moving left; Karin is small behind him at the left, one hand cupped beside
-   her mouth. **B3** upper left, Karin, small balloon: "FATHER ISSUES." Tail points to visible Karin's
+   her mouth. **B4** upper left, Karin, small balloon: "FATHER ISSUES." Tail points to visible Karin's
    mouth.
 4. **Middle left, x=0–47 y=33–61; medium.** Cast/blocking: Naruto continues left without breaking
-   stride and without turning his head one degree. No text.
+   stride and without turning his head one degree. **B5** upper right, Karin: "...I SAID THAT OUT
+   LOUD, DIDN'T I." `OFF`, tail exits the left edge toward Karin.
 5. **Bottom right, x=51–100 y=65–100; medium.** Cast/blocking: a spider drops on a thread from the
    web overhead onto Karin's right shoulder; she is caught mid-step, spine arching. **SFX** small, at
-   the thread: "TMP". **B4** upper right, Karin: "EEP—!" Tail points to visible Karin's mouth.
-6. **Bottom left, x=0–47 y=65–100; medium.** Cast/blocking: Naruto has turned back at frame left and
-   looks right at her with a completely flat expression; he has not moved toward her. **B5** upper
-   left, Naruto: "YOU ARE AFRAID OF SPIDERS." Tail points to visible Naruto's mouth.
+   the thread: "TMP". **B6** upper right, Karin: "EEP—!" Tail points to visible Karin's mouth.
+6. **Bottom left, x=0–47 y=65–100; medium.** Cast/blocking: Naruto has turned back at frame left
+   and looks right at her with a completely flat expression; he has not moved toward her. **B7**
+   upper left, Naruto: "YOU ARE AFRAID OF SPIDERS." Tail points to visible Naruto's mouth. **B8**
+   upper right, Karin: "GET IT OFF. GET IT OFF!" `OFF`, tail exits the right edge toward Karin.
 
 #### Page 4 — 6 panels
 
@@ -196,16 +203,19 @@ away — then find the door.
    left again; only his profile is visible at the left edge. **B2** upper left, Naruto: "YOU LIVED IN
    OROCHIMARU'S HIDEOUTS." Tail points to visible Naruto's profile mouth.
 3. **Middle right, x=51–100 y=33–60; close-up.** Cast/blocking: Naruto's profile, facing left,
-   walking. **B3** upper right, Naruto: "HE WAS A SNAKE. LITERALLY." Tail points to visible Naruto's
-   mouth.
+   walking. **B3** upper right, Naruto: "HE WAS A SNAKE. LITERALLY." Tail points to visible
+   Naruto's mouth. **B4** lower right, Naruto: "AND YOU SLEPT IN HIS CORRIDORS FOR YEARS." Tail
+   points to the same visible Naruto's mouth.
 4. **Middle left, x=0–47 y=33–60; medium.** Cast/blocking: Karin, still brushing at her own sleeve,
-   glares after him at the frame's right edge; she gets the spider off entirely by herself. No text.
+   glares after him at the frame's right edge; she gets the spider off entirely by herself. **B5**
+   upper left, Karin: "SNAKES DO NOT DROP ON YOU FROM THE CEILING." Tail points to visible Karin's
+   mouth.
 5. **Bottom right, x=51–100 y=64–100; medium.** Cast/blocking: Karin hurries left to catch up; Naruto
-   has stopped at a closed interior door at the left edge with his hand on it. **B4** upper right,
+   has stopped at a closed interior door at the left edge with his hand on it. **B6** upper right,
    Karin: "WHAT ARE YOU LOOKING FOR?" Tail points to visible Karin's mouth.
 6. **Bottom left, x=0–47 y=64–100; close-up.** Cast/blocking: Naruto's hand and jaw at the door,
-   facing left. **B5** upper left, Naruto: "THE LIBRARY." Tail points to visible Naruto's mouth.
-   **B6** lower left, Naruto: "FOUND IT." Tail points to the same visible mouth.
+   facing left. **B7** upper left, Naruto: "THE LIBRARY." Tail points to visible Naruto's mouth.
+   **B8** lower left, Naruto: "FOUND IT." Tail points to the same visible mouth.
 
 **Page turn:** The one room in the house nobody has been in for seventeen years.
 
@@ -232,19 +242,22 @@ task, and start the search where the search actually starts.
    right, facing left into the room, arms lowering. **B1** upper right, Karin: "THERE IS NOT A SINGLE
    WEB IN HERE." Tail points to visible Karin's mouth.
 4. **Middle centre, x=34–65 y=31–56; close-up.** Cast/blocking: Naruto's eyes track left along a
-   shelf; the Sharingan is reading, not looking. No text.
+   shelf; the Sharingan is reading, not looking. **B2** upper centre, tail-less thought balloon:
+   "THE SEALS HELD IN HERE AND NOWHERE ELSE."
 5. **Middle left, x=0–31 y=31–56; medium.** Cast/blocking: Karin steps in at frame left facing right,
-   head tipped back at the height of the shelves. **B2** upper left, Karin: "THAT IS A LOT OF
+   head tipped back at the height of the shelves. **B3** upper left, Karin: "THAT IS A LOT OF
    SCROLLS. DO YOU THINK HE READ THEM ALL?" Tail points to visible Karin's mouth.
 6. **Bottom right, x=51–100 y=60–100; medium.** Cast/blocking: Naruto at frame right facing left,
-   already pulling a slim book off a shelf without looking at it. **B3** upper right, Naruto: "I
+   already pulling a slim book off a shelf without looking at it. **B4** upper right, Naruto: "I
    DOUBT IT." Tail points to visible Naruto's mouth. **SFX** small, at his hand: "FWP" as he throws
-   the book backward over his shoulder toward frame left.
-7. **Bottom left, x=0–47 y=60–100; medium.** Cast/blocking: Karin catches the book against her chest
-   at frame left, facing right; she looks down at a cover rendered as ILLEGIBLE SCRIBBLE. **B4** upper
-   left, Karin, reading aloud: "'FUINJUTSU FOR BEGINNERS.'" Tail points to visible Karin's mouth.
-   **B5** lower right, Naruto: "CLEAN THE KITCHEN. THERE SHOULD BE WATER. THEN READ IT." `OFF`, tail
-   exits the right edge toward Naruto.
+   the book backward over his shoulder toward frame left. **B5** lower right, Karin: "THAT IS A
+   HARSH THING TO SAY ABOUT A DEAD MAN." `OFF`, tail exits the left edge toward Karin.
+7. **Bottom left, x=0–47 y=60–100; medium.** Cast/blocking: Karin catches the book against her
+   chest at frame left, facing right; she looks down at a cover rendered as ILLEGIBLE SCRIBBLE.
+   **B6** upper left, Karin, reading aloud: "'FUINJUTSU FOR BEGINNERS.'" Tail points to visible
+   Karin's mouth. **B7** lower right, Naruto: "CLEAN THE KITCHEN. THERE SHOULD BE WATER. THEN READ
+   IT." `OFF`, tail exits the right edge toward Naruto. **B8** lower left, Karin: "AND WHAT WILL
+   YOU BE DOING?" Tail points to the same visible Karin's mouth.
 
 #### Page 6 — 7 panels
 
@@ -253,7 +266,8 @@ before the reason — and state the reason as a limitation, not an ambition.
 
 1. **Top right, x=62–100 y=0–26; medium.** Cast/blocking: Karin leaves left through the doorway,
    stepping wide around a web hanging in the far frame; her shoulders are up. **B1** upper right,
-   Karin, small balloon: "...FINE." Tail points to visible Karin's mouth.
+   Karin, small balloon: "...FINE." Tail points to visible Karin's mouth. **B2** lower right,
+   Naruto: "AND SHUT THE DOOR." `OFF`, tail exits the right edge toward Naruto.
 2. **Top left, x=0–58 y=0–26; high angle down into an open drawer.** Cast/blocking: no faces, so
    eye-line is not applicable; the desk drawer is open and holds a dry inkstone, a bundle of folded
    papers whose every mark is ILLEGIBLE SCRIBBLE, and, lying across them, a **three-pronged kunai**.
@@ -265,14 +279,14 @@ before the reason — and state the reason as a limitation, not an ambition.
    the handle wrap rendered as ILLEGIBLE SCRIBBLE; behind and below it, Naruto's red three-tomoe
    Sharingan is looking straight up the blade. **SFX** small, at his thumb: "SHNK". No balloon.
 5. **Middle left, x=0–31 y=30–56; tight close-up on the eye.** Cast/blocking: the Sharingan alone,
-   the kunai's silhouette reflected across the iris. **B2** upper left, tail-less thought balloon:
+   the kunai's silhouette reflected across the iris. **B3** upper left, tail-less thought balloon:
    "THE FLYING THUNDER GOD."
 6. **Bottom right, x=51–100 y=60–100; medium.** Cast/blocking: Naruto sits back against the desk edge
-   at frame right, turning the kunai over in his fingers, facing left. **B3** upper right, tail-less
+   at frame right, turning the kunai over in his fingers, facing left. **B4** upper right, tail-less
    thought balloon: "ZETSU WALKS THROUGH THE GROUND. OBITO TEARS A HOLE IN THE AIR."
 7. **Bottom left, x=0–47 y=60–100; close-up.** Cast/blocking: Naruto's face in three-quarter view
-   facing left; nothing in it is excited. **B4** upper left, tail-less thought balloon: "I WALK. THAT
-   WILL NOT CONTINUE."
+   facing left; nothing in it is excited. **B5** upper left, tail-less thought balloon: "I WALK.
+   THAT WILL NOT CONTINUE." **B6** lower left, tail-less thought balloon: "I WILL HAVE IT."
 
 **Page turn:** Four hours of shelves.
 
@@ -290,26 +304,28 @@ admission he will never say out loud.
 1. **Top right, x=68–100 y=0–30; medium, fixed camera A.** Cast/blocking: Naruto stands at the shelves
    at frame centre, facing left, one scroll open in his hands; morning light enters steeply from the
    right through the opened shutter; the desk at the left edge is bare. No text.
-2. **Top centre, x=34–65 y=0–30; identical camera A.** Cast/blocking: identical staging, Naruto at a
-   different shelf height; the light is now flat and overhead; a stack of eight or nine selected
-   scrolls has appeared on the desk. No text.
-3. **Top left, x=0–31 y=0–30; identical camera A.** Cast/blocking: identical staging again; the light
-   is low and orange from the left; the stack on the desk has doubled. No text.
+2. **Top centre, x=34–65 y=0–30; identical camera A.** Cast/blocking: identical staging, Naruto at
+   a different shelf height; the light is now flat and overhead; a stack of eight or nine selected
+   scrolls has appeared on the desk. **B1** upper centre, tail-less thought balloon: "SHELF AFTER
+   SHELF OF A DEAD MAN'S HOMEWORK."
+3. **Top left, x=0–31 y=0–30; identical camera A.** Cast/blocking: identical staging again; the
+   light is low and orange from the left; the stack on the desk has doubled. **B2** upper left,
+   tail-less thought balloon: "FOUR HOURS."
 4. **Middle band, x=0–100 y=34–62; wide, over the desk.** Cast/blocking: Naruto's hands unfold a
    large sheet across the desktop; the sheet carries a dense concentric seal lattice rendered
    entirely as ILLEGIBLE SCRIBBLE; his face is at the upper right of the frame, lit from below by
-   nothing, expression unchanged. **B1** upper right, tail-less thought balloon: "THE HIRAISHIN. THE
+   nothing, expression unchanged. **B3** upper right, tail-less thought balloon: "THE HIRAISHIN. THE
    FORMULA AND EVERY NOTE HE MADE ON IT."
 5. **Bottom right, x=68–100 y=66–100; insert close-up.** Cast/blocking: no faces; a second, thinner
    bundle beneath the first, its top page carrying a hand-drawn sphere of rotating lines — ILLEGIBLE
-   SCRIBBLE for all written annotation. **B2** upper right, tail-less thought balloon: "AND THIS."
+   SCRIBBLE for all written annotation. **B4** upper right, tail-less thought balloon: "AND THIS."
 6. **Bottom centre, x=34–65 y=66–100; close-up.** Cast/blocking: Naruto's face, facing left; the
-   smallest possible smile has arrived at one corner of his mouth. **B3** upper centre, tail-less
+   smallest possible smile has arrived at one corner of his mouth. **B5** upper centre, tail-less
    thought balloon: "THE RASENGAN. HE NEVER FINISHED IT."
 7. **Bottom left, x=0–31 y=66–100; close-up.** Cast/blocking: the same face, the smile already gone;
    his eyes have gone up to the seal work carved into the library's own doorframe, visible as an
-   ILLEGIBLE SCRIBBLE band at the frame's top edge. **B4** upper left, tail-less thought balloon:
-   "THE SEALS ON THIS HOUSE ARE THE WORK OF A GENIUS." **B5** lower left, tail-less thought balloon:
+   ILLEGIBLE SCRIBBLE band at the frame's top edge. **B6** upper left, tail-less thought balloon:
+   "THE SEALS ON THIS HOUSE ARE THE WORK OF A GENIUS." **B7** lower left, tail-less thought balloon:
    "I WILL NOT SAY IT WHERE ANYONE CAN HEAR IT."
 
 #### Page 8 — 6 panels
@@ -317,14 +333,16 @@ admission he will never say out loud.
 **Purpose:** Convert the take into labour in six panels, and make the clone field the biggest image
 in the chapter's first half.
 
-1. **Top right, x=62–100 y=0–27; medium.** Cast/blocking: Naruto rolls the two sets of notes together
-   and pushes them inside the front of his shirt; the three-pronged kunai goes into his hip pouch. No
-   text.
+1. **Top right, x=62–100 y=0–27; medium.** Cast/blocking: Naruto rolls the two sets of notes
+   together and pushes them inside the front of his shirt; the three-pronged kunai goes into his
+   hip pouch. **B1** upper right, tail-less thought balloon: "SEVENTEEN YEARS, AND NOBODY CAME FOR
+   THEM." **B2** lower right, tail-less thought balloon: "MINE NOW."
 2. **Top left, x=0–58 y=0–27; medium.** Cast/blocking: the back door of the house opens outward at
    frame right and Naruto steps down into a rear training ground — waist-high dead grass, a leaning
-   fence, one bare tree at the left edge. No text.
+   fence, one bare tree at the left edge. **B3** upper left, tail-less thought balloon: "TWO
+   HUNDRED SHOULD BE ENOUGH."
 3. **Middle right, x=55–100 y=31–56; medium.** Cast/blocking: Naruto stands at frame centre facing
-   left, hands brought together in the cross seal at chest height. **B1** upper right, Naruto: "TAJŪ
+   left, hands brought together in the cross seal at chest height. **B4** upper right, Naruto: "TAJŪ
    KAGE BUNSHIN NO JUTSU." Tail points to visible Naruto's mouth.
 4. **Middle left, x=0–51 y=31–56; medium.** Cast/blocking: the air around him whitens and folds
    outward from his own body; the first shoulders and heads are already resolving. **SFX** large,
@@ -383,26 +401,27 @@ house on the promise she does not want.
 
 1. **Top right, x=62–100 y=0–28; close-up.** Cast/blocking: Naruto faces left. **B1** upper right,
    Naruto: "I WANT TO SEE HOW YOU FIGHT." Tail points to visible Naruto's mouth.
-2. **Top left, x=0–58 y=0–28; medium action.** Cast/blocking: Karin runs at Naruto from frame left to
-   frame right, right arm cocked wide and flat, elbow high, feet crossing — a civilian's swing with
-   no stance in it. Motion lines follow her from the left edge. No text.
+2. **Top left, x=0–58 y=0–28; medium action.** Cast/blocking: Karin runs at Naruto from frame left
+   to frame right, right arm cocked wide and flat, elbow high, feet crossing — a civilian's swing
+   with no stance in it. Motion lines follow her from the left edge. **B2** upper left, Karin:
+   "FINE!" Tail points to visible Karin's mouth.
 3. **Middle right focal panel, x=51–100 y=32–60; medium.** Cast/blocking: Naruto has not moved his
    feet at all; Karin's fist is stopped flat against his raised left palm at frame centre, her whole
    body still travelling; his right hand is still at his side and his expression has not changed.
    **SFX** at the contact point: "PAF". No balloon.
 4. **Middle left, x=0–47 y=32–60; close-up.** Cast/blocking: Naruto faces left, eyes down at the
-   caught fist. **B2** upper left, Naruto: "PATHETIC." Tail points to visible Naruto's mouth.
+   caught fist. **B3** upper left, Naruto: "PATHETIC." Tail points to visible Naruto's mouth.
 5. **Bottom right, x=51–100 y=64–100; medium two-shot.** Cast/blocking: Karin snatches her hand back
-   at frame left, face red, facing right; Naruto at frame right lowers his palm. **B3** upper right,
+   at frame left, face red, facing right; Naruto at frame right lowers his palm. **B4** upper right,
    Karin: "I HAVE NEVER BEEN TRAINED! AND YOUR SHARINGAN IS ON!" Tail points to visible Karin's
-   mouth. **B4** lower left, Naruto: "IT WOULD CHANGE NOTHING IF IT WERE OFF." Tail points to visible
-   Naruto's mouth. **B5** lower right, Naruto: "DO NOT WORRY. I WILL SHAPE YOU INTO A FIGHTER." Tail
+   mouth. **B5** lower left, Naruto: "IT WOULD CHANGE NOTHING IF IT WERE OFF." Tail points to visible
+   Naruto's mouth. **B6** lower right, Naruto: "DO NOT WORRY. I WILL SHAPE YOU INTO A FIGHTER." Tail
    points to the same visible mouth.
 6. **Bottom left, x=0–47 y=64–100; wide exterior.** Cast/blocking: seen from the street, the lattice
    of fine light knits shut over the house at frame right; Naruto and Karin walk away from it toward
    frame left; without turning his head, Naruto drops a small purse back over his shoulder into
-   Karin's cupped hands, and she is beaming. **SFX** small, at the house: "SHRRK". **B6** upper left,
-   Karin, small balloon: "THAT IS WHAT I AM AFRAID OF." Tail points to visible Karin's mouth. **B7**
+   Karin's cupped hands, and she is beaming. **SFX** small, at the house: "SHRRK". **B7** upper left,
+   Karin, small balloon: "THAT IS WHAT I AM AFRAID OF." Tail points to visible Karin's mouth. **B8**
    lower left, Naruto: "COME. YOU HAVE NEVER SEEN THE COMPOUND." Tail points to visible Naruto's
    mouth.
 
@@ -429,15 +448,19 @@ before his reasoning starts.
    behind a wide desk at frame centre, facing right toward the door; the hard look on his face is
    about the door, not the news yet. **B2** upper centre, Ōnoki: "WHAT IS IT?" Tail points to visible
    Ōnoki's mouth.
-4. **Middle left, x=0–31 y=31–58; close-up.** Cast/blocking: the chunin faces right, head down, eyes
-   on the floor. **B3** upper left, chunin: "YAKUSHI KABUTO IS GONE." Tail points to visible chunin's
-   mouth.
+4. **Middle left, x=0–31 y=31–58; close-up.** Cast/blocking: the chunin faces right, head down,
+   eyes on the floor. **B3** upper left, chunin: "YAKUSHI KABUTO IS GONE." Tail points to visible
+   chunin's mouth. **B4** lower left, chunin: "HE WAS IN A SEALED CELL. THE SEALS ARE INTACT." Tail
+   points to the same visible chunin's mouth.
 5. **Bottom right, x=68–100 y=62–100; medium, low angle.** Cast/blocking: Ōnoki has come up out of
-   the chair and hangs a hand's width above it, facing left, both fists on the desktop. **B4** upper
-   right, Ōnoki: "WHAT?!" Tail points to visible Ōnoki's mouth.
-6. **Bottom centre, x=34–65 y=62–100; close-up.** Cast/blocking: the chunin faces right. **B5** upper
-   centre, chunin: "SOMETHING LIKE A VORTEX OPENED IN THE ROOM. IT PULLED HIM IN BEFORE WE COULD
-   MOVE." Tail points to visible chunin's mouth.
+   the chair and hangs a hand's width above it, facing left, both fists on the desktop. **B5**
+   upper right, Ōnoki: "WHAT?!" Tail points to visible Ōnoki's mouth. **B6** lower right, Ōnoki:
+   "HE HAS NOT BEEN CONSCIOUS FOR WEEKS. HE DID NOT WALK OUT." Tail points to the same visible
+   Ōnoki's mouth.
+6. **Bottom centre, x=34–65 y=62–100; close-up.** Cast/blocking: the chunin faces right. **B7**
+   upper centre, chunin: "SOMETHING LIKE A VORTEX OPENED IN THE ROOM. IT PULLED HIM IN BEFORE WE
+   COULD MOVE." Tail points to visible chunin's mouth. **B8** lower centre, Ōnoki: "A VORTEX."
+   `OFF`, tail exits the right edge toward Ōnoki.
 7. **Bottom left focal panel, x=0–31 y=62–100; memory inset with a torn ragged border.**
    Cast/blocking: a bare holding cell; the **Kamui vortex** open in the air at frame left — the air
    and the light drawn in a tightening spiral toward a single point — taking Kabuto's unconscious
@@ -507,18 +530,20 @@ ANBU's three attempts.
    "YOU HAVE BEEN BUSY." Tail points to visible Sasuke's mouth.
 4. **Middle left, x=0–31 y=31–56; close-up.** Cast/blocking: Naruto's face over the scroll, facing
    left; his brush does not stop and his eyes do not lift. **B2** upper left, Naruto: "IF YOU WANT
-   SOMETHING DONE, DO IT YOURSELF." Tail points to visible Naruto's mouth.
+   SOMETHING DONE, DO IT YOURSELF." Tail points to visible Naruto's mouth. **B3** lower left,
+   Sasuke: "TWO HUNDRED OF YOU IS NOT 'YOURSELF'." `OFF`, tail exits the right edge toward Sasuke.
 5. **Bottom right, x=68–100 y=60–100; medium.** Cast/blocking: Sasuke sits down on a root at frame
-   right facing left, watching the field rather than Naruto. **B3** upper right, Sasuke: "DO YOU EVER
-   GET ENOUGH OF IT?" Tail points to visible Sasuke's mouth.
+   right facing left, watching the field rather than Naruto. **B4** upper right, Sasuke: "DO YOU
+   EVER GET ENOUGH OF IT?" Tail points to visible Sasuke's mouth. **B5** lower right, Naruto: "NO."
+   `OFF`, tail exits the left edge toward Naruto.
 6. **Bottom centre, x=34–65 y=60–100; medium.** Cast/blocking: an ANBU drops into frame at the left
    edge of the tree's shade and goes to one knee facing right; Naruto is at the right, brush still
-   moving. **B4** upper centre, ANBU: "UCHIHA-SAMA. THE HOKAGE WISHES TO SPEAK WITH YOU." Tail points
-   to visible ANBU's mouth. **B5** lower right, Naruto: "TELL HER I AM BUSY." Tail points to visible
+   moving. **B6** upper centre, ANBU: "UCHIHA-SAMA. THE HOKAGE WISHES TO SPEAK WITH YOU." Tail points
+   to visible ANBU's mouth. **B7** lower right, Naruto: "TELL HER I AM BUSY." Tail points to visible
    Naruto's mouth.
 7. **Bottom left, x=0–31 y=60–100; identical framing to panel 6, the sun higher.** Cast/blocking: the
    same ANBU is kneeling in the same place again; Naruto has not moved and his brush has not stopped.
-   **B6** upper left, ANBU: "SHE SAYS SHE DOES NOT CARE WHETHER YOU ARE BUSY." Tail points to visible
+   **B8** upper left, ANBU: "SHE SAYS SHE DOES NOT CARE WHETHER YOU ARE BUSY." Tail points to visible
    ANBU's mouth.
 
 #### Page 14 — 7 panels
@@ -527,18 +552,21 @@ ANBU's three attempts.
 give the black-flame Shunshin a clean first appearance with an explicit origin.
 
 1. **Top right, x=62–100 y=0–26; close-up.** Cast/blocking: Naruto faces left; he gives the ANBU a
-   completely blank stare, says nothing at all, and returns his eyes to the scroll. No text.
-2. **Top left, x=0–58 y=0–26; identical framing to page 13 panel 6, third visit.** Cast/blocking: the
-   ANBU is kneeling again and this time his head is up. **B1** upper left, ANBU: "SHE SAYS THERE WILL
-   BE CONSEQUENCES IF YOU DO NOT COME." Tail points to visible ANBU's mouth.
+   completely blank stare, says nothing at all, and returns his eyes to the scroll. **B1** upper
+   right, ANBU: "...UCHIHA-SAMA?" `OFF`, tail exits the left edge toward the kneeling ANBU.
+2. **Top left, x=0–58 y=0–26; identical framing to page 13 panel 6, third visit.** Cast/blocking:
+   the ANBU is kneeling again and this time his head is up. **B2** upper left, ANBU: "SHE SAYS
+   THERE WILL BE CONSEQUENCES IF YOU DO NOT COME." Tail points to visible ANBU's mouth. **B3**
+   lower left, ANBU: "HER WORDS, NOT MINE." Tail points to the same visible ANBU's mouth.
 3. **Middle right, x=68–100 y=30–58; medium.** Cast/blocking: Naruto sets the brush down flat across
-   the inkstone and raises his eyes; nothing about his face is angry. **B2** upper right, Naruto: "I
+   the inkstone and raises his eyes; nothing about his face is angry. **B4** upper right, Naruto: "I
    CANNOT GET PERFECT RESULTS WITH YOU STANDING THERE." Tail points to visible Naruto's mouth.
 4. **Middle centre, x=34–65 y=30–58; tight close-up.** Cast/blocking: Naruto's red three-tomoe
    Sharingan alone, wide open and absolutely still. No text.
 5. **Middle left, x=0–31 y=30–58; medium reaction.** Cast/blocking: Sasuke, forty paces off at the
-   root, has gone rigid facing right; his forearms have come up off his knees; the ANBU at the frame
-   edge is visibly shaking. No text.
+   root, has gone rigid facing right; his forearms have come up off his knees; the ANBU at the
+   frame edge is visibly shaking. **B5** upper left, tail-less thought balloon, Sasuke: "WHAT IS
+   THAT." Tail-less; speaker is Sasuke and he is drawn in the panel.
 6. **Bottom band focal panel, x=0–100 y=62–100; medium-wide, low angle.** Cast/blocking: Naruto has
    risen and taken two steps toward the ANBU; **black flame breaks out from his own feet and the
    ground beneath them**, climbs his body in a rising spiral, and closes over his head as he goes; the
@@ -560,29 +588,31 @@ give the black-flame Shunshin a clean first appearance with an explicit origin.
 **Purpose:** Deliver the Sannin title as an anticlimax, close the Police Force thread, and move him
 to the monument for the chapter's real ending.
 
-1. **Top right, x=62–100 y=0–26; medium.** Cast/blocking: the scorched disc of grass at frame left is
-   still smoking faintly; Naruto is standing in it again, facing left, exactly as he left, with the
-   brush already back in his hand. Sasuke is on his feet at frame right. No text.
+1. **Top right, x=62–100 y=0–26; medium.** Cast/blocking: the scorched disc of grass at frame left
+   is still smoking faintly; Naruto is standing in it again, facing left, exactly as he left, with
+   the brush already back in his hand. Sasuke is on his feet at frame right. **B1** upper right,
+   Sasuke: "TWO MINUTES." Tail points to visible Sasuke's mouth at frame right.
 2. **Top left, x=0–58 y=0–26; medium two-shot.** Cast/blocking: Sasuke at frame right facing left,
-   Naruto seated again at frame left facing right. **B1** upper left, Sasuke: "WHAT DID SHE WANT?"
+   Naruto seated again at frame left facing right. **B2** upper left, Sasuke: "WHAT DID SHE WANT?"
    Tail points to visible Sasuke's mouth.
 3. **Middle right, x=51–100 y=30–55; close-up.** Cast/blocking: Naruto faces left, eyes back on the
-   scroll. **B2** upper right, Naruto: "TO INFORM ME THAT SHE HAS MADE ME A SANNIN." Tail points to
+   scroll. **B3** upper right, Naruto: "TO INFORM ME THAT SHE HAS MADE ME A SANNIN." Tail points to
    visible Naruto's mouth.
 4. **Middle left, x=0–47 y=30–55; close-up.** Cast/blocking: Sasuke facing right; he does not know
-   what expression to make and settles on none. No text.
+   what expression to make and settles on none. **B4** upper left, Sasuke: "...CONGRATULATIONS?"
+   Tail points to visible Sasuke's mouth.
 5. **Bottom right, x=68–100 y=59–100; medium.** Cast/blocking: Sasuke sits back down at frame right
-   facing left, a folder of files across his knees. **B3** upper right, Sasuke: "I HAVE CHOSEN MY
+   facing left, a folder of files across his knees. **B5** upper right, Sasuke: "I HAVE CHOSEN MY
    SHINOBI. FORTY-FIVE. I WANT YOUR HELP WITH THE TRAINING PROGRAMME." Tail points to visible
-   Sasuke's mouth. **B4** lower left, Naruto: "THAT IS MORE THAN I ANTICIPATED." `OFF`, tail exits
+   Sasuke's mouth. **B6** lower left, Naruto: "THAT IS MORE THAN I ANTICIPATED." `OFF`, tail exits
    the left edge toward Naruto.
 6. **Bottom centre, x=34–65 y=59–100; close-up.** Cast/blocking: Naruto faces left, brush moving
-   again. **B5** upper centre, Naruto: "GO TO KARIN. ASK FOR THE SCROLLS I LEFT WITH HER. THE
+   again. **B7** upper centre, Naruto: "GO TO KARIN. ASK FOR THE SCROLLS I LEFT WITH HER. THE
    PROGRAMMES ARE IN THEM." Tail points to visible Naruto's mouth.
 7. **Bottom left, x=0–31 y=59–100; insert close-up.** Cast/blocking: no faces, so eye-line is not
    applicable; Naruto's own hand is drawing a segment of the Hiraishin lattice onto a fresh scroll —
    the same ILLEGIBLE SCRIBBLE pattern as page 7 — and the clones' copies are stacked untouched
-   beside it. **B6** upper left, tail-less thought balloon: "I WILL DO THIS ONE MYSELF."
+   beside it. **B8** upper left, tail-less thought balloon: "I WILL DO THIS ONE MYSELF."
 
 #### Page 16 — 7 panels
 
@@ -628,24 +658,32 @@ behind him.
 
 ## Dialogue QA
 
-- 90 balloons, one chapter marker, and four location/time cards across 16 pages. The marker is
+- 119 balloons, one chapter marker, and four location/time cards across 16 pages. The marker is
   exactly "CHAPTER 3 — HIS THINGS". The four cards are exactly "THE FOLLOWING DAY" (p1),
   "IWAGAKURE — A FEW DAYS LATER" (p11), "KONOHA — DAYS LATER" (p13) and "LATER THAT DAY" (p16).
   Balloon numbering restarts and stays contiguous on every page.
-- Density varies hard by function: page 1 is entirely wordless apart from the marker and card; pages
-  6, 7 and 14 run to four balloons or fewer, and pages 6–7 use tail-less thought balloons only;
-  pages 9, 12 and 16 carry nine to eleven balloons of orders, intelligence and decision.
+- Density averages 7.4 a page and still varies by function. Page 1 now carries three Karin lines at
+  the gate and in the doorway, but **its focal panel 7 — the buried interior — stays wordless**, and
+  so do the clone field on page 8, the Kamui inset on page 11, and the Sharingan close-up on page 14
+  panel 4. Pages 6–8 are still carried mostly by tail-less thought balloons; pages 9, 12 and 16 carry
+  nine to eleven balloons of orders, intelligence and decision.
 - Preserved from `SOURCE_TRUTH.md`'s verbatim list: Zetsu's "DANZOU HAS MOVED AGAINST YUGAO AND
   KARIN." (p16 B4), Naruto's "IF I WEAR MY ARMOUR, I WILL BECOME EXCITED ABOUT PUNISHING THAT FOOL."
   (p16 B8) and "YOU WILL RETRIEVE THEM WHILE I PUNISH DANZOU." (p16 B9).
 - Karin's four functions are distinct and none of them is exposition: she offers the sentimental
   reading of the house, needles him once and gets nothing, provides the chapter's only comedy, and
-  demonstrates by failing that she cannot fight. Her last line is a joke about her own fear.
-- Sasuke asks three questions and reports one fact. He never explains the Police Force to the reader.
+  demonstrates by failing that she cannot fight. Her last line is a joke about her own fear. Where
+  she used to watch him work in silence she now pushes once more each time — "USE FOR WHAT?",
+  "AND WHAT WILL YOU BE DOING?" — and every one of those pushes is ignored.
+- Sasuke asks five questions and reports one fact. He never explains the Police Force to the reader,
+  and his one thought balloon — page 14, "WHAT IS THAT." — is the reader's only measure of how cold
+  the training ground has just gone.
 - Ōnoki reasons out loud in four thought balloons rather than a monologue, and reaches a conclusion
   he cannot prove. Kurotsuchi's four lines are insolence, insolence, report, and silence.
-- Naruto never says why he wants the Hiraishin to another person; the reason is three tail-less
-  thoughts on page 6 and nobody in the story hears it.
+- Naruto never says why he wants the Hiraishin to another person; the reason is four tail-less
+  thoughts on page 6 and nobody in the story hears it. The same is true of the three thoughts added
+  to pages 7 and 8 — the search, the count, and "MINE NOW." — which is the chapter's title said only
+  to himself.
 - Nothing here tells anyone about the medicine, the poison, the Edo Tensei, Oto, Kurama, the Akatsuki
   leader, or Minato's soul. Zetsu's report is the only new information any character receives.
 - No caption box narrates an event. The three cards state place and elapsed time only.

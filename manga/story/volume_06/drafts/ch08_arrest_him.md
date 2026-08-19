@@ -4,7 +4,7 @@
 Chapter 7 ends, and stops at ch19:319 with Sasuke walking off to learn the technique. The "Later that
 day" kitchen scene (ch19:321 onward) belongs to Chapter 9 and no part of it is played here.
 
-**Length:** 12 pages, six spreads, 84 panels, 71 balloons plus one chapter marker, two location
+**Length:** 12 pages, six spreads, 84 panels, 88 balloons plus one chapter marker, two location
 cards, and three SFX units.
 
 **Status:** final dialogue and executable textual `name`; ready for independent source and
@@ -113,23 +113,26 @@ page has to re-explain it, and let the accusation arrive before the meeting has 
    window, banner, or balloon may enter this lettering-safe negative space. **TITLE1** centred in
    that protected area: "CHAPTER 8 — ARREST HIM". Tail-less chapter marker. **CAP1** at the lower
    edge of the protected band, tail-less location card, small box: "KONOHA — COUNCIL CHAMBERS".
-2. **Top left, x=0–58 y=0–28; medium.** Cast/blocking: Tsunade at the head of the table facing right
-   down its length, hands folded on the wood; Shizune behind her. **B1** upper left, Tsunade: "THANK
-   YOU ALL FOR COMING." Tail points to visible Tsunade's mouth.
+2. **Top left, x=0–58 y=0–28; medium.** Cast/blocking: Tsunade at the head of the table facing
+   right down its length, hands folded on the wood; Shizune behind her. **B1** upper left, Tsunade:
+   "THANK YOU ALL FOR COMING." Tail points to visible Tsunade's mouth. **B2** lower left, Tsunade:
+   "THERE IS ONE ITEM AND IT WILL NOT TAKE LONG." Tail points to the same visible Tsunade's mouth.
 3. **Middle left, right half, x=30–58 y=32–58; medium.** Cast/blocking: Koharu is on her feet with
-   both palms flat on the table, her chair pushed back behind her, glaring to frame right. **B2**
+   both palms flat on the table, her chair pushed back behind her, glaring to frame right. **B3**
    upper right, Koharu: "WHY IS HE STILL SITTING THERE WITH THAT FACE ON?" Tail points to visible
    Koharu's mouth.
 4. **Middle left, left half, x=0–27 y=32–58; close-up.** Cast/blocking: Koharu's face, facing right,
-   the anger of somebody frightened. **B3** upper left, Koharu: "HE ATTACKED A COUNCIL MEMBER. HE
+   the anger of somebody frightened. **B4** upper left, Koharu: "HE ATTACKED A COUNCIL MEMBER. HE
    SHOULD BE UNDER ARREST." Tail points to visible Koharu's mouth.
 5. **Bottom left, right half, x=30–58 y=62–100; medium.** Cast/blocking: Naruto in profile at his
-   place, one forearm on the armrest, the three-tomoe Sharingan visible in his left eye, the right behind
-   the bang; he has not turned his head toward her and his expression has not changed. No text.
+   place, one forearm on the armrest, the three-tomoe Sharingan visible in his left eye, the right
+   behind the bang; he has not turned his head toward her and his expression has not changed.
+   **B5** upper right, Homura: "THIS IS NOT HOW A SESSION OPENS, KOHARU." `OFF`, tail exits the
+   left edge toward Homura on the near-left arc.
 6. **Bottom left, centre, x=16–27 y=62–100; close-up.** Cast/blocking: Sasuke's face beside him,
    facing left; the decision to speak arrives in it. No text.
 7. **Bottom left, left, x=0–13 y=62–100; medium.** Cast/blocking: Sasuke standing up out of his
-   chair, straight-backed, facing left down the table. **B4** upper left, Sasuke: "ELDER KOHARU."
+   chair, straight-backed, facing left down the table. **B6** upper left, Sasuke: "ELDER KOHARU."
    Tail points to visible Sasuke's mouth.
 
 #### Page 2 — 6 panels
@@ -139,20 +142,23 @@ lose the argument by winning it — she replaces evidence with the room's opinio
 
 1. **Top right, x=62–100 y=0–30; medium.** Cast/blocking: Sasuke standing at his place facing left,
    face entirely straight. **B1** upper right, Sasuke: "NARUTO IS A COUNCIL MEMBER, HEAD OF THE
-   UCHIHA CLAN, AND AN OFFICER OF THE POLICE FORCE." Tail points to visible Sasuke's mouth.
-2. **Top left, x=0–58 y=0–30; close-up.** Cast/blocking: Sasuke's face, facing left. **B2** upper
+   UCHIHA CLAN, AND AN OFFICER OF THE POLICE FORCE." Tail points to visible Sasuke's mouth. **B2**
+   lower right, Sasuke: "YOU HAVE ACCUSED A CLAN HEAD IN OPEN COUNCIL." Tail points to the same
+   visible Sasuke's mouth.
+2. **Top left, x=0–58 y=0–30; close-up.** Cast/blocking: Sasuke's face, facing left. **B3** upper
    left, Sasuke: "WHAT GIVES YOU THE RIGHT TO CALL HIM GUILTY?" Tail points to visible Sasuke's
    mouth.
-3. **Middle band, x=0–100 y=34–62; wide, low angle along the table.** Cast/blocking: heads turning to
-   frame right toward Sasuke all down the horseshoe — Shikaku's eyebrow going up, Tsume half smiling,
-   Hiashi expressionless, Chōza still. Nobody looks at Naruto. No text.
+3. **Middle band, x=0–100 y=34–62; wide, low angle along the table.** Cast/blocking: heads turning
+   to frame right toward Sasuke all down the horseshoe — Shikaku's eyebrow going up, Tsume half
+   smiling, Hiashi expressionless, Chōza still. Nobody looks at Naruto. **B4** upper left, Shikaku:
+   "TROUBLESOME." Tail points to visible Shikaku's mouth on the far arc.
 4. **Bottom right, x=64–100 y=66–100; close-up.** Cast/blocking: Koharu, facing right, a short snort
-   through the nose. **B3** upper right, Koharu: "EVIDENCE?" Tail points to visible Koharu's mouth.
+   through the nose. **B5** upper right, Koharu: "EVIDENCE?" Tail points to visible Koharu's mouth.
 5. **Bottom centre, x=32–61 y=66–100; medium.** Cast/blocking: Koharu with one arm thrown out toward
-   frame right down the table. **B4** upper centre, Koharu: "NONE IS NEEDED. I KNOW IT. ALL OF YOU
+   frame right down the table. **B6** upper centre, Koharu: "NONE IS NEEDED. I KNOW IT. ALL OF YOU
    KNOW IT." Tail points to visible Koharu's mouth.
 6. **Bottom left, x=0–29 y=66–100; close-up.** Cast/blocking: Koharu, finger levelled off the right
-   edge of the frame. **B5** upper left, Koharu: "LOOK AT HIM. HE IS NOT EVEN DENYING IT." Tail
+   edge of the frame. **B7** upper left, Koharu: "LOOK AT HIM. HE IS NOT EVEN DENYING IT." Tail
    points to visible Koharu's mouth.
 
 **Page turn:** He is not denying it.
@@ -173,19 +179,22 @@ reader expects does not exist anywhere in the room except in Koharu.
    MUCH AS IT AMUSES ME TO SEE YOU LIKE THIS, I WILL INTERVENE." Tail points to visible Naruto's
    mouth.
 2. **Top left, x=0–56 y=0–30; wide.** Cast/blocking: the far arc of the table — Shikaku, Hiashi,
-   Tsume, Chōza — every head turned to frame right; not one of them is leaning forward. No text.
+   Tsume, Chōza — every head turned to frame right; not one of them is leaning forward. **B2**
+   upper left, Shikaku: "HE IS GOING TO SAY IT." Tail points to visible Shikaku's mouth.
 3. **Middle band focal panel, x=0–100 y=34–66; wide, low angle from the centre of the horseshoe.**
    Cast/blocking: Naruto seated at frame right and the only person in the panel facing the reader;
    the table curves away around him; Tsunade small at the far left of the frame, watching and calm.
-   **B2** upper right, Naruto: "I AM NOT DENYING THAT I SLAUGHTERED ROOT AND CRIPPLED DANZOU." Tail
-   points to visible Naruto's mouth. **B3** lower left, Naruto: "BECAUSE I DID IT." Tail points to
+   **B3** upper right, Naruto: "I AM NOT DENYING THAT I SLAUGHTERED ROOT AND CRIPPLED DANZOU." Tail
+   points to visible Naruto's mouth. **B4** lower left, Naruto: "BECAUSE I DID IT." Tail points to
    the same visible mouth.
 4. **Bottom right, x=64–100 y=70–100; close-up.** Cast/blocking: Hiashi facing left; one slow blink
    and nothing else. No text.
 5. **Bottom centre, x=32–61 y=70–100; close-up.** Cast/blocking: Tsume facing left; a short breath
    out through the nose that is almost amusement. No text.
 6. **Bottom left, x=0–29 y=70–100; close-up.** Cast/blocking: Koharu facing right, triumphant, both
-   fists on the table. **B4** upper left, Koharu: "I KNEW IT!" Tail points to visible Koharu's mouth.
+   fists on the table. **B5** upper left, Koharu: "I KNEW IT!" Tail points to visible Koharu's
+   mouth. **B6** lower left, Koharu: "YOU ALL HEARD HIM!" Tail points to the same visible Koharu's
+   mouth.
 
 #### Page 4 — 8 panels
 
@@ -213,10 +222,11 @@ Naruto — be the reason nothing happens.
    Tail points to the same visible mouth.
 7. **Lower-middle left, x=0–58 y=70–86; close-up.** Cast/blocking: Koharu facing right, jaw set,
    refusing to sit. **B5** upper left, Koharu: "HE ADMITTED TO A CRIME. I CANNOT STAND HIS FACE."
-   Tail points to visible Koharu's mouth.
+   Tail points to visible Koharu's mouth. **B6** lower left, Homura: "KOHARU. SIT." `OFF`, tail
+   exits the left edge toward Homura.
 8. **Bottom band, x=0–100 y=90–100; letterbox wide.** Cast/blocking: Tsunade close at frame right,
    the air behind her going dark and grainy, loose papers lifting at their corners all along the
-   table; Koharu small at frame left, already looking away at the wall. **B6** upper right, Tsunade:
+   table; Koharu small at frame left, already looking away at the wall. **B7** upper right, Tsunade:
    "NEVER AGAIN ATTEMPT TO ORDER MY ANBU. ARE WE CLEAR?" Tail points to visible Tsunade's mouth.
 
 **Page turn:** The elders have nothing left to call.
@@ -256,8 +266,9 @@ meeting to Sasuke on the Hokage's authority rather than on Naruto's.
    carrying a simple line diagram of a human forearm with ten small dark circles set into it. No face
    in frame. **B7** upper right, Sasuke: "I WAS NOT STRONG ENOUGH FOR IT, SO I ENLISTED NARUTO."
    `OFF`, tail exits the right edge toward Sasuke.
-7. **Bottom left, x=0–47 y=84–100; close-up.** Cast/blocking: Chōza's face bent over the open folder,
-   facing right; the eyebrows going up. No text.
+7. **Bottom left, x=0–47 y=84–100; close-up.** Cast/blocking: Chōza's face bent over the open
+   folder, facing right; the eyebrows going up. **B8** upper left, Sasuke: "THE FOURTH PAGE IS HIS
+   ARM." `OFF`, tail exits the right edge toward Sasuke.
 
 #### Page 6 — 7 panels
 
@@ -271,18 +282,20 @@ defeated, and let Hiashi ask the first legitimate question.
    left, Sasuke: "HE INTENDED TO TAKE THE HAT FROM TSUNADE-SAMA. THE TREASON GOES BACK YEARS. THE
    SANDAIME LET HIM LIVE." Tail points to visible Sasuke's mouth.
 3. **Middle right, x=64–100 y=32–56; close-up.** Cast/blocking: Homura staring down at his open
-   folder, no longer reading it; one hand over his mouth. No text.
+   folder, no longer reading it; one hand over his mouth. **B3** upper right, Homura: "THIS IS
+   DANZOU'S OWN HAND." Tail points to visible Homura's mouth.
 4. **Middle centre, x=32–61 y=32–56; close-up.** Cast/blocking: Koharu facing right; she has stopped
-   moving entirely. **B3** upper centre, Koharu: "THIS IS RIDICULOUS." Tail points to visible
+   moving entirely. **B4** upper centre, Koharu: "THIS IS RIDICULOUS." Tail points to visible
    Koharu's mouth.
 5. **Middle left, x=0–29 y=32–56; wide.** Cast/blocking: the table seen down its length; every head
-   is bent over a folder and not one of them looks up. No text.
+   is bent over a folder and not one of them looks up. **B5** upper left, Tsunade: "READ IT,
+   KOHARU." `OFF`, tail exits the right edge toward Tsunade at the head of the table.
 6. **Bottom right, x=51–100 y=60–100; medium.** Cast/blocking: Hiashi with his folder closed under
-   one flat hand, facing left, unhurried. **B4** upper right, Hiashi: "WHY WERE THE ANBU NOT
+   one flat hand, facing left, unhurried. **B6** upper right, Hiashi: "WHY WERE THE ANBU NOT
    INVOLVED?" Tail points to visible Hiashi's mouth.
 7. **Bottom left, x=0–47 y=60–100; medium.** Cast/blocking: Sasuke standing facing right, hands at
-   his sides. **B5** upper left, Sasuke: "THE POLICE FORCE IS A SEPARATE MILITARY FORCE. IT RUNS ITS
-   OWN OPERATIONS." Tail points to visible Sasuke's mouth. **B6** lower left, Sasuke: "WE MAY TAKE
+   his sides. **B7** upper left, Sasuke: "THE POLICE FORCE IS A SEPARATE MILITARY FORCE. IT RUNS ITS
+   OWN OPERATIONS." Tail points to visible Sasuke's mouth. **B8** lower left, Sasuke: "WE MAY TAKE
    JOINT ONES. WE DID NOT NEED TO." Tail points to the same visible mouth.
 
 **Page turn:** Then nobody was told.
@@ -302,23 +315,24 @@ chamber.
 1. **Top right, x=62–100 y=0–26; close-up.** Cast/blocking: Hiashi facing left, pale eyes level.
    **B1** upper right, Hiashi: "WAS ANYONE INFORMED BEFORE IT HAPPENED?" Tail points to visible
    Hiashi's mouth.
-2. **Top left, x=0–58 y=0–26; close-up.** Cast/blocking: Sasuke facing right; one short shake of the
-   head and nothing said. No text.
-3. **Middle-upper right, x=62–100 y=30–52; close-up.** Cast/blocking: Hiashi facing left. **B2**
+2. **Top left, x=0–58 y=0–26; close-up.** Cast/blocking: Sasuke facing right; one short shake of
+   the head and nothing said. **B2** upper left, Sasuke: "NO." Tail points to visible Sasuke's
+   mouth.
+3. **Middle-upper right, x=62–100 y=30–52; close-up.** Cast/blocking: Hiashi facing left. **B3**
    upper right, Hiashi: "WHY NOT?" Tail points to visible Hiashi's mouth.
 4. **Middle-upper left, x=0–58 y=30–52; medium.** Cast/blocking: Sasuke facing right, not hesitating.
-   **B3** upper left, Sasuke: "ROOT WERE LOYAL TO DANZOU TO A FAULT. IF IT HAD LEAKED, THEY WOULD
+   **B4** upper left, Sasuke: "ROOT WERE LOYAL TO DANZOU TO A FAULT. IF IT HAD LEAKED, THEY WOULD
    HAVE DONE ANYTHING TO KEEP HIM ALIVE." Tail points to visible Sasuke's mouth.
 5. **Middle-lower band focal panel, x=0–100 y=56–78; wide, eye-level.** Cast/blocking: Homura at
    frame left with his head down over the closed folder, both hands flat on it; the rest of the table
-   watching him rather than Sasuke. **B4** upper left, Homura: "BUT TO SLAUGHTER AN ENTIRE ARMY.
+   watching him rather than Sasuke. **B5** upper left, Homura: "BUT TO SLAUGHTER AN ENTIRE ARMY.
    THOSE WERE MEN THIS VILLAGE COULD HAVE USED." Tail points to visible Homura's mouth.
 6. **Bottom right, x=51–100 y=82–100; medium.** Cast/blocking: Naruto in his chair at frame right,
-   facing forward, not turning his head toward Homura at all. **B5** upper right, Naruto: "WOULD YOU
+   facing forward, not turning his head toward Homura at all. **B6** upper right, Naruto: "WOULD YOU
    RATHER THEY REVOLTED INSIDE THE WALLS WITH THEIR MASTER IN A CELL?" Tail points to visible
    Naruto's mouth.
 7. **Bottom left, x=0–47 y=82–100; close-up.** Cast/blocking: Naruto's visible left eye and the bang
-   over the right, three-tomoe Sharingan. **B6** upper left, Naruto: "THEY WERE AS GUILTY AS HE WAS. DO
+   over the right, three-tomoe Sharingan. **B7** upper left, Naruto: "THEY WERE AS GUILTY AS HE WAS. DO
    NOT PRETEND OTHERWISE." Tail points to visible Naruto's mouth.
 
 #### Page 8 — 7 panels
@@ -336,17 +350,18 @@ as a scheduling matter.
 3. **Middle-upper right, x=62–100 y=30–52; close-up.** Cast/blocking: Shikaku's face, facing left,
    entirely mild. **B3** upper right, Shikaku: "I ALSO THINK THE POLICE FORCE SHOULD TELL SOMEONE
    BEFORE IT DOES THIS AGAIN. PREFERABLY THE HOKAGE." Tail points to visible Shikaku's mouth.
-4. **Middle-upper left, x=0–58 y=30–52; wide.** Cast/blocking: the far arc — Hiashi, Tsume and Chōza
-   nodding in sequence; Tsume's nod is the largest. No text.
+4. **Middle-upper left, x=0–58 y=30–52; wide.** Cast/blocking: the far arc — Hiashi, Tsume and
+   Chōza nodding in sequence; Tsume's nod is the largest. **B4** upper left, Hiashi: "AGREED." Tail
+   points to visible Hiashi's mouth on the far arc.
 5. **Middle-lower right, x=62–100 y=56–78; medium.** Cast/blocking: Tsunade looking down the table to
-   frame right at Sasuke. **B4** upper right, Tsunade: "THAT IS REASONABLE. ANY OBJECTION?" Tail
+   frame right at Sasuke. **B5** upper right, Tsunade: "THAT IS REASONABLE. ANY OBJECTION?" Tail
    points to visible Tsunade's mouth.
 6. **Middle-lower left, x=0–58 y=56–78; close-up.** Cast/blocking: Sasuke facing left, no hesitation
-   whatsoever. **B5** upper left, Sasuke: "NO." Tail points to visible Sasuke's mouth.
+   whatsoever. **B6** upper left, Sasuke: "NO." Tail points to visible Sasuke's mouth.
 7. **Bottom band, x=0–100 y=82–100; wide.** Cast/blocking: Tsunade standing at the head of the table
-   facing right; the whole horseshoe in frame beneath her. **B6** upper right, Tsunade: "THEN I HAVE
+   facing right; the whole horseshoe in frame beneath her. **B7** upper right, Tsunade: "THEN I HAVE
    MADE A DECISION. DANZOU WILL BE EXECUTED PRIVATELY, AS SOON AS HE WAKES." Tail points to visible
-   Tsunade's mouth. **B7** lower left, Tsunade: "ANY OBJECTIONS?" Tail points to the same visible
+   Tsunade's mouth. **B8** lower left, Tsunade: "ANY OBJECTIONS?" Tail points to the same visible
    mouth.
 
 **Page turn:** Not one of them objects.
@@ -369,23 +384,25 @@ observation she cannot act on.
    text.
 3. **Middle-upper right, x=62–100 y=28–48; medium.** Cast/blocking: Tsunade standing, facing right.
    **B1** upper right, Tsunade: "THIS MATTER IS S-RANK. EVERY RECORD IS SEALED IN POLICE FORCE
-   HEADQUARTERS WHEN IT IS COMPLETE." Tail points to visible Tsunade's mouth.
+   HEADQUARTERS WHEN IT IS COMPLETE." Tail points to visible Tsunade's mouth. **B2** lower right,
+   Tsunade: "NOT ONE WORD OF IT LEAVES THIS ROOM." Tail points to the same visible Tsunade's mouth.
 4. **Middle-upper left, x=0–58 y=28–48; medium.** Cast/blocking: Tsume sitting back with her arms
-   folded, facing left, a short grin showing one canine. **B2** upper left, Tsume: "SO THE VILLAGE
+   folded, facing left, a short grin showing one canine. **B3** upper left, Tsume: "SO THE VILLAGE
    NEVER HEARS A WORD OF IT. NO PANIC. GOOD." Tail points to visible Tsume's mouth.
 5. **Middle-lower right, x=62–100 y=52–72; medium two-shot.** Cast/blocking: Tsunade at frame right
    with the smallest smile of the meeting; Chōza along the table at frame left, turning toward her.
-   **B3** upper right, Tsunade: "ONE MORE THING. THE MIZUKAGE HAS CROSSED THE FIRE COUNTRY BORDER."
-   Tail points to visible Tsunade's mouth. **B4** lower left, Chōza: "AT LAST. IT HAS BEEN DAYS."
+   **B4** upper right, Tsunade: "ONE MORE THING. THE MIZUKAGE HAS CROSSED THE FIRE COUNTRY BORDER."
+   Tail points to visible Tsunade's mouth. **B5** lower left, Chōza: "AT LAST. IT HAS BEEN DAYS."
    Tail points to visible Chōza's mouth.
 6. **Middle-lower left, x=0–58 y=52–72; wide.** Cast/blocking: chairs pushing back all round the
-   horseshoe, clan heads rising, folders going under arms; Tsunade still standing at the head. **B5**
-   upper left, Tsunade: "I HAVE SENT ANBU TO ESCORT HER IN. THAT IS ALL. DISMISSED." Tail points to
-   visible Tsunade's mouth.
+   horseshoe, clan heads rising, folders going under arms; Tsunade still standing at the head.
+   **B6** upper left, Tsunade: "I HAVE SENT ANBU TO ESCORT HER IN. THAT IS ALL. DISMISSED." Tail
+   points to visible Tsunade's mouth. **B7** lower left, Hiashi: "THEN THE CLAN HOUSES WILL PREPARE
+   FOR A KAGE'S VISIT." Tail points to visible Hiashi's mouth as he rises.
 7. **Bottom band focal panel, x=0–100 y=76–100; wide, eye-level.** Cast/blocking: the chamber
    half-emptied, backs going out through the doors at frame left; Naruto still seated at frame right
    exactly as he was on page 1; Tsunade at the head at frame centre-left, standing, watching him with
-   a frown she is not hiding. **B6** upper left, tail-less thought balloon, Tsunade: "HE ADMITTED TO
+   a frown she is not hiding. **B8** upper left, tail-less thought balloon, Tsunade: "HE ADMITTED TO
    A MASSACRE AND THEN SAT THERE. NO GAMES AT ALL. THAT IS NOT HIM." Tail-less; speaker is Tsunade
    and she is drawn in the panel.
 
@@ -403,9 +420,10 @@ compound scene on the industrial scale of what Naruto is now running.
 3. **Middle-upper right, x=62–100 y=30–50; close-up.** Cast/blocking: Hiashi facing right; the
    honorific has visibly caught him off balance and the small smile changes shape. **B3** upper
    right, Hiashi: "MAY I SPEAK WITH YOU A MOMENT. IN PRIVATE." Tail points to visible Hiashi's mouth.
-4. **Middle-upper left, x=0–58 y=30–50; wide.** Cast/blocking: the two of them walking out through a
-   side door at frame left, seen from behind; Tsunade small at the far right of the frame, still
-   standing, watching them go. No text.
+4. **Middle-upper left, x=0–58 y=30–50; wide.** Cast/blocking: the two of them walking out through
+   a side door at frame left, seen from behind; Tsunade small at the far right of the frame, still
+   standing, watching them go. **B4** upper right, tail-less thought balloon, Tsunade: "WHAT DOES A
+   HYUUGA WANT WITH HIM?" Tail-less; speaker is Tsunade and she is drawn in the panel.
 5. **Middle-lower band, x=0–100 y=54–78; extreme-wide establishing, high angle.** Cast/blocking: the
    Uchiha compound's own walled training field in the afternoon — long, bare, the compound roofs
    behind it; forty-odd identical Naruto clones working across it in blocks, one block running forms
@@ -413,11 +431,13 @@ compound scene on the industrial scale of what Naruto is now running.
    a tree at frame right with three clones cross-legged beside him over more scrolls. All writing on
    every scroll is **ILLEGIBLE SCRIBBLE, not readable words.** **CAP2** upper right, tail-less
    location card, small box: "UCHIHA COMPOUND — TRAINING GROUND". No balloon.
-6. **Bottom right, x=51–100 y=82–100; medium.** Cast/blocking: Naruto against the tree, arms folded,
-   only his left eye open and the right still behind the bang; Sasuke walking in from frame left.
-   **B4** upper left, Sasuke: "WHAT DID HIASHI WANT?" Tail points to visible Sasuke's mouth.
+6. **Bottom right, x=51–100 y=82–100; medium.** Cast/blocking: Naruto against the tree, arms
+   folded, only his left eye open and the right still behind the bang; Sasuke walking in from frame
+   left. **B5** upper left, Sasuke: "WHAT DID HIASHI WANT?" Tail points to visible Sasuke's mouth.
+   **B6** lower left, Sasuke: "HE DOES NOT TAKE ANYONE ASIDE." Tail points to the same visible
+   Sasuke's mouth.
 7. **Bottom left, x=0–47 y=82–100; close-up.** Cast/blocking: Naruto's face, the single open left eye
-   with the three-tomoe Sharingan in it. **B5** upper left, Naruto: "TO MARRY ONE OF HIS DAUGHTERS TO ONE
+   with the three-tomoe Sharingan in it. **B7** upper left, Naruto: "TO MARRY ONE OF HIS DAUGHTERS TO ONE
    OF US." Tail points to visible Naruto's mouth.
 
 **Page turn:** One of us.
@@ -438,20 +458,21 @@ build the technique's first two stages — preparation and origin — where the 
 2. **Top left, x=0–58 y=0–26; close-up.** Cast/blocking: Naruto facing left, one eye open. **B2**
    upper left, Naruto: "YES." Tail points to visible Naruto's mouth.
 3. **Middle-upper right, x=62–100 y=30–50; close-up.** Cast/blocking: Sasuke facing right; a breath
-   of relief arrives on his face before he can put it away. No text.
+   of relief arrives on his face before he can put it away. **B3** upper right, Sasuke: "GOOD."
+   Tail points to visible Sasuke's mouth.
 4. **Middle-upper left, x=0–58 y=30–50; medium.** Cast/blocking: Naruto pushing off the tree to
-   stand, facing left. **B3** upper left, Naruto: "I TOOK THE YOUNGER ONE INSTEAD. SHE IS QUITE A
-   CHILD." Tail points to visible Naruto's mouth. **B4** lower left, Naruto: "SHE HOLDS POTENTIAL.
+   stand, facing left. **B4** upper left, Naruto: "I TOOK THE YOUNGER ONE INSTEAD. SHE IS QUITE A
+   CHILD." Tail points to visible Naruto's mouth. **B5** lower left, Naruto: "SHE HOLDS POTENTIAL.
    SHE WILL BE A FINE ADDITION TO YOUR FORCE." Tail points to the same visible mouth.
 5. **Middle-lower band, x=0–100 y=54–74; wide.** Cast/blocking: the two of them walking out into the
    open field from frame right toward frame left; the working clones open a wide circle around them
-   without being told and go back to what they were doing. **B5** upper right, Naruto: "FOLLOW ME."
-   Tail points to visible Naruto's mouth. **B6** lower left, Naruto: "WATCH CLOSELY. AND DO NOT USE
+   without being told and go back to what they were doing. **B6** upper right, Naruto: "FOLLOW ME."
+   Tail points to visible Naruto's mouth. **B7** lower left, Naruto: "WATCH CLOSELY. AND DO NOT USE
    YOUR SHARINGAN. I WILL SHOW THIS TWICE." Tail points to the same visible mouth.
 6. **Bottom right, x=51–100 y=78–100; medium.** Cast/blocking: Naruto alone in the cleared circle
    facing left, his hands moving through a seal chain slowly and separately, each seal held long
    enough to be copied; Sasuke's back at the frame's right edge in the foreground. Preparation stage.
-   **B7** upper right, Naruto: "UCHIHA HONO SHIURUDO." Tail points to visible Naruto's mouth.
+   **B8** upper right, Naruto: "UCHIHA HONO SHIURUDO." Tail points to visible Naruto's mouth.
 7. **Bottom left, x=0–47 y=78–100; extreme close-up.** Cast/blocking: Naruto's bare forearm and
    shoulder above the armour's edge; a fine white vapour is coming out of the skin itself in fine
    threads, from the surface and from nowhere else, and hanging in the air around the limb. Origin,
@@ -505,28 +526,34 @@ and Naruto does not yet know who is in it.
 
 ## Dialogue QA
 
-- 71 balloons, one chapter marker, two location cards and three SFX units across 12 pages. The marker
+- 88 balloons, one chapter marker, two location cards and three SFX units across 12 pages. The marker
   is exactly "CHAPTER 8 — ARREST HIM"; the cards are exactly "KONOHA — COUNCIL CHAMBERS" (p1) and
   "UCHIHA COMPOUND — TRAINING GROUND" (p10). Balloon numbering restarts and stays contiguous on every
   page.
-- Density varies by function: page 3 spends three of six panels wordless on reactions, and page 4 —
-  the chapter's title beat — carries six balloons across eight panels of which four are silent
-  architecture. Pages 5–9 are the dialogue-dense council block at six to seven balloons each. Page 12
-  runs eight balloons but three of its panels are wordless technique.
+- Density averages 7.3 a page. Page 4 — the chapter's title beat — is deliberately the chapter's
+  floor at seven balloons across eight panels, because **its two empty-doorway panels and the cracked
+  table must stay wordless**; the whole beat is that Koharu shouts for ANBU twice into a silence.
+  Page 12 likewise keeps its three wordless technique panels and its wordless last panel. The council
+  block runs seven to eight, with the reaction panels that used to sit empty now carrying the room
+  talking over itself.
 - Preserved from `SOURCE_TRUTH.md`'s verbatim list: "ANBU! ARREST HIM!" (p4 B1), "I AM NOT DENYING
-  THAT I SLAUGHTERED ROOT AND CRIPPLED DANZOU." / "BECAUSE I DID IT." (p3 B2–B3), "NEVER AGAIN
+  THAT I SLAUGHTERED ROOT AND CRIPPLED DANZOU." / "BECAUSE I DID IT." (p3 B3–B4), "NEVER AGAIN
   ATTEMPT TO ORDER MY ANBU. ARE WE CLEAR?" (p4 B6) and "NARUTO-SAN." / "WHAT CAN I DO FOR YOU,
   HIASHI-SAN?" (p10 B1–B2).
-- **Naruto speaks eight times in twelve pages and only three of those are in the chamber.** The
-  chapter's silence is his and Tsunade names it in a thought balloon on page 9 rather than the script
-  explaining it.
+- **Naruto still speaks exactly eight times in twelve pages and only three of those are in the
+  chamber.** Not one of the seventeen lines added in this pass is his — the extra density is the room
+  filling in around him, which makes his silence louder rather than quieter. Tsunade names it in a
+  thought balloon on page 9 rather than the script explaining it.
 - The four council objections are given to four different people and none of them is a plot
   announcement: Koharu wants an arrest, Hiashi wants jurisdiction and disclosure, Homura wants the
-  manpower, Shikaku wants a rule for next time. Only Shikaku gets what he asks for.
+  manpower, Shikaku wants a rule for next time. Only Shikaku gets what he asks for. Homura's two
+  added lines are both attempts to make Koharu sit down, which is the other half of his position:
+  he objects to the massacre and he is embarrassed by her.
 - Sasuke argues doctrine and never once says that Naruto planned the operation, which is the lie the
   whole scene rests on and which the reader knows from Chapter 6.
 - Tsume's single line does the job of a narration box without being one; Chōza's single line
-  establishes that the Mizukage has been expected for days.
+  establishes that the Mizukage has been expected for days. Both are still single lines — nothing was
+  added to either of them.
 - Nothing here mentions Kurama, Minato, the Edo Tensei, Dragon Land, the Hiraishin, Oto, Guren, the
   medicine or the illness. **Hiashi's private conversation is never dramatised** — the reader learns
   its content two pages later from Naruto, exactly as the source does it.

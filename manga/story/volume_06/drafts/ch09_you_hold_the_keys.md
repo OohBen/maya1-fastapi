@@ -4,7 +4,7 @@
 ends on, and runs to the end of fic chapter 19 — Guren offering Kurotsuchi a tour. Chapter 10 opens
 at ch20:7 with the Mizukage's arrival in Konoha.
 
-**Length:** 16 pages, eight spreads, 102 panels, 85 balloons plus one chapter marker, two
+**Length:** 16 pages, eight spreads, 102 panels, 120 balloons plus one chapter marker, two
 location/time cards, and three SFX units.
 
 **Status:** final dialogue and executable textual `name`; ready for independent source and
@@ -692,28 +692,38 @@ chapter on a smile the reader can price and Kurotsuchi cannot.
 
 ## Dialogue QA
 
-- 85 balloons, one chapter marker, two location/time cards and three SFX units across 16 pages. The
+- 120 balloons, one chapter marker, two location/time cards and three SFX units across 16 pages. The
   marker is exactly "CHAPTER 9 — YOU HOLD THE KEYS"; the cards are exactly "LATER THAT DAY" (p1) and
   "OTOGAKURE — TWO DAYS LATER" (p13). Balloon numbering restarts and stays contiguous on every page.
-- Density is deliberately uneven and inverts twice. Page 6 spends six panels on two balloons; page 9
-  spends six panels on two; page 13 spends six panels on one. Against those, pages 3, 7, 15 and 16
-  run eight to eleven balloons of hard two-hander. Page 12 carries nine and then ends on a panel with
-  none.
+- Density averages 7.5 a page and is still deliberately uneven. **Page 6 is untouched and still
+  spends six panels on two balloons** — it is the chapter's one held breath, and putting anything
+  into the two silent reaction panels around "PERHAPS." would spend the pause the page exists for.
+  **Page 12 is also untouched at nine**, because its B8 and B9 are cited by number as a hard lock in
+  `VOLUME_06.md` and it already ends on a scripted silence. Everywhere else runs five to twelve, with
+  pages 7, 15 and 16 carrying the hardest two-hander.
 - Preserved from `SOURCE_TRUTH.md`'s verbatim list: "IF I DID NOT KNOW BETTER, I WOULD SAY YOU WERE
-  MARRIED." (p1 B1), "PERHAPS." (p6 B1), "SHARINGAN: GENJUTSU." (p8 B4), "THERE IS NO ONE MORE
+  MARRIED." (p1 B3), "PERHAPS." (p6 B1), "SHARINGAN: GENJUTSU." (p8 B7), "THERE IS NO ONE MORE
   SUITABLE TO BE MY MATE, AND THE SUBJECT OF MY AFFECTIONS IF THERE ARE ANY." (p12 B8) and "YOU HOLD
   THE KEYS. YOU HAVE NOT ANSWERED MY QUESTION." (p12 B9).
 - **Yugao's last beat is silence and it is scripted as silence.** Page 12 panel 7 is a lettering
   prohibition, not an omission. The source is explicit that she says nothing because speaking would
   ruin it, and the panel has to carry that as a decision.
-- Yugao's four thought balloons on page 4 are the only interiority in the Konoha half, and they are
-  hers, not his. **Naruto is given no thought balloon anywhere in this chapter.**
+- Yugao's six thought balloons on page 4 and her two elsewhere (p8 p1, p11 p1) are the only
+  interiority in the Konoha half, and they are hers, not his. **Naruto is given no thought balloon
+  anywhere in this chapter** — that lock is kept, and every line added to him is spoken aloud to
+  somebody.
+- Yugao talks to herself twice on page 1 before she knows he is in the house ("...ANOTHER MINUTE ON
+  THAT ONE.", "AND HE IS LATE."). Both are `OFF` because her back is to the reader; neither may grow
+  a tail out of her shoulder.
 - Yugao's tactics are distinct and escalate: she cooks without explaining, argues experience against
   knowledge, asks about his day, copies his idiom back at him, tells him why he is the exception,
   asks the question, flees, returns, and then stops talking. She never announces plot.
-- Guren's four thought balloons on pages 13–14 are administration, and the two torn insets beside
-  them are the invoice. Nothing in her narration says the word "killed" and the reader does not need
-  it.
+- Guren's eight thought balloons on pages 13–14 are administration, and the two torn insets now carry
+  two of them — "THEY ONLY NEEDED TO SEE IT ONCE." and "AND WHAT HE TAKES, NOBODY LOOKS FOR." Nothing
+  in her narration says the word "killed" and the reader still does not need it.
+- Two unnamed Oto builders speak once each on page 13, and the older woman behind the counter speaks
+  once inside the genjutsu on page 9. They are the only voices in the chapter besides Naruto, Yugao,
+  Guren, Zetsu, the Oto aide and Kurotsuchi.
 - Zetsu gives Guren one order and two reasons, and the second reason is the true one. He never says
   Naruto's name aloud in Oto — he says "his" and "he," which is the point of page 15 B7.
 - Nothing here mentions Kurama, Minato, the Edo Tensei, Dragon Land, the council, the Hiraishin, the

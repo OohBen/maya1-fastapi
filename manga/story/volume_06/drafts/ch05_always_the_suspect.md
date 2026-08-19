@@ -4,7 +4,7 @@
 door (ch18:7), and ends at ch18:386 with Tsunade and Jiraiya alone in the office. The Uchiha compound
 scene at ch18:389 opens Chapter 6 and no part of it appears here.
 
-**Length:** 18 pages, nine spreads, 123 panels, 122 balloons plus one chapter marker and three
+**Length:** 18 pages, nine spreads, 123 panels, 129 balloons plus one chapter marker and three
 location/time cards.
 
 **Status:** final dialogue and executable textual `name`; ready for independent source and
@@ -132,19 +132,21 @@ decision do the work of telling us what happened the last time he came here.
    tail-less time card, small box: "THE NEXT MORNING".
 2. **Middle right, x=68–100 y=34–58; medium interior.** Cast/blocking: an unlit shuttered bedroom;
    Naruto is asleep on his side facing the wall; the burned black shirt from last night is over the
-   back of a chair. **SFX** at the door at frame left: "TOK TOK". No balloon.
+   back of a chair. **SFX** at the door at frame left: "TOK TOK". No balloon. **B1** upper left,
+   ANBU: "...UCHIHA-SAMA?" `OFF` — the speaker is on the far side of the door and is not drawn in
+   this panel; tail exits the left edge toward the door.
 3. **Middle centre, x=34–65 y=34–58; close-up.** Cast/blocking: his eyes open. They are **plain
-   blue**. No text.
+   blue**. **B2** upper right, tail-less thought balloon: "STILL BLUE."
 4. **Middle left, x=0–31 y=34–58; medium.** Cast/blocking: the door pulled open a hand's width at
-   frame right; the same ANBU as Chapter 3 kneels in the passage beyond it, facing right. **B1** upper
+   frame right; the same ANBU as Chapter 3 kneels in the passage beyond it, facing right. **B3** upper
    left, ANBU: "UCHIHA-SAMA. THE HOKAGE ASKS FOR YOU." Tail points to visible ANBU's masked mouth.
 5. **Bottom right, x=55–100 y=62–100; medium two-shot.** Cast/blocking: Naruto in the doorway at frame
-   right facing left, bare-headed and unarmoured; the ANBU still on one knee at frame left. **B2**
+   right facing left, bare-headed and unarmoured; the ANBU still on one knee at frame left. **B4**
    upper right, Naruto: "TELL HER I WILL BE THERE IN A FEW MINUTES." Tail points to visible Naruto's
-   mouth. **B3** lower left, ANBU: "HAI." Tail points to visible ANBU's masked mouth.
+   mouth. **B5** lower left, ANBU: "HAI." Tail points to visible ANBU's masked mouth.
 6. **Bottom left, x=0–51 y=62–100; medium.** Cast/blocking: the ANBU is dissolving into a body flicker
    at the far end of the passage at frame left; Naruto's hand is on the door at the frame's right.
-   **B4** upper left, tail-less thought balloon, ANBU: "I WILL NOT BE SENT HERE A FOURTH TIME."
+   **B6** upper left, tail-less thought balloon, ANBU: "I WILL NOT BE SENT HERE A FOURTH TIME."
 
 #### Page 2 — 6 panels
 
@@ -152,9 +154,11 @@ decision do the work of telling us what happened the last time he came here.
 routine, and let the falling level in the bottle be the only thing that raises the temperature.
 
 1. **Top right, x=62–100 y=0–26; medium.** Cast/blocking: Naruto alone in the dark room, sitting on
-   the edge of the bed with his elbows on his knees, facing left. No text.
+   the edge of the bed with his elbows on his knees, facing left. **B1** upper right, tail-less
+   thought balloon: "TRY IT FIRST. IT NEVER WORKS."
 2. **Top left, x=0–58 y=0–26; close-up.** Cast/blocking: his eyes, plain blue; the lids tighten
-   fractionally and hold for a beat and **nothing happens**. No text.
+   fractionally and hold for a beat and **nothing happens**. **B2** upper left, tail-less thought
+   balloon: "NOTHING."
 3. **Middle right, x=68–100 y=30–56; insert close-up.** Cast/blocking: no faces, so eye-line is not
    applicable; his hand takes the **small dark glass bottle** off the nightstand. The liquid stands at
    exactly the halfway line where Chapter 4 left it. The label is ILLEGIBLE SCRIBBLE, not readable
@@ -166,8 +170,8 @@ routine, and let the falling level in the bottle be the only thing that raises t
    three-tomoe Sharingan** comes up in both irises — red, three tomoe, no Mangekyō pattern. No text.
 6. **Bottom band, x=0–100 y=60–100; wide.** Cast/blocking: the room with the shutter cracked open at
    last; Naruto sets the bottle down on the nightstand at frame right; on the wall rack at frame left
-   hang the armour plates and the **Gunbai**. **B1** upper right, tail-less thought balloon: "A THIRD
-   LEFT." **B2** lower right, tail-less thought balloon: "IT USED TO BE ONE MOUTHFUL."
+   hang the armour plates and the **Gunbai**. **B3** upper right, tail-less thought balloon: "A THIRD
+   LEFT." **B4** lower right, tail-less thought balloon: "IT USED TO BE ONE MOUTHFUL."
 
 **Page turn:** He gets dressed.
 
@@ -194,12 +198,13 @@ the forehead protector.
 4. **Middle centre, x=34–65 y=28–54; close-up.** Cast/blocking: Naruto looking down at it, armoured
    from the collar down, still bare-headed, facing left. **B1** upper centre, tail-less thought
    balloon: "DAYS WITHOUT IT. AND NOT ONE OF THEM SAID A WORD."
-5. **Middle left, x=0–31 y=28–54; close-up.** Cast/blocking: his hands behind his head tying the band
-   on; the heavy right bang stays down across the right eye and is not disturbed. No text.
+5. **Middle left, x=0–31 y=28–54; close-up.** Cast/blocking: his hands behind his head tying the
+   band on; the heavy right bang stays down across the right eye and is not disturbed. **B2** upper
+   left, tail-less thought balloon: "TODAY THEY WILL."
 6. **Bottom right, x=55–100 y=58–100; medium.** Cast/blocking: Naruto standing in the middle of the
    room fully armoured, forehead protector on, three-tomoe Sharingan active, facing left; the rack
-   behind him at frame left is empty except for the **Gunbai, which he leaves on the wall**. **B2**
-   upper right, tail-less thought balloon: "BETTER." **B3** lower right, tail-less thought balloon: "I
+   behind him at frame left is empty except for the **Gunbai, which he leaves on the wall**. **B3**
+   upper right, tail-less thought balloon: "BETTER." **B4** lower right, tail-less thought balloon: "I
    CAN THINK IN THIS."
 7. **Bottom left, x=0–51 y=58–100; medium.** Cast/blocking: black flame breaks out from **his own feet
    and the floorboards beneath them**, climbs his body in a rising spiral and closes over his head; the
@@ -218,15 +223,17 @@ the flashback off Tsunade rather than off a caption.
    unwinds upward in the middle of the floor and Naruto steps out of it in full armour, facing left.
    **SFX** thin, at the top of the spiral: "VWOOM". No balloon.
 3. **Middle centre, x=34–65 y=30–56; medium.** Cast/blocking: Jiraiya standing beside the desk at
-   frame left with his arms folded, facing right at Naruto; the expression is the serious one, not the
-   comic one. No text.
+   frame left with his arms folded, facing right at Naruto; the expression is the serious one, not
+   the comic one. **B1** upper centre, Jiraiya: "YOU TOOK YOUR TIME." Tail points to visible
+   Jiraiya's mouth.
 4. **Middle left, x=0–31 y=30–56; close-up.** Cast/blocking: Tsunade behind the desk facing right, both
    hands flat on the desktop; she is looking at the paperwork and not at him. No text.
-5. **Bottom right, x=68–100 y=60–100; medium.** Cast/blocking: Naruto with his arms folded across the
-   armour, entirely unbothered by either of them; he returns Jiraiya's stare and does not look at
-   Tsunade at all. No text.
+5. **Bottom right, x=68–100 y=60–100; medium.** Cast/blocking: Naruto with his arms folded across
+   the armour, entirely unbothered by either of them; he returns Jiraiya's stare and does not look
+   at Tsunade at all. **B2** upper right, Naruto: "YOU WANTED ME HERE." Tail points to visible
+   Naruto's mouth.
 6. **Bottom centre, x=34–65 y=60–100; close-up.** Cast/blocking: Tsunade's eyes lift to him for half a
-   second and go straight back down. **B1** upper centre, tail-less thought balloon, Tsunade: "I HAVE
+   second and go straight back down. **B3** upper centre, tail-less thought balloon, Tsunade: "I HAVE
    NOT SPOKEN TO HIM SINCE THAT DAY."
 7. **Bottom left, x=0–31 y=60–100; memory inset, torn ragged border — the flashback opens here.**
    Cast/blocking: the same office at a different hour; frost is forming on the inside of the window
@@ -712,18 +719,20 @@ went well.
 
 ## Dialogue QA
 
-- **122 balloons, one chapter marker and three location/time cards across 18 pages.** The marker is
+- **129 balloons, one chapter marker and three location/time cards across 18 pages.** The marker is
   exactly "CHAPTER 5 — ALWAYS THE SUSPECT". The three cards are exactly "THE NEXT MORNING" (p1),
   "HOKAGE'S OFFICE" (p4 CAP1) and "DAYS AGO" (p4 CAP2). Balloon numbering restarts and stays
   contiguous on every page.
-- Per-page balloon counts, summing to 122: p1 4, p2 2, p3 3, p4 1, p5 6, p6 7, p7 7, p8 5, p9 7,
-  p10 8, p11 9, p12 6, p13 10, p14 9, p15 7, p16 9, p17 9, p18 13.
+- Per-page balloon counts, summing to 129: p1 6, p2 4, p3 4, p4 3, p5 6, p6 7, p7 7, p8 5, p9 7,
+  p10 8, p11 9, p12 6, p13 10, p14 9, p15 7, p16 9, p17 9, p18 13. No panel carries more than four.
 - Per-page panel counts, summing to 123: p1 6, p2 6, p3 7, p4 7, p5 7, p6 8, p7 7, p8 6, p9 7, p10 6,
   p11 7, p12 6, p13 7, p14 7, p15 7, p16 7, p17 7, p18 8.
-- **This is deliberately the volume's wordiest chapter and the density is still not uniform.** Pages
-  1–4 average two and a half balloons — the waking sequence is nearly silent and page 4 carries a
-  single thought across seven panels. The interrogation then runs at seven to ten a page, and page 18
-  spikes to thirteen because four refusals, one bargain and an exit have to close in one page.
+- **The density is still not uniform.** Pages 1–4 average four balloons — the waking sequence stays
+  the quietest run in the chapter, and **every one of its five added lines except two is a tail-less
+  thought balloon of Naruto's own**, so the silence of the room is not broken: he tries the eye,
+  nothing happens, and he says so only to himself. The dose panel, the eye panel and the black-flame
+  exit stay wordless. The interrogation then runs at seven to ten a page, and page 18 spikes to
+  thirteen because four refusals, one bargain and an exit have to close in one page.
 - Preserved from `SOURCE_TRUTH.md`'s verbatim list: "SENJU." (p6 B2), "MAYBE..." (p8 B5), "GENKAI
   KEKKEI." (p17 B8), "BECAUSE I CAN." (p18 B9), and Sasuke's "ON MY AUTHORITY, HOKAGE-SAMA." (p16
   B2). Naruto's answer to the Sannin summons is rendered as the single syllable "HN." (p6 B6) and

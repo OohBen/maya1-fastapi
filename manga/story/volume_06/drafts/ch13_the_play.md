@@ -14,7 +14,7 @@ then the reader watches his third move land in a room he has never entered. The 
 domestic and belong together; they are Chapter 14. See "Deliberate reordering, declared" in the
 Dialogue QA.
 
-**Length:** 16 pages, eight spreads, 100 panels, 101 balloons plus one chapter marker, three
+**Length:** 16 pages, eight spreads, 100 panels, 117 balloons plus one chapter marker, three
 location/time cards, and two SFX units.
 
 **Status:** final dialogue and executable textual `name`; ready for independent source and
@@ -157,15 +157,16 @@ rather than an event — the reader is hearing about a battle from a man who cho
    face in frame; his mouth is doing something that could be read as pleased. **B2** upper centre,
    Zetsu: "DEIDARA TOLD SUNA TO HAND OVER THEIR KAZEKAGE OR HE WOULD TAKE THE VILLAGE APART." Tail
    points to visible Zetsu's mouth.
-4. **Middle left, x=0–31 y=34–58; close-up.** Cast/blocking: Zetsu, facing right, the black half of his
-   face catching the low light. **B3** upper left, Zetsu: "THE VILLAGERS REFUSED." Tail points to
+4. **Middle left, x=0–31 y=34–58; close-up.** Cast/blocking: Zetsu, facing right, the black half of
+   his face catching the low light. **B3** upper left, Zetsu: "THE VILLAGERS REFUSED." Tail points
+   to visible Zetsu's mouth. **B4** lower left, Zetsu: "EVERY ONE OF THEM." Tail points to the same
    visible Zetsu's mouth.
 5. **Bottom right, x=55–100 y=62–100; medium two-shot.** Cast/blocking: Naruto seated at frame right,
-   entirely unmoved, facing left; Zetsu standing at frame left facing right. **B4** upper right,
-   Naruto: "THEY REFUSED." Tail points to visible Naruto's mouth. **B5** lower left, Zetsu: "THEY PUT
+   entirely unmoved, facing left; Zetsu standing at frame left facing right. **B5** upper right,
+   Naruto: "THEY REFUSED." Tail points to visible Naruto's mouth. **B6** lower left, Zetsu: "THEY PUT
    OUT HIS EXPLOSIONS THEMSELVES. HE BARELY GOT AWAY." Tail points to visible Zetsu's mouth.
 6. **Bottom left, x=0–51 y=62–100; tight close-up.** Cast/blocking: Naruto's visible left eye, facing
-   left; nothing in the face has changed. **B6** upper left, Naruto: "AND GAARA?" Tail points to
+   left; nothing in the face has changed. **B7** upper left, Naruto: "AND GAARA?" Tail points to
    visible Naruto's mouth.
 
 #### Page 2 — 7 panels
@@ -180,22 +181,22 @@ and no more, and let Zetsu's professional satisfaction sit next to Naruto's tota
    Zetsu: "HE WENT DOWN FROM THE BLOOD. HE DID NOT LOSE THE VILLAGE." Tail points to visible Zetsu's
    mouth.
 3. **Top left, x=0–31 y=0–26; close-up.** Cast/blocking: Naruto facing left; no change of any kind.
-   No text.
+   **B3** upper left, Naruto: "A LEG AND A HAND." Tail points to visible Naruto's mouth.
 4. **Middle band focal panel, x=0–100 y=30–56; wide with one inset.** Cast/blocking: the hall, Naruto
    at frame right and Zetsu at frame left; floating over the empty middle of the hall between them, a
    single **soft-edged rectangular inset** occupying roughly x=36–64 of the panel: a cratered Suna
    street, and half-buried in the sand a **severed right hand**, with sand already drawing itself up
    over it. **No person appears in the inset — no Gaara, no Deidara, no face, no body.** This is the
    only image of the Suna battle anywhere in Volume 6. No text.
-5. **Middle-lower right, x=68–100 y=60–78; close-up.** Cast/blocking: Naruto facing left. **B3** upper
+5. **Middle-lower right, x=68–100 y=60–78; close-up.** Cast/blocking: Naruto facing left. **B4** upper
    right, Naruto: "SASORI?" Tail points to visible Naruto's mouth.
-6. **Middle-lower left, x=0–65 y=60–78; medium.** Cast/blocking: Zetsu facing right. **B4** upper
+6. **Middle-lower left, x=0–65 y=60–78; medium.** Cast/blocking: Zetsu facing right. **B5** upper
    right, Zetsu: "DEAD. THEY WERE READY FOR HIS POISON BECAUSE YOU TOLD THEM WHAT HE USES." Tail
-   points to visible Zetsu's mouth. **B5** lower left, Zetsu: "I TOOK DEIDARA'S HEAD TO GUREN. THE
+   points to visible Zetsu's mouth. **B6** lower left, Zetsu: "I TOOK DEIDARA'S HEAD TO GUREN. THE
    BOUNTY GOES TO OTO. THE VILLAGE NEEDS THE MONEY." Tail points to the same visible mouth.
 7. **Bottom band, x=0–100 y=82–100; narrow wide strip.** Cast/blocking: Naruto still in the seat at
-   frame right; Zetsu at frame left. **B6** upper right, Naruto: "EXCELLENT." Tail points to visible
-   Naruto's mouth. **B7** lower left, Zetsu: "IT WAS WORTH WATCHING. HIS SAND HAS IMPROVED. SPEED
+   frame right; Zetsu at frame left. **B7** upper right, Naruto: "EXCELLENT." Tail points to visible
+   Naruto's mouth. **B8** lower left, Zetsu: "IT WAS WORTH WATCHING. HIS SAND HAS IMPROVED. SPEED
    ALONE WILL NOT GET THROUGH IT NOW." Tail points to visible Zetsu's mouth.
 
 **Page turn:** He starts counting what he owns.
@@ -244,24 +245,26 @@ the manga has to make the reader sit in it, which is the whole reason this scene
 1. **Top right, x=68–100 y=0–24; close-up.** Cast/blocking: Zetsu facing right, mouth shut. He is not
    going to answer. No text.
 2. **Top centre, x=34–65 y=0–24; close-up.** Cast/blocking: Naruto facing left, waiting, and not
-   receiving anything. No text.
-3. **Top left, x=0–31 y=0–24; tighter close-up.** Cast/blocking: Naruto, unchanged. **B1** upper left,
+   receiving anything. **B1** upper centre, Naruto: "NOTHING, THEN." Tail points to visible
+   Naruto's mouth.
+3. **Top left, x=0–31 y=0–24; tighter close-up.** Cast/blocking: Naruto, unchanged. **B2** upper left,
    Naruto: "DO YOU THINK MY MOTHER WOULD BE PROUD?" Tail points to visible Naruto's mouth.
 4. **Middle band focal panel, x=0–100 y=28–62; extreme wide, low.** Cast/blocking: the whole hall.
    Naruto stands at frame right, Zetsu is a small figure at frame left, the black empty socket fills
    the rock behind them, and the distance of bare stone floor between the two of them is the largest
-   thing in the panel. **B2** upper right, Naruto: "IF SHE SAW ME WALKING ABOUT WITHOUT A CARE IN THE
-   WORLD." Tail points to visible Naruto's mouth. **B3** lower left, tail-less thought balloon, Zetsu:
+   thing in the panel. **B3** upper right, Naruto: "IF SHE SAW ME WALKING ABOUT WITHOUT A CARE IN THE
+   WORLD." Tail points to visible Naruto's mouth. **B4** lower left, tail-less thought balloon, Zetsu:
    "HE HAS ASKED ME TWO QUESTIONS TONIGHT. I HAVE NO ANSWER TO EITHER."
 5. **Bottom right, x=68–100 y=66–100; medium.** Cast/blocking: Naruto stepping down off the dais and
-   moving toward frame left. **B4** upper right, Naruto: "I FIND MYSELF ASKING THESE KINDS OF
+   moving toward frame left. **B5** upper right, Naruto: "I FIND MYSELF ASKING THESE KINDS OF
    QUESTIONS THESE DAYS." Tail points to visible Naruto's mouth.
-6. **Bottom centre, x=34–65 y=66–100; close-up.** Cast/blocking: Naruto facing left. **B5** upper
+6. **Bottom centre, x=34–65 y=66–100; close-up.** Cast/blocking: Naruto facing left. **B6** upper
    centre, Naruto: "PERHAPS IT IS YUGAO. PERHAPS I AM ONLY LETTING OUT WHAT I BURIED." Tail points to
    visible Naruto's mouth.
-7. **Bottom left, x=0–31 y=66–100; close-up.** Cast/blocking: Naruto shakes his head once — a single
-   small movement, the only one on the page. **B6** upper left, Naruto: "IT SHOULD NOT BOTHER ME."
-   Tail points to visible Naruto's mouth.
+7. **Bottom left, x=0–31 y=66–100; close-up.** Cast/blocking: Naruto shakes his head once — a
+   single small movement, the only one on the page. **B7** upper left, Naruto: "IT SHOULD NOT
+   BOTHER ME." Tail points to visible Naruto's mouth. **B8** lower left, Naruto: "AND YET." Tail
+   points to the same visible Naruto's mouth.
 
 **Page turn:** So what will he do about it? Nothing.
 
@@ -305,25 +308,26 @@ exactly who he says he still is.
 because he has decided something, the whole face is uncovered for the reader for the first time, and
 the instruction he gives with it has no verb of restraint anywhere in it.
 
-1. **Top right, x=62–100 y=0–22; close-up.** Cast/blocking: Naruto's own hand dragging down over his
-   face from the forehead, facing left. No text.
+1. **Top right, x=62–100 y=0–22; close-up.** Cast/blocking: Naruto's own hand dragging down over
+   his face from the forehead, facing left. **B1** upper right, Zetsu: "...NARUTO?" `OFF`, tail
+   exits the left edge toward Zetsu. He gets no reply, and he does not ask again.
 2. **Top left, x=0–58 y=0–22; close-up.** Cast/blocking: the same hand sweeping the right-side bang
    **back and off** the right half of his face. No text.
 3. **Middle band focal panel, x=0–100 y=26–56; large frontal close-up.** Cast/blocking: Naruto's whole
    face, uncovered for the first time in this chapter, **both** Eternal Mangekyō open and level; a
    sliver of Zetsu's shoulder at the extreme frame-left edge. The face gives away nothing except that
-   he has stopped considering the matter. **B1** upper right, Naruto: "HE HAS GONE FURTHER THAN I
+   he has stopped considering the matter. **B2** upper right, Naruto: "HE HAS GONE FURTHER THAN I
    EXPECTED." Tail points to visible Naruto's mouth.
 4. **Middle-lower right, x=55–100 y=60–80; medium two-shot.** Cast/blocking: Naruto at frame right
-   facing left; Zetsu at frame left facing right. **B2** upper right, Naruto: "I WANTED HIM TO KEEP
+   facing left; Zetsu at frame left facing right. **B3** upper right, Naruto: "I WANTED HIM TO KEEP
    PLAYING." Tail points to visible Naruto's mouth.
 5. **Middle-lower left, x=0–51 y=60–80; close-up.** Cast/blocking: Naruto, bang still swept back,
-   facing left. **B3** upper right of this panel, Naruto: "DEAL WITH THEM AND THEN DROP THEM IN
+   facing left. **B4** upper right of this panel, Naruto: "DEAL WITH THEM AND THEN DROP THEM IN
    OHNOKI'S OFFICE. DEAD." Tail points to visible Naruto's mouth.
 6. **Bottom band, x=0–100 y=84–100; wide, from behind the empty stone seat at frame right.**
    Cast/blocking: the hall; Zetsu standing in the middle-left of the floor with his back to the
    reader; Naruto already only a silhouette in the far passage mouth at the extreme frame left.
-   **B4** upper left, tail-less thought balloon, Zetsu: "NOTHING ON HIS FACE. AS ALWAYS."
+   **B5** upper left, tail-less thought balloon, Zetsu: "NOTHING ON HIS FACE. AS ALWAYS."
 
 **Page turn:** Morning, and a completely different kind of room.
 
@@ -339,25 +343,28 @@ the instruction he gives with it has no verb of restraint anywhere in it.
 decision transacted in one word so that the reader feels how little of him it costs.
 
 1. **Top band, x=0–100 y=0–30; wide establishing interior.** Cast/blocking: the Hokage's office in
-   hard morning light. Tsunade behind the desk at frame left facing right; Mei seated centre-left in
-   **full Mizukage robes and hat**, half turned; Naruto seated at frame right in armour and forehead
-   protector, facing left. Protect x=6–40 y=4–19 as plain lit wall: no shelf, frame, window bar or
-   balloon may enter it. **CAP1** upper right, tail-less time card, small box: "THE NEXT MORNING".
-   **CAP2** directly below it, tail-less location card, small box: "KONOHA — THE HOKAGE'S OFFICE".
+   hard morning light. Tsunade behind the desk at frame left facing right; Mei seated centre-left
+   in **full Mizukage robes and hat**, half turned; Naruto seated at frame right in armour and
+   forehead protector, facing left. Protect x=6–40 y=4–19 as plain lit wall: no shelf, frame,
+   window bar or balloon may enter it. **CAP1** upper right, tail-less time card, small box: "THE
+   NEXT MORNING". **CAP2** directly below it, tail-less location card, small box: "KONOHA — THE
+   HOKAGE'S OFFICE". **B1** upper left, Mei: "GOOD MORNING, NARUTO." Tail points to visible Mei's
+   mouth.
 2. **Middle right, x=68–100 y=34–58; medium.** Cast/blocking: Tsunade at the desk, facing right, in
-   her Hokage register. **B1** upper right, Tsunade: "NARUTO. MEI-SAN AND I HAVE FINALISED THE
+   her Hokage register. **B2** upper right, Tsunade: "NARUTO. MEI-SAN AND I HAVE FINALISED THE
    ALLIANCE BETWEEN KONOHA AND KIRI." Tail points to visible Tsunade's mouth.
 3. **Middle centre, x=34–65 y=34–58; close-up.** Cast/blocking: Tsunade facing right, picking her
-   words with visible care. **B2** upper centre, Tsunade: "WHAT IS LEFT IS FOR THE TWO OF YOU TO
-   SETTLE THE OTHER TERMS." Tail points to visible Tsunade's mouth. **B3** lower centre, tail-less
+   words with visible care. **B3** upper centre, Tsunade: "WHAT IS LEFT IS FOR THE TWO OF YOU TO
+   SETTLE THE OTHER TERMS." Tail points to visible Tsunade's mouth. **B4** lower centre, tail-less
    thought balloon, Tsunade: "I AM NOT GOING TO SAY THE WORD."
-4. **Middle left, x=0–31 y=34–58; close-up.** Cast/blocking: Naruto facing left. Nothing. No text.
+4. **Middle left, x=0–31 y=34–58; close-up.** Cast/blocking: Naruto facing left. Nothing. **B5**
+   upper left, Mei: "HE IS THINKING ABOUT IT." `OFF`, tail exits the right edge toward Mei.
 5. **Bottom right, x=62–100 y=62–100; medium.** Cast/blocking: Naruto in the chair at frame right,
-   facing left; the beat is held long enough to be uncomfortable. **B4** upper right, Naruto: "OKAY."
+   facing left; the beat is held long enough to be uncomfortable. **B6** upper right, Naruto: "OKAY."
    Tail points to visible Naruto's mouth.
 6. **Bottom left, x=0–58 y=62–100; medium.** Cast/blocking: Tsunade at the desk facing right, caught
-   completely off balance by the least dramatic answer available. **B5** upper left, tail-less thought
-   balloon, Tsunade: "...OKAY?" **B6** lower left, tail-less thought balloon, Tsunade: "WHAT IS WRONG
+   completely off balance by the least dramatic answer available. **B7** upper left, tail-less thought
+   balloon, Tsunade: "...OKAY?" **B8** lower left, tail-less thought balloon, Tsunade: "WHAT IS WRONG
    WITH HIM THESE DAYS?"
 
 #### Page 8 — 7 panels
@@ -415,16 +422,17 @@ about a letter — and set up gratitude as something Naruto has to be *told* he 
 3. **Middle right, x=68–100 y=28–52; medium.** Cast/blocking: the door shut at frame left; Tsunade
    leaning back in the chair and staring up at the ceiling, facing right. **B4** upper right, Tsunade:
    "A MESSENGER BIRD CAME FROM SUNAGAKURE IN THE NIGHT." Tail points to visible Tsunade's mouth.
-4. **Middle centre, x=34–65 y=28–52; close-up.** Cast/blocking: Naruto facing left. No reaction of any
-   kind. No text.
-5. **Middle left, x=0–31 y=28–52; close-up.** Cast/blocking: Tsunade facing right. **B5** upper left,
+4. **Middle centre, x=34–65 y=28–52; close-up.** Cast/blocking: Naruto facing left. No reaction of
+   any kind. **B5** upper centre, Tsunade: "YOU ARE NOT GOING TO ASK ME WHICH ONE." `OFF`, tail
+   exits the left edge toward Tsunade.
+5. **Middle left, x=0–31 y=28–52; close-up.** Cast/blocking: Tsunade facing right. **B6** upper left,
    Tsunade: "AKATSUKI ATTACKED. THEY KILLED ONE. THE OTHER RAN." Tail points to visible Tsunade's
    mouth.
 6. **Bottom band, x=0–100 y=56–100; wide across the desk.** Cast/blocking: Tsunade at frame left with
    the opened Suna scroll under her hand — the writing on it ILLEGIBLE SCRIBBLE; Naruto at frame right
-   giving one small nod and nothing else. **B6** upper left, Tsunade: "THE KAZEKAGE SAYS HE IS
+   giving one small nod and nothing else. **B7** upper left, Tsunade: "THE KAZEKAGE SAYS HE IS
    GRATEFUL FOR YOUR HELP. THE SCROLL DOES NOT SAY WHAT YOUR HELP WAS." Tail points to visible
-   Tsunade's mouth. **B7** lower left, Tsunade: "ONLY THAT WITHOUT IT HE WOULD HAVE BEEN TAKEN." Tail
+   Tsunade's mouth. **B8** lower left, Tsunade: "ONLY THAT WITHOUT IT HE WOULD HAVE BEEN TAKEN." Tail
    points to the same visible mouth.
 
 #### Page 10 — 7 panels
@@ -472,23 +480,24 @@ he does not once look away either.
 **Purpose:** Show the reader that a sincere offer is being priced. Both people in the room are being
 honest and only one of them is being kind, and the page says so without a caption.
 
-1. **Top right, x=68–100 y=0–24; close-up.** Cast/blocking: Naruto facing left, giving nothing back.
-   No text.
+1. **Top right, x=68–100 y=0–24; close-up.** Cast/blocking: Naruto facing left, giving nothing
+   back. **B1** upper right, Tsunade: "WELL?" `OFF`, tail exits the left edge toward Tsunade.
 2. **Top centre, x=34–65 y=0–24; close-up.** Cast/blocking: Tsunade facing right, waiting for an
-   answer she is not sure she will get. **B1** upper centre, tail-less thought balloon, Tsunade:
+   answer she is not sure she will get. **B2** upper centre, tail-less thought balloon, Tsunade:
    "JIRAIYA DOES NOT THINK HE WILL BETRAY US EITHER."
-3. **Top left, x=0–31 y=0–24; tighter close-up.** Cast/blocking: Tsunade, unchanged. **B2** upper left,
+3. **Top left, x=0–31 y=0–24; tighter close-up.** Cast/blocking: Tsunade, unchanged. **B3** upper left,
    tail-less thought balloon, Tsunade: "NEITHER OF US CAN SAY WHAT HE WANTS."
 4. **Middle band, x=0–100 y=28–52; wide across the desk.** Cast/blocking: Tsunade at frame left;
-   behind her on the office wall, the row of framed **Hokage portraits**; Naruto at frame right — and
-   **his eye-line is not on Tsunade.** It is on the bare wall past the last frame in the row. No text.
-5. **Middle-lower right, x=62–100 y=56–76; close-up.** Cast/blocking: Naruto facing left. **B3** upper
+   behind her on the office wall, the row of framed **Hokage portraits**; Naruto at frame right —
+   and **his eye-line is not on Tsunade.** It is on the bare wall past the last frame in the row.
+   **B4** upper left, tail-less thought balloon, Tsunade: "HE IS NOT EVEN LOOKING AT ME."
+5. **Middle-lower right, x=62–100 y=56–76; close-up.** Cast/blocking: Naruto facing left. **B5** upper
    right, tail-less thought balloon, Naruto: "IT WILL MAKE THE TRANSITION SMOOTHER WHEN I TAKE THAT
    CHAIR."
-6. **Middle-lower left, x=0–58 y=56–76; close-up.** Cast/blocking: Naruto, unchanged. **B4** upper
+6. **Middle-lower left, x=0–58 y=56–76; close-up.** Cast/blocking: Naruto, unchanged. **B6** upper
    left, tail-less thought balloon, Naruto: "PETTY ARGUMENTS COST TIME I DO NOT HAVE."
 7. **Bottom band, x=0–100 y=80–100; wide.** Cast/blocking: Naruto standing up out of the chair at
-   frame right, facing left; Tsunade at frame left looking up at him. **B5** upper right, Naruto:
+   frame right, facing left; Tsunade at frame left looking up at him. **B7** upper right, Naruto:
    "VERY WELL THEN." Tail points to visible Naruto's mouth.
 
 #### Page 12 — 6 panels
@@ -500,14 +509,17 @@ scorched disc on the floor is the only thing he gives her.
    around Naruto where he stood at frame right — origin at his own feet and the floorboards beneath
    them, rising around him; Tsunade half out of her chair at frame left. **SFX** at the flame:
    "VWOOM". No balloon.
-2. **Top left, x=0–58 y=0–26; medium.** Cast/blocking: the chair empty; a **clean scorched disc** on
-   the floorboards where he was standing; Tsunade still half risen at frame left. No text.
+2. **Top left, x=0–58 y=0–26; medium.** Cast/blocking: the chair empty; a **clean scorched disc**
+   on the floorboards where he was standing; Tsunade still half risen at frame left. **B1** upper
+   left, Tsunade: "...HE DID NOT EVEN SAY GOODBYE." Tail points to visible Tsunade's mouth; she is
+   alone and is saying it to the room.
 3. **Middle right, x=68–100 y=30–54; close-up.** Cast/blocking: Tsunade sitting back down, facing
-   right. **B1** upper right, tail-less thought balloon, Tsunade: "I HAVE JUST TOLD HIM I TRUST HIM."
-4. **Middle centre, x=34–65 y=30–54; insert close-up.** Cast/blocking: no faces; the scorched disc on
-   the boards, edges still faintly smoking. No text.
+   right. **B2** upper right, tail-less thought balloon, Tsunade: "I HAVE JUST TOLD HIM I TRUST HIM."
+4. **Middle centre, x=34–65 y=30–54; insert close-up.** Cast/blocking: no faces; the scorched disc
+   on the boards, edges still faintly smoking. **B3** upper centre, tail-less thought balloon,
+   Tsunade: "AND HE BURNS MY FLOOR EVERY TIME."
 5. **Middle left, x=0–31 y=30–54; tight close-up.** Cast/blocking: Tsunade's eyes, facing right.
-   **B2** upper left, tail-less thought balloon, Tsunade: "AND I STILL DO NOT KNOW WHAT HE WANTS."
+   **B4** upper left, tail-less thought balloon, Tsunade: "AND I STILL DO NOT KNOW WHAT HE WANTS."
 6. **Bottom band, x=0–100 y=58–100; large wide from the doorway.** Cast/blocking: the whole office
    seen from the door — the desk, the window, Konoha beyond it; Tsunade very small behind her
    paperwork at frame left; the scorched disc alone in the middle of an otherwise empty floor. No
@@ -557,8 +569,8 @@ village is doing well, and every precaution he has taken is a reasonable one.
 **Purpose:** Deliver Naruto's order from the receiving end. The reader has known since page 6 what is
 in the air above this desk; Ōnoki has not.
 
-1. **Top right, x=68–100 y=0–24; close-up.** Cast/blocking: Ōnoki's head snapping up, eyes widening,
-   facing left. No text.
+1. **Top right, x=68–100 y=0–24; close-up.** Cast/blocking: Ōnoki's head snapping up, eyes
+   widening, facing left. **B1** upper right, Ōnoki: "WHAT—" Tail points to visible Ōnoki's mouth.
 2. **Top centre, x=34–65 y=0–24; low angle looking up.** Cast/blocking: the office ceiling and the air
    beneath it; two dark shapes falling toward the floor, seen from below, unidentifiable. No text.
 3. **Top left, x=0–31 y=0–24; close-up on floorboards.** Cast/blocking: no figures; the impact. **SFX**
@@ -567,14 +579,15 @@ in the air above this desk; Ōnoki has not.
    where they landed at frame left — **staged entirely by implication:** face down, limbs at wrong
    angles, uniform and mask only, **no wound and no blood pool drawn**. Three Iwa ANBU are already
    crouched over them with blades out. Ōnoki is off his chair at frame right, hovering, facing left.
-   **B1** upper right, Ōnoki: "WHAT IS IT?" Tail points to visible Ōnoki's mouth. **B2** lower
+   **B2** upper right, Ōnoki: "WHAT IS IT?" Tail points to visible Ōnoki's mouth. **B3** lower
    centre-left, Iwa ANBU: "CORPSES, SIR." Tail points to the visible kneeling ANBU's masked mouth.
-   **B3** lower left and **below B2**, same Iwa ANBU: "STILL WARM. THIS WAS DONE A SHORT TIME AGO."
+   **B4** lower left and **below B2**, same Iwa ANBU: "STILL WARM. THIS WAS DONE A SHORT TIME AGO."
    Tail points to the same visible masked mouth.
-5. **Bottom right, x=68–100 y=64–100; medium.** Cast/blocking: an Iwa ANBU at frame left lifting one
-   body upright by the shoulders and turning it to face the Tsuchikage; **the corpse is seen from
-   behind and its face is away from the reader.** Ōnoki at frame right. **B4** upper right, Ōnoki:
-   "WHO ARE THEY?" Tail points to visible Ōnoki's mouth.
+5. **Bottom right, x=68–100 y=64–100; medium.** Cast/blocking: an Iwa ANBU at frame left lifting
+   one body upright by the shoulders and turning it to face the Tsuchikage; **the corpse is seen
+   from behind and its face is away from the reader.** Ōnoki at frame right. **B5** upper right,
+   Ōnoki: "WHO ARE THEY?" Tail points to visible Ōnoki's mouth. **B6** lower right, Ōnoki: "TURN
+   HIM." Tail points to the same visible Ōnoki's mouth.
 6. **Bottom left, x=0–65 y=64–100; focal close-up.** Cast/blocking: Ōnoki's face alone, eyes wide, the
    recognition landing. **The corpse is not in this panel.** The reader is told who they are entirely
    by what happens to the old man's face. No text.
@@ -622,19 +635,21 @@ source range: Naruto's order, given eleven pages ago in a room the reader has al
 a man's office away from him.
 
 1. **Top right, x=62–100 y=0–24; medium.** Cast/blocking: an Iwa ANBU on one knee at frame left,
-   facing right; Ōnoki at frame right, facing left. **B1** upper right, Ōnoki: "WHAT HAVE YOU FOUND?"
-   Tail points to visible Ōnoki's mouth.
-2. **Top left, x=0–58 y=0–24; medium.** Cast/blocking: the kneeling Iwa ANBU, head down. **B2** upper
-   right, Iwa ANBU: "NOTHING, TSUCHIKAGE-SAMA." Tail points to visible ANBU's masked mouth.
+   facing right; Ōnoki at frame right, facing left. **B1** upper right, Ōnoki: "WHAT HAVE YOU
+   FOUND?" Tail points to visible Ōnoki's mouth. **B2** lower right, Ōnoki: "TELL ME SOMETHING
+   USEFUL." Tail points to the same visible Ōnoki's mouth.
+2. **Top left, x=0–58 y=0–24; medium.** Cast/blocking: the kneeling Iwa ANBU, head down. **B3**
+   upper right, Iwa ANBU: "NOTHING, TSUCHIKAGE-SAMA." Tail points to visible ANBU's masked mouth.
+   **B4** lower right, Ōnoki: "NOTHING." `OFF`, tail exits the right edge toward Ōnoki.
 3. **Middle band, x=0–100 y=28–54; wide.** Cast/blocking: the office; the ANBU still kneeling at frame
    left, Ōnoki at frame right, and between them the bare patch of floor the bodies were taken from.
-   **B3** upper left, Iwa ANBU: "NO CHAKRA TRACE. NO FOREIGN SCENT. THE GATE GUARDS SAW NO ONE." Tail
-   points to visible ANBU's masked mouth. **B4** lower left, same Iwa ANBU: "WE HAVE SET A PERIMETER
+   **B5** upper left, Iwa ANBU: "NO CHAKRA TRACE. NO FOREIGN SCENT. THE GATE GUARDS SAW NO ONE." Tail
+   points to visible ANBU's masked mouth. **B6** lower left, same Iwa ANBU: "WE HAVE SET A PERIMETER
    AROUND THE VILLAGE. IF HE IS STILL INSIDE, HE CANNOT GET OUT." Tail points to the same visible
    masked mouth.
 4. **Middle-lower band, x=0–100 y=58–78; medium wide.** Cast/blocking: Ōnoki at frame right nodding
-   once, slowly, satisfied; the ANBU bowing out at frame left. **B5** upper right, Ōnoki: "GOOD." Tail
-   points to visible Ōnoki's mouth. **B6** lower right, tail-less thought balloon, Ōnoki: "WE WILL
+   once, slowly, satisfied; the ANBU bowing out at frame left. **B7** upper right, Ōnoki: "GOOD." Tail
+   points to visible Ōnoki's mouth. **B8** lower right, tail-less thought balloon, Ōnoki: "WE WILL
    HAVE HIM."
 5. **Bottom band focal panel, x=0–100 y=82–100; wide letterbox, from high in a ceiling corner.**
    Cast/blocking: the Tsuchikage's office seen from above — every window shuttered, the door held by
@@ -647,31 +662,35 @@ black flame the reader watched leave the Hokage's office arrives on the training
 
 ## Dialogue QA
 
-- **101 balloons, one chapter marker, three location/time cards and two SFX units across 16 pages.**
+- **117 balloons, one chapter marker, three location/time cards and two SFX units across 16 pages.**
   The marker is exactly "CHAPTER 13 — THE PLAY". The three cards are exactly "THE HIDEOUT" (p1),
   "THE NEXT MORNING" and "KONOHA — THE HOKAGE'S OFFICE" (p7), and "IWAGAKURE" (p13). Balloon
   numbering restarts and stays contiguous on every page.
-- Per-page balloon counts, summing to 101: p1 6, p2 7, p3 8, p4 6, p5 7, p6 4, p7 6, p8 10, p9 7,
-  p10 8, p11 5, p12 2, p13 7, p14 4, p15 8, p16 6.
+- Per-page balloon counts, summing to 117: p1 7, p2 8, p3 8, p4 8, p5 7, p6 5, p7 8, p8 10, p9 8,
+  p10 8, p11 7, p12 4, p13 7, p14 6, p15 8, p16 8. No panel carries more than four.
 - Per-page panel counts, summing to 100: p1 6, p2 7, p3 6, p4 7, p5 6, p6 6, p7 6, p8 7, p9 6, p10 7,
   p11 7, p12 6, p13 6, p14 6, p15 6, p16 5.
-- **Density is deliberately uneven and tracks who is in control.** The hideout runs six to eight a
-  page. Page 6 — the order — drops to four, three of which are one sentence each. The office rises to
-  ten on page 8 because three people want three different things, then falls to **two on page 12**,
-  which is the quietest page in the chapter and the one where the most has just happened. Iwa runs
-  four to eight, and page 14 spends three of its six panels wordless.
+- **Density averages 7.3 and is still deliberately uneven, tracking who is in control.** The hideout
+  runs seven to eight a page. Page 6 — the order — stays the chapter's floor at five, of which four
+  are one sentence each. The office peaks at ten on page 8 because three people want three different
+  things, then falls to **four on page 12**, which is still the quietest page in the chapter and the
+  one where the most has just happened; both of its added lines are Tsunade's and she is alone in the
+  room for both. Page 14 still spends three of its six panels wordless, **including its focal panel
+  6**, where the reader learns who the corpses are entirely from Ōnoki's face.
 - Preserved from `SOURCE_TRUTH.md`'s verbatim list: **"DO YOU THINK MY MOTHER WOULD BE PROUD?" / "IF
-  SHE SAW ME WALKING ABOUT WITHOUT A CARE IN THE WORLD."** (p4 B1–B2) and **"DEAL WITH THEM AND THEN
-  DROP THEM IN OHNOKI'S OFFICE. DEAD."** (p6 B3). Both are split across balloons for manga rhythm and
+  SHE SAW ME WALKING ABOUT WITHOUT A CARE IN THE WORLD."** (p4 B2–B3) and **"DEAL WITH THEM AND THEN
+  DROP THEM IN OHNOKI'S OFFICE. DEAD."** (p6 B4). Both are split across balloons for manga rhythm and
   neither may be reworded, merged, or softened. Naruto's acceptance of Tsunade is the single phrase
-  "VERY WELL THEN." (p11 B5) and must not be expanded.
+  "VERY WELL THEN." (p11 B7) and must not be expanded.
 - **Zetsu never answers either question.** Pages 3 and 4 must not acquire a Zetsu reply, a hedge, or a
-  comforting line. His only response is a thought balloon that says he has none (p4 B3), and his last
-  balloon in the chapter says the same thing about Naruto's face (p6 B4).
+  comforting line — both lines added to page 4 are Naruto's, "NOTHING, THEN." and "AND YET.", and
+  they name the silence rather than fill it. Zetsu's only response is a thought balloon that says he
+  has none (p4 B4), and his last balloon in the chapter says the same thing about Naruto's face
+  (p6 B5). The "...NARUTO?" added at p6 panel 1 is not an answer to anything and is itself ignored.
 - **Naruto asks four questions in the hideout and states one instruction.** He never explains himself
   to Zetsu, never justifies the order, and never says what he wants Iwa to do — the reader works out
   the intent from the Iwa scene, not from a line.
-- **Tsunade's five thought balloons carry everything she will not say aloud**, exactly as in Chapter
+- **Tsunade's seven thought balloons carry everything she will not say aloud**, exactly as in Chapter
   5. She never accuses him, never asks him a question about himself, and her last thought is a
   confession of ignorance rather than of suspicion.
 - **Ōnoki is a thinker, not a talker.** Fourteen of his twenty balloons are thoughts and six are
