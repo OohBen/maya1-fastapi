@@ -75,5 +75,54 @@
   "size": "1152x2048",
   "cost": 0.012,
   "style_ref": null
+ },
+ {
+  "page": "p08",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "v02_p058.png"
+ },
+ {
+  "page": "p17",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "v01_p181.png"
+ },
+ {
+  "page": "p11",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": null
+ },
+ {
+  "page": "p16",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "style_v01_p094.png"
+ },
+ {
+  "page": "p09",
+  "quality": "low",
+  "size": "1152x2048",
+  "cost": 0.012,
+  "style_ref": "v03_p158.png"
+ },
+ {
+  "page": "p10",
+  "quality": "medium",
+  "size": "2160x3840",
+  "cost": 0.047,
+  "style_ref": "v03_p158.png"
+ },
+ {
+  "page": "p01",
+  "quality": "high",
+  "size": "2160x3840",
+  "cost": 0.128,
+  "style_ref": "v01_p112.png"
  }
 ]
