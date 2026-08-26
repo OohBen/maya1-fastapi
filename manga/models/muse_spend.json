@@ -1,5 +1,5 @@
 {
- "images": 56,
+ "images": 66,
  "runs": [
   {
    "tag": "style_B_search",
@@ -223,6 +223,46 @@
   },
   {
    "tag": "ch08p12_retry2",
+   "n": 1
+  },
+  {
+   "tag": "ch05p04_final",
+   "n": 1
+  },
+  {
+   "tag": "ch05p06_final",
+   "n": 1
+  },
+  {
+   "tag": "ch05p05_final",
+   "n": 1
+  },
+  {
+   "tag": "ch05p09_final",
+   "n": 1
+  },
+  {
+   "tag": "ch05p10_final",
+   "n": 1
+  },
+  {
+   "tag": "ch05p02_final",
+   "n": 1
+  },
+  {
+   "tag": "ch05p01_final",
+   "n": 1
+  },
+  {
+   "tag": "ch05p07_final",
+   "n": 1
+  },
+  {
+   "tag": "ch05p08_final",
+   "n": 1
+  },
+  {
+   "tag": "ch05p03_final",
    "n": 1
   }
  ]
