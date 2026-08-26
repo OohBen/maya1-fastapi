@@ -21,7 +21,7 @@ sys.path.insert(0, str(HERE.parent))
 sys.path.insert(0, str(HERE))
 from runner import run  # noqa: E402
 from prompts import CAP, FILL, JIR, KAK, MAN, N13, OFF, ONLY, R, SAGE, SAY, ZET  # noqa: E402
-from prompts_v4 import (GUNBAI_V4, KIRI_REBELS, MEI_V4, N16_ARMOR, N16_BLACK,   # noqa: E402
+from prompts_v4 import (EYE_3TOMOE, GUNBAI_V4, KIRI_REBELS, MEI_V4, N16_ARMOR, N16_BLACK,   # noqa: E402
                         N16_SWORD, SASUKE16, YUGAO_V4, MEI_V4_SPEAKER,
                         N16_SPEAKER, SASUKE16_SPEAKER, YUGAO_V4_SPEAKER)
 
@@ -283,7 +283,7 @@ PAGES = [
     "completely OUT OF FRAME behind their heads. The distance across the chapter only ever "
     "closes: page 5 ended one inch apart, this panel is a breath apart, and page 7 is contact. "
     "Never re-open the gap. ",
-  R("naruto_v4_armor_sword", "mei_v4", "env_kiri_mist_gate"),
+  R("naruto_v4_armor_sword", "mei_v4", "env_kiri_mist_gate", "eye_3tomoe"),
   "low"),
 
  # ---- Spread 4: one moment, then departure -------------------------------------------

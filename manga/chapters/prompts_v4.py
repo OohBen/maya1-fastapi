@@ -140,6 +140,13 @@ KIRI_REBELS = ("Image {i} is the CROWD REFERENCE for unnamed Kiri rebels and sco
                 "blue-grey mist-shinobi clothing with deliberately varied builds, hair, face wraps, "
                 "and vests. They remain anonymous and must not resemble named characters. Reproduce "
                 "the visual vocabulary, not the sheet arrangement. ")
+EYE_3TOMOE = ("Image {i} is the DETAIL REFERENCE for the ORDINARY ACTIVE THREE-TOMOE SHARINGAN: "
+              "a blood-red iris with a black pupil and EXACTLY THREE black comma-shaped tomoe "
+              "spaced evenly around it. Wherever this page says a character's eye holds the "
+              "ordinary active Sharingan, draw exactly this design, at every scale including small "
+              "and distant faces. It is never blue, never grey, and never a plain red disc without "
+              "tomoe. Use it only for the ordinary Sharingan, never for the Mangekyo. ")
+
 MANGEKYO_EYE = ("Image {i} is the DETAIL REFERENCE for Naruto's active eye pattern: a blood-red iris "
                  "with one black centre ring and exactly six broad black blades radiating outward. "
                  "This same canonical six-bladed design represents both his Mangekyo and its Eternal "
@@ -180,6 +187,7 @@ V4_REF_BINDINGS = {
     "water_clone_dragon": WATER_TECHNIQUES,
     "kiri_rebel_mob": KIRI_REBELS,
     "mangekyo_design": MANGEKYO_EYE,
+    "eye_3tomoe": EYE_3TOMOE,
     "env_konoha_outskirts": ENV,
     "env_konoha_after_invasion": ENV,
     "env_konoha_council_chamber": ENV,
