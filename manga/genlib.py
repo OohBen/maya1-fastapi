@@ -46,6 +46,38 @@ except Exception:                       # no .env / no key — fine, nothing use
 #   Current string = the Volume 4 baseline PLUS only the corrections that move it toward printed
 #   colour manga without abandoning cel colouring: cream paper, screentone, simpler faces,
 #   sparser backgrounds, matte finish. Work UP from here in small steps; do not swing again.
+# ---------------------------------------------------------------- STYLE TARGET (not yet active)
+# Owner's brief, verbatim: "basically manga but the style is like if you took screenshots from the
+# most important anime frames". That is a different target from the current STYLE, which asks for
+# a PRINTED manga finish — paper tone, screentone, halftone dots, ink texture. This asks instead
+# for anime PRODUCTION finish inside manga page architecture: each panel rendered like a key frame
+# from the best-animated moment of an episode, arranged as a right-to-left manga page.
+#
+# UNTESTED. It was written after the Replicate budget ran out, so no page has been generated with
+# it. To try it: set STYLE = STYLE_ANIME_KEYFRAME below and render two or three pages BEFORE
+# committing to a volume-wide re-render.
+STYLE_ANIME_KEYFRAME = (
+    "Premium ANIME KEY-FRAME artwork arranged as a manga page. Each panel should look like a "
+    "screenshot of the single most important, best-animated frame of a scene — a sakuga key frame "
+    "from a high-budget anime adaptation — not like a printed comic page. "
+    "CEL FINISH: clean animation-cel colouring with crisp hard-edged shadow shapes, confident "
+    "even black linework of animation weight, and the clarity of a finished production frame. No "
+    "screentone dots, no halftone, no newsprint or paper texture, no ink-wash — those belong to "
+    "printed manga and are wrong here. "
+    "BACKGROUNDS ARE PAINTED ART: every panel's background is a fully painted anime background "
+    "plate with real depth, atmospheric perspective and its own light, of the quality a studio "
+    "would paint for a key scene. Never pale line-sketch, never uncoloured, never flat filler. "
+    "LIGHTING IS CINEMATIC: each panel has a deliberate light source and a deliberate mood — rim "
+    "light, backlight, warm low sun, cold overcast, lamp glow. Characters and background share "
+    "that same light. This is the main thing that makes a frame read as a key moment. "
+    "COMPOSITION: stage each panel as a held cinematic shot — considered camera height, real "
+    "depth between foreground and background, characters placed for the frame rather than lined "
+    "up. Faces stay on-model in the adaptation's design. "
+    "THE PAGE ITSELF IS STILL MANGA: right-to-left panel grid with thin gutters, speech balloons "
+    "and SFX drawn on top of the art. Manga architecture, anime rendering. "
+    "Avoid photorealism, 3D or CGI, oil-paint and watermarks."
+)
+
 STYLE = (
     # STYLE HISTORY — do not swing this wholesale again; each revision was a reader response.
     # V4 baseline was approved as "decent". A full watercolour swing was rejected outright.

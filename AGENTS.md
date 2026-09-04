@@ -158,6 +158,30 @@ Every one of these came from an observed failure. `manga/PIPELINE.md` has the fu
 
 ---
 
+## 4b. The style target
+
+The owner's brief, in his words: **"basically manga but the style is like if you took screenshots
+from the most important anime frames."**
+
+That is anime PRODUCTION finish inside manga page architecture — each panel like a sakuga key frame
+from a high-budget adaptation, laid out as a right-to-left manga page with balloons and SFX over
+the top. It is NOT a printed-manga finish: no screentone, no halftone dots, no paper texture.
+Cinematic lighting per panel and fully painted background plates are what make a frame read as a
+key moment, and they are the parts to get right first.
+
+`genlib.STYLE_ANIME_KEYFRAME` is written and ready but **untested and not active** — it was written
+after the render budget ran out. Try it on two or three pages before any volume-wide re-render.
+
+Style history, so nobody re-swings a decision already made:
+- V4 baseline: approved as "decent".
+- A full watercolour swing: **rejected outright**.
+- V5.2 (current, active): fixed "it looks more like a colour book than a manga" by forcing every
+  panel to be finished to the same level. This worked — unfinished backgrounds went from 8 pages in
+  10 to zero.
+- V5.3 target: the anime key-frame brief above.
+
+---
+
 ## 5. Adaptation principles
 
 - **The fanfiction is story truth, not a manga script.** Preserve its plot, character state,
